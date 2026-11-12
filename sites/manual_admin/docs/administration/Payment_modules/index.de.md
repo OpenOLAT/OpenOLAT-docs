@@ -1,6 +1,6 @@
 # Bezahlungsmodule: Übersicht {: #payment}
 
-![Menü Bezahlungsmodule mit den Einträgen Rechnung und PayPal in der Administration](assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![Menü Bezahlungsmodule mit den Einträgen Rechnung und PayPal in der Administration](../assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguriert werden:
 
@@ -11,7 +11,7 @@ Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguri
 
 Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
 
-[Zu den Details >](Payment_Invoice.de.md)<br>
+[Zu den Details >](../Payment_Invoice.de.md)<br>
 [Zum Seitenanfang ^](#payment)
 
 ---
@@ -20,7 +20,7 @@ Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
 
 Im Bereich "PayPal" wird PayPal aktiviert. Konfigurieren Sie die PayPal API-Berechtigung für den PayPal Zugang mit den Elementen Client ID und Client Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Änderungen an Bestellungen von Ihrem PayPal Konto.
 
-[Zu den Details >](Payment_PayPal.de.md)<br>
+[Zu den Details >](../Payment_PayPal.de.md)<br>
 [Zum Seitenanfang ^](#payment)
 
 ---
@@ -30,6 +30,6 @@ Im Bereich "PayPal" wird PayPal aktiviert. Konfigurieren Sie die PayPal API-Bere
 
 Auf der Übersichtsseite der Bezahlungsmodule machen Sie Angaben, die alle Zahlungsarten betreffen. Insbesondere sind dies Angaben zur Mehrwertsteuer.
 
-![Einstellungen zur Mehrwertsteuer auf der Übersichtsseite der Bezahlungsmodule](assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox" }
+![Schalter Mehrwertsteuer, Option Inklusiv oder Exclusive, Mehrwertsteuer-Identifikationsnummer und Mehrwertsteuersatz in Prozent](../assets/admin_payment_overview_vat_v1_de.png){ class="shadow lightbox" title="Seite Bezahlungsmodule in der System-Administration" }
 
 [Zum Seitenanfang ^](#payment)

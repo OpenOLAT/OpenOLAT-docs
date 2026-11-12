@@ -125,7 +125,7 @@ In the "Media server" tab, you define from which platforms people may embed vide
 [Customizing: Overview >](Customizing.md)
 
 **Further reading**<br>
-[Login: Overview >](Login.md)<br>
+[Login: Overview >](Login/index.md)<br>
 [Module Video >](Modules_Video.md)<br>
 [Module External page >](Modules_External_Page.md)
 

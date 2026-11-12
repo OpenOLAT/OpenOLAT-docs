@@ -21,7 +21,7 @@ Es kann direkt im Suchfeld mit Namenseingabe nach einem vorhandenen Video bzw. e
 
 ## Weiterführende Informationen {: #further_information}
 
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Kursbaustein "Video Livestream" >](Course_Element_Video_Livestream.de.md)
 
 [Zum Seitenanfang ^](#opencast)

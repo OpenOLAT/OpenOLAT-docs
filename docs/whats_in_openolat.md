@@ -212,7 +212,7 @@ What OpenOlat connects to, and what the AI takes off your hands.
 
 <div class="grid cards" markdown>
 
--   __[Integrations and standards](manual_admin/administration/External_Tools_-_Administration.md)__
+-   __[Integrations and standards](manual_admin/administration/External_Tools_-_Administration/index.md)__
     {: data-oo-cluster="integrations_and_ai" data-oo-domain="integrations" }
 
     ---

@@ -142,7 +142,7 @@ Die Anzahl Tage, nach denen alle Konten ein neues Passwort setzen müssen. Ein l
 **Weiterführend**<br>
 [One Time Code >](../../manual_user/login_registration/One_Time_Code.de.md)<br>
 [Passkey >](../../manual_user/login_registration/Passkey.de.md)<br>
-[Login: Übersicht >](Login.de.md)<br>
+[Login: Übersicht >](Login/index.de.md)<br>
 [E-Mail Einstellungen >](E-Mail_Settings.de.md)
 
 [Zum Seitenanfang ^](#password_and_authentication)

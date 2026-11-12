@@ -88,7 +88,7 @@ Für einen Teil dieser Angaben lassen sich in der System-Administration Einschr�
 Dort wird festgelegt, welche Systemrollen die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert.
 
 Wenden Sie sich bei Fragen an Ihre Systemadministrator:innen.<br>
-Informationen finden Sie hier: [Modul Datenschutz (Administration) >](../../manual_admin/administration/Modules.de.md#data_privacy)
+Informationen finden Sie hier: [Modul Datenschutz (Administration) >](../../manual_admin/administration/Modules/index.de.md#data_privacy)
 
 [Zum Seitenanfang ^](#legal_consents)
 
@@ -176,7 +176,7 @@ Seitens OpenOlat werden alle externen Tools in der System-Administration konfigu
 
 ## Abklärung 9: Verbundene Lernplattformen {: #LTI}
 
-Es ist mit OpenOlat möglich, dass Kurse aufgerufen werden, die technisch auf einer anderen Plattform laufen (anderes OpenOlat oder sonstiges LMS). Die Technik dazu liefert die [LTI-Verbindung](../../manual_admin/administration/LTI_Integrations.de.md). Es handelt sich also um etwas Ähnliches, wie eine externe Seite. Allerdings nicht nur eine Einzelseite, sondern ganze Kurse, die aussehen, als wären sie Bestandteil des eigenen LMS.
+Es ist mit OpenOlat möglich, dass Kurse aufgerufen werden, die technisch auf einer anderen Plattform laufen (anderes OpenOlat oder sonstiges LMS). Die Technik dazu liefert die [LTI-Verbindung](../../manual_admin/administration/LTI_Integrations/index.de.md). Es handelt sich also um etwas Ähnliches, wie eine externe Seite. Allerdings nicht nur eine Einzelseite, sondern ganze Kurse, die aussehen, als wären sie Bestandteil des eigenen LMS.
 
 Zwischen den verbundenen Plattformen werden, mit strengen Sicherheitsvorkehrungen, auch Daten ausgetauscht. Evtl. müsste auch abgeklärt werden, ob bei besonders sensiblen Daten zusätzliche Informationen und Einwilligungen der Teilnehmer:innen erforderlich sind.
 
@@ -211,8 +211,8 @@ Zwischen den verbundenen Plattformen werden, mit strengen Sicherheitsvorkehrunge
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
-[Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
-[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)
+[Module: Übersicht >](../../manual_admin/administration/Modules/index.de.md)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations/index.de.md)
 
 **Weiterführend**<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>

@@ -66,6 +66,6 @@ Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so an
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "GoToMeeting" >](Course_Element_GoToMeeting.de.md)<br>
 [Virtuelle Klassenzimmer >](../basic_concepts/Virtual_classrooms.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)
 
 [Zum Seitenanfang ^](#adobe_connect)

@@ -73,7 +73,7 @@ stations:
       de: System
       en: System
     further:
-      - manual_admin/docs/administration/Core_functions
+      - manual_admin/docs/administration/Core_functions/index
       - manual_admin/docs/administration/Customizing
       - manual_admin/docs/administration/Landing_pages
       - reference_glossary/docs/glossary
@@ -105,7 +105,7 @@ stations:
         kids: [roles.role_guest]
       - key: platform.one_time_code
     read:
-      path: manual_admin/docs/administration/Login
+      path: manual_admin/docs/administration/Login/index
       de: Login
       en: Login
     further:
@@ -180,7 +180,7 @@ stations:
       - key: attendance.rooms_module
       - key: curriculum.course_planner
     read:
-      path: manual_admin/docs/administration/Modules
+      path: manual_admin/docs/administration/Modules/index
       de: "Module: Übersicht"
       en: "Modules: overview"
     further:
@@ -217,16 +217,16 @@ stations:
       - key: integrations.lti
       - key: integrations.rest_api
     read:
-      path: manual_admin/docs/administration/External_Tools_-_Administration
+      path: manual_admin/docs/administration/External_Tools_-_Administration/index
       de: "Externe Werkzeuge: Übersicht"
       en: "External tools: overview"
     further:
-      - manual_admin/docs/administration/e-Assessment_Administration
+      - manual_admin/docs/administration/e-Assessment_Administration/index
       - manual_admin/docs/administration/e-Assessment_AssessmentMgmt
       - manual_admin/docs/administration/External_Tools_AI
-      - manual_admin/docs/administration/LTI_Integrations
+      - manual_admin/docs/administration/LTI_Integrations/index
       - manual_admin/docs/administration/REST_API
-      - manual_admin/docs/administration/Life_cycles_-_Administration
+      - manual_admin/docs/administration/Life_cycles_-_Administration/index
       - manual_admin/docs/administration/Reports
       - reference_glossary/docs/glossary
 

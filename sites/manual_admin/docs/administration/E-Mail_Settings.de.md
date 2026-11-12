@@ -76,7 +76,7 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
   * [Zertifikatsprogramm](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_messages): Vorlagen der vorbereiteten Benachrichtigungen und der Erinnerungen zur Rezertifizierung, im Tab "Meldungen" anpassbar.
   * [Mitgliederverwaltung](../../manual_user/learningresources/Members_management.de.md#add_members): Im letzten Schritt des Assistenten "Mitglieder hinzufügen" formulieren Sie die E-Mail an die neuen Mitglieder, ebenfalls mit Variablen.
   * [e-Assessment Administration: Test](e-Assessment_Test.de.md#tab_correction-workflow): systemweit vorformulierte Texte für die E-Mails an die Beteiligten des Korrektur-Workflows, in mehreren Sprachen.
-  * [Lebenszyklen: Konto](Life_cycles_-_Administration.de.md#lifecycle_accounts): Benachrichtigungen vor und nach Kontoablauf, Deaktivierung und Löschung, je Schritt einzeln formulierbar.
+  * [Lebenszyklen: Konto](Life_cycles_-_Administration/index.de.md#lifecycle_accounts): Benachrichtigungen vor und nach Kontoablauf, Deaktivierung und Löschung, je Schritt einzeln formulierbar.
   * [Automatischer Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md): Benachrichtigungen vor und nach der Inaktivierung sowie vor und nach der Löschung einer Gruppe.
 
 ### Texte der System-E-Mail-Vorlagen {: #system_mails}
@@ -137,7 +137,7 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
 [e-Assessment Administration: Test >](e-Assessment_Test.de.md)<br>
-[Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](Life_cycles_-_Administration/index.de.md)<br>
 [Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
 [Wie verwende ich das Sprachanpassungswerkzeug? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md)<br>
 [Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile/index.de.md)<br>

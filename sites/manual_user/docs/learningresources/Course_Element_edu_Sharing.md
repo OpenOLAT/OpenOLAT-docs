@@ -25,7 +25,7 @@ You can find further information on the website of [edu-sharing](https://edu-sha
 ## Further information {: #further_information}
 
 [edu-sharing >](https://edu-sharing.com/)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#edusharing)

@@ -26,7 +26,7 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration treffen Gruppenbet
 
 !!! info "Virtuelle Klassenräume"
 
-    Je nach Konfiguration durch die [Systemadministrator:innen](../../manual_admin/administration/External_Tools_-_Administration.de.md) stehen unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton oder Microsoft Teams als Gruppenwerkzeug zur Verfügung.
+    Je nach Konfiguration durch die [Systemadministrator:innen](../../manual_admin/administration/External_Tools_-_Administration/index.de.md) stehen unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton oder Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 
 
 
@@ -51,7 +51,7 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration treffen Gruppenbet
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Kursbaustein "BigBlueButton" >](../learningresources/bigbluebutton/index.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Kursbaustein "Mitteilungen" >](../learningresources/Course_Element_Notifications.de.md)<br>
 [Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)
 

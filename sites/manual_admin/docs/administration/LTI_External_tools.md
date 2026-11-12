@@ -59,7 +59,7 @@ The "With shared deployment" option determines how the external tool is embedded
 
 You set the option "With shared deployment" when you create the tool. You cannot change it afterwards.
 
-If an "LTI page" course element with a local deployment is copied, the original and the copy then share a common deployment. This also applies when the whole course is copied or the course element is imported into another course. Both then send the same deployment ID to the tool. If the tool is another OpenOlat, it accepts the same deployment ID for several courses: [Does one deployment ID apply to several courses?](LTI_Integrations.md#deployments) [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
+If an "LTI page" course element with a local deployment is copied, the original and the copy then share a common deployment. This also applies when the whole course is copied or the course element is imported into another course. Both then send the same deployment ID to the tool. If the tool is another OpenOlat, it accepts the same deployment ID for several courses: [Does one deployment ID apply to several courses?](LTI_Integrations/index.md#deployments) [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 ## Further information {: #further_information}
 
@@ -67,7 +67,7 @@ If an "LTI page" course element with a local deployment is copied, the original 
 [Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
 [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>
-[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)
+[LTI 1.3 Integrations >](../administration/LTI_Integrations/index.md)
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>

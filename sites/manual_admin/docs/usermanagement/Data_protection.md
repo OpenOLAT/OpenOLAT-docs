@@ -28,7 +28,7 @@ The automatic user lifecycle is the instrument for deletion within a defined per
 
 Deactivation only blocks the login. The account is retained with all its data and can be reactivated. Only deletion anonymises the account and removes data. Depending on the configuration, the last step runs automatically or is triggered manually only.
 
-[Details on the automatic user lifecycle >](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+[Details on the automatic user lifecycle >](../administration/Life_cycles_-_Administration/index.md#lifecycle_accounts)
 
 [To the top of the page ^](#data_protection)
 
@@ -140,7 +140,7 @@ Email addresses of other users are only visible in OpenOlat for administrative u
 [User management >](index.md)<br>
 [Delete user >](Delete_User.md)<br>
 [REST API >](../administration/REST_API.md)<br>
-[Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles - Overview >](../administration/Life_cycles_-_Administration/index.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
 [Media Center Concept >](../../manual_user/basic_concepts/Media_Center_Concept/index.md)

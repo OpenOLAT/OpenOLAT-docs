@@ -147,7 +147,7 @@ Im Kalender der Toolbar erstellen und bearbeiten Besitzer:innen des Kurses Termi
 Im Kursbaustein "Kalender" regeln Sie die Rechte getrennt davon: Im Kurseditor legen Sie im Tab "Kalender-Konfiguration" unter "Termine bearbeiten" fest, ob dort auch Betreuer:innen und Teilnehmende Termine bearbeiten. Das ist der Weg für einen Kurs ohne Toolbar.<br>
 [Mehr dazu >](../learningresources/Course_Element_Calendar.de.md)
 
-Die Checkbox "Kurskalender" und damit die Option für Betreuer:innen erscheinen, wenn Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) den Kalender und die Checkbox "Kurswerkzeug einschalten" eingeschaltet haben. Verwaltet ein externes System den Kalender des Kurses, lässt sich die Option nicht ändern. Beim Kopieren und beim Import eines Kurses übernimmt OpenOlat die Einstellung.
+Die Checkbox "Kurskalender" und damit die Option für Betreuer:innen erscheinen, wenn Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions/index.de.md#calendar_administration) den Kalender und die Checkbox "Kurswerkzeug einschalten" eingeschaltet haben. Verwaltet ein externes System den Kalender des Kurses, lässt sich die Option nicht ändern. Beim Kopieren und beim Import eines Kurses übernimmt OpenOlat die Einstellung.
 
 ---
 
@@ -335,7 +335,7 @@ Das Icon "Termine" erscheint automatisch in der Toolbar, sobald das Termin- und 
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kursbaustein "Video Livestream" >](Course_Element_Video_Livestream.de.md)<br>
-[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions/index.de.md)<br>
 [Kursbaustein "Liste der Teilnehmer:innen" >](Course_Element_Participant_List.de.md)<br>
 [Kursbaustein "Mitteilungen" >](Course_Element_Notifications.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](../personal_menu/E-Mail.de.md)<br>

@@ -145,7 +145,7 @@ With frentix: we show it in a training. For a training, contact your organisatio
 
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
-- **Course:** [Publication](../learningresources/Using_additional_Course_Editor_Tools.md), [Course life cycle](../../manual_admin/administration/Life_cycles_-_Administration.md) (in the interface: **Automatic Life-cycle management**), [Course archive](../learningresources/Course_Archiving/index.md), [Info page](../learningresources/Info_page.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
+- **Course:** [Publication](../learningresources/Using_additional_Course_Editor_Tools.md), [Course life cycle](../../manual_admin/administration/Life_cycles_-_Administration/index.md) (in the interface: **Automatic Life-cycle management**), [Course archive](../learningresources/Course_Archiving/index.md), [Info page](../learningresources/Info_page.md) and more. All settings are on the page [Various Types of Learning Resources](../learningresources/index.md).
 - **Course status:** [Trash](../learningresources/Access_configuration.md), [Access for coach](../learningresources/Access_configuration.md).
 
 ## Further information {: #further_information}
@@ -158,7 +158,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course editor tools >](../learningresources/Using_additional_Course_Editor_Tools.md)<br>
-[Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
+[Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration/index.md)<br>
 [Course administration - Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [Toolbar: Info page >](../learningresources/Info_page.md)
 

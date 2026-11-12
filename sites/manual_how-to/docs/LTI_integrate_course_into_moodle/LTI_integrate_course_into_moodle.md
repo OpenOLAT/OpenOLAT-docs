@@ -14,7 +14,7 @@
 
 ??? abstract "Expected previous knowledge"
 
-    * Administration manual: [LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)
+    * Administration manual: [LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)
     * Administration manual: [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)
     * User manual: [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)
 
@@ -180,7 +180,7 @@ In the OpenOlat course, you can verify the test call in the members management: 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)<br>
 [LTI - External Platforms >](../../manual_admin/administration/LTI_External_platforms.md)<br>
 [Configure LTI access to a course >](../../manual_user/learningresources/LTI_Share_courses.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)

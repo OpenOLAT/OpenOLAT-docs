@@ -54,7 +54,7 @@ Trägt das Konto ein Ablaufdatum, zeigt der Reiter es unter "Kontoablauf" an. Ei
 
 Der Reiter "Konto" zeigt den Zustand eines Kontos und den Punkt, an dem es im automatischen Kontolebenszyklus steht. Hier beurteilen Sie, ob und wann OpenOlat ein Konto automatisch deaktiviert oder löscht, und hier setzen Sie es manuell auf inaktiv.
 
-Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Principals sehen das Feld "Status" nicht. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des automatischen Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts).
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Principals sehen das Feld "Status" nicht. Welche Felder er zeigt, hängt von der Rolle des bearbeiteten Kontos und von den Schaltern des automatischen Kontolebenszyklus ab, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts).
 
 #### Kontotyp {: #account_type }
 
@@ -90,7 +90,7 @@ Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "
 
 #### Automatischer Kontolebenszyklus {: #automatic_user_lifecycle }
 
-Dieser Abschnitt zeigt, wie der systemweite automatische Kontolebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation). Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
+Dieser Abschnitt zeigt, wie der systemweite automatische Kontolebenszyklus auf dieses Konto wirkt. Er entfällt bei Gastkonten. OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration/index.de.md#account_reactivation). Welche Angaben erscheinen, hängt vom Zustand des Kontos ab:
 
 | Zustand | Anzeige | Bedeutung |
 |---------|---------|-----------|
@@ -305,7 +305,7 @@ Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverw
 ### Beziehungen [:octicons-tag-16:{ title="ab Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 Soll eine vorgesetzte Person, ein Elternteil oder eine ausbildungsverantwortliche Person Rechte gegenüber einer anderen Person erhalten, legen Sie im Reiter "Beziehungen" diese Beziehung zwischen den beiden Konten fest. Voraussetzung ist, dass in der System-Administration Rollen für Person zu Person definiert sind. Diese Rollen erteilen den verbundenen Personen die Rechte, die dort festgelegt sind. Sie finden die Rollen unter:<br>
-`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user). Einen Überblick über die Rollen gibt [Benutzerrollen](index.de.md).
+`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules/index.de.md#role_user_to_user). Einen Überblick über die Rollen gibt [Benutzerrollen](index.de.md).
 
 Den Reiter zeigt OpenOlat nur, wenn Rollen für Person zu Person eingeschaltet sind. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Beziehungen festlegen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
@@ -383,11 +383,11 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Profil >](../../manual_user/personal_menu/Profile/index.de.md)<br>
 [Modul Organisationen >](../administration/Modules_Organisations.de.md)<br>
 [Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Passwort und Authentifizierung >](../administration/Login_Password_and_Authentication.de.md)<br>
-[Module: Übersicht >](../administration/Modules.de.md)<br>
+[Module: Übersicht >](../administration/Modules/index.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>

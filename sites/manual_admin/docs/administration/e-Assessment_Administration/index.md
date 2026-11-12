@@ -1,6 +1,6 @@
 # e-Assessment Administration: Overview {: #e-assessments}
 
-![Nine entries in the e-Assessment menu of the system administration, from Coaching to ePortfolio, each with its own section on this page](assets/admin_e-assessment_overview_v2_en.png){ width="204" class="shadow lightbox aside-left-lg" }
+![Nine entries in the e-Assessment menu of the system administration, from Coaching to ePortfolio, each with its own section on this page](../assets/admin_e-assessment_overview_v2_en.png){ width="204" class="shadow lightbox aside-left-lg" }
 
 In the e-Assessment menu of the system administration, system administrators set up the tools for assessment and exams for the whole instance. Each section of this page belongs to an entry of the menu and leads to its detail page.
 
@@ -9,7 +9,7 @@ In the e-Assessment menu of the system administration, system administrators set
 
 Under "Coaching", system administrators see that coaching is switched on for the instance. The checkbox "Coaching enabled" is greyed out, because coaches and owners reach their learning resources through coaching. [:octicons-tag-16:{ title="from Release 21.0.1 (OO-9661)" }](https://track.frentix.com/issue/OO-9661)
 
-[See the details >](../../manual_user/area_modules/Coaching/index.md#availability)<br>
+[See the details >](../../../manual_user/area_modules/Coaching/index.md#availability)<br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -17,7 +17,7 @@ Under "Coaching", system administrators see that coaching is switched on for the
 
 Here you set the basic settings of the question bank for the whole instance.
 
-[See the details >](../administration/eAssessment_Question_bank.md)<br>
+[See the details >](../../administration/eAssessment_Question_bank.md)<br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -25,7 +25,7 @@ Here you set the basic settings of the question bank for the whole instance.
 
 This is where the test receipt is configured and settings for the correction flow of tests are defined. You can use the correction workflow to generate personal correction orders and assign them to defined correctors. Correction via the assessment tool in the course is then no longer possible.
 
-[See the details >](../administration/e-Assessment_Test.md) <br>
+[See the details >](../../administration/e-Assessment_Test.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -33,7 +33,7 @@ This is where the test receipt is configured and settings for the correction flo
 
 In addition to the assessment with points, the module "Levels/Grading" can be switched on. There, system administrators add and configure rating systems and set the default rating system that is preselected in new rating scales. [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9596)" }](https://track.frentix.com/issue/OO-9596)
 
-[See the details >](../administration/Assessment_translate_points_in_grades_admin.md) <br>
+[See the details >](../../administration/Assessment_translate_points_in_grades_admin.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -41,7 +41,7 @@ In addition to the assessment with points, the module "Levels/Grading" can be sw
 
 Here, system administrators can enable exam mode and exam viewing for the OpenOlat instance and search for exams. They can also add and manage configuration templates for the Safe Exam Browser.
 
-[See the details >](../administration/e-Assessment_AssessmentMgmt.md)<br>
+[See the details >](../../administration/e-Assessment_AssessmentMgmt.md)<br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -53,7 +53,7 @@ The upload of external certificates can also be enabled here.
 
 In addition, this function is also available for user administrators, line managers in the same organization or for responsible persons with a relation role and can be configured separately in each case.
 
-[See the details >](../administration/e-Assessment_Certificates.md) <br>
+[See the details >](../../administration/e-Assessment_Certificates.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -61,7 +61,7 @@ In addition, this function is also available for user administrators, line manag
 
 Here, system administrators switch on badges. They also create and manage the global badges here.
 
-[See the details >](../administration/e-Assessment_openBadges.md)<br>
+[See the details >](../../administration/e-Assessment_openBadges.md)<br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -69,7 +69,7 @@ Here, system administrators switch on badges. They also create and manage the gl
 
 When credit points are switched on here, course owners award credit points to their participants for successfully completing a course.
 
-[See the details >](../administration/e-Assessment_Credit_Points.md)<br>
+[See the details >](../../administration/e-Assessment_Credit_Points.md)<br>
 [To the top of the page ^](#e-assessments)
 
 
@@ -77,7 +77,7 @@ When credit points are switched on here, course owners award credit points to th
 
 The ePortfolio can be switched on or off by system administrators. If it is activated, various settings can be defined for the usage options.
 
-[See the details >](eAssessment_ePortfolio.md)<br>
+[See the details >](../eAssessment_ePortfolio.md)<br>
 [To the top of the page ^](#e-assessments)
 
 ---
@@ -85,7 +85,7 @@ The ePortfolio can be switched on or off by system administrators. If it is acti
 
 ## Further information {: #further_information}
 
-[As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
-[Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)
+[As a system administrator, how do I set up the Safe Exam Browser (SEB) system-wide? >](../../../manual_how-to/SEB_Admin/SEB_Admin.md)<br>
+[Assessment Management: Overview >](../../../manual_user/learningresources/Assessment_Management/index.md)
 
 [To the top of the page ^](#e-assessments)

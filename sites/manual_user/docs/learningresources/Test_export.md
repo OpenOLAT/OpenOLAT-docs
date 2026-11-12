@@ -135,7 +135,7 @@ If you have selected individual participants in the list, the export only covers
 On the page "Export results", the row "Number of participants" shows how many persons the export covers. There you give the zip file a name and choose the variant for its contents under "Export":
 
 * **"Standard"**: The zip file contains the detailed test results for each participant as an HTML document and an Excel file with the raw data.
-* **"Advanced – with PDF"**: The zip file contains the same and additionally a PDF file with the detailed results for each participant. This variant can be selected if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration.
+* **"Advanced – with PDF"**: The zip file contains the same and additionally a PDF file with the detailed results for each participant. This variant can be selected if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) is enabled in the system administration.
 
 OpenOlat suggests a name with variant and date, for example "Test results with PDF - all participants (10/1/2026)".
 
@@ -218,7 +218,7 @@ If the test does not belong to a course, for example in the test statistics of a
 [Test: Export handwritten exams >](Test_handwritten_exams.md)<br>
 [Creating Tests >](Test/index.md)<br>
 [Test statistics >](Statistics_Test.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving/index.md)<br>
 [Evaluate and manage tests >](../learningresources/Course_Element_Test/Test_Results.md)

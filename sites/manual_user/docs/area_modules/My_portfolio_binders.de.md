@@ -62,7 +62,7 @@ Wenn Sie eine Mappe öffnen, verwalten Sie sie über die Toolbar über den Tabs:
 * **Mappe löschen**: OpenOlat legt die Mappe in den Papierkorb. Dort holen Sie sie mit "Wiedererstellen" zurück oder löschen sie mit "Mappe löschen" endgültig: `Persönliches Menü > Portfolio 2.0 > Papierkorb öffnen > Mappe`. Eine Mappe aus einer Vorlage dürfen Sie nur löschen, wenn die Vorlage "Benutzer:innen dürfen Mappe löschen" eingeschaltet hat.
 * **Mappe exportieren**: Damit sichern Sie die Mappe oder geben sie ausserhalb von OpenOlat weiter. Das Ausklappmenü bietet drei Formen:
     * "Mappe als CP exportieren" lädt die Mappe als CP (Content Package) herunter.
-    * "Mappe als PDF exportieren" lädt die Mappe als PDF-Datei herunter. Die Option erscheint nur, wenn Ihre Administrator:in den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingerichtet hat.
+    * "Mappe als PDF exportieren" lädt die Mappe als PDF-Datei herunter. Die Option erscheint nur, wenn Ihre Administrator:in den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingerichtet hat.
     * "Mappe in eine Seite" öffnet die ganze Mappe als eine Seite in einem neuen Browserfenster, zum Lesen und Drucken.
 
     ![Ausklappmenü Mappe exportieren mit drei Formen, um die Mappe zu sichern, weiterzugeben oder zu drucken; in dieser Mappe aus einer Vorlage ist der Export die einzige Aktion der Toolbar](assets/my_portfolio_binders_export_menu_v1_de.png){ class="shadow lightbox" title="Ausklappmenü Mappe exportieren in einer Mappe aus einer Vorlage · 2026.10.28" }
@@ -110,7 +110,7 @@ Zwei weitere Tabs erscheinen abhängig von der Mappe und Ihren Rechten:
 [Media Center: Konzept >](../basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Mehrfachverwendung von Einträgen >](Multiple_use_of_entries.de.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Meine Einträge >](My_entries.de.md)<br>
 [Von mir freigegeben >](Shared_by_me.de.md)<br>
 [Portfoliovorlage: Administration und Bearbeitung >](../learningresources/Portfolio_template_Administration_and_editing.de.md)<br>

@@ -79,7 +79,7 @@ Soll der Kursbaustein "LTI-Seite" den externen Inhalt sofort starten, wählen Si
 
 **Weiterführend**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations/index.de.md)<br>
 [LTI - Externe Werkzeuge >](../administration/LTI_External_tools.de.md)<br>
 [LTI - Externe Plattformen >](../administration/LTI_External_platforms.de.md)<br>
 [LTI - Rollen-Mapping >](../administration/LTI_Role_Mapping.de.md)<br>

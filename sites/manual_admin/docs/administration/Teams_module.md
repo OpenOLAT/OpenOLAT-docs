@@ -8,7 +8,7 @@ Microsoft Teams is the web conferencing solution from Microsoft. In courses and 
 You configure the module in the system administration under:<br>
 `Administration > External tools > Microsoft Teams`
 
-The page [External Tools: Overview](External_Tools_-_Administration.md#_microsoft_teams) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md).
+The page [External Tools: Overview](External_Tools_-_Administration/index.md#_microsoft_teams) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md).
 
 ---
 
@@ -101,7 +101,7 @@ With "Month", "Week", "Day" and "Year" you switch the view, "Year" lists the onl
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[External Tools: Overview >](External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
 [BigBlueButton module >](BigBlueButton_module.md)
 

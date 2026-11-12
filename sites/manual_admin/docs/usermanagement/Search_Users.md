@@ -97,7 +97,7 @@ If an OpenOlat instance uses the Course Planner, there are other roles available
 ### Account roles {: #user_roles}
 
 Here you see which accounts are linked through a role user to user, for example who is whose supervisor. Each role and each contra-role has its own entry with the accounts that hold it. The menu entry "Account roles" only appears when "Role user to user" is switched on and at least one role is set up. You set up the roles in the system administration under:<br>
-`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules.md#role_user_to_user)
+`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules/index.md#role_user_to_user)
 
 For example:
 
@@ -209,7 +209,7 @@ Above the result list you find the filter tabs "All", "Active", "Active and not 
 
 Besides the personal data, the result list carries five columns on the lifecycle of an account. They stand in this order and answer the question when OpenOlat deactivates or deletes an account automatically.
 
-OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation).
+OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration/index.md#account_reactivation).
 
 | Column | Meaning |
 |--------|---------|
@@ -220,7 +220,7 @@ OpenOlat deactivates an account that does not log in within the configured perio
 | Days until deletion | Remaining days until the automatic deletion. Only present when the toggle "Delete inactive accounts" is active. |
 
 You set both toggles in the system administration under:<br>
-`Administration > Life cycles > User`, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+`Administration > Life cycles > User`, see [Life cycles: Account](../administration/Life_cycles_-_Administration/index.md#lifecycle_accounts)
 
 All five columns are hidden by default. Show them with the gear symbol above the table on the right.
 
@@ -236,9 +236,9 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 [Delete user >](Delete_User.md)<br>
 [Roles and rights >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
-[Modules >](../administration/Modules.md)<br>
+[Modules >](../administration/Modules/index.md)<br>
 [General information on the search >](../../manual_user/basic_concepts/Search_General/index.md)<br>
-[Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles: Overview >](../administration/Life_cycles_-_Administration/index.md)<br>
 [Manage user settings >](Configure_User.md)
 
 **Further reading**<br>

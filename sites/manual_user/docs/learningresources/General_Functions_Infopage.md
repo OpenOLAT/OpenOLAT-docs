@@ -60,7 +60,7 @@ The table shows what the info page consists of, from top to bottom. The column "
 | Rating | yes | automatic | Rating |
 | Comments | yes | automatic | Comment |
 
-Some elements only appear once system administrators have switched on the corresponding module in the system administration. The button "Download as PDF" requires the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). System administrators switch on rating and comments in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md), licenses under [Licenses](../../manual_admin/administration/Licenses.md), subjects in the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md). Events require the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). System administrators set up credit points in the [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.md).
+Some elements only appear once system administrators have switched on the corresponding module in the system administration. The button "Download as PDF" requires the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator). System administrators switch on rating and comments in the [Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md), licenses under [Licenses](../../manual_admin/administration/Licenses.md), subjects in the [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md). Events require the [Module Events and Absences](../../manual_admin/administration/Modules_Events_and_Absences.md). System administrators set up credit points in the [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.md).
 
 The info page does not show technical details such as the ID, the external link and the responsible persons. They are in the window "About this course", see [About this course: Open the window](../learningresources/Technical_Information_on_Resources_and_Usage.md#open).
 
@@ -191,7 +191,7 @@ The printout leaves out what only makes sense on screen: Set bookmark, Share and
 
 !!! note "Note"
 
-    The button "Download as PDF" only appears if system administrators have set up a PDF service in the system administration, see [External Tools: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator). Without a PDF service, print the info page via the browser.
+    The button "Download as PDF" only appears if system administrators have set up a PDF service in the system administration, see [External Tools: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator). Without a PDF service, print the info page via the browser.
 
 [To the top of the page ^](#general_functions_info)
 
@@ -279,7 +279,7 @@ The details on usage, for example in which courses the learning resource is embe
 
 **Mentioned on this page**<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [Licenses >](../../manual_admin/administration/Licenses.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>

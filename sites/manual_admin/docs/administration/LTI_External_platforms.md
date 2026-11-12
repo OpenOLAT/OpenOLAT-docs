@@ -16,7 +16,7 @@ The list shows the name, the platform issuer and the client ID of each platform.
 
 !!! info "Important"
 
-    If several different OpenOlat courses are used from the same external platform, it is sufficient to configure the external platform only once in the system administration. You set up the LTI share per course in its settings: `Course > Administration > Settings > Tab "Share" > Section "LTI 1.3 access configuration"`. The same applies to groups in the "Share" tab of the group. Who may set it up is described under [Who can add deployments?](LTI_Integrations.md#deployments) If the platform sends the same deployment ID for several courses, each of these courses gets its own LTI share with this deployment ID. [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
+    If several different OpenOlat courses are used from the same external platform, it is sufficient to configure the external platform only once in the system administration. You set up the LTI share per course in its settings: `Course > Administration > Settings > Tab "Share" > Section "LTI 1.3 access configuration"`. The same applies to groups in the "Share" tab of the group. Who may set it up is described under [Who can add deployments?](LTI_Integrations/index.md#deployments) If the platform sends the same deployment ID for several courses, each of these courses gets its own LTI share with this deployment ID. [:octicons-tag-16:{ title="from Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 
 ## Configuration {: #config}
@@ -48,7 +48,7 @@ After completing the form, enter the public key on the external platform in the 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../administration/LTI_Integrations/index.md)<br>
 [How do I integrate an OpenOlat course into Moodle? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)
 
 **Further reading**<br>

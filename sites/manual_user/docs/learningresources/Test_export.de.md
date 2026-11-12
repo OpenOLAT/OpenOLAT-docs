@@ -136,7 +136,7 @@ Haben Sie in der Liste einzelne Teilnehmende ausgewählt, umfasst der Export nur
 Auf der Seite "Export Resultate" zeigt die Zeile "Anzahl Teilnehmer:innen", wie viele Personen der Export umfasst. Dort geben Sie der zip-Datei einen Namen und wählen unter "Export" die Variante für ihren Inhalt:
 
 * **"Standard"**: Die zip-Datei enthält für jede:n Teilnehmer:in die detaillierten Testresultate als HTML-Dokument und eine Excel-Datei mit den Rohdaten.
-* **"Erweitert – mit PDF"**: Die zip-Datei enthält dasselbe und zusätzlich für jede:n Teilnehmer:in eine PDF-Datei mit den detaillierten Resultaten. Diese Variante steht zur Wahl, wenn in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist.
+* **"Erweitert – mit PDF"**: Die zip-Datei enthält dasselbe und zusätzlich für jede:n Teilnehmer:in eine PDF-Datei mit den detaillierten Resultaten. Diese Variante steht zur Wahl, wenn in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingeschaltet ist.
 
 OpenOlat schlägt einen Namen mit Variante und Datum vor, zum Beispiel "Resultate Test mit PDF - alle Teilnehmer:innen (01.10.2026)".
 
@@ -219,7 +219,7 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Test: Handschriftliche Prüfungen generieren >](Test_handwritten_exams.de.md)<br>
 [Tests erstellen >](Test/index.de.md)<br>
 [Teststatistiken >](Statistics_Test.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
 [Kursadministration - Archivierung & Reports >](Course_Archiving/index.de.md)<br>
 [Tests auswerten und verwalten >](../learningresources/Course_Element_Test/Test_Results.de.md)

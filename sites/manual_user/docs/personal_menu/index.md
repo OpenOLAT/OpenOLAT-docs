@@ -71,7 +71,7 @@ Accounts with the role Invitee only see Help, Subscriptions and Password in the 
 
 The sites of the top navigation bar, for example Courses, Groups or Catalog, do not belong to the personal menu. Whether you see a site is decided by the administration: the module must be active, the site must be activated and your role must be permitted. You cannot switch it on yourself. If a site is missing, first check the "More" menu on the right edge of the top navigation bar. The page [Sites and modules](../area_modules/index.md#conditions) describes what decides about a site.
 
-[Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions.md#personal_tools)
+[Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions/index.md#personal_tools)
 
 
 ## Move tools to the menu bar [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}

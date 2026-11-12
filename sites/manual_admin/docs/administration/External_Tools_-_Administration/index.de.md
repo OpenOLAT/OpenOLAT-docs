@@ -17,7 +17,7 @@ Verfügbar seit | Release 10.5 (2016)
 
 BigBlueButton ist eine Software für Online-Konferenzen und virtuelle Klassenzimmer. Damit Webkonferenzen mit BigBlueButton in OpenOlat möglich sind, aktivieren und konfigurieren Sie BigBlueButton in der System-Administration unter `Administration > Externe Werkzeuge > BigBlueButton`.
 
-[Zu den Details >](BigBlueButton_module.de.md)<br>
+[Zu den Details >](../BigBlueButton_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -59,7 +59,7 @@ Aktivieren und konfigurieren können Sie das Werkzeug, wenn die erforderlichen L
 
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
-Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppen entstehen damit Online-Termine, zu denen die Teilnehmenden direkt aus OpenOlat beitreten. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
+Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppen entstehen damit Online-Termine, zu denen die Teilnehmenden direkt aus OpenOlat beitreten. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
 
 **Voraussetzungen für die Aktivierung:**
 
@@ -73,9 +73,9 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppe
 **Konfiguration in der System-Administration** unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
-Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
+Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
 
-[Zu den Details >](Teams_module.de.md)<br>
+[Zu den Details >](../Teams_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -86,7 +86,7 @@ Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von
 
 Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
-[Zu den Details >](SharePoint_OneDrive.de.md)<br>
+[Zu den Details >](../SharePoint_OneDrive.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -96,7 +96,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
 Damit Zoom Meetings in OpenOlat möglich sind, aktivieren und konfigurieren Sie Zoom in der System-Administration unter `Administration > Externe Werkzeuge > Zoom`.
 
-[Zu den Details >](Zoom.de.md)<br>
+[Zu den Details >](../Zoom.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -108,7 +108,7 @@ In der System-Administration aktivieren und konfigurieren Sie LTI 1.3 unter:<br>
 
 So können z.B. externe LTI Plattformen und Werkzeuge verbunden werden.
 
-[Zu den Details >](LTI_Integrations.de.md)<br>
+[Zu den Details >](../LTI_Integrations/index.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -175,7 +175,7 @@ Wird ein Hub nicht mehr angeboten, etwa nach Semesterende, deaktivieren Sie ihn,
 
 Die Liste "Hub-Konfigurationen" finden Sie in der System-Administration unter `Administration > Externe Werkzeuge > JupyterHub`. Sie zeigt jeden Hub mit Status, Client ID, CPU und RAM. Die Liste öffnet im Tab "Aktiv"; der Tab "Alle" zeigt auch die inaktiven Hubs, und der Filter "Status" schränkt die Liste auf aktive oder inaktive Hubs ein [:octicons-tag-16:{ title="ab Release 21.0 (OO-9565)" }](https://track.frentix.com/issue/OO-9565){:target="_blank"}. Die Spalte "Anwendungen / Teilnehmer:innen" zählt die Kursbausteine, die den Hub verwenden. Ein Klick auf die Zahl listet sie mit Kurs und Zahl der Teilnehmenden auf.
 
-![Liste der Hub-Konfigurationen mit den Tabs Alle und Aktiv; im Menü Weitere Aktionen eines aktiven Hubs steht Deaktivieren](assets/admin_external_tools_jupyterhub_hub_list_v1_de.png){ class="shadow lightbox" title="Liste Hub-Konfigurationen in der System-Administration · 2026.10.20" }
+![Liste der Hub-Konfigurationen mit den Tabs Alle und Aktiv; im Menü Weitere Aktionen eines aktiven Hubs steht Deaktivieren](../assets/admin_external_tools_jupyterhub_hub_list_v1_de.png){ class="shadow lightbox" title="Liste Hub-Konfigurationen in der System-Administration · 2026.10.20" }
 
 Das Menü "Weitere Aktionen" (Symbol mit drei Punkten) am Ende jeder Zeile bietet diese Aktionen:
 
@@ -186,7 +186,7 @@ Das Menü "Weitere Aktionen" (Symbol mit drei Punkten) am Ende jeder Zeile biete
 * **Löschen**: Ist nur möglich, solange kein Kursbaustein den Hub verwendet. Sonst meldet OpenOlat "Hub-Konfiguration noch in Verwendung"; deaktivieren Sie den Hub in diesem Fall.
 
 
-[Benutzerhandbuch: Kursbaustein JupyterHub >](../../manual_user/learningresources/Course_Element_JupyterHub.de.md)<br>
+[Benutzerhandbuch: Kursbaustein JupyterHub >](../../../manual_user/learningresources/Course_Element_JupyterHub.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -251,7 +251,7 @@ Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videoma
 
 **LTI-Version:** Die Verbindung zum Mediasite-Server läuft über LTI 1.1 oder LTI 1.3 [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Version bestimmt, welche Angaben Sie eintragen und wie die Kursbesitzer:innen den Inhalt im Kurseditor auswählen. Die Angaben erhalten Sie von der Betreiberin des Mediasite-Servers.
 
-LTI 1.3 setzt voraus, dass das Modul LTI 1.3 in der System-Administration unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](LTI_Integrations.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
+LTI 1.3 setzt voraus, dass das Modul LTI 1.3 in der System-Administration unter `Administration > Externe Werkzeuge > LTI` eingeschaltet ist, siehe [LTI 1.3 Integrationen](../LTI_Integrations/index.de.md). Die Mediasite-Verbindung verwalten Sie ausschliesslich hier; in der Liste der externen Tools auf der Seite LTI erscheint sie nicht.
 
 | | LTI 1.1 | LTI 1.3 |
 |---|---|---|
@@ -261,7 +261,7 @@ LTI 1.3 setzt voraus, dass das Modul LTI 1.3 in der System-Administration unter 
 
 **Zustimmung "Datenübertragung" unterdrücken:** Ist diese Option aktiviert, öffnet sich der Inhalt für Teilnehmende ohne die Seite "Zustimmung Datenübertragung". Kursbesitzer:innen mit einem eigenen Server legen dies im Kursbaustein selbst fest.
 
-Die Konfiguration des Kursbausteins ist im Benutzerhandbuch beschrieben: [Kursbaustein "Mediasite"](../../manual_user/learningresources/Course_Element_Mediasite.de.md)
+Die Konfiguration des Kursbausteins ist im Benutzerhandbuch beschrieben: [Kursbaustein "Mediasite"](../../../manual_user/learningresources/Course_Element_Mediasite.de.md)
 
 [Dokumentation zu Mediasite >](https://mediasite.com/)<br>
 [Zum Seitenanfang ^](#ext_tools)
@@ -335,7 +335,7 @@ In der System-Administration unter `Administration > Externe Werkzeuge > Analyti
 
 In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
 
-[Zu den Details >](External_Tools_AI.de.md)<br>
+[Zu den Details >](../External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -348,7 +348,7 @@ In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modu
 
 Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI-Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
 
-Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](Modules_Taxonomy.de.md#ai_matching).
+Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](../Modules_Taxonomy.de.md#ai_matching).
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -356,7 +356,7 @@ Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration un
 
 ## PDF Generator [:octicons-tag-16:{ title="ab Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
-In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten, [Infoseiten von Lernressourcen und Durchführungen](../../manual_user/learningresources/General_Functions_Infopage.de.md#print) oder ähnliches.
+In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten, [Infoseiten von Lernressourcen und Durchführungen](../../../manual_user/learningresources/General_Functions_Infopage.de.md#print) oder ähnliches.
 Diese Funktionen stehen nur zur Verfügung, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der Schalter "PDF Dienst" eingeschaltet und unter "Generator" ein Dienst konfiguriert ist. Ohne PDF-Dienst fehlt auf der Infoseite die Schaltfläche "Als PDF herunterladen". [:octicons-tag-16:{ title="ab Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"}
 
 
@@ -366,7 +366,7 @@ Gotenberg ist ein PDF Generator, der auf Google Chrome oder Chromium und Docker 
 
 Mehr Informationen zu Gotenberg finden Sie auf [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) und [GitHub](https://github.com/gotenberg/gotenberg).
 
-Wie Sie den PDF-Dienst Gotenberg installieren und konfigurieren, erfahren Sie im [Installationshandbuch](../installation/gotenbergPdf.md).
+Wie Sie den PDF-Dienst Gotenberg installieren und konfigurieren, erfahren Sie im [Installationshandbuch](../../installation/gotenbergPdf.md).
 
 
 ### Athena PDF (veraltet) {: #athena}
@@ -378,7 +378,7 @@ benutzt die Micro-Service-Variante.
 Mehr Informationen zu AthenaPDF finden Sie unter
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
-Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md).
+Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im [Installationshandbuch](../../installation/athenaPdf.md).
 
 [Zum Seitenanfang ^](#ext_tools)
 
@@ -386,33 +386,33 @@ Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Modul BigBlueButton >](BigBlueButton_module.de.md)<br>
-[Kursbaustein "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
-[Modul Microsoft Teams >](Teams_module.de.md)<br>
-[SharePoint / OneDrive >](SharePoint_OneDrive.de.md)<br>
-[Zoom >](Zoom.de.md)<br>
-[LTI 1.3 Integrationen >](LTI_Integrations.de.md)<br>
+[Modul BigBlueButton >](../BigBlueButton_module.de.md)<br>
+[Kursbaustein "Microsoft Teams" >](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Modul Microsoft Teams >](../Teams_module.de.md)<br>
+[SharePoint / OneDrive >](../SharePoint_OneDrive.de.md)<br>
+[Zoom >](../Zoom.de.md)<br>
+[LTI 1.3 Integrationen >](../LTI_Integrations/index.de.md)<br>
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [Website vitero >](https://www.vitero.com/de)<br>
-[Kursbaustein "JupyterHub" >](../../manual_user/learningresources/Course_Element_JupyterHub.de.md)<br>
+[Kursbaustein "JupyterHub" >](../../../manual_user/learningresources/Course_Element_JupyterHub.de.md)<br>
 [Website card2brain >](https://card2brain.ch/de)<br>
 [Website Edubase >](https://www.edubase.ch)<br>
-[Kursbaustein "Mediasite" >](../../manual_user/learningresources/Course_Element_Mediasite.de.md)<br>
+[Kursbaustein "Mediasite" >](../../../manual_user/learningresources/Course_Element_Mediasite.de.md)<br>
 [Dokumentation zu Mediasite >](https://mediasite.com/)<br>
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Website draw.io >](https://www.drawio.com)<br>
-[Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)<br>
-[Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
-[Allgemeine Funktionen: Infoseite >](../../manual_user/learningresources/General_Functions_Infopage.de.md)<br>
+[Externe Werkzeuge: KI-Modul >](../External_Tools_AI.de.md)<br>
+[Modul Taxonomie >](../Modules_Taxonomy.de.md)<br>
+[Allgemeine Funktionen: Infoseite >](../../../manual_user/learningresources/General_Functions_Infopage.de.md)<br>
 [Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>
 [GitHub: Gotenberg >](https://github.com/gotenberg/gotenberg)<br>
-[Install Gotenberg PDF >](../installation/gotenbergPdf.md)<br>
+[Install Gotenberg PDF >](../../installation/gotenbergPdf.md)<br>
 [Website AthenaPDF >](https://www.athenapdf.com)<br>
 [GitHub: AthenaPDF >](https://github.com/arachnys/athenapdf/tree/master/weaver)<br>
-[Install AthenaPDF >](../installation/athenaPdf.md)
+[Install AthenaPDF >](../../installation/athenaPdf.md)
 
 **Weiterführend**<br>
-[Module: Übersicht >](Modules.de.md)<br>
-[Virtuelle Klassenzimmer >](../../manual_user/basic_concepts/Virtual_classrooms.de.md)
+[Module: Übersicht >](../Modules/index.de.md)<br>
+[Virtuelle Klassenzimmer >](../../../manual_user/basic_concepts/Virtual_classrooms.de.md)
 
 [Zum Seitenanfang ^](#ext_tools)

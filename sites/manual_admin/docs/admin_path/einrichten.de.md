@@ -59,7 +59,7 @@ Der Abschnitt der Administration mit den Grundfunktionen der Plattform: E-Mail, 
 
     **Englisch:** Core functions
 
-    [Im Handbuch lesen](../administration/Core_functions.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Core%20Konfiguration%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../administration/Core_functions/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Core%20Konfiguration%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -132,7 +132,7 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 ## Weiterführende Informationen {: #further_information}
 
 [System >](../administration/System.de.md)<br>
-[Core-Konfiguration: Übersicht >](../administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../administration/Core_functions/index.de.md)<br>
 [Customizing: Übersicht >](../administration/Customizing.de.md)<br>
 [Startseite >](../administration/Landing_pages.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>

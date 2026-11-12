@@ -34,13 +34,13 @@ Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
 ![LTI Version LTI 1.3 mit Button Inhalt auswählen und den Angaben zur Verbindung, unten der Bereich Konfiguration Bewertung mit Punkte übertragen und Skalierungsfaktor](assets/course_element_lti_page_content_v3_de.png){ class="shadow lightbox" title="Tab Seiteninhalt im Kurseditor · 2026.11.04" }
 
-**LTI Version:** Hier wählen Sie, wie OpenOlat die externe Lernapplikation anbindet. Zur Wahl stehen "LTI 1.0 / 1.1", "LTI 1.3" und die Tools, die Systemadministrator:innen in der System-Administration für alle Kurse vorkonfiguriert haben. Wir empfehlen "LTI 1.3", die ältere Version bleibt aus Kompatibilitätsgründen wählbar. "LTI 1.3" und die vorkonfigurierten Tools stehen zur Wahl, sobald das Modul "LTI 1.3" eingeschaltet ist: [LTI aktivieren](../../manual_admin/administration/LTI_Integrations.de.md#activate_lti)
+**LTI Version:** Hier wählen Sie, wie OpenOlat die externe Lernapplikation anbindet. Zur Wahl stehen "LTI 1.0 / 1.1", "LTI 1.3" und die Tools, die Systemadministrator:innen in der System-Administration für alle Kurse vorkonfiguriert haben. Wir empfehlen "LTI 1.3", die ältere Version bleibt aus Kompatibilitätsgründen wählbar. "LTI 1.3" und die vorkonfigurierten Tools stehen zur Wahl, sobald das Modul "LTI 1.3" eingeschaltet ist: [LTI aktivieren](../../manual_admin/administration/LTI_Integrations/index.de.md#activate_lti)
 
 Wählen Sie ein vorkonfiguriertes Tool, übernimmt OpenOlat die URL und die Angaben zur Verbindung aus dessen Konfiguration.
 
 Mit dem Button "Inhalt auswählen" wählen Sie einen bestimmten Inhalt des Tools aus, statt nur dessen Startadresse einzutragen (Deep Linking). Der Button erscheint bei "LTI 1.3" und bei einem vorkonfigurierten Tool, bei dem "Deep-Linking aktivieren" eingeschaltet ist. Nutzbar ist er, sobald Sie die Konfiguration gespeichert haben. Die gewählten Inhalte erscheinen danach im Feld "Ressourcen": [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md) [:octicons-tag-16:{ title="ab Release 18.1 (OO-7173)" }](https://track.frentix.com/issue/OO-7173)
 
-Welche LTI-Dienste OpenOlat als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
+Welche LTI-Dienste OpenOlat als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations/index.de.md#supported_services).
 
 **URL:** In diesem Eingabefeld geben Sie die Adresse der externen Lernapplikation ein.<br> Das Format ist zum Beispiel "https://tools.< Firma xyz >.de/lti_quiz/lti_quizwand.php".
 
@@ -107,7 +107,7 @@ Haben Kursbesitzer:innen unter `Kurs > Administration > Einstellungen > Tab "Bew
 
 **Auf dieser Seite erwähnt**<br>
 [LTI Projekthomepage (IMS Global Learning Consortium) >](http://www.imsglobal.org/lti/)<br>
-[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations/index.de.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)
 
 **Weiterführend**<br>

@@ -113,7 +113,7 @@ Es werden alle [Tests](../Course_Element_Test/index.de.md) des Kurses angezeigt.
 
 Archivierte Tests werden personalisiert gespeichert und enthalten alle Testergebnisse. Jede Excel-Datei mit Testresultaten im Archiv enthält das Sheet "Exportinformationen" mit Kurs, Kursbaustein, Zeitpunkt und der Person, die das Archiv erstellt hat, siehe [Tests exportieren](../Test_export.de.md#export_information). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
-Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "Einstellungen" bei "Kursbausteine" die Option "Benutzerspezifisch" und beim Kursbaustein Test die Option "Erweitert – mit PDF" wählen. Die Auswahl erscheint nur, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der [PDF-Dienst](../../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist. Die Option "Alle PDF-Dateien in einem Ordner" bietet nur der Export im Kursbaustein Test über den Button "Resultate exportieren". Mehr dazu unter [Testergebnisse archivieren](../Course_Element_Test/Test_Results.de.md#archive) und [Tests exportieren](../Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
+Testergebnisse als PDF-Dateien enthält das Archiv, wenn Sie im Wizard-Schritt "Einstellungen" bei "Kursbausteine" die Option "Benutzerspezifisch" und beim Kursbaustein Test die Option "Erweitert – mit PDF" wählen. Die Auswahl erscheint nur, wenn in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der [PDF-Dienst](../../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingeschaltet ist. Die Option "Alle PDF-Dateien in einem Ordner" bietet nur der Export im Kursbaustein Test über den Button "Resultate exportieren". Mehr dazu unter [Testergebnisse archivieren](../Course_Element_Test/Test_Results.de.md#archive) und [Tests exportieren](../Test_export.de.md#pdf_files). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
 ![Den Export der Testresultate finden: Kursbaustein Test im Kursmenü, Tab Teilnehmer:innen und Button Resultate exportieren markiert](../assets/test_export_results1_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen im Kursbaustein Test · 2026.10.22" }
 
@@ -238,7 +238,7 @@ Hier kann der Chatverlauf als xlsx-Datei exportiert und auch gelöscht werden.
 [Kursbaustein "Umfrage" >](../Course_Element_Survey.de.md)<br>
 [Kursbaustein "Test" >](../Course_Element_Test/index.de.md)<br>
 [Tests auswerten und verwalten >](../Course_Element_Test/Test_Results.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)<br>
 [Kursbaustein "Bewertung" >](../Course_Element_Assessment.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../Course_Element_Portfolio_Task.de.md)<br>

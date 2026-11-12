@@ -102,7 +102,7 @@ Persons who log in via a link, e.g. from an e-mail, land at the target of this l
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)
 
 **Further reading**<br>
-[Core functions: Overview >](../administration/Core_functions.md)<br>
+[Core functions: Overview >](../administration/Core_functions/index.md)<br>
 [Customizing: Overview >](../administration/Customizing.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)

@@ -95,7 +95,7 @@ Das Versanddatum der Erinnerung berechnet der Generator wie bei der Einladung au
 Das Versanddatum der zweiten Erinnerung wird gleich berechnet wie bei der Erinnerung 1.
 
 #### Durchführungsformate ausschliessen {: #course_exclude_implementation_formats }
-Zu Kursen kann in den Metadaten ein Durchführungsformat angegeben werden. Es besteht die Möglichkeit, bei erzeugten Datenerhebungen bestimmte [Durchführungsformate](../../manual_admin/administration/Modules.de.md#course) auszuschliessen, z.B. wenn Prüfungskurse nicht berücksichtigt werden sollen.
+Zu Kursen kann in den Metadaten ein Durchführungsformat angegeben werden. Es besteht die Möglichkeit, bei erzeugten Datenerhebungen bestimmte [Durchführungsformate](../../manual_admin/administration/Modules/index.de.md#course) auszuschliessen, z.B. wenn Prüfungskurse nicht berücksichtigt werden sollen.
 
 #### Bearbeitung einschränken {: #course_limit_edit_rights }
 Setzen Sie das Häkchen bei "Nur Qualitätsverwalter:innen können bearbeiten", lassen sich die geplanten Datenerhebungen dieses Generators nur noch im Modul Qualitätsmanagement bearbeiten. In der [Datenerhebungsvorschau](Quality_Management_Data_Collection_Preview.de.md) eines Kurses und im Course Planner sind sie dann nur noch zu sehen.
@@ -311,7 +311,7 @@ Mit "Einschalten" schalten Sie den Generator ein. Mit "Abbrechen" bleibt er ausg
 
 **Auf dieser Seite erwähnt**<br>
 [Qualitätsmanagement: Datenerhebung >](Quality_Management_Data_Collections.de.md)<br>
-[Module: Übersicht >](../../manual_admin/administration/Modules.de.md)<br>
+[Module: Übersicht >](../../manual_admin/administration/Modules/index.de.md)<br>
 [Qualitätsmanagement: Datenerhebungsvorschau >](Quality_Management_Data_Collection_Preview.de.md)
 
 **Weiterführend**<br>

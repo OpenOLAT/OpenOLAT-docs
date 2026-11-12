@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![Aufgeklapptes Menü Module in der System-Administration, jeder Eintrag der Liste entspricht einem Abschnitt dieser Seite](assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Aufgeklapptes Menü Module in der System-Administration, jeder Eintrag der Liste entspricht einem Abschnitt dieser Seite](../assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Bereich haben Systemadministrator:innen Zugriff auf die Module:
 
@@ -10,7 +10,7 @@ In diesem Bereich haben Systemadministrator:innen Zugriff auf die Module:
 
 Hier können Chat und Kurznachrichten aktiviert und konfiguriert werden.
 
-[Zu den Details >](Instant_Messaging.de.md)<br>
+[Zu den Details >](../Instant_Messaging.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -19,7 +19,7 @@ Hier können Chat und Kurznachrichten aktiviert und konfiguriert werden.
 
 Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpunkten die Versandbedingungen überprüft und die fälligen Mails verschickt.
 
-[Zu den Details >](Modules_Course_Reminders.de.md)<br>
+[Zu den Details >](../Modules_Course_Reminders.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -28,7 +28,7 @@ Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpu
 
 Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zur Transkodierung, sowie die Standardauflösung können definiert werden. 
 
-[Zu den Details >](Modules_Video.de.md)<br>
+[Zu den Details >](../Modules_Video.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -46,7 +46,7 @@ Hier können Sie die Lernressource "Wiki" systemweit ein- oder ausschalten. Das 
 Hier wird die an verschiedenen Stellen in OpenOlat vorhandene Möglichkeit für Audio- und Videoaufnahmen ein- oder ausgeschaltet.
 Die aufgezeichneten Audio- und Videodaten werden automatisch im Hintergrund von einem externen Dienst in ein Format konvertiert, das mit den meisten Browsern kompatibel ist. Auch ein lokales Transcoding kann aktiviert werden.
 
-[Zu den Details >](Modules_Audio_Video_Recording.de.md)<br>
+[Zu den Details >](../Modules_Audio_Video_Recording.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -56,7 +56,7 @@ Die aufgezeichneten Audio- und Videodaten werden automatisch im Hintergrund von 
 Dieses Modul wurde während der COVID-Pandemie erstellt. Aktivieren Sie das Modul, wenn Sie über physische Orte verfügen, an denen sich Menschen treffen und Sie aufgrund von Vorschriften im Bereich der öffentlichen Gesundheit (z.B. COVID19) den Behörden Informationen zur Kontaktverfolgung zur Verfügung stellen müssen.
 
 
-[Zu den Details >](Modules_Contact_Tracing.de.md)<br>
+[Zu den Details >](../Modules_Contact_Tracing.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -73,7 +73,7 @@ Während der COVID-Pandemie wurde hier die Aktivierung des COVID-Zertifikats mit
 
 Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer Strukturierung auf Basis einer Taxonomie und Kompetenzen.
 
-[Zu den Details >](Modules_Document_pool.de.md)<br>
+[Zu den Details >](../Modules_Document_pool.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -82,14 +82,14 @@ Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer St
 
 Hier können mehrere Taxonomien für unterschiedliche Bereiche in OpenOlat erstellt und editiert werden.
 
-[Zu den Details >](Modules_Taxonomy.de.md)<br>
+[Zu den Details >](../Modules_Taxonomy.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
 
 ## Video Livestream [:octicons-tag-16:{ title="ab Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
 
-Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. Die Seite `Administration > Module > Livestream` hat drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
+Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. Die Seite `Administration > Module > Livestream` hat drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
 
 ### URL Vorlagen [:octicons-tag-16:{ title="ab Release 15.3 (OO-5163)" }](https://track.frentix.com/issue/OO-5163){:target="_blank"} {: #livestream_url_templates}
 
@@ -114,7 +114,7 @@ Zeitabschnitt anstelle eines Datums verweisen zu können. Die hier erstellten Ze
 werden. Als Zeitabschnitt könnten z.B. "SoSe26" und als Beschreibung "Sommersemester
 2026" verwendet werden.
 
-[Zu den Details >](Modules_Time_Period.de.md)<br>
+[Zu den Details >](../Modules_Time_Period.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -125,7 +125,7 @@ Medien im Media Center können für andere freigeben werden. Hier können Sie de
 
 Ausserdem kann definiert werden, ob bzw. welche Taxonomie mit dem Media Center verbunden werden sollen.
 
-[Zu den Details >](Modules_Media_Center.de.md)<br>
+[Zu den Details >](../Modules_Media_Center.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -134,7 +134,7 @@ Ausserdem kann definiert werden, ob bzw. welche Taxonomie mit dem Media Center v
 
 Der Kursbaustein "Externe Seite" zeigt Inhalte einer fremden Domäne innerhalb Ihrer OpenOlat-Domäne an und kann dabei Daten an die externe Seite übertragen. frentix empfiehlt, Domänen nicht zu vermischen, und rät vom Einsatz ab.
 
-[Zu den Details >](Modules_External_Page.de.md)<br>
+[Zu den Details >](../Modules_External_Page.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -145,7 +145,7 @@ Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-P
 
 Ebenso kann bestimmt werden, welche Systemrollen den letzten Besuch der Benutzer:innen sehen dürfen.
 
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen. OpenOlat übermittelt die Daten nur, wenn der Kursbaustein die Seite mit "Eingebettet (Quelle verborgen)" anzeigt, siehe [Modul Externe Seite](Modules_External_Page.de.md#data_transfer).
+Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen. OpenOlat übermittelt die Daten nur, wenn der Kursbaustein die Seite mit "Eingebettet (Quelle verborgen)" anzeigt, siehe [Modul Externe Seite](../Modules_External_Page.de.md#data_transfer).
 
 [Zum Seitenanfang ^](#modules)
 
@@ -167,7 +167,7 @@ Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, o
 
 Systemadministrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
-[Zu den Details >](Modules_Groups.de.md)<br>
+[Zu den Details >](../Modules_Groups.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -176,7 +176,7 @@ Systemadministrator:innen können hier auch Kurs- und Gruppenmitglieder bereinig
 
 Wird hier das Management für Termine und Absenzen (vor Release 20: Lektionen- und Absenzenmanagement) eingeschaltet, kann es mit einer Vielzahl an Optionen konfiguriert werden. 
 
-[Zu den Details von "Termine / Absenzen" >](Modules_Events_and_Absences.de.md)<br>
+[Zu den Details von "Termine / Absenzen" >](../Modules_Events_and_Absences.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -206,7 +206,7 @@ Wenn Autor:innen neue Kurse erstellen, finden sie Voreinstellungen vor, die Syst
 gelöscht werden. 
 * Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil der Bilder können in diesem Menü hinzugefügt werden.
 
-[Zu den Details >](Modules_Course.de.md)<br>
+[Zu den Details >](../Modules_Course.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -223,7 +223,7 @@ Wer einen Kursbaustein "Aufgabe" oder "Gruppenaufgabe" neu einfügt, findet im T
 
 Unter "Abschnitte" legen Sie mit "Pflicht" fest, ob der Kursbaustein "obligatorisch" oder "freiwillig" ist. Das Feld "Pflicht" zeigt der Tab "Workflow" nur in herkömmlichen Kursen. Darunter schalten Sie die Abschnitte des Workflows ein: "Aufgabenstellung", "Abgabe", "Rückgabe und Feedback", "Überarbeitung", "Musterlösungen" und "Bewertung". "Überarbeitung" steht nur zur Wahl, wenn "Rückgabe und Feedback" eingeschaltet ist. Mindestens ein Abschnitt muss eingeschaltet sein. Unter "Dokumente Konfiguration" legen Sie fest, ob "Betreuer:innen können Dokumente hinzufügen und bearbeiten" gilt. Unter "Betreuung" schalten Sie "Zuweisung Betreuende/Teilnehmende" mit "Zuweisung aktivieren" ein. Diese Vorgabe wirkt nur in der Aufgabe.
 
-Ab Werk steht "Pflicht" auf "obligatorisch", und alle Abschnitte sind eingeschaltet. Die beiden Optionen für Betreuer:innen sind ausgeschaltet. Die Einstellungen im Einzelnen beschreibt [Aufgabe einrichten, Tab "Workflow"](../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md#workflow).
+Ab Werk steht "Pflicht" auf "obligatorisch", und alle Abschnitte sind eingeschaltet. Die beiden Optionen für Betreuer:innen sind ausgeschaltet. Die Einstellungen im Einzelnen beschreibt [Aufgabe einrichten, Tab "Workflow"](../../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md#workflow).
 
 ### Kursbaustein "Teilnehmer:innen Ordner" {: #course_element_participant_folder}
 
@@ -231,7 +231,7 @@ Wer einen Kursbaustein "Teilnehmer:innen Ordner" neu einfügt, findet im Tab "Or
 
 Unter "Konfiguration des Abgabe- und Rückgabeordners" stehen "Betreuer:innen Rückgabeordner aktivieren", "Teilnehmer:innen Abgabeordner aktivieren", "Löschen und Überschreiben von Dokumenten erlauben" und "Anzahl der einstellbaren Dokumente einschränken" mit der Zahl im Feld "Limite". Mindestens einer der beiden Ordner muss eingeschaltet sein.
 
-Ab Werk sind beide Ordner eingeschaltet, und Löschen und Überschreiben ist erlaubt. Die Anzahl der Dokumente ist nicht eingeschränkt. Die Einstellungen im Einzelnen beschreibt [Kursbaustein "Teilnehmer:innen Ordner"](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md).
+Ab Werk sind beide Ordner eingeschaltet, und Löschen und Überschreiben ist erlaubt. Die Anzahl der Dokumente ist nicht eingeschränkt. Die Einstellungen im Einzelnen beschreibt [Kursbaustein "Teilnehmer:innen Ordner"](../../../manual_user/learningresources/Course_Element_Participant_Folder.de.md).
 
 ### Kursbaustein "Test" {: #course_element_test}
 
@@ -239,7 +239,7 @@ Wer einen Kursbaustein "Test" neu einfügt, findet im Tab "Test-Konfiguration" i
 
 Zur Wahl stehen "Leistungsübersicht auf Test-Startseite anzeigen", "Resultate auf Test-Startseite anzeigen" mit "Nein" oder "Immer" und "Resultate nach Abgabe des Tests anzeigen". Unter "Übersicht Resultate" wählen Sie, welche Teile die Resultate zeigen: "Testzusammenfassung", "Sektionszusammenfassung", "Fragezusammenfassung", "Antwort, von Teilnehmer:in abgegeben" und "Lösung".
 
-Ab Werk ist nur "Leistungsübersicht auf Test-Startseite anzeigen" eingeschaltet. "Resultate auf Test-Startseite anzeigen" steht auf "Nein", und unter "Übersicht Resultate" ist nichts gewählt. Die Einstellungen im Einzelnen beschreibt [Test einrichten, Abschnitt Report](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#section_report).
+Ab Werk ist nur "Leistungsübersicht auf Test-Startseite anzeigen" eingeschaltet. "Resultate auf Test-Startseite anzeigen" steht auf "Nein", und unter "Übersicht Resultate" ist nichts gewählt. Die Einstellungen im Einzelnen beschreibt [Test einrichten, Abschnitt Report](../../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md#section_report).
 
 ### Kursbaustein "Umfrage" [:octicons-tag-16:{ title="ab Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"} {: #course_element_survey}
 
@@ -247,7 +247,7 @@ Wer einen Kursbaustein "Umfrage" neu einfügt, findet im Tab "Umfrage" unter "Be
 
 Unter "Teilnahme durch" wählen Sie, welche Rollen an der Umfrage teilnehmen, unter "Resultate sichtbar für", welche Rollen die Resultate sehen. Zur Wahl stehen jeweils "Besitzer:innen", "Betreuer:innen", "Teilnehmer:innen" und "Gast". Ab Werk nehmen die Teilnehmer:innen teil, und die Resultate sehen die Besitzer:innen und Betreuer:innen. Mit "Alle Werte auf Default zurücksetzen" stellen Sie diese Ausgangswerte wieder her.
 
-Kursbesitzer:innen ändern die Berechtigungen danach in jedem Kursbaustein einzeln, siehe [Kursbaustein "Umfrage", Tab "Umfrage"](../../manual_user/learningresources/Course_Element_Survey.de.md#survey).
+Kursbesitzer:innen ändern die Berechtigungen danach in jedem Kursbaustein einzeln, siehe [Kursbaustein "Umfrage", Tab "Umfrage"](../../../manual_user/learningresources/Course_Element_Survey.de.md#survey).
 
 [Zum Seitenanfang ^](#modules)
 
@@ -257,7 +257,7 @@ Kursbesitzer:innen ändern die Berechtigungen danach in jedem Kursbaustein einze
 
 Hier kann die Verwendung eines Katalogs ein- oder ausgeschaltet und konfiguriert werden.
 
-[Zu den Details >](Modules_Catalog_2.0.de.md)<br>
+[Zu den Details >](../Modules_Catalog_2.0.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -266,7 +266,7 @@ Hier kann die Verwendung eines Katalogs ein- oder ausgeschaltet und konfiguriert
 
 Hier nehmen Sie Einstellungen zu Lernressourcen vor.
 
-[Zu den Details >](Modules_Learning_Resource.de.md)<br>
+[Zu den Details >](../Modules_Learning_Resource.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -275,7 +275,7 @@ Hier nehmen Sie Einstellungen zu Lernressourcen vor.
 
 Mit aktiviertem Modul "Organisationen" können Organisationsstrukturen in OpenOlat abgebildet werden. Damit können dann Rollen oder Zugriffsberechtigungen auf bestimmte Organisationseinheiten beschränkt werden.
 
-[Zu den Details >](Modules_Organisations.de.md)<br>
+[Zu den Details >](../Modules_Organisations.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -300,7 +300,7 @@ Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanf
 
 Wird das Modul "Course Planner" hier aktiviert, können Elementtypen angelegt und Einstellungen dazu gemacht werden. 
 
-[Zu den Details des Course Planners >](Modules_Course_Planner.de.md)<br>
+[Zu den Details des Course Planners >](../Modules_Course_Planner.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -309,7 +309,7 @@ Wird das Modul "Course Planner" hier aktiviert, können Elementtypen angelegt un
 
 Bei aktiviertem Modul kann definiert werden, wer To-dos erstellen, zuweisen oder delegieren darf.
 
-[Zu den Details >](Modules_ToDo.de.md)<br>
+[Zu den Details >](../Modules_ToDo.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -318,7 +318,7 @@ Bei aktiviertem Modul kann definiert werden, wer To-dos erstellen, zuweisen oder
 
 Hier wird das in OpenOlat vorhandene Projekt-Tool aktiviert.
 
-[Zu den Details >](Modules_Projects.de.md)<br>
+[Zu den Details >](../Modules_Projects.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -327,7 +327,7 @@ Hier wird das in OpenOlat vorhandene Projekt-Tool aktiviert.
 
 Hier finden Sie die Aktivierung des Qualitätsmanagements und die dafür erforderliche Definition von speziellen E-Mailadressen, z.B. für Verbesserungsvorschläge. 
 
-[Zu den Details >](Modules_Quality_Management.de.md)<br>
+[Zu den Details >](../Modules_Quality_Management.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -336,6 +336,6 @@ Hier finden Sie die Aktivierung des Qualitätsmanagements und die dafür erforde
 
 Hier können Sie ermöglichen und konfigurieren, dass andere Service Provider die Metadaten von Lernressourcen sammeln oder an Suchmaschinen-Anbieter weiterleiten können.
 
-[Zu den Details >](Modules_OAI.de.md)<br>
+[Zu den Details >](../Modules_OAI.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 

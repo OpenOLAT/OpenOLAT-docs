@@ -38,7 +38,7 @@ Under "E-mail notification" you set how often at most you receive an e-mail with
 
 The chosen frequency is an upper limit: OpenOlat only sends you an e-mail if there is something new in your subscriptions. With "Never" you no longer receive notifications by e-mail. This applies regardless of the schedule of the instance. The news is not lost: your subscriptions remain, and you can see the news yourself at any time under `Personal menu > Subscriptions > Tab "News"` or via the bell icon in the respective course element. More about this: [Subscriptions](Subscriptions.md#view_notifications)
 
-The e-mail does not arrive at the moment your interval expires, but at the next run of the system-wide sending. The administration defines this schedule, by default the sending runs every two hours. If your interval has expired at a run and there is news, you receive the e-mail. More about this: [Core functions: Notifications](../../manual_admin/administration/Core_functions.md#notifications)
+The e-mail does not arrive at the moment your interval expires, but at the next run of the system-wide sending. The administration defines this schedule, by default the sending runs every two hours. If your interval has expired at a run and there is news, you receive the e-mail. More about this: [Core functions: Notifications](../../manual_admin/administration/Core_functions/index.md#notifications)
 
 ![Users can suppress the e-mail with «Never», even though the administration has set up the sending](assets/notifications_delivery_v1_en.svg){ class="shadow lightbox" title="Who decides whether a notification arrives?" }
 
@@ -238,7 +238,7 @@ System administrators set the default for everyone in the AI module: [External t
 
 **Mentioned on this page**<br>
 [User tools: Subscriptions >](Subscriptions.md)<br>
-[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Email Settings >](../../manual_admin/administration/E-Mail_Settings.md)<br>
 [User tools: E-Mail >](E-Mail.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>

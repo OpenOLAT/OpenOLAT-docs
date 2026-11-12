@@ -9,7 +9,7 @@ OpenOlat stellt jede Prüfung so zusammen wie einen neuen Testversuch online. Ze
 
 Den Assistenten öffnen Sie in der Administration der Test-Lernressource unter:<br>`Test > Administration > Handschriftliche Prüfungen generieren`
 
-Der Menüpunkt steht Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung. Er erscheint, wenn in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator) eingeschaltet ist: `Administration > Externe Werkzeuge > PDF Generator`. Die übrigen Einträge des Menüs beschreibt die Seite [Test: Administration](Test_administration/index.de.md).
+Der Menüpunkt steht Besitzer:innen der Test-Lernressource, Lernressourcenverwalter:innen und Administrator:innen zur Verfügung. Er erscheint, wenn in der System-Administration der [PDF-Dienst](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingeschaltet ist: `Administration > Externe Werkzeuge > PDF Generator`. Die übrigen Einträge des Menüs beschreibt die Seite [Test: Administration](Test_administration/index.de.md).
 
 ![Menüpunkt Handschriftliche Prüfungen generieren im geöffneten Menü Administration markiert, damit startet der Assistent für die Prüfungsbogen](assets/test_export_resource_test_manually1_v2_de.png){ class="shadow lightbox" title="Menü Administration einer Test-Lernressource · 2026.10.01" }
 
@@ -65,7 +65,7 @@ Nach "Fertigstellen" beginnt der Download der zip-Datei. Je nach Anzahl dauert e
 
 **Auf dieser Seite erwähnt**<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Test: Administration >](Test_administration/index.de.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.de.md)
 

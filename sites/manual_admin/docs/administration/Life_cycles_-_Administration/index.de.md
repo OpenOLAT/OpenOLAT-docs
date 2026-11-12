@@ -1,10 +1,10 @@
 # Lebenszyklen: Übersicht {: #lifecycles}
 
-![Die drei Einträge Gruppen, Kurse und Konto stehen unter dem Menüpunkt Lebenszyklen: Menü Lebenszyklen in der System-Administration](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![Die drei Einträge Gruppen, Kurse und Konto stehen unter dem Menüpunkt Lebenszyklen: Menü Lebenszyklen in der System-Administration](../assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 Unter `Administration > Lebenszyklen` stellen Sie in der System-Administration drei der vier Lebenszyklen von OpenOlat ein: den Gruppen-Lebenszyklus, den Kurs-Lebenszyklus und den automatischen Kontolebenszyklus. Jeder hat einen eigenen Auslöser und eigene Schritte.
 
-Der vierte, der Durchführungs-Lebenszyklus, steht nicht in diesem Menü. Er führt die Durchführungen des Course Planners durch ihre Status und löscht nichts. Seine Regeln legt der Elementtyp fest, die einzelne Durchführung kann sie überschreiben, siehe [Automatisierung konfigurieren](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
+Der vierte, der Durchführungs-Lebenszyklus, steht nicht in diesem Menü. Er führt die Durchführungen des Course Planners durch ihre Status und löscht nichts. Seine Regeln legt der Elementtyp fest, die einzelne Durchführung kann sie überschreiben, siehe [Automatisierung konfigurieren](../../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation). [:octicons-tag-16:{ title="ab Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## Steckbrief
 
@@ -16,7 +16,7 @@ Verfügbar seit | Release 16.1 (2021)
 
 ## Gruppen [:octicons-tag-16:{ title="ab Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #lifecycle_groups}
 
-In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md) vorgenommen werden. Dieser vollzieht sich in den Schritten
+In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyklus](../Automatic_Group_Lifecycle.de.md) vorgenommen werden. Dieser vollzieht sich in den Schritten
 
 * Inaktivierung
 * Löschung
@@ -24,7 +24,7 @@ In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyk
 
 Auslöser ist die Zeit ohne Besuch durch die Gruppenbetreuer:innen oder Gruppenteilnehmer:innen. Der Gruppen-Lebenszyklus gilt wahlweise für alle Gruppen oder nur für Gruppen ohne eingebundene Kurse. Extern verwaltete Gruppen lassen sich zusätzlich ausschliessen.
 
-Schritte und Einstellungen beschreibt die Seite [Automatischer Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md).
+Schritte und Einstellungen beschreibt die Seite [Automatischer Gruppen-Lebenszyklus](../Automatic_Group_Lifecycle.de.md).
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -32,7 +32,7 @@ Schritte und Einstellungen beschreibt die Seite [Automatischer Gruppen-Lebenszyk
 
 ## Kurse {: #lifecycle_courses}
 
-Im [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md) kann festgelegt werden, wie ein Kurs nach dem Kursende den Betrieb verlässt:
+Im [Kurs-Lebenszyklus](../Automatic_Course_Lifecycle.de.md) kann festgelegt werden, wie ein Kurs nach dem Kursende den Betrieb verlässt:
 
 * ob und wann ein Kurs automatisch in den Status "Beendet" versetzt wird,
 * wann er danach in den Papierkorb verschoben wird,
@@ -42,7 +42,7 @@ Die Fristen zählen ab dem Enddatum des Durchführungszeitraums, beim endgültig
 
 Zusätzlich lässt sich die Benachrichtigung der Besitzer:innen erzwingen, wenn jemand einen Kurs im Autorenbereich beendet oder löscht.
 
-Schritte, Konfiguration, Bestätigung vor dem Speichern und Statusanzeige beschreibt die Seite [Automatischer Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md).
+Schritte, Konfiguration, Bestätigung vor dem Speichern und Statusanzeige beschreibt die Seite [Automatischer Kurs-Lebenszyklus](../Automatic_Course_Lifecycle.de.md).
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -63,9 +63,9 @@ Liegt das Ablaufdatum vor dem Termin der automatischen Inaktivierung, nennt die 
 
 Jeder der beiden Bereiche nennt in seinem Erklärtext die Uhrzeit, zu der OpenOlat den jeweiligen Prozess täglich ausführt.
 
-Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist (Schonfrist), inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt die Seite [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
+Ein Konto durchläuft dabei die Zustände aktiv, reaktiviert in der Karenzfrist (Schonfrist), inaktiv und gelöscht. Welche Angaben ein Konto in welchem Zustand zeigt, beschreibt die Seite [Kontoeinstellungen verwalten](../../usermanagement/Configure_User.de.md#automatic_user_lifecycle).
 
-![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" title="Kontoablauf und automatischer Kontolebenszyklus" }
+![Die beiden Prozesse mit ihren Auslösern, darunter die Zustandskette von aktiv bis gelöscht und die drei Orte der Angaben](../assets/admin_lifecycle_account_processes_v1_de.svg){ class="shadow lightbox" title="Kontoablauf und automatischer Kontolebenszyklus" }
 
 ### Die drei Schritte im Überblick {: #lifecycle_accounts_variants}
 
@@ -107,7 +107,7 @@ Die 30 Tage sind systemweit festgelegt und gelten für alle Konten.
 
 ### Löschung und gelöschte Konten {: #account_deletion}
 
-Die Deaktivierung lässt die Daten stehen. Erst die Löschung entfernt sie: Sie löscht das Passwort unwiderbringlich und trägt die Person aus allen Gruppen und Rollen aus, siehe [Benutzer:in löschen](../usermanagement/Delete_User.de.md).
+Die Deaktivierung lässt die Daten stehen. Erst die Löschung entfernt sie: Sie löscht das Passwort unwiderbringlich und trägt die Person aus allen Gruppen und Rollen aus, siehe [Benutzer:in löschen](../../usermanagement/Delete_User.de.md).
 
 Der Datensatz selbst bleibt anonymisiert bestehen. OpenOlat ersetzt den Anmeldenamen durch eine ID der Form "del_884736" und setzt den Status auf "Gelöscht". Das ist nötig, weil Objekte wie Forenbeiträge weiterhin auf das Konto verweisen. Die anonymisierten Konten finden Sie unter:<br>
 `Benutzerverwaltung > Status > Gelöschte Konten`
@@ -120,16 +120,16 @@ Ein Konto mit dem Status "Aktiv und nicht löschbar" nimmt der automatische Kont
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
-[Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
-[Automatischer Kurs-Lebenszyklus >](Automatic_Course_Lifecycle.de.md)<br>
-[Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
-[Benutzer:in löschen >](../usermanagement/Delete_User.de.md)
+[Course Planner: Durchführungen >](../../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Automatischer Gruppen-Lebenszyklus >](../Automatic_Group_Lifecycle.de.md)<br>
+[Automatischer Kurs-Lebenszyklus >](../Automatic_Course_Lifecycle.de.md)<br>
+[Kontoeinstellungen verwalten >](../../usermanagement/Configure_User.de.md)<br>
+[Benutzer:in löschen >](../../usermanagement/Delete_User.de.md)
 
 **Weiterführend**<br>
-[Kontosuche >](../usermanagement/Search_Users.de.md)<br>
-[Konto erstellen >](../usermanagement/Create_User.de.md)<br>
-[Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)<br>
-[Modul Course Planner >](Modules_Course_Planner.de.md)
+[Kontosuche >](../../usermanagement/Search_Users.de.md)<br>
+[Konto erstellen >](../../usermanagement/Create_User.de.md)<br>
+[Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../../manual_how-to/lifecycle/lifecycle.de.md)<br>
+[Modul Course Planner >](../Modules_Course_Planner.de.md)
 
 [Zum Seitenanfang ^](#lifecycles)

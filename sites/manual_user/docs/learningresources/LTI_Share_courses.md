@@ -27,7 +27,7 @@ The platform must first be set up as an external platform in the system administ
 
 ### Requirements in system administration {: #conditions_admin}
 
-System administrators register the external platform in the system administration of OpenOlat under `Administration > External tools > LTI > Tab "External platforms"`. On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a course is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
+System administrators register the external platform in the system administration of OpenOlat under `Administration > External tools > LTI > Tab "External platforms"`. On the other side, administrator access to the other LMS is required as well. Who may create the LTI share of a course is set in the system administration: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations/index.md#deployments)<br>
 Ideally, set up both systems at the same time, because certain dialogs in both systems must be configured directly one after the other.
 
 ### Requirements in the LTI share of a course [:octicons-tag-16:{ title="from Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}
@@ -53,7 +53,7 @@ A copied OpenOlat course does not take over the LTI share of the original. It ne
 
 With every call, Moodle sends information about the person and the course context to OpenOlat. OpenOlat sends only one thing back: the course result of the person.
 
-Which LTI services OpenOlat supports as a tool and as a platform is shown in the overview [Supported LTI services](../../manual_admin/administration/LTI_Integrations.md#supported_services).
+Which LTI services OpenOlat supports as a tool and as a platform is shown in the overview [Supported LTI services](../../manual_admin/administration/LTI_Integrations/index.md#supported_services).
 
 
 ### From Moodle to OpenOlat {: #data_exchange_from_moodle}
@@ -147,7 +147,7 @@ The assessment form can also be filled in and adjusted for the course element "L
 
 **Mentioned on this page**<br>
 [How do I integrate an OpenOlat course into Moodle? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)<br>
-[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)<br>
 [Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
 **Further reading**<br>

@@ -27,7 +27,7 @@ There, they activate the course element and, if needed, the Multi stream option 
 
 ![Settings of the Video live stream course element with default values for the buffer times and the selection of the stream](assets/course_element_livestream_admin_settings_v1_en.png){ class="shadow lightbox" title="Live stream page in the Modules menu · 2026.11.03" }
 
-The two other tabs of the page, "URL templates" and "Paella player", are described in the administration manual under [Module Live stream](../../manual_admin/administration/Modules.md#livestream).
+The two other tabs of the page, "URL templates" and "Paella player", are described in the administration manual under [Module Live stream](../../manual_admin/administration/Modules/index.md#livestream).
 
 
 ## Tab Configuration
@@ -58,6 +58,6 @@ Owners and coaches also see the tab "Statistic". Under "Broadcast live streams" 
 [Course Element "Calendar" >](Course_Element_Calendar.md)<br>
 [Toolbar >](Course_Settings_Toolbar.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
-[Modules: Overview >](../../manual_admin/administration/Modules.md)
+[Modules: Overview >](../../manual_admin/administration/Modules/index.md)
 
 [To the top of the page ^](#livestream)

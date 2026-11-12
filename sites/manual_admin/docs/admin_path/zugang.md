@@ -39,7 +39,7 @@ The Administration section for sign-in and access: password and authentication, 
 
     **German:** Login
 
-    [Read in the manual](../administration/Login.md) · [Ask Sophia](?sophia=What%20is%20%22Login%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../administration/Login/index.md) · [Ask Sophia](?sophia=What%20is%20%22Login%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -155,7 +155,7 @@ An eight-digit confirmation code OpenOlat sends by e-mail after the username and
 
 <p class="oo-mh-kicker">Read up</p>
 
-[Login](../administration/Login.md)
+[Login](../administration/Login/index.md)
 
 After the installation, the settings are in the system administration under:<br>`Administration > Login`
 
@@ -170,13 +170,13 @@ Your customer advisor at frentix supports you with the setup through support and
 The installation is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the installation more precisely.
 
 - **Login:** [Security](../administration/Login_Security.md).
-- **Authentication:** [Local OpenOlat authentication](../../manual_user/login_registration/Login_Concept.md), Login for administrators, [Cloud login](../administration/Login.md), [Passkey](../../manual_user/login_registration/Passkey.md) and more.
+- **Authentication:** [Local OpenOlat authentication](../../manual_user/login_registration/Login_Concept.md), Login for administrators, [Cloud login](../administration/Login/index.md), [Passkey](../../manual_user/login_registration/Passkey.md) and more.
 - **Self-registration:** [Registration](../../manual_user/login_registration/index.md). More on the page [Self-registration](../administration/Login_Self-Registration.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Login: Overview >](../administration/Login.md)<br>
+[Login: Overview >](../administration/Login/index.md)<br>
 [Login Concept >](../../manual_user/login_registration/Login_Concept.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
 [Roles and Rights: Guest access >](../../manual_user/basic_concepts/guest_access.md)<br>

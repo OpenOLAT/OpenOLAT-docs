@@ -36,7 +36,7 @@ In the tab "Book sections" you enter the "Edubase ID", the page range with "Page
 [Edubase >](https://www.edubase.ch/)
 
 **Further reading**<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)
 
 [To the top of the page ^](#edubase)

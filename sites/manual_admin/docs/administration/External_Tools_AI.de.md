@@ -6,7 +6,7 @@
 
 In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Damit diese Stellen arbeiten, binden Sie im KI-Modul die KI-Anbieter an, die Sie verwenden. Das KI-Modul unterstützt mehrere KI-Anbieter; welcher Anbieter und welches Modell verwendet wird, legen Sie pro KI-Funktion fest [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
-Das KI-Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md). Es liegt in der System-Administration, Systemadministrator:innen konfigurieren es dort. Nur die Rolle Systemadministrator:in öffnet die System-Administration, auch Administrator:innen erreichen sie ohne diese Rolle nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
+Das KI-Modul ist Teil der externen Werkzeuge, siehe [Externe Werkzeuge: Übersicht >](External_Tools_-_Administration/index.de.md). Es liegt in der System-Administration, Systemadministrator:innen konfigurieren es dort. Nur die Rolle Systemadministrator:in öffnet die System-Administration, auch Administrator:innen erreichen sie ohne diese Rolle nicht. Wie Rollen vergeben werden, beschreibt [Rollen zuweisen >](../usermanagement/Assign_roles.de.md).
 
 ## Konfiguration {: #config}
 
@@ -122,7 +122,7 @@ Der Schalter lässt sich nur bedienen, solange "Funktion aktivieren" eingeschalt
 Eine geänderte Vorgabe gilt nur für Personen ohne gespeicherte Wahl. Eine Wahl für eine Person setzen können Sie nicht, gespeicherte Wahlen aber löschen. Danach gilt die Vorgabe, und der Dialog "KI-Korrektur" fragt wieder nach:
 
 * für eine Person in der Benutzerverwaltung im Tab "GUI-Einstellungen" ihres Benutzerkontos, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md),
-* für alle Personen in der System-Administration unter `Administration > Core-Konfiguration > GUI-Einstellungen`, mit "Zurücksetzen" in der Zeile der zugeordneten Klasse `org.olat.core.commons.services.ai.AiUserPreferenceService`, siehe [Core-Konfiguration](Core_functions.de.md).
+* für alle Personen in der System-Administration unter `Administration > Core-Konfiguration > GUI-Einstellungen`, mit "Zurücksetzen" in der Zeile der zugeordneten Klasse `org.olat.core.commons.services.ai.AiUserPreferenceService`, siehe [Core-Konfiguration](Core_functions/index.de.md).
 
 
 #### Limits pro Funktion [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}
@@ -274,7 +274,7 @@ taxonomy.matching.passage.prefix=
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration/index.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)<br>
@@ -283,7 +283,7 @@ taxonomy.matching.passage.prefix=
 [KI-Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
-[Core-Konfiguration: Übersicht >](Core_functions.de.md)
+[Core-Konfiguration: Übersicht >](Core_functions/index.de.md)
 
 **Weiterführend**<br>
 [Wie erstelle ich eine Freitextfrage mit KI-Auswertung? >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>

@@ -59,7 +59,7 @@ Die letzten vier Werte generiert OpenOlat. Der Dialog zeigt sie nur an. Übertra
 
 Die Option "Mit Shared Deployment" legen Sie beim Anlegen des Tools fest. Nachträglich können Sie sie nicht mehr ändern.
 
-Wird ein Kursbaustein "LTI-Seite" mit lokalem Deployment kopiert, teilen sich Original und Kopie danach ein gemeinsames Deployment. Das gilt auch, wenn der ganze Kurs kopiert oder der Kursbaustein in einen anderen Kurs importiert wird. Beide senden dann dieselbe Deployment ID an das Tool. Ist das Tool ein anderes OpenOlat, nimmt es dieselbe Deployment ID für mehrere Kurse an: [Gilt eine Deployment-ID für mehrere Kurse?](LTI_Integrations.de.md#deployments) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
+Wird ein Kursbaustein "LTI-Seite" mit lokalem Deployment kopiert, teilen sich Original und Kopie danach ein gemeinsames Deployment. Das gilt auch, wenn der ganze Kurs kopiert oder der Kursbaustein in einen anderen Kurs importiert wird. Beide senden dann dieselbe Deployment ID an das Tool. Ist das Tool ein anderes OpenOlat, nimmt es dieselbe Deployment ID für mehrere Kurse an: [Gilt eine Deployment-ID für mehrere Kurse?](LTI_Integrations/index.de.md#deployments) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9092)" }](https://track.frentix.com/issue/OO-9092)
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -67,7 +67,7 @@ Wird ein Kursbaustein "LTI-Seite" mit lokalem Deployment kopiert, teilen sich Or
 [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
 [LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)<br>
-[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations/index.de.md)
 
 **Weiterführend**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>

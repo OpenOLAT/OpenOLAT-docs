@@ -14,7 +14,7 @@
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations.de.md)
+    * Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](../../manual_admin/administration/LTI_Integrations/index.de.md)
     * Administrationshandbuch: [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)
     * Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)
 
@@ -180,7 +180,7 @@ Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifiz
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations/index.de.md)<br>
 [LTI - Externe Plattformen >](../../manual_admin/administration/LTI_External_platforms.de.md)<br>
 [LTI Zugang zu einem Kurs konfigurieren >](../../manual_user/learningresources/LTI_Share_courses.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)

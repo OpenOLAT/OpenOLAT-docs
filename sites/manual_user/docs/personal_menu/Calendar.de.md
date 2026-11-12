@@ -249,7 +249,7 @@ Andere Systeme, zum Beispiel PerformX, können über die REST-Schnittstelle Term
 [Toolbar >](../learningresources/Course_Settings_Toolbar.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Kursbaustein "Kalender" >](../learningresources/Course_Element_Calendar.de.md)<br>
-[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions/index.de.md)
 
 **youtube**<br>
 [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>)

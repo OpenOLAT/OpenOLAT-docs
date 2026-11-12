@@ -142,7 +142,7 @@ The number of days after which all accounts must set a new password. An empty fi
 **Further reading**<br>
 [One Time Code >](../../manual_user/login_registration/One_Time_Code.md)<br>
 [Passkey >](../../manual_user/login_registration/Passkey.md)<br>
-[Login: Overview >](Login.md)<br>
+[Login: Overview >](Login/index.md)<br>
 [Email Settings >](E-Mail_Settings.md)
 
 [To the top of the page ^](#password_and_authentication)

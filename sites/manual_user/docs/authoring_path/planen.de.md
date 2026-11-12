@@ -147,7 +147,7 @@ Mit frentix: In der Schulung zeigen wir es. Für eine Schulung wenden Sie sich a
 
 Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die den Kurs genauer steuern.
 
-- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving/index.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
+- **Kurs:** [Veröffentlichung](../learningresources/Using_additional_Course_Editor_Tools.de.md), [Kurs-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md) (in der Oberfläche: **Automatische Verwaltung des Lebenszyklus**), [Kursarchiv](../learningresources/Course_Archiving/index.de.md), [Infoseite](../learningresources/Info_page.de.md) und weitere. Alle Einstellungen stehen auf der Seite [Lernressourcen](../learningresources/index.de.md).
 - **Kursstatus:** [Papierkorb](../learningresources/Access_configuration.de.md), [Freigabe Betreuer:innen](../learningresources/Access_configuration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
@@ -160,7 +160,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Kurseditorwerkzeuge >](../learningresources/Using_additional_Course_Editor_Tools.de.md)<br>
-[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md)<br>
 [Kursadministration - Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 

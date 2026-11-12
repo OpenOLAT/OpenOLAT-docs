@@ -103,7 +103,7 @@ Standard Learning Tools Interoperability.
 
     **Wie Nutzende es nennen:** Learning Tools Interoperability, LTI 1.3, LTI-Schnittstelle, LTI-Anbindung, Externe Tools, Tool-Integration, LMS-Integration, Drittanwendungen
 
-    [Im Handbuch lesen](../administration/LTI_Integrations.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22LTI%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../administration/LTI_Integrations/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22LTI%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -137,7 +137,7 @@ Programmierschnittstelle nach dem REST-Muster.
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Externe Werkzeuge: Übersicht](../administration/External_Tools_-_Administration.de.md)
+[Externe Werkzeuge: Übersicht](../administration/External_Tools_-_Administration/index.de.md)
 
 Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > e-Assessment > Prüfungsverwaltung`<br>`Administration > Externe Werkzeuge`<br>`Administration > Core-Konfiguration > REST API`
 
@@ -153,7 +153,7 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 
 - **Safe Exam Browser:** [Safe Exam Browser Konfigurationsvorlage](../administration/e-Assessment_AssessmentMgmt.de.md). Mehr dazu auf der Seite [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor?](../../manual_how-to/SEB/SEB.de.md).
 - **KI-Modul:** [KI-Anbieter](../administration/External_Tools_AI.de.md), [KI-Funktion](../administration/External_Tools_AI.de.md), KI-Einstellungen, [KI-Verarbeitungs-Pool](../administration/External_Tools_AI.de.md) und weitere.
-- **LTI:** [Plattform](../administration/LTI_External_platforms.de.md), [Deployment](../administration/LTI_External_tools.de.md), [Tool](../administration/LTI_External_tools.de.md), [Deep Linking](../administration/LTI_Deeplinking.de.md) und weitere. Mehr dazu auf der Seite [LTI 1.3 Integrationen](../administration/LTI_Integrations.de.md).
+- **LTI:** [Plattform](../administration/LTI_External_platforms.de.md), [Deployment](../administration/LTI_External_tools.de.md), [Tool](../administration/LTI_External_tools.de.md), [Deep Linking](../administration/LTI_Deeplinking.de.md) und weitere. Mehr dazu auf der Seite [LTI 1.3 Integrationen](../administration/LTI_Integrations/index.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -162,17 +162,17 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 [Prüfungsverwaltung: Übersicht >](../../manual_user/learningresources/Assessment_Management/index.de.md)<br>
 [Wie bereite ich eine Prüfung mit dem Safe Exam Browser (SEB) vor? >](../../manual_how-to/SEB/SEB.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../administration/External_Tools_AI.de.md)<br>
-[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations/index.de.md)<br>
 [REST API >](../administration/REST_API.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../administration/External_Tools_-_Administration/index.de.md)<br>
 [e-Assessment Administration: Prüfungsverwaltung >](../administration/e-Assessment_AssessmentMgmt.de.md)<br>
 [LTI - Externe Plattformen >](../administration/LTI_External_platforms.de.md)<br>
 [LTI - Externe Werkzeuge >](../administration/LTI_External_tools.de.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)
 
 **Weiterführend**<br>
-[e-Assessment Administration: Übersicht >](../administration/e-Assessment_Administration.de.md)<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[e-Assessment Administration: Übersicht >](../administration/e-Assessment_Administration/index.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Reports: Übersicht >](../administration/Reports.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 

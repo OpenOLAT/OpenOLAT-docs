@@ -131,7 +131,7 @@ Im Tab "Verifizierung" prüfen Sie, ob ein Badge echt ist. Laden Sie die Badge-D
 [Persönliche Erfolge/Leistungen: Badges >](../../manual_user/personal_menu/OpenBadges.de.md)<br>
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
 [Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)<br>
-[e-Assessment Administration: Übersicht >](e-Assessment_Administration.de.md)<br>
+[e-Assessment Administration: Übersicht >](e-Assessment_Administration/index.de.md)<br>
 [Wie mache ich Erfolge und Leistungen sichtbar? >](../../manual_how-to/achievements/achievements.de.md)
 
 [Zum Seitenanfang ^](#badges)

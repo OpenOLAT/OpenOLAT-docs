@@ -74,7 +74,7 @@ The exported Excel file contains up to four sheets with data:
 * **Memberships:** one row per membership, with the references of product, implementation and element ("PROD - Reference", "IMPL - Reference", "Reference"), the role and the username. The role is a fixed value, for example PARTICIPANT for participant; the [reference](../Course_Planner_Import_Export_Reference.md#enum_reference) lists all values.
 * **Users:** one row per user who appears in the "Memberships" sheet: username, first name, last name, e-mail, organisation membership, account expiration [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, creation date
 
-The export contains the "Memberships" and "Users" sheets only if the exporting person may see the administrative user properties, which include the username. Which roles may do so is set in the system administration: `Administration > Modules > Privacy`, option "Administrative user properties", see [Data privacy](../../../manual_admin/administration/Modules.md#data_privacy). An export without these two sheets cannot be imported again, because the import wizard requires at least four sheets.
+The export contains the "Memberships" and "Users" sheets only if the exporting person may see the administrative user properties, which include the username. Which roles may do so is set in the system administration: `Administration > Modules > Privacy`, option "Administrative user properties", see [Data privacy](../../../manual_admin/administration/Modules/index.md#data_privacy). An export without these two sheets cannot be imported again, because the import wizard requires at least four sheets.
 
 In addition, every export file contains an "Export information" sheet with URL, OpenOlat version, export language, as well as date and name of the exporting person [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
@@ -216,7 +216,7 @@ The table shows the memberships from the "Memberships" sheet with the references
 
 **Mentioned on this page**<br>
 [Import/Export: Reference >](../Course_Planner_Import_Export_Reference.md)<br>
-[Modules: Overview (Administration) >](../../../manual_admin/administration/Modules.md)<br>
+[Modules: Overview (Administration) >](../../../manual_admin/administration/Modules/index.md)<br>
 [Module Rooms (Administration) >](../../../manual_admin/administration/Modules_Rooms.md)<br>
 [Course Planner: Room management >](../Course_Planner_Rooms.md)<br>
 [Email Settings (Administration) >](../../../manual_admin/administration/E-Mail_Settings.md)

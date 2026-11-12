@@ -71,7 +71,7 @@ Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnemen
 
 Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, gehören nicht zum persönlichen Menü. Ob Sie einen Bereich sehen, entscheidet die Administration: Das Modul muss aktiv sein, der Bereich freigeschaltet und Ihre Rolle zugelassen. Sie selbst können ihn nicht einschalten. Fehlt ein Bereich, prüfen Sie zuerst das Menü "Mehr" am rechten Rand der Hauptnavigation. Was über einen Bereich entscheidet, beschreibt die Seite [Bereiche und Module](../area_modules/index.de.md#conditions).
 
-[Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions.de.md#personal_tools)
+[Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions/index.de.md#personal_tools)
 
 
 ## Werkzeuge in die Menüleiste verschieben [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}

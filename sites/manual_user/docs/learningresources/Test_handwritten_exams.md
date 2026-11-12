@@ -9,7 +9,7 @@ OpenOlat compiles each exam in the same way as a new test attempt online. If a s
 
 You open the wizard in the administration of the test learning resource under:<br>`Test > Administration > Export handwritten exams`
 
-The menu item is available to owners of the test learning resource, learning resource managers and administrators. It appears if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is enabled in the system administration: `Administration > External tools > PDF generator`. The other entries of the menu are described on the page [Test: Administration](Test_administration/index.md).
+The menu item is available to owners of the test learning resource, learning resource managers and administrators. It appears if the [PDF Service](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) is enabled in the system administration: `Administration > External tools > PDF generator`. The other entries of the menu are described on the page [Test: Administration](Test_administration/index.md).
 
 ![Menu item Export handwritten exams marked in the open Administration menu, which starts the wizard for the exam sheets](assets/test_export_resource_test_manually1_v2_en.png){ class="shadow lightbox" title="Administration menu of a test learning resource · 2026.10.01" }
 
@@ -65,7 +65,7 @@ After "Finish" the download of the zip file starts. Depending on the number, it 
 
 **Mentioned on this page**<br>
 [Configure tests >](Configure_tests.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Test: Administration >](Test_administration/index.md)<br>
 [e-Assessment Administration: Test >](../../manual_admin/administration/e-Assessment_Test.md)
 

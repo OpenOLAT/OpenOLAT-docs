@@ -38,7 +38,7 @@ Unter "E-Mail-Benachrichtigung" legen Sie fest, wie oft Sie höchstens eine E-Ma
 
 Die gewählte Häufigkeit ist eine Obergrenze: OpenOlat schickt Ihnen nur dann eine E-Mail, wenn es in Ihren Abonnements etwas Neues gibt. Mit "ausgeschaltet" erhalten Sie keine Benachrichtigungen per E-Mail mehr. Das gilt unabhängig vom Zeitplan der Instanz. Die Neuigkeiten gehen dabei nicht verloren: Ihre Abonnements bleiben bestehen, und Sie sehen die Neuigkeiten jederzeit selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` oder über das Glockensymbol im jeweiligen Kursbaustein. Mehr dazu: [Abonnements](Subscriptions.de.md#view_notifications)
 
-Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core-Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions.de.md#notifications)
+Die E-Mail kommt nicht im selben Moment, in dem Ihr Intervall abläuft, sondern beim nächsten Lauf des systemweiten Versands. Diesen Zeitplan legt die Administration fest, im Standard läuft der Versand alle zwei Stunden. Ist bei einem Lauf Ihr Intervall abgelaufen und gibt es Neuigkeiten, erhalten Sie die E-Mail. Mehr dazu: [Core-Konfiguration: Benachrichtigungen](../../manual_admin/administration/Core_functions/index.de.md#notifications)
 
 ![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
 
@@ -238,7 +238,7 @@ Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest:
 
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Werkzeuge: Abonnements >](Subscriptions.de.md)<br>
-[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions/index.de.md)<br>
 [E-Mail Einstellungen >](../../manual_admin/administration/E-Mail_Settings.de.md)<br>
 [Persönliche Werkzeuge: E-Mail >](E-Mail.de.md)<br>
 [Startseite >](../../manual_admin/administration/Landing_pages.de.md)<br>

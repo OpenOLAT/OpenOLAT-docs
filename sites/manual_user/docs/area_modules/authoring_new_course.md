@@ -6,7 +6,7 @@ In Authoring, the "Create" button opens a menu with the learning resources you c
 
 ![Open Create menu with the learning resources of the list below, from course and course from template to Word, Excel and PowerPoint](assets/authoring_new_course_create_menu_v1_en.png){ class="shadow lightbox" title="Create menu in Authoring · 2026.10.09" }
 
-Some entries only appear in the menu if the system administration has switched on the corresponding function: form, wiki and portfolio 2.0 template via the respective module, Word, Excel and PowerPoint via a [document editor](../../manual_admin/administration/External_Tools_-_Administration.md#dokumenteneditoren).
+Some entries only appear in the menu if the system administration has switched on the corresponding function: form, wiki and portfolio 2.0 template via the respective module, Word, Excel and PowerPoint via a [document editor](../../manual_admin/administration/External_Tools_-_Administration/index.md#dokumenteneditoren).
 
 The "Create" and "Import file" buttons are shown to authors, learning resource managers and administrators.
 
@@ -110,7 +110,7 @@ Click "Embed" to create the learning resource.
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Creating Courses >](../learningresources/Creating_Course.md)<br>
 [How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>

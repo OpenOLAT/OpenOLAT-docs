@@ -100,7 +100,7 @@ Wer einen Kurs zurückholen möchte, den der Lauf in den Papierkorb verschoben h
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)
 
 **Weiterführend**<br>
-[Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](Life_cycles_-_Administration/index.de.md)<br>
 [Automatischer Gruppen-Lebenszyklus >](Automatic_Group_Lifecycle.de.md)<br>
 [Autorenbereich - Übersicht >](../../manual_user/area_modules/Authoring/index.de.md)
 

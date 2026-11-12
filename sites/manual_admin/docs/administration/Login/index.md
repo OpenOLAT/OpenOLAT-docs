@@ -3,7 +3,7 @@
 !!! info "frentix customers"
     The entries "Shibboleth" and "LDAP" only appear in the menu if the respective integration is switched on in the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
 
-![Configuration menu Login in the system administration with the areas Security, Password and authentication, Cloud login, Anonymous and external users, Self-registration and SMS](assets/admin_login_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
+![Configuration menu Login in the system administration with the areas Security, Password and authentication, Cloud login, Anonymous and external users, Self-registration and SMS](../assets/admin_login_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
 
 System administrators define how users log in to OpenOlat and register themselves in the adjacent menu of the system administration:<br>
 `Administration > Login`
@@ -20,7 +20,7 @@ Available since | Release 10.2 (2015)
 
 Requirements towards security can vary greatly depending on the institution. Use the security settings to configure the necessary security level while taking the associated risk into account.
 
-[See the details >](../administration/Login_Security.md)<br>
+[See the details >](../../administration/Login_Security.md)<br>
 [To the top of the page ^](#login)
 
 
@@ -29,7 +29,7 @@ Requirements towards security can vary greatly depending on the institution. Use
 The security level can be set here (with or without passkey). The syntax rules for the OpenOlat passwords can also be configured.
 A minimum and a maximum length must be defined as a minimum. In addition, further requirements such as number of letters, upper and lower case, requirements for numbers and special characters as well as certain invalid values can be defined. Under the tab "Password change policies" you can define how often certain users have to change their password.
 
-[See the details >](../administration/Login_Password_and_Authentication.md)<br>
+[See the details >](../../administration/Login_Password_and_Authentication.md)<br>
 [To the top of the page ^](#login)
 
 
@@ -49,7 +49,7 @@ For security reasons, OpenOlat supports only the secure authorization code flow 
 
 System administrators can define whether and to what extent OpenOlat can be used by anonymous guests and external users.
 
-[See the details >](../administration/Guest_and_invitation.md)<br>
+[See the details >](../../administration/Guest_and_invitation.md)<br>
 [To the top of the page ^](#login)
 
 
@@ -57,7 +57,7 @@ System administrators can define whether and to what extent OpenOlat can be used
 
 Here, system administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the field "Validity period of the login data" restricts, for example, how long an account from self-registration stays valid.
 
-[See the details >](../administration/Login_Self-Registration.md)<br>
+[See the details >](../../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)
 
 
@@ -71,8 +71,8 @@ So that users can reset a forgotten password with a code by SMS, you set up an S
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Login Concept >](../../manual_user/login_registration/Login_Concept.md)<br>
-[Login Page >](../../manual_user/login_registration/Login_Page.md)<br>
-[Roles and Rights: Guest access >](../../manual_user/basic_concepts/guest_access.md)
+[Login Concept >](../../../manual_user/login_registration/Login_Concept.md)<br>
+[Login Page >](../../../manual_user/login_registration/Login_Page.md)<br>
+[Roles and Rights: Guest access >](../../../manual_user/basic_concepts/guest_access.md)
 
 [To the top of the page ^](#login)

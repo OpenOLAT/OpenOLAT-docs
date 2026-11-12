@@ -1,6 +1,6 @@
 # Automatischer Gruppen-Lebenszyklus {: #group_lifecycle}
 
-Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung. Der Prozess gleicht dem [automatischen Kontolebenszyklus](Life_cycles_-_Administration.de.md#lifecycle_accounts) und dem [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md).
+Der Gruppen-Lebenszyklus macht es einfach, nicht benutzte Gruppen nach einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen. Eine Gruppe durchläuft dabei fünf Schritte: Erstellung, Status "Aktiv", Inaktivierung, Löschung und unwiderrufliche Löschung. Der Prozess gleicht dem [automatischen Kontolebenszyklus](Life_cycles_-_Administration/index.de.md#lifecycle_accounts) und dem [Kurs-Lebenszyklus](Automatic_Course_Lifecycle.de.md).
 
 ![Fünf Schritte des Gruppen-Lebenszyklus, von der Erstellung bis zur unwiderruflichen Löschung](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" title="Lebenszyklus einer Gruppe" }
 
@@ -122,7 +122,7 @@ Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung au
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Lebenszyklen: Übersicht >](Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](Life_cycles_-_Administration/index.de.md)<br>
 [Automatischer Kurs-Lebenszyklus >](Automatic_Course_Lifecycle.de.md)
 
 **Weiterführend**<br>

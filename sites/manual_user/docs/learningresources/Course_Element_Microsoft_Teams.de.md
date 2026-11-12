@@ -179,7 +179,7 @@ Wer die Online-Termine des Kurses im Blick behalten will, findet sie im Kurskale
 
 ## Online-Termin starten {: #start_meeting}
 
-Damit Teilnehmende einem Online-Termin beitreten können, startet ihn eine Besitzer:in oder Betreuer:in des Kurses auf der Seite des Online-Termins: Tab "Online-Termine", dann "Auswählen". Dafür muss sie in OpenOlat mit ihrem Microsoft-Konto der Organisation angemeldet sein, siehe [Externe Werkzeuge: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration.de.md#_microsoft_teams). Dann zeigt die Seite den Button "Online-Termin starten". Er ist ab dem Beginn abzüglich der Vorlaufzeit aktiv, bei Online-Terminen ohne Datum jederzeit. Läuft der Online-Termin bereits, heisst der Button "Meeting beitreten". Daneben steht der Name, unter dem die Person beitritt.
+Damit Teilnehmende einem Online-Termin beitreten können, startet ihn eine Besitzer:in oder Betreuer:in des Kurses auf der Seite des Online-Termins: Tab "Online-Termine", dann "Auswählen". Dafür muss sie in OpenOlat mit ihrem Microsoft-Konto der Organisation angemeldet sein, siehe [Externe Werkzeuge: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#_microsoft_teams). Dann zeigt die Seite den Button "Online-Termin starten". Er ist ab dem Beginn abzüglich der Vorlaufzeit aktiv, bei Online-Terminen ohne Datum jederzeit. Läuft der Online-Termin bereits, heisst der Button "Meeting beitreten". Daneben steht der Name, unter dem die Person beitritt.
 
 Ohne Microsoft-Anmeldung zeigt die Seite auch Besitzer:innen und Betreuer:innen die Warnung "Sie müssen sich mit einem Microsoft Azure Konto einloggen, um neue MS Teams Meetings eröffnen zu können." Der Button "Meeting beitreten" bleibt dann gesperrt, bis jemand mit Microsoft-Anmeldung den Online-Termin gestartet hat. Daneben steht "(als Gast)". Dasselbe gilt für Teilnehmende, wenn der Online-Termin ihnen das Eröffnen erlaubt.
 
@@ -210,7 +210,7 @@ Bei Fragen zur Bedienung von Microsoft Teams hilft die Microsoft-Hilfe weiter:
 **Auf dieser Seite erwähnt**<br>
 [Modul Microsoft Teams >](../../manual_admin/administration/Teams_module.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Microsoft-Hilfe: Problembehandlung in Microsoft Teams](https://support.microsoft.com/de-de/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
 **Weiterführend**<br>

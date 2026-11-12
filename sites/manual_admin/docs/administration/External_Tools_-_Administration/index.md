@@ -17,7 +17,7 @@ Available since | Release 10.5 (2016)
 
 BigBlueButton is software for online conferences and virtual classrooms. To make web conferences with BigBlueButton possible in OpenOlat, activate and configure BigBlueButton in the system administration under `Administration > External tools > BigBlueButton`.
 
-[See the details >](BigBlueButton_module.md)<br>
+[See the details >](../BigBlueButton_module.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -58,7 +58,7 @@ You can activate and configure the tool if the required licenses are available.
 
     For frentix customers, their customer advisor at frentix takes care of this configuration.
 
-Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, it provides online meetings that participants join directly from OpenOlat. After activation, authors can use the [course element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
+Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, it provides online meetings that participants join directly from OpenOlat. After activation, authors can use the [course element "Microsoft Teams"](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
 
 **Prerequisites for activation:**
 
@@ -72,9 +72,9 @@ Microsoft Teams is the web conferencing solution from Microsoft. In courses and 
 **Configuration in the system administration** under:<br>
 `Administration > External tools > Microsoft Teams`
 
-How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described in the user manual in the section [Roles in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
+How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described in the user manual in the section [Roles in MS Teams](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
 
-[See the details >](Teams_module.md)<br>
+[See the details >](../Teams_module.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -85,7 +85,7 @@ To enable writing and copying files to and from SharePoint and OneDrive in the O
 
 The prerequisite is that the required licenses are available.
 
-[See the details >](SharePoint_OneDrive.md)<br>
+[See the details >](../SharePoint_OneDrive.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -95,7 +95,7 @@ The prerequisite is that the required licenses are available.
 Zoom is software that can be used to hold video conferences, meetings, and webinars.
 To make Zoom meetings possible in OpenOlat, activate and configure Zoom in the system administration under `Administration > External tools > Zoom`.
 
-[See the details >](Zoom.md)<br>
+[See the details >](../Zoom.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -107,7 +107,7 @@ In the system administration you activate and configure LTI 1.3 under:<br>
 
 This allows e.g. external LTI platforms and tools to be connected.
 
-[See the details >](LTI_Integrations.md)<br>
+[See the details >](../LTI_Integrations/index.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -166,7 +166,7 @@ If a hub is no longer offered, for example after the end of the semester, deacti
 
 You find the list "Hub configurations" in the system administration under `Administration > External tools > JupyterHub`. It shows each hub with status, client ID, CPU and RAM. The list opens in the "Active" tab; the "All" tab also shows the inactive hubs, and the "Status" filter limits the list to active or inactive hubs [:octicons-tag-16:{ title="from Release 21.0 (OO-9565)" }](https://track.frentix.com/issue/OO-9565){:target="_blank"}. The column "Applications / Participants" counts the course elements that use the hub. A click on the number lists them with course and number of participants.
 
-![List of hub configurations with the All and Active tabs; the More actions menu of an active hub contains Deactivate](assets/admin_external_tools_jupyterhub_hub_list_v1_en.png){ class="shadow lightbox" title="Hub configurations list in the system administration · 2026.10.20" }
+![List of hub configurations with the All and Active tabs; the More actions menu of an active hub contains Deactivate](../assets/admin_external_tools_jupyterhub_hub_list_v1_en.png){ class="shadow lightbox" title="Hub configurations list in the system administration · 2026.10.20" }
 
 The "More actions" menu (three-dot icon) at the end of each row offers these actions:
 
@@ -177,7 +177,7 @@ The "More actions" menu (three-dot icon) at the end of each row offers these act
 * **Delete**: Is only possible as long as no course element uses the hub. Otherwise OpenOlat reports "Hub configuration in use"; in this case, deactivate the hub.
 
 
-[User manual: Course element JupyterHub >](../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
+[User manual: Course element JupyterHub >](../../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -242,7 +242,7 @@ Mediasite is an automated video platform for video recording, video management a
 
 **LTI version:** The connection to the Mediasite server runs over LTI 1.1 or LTI 1.3 [:octicons-tag-16:{ title="from Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. The version determines which details you enter and how the course owners select the content in the course editor. You receive the details from the operator of the Mediasite server.
 
-LTI 1.3 requires that the module LTI 1.3 is enabled in the system administration under `Administration > External tools > LTI`, see [LTI 1.3 Integrations](LTI_Integrations.md). You manage the Mediasite connection exclusively here; it does not appear in the list of external tools on the LTI page.
+LTI 1.3 requires that the module LTI 1.3 is enabled in the system administration under `Administration > External tools > LTI`, see [LTI 1.3 Integrations](../LTI_Integrations/index.md). You manage the Mediasite connection exclusively here; it does not appear in the list of external tools on the LTI page.
 
 | | LTI 1.1 | LTI 1.3 |
 |---|---|---|
@@ -252,7 +252,7 @@ LTI 1.3 requires that the module LTI 1.3 is enabled in the system administration
 
 **Suppress "Data transmission agreement":** If this option is activated, the content opens for participants without the page "Accepting of data transmission". Course owners with a custom server define this in the course element themselves.
 
-The configuration of the course element is described in the user manual: [Course Element "Mediasite"](../../manual_user/learningresources/Course_Element_Mediasite.md)
+The configuration of the course element is described in the user manual: [Course Element "Mediasite"](../../../manual_user/learningresources/Course_Element_Mediasite.md)
 
 [Documentation for Mediasite >](https://mediasite.com/)<br>
 [To the top of the page ^](#ext_tools)
@@ -326,7 +326,7 @@ In the system administration under `Administration > External tools > Analytics`
 
 In the system administration under `Administration > External tools > AI module` you activate and configure the artificial intelligence tools that can be integrated into OpenOlat.
 
-[See the details >](External_Tools_AI.md)<br>
+[See the details >](../External_Tools_AI.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -339,7 +339,7 @@ In the system administration under `Administration > External tools > AI module`
 
 If Taxonomy Matching (Embeddings) is to run without an external AI provider, use an ONNX embedding model: OpenOlat loads it from a model directory on its own server, needs no API key, and no text leaves the server.
 
-As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](Modules_Taxonomy.md#ai_matching).
+As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](../Modules_Taxonomy.md#ai_matching).
 
 [To the top of the page ^](#ext_tools)
 
@@ -347,7 +347,7 @@ As soon as a model is in the model directory, the system administration shows th
 
 ## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
-In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.
+In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.
 These functions are only available if the switch "PDF Service" is turned on and a service is configured under "Generator" in the system administration under `Administration > External tools > PDF generator`. Without a PDF service, the button "Download as PDF" is missing on the info page. [:octicons-tag-16:{ title="from Release 21.1 (OO-9299)" }](https://track.frentix.com/issue/OO-9299){:target="_blank"}
 
 
@@ -357,7 +357,7 @@ Gotenberg is a PDF generator based on Google Chrome or Chromium and Docker.
 
 You find more information on Gotenberg at [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) and [GitHub](https://github.com/gotenberg/gotenberg).
 
-To learn more about how to install and configure the PDF service Gotenberg, please visit the [installation manual](../installation/gotenbergPdf.md).
+To learn more about how to install and configure the PDF service Gotenberg, please visit the [installation manual](../../installation/gotenbergPdf.md).
 
 
 ### Athena PDF (outdated) {: #athena}
@@ -369,7 +369,7 @@ More information on AthenaPDF can be found at
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
 To learn more about how to install and configure the PDF service AthenaPDF, please visit
-the [installation manual](../installation/athenaPdf.md).
+the [installation manual](../../installation/athenaPdf.md).
 
 [To the top of the page ^](#ext_tools)
 
@@ -377,33 +377,33 @@ the [installation manual](../installation/athenaPdf.md).
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[BigBlueButton module >](BigBlueButton_module.md)<br>
-[Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
-[Microsoft Teams module >](Teams_module.md)<br>
-[SharePoint / OneDrive >](SharePoint_OneDrive.md)<br>
-[Zoom >](Zoom.md)<br>
-[LTI 1.3 Integrations >](LTI_Integrations.md)<br>
+[BigBlueButton module >](../BigBlueButton_module.md)<br>
+[Course Element "Microsoft Teams" >](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Microsoft Teams module >](../Teams_module.md)<br>
+[SharePoint / OneDrive >](../SharePoint_OneDrive.md)<br>
+[Zoom >](../Zoom.md)<br>
+[LTI 1.3 Integrations >](../LTI_Integrations/index.md)<br>
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [Website vitero >](https://www.vitero.com/)<br>
-[Course Element "JupyterHub" >](../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
+[Course Element "JupyterHub" >](../../../manual_user/learningresources/Course_Element_JupyterHub.md)<br>
 [Website card2brain >](https://card2brain.ch/de)<br>
 [Website Edubase >](https://www.edubase.ch)<br>
-[Course Element "Mediasite" >](../../manual_user/learningresources/Course_Element_Mediasite.md)<br>
+[Course Element "Mediasite" >](../../../manual_user/learningresources/Course_Element_Mediasite.md)<br>
 [Documentation for Mediasite >](https://mediasite.com/)<br>
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Website draw.io >](https://www.drawio.com)<br>
-[External tools: AI module >](External_Tools_AI.md)<br>
-[Module Taxonomy >](Modules_Taxonomy.md)<br>
-[General Functions: Info Page >](../../manual_user/learningresources/General_Functions_Infopage.md)<br>
+[External tools: AI module >](../External_Tools_AI.md)<br>
+[Module Taxonomy >](../Modules_Taxonomy.md)<br>
+[General Functions: Info Page >](../../../manual_user/learningresources/General_Functions_Infopage.md)<br>
 [Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>
 [GitHub: Gotenberg >](https://github.com/gotenberg/gotenberg)<br>
-[Install Gotenberg PDF >](../installation/gotenbergPdf.md)<br>
+[Install Gotenberg PDF >](../../installation/gotenbergPdf.md)<br>
 [Website AthenaPDF >](https://www.athenapdf.com)<br>
 [GitHub: AthenaPDF >](https://github.com/arachnys/athenapdf/tree/master/weaver)<br>
-[Install AthenaPDF >](../installation/athenaPdf.md)
+[Install AthenaPDF >](../../installation/athenaPdf.md)
 
 **Further reading**<br>
-[Modules: Overview >](Modules.md)<br>
-[Virtual classrooms >](../../manual_user/basic_concepts/Virtual_classrooms.md)
+[Modules: Overview >](../Modules/index.md)<br>
+[Virtual classrooms >](../../../manual_user/basic_concepts/Virtual_classrooms.md)
 
 [To the top of the page ^](#ext_tools)

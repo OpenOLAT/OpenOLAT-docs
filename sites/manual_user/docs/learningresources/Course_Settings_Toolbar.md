@@ -147,7 +147,7 @@ In the calendar of the toolbar, owners of the course create and edit events. Coa
 In the course element "Calendar" you set the rights separately: in the course editor, in the tab "Calendar configuration", you define under "Edit events" whether coaches and participants may also edit events there. This is the way for a course without a toolbar.<br>
 [More >](../learningresources/Course_Element_Calendar.md)
 
-The checkbox "Course calendar" and with it the option for coaches appear if system administrators have switched on the calendar and the checkbox "Enable course tool" in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). If an external system manages the calendar of the course, the option cannot be changed. When a course is copied or imported, OpenOlat takes over the setting.
+The checkbox "Course calendar" and with it the option for coaches appear if system administrators have switched on the calendar and the checkbox "Enable course tool" in the [Core functions](../../manual_admin/administration/Core_functions/index.md#calendar_administration). If an external system manages the calendar of the course, the option cannot be changed. When a course is copied or imported, OpenOlat takes over the setting.
 
 ---
 
@@ -335,7 +335,7 @@ The "Events" icon appears automatically in the toolbar as soon as the appointmen
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Element "Video live stream" >](Course_Element_Video_Livestream.md)<br>
-[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Course Element "Participant list" >](Course_Element_Participant_List.md)<br>
 [Course Element "Info messages" >](Course_Element_Notifications.md)<br>
 [User tools: E-Mail >](../personal_menu/E-Mail.md)<br>

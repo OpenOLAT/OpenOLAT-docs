@@ -53,6 +53,6 @@ The data is only transmitted for course elements with the display "Embedded (sou
 [Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)
 
 **Further reading**<br>
-[Modules: Overview >](Modules.md)
+[Modules: Overview >](Modules/index.md)
 
 [To the top of the page ^](#external_page)

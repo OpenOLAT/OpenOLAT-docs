@@ -27,7 +27,7 @@ Dort aktivieren sie den Kursbaustein und bei Bedarf die Option Multistream für 
 
 ![Einstellungen des Kursbausteins Video Livestream mit Initialwerten für Vor- und Nachlaufzeit und der Auswahl des Streams](assets/course_element_livestream_admin_settings_v2_de.png){ class="shadow lightbox" title="Seite Livestream im Menü Module · 2026.11.03" }
 
-Die beiden weiteren Tabs der Seite, "URL Vorlagen" und "Paella player", beschreibt das Administrationshandbuch unter [Modul Livestream](../../manual_admin/administration/Modules.de.md#livestream).
+Die beiden weiteren Tabs der Seite, "URL Vorlagen" und "Paella player", beschreibt das Administrationshandbuch unter [Modul Livestream](../../manual_admin/administration/Modules/index.de.md#livestream).
 
 
 ## Tab Konfiguration
@@ -58,7 +58,7 @@ Besitzer:innen und Betreuer:innen sehen zusätzlich den Tab "Statistik". Er list
 [Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)<br>
 [Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../personal_menu/Calendar.de.md)<br>
-[Module: Übersicht >](../../manual_admin/administration/Modules.de.md)
+[Module: Übersicht >](../../manual_admin/administration/Modules/index.de.md)
 
 [Zum Seitenanfang ^](#livestream)
 

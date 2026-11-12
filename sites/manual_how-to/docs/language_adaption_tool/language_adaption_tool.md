@@ -196,7 +196,7 @@ The list always applies to the language selected in the field "Language". Open t
 
 If you want to search within your own adaptations only, select the option "Adaptations" at "search in" in the section "Search".
 
-There is no export of the translation list, neither as a table nor as a file. If you want to keep the list, print the displayed translation list from the browser, for example as a PDF. After clicking "Adapt", you step through the filtered entries with "Next" and "Back" without changing anything. The button "Export language packages" in the system administration under `Administration > Core functions > Language and region` exports whole system languages as a language package for another OpenOlat instance. Your adaptations are not included. Find out more under [Language and region](../../manual_admin/administration/Core_functions.md).
+There is no export of the translation list, neither as a table nor as a file. If you want to keep the list, print the displayed translation list from the browser, for example as a PDF. After clicking "Adapt", you step through the filtered entries with "Next" and "Back" without changing anything. The button "Export language packages" in the system administration under `Administration > Core functions > Language and region` exports whole system languages as a language package for another OpenOlat instance. Your adaptations are not included. Find out more under [Language and region](../../manual_admin/administration/Core_functions/index.md).
 
 !!! tip "Tip"
 
@@ -264,7 +264,7 @@ For this reason, check your adaptations after a larger update. You find the comp
 ## Further information {: #further_information}
 
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
-[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Customizing: Overview >](../../manual_admin/administration/Customizing.md)
 
 [To the top of the page ^](#how_to_use)

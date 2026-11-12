@@ -23,7 +23,7 @@ You can search for an existing video or series directly in the search field by e
 
 ## Further information {: #further_information}
 
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course Element "Video Livestream" >](Course_Element_Video_Livestream.md)
 
 [To the top of the page ^](#opencast)

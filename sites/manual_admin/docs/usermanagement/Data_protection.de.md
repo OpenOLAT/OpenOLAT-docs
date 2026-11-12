@@ -28,7 +28,7 @@ Der automatische Kontolebenszyklus ist das Instrument für die fristgerechte Lö
 
 Die Deaktivierung sperrt nur die Anmeldung. Das Konto bleibt mit allen Daten erhalten und lässt sich reaktivieren. Erst die Löschung anonymisiert das Konto und entfernt Daten. Die letzte Stufe läuft je nach Konfiguration automatisch ab oder wird ausschliesslich manuell ausgelöst.
 
-[Details zum automatischen Kontolebenszyklus >](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+[Details zum automatischen Kontolebenszyklus >](../administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts)
 
 [Zum Seitenanfang ^](#data_protection)
 
@@ -139,7 +139,7 @@ E-Mail-Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative 
 [Benutzerverwaltung >](index.de.md)<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
 [REST API >](../administration/REST_API.de.md)<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Nutzungsbedingungen >](../../manual_user/basic_concepts/Terms_Of_Use.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)

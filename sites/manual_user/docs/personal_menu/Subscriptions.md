@@ -134,7 +134,7 @@ We recommend the following search terms: _RSS reader_, _RSS newsreader_, _feedre
 **Further reading**<br>
 [Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Landing pages >](../../manual_admin/administration/Landing_pages.md)<br>
-[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Wikipedia article on RSS >](http://en.wikipedia.org/wiki/Rss_feed)
 

@@ -1,10 +1,10 @@
 # Life cycles - Overview {: #lifecycles}
 
-![The three entries Groups, Courses and Account are listed under the Life cycles menu item: Life cycles menu in the system administration](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![The three entries Groups, Courses and Account are listed under the Life cycles menu item: Life cycles menu in the system administration](../assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 Under `Administration > Life cycles`, you set up three of the four life cycles of OpenOlat in the system administration: the group life cycle, the course life cycle and the automatic user lifecycle. Each has its own trigger and its own steps.
 
-The fourth, the implementation life cycle, is not in this menu. It takes the implementations of the Course Planner through their status values and does not delete anything. The element type specifies its rules, and the individual implementation can override them, see [Configure automation](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation). [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
+The fourth, the implementation life cycle, is not in this menu. It takes the implementations of the Course Planner through their status values and does not delete anything. The element type specifies its rules, and the individual implementation can override them, see [Configure automation](../../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation). [:octicons-tag-16:{ title="from Release 21.0 (OO-9452)" }](https://track.frentix.com/issue/OO-9452)
 
 ## Profile
 
@@ -16,7 +16,7 @@ Available since | Release 16.1 (2021)
 
 ## Groups [:octicons-tag-16:{ title="from Release 16.1 (OO-5190)" }](https://track.frentix.com/issue/OO-5190) {: #lifecycle_groups}
 
-In OpenOlat Administration, settings for the [group life cycle](Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
+In OpenOlat Administration, settings for the [group life cycle](../Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
 
 * Inactivation
 * Deletion
@@ -24,14 +24,14 @@ In OpenOlat Administration, settings for the [group life cycle](Automatic_Group_
 
 The trigger is the time without a visit by the group coaches or group participants. The group life cycle applies either to all groups or only to groups without included courses. Externally managed groups can also be excluded.
 
-The page [Automatic Group Life Cycle](Automatic_Group_Lifecycle.md) describes the steps and settings.
+The page [Automatic Group Life Cycle](../Automatic_Group_Lifecycle.md) describes the steps and settings.
 
 [To the top of the page ^](#lifecycles)
 
 
 ## Courses {: #lifecycle_courses}
 
-In the [course life cycle](Automatic_Course_Lifecycle.md) you can define how a course leaves operation after the course end:
+In the [course life cycle](../Automatic_Course_Lifecycle.md) you can define how a course leaves operation after the course end:
 
 * whether and when a course is automatically set to "Finished" status,
 * when it is then moved to the trash,
@@ -41,7 +41,7 @@ The periods count from the end date of the execution period, for the permanent d
 
 In addition, you can enforce the notification of the owners when someone finishes or deletes a course in the authoring area.
 
-The page [Automatic Course Life Cycle](Automatic_Course_Lifecycle.md) describes the steps, configuration, confirmation before saving and status display.
+The page [Automatic Course Life Cycle](../Automatic_Course_Lifecycle.md) describes the steps, configuration, confirmation before saving and status display.
 
 [To the top of the page ^](#lifecycles)
 
@@ -62,9 +62,9 @@ If the expiry date falls before the date of the automatic inactivation, the entr
 
 Each of the two areas states in its explanatory text the time at which OpenOlat runs the respective process daily.
 
-An account passes through the states active, reactivated within the grace period, inactive and deleted. Which entries an account shows in which state is described on the page [Manage user settings](../usermanagement/Configure_User.md#automatic_user_lifecycle).
+An account passes through the states active, reactivated within the grace period, inactive and deleted. Which entries an account shows in which state is described on the page [Manage user settings](../../usermanagement/Configure_User.md#automatic_user_lifecycle).
 
-![The two processes with their triggers, below them the chain of states from active to deleted and the three places where the entries appear](assets/admin_lifecycle_account_processes_v1_en.svg){ class="shadow lightbox" title="Account expiration and automatic user lifecycle" }
+![The two processes with their triggers, below them the chain of states from active to deleted and the three places where the entries appear](../assets/admin_lifecycle_account_processes_v1_en.svg){ class="shadow lightbox" title="Account expiration and automatic user lifecycle" }
 
 ### The three steps at a glance {: #lifecycle_accounts_variants}
 
@@ -106,7 +106,7 @@ The 30 days are set system-wide and apply to all accounts.
 
 ### Deletion and deleted accounts {: #account_deletion}
 
-The deactivation leaves the data in place. Only the deletion removes it: it deletes the password irrevocably and takes the person out of all groups and roles, see [Delete user](../usermanagement/Delete_User.md).
+The deactivation leaves the data in place. Only the deletion removes it: it deletes the password irrevocably and takes the person out of all groups and roles, see [Delete user](../../usermanagement/Delete_User.md).
 
 The record itself remains in anonymised form. OpenOlat replaces the login name with an ID of the form "del_884736" and sets the status to "Deleted". This is necessary because objects such as forum posts still refer to the account. You find the anonymised accounts under:<br>
 `User management > Status > Deleted users`
@@ -119,16 +119,16 @@ An account with the status "Active and not deletable" is excluded from deletion 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
-[Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
-[Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)<br>
-[Manage user settings >](../usermanagement/Configure_User.md)<br>
-[Delete user >](../usermanagement/Delete_User.md)
+[Course Planner: Implementations >](../../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
+[Automatic Group Life Cycle >](../Automatic_Group_Lifecycle.md)<br>
+[Automatic Course Life Cycle >](../Automatic_Course_Lifecycle.md)<br>
+[Manage user settings >](../../usermanagement/Configure_User.md)<br>
+[Delete user >](../../usermanagement/Delete_User.md)
 
 **Further reading**<br>
-[Account search >](../usermanagement/Search_Users.md)<br>
-[Create user >](../usermanagement/Create_User.md)<br>
-[How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
-[Module Course Planner >](Modules_Course_Planner.md)
+[Account search >](../../usermanagement/Search_Users.md)<br>
+[Create user >](../../usermanagement/Create_User.md)<br>
+[How do I manage lifecycles of groups, courses or user accounts? >](../../../manual_how-to/lifecycle/lifecycle.md)<br>
+[Module Course Planner >](../Modules_Course_Planner.md)
 
 [To the top of the page ^](#lifecycles)

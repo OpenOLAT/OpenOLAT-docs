@@ -44,7 +44,7 @@ Was Sie im Tab "Rollen-Mapping" speichern, gilt vor der Serverkonfiguration. Fü
 
 **Weiterführend**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI 1.3 Integrationen >](../administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../administration/LTI_Integrations/index.de.md)<br>
 [LTI - Externe Werkzeuge >](../administration/LTI_External_tools.de.md)<br>
 [LTI - Externe Plattformen >](../administration/LTI_External_platforms.de.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.de.md)<br>

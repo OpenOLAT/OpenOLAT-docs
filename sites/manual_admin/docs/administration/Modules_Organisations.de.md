@@ -182,7 +182,7 @@ Ausbildungsverantwortliche sehen im Coaching dieselbe Übersicht wie Linienvorge
 Bucht eine Person ein Angebot mit Rechnung, wählt sie eine Rechnungsadresse ihrer Organisation aus, statt die Adresse selbst einzugeben. Diese Rechnungsadressen hinterlegen Sie hier je Organisation mit "Erstellen". Das Formular öffnet sich im Dialog "Rechnungsadresse bearbeiten", auch beim Anlegen einer neuen Adresse. Zur Auswahl stehen der Person die aktiven Rechnungsadressen der Organisationen, in denen sie Benutzer:in ist.
 
 Der Tab erscheint nur, wenn die Angebotsart "Rechnung" eingeschaltet ist. Sie wählen sie in der System-Administration unter "Verfügbare Angebotsart" aus:<br>
-`Administration > Core-Konfiguration > Zugangskontrolle`, siehe [Core-Konfiguration](Core_functions.de.md).
+`Administration > Core-Konfiguration > Zugangskontrolle`, siehe [Core-Konfiguration](Core_functions/index.de.md).
 
 Eine Rechnungsadresse besteht aus den Feldern "Identifikator", "Name / Firma", "Zusatz / Abteilung", "Adresszeile 1" bis "Adresszeile 4", "Postfach", "Region", "PLZ", "Ort" und "Land". Pflichtfelder sind "Identifikator", "Name / Firma", "Adresszeile 1", "Ort" und "Land".
 
@@ -241,7 +241,7 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 [REST API >](REST_API.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)<br>
 [Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)<br>
-[Core-Konfiguration: Übersicht >](Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](Core_functions/index.de.md)<br>
 [Persönliche Werkzeuge: Buchungsaufträge >](../../manual_user/personal_menu/Bookings.de.md)<br>
 [Coaching - Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](e-Assessment_Credit_Points.de.md)<br>

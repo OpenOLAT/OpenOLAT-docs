@@ -88,7 +88,7 @@ For part of this information, restrictions can be set in the system administrati
 There you specify which system roles are allowed to view the administrative user properties, for example during account searches or in lists. Which user properties are considered administrative is configured in the user properties.
 
 If you have any questions, please contact your system administrators.<br>
-You can find more information here: [Data Protection Module (Administration) >](../../manual_admin/administration/Modules.md#data_privacy)
+You can find more information here: [Data Protection Module (Administration) >](../../manual_admin/administration/Modules/index.md#data_privacy)
 
 [To the top of the page ^](#legal_consents)
 
@@ -176,7 +176,7 @@ In OpenOlat, all external tools are configured in the system administration unde
 
 ## Clarification 9: Connected platforms {: #LTI}
 
-With OpenOlat, it is possible to access courses that are technically hosted on a different platform (another OpenOlat instance or another LMS). The technology for this is provided by the [LTI connection](../../manual_admin/administration/LTI_Integrations.md). This is similar to an external page. However, it is not just a single page, but entire courses that appear as if they were part of your own LMS.
+With OpenOlat, it is possible to access courses that are technically hosted on a different platform (another OpenOlat instance or another LMS). The technology for this is provided by the [LTI connection](../../manual_admin/administration/LTI_Integrations/index.md). This is similar to an external page. However, it is not just a single page, but entire courses that appear as if they were part of your own LMS.
 
 Data is also exchanged between the connected platforms, subject to strict security measures. It may also be necessary to determine whether additional information and consent from participants are required for particularly sensitive data.
 
@@ -211,8 +211,8 @@ Data is also exchanged between the connected platforms, subject to strict securi
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md)<br>
-[Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
-[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)
+[Modules: Overview >](../../manual_admin/administration/Modules/index.md)<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)
 
 **Further reading**<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>

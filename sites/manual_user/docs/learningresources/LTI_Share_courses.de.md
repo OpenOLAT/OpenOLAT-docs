@@ -27,7 +27,7 @@ Die Plattform muss vorher in der System-Administration als externe Plattform ein
 
 ### Voraussetzungen in der System-Administration {: #conditions_admin}
 
-Die externe Plattform erfassen Systemadministrator:innen in der System-Administration von OpenOlat unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
+Die externe Plattform erfassen Systemadministrator:innen in der System-Administration von OpenOlat unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe eines Kurses vornehmen darf, legt die System-Administration fest: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations/index.de.md#deployments)<br>
 Richten Sie am besten beide Systeme gleichzeitig ein, weil bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 ### Voraussetzungen in der LTI-Freigabe eines Kurses [:octicons-tag-16:{ title="ab Release 15.5 (OO-5206)" }](https://track.frentix.com/issue/OO-5206) {: #conditions_share}
@@ -53,7 +53,7 @@ Ein kopierter OpenOlat-Kurs übernimmt die LTI-Freigabe des Originals nicht. Er 
 
 Moodle schickt bei jedem Aufruf Angaben zur Person und zum Kurskontext an OpenOlat. OpenOlat schickt nur eine Sache zurück: das Kursergebnis der Person.
 
-Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
+Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations/index.de.md#supported_services).
 
 
 ### Von Moodle zu OpenOlat {: #data_exchange_from_moodle}
@@ -148,7 +148,7 @@ Auch für den Kursbaustein "LTI-Seite" kann das Bewertungsformular ausgefüllt u
 
 **Auf dieser Seite erwähnt**<br>
 [Wie binde ich einen OpenOlat-Kurs in Moodle ein? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)<br>
-[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations/index.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
 **Weiterführend**<br>

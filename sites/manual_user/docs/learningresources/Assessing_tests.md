@@ -262,7 +262,7 @@ You find the download in the correction tool of a course and in the [correction 
 
 !!! tip "Prerequisite"
 
-    The download requires the switch "PDF Service" to be turned on in the system administration under `Administration > External tools > PDF generator`, see [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator).
+    The download requires the switch "PDF Service" to be turned on in the system administration under `Administration > External tools > PDF generator`, see [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator).
 
 
 ## Resetting or invalidating tests [:octicons-tag-16:{ title="from Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
@@ -295,7 +295,7 @@ The "Preview" tab shows the test from the participants' point of view. The "Comm
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Set up a test >](Course_Element_Test/Test_Setup.md)<br>
 [Members management >](Members_management.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course Reminders >](Course_Reminders.md)
 
 **Further**<br>

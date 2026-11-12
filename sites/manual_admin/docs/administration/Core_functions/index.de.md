@@ -1,6 +1,6 @@
 # Core-Konfiguration: Übersicht {: #core_config}
 
-![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der Administration · 2026.10.22" }
+![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](../assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der Administration · 2026.10.22" }
 
 In der Core-Konfiguration legen Systemadministrator:innen die Grundeinstellungen fest, die für das ganze System gelten: von Sprache und Startseite über E-Mail und Dateien bis zu den Schnittstellen, über die andere Systeme auf OpenOlat zugreifen. Die Abschnitte dieser Seite folgen der Reihenfolge des Menüs. Sie finden das Menü in der System-Administration unter:<br>
 `Administration > Core-Konfiguration`
@@ -28,7 +28,7 @@ Im Abschnitt "Formate" legen Systemadministrator:innen das "Zahlenformat" fest. 
 
 Andere Systeme wie eine Schülerverwaltung oder eine externe Kursverwaltung tauschen ihre Daten über die REST API (Representational State Transfer) mit OpenOlat aus. Hier schalten Systemadministrator:innen die REST API ein und aus, bestimmen die extern verwalteten Objekte und werten im Tab "Audit-Log" die protokollierten Aufrufe aus.
 
-[Zu den Details >](../administration/REST_API.de.md)<br>
+[Zu den Details >](../../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -44,7 +44,7 @@ Der MCP-Server ist ausgeschaltet, bis Systemadministrator:innen ihn mit dem Scha
 * **"Tokens"**: alle MCP-Tokens aller Personen. Ein Token, das Systemadministrator:innen hier widerrufen, funktioniert innerhalb einer Minute nicht mehr.
 * **"Audit-Log"**: die protokollierten Aufrufe des MCP-Servers auswerten.
 
-Personen mit Zugang über ein Profil erstellen ihre Tokens selbst in den [Einstellungen](../../manual_user/personal_menu/Settings.de.md) des persönlichen Menüs, im Tab "MCP". Ist der MCP-Server eingeschaltet, sehen Administrator:innen und Benutzerverwalter:innen die Tokens, Profile und wirksamen Tools einer Person in der Benutzerverwaltung unter:<br>
+Personen mit Zugang über ein Profil erstellen ihre Tokens selbst in den [Einstellungen](../../../manual_user/personal_menu/Settings.de.md) des persönlichen Menüs, im Tab "MCP". Ist der MCP-Server eingeschaltet, sehen Administrator:innen und Benutzerverwalter:innen die Tokens, Profile und wirksamen Tools einer Person in der Benutzerverwaltung unter:<br>
 `Benutzerverwaltung > "Benutzername" > Tab "MCP"`
 
 [Zum Seitenanfang ^](#core_config)
@@ -55,16 +55,16 @@ Personen mit Zugang über ein Profil erstellen ihre Tokens selbst in den [Einste
 
 Damit jede Person nach dem Login dort beginnt, wo sie arbeitet, geben Systemadministrator:innen für Rollen oder für Benutzer:innen mit bestimmten Benutzerattributen eine Startseite vor.
 
-[Zu den Details >](../administration/Landing_pages.de.md)<br>
+[Zu den Details >](../../administration/Landing_pages.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
 
 ## Persönliche Werkzeuge [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
-Welche [Werkzeuge](../../manual_user/personal_menu/index.de.md) den Benutzer:innen überhaupt zur Verfügung stehen, legen Systemadministrator:innen in der Liste "Werkzeug zur Verfügung" fest. In der Liste "Voreinstellung" wählen sie, welche dieser Werkzeuge standardmässig als Symbol in der Menüleiste erscheinen.
+Welche [Werkzeuge](../../../manual_user/personal_menu/index.de.md) den Benutzer:innen überhaupt zur Verfügung stehen, legen Systemadministrator:innen in der Liste "Werkzeug zur Verfügung" fest. In der Liste "Voreinstellung" wählen sie, welche dieser Werkzeuge standardmässig als Symbol in der Menüleiste erscheinen.
 
-![Alle achtzehn Werkzeuge der Liste Werkzeug zur Verfügung gesetzt: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge" } ![Nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Voreinstellung auf der Seite Persönliche Werkzeuge" }
+![Alle achtzehn Werkzeuge der Liste Werkzeug zur Verfügung gesetzt: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](../assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge" } ![Nur Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](../assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" title="Liste Voreinstellung auf der Seite Persönliche Werkzeuge" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -80,7 +80,7 @@ Nutzt eine Organisation den Kalender nicht oder nur an einzelnen Orten, schalten
 * "Kurswerkzeug einschalten" für den Kalender als Werkzeug eines Kurses
 * "Kursbaustein einschalten" für den Kursbaustein "Kalender"
 
-![Alle fünf Checkboxen von Kalender einschalten bis Kursbaustein einschalten gesetzt](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" title="Seite Kalenderkonfiguration in der Core-Konfiguration" }
+![Alle fünf Checkboxen von Kalender einschalten bis Kursbaustein einschalten gesetzt](../assets/Kalender_admin.png){ class="shadow lightbox" width="450px" title="Seite Kalenderkonfiguration in der Core-Konfiguration" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -100,7 +100,7 @@ Der Schalter "WebSocket" auf der Seite "WebSocket Konfiguration" schaltet die Ve
 
 Wie OpenOlat E-Mails verschickt und wie sie aussehen, legen Systemadministrator:innen hier fest. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
 
-[Zu den Details >](../administration/E-Mail_Settings.de.md)<br>
+[Zu den Details >](../../administration/E-Mail_Settings.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -109,9 +109,9 @@ Wie OpenOlat E-Mails verschickt und wie sie aussehen, legen Systemadministrator:
 
 Wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbewahrt und wann der Papierkorb endgültig geleert wird, legen Systemadministrator:innen hier fest. Die Seite hat fünf Tabs: "Überblick", "Konfiguration", "Quotas", "Grosse Dateien" und "Papierkorb".
 
-![Fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb, der Tab Überblick ist gewählt](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" title="Seite Dateien und Ordner in der Core-Konfiguration" }
+![Fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb, der Tab Überblick ist gewählt](../assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" title="Seite Dateien und Ordner in der Core-Konfiguration" }
 
-[Zu den Details >](../administration/Files_and_Folders.de.md)<br>
+[Zu den Details >](../../administration/Files_and_Folders.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -120,7 +120,7 @@ Wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbe
 
 Über WebDAV (Web-based Distributed Authoring and Versioning) greifen Benutzer:innen von ihrem Computer aus auf ihre Ordner in OpenOlat zu. Hier schalten Systemadministrator:innen den WebDAV-Zugang systemweit ein und legen fest, wie er funktioniert.
 
-[Zu den Details >](../administration/WebDAV.de.md)<br>
+[Zu den Details >](../../administration/WebDAV.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -160,19 +160,19 @@ Damit die Volltextsuche auch Inhalte von Dateien findet, indexiert OpenOlat dies
 Wer ein Forum, einen Ordner oder ein anderes Element abonniert hat, erhält die Neuigkeiten per E-Mail: OpenOlat verschickt je Person eine einzige E-Mail, die die Neuigkeiten aus allen ihren Abonnements auflistet. Hier sehen Sie, wann OpenOlat diese Benachrichtigungen verschickt, und können einen Versand sofort auslösen. Sie finden die Seite in der System-Administration unter:<br>
 `Administration > Core-Konfiguration > Benachrichtigungen`
 
-![Status eingeschaltet, Regel 0 10 */2 * * ? für den Versand alle zwei Stunden und Button Benachrichtigungen auslösen, alle drei markiert](assets/admin_core_config_notifications_v1_de.png){ class="shadow lightbox" title="Seite E-Mail-Benachrichtigungen auslösen in der Core-Konfiguration" }
+![Status eingeschaltet, Regel 0 10 */2 * * ? für den Versand alle zwei Stunden und Button Benachrichtigungen auslösen, alle drei markiert](../assets/admin_core_config_notifications_v1_de.png){ class="shadow lightbox" title="Seite E-Mail-Benachrichtigungen auslösen in der Core-Konfiguration" }
 
 Den Versand steuern drei Dinge:
 
 * **Zeitplan des Versands**: Die Seite zeigt an, ob die Benachrichtigungen eingeschaltet sind und nach welcher Regel in Cron-Syntax der Versand läuft. Im Standard läuft er alle zwei Stunden, jeweils zehn Minuten nach der vollen Stunde (00.10, 02.10, 04.10 Uhr usw.). In der Oberfläche lassen sich weder die Regel noch das Ein- und Ausschalten ändern.
 * **Sofortiger Versand**: Der Button "Benachrichtigungen auslösen" startet den Versand sofort, ohne den nächsten Termin abzuwarten. Auch dabei erhalten nur Benutzer:innen eine E-Mail, deren Intervall abgelaufen ist und für die es Neuigkeiten gibt.
-* **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung unter `Benutzerverwaltung > "Benutzername" > Tab "Systemeinstellungen"`, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md).
+* **Intervall pro Person**: Wie oft eine Person höchstens eine E-Mail erhält, legt sie in ihren [Einstellungen](../../../manual_user/personal_menu/Settings.de.md#notification_interval) unter "E-Mail-Benachrichtigung" selbst fest, von "alle zwei Stunden" bis "monatlich". Mit "ausgeschaltet" erhält sie keine Benachrichtigungen per E-Mail mehr. Wählt sie nichts, gilt "täglich". Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen ändern das Intervall einer Person auch in der Benutzerverwaltung unter `Benutzerverwaltung > "Benutzername" > Tab "Systemeinstellungen"`, siehe [Kontoeinstellungen verwalten](../../usermanagement/Configure_User.de.md).
 
 Der Zeitplan bestimmt nur, wann OpenOlat prüft, nicht wer eine E-Mail erhält. Bei jedem Lauf erhält eine Person nur dann eine E-Mail, wenn ihr Intervall seit der letzten E-Mail abgelaufen ist und es in einem ihrer Abonnements etwas Neues gibt. Gibt es nichts Neues, verschickt OpenOlat keine E-Mail. Abonnements, die eine Person ausgesetzt hat, bleiben unberücksichtigt.
 
 Die beiden Einstellungen ergänzen sich, sie überschreiben sich nicht. Wer "ausgeschaltet" gewählt hat, erhält keine E-Mail, auch wenn der Versand der Instanz läuft. Ist der Versand der Instanz ausgeschaltet, erhält niemand eine E-Mail, gleich welches Intervall eine Person gewählt hat. In beiden Fällen gehen keine Neuigkeiten verloren: Jede Person sieht sie selbst unter `Persönliches Menü > Abonnements > Tab "Neuigkeiten"` und über das Glockensymbol im jeweiligen Kursbaustein.
 
-![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
+![Benutzer:innen können die E-Mail mit «ausgeschaltet» unterdrücken, obwohl die Administration den Versand eingerichtet hat](../assets/notifications_delivery_v1_de.svg){ class="shadow lightbox" title="Wer bestimmt, ob eine Benachrichtigung ankommt?" }
 
 [Zum Seitenanfang ^](#core_config)
 
@@ -190,16 +190,16 @@ GUI-Einstellungen (Graphical User Interface) halten fest, wie eine Person die Ob
 
 Eine Lizenz zeigt, unter welchen Bedingungen andere eine Datei, eine Frage oder eine Lernressource verwenden dürfen. Lizenzen sind in OpenOlat optional. Hier schalten Systemadministrator:innen sie für Ordner, den Fragenpool und Lernressourcen ein und verwalten die Lizenztypen.
 
-[Zu den Details >](../administration/Licenses.de.md)<br>
+[Zu den Details >](../../administration/Licenses.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Persönliche Werkzeuge: Abonnements >](../../manual_user/personal_menu/Subscriptions.de.md)<br>
-[Module: Übersicht >](Modules.de.md)<br>
-[System >](System.de.md)<br>
-[Login: Übersicht >](Login.de.md)
+[Persönliche Werkzeuge: Abonnements >](../../../manual_user/personal_menu/Subscriptions.de.md)<br>
+[Module: Übersicht >](../Modules/index.de.md)<br>
+[System >](../System.de.md)<br>
+[Login: Übersicht >](../Login/index.de.md)
 
 [Zum Seitenanfang ^](#core_config)

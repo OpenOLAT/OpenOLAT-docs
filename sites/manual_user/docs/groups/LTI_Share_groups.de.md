@@ -41,7 +41,7 @@ Ist OpenOlat die Plattform, binden Sie das externe Tool in einem Kurs über den 
 
 ## Voraussetzungen {: #conditions}
 
-Die externe Plattform erfassen Systemadministrator:innen in der System-Administration von OpenOlat unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe einer Gruppe hinzufügen darf, legt die System-Administration fest. Je nach Einstellung sind das Administrator:innen, Gruppenverwalter:innen und Gruppenbetreuer:innen mit Autorenrecht: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations.de.md#deployments)<br>
+Die externe Plattform erfassen Systemadministrator:innen in der System-Administration von OpenOlat unter `Administration > Externe Werkzeuge > LTI > Tab "Externe Plattformen"`. Auf der Gegenseite braucht es ebenfalls einen Administrator-Zugang zum anderen LMS. Wer die LTI-Freigabe einer Gruppe hinzufügen darf, legt die System-Administration fest. Je nach Einstellung sind das Administrator:innen, Gruppenverwalter:innen und Gruppenbetreuer:innen mit Autorenrecht: [Wer kann Deployments hinzufügen?](../../manual_admin/administration/LTI_Integrations/index.de.md#deployments)<br>
 Richten Sie am besten beide Systeme gleichzeitig ein, weil bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 [Zum Seitenanfang ^](#LTI_access_to_a_group)
@@ -88,7 +88,7 @@ Die Plattform schickt bei jedem Aufruf Vorname, Nachname, E-Mail-Adresse, Sprach
 
 Ergebnisse überträgt OpenOlat nur aus einem Kurs mit LTI-Freigabe an die Plattform, nicht aus einer Gruppe. Den LTI-Dienst für Namen und Rollen (Names and Role Provisioning Service, NRPS) fragt OpenOlat nicht ab. Eine Person kommt deshalb erst in die Gruppe, wenn sie die Gruppe selbst aufruft.
 
-Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations.de.md#supported_services).
+Welche LTI-Dienste OpenOlat als Tool und als Plattform unterstützt, zeigt die Übersicht [Unterstützte LTI-Dienste](../../manual_admin/administration/LTI_Integrations/index.de.md#supported_services).
 
 [Zum Seitenanfang ^](#LTI_access_to_a_group)
 
@@ -121,7 +121,7 @@ Für den Verbindungstest aus Schritt 5 rufen Sie die Gruppe in Moodle über den 
 [Gruppenadministration >](Group_Administration/index.de.md)<br>
 [Wie binde ich einen OpenOlat-Kurs in Moodle ein? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)<br>
-[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations.de.md)<br>
+[LTI 1.3 Integrationen >](../../manual_admin/administration/LTI_Integrations/index.de.md)<br>
 [LTI-Zugang zu einem Kurs konfigurieren >](../learningresources/LTI_Share_courses.de.md)
 
 **Weiterführend**<br>

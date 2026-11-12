@@ -54,7 +54,7 @@ If the account carries an expiry date, the tab shows it under "Account expiratio
 
 The "Account" tab shows the state of an account and the point it has reached in the automatic user lifecycle. Here you judge whether and when OpenOlat deactivates or deletes an account automatically, and here you set it to inactive manually.
 
-Administrators, user managers, roles managers and principals reach the tab; principals do not see the "Status" field. Which fields it shows depends on the role of the edited account and on the toggles of the automatic user lifecycle, see [Life cycles: Account](../administration/Life_cycles_-_Administration.md#lifecycle_accounts).
+Administrators, user managers, roles managers and principals reach the tab; principals do not see the "Status" field. Which fields it shows depends on the role of the edited account and on the toggles of the automatic user lifecycle, see [Life cycles: Account](../administration/Life_cycles_-_Administration/index.md#lifecycle_accounts).
 
 #### User type {: #account_type }
 
@@ -90,7 +90,7 @@ If an expiry date is set, this field shows the remaining time in the format "In 
 
 #### Automatic user lifecycle {: #automatic_user_lifecycle }
 
-This section shows how the system-wide automatic user lifecycle affects this account. It is omitted for guest accounts. OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration.md#account_reactivation). Which entries appear depends on the state of the account:
+This section shows how the system-wide automatic user lifecycle affects this account. It is omitted for guest accounts. OpenOlat deactivates an account that does not log in within the configured period. The interface calls this step "Inactivation", and the account then carries the status "Inactive", see [Deactivation and reactivation](../administration/Life_cycles_-_Administration/index.md#account_reactivation). Which entries appear depends on the state of the account:
 
 | State | Entry | Meaning |
 |-------|-------|---------|
@@ -307,7 +307,7 @@ Administrators, user managers and roles managers reach the tab.
 ### Relations [:octicons-tag-16:{ title="from Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 If a superior, a parent or a person responsible for training is to receive rights towards another person, you define this relation between the two accounts in the "Relations" tab. The prerequisite is that roles for person to person are defined in the system administration. These roles grant the linked people the rights that are set there. You find the roles under:<br>
-`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules.md#role_user_to_user). An overview of the roles is given in [User roles](index.md).
+`Administration > Modules > Role user to user`, see [Role user to user](../administration/Modules/index.md#role_user_to_user). An overview of the roles is given in [User roles](index.md).
 
 OpenOlat only shows the tab when roles for person to person are switched on. Administrators, user managers, roles managers and principals reach it; administrators, user managers and roles managers can define relations.
 
@@ -385,11 +385,11 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [User profile >](../../manual_user/personal_menu/Profile/index.md)<br>
 [Module Organisations >](../administration/Modules_Organisations.md)<br>
 [Settings >](../../manual_user/personal_menu/Settings.md)<br>
-[Life cycles: Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles: Overview >](../administration/Life_cycles_-_Administration/index.md)<br>
 [Assign roles >](Assign_roles.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
 [Password and Authentication >](../administration/Login_Password_and_Authentication.md)<br>
-[Modules: Overview >](../administration/Modules.md)<br>
+[Modules: Overview >](../administration/Modules/index.md)<br>
 [User roles >](index.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>
 [Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>

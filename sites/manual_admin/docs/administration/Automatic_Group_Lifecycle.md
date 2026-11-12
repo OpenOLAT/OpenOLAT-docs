@@ -1,6 +1,6 @@
 # Automatic Group Life Cycle {: #group_lifecycle}
 
-The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion. The process is similar to the [automatic user lifecycle](Life_cycles_-_Administration.md#lifecycle_accounts) and the [course life cycle](Automatic_Course_Lifecycle.md).
+The group life cycle makes it easy to **automatically** inactivate and then delete unused groups after a certain period of time. A group passes through five steps: creation, "Active" status, inactivation, deletion, and permanent deletion. The process is similar to the [automatic user lifecycle](Life_cycles_-_Administration/index.md#lifecycle_accounts) and the [course life cycle](Automatic_Course_Lifecycle.md).
 
 ![Five steps of the group life cycle, from creation to permanent deletion](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" title="Life cycle of a group" }
 
@@ -122,7 +122,7 @@ As soon as an automatic notification is triggered by the set conditions, OpenOla
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Life cycles: Overview >](Life_cycles_-_Administration.md)<br>
+[Life cycles: Overview >](Life_cycles_-_Administration/index.md)<br>
 [Automatic Course Life Cycle >](Automatic_Course_Lifecycle.md)
 
 **Further reading**<br>

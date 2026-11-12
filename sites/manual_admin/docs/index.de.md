@@ -70,7 +70,7 @@ Sie betreiben OpenOlat selbst? Die Installationsanleitung führt vom Systembenut
 Wenn die Installation läuft: Reports lesen, Lebenszyklen einrichten, Begriffe der Oberfläche anpassen, andere Systeme anbinden.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.de.md){ .oo-mh-pcard__go }<br>
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lebenszyklen](administration/Life_cycles_-_Administration.de.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lebenszyklen](administration/Life_cycles_-_Administration/index.de.md){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Sprachanpassungswerkzeug](administration/Customizing.de.md#language_adaption_tool){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> REST API](administration/REST_API.de.md){ .oo-mh-pcard__go }
 
@@ -154,7 +154,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     [:octicons-arrow-right-24: System](administration/System.de.md)
 
-    [:octicons-arrow-right-24: Core-Konfiguration](administration/Core_functions.de.md)
+    [:octicons-arrow-right-24: Core-Konfiguration](administration/Core_functions/index.de.md)
 
     [:octicons-arrow-right-24: Startseite](administration/Landing_pages.de.md)
 
@@ -168,7 +168,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     Hier entscheiden Sie, wer Ihre Installation erreicht und wie sich Personen anmelden. Die Einstellungen umfassen die Login-Methoden, die Passwortregeln, die Selbstregistration und den Zugang für Gäste.
 
-    [:octicons-arrow-right-24: Login](administration/Login.de.md)
+    [:octicons-arrow-right-24: Login](administration/Login/index.de.md)
 
     [:octicons-arrow-right-24: Sicherheit](administration/Login_Security.de.md)
 
@@ -184,7 +184,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     Ein Modul schaltet eine Funktion für die gesamte Installation frei und legt ihre Standardwerte fest. Ohne das passende Modul erscheint die Funktion weder im Kurs noch in der Gruppe oder im persönlichen Menü.
 
-    [:octicons-arrow-right-24: Module: Übersicht](administration/Modules.de.md)
+    [:octicons-arrow-right-24: Module: Übersicht](administration/Modules/index.de.md)
 
     [:octicons-arrow-right-24: Modul Kurs](administration/Modules_Course.de.md)
 
@@ -200,7 +200,7 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     Tests, Fragenpool, Zertifikate und Kreditpunkte werden zentral konfiguriert. Diese Einstellungen gelten für jeden Kurs, in dem Lernende bewertet werden.
 
-    [:octicons-arrow-right-24: e-Assessment: Übersicht](administration/e-Assessment_Administration.de.md)
+    [:octicons-arrow-right-24: e-Assessment: Übersicht](administration/e-Assessment_Administration/index.de.md)
 
     [:octicons-arrow-right-24: Fragenpool](administration/eAssessment_Question_bank.de.md)
 
@@ -216,9 +216,9 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     OpenOlat verbindet sich mit Videokonferenzsystemen, Dokumenteneditoren, KI-Anbietern und LTI-Werkzeugen. Jede Integration wird hier einmal konfiguriert und steht danach im Kurs zur Verfügung.
 
-    [:octicons-arrow-right-24: Externe Werkzeuge: Übersicht](administration/External_Tools_-_Administration.de.md)
+    [:octicons-arrow-right-24: Externe Werkzeuge: Übersicht](administration/External_Tools_-_Administration/index.de.md)
 
-    [:octicons-arrow-right-24: LTI 1.3 Integrationen](administration/LTI_Integrations.de.md)
+    [:octicons-arrow-right-24: LTI 1.3 Integrationen](administration/LTI_Integrations/index.de.md)
 
     [:octicons-arrow-right-24: Modul BigBlueButton](administration/BigBlueButton_module.de.md)
 
@@ -232,11 +232,11 @@ Die ganze Checkliste nach dem Update, mit weiteren Punkten zur REST API, zu den 
 
     Lebenszyklen räumen Kurse, Gruppen und Benutzerkonten auf, die nicht mehr gebraucht werden. Die Bezahlungsmodule legen fest, wie Buchungen bezahlt werden.
 
-    [:octicons-arrow-right-24: Lebenszyklen](administration/Life_cycles_-_Administration.de.md)
+    [:octicons-arrow-right-24: Lebenszyklen](administration/Life_cycles_-_Administration/index.de.md)
 
     [:octicons-arrow-right-24: Automatischer Gruppen-Lebenszyklus](administration/Automatic_Group_Lifecycle.de.md)
 
-    [:octicons-arrow-right-24: Bezahlungsmodule](administration/Payment_modules.de.md)
+    [:octicons-arrow-right-24: Bezahlungsmodule](administration/Payment_modules/index.de.md)
 
     [:octicons-arrow-right-24: Rechnung](administration/Payment_Invoice.de.md)
 

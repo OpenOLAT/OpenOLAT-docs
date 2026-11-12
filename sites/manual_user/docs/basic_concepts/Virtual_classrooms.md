@@ -63,7 +63,7 @@ As soon as the respective virtual classroom is activated in the system administr
 [Frequently asked questions - Zoom >](../learningresources/zoom/faq.md)
 
 **Further reading**<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course elements at a glance >](../learningresources/Course_Elements/index.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)
 

@@ -60,7 +60,7 @@ Wenden Sie sich an die 3G-Beauftragten Ihrer Organisation, wenn Sie Probleme bei
 
 [Persönliche Konfiguration >](Personal_Configuration/index.de.md)<br>
 [Persönliche Konfiguration: Profil >](Profile/index.de.md)<br>
-[Module: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Modules.de.md)
+[Module: Übersicht (Administrationshandbuch) >](../../manual_admin/administration/Modules/index.de.md)
 
 **youtube**<br>
 [COVID-Zertifikate in OpenOlat](<https://www.youtube.com/embed/863v3ug_QaM>)

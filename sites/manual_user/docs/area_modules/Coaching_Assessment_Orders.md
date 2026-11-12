@@ -122,7 +122,7 @@ For essay questions, you download a person's answer as a PDF with the "Download 
 
 !!! tip "Prerequisite"
 
-    The download requires the [PDF service](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) to be switched on in the system administration.
+    The download requires the [PDF service](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) to be switched on in the system administration.
 
 The management of all correctors and their assignments, on the other hand, is done in the [Order management](Coaching_Order_Management.md).
 
@@ -144,7 +144,7 @@ The management of all correctors and their assignments, on the other hand, is do
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
 [Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)
 
 **Further reading**<br>
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>

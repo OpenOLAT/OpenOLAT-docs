@@ -93,7 +93,7 @@ The module that switches on the planning of the educational offering in OpenOlat
 
 <p class="oo-mh-kicker">Read up</p>
 
-[Modules: overview](../administration/Modules.md)
+[Modules: overview](../administration/Modules/index.md)
 
 After the installation, system administrators activate and configure the modules one by one. All modules are listed in the system administration under:<br>`Administration > Modules`
 
@@ -119,7 +119,7 @@ The installation is running. Now the things that did not matter at the start pay
 [Module Rooms >](../administration/Modules_Rooms.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 [Module Course Planner >](../administration/Modules_Course_Planner.md)<br>
-[Modules: Overview >](../administration/Modules.md)<br>
+[Modules: Overview >](../administration/Modules/index.md)<br>
 [Module Catalog >](../administration/Modules_Catalog_2.0.md)<br>
 [Externally available catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>

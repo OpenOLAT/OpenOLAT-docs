@@ -131,7 +131,7 @@ The field "Number of views" in the metadata shows how often a file was downloade
 
 ### Edit files [:octicons-tag-16:{ title="from Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
 
-Persons with editing rights can switch directly to editing mode for supported file formats such as docx, xlsx, pptx, draw.io, dwb, txt, html, css and xml by clicking on the file name. The prerequisite for this is that the editors for these formats are activated in the system administration: `Administration > External tools > Document editors`. More information is available under [External tools](../../manual_admin/administration/External_Tools_-_Administration.md).
+Persons with editing rights can switch directly to editing mode for supported file formats such as docx, xlsx, pptx, draw.io, dwb, txt, html, css and xml by clicking on the file name. The prerequisite for this is that the editors for these formats are activated in the system administration: `Administration > External tools > Document editors`. More information is available under [External tools](../../manual_admin/administration/External_Tools_-_Administration/index.md).
 
 ---
 
@@ -144,7 +144,7 @@ Persons with editing rights can switch directly to editing mode for supported fi
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [General information on the search >](../basic_concepts/Search_General/index.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)
 
 **Further reading**<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>

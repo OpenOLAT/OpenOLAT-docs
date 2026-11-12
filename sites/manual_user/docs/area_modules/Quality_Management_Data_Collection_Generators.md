@@ -95,7 +95,7 @@ As for the invitation, the generator calculates the dispatch date of the reminde
 The dispatch date of the second reminder is calculated in the same way as for reminder 1.
 
 #### Exclude implementation formats {: #course_exclude_implementation_formats }
-An implementation format can be specified for courses in the metadata. It is possible to exclude certain [implementation formats](../../manual_admin/administration/Modules.md#course) from generated data collections, e.g. if examination courses are not to be included.
+An implementation format can be specified for courses in the metadata. It is possible to exclude certain [implementation formats](../../manual_admin/administration/Modules/index.md#course) from generated data collections, e.g. if examination courses are not to be included.
 
 #### Limit edit rights {: #course_limit_edit_rights }
 If you tick "Only quality managers can edit", the planned data collections of this generator can only be edited in the Quality management module. In the [data collection preview](Quality_Management_Data_Collection_Preview.md) of a course and in the Course Planner, they can then only be viewed.
@@ -311,7 +311,7 @@ Click "Enable" to enable the generator. With "Cancel", it remains disabled.
 
 **Mentioned on this page**<br>
 [Quality Management: Data collections >](Quality_Management_Data_Collections.md)<br>
-[Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
+[Modules: Overview >](../../manual_admin/administration/Modules/index.md)<br>
 [Quality Management: Data Collection Preview >](Quality_Management_Data_Collection_Preview.md)
 
 **Further reading**<br>

@@ -101,7 +101,7 @@ The Learning Tools Interoperability standard.
 
     **What users call it:** Learning Tools Interoperability, LTI 1.3, LTI integration
 
-    [Read in the manual](../administration/LTI_Integrations.md) · [Ask Sophia](?sophia=What%20is%20%22LTI%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../administration/LTI_Integrations/index.md) · [Ask Sophia](?sophia=What%20is%20%22LTI%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -133,7 +133,7 @@ A programming interface following the REST pattern.
 
 <p class="oo-mh-kicker">Read up</p>
 
-[External tools: overview](../administration/External_Tools_-_Administration.md)
+[External tools: overview](../administration/External_Tools_-_Administration/index.md)
 
 After the installation, the settings are in the system administration under:<br>`Administration > e-Assessment > Assessment management`<br>`Administration > External tools`<br>`Administration > Core functions > REST API`
 
@@ -149,7 +149,7 @@ The installation is running. Now the things that did not matter at the start pay
 
 - **Safe Exam Browser:** [Safe Exam Browser configuration template](../administration/e-Assessment_AssessmentMgmt.md). More on the page [How do I prepare an exam with the Safe Exam Browser (SEB)?](../../manual_how-to/SEB/SEB.md).
 - **AI module:** [AI Provider](../administration/External_Tools_AI.md), [AI Feature](../administration/External_Tools_AI.md), AI settings, [AI processing pool](../administration/External_Tools_AI.md) and more.
-- **LTI:** [Platform](../administration/LTI_External_platforms.md), [Deployment](../administration/LTI_External_tools.md), [Tool](../administration/LTI_External_tools.md), [Deep Linking](../administration/LTI_Deeplinking.md) and more. More on the page [LTI 1.3 Integrations](../administration/LTI_Integrations.md).
+- **LTI:** [Platform](../administration/LTI_External_platforms.md), [Deployment](../administration/LTI_External_tools.md), [Tool](../administration/LTI_External_tools.md), [Deep Linking](../administration/LTI_Deeplinking.md) and more. More on the page [LTI 1.3 Integrations](../administration/LTI_Integrations/index.md).
 
 ## Further information {: #further_information}
 
@@ -158,17 +158,17 @@ The installation is running. Now the things that did not matter at the start pay
 [Assessment Management: Overview >](../../manual_user/learningresources/Assessment_Management/index.md)<br>
 [How do I prepare an exam with the Safe Exam Browser (SEB)? >](../../manual_how-to/SEB/SEB.md)<br>
 [External tools: AI module >](../administration/External_Tools_AI.md)<br>
-[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../administration/LTI_Integrations/index.md)<br>
 [REST API >](../administration/REST_API.md)<br>
-[External Tools: Overview >](../administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../administration/External_Tools_-_Administration/index.md)<br>
 [e-Assessment Administration: Assessment management >](../administration/e-Assessment_AssessmentMgmt.md)<br>
 [LTI - External Platforms >](../administration/LTI_External_platforms.md)<br>
 [LTI - External tools >](../administration/LTI_External_tools.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.md)
 
 **Further reading**<br>
-[e-Assessment Administration: Overview >](../administration/e-Assessment_Administration.md)<br>
-[Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[e-Assessment Administration: Overview >](../administration/e-Assessment_Administration/index.md)<br>
+[Life cycles - Overview >](../administration/Life_cycles_-_Administration/index.md)<br>
 [Reports: Overview >](../administration/Reports.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 

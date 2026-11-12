@@ -43,7 +43,7 @@ Takt und Anzahl der Versuche sind Teil der Serverkonfiguration und lassen sich i
 
 Die Neuerstellung ersetzt nur die PDF-Datei. Seriennummer, Ausstellungsdatum und Gültigkeitsdauer bleiben unverändert. Auch bei einer Rezertifizierung bleibt das neu erzeugte Zertifikat das aktuelle Zertifikat der Person.
 
-Bevor Sie Zertifikate neu erzeugen, stellen Sie sicher, dass der [PDF-Dienst](External_Tools_-_Administration.de.md#pdf_generator) erreichbar ist. Sonst schlägt auch die Neuerstellung fehl.
+Bevor Sie Zertifikate neu erzeugen, stellen Sie sicher, dass der [PDF-Dienst](External_Tools_-_Administration/index.de.md#pdf_generator) erreichbar ist. Sonst schlägt auch die Neuerstellung fehl.
 
 ![Resultat mit einem fehlerhaften Zertifikat hervorgehoben, darunter Checkbox und Button zum Neuerzeugen](assets/e-assessment_certificates_tab_maintenance_v1_de.png){ class="shadow lightbox" title="Tab Wartung" }
 
@@ -69,7 +69,7 @@ Findet die Suche fehlerhafte Zertifikate, erscheinen die Checkbox "E-Mail erneut
 
 ## Weiterführende Informationen {: #further_information}
 
-[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](../../manual_user/personal_menu/Certificates.de.md)<br>
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>

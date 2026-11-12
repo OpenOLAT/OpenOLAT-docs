@@ -6,7 +6,7 @@ Im Autorenbereich öffnet der Button "Erstellen" ein Menü mit den Lernressource
 
 ![Geöffnetes Menü Erstellen mit den Lernressourcen der Liste unten, von Kurs und Kurs aus Template bis Word, Excel und PowerPoint](assets/authoring_new_course_create_menu_v1_de.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich · 2026.10.09" }
 
-Einige Einträge zeigt das Menü nur, wenn die System-Administration die zugehörige Funktion eingeschaltet hat: Formular, Wiki und Portfolio 2.0 Vorlage über das jeweilige Modul, Word, Excel und PowerPoint über einen [Dokumenteneditor](../../manual_admin/administration/External_Tools_-_Administration.de.md#dokumenteneditoren).
+Einige Einträge zeigt das Menü nur, wenn die System-Administration die zugehörige Funktion eingeschaltet hat: Formular, Wiki und Portfolio 2.0 Vorlage über das jeweilige Modul, Word, Excel und PowerPoint über einen [Dokumenteneditor](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#dokumenteneditoren).
 
 Die Buttons "Erstellen" und "Datei importieren" sehen Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
@@ -110,7 +110,7 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>

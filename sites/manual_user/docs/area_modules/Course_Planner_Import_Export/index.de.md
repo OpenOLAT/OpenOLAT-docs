@@ -74,7 +74,7 @@ Die exportierte Excel-Datei enthält bis zu vier Sheets mit Daten:
 * **Mitgliedschaft:** eine Zeile pro Mitgliedschaft, mit den Kennzeichen von Produkt, Durchführung und Element ("PROD - Kennzeichen", "IMPL - Kennzeichen", "Kennzeichen"), der Rolle und dem Anmeldenamen. Die Rolle steht als fester Wert, zum Beispiel PARTICIPANT für Teilnehmer:in; alle Werte listet die [Referenz](../Course_Planner_Import_Export_Reference.de.md#enum_reference).
 * **Konten:** eine Zeile pro Person, die im Sheet "Mitgliedschaft" vorkommt: Anmeldename, Vorname, Nachname, E-Mail, Organisationszugehörigkeit, Kontoablauf [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9438)" }](https://track.frentix.com/issue/OO-9438){:target="_blank"}, Erstellungsdatum
 
-Die Sheets "Mitgliedschaft" und "Konten" enthält der Export nur, wenn die exportierende Person die administrativen Benutzer:innen-Properties sehen darf, zu denen der Anmeldename gehört. Welche Rollen das dürfen, legt die System-Administration fest: `Administration > Module > Datenschutz`, Option "Administrative Benutzer:innen-Properties", siehe [Datenschutz](../../../manual_admin/administration/Modules.de.md#data_privacy). Ein Export ohne diese beiden Sheets lässt sich nicht wieder importieren, denn der Import-Assistent verlangt mindestens vier Sheets.
+Die Sheets "Mitgliedschaft" und "Konten" enthält der Export nur, wenn die exportierende Person die administrativen Benutzer:innen-Properties sehen darf, zu denen der Anmeldename gehört. Welche Rollen das dürfen, legt die System-Administration fest: `Administration > Module > Datenschutz`, Option "Administrative Benutzer:innen-Properties", siehe [Datenschutz](../../../manual_admin/administration/Modules/index.de.md#data_privacy). Ein Export ohne diese beiden Sheets lässt sich nicht wieder importieren, denn der Import-Assistent verlangt mindestens vier Sheets.
 
 Zusätzlich enthält jede Export-Datei ein Sheet "Exportinformationen" mit URL, OpenOlat-Version, Exportsprache sowie Datum und Name der exportierenden Person [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9217)" }](https://track.frentix.com/issue/OO-9217){:target="_blank"}.
 
@@ -216,7 +216,7 @@ Die Tabelle zeigt die Mitgliedschaften aus dem Sheet "Mitgliedschaft" mit den Ke
 
 **Auf dieser Seite erwähnt**<br>
 [Import/Export: Referenz >](../Course_Planner_Import_Export_Reference.de.md)<br>
-[Module: Übersicht (Administration) >](../../../manual_admin/administration/Modules.de.md)<br>
+[Module: Übersicht (Administration) >](../../../manual_admin/administration/Modules/index.de.md)<br>
 [Modul Räume (Administration) >](../../../manual_admin/administration/Modules_Rooms.de.md)<br>
 [Course Planner: Raumverwaltung >](../Course_Planner_Rooms.de.md)<br>
 [E-Mail Einstellungen (Administration) >](../../../manual_admin/administration/E-Mail_Settings.de.md)

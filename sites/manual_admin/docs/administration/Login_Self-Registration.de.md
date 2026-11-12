@@ -79,7 +79,7 @@ Ist die Option eingeschaltet, macht OpenOlat die Personen, die sich selbst regis
 
 #### Kursliste {: #course_list }
 
-Mit "Kurse wählen" fügen Sie der Liste Kurse hinzu, mit "Entfernen" nehmen Sie einen Kurs heraus. Die Liste gilt für die Option "In Kurse buchen". Ist in der Core-Konfiguration unter [Zugangskontrolle](Core_functions.de.md#zugangskontrolle) die Angebotsart "Automatische Buchungen" nicht eingeschaltet, zeigt die Kursliste eine Warnung: ohne diese Angebotsart bucht OpenOlat niemanden automatisch in die Kurse.
+Mit "Kurse wählen" fügen Sie der Liste Kurse hinzu, mit "Entfernen" nehmen Sie einen Kurs heraus. Die Liste gilt für die Option "In Kurse buchen". Ist in der Core-Konfiguration unter [Zugangskontrolle](Core_functions/index.de.md#zugangskontrolle) die Angebotsart "Automatische Buchungen" nicht eingeschaltet, zeigt die Kursliste eine Warnung: ohne diese Angebotsart bucht OpenOlat niemanden automatisch in die Kurse.
 
 #### Kontoablauf in Tagen {: #account_expiration_days }
 
@@ -136,11 +136,11 @@ Ist die Option "Auf Loginseite anzeigen" ausgeschaltet, laden Sie Personen mit d
 [Passwort und Authentifizierung >](Login_Password_and_Authentication.de.md)<br>
 [Modul Organisationen >](Modules_Organisations.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
-[Core-Konfiguration: Übersicht >](Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](Core_functions/index.de.md)<br>
 [Navigation >](../../manual_user/basic_concepts/Navigation.de.md)
 
 **Weiterführend**<br>
-[Login: Übersicht >](Login.de.md)<br>
+[Login: Übersicht >](Login/index.de.md)<br>
 [Login-Seite >](../../manual_user/login_registration/Login_Page.de.md)
 
 [Zum Seitenanfang ^](#self-registration)

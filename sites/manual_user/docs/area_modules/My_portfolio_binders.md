@@ -62,7 +62,7 @@ When you open a binder, you manage it via the toolbar above the tabs: on the lef
 * **Delete binder**: OpenOlat moves the binder to the trash. There you get it back with "Restore" or delete it permanently with "Delete binder": `Personal menu > Portfolio 2.0 > Go to trash > Binders`. You may delete a binder from a template only if the template has switched on "Users are allowed to delete binders".
 * **Export binder**: With this you back up the binder or pass it on outside OpenOlat. The dropdown menu offers three forms:
     * "Export binder as CP" downloads the binder as a CP (Content Package).
-    * "Export binder as PDF" downloads the binder as a PDF file. The option only appears if your administrator has set up the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator).
+    * "Export binder as PDF" downloads the binder as a PDF file. The option only appears if your administrator has set up the [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator).
     * "Binder in one page" opens the whole binder as one page in a new browser window, for reading and printing.
 
     ![Dropdown menu Export binder with three forms to back up, pass on or print the binder; in this binder from a template, the export is the only action of the toolbar](assets/my_portfolio_binders_export_menu_v1_en.png){ class="shadow lightbox" title="Dropdown menu Export binder in a binder from a template · 2026.10.28" }
@@ -110,7 +110,7 @@ Two further tabs appear depending on the binder and your rights:
 [Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Multiple use of entries >](Multiple_use_of_entries.md)<br>
 [e-Assessment Administration: ePortfolio >](../../manual_admin/administration/eAssessment_ePortfolio.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [My entries >](My_entries.md)<br>
 [Shared by me >](Shared_by_me.md)<br>
 [Portfolio template: Administration and editing >](../learningresources/Portfolio_template_Administration_and_editing.md)<br>

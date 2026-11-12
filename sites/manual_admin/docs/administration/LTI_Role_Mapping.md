@@ -44,7 +44,7 @@ What you save in the tab "Role mapping" takes precedence over the server configu
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI 1.3 Integrations >](../administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../administration/LTI_Integrations/index.md)<br>
 [LTI - External tools >](../administration/LTI_External_tools.md)<br>
 [LTI - External platforms >](../administration/LTI_External_platforms.md)<br>
 [LTI - Deep Linking >](../administration/LTI_Deeplinking.md)<br>

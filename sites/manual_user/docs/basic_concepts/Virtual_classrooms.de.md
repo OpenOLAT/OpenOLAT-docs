@@ -63,7 +63,7 @@ Sobald das jeweilige virtuelle Klassenzimmer in der System-Administration freige
 [Häufig gestellte Fragen (FAQ) - Zoom >](../learningresources/zoom/faq.de.md)
 
 **Weiterführend**<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Kursbausteine im Überblick >](../learningresources/Course_Elements/index.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 

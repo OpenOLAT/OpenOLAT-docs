@@ -26,7 +26,7 @@ Group participants will then see the following items in the group menu on the le
 
 !!! info "Virtual classrooms"
 
-    Depending on the configuration by the [system administrators](../../manual_admin/administration/External_Tools_-_Administration.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
+    Depending on the configuration by the [system administrators](../../manual_admin/administration/External_Tools_-_Administration/index.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
 
 
 
@@ -51,7 +51,7 @@ Group participants will then see the following items in the group menu on the le
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [Toolbar >](../learningresources/Course_Settings_Toolbar.md)
 

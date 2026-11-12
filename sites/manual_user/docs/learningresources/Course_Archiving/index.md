@@ -112,7 +112,7 @@ All [tests](../Course_Element_Test/index.md) of the course are displayed. Course
 
 Archived tests are saved on a personalized basis and contain all test results. Every Excel file with test results in the archive contains the sheet "Export information" with course, course element, time and the person who created the archive, see [Export tests](../Test_export.md#export_information). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9812)" }](https://track.frentix.com/issue/OO-9812)
 
-The archive contains test results as PDF files if you select "Customised" for "Course elements" in the wizard step "Settings" and "Advanced – with PDF" for the course element Test. The selection only appears if the [PDF service](../../../manual_admin/administration/External_Tools_-_Administration.md#pdf_generator) is switched on in the system administration under `Administration > External tools > PDF generator`. The option "All PDF files in one folder" is only offered by the export in the course element Test via the button "Export results". More on this under [Archiving test results](../Course_Element_Test/Test_Results.md#archive) and [Export tests](../Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
+The archive contains test results as PDF files if you select "Customised" for "Course elements" in the wizard step "Settings" and "Advanced – with PDF" for the course element Test. The selection only appears if the [PDF service](../../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) is switched on in the system administration under `Administration > External tools > PDF generator`. The option "All PDF files in one folder" is only offered by the export in the course element Test via the button "Export results". More on this under [Archiving test results](../Course_Element_Test/Test_Results.md#archive) and [Export tests](../Test_export.md#pdf_files). [:octicons-tag-16:{ title="from Release 21.1 (OO-9600)" }](https://track.frentix.com/issue/OO-9600)
 
 ![Finding the export of test results: course element Test in the course menu, tab Participants and button Export results marked](../assets/test_export_results1_v2_en.png){ class="shadow lightbox" title="Participants tab in the course element Test · 2026.10.22" }
 
@@ -240,7 +240,7 @@ Here the chat history can be exported as an xlsx file and also deleted.
 [Course Element "Survey" >](../Course_Element_Survey.md)<br>
 [Course Element "Test" >](../Course_Element_Test/index.md)<br>
 [Evaluate and manage tests >](../Course_Element_Test/Test_Results.md)<br>
-[External Tools: Overview >](../../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Export tests >](../Test_export.md)<br>
 [Course Element "Assessment" >](../Course_Element_Assessment.md)<br>
 [Course Element "Portfolio Task" >](../Course_Element_Portfolio_Task.md)<br>

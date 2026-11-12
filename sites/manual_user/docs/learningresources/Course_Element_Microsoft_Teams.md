@@ -180,7 +180,7 @@ If you want to keep track of the online meetings of the course, you find them in
 
 ## Start the online meeting {: #start_meeting}
 
-So that participants can join an online meeting, an owner or coach of the course starts it on the page of the online meeting: tab "Online-meetings", then "Select". To do so, they must be logged in to OpenOlat with the Microsoft account of their organisation, see [External tools: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration.md#_microsoft_teams). The page then shows the button "Start the online-meeting". It is active from the start minus the prep time, for online meetings without a date at any time. If the online meeting is already running, the button is called "Join the online-meeting". Next to it is the name under which the person joins.
+So that participants can join an online meeting, an owner or coach of the course starts it on the page of the online meeting: tab "Online-meetings", then "Select". To do so, they must be logged in to OpenOlat with the Microsoft account of their organisation, see [External tools: Microsoft Teams](../../manual_admin/administration/External_Tools_-_Administration/index.md#_microsoft_teams). The page then shows the button "Start the online-meeting". It is active from the start minus the prep time, for online meetings without a date at any time. If the online meeting is already running, the button is called "Join the online-meeting". Next to it is the name under which the person joins.
 
 Without a Microsoft login, the page also shows owners and coaches the warning "You need to log in with a Microsoft Azure account to create new online meetings." The button "Join the online-meeting" then stays locked until someone with a Microsoft login has started the online meeting. Next to it is "(as guest)". The same applies to participants if the online meeting allows them to open it.
 
@@ -211,7 +211,7 @@ For questions about using Microsoft Teams, the Microsoft help provides support:
 **Mentioned on this page**<br>
 [Microsoft Teams module >](../../manual_admin/administration/Teams_module.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Microsoft Help: Troubleshoot in Microsoft Teams](https://support.microsoft.com/en-us/teams/platform/troubleshoot-in-microsoft-teams){:target="_blank"}
 
 **Further reading**<br>

@@ -95,7 +95,7 @@ Nutzt eine OpenOlat-Instanz den Course Planner, stehen neben üblichen Kursrolle
 ### Kontorollen {: #user_roles}
 
 Hier sehen Sie, welche Konten über eine Rolle Person zu Person verbunden sind, etwa wer wessen Vorgesetzte:r ist. Für jede Rolle und jede Gegenrolle steht ein eigener Eintrag mit den Konten, die sie innehaben. Der Menüeintrag "Kontorollen" erscheint erst, wenn "Rolle Person zu Person" eingeschaltet und mindestens eine Rolle eingerichtet ist. Sie richten die Rollen in der System-Administration ein unter:<br>
-`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules.de.md#role_user_to_user)
+`Administration > Module > Rolle Person zu Person`, siehe [Rolle Person zu Person](../administration/Modules/index.de.md#role_user_to_user)
 
 Zum Beispiel:
 
@@ -208,7 +208,7 @@ In der Trefferliste grenzen Sie die Auswahl mit Filtern weiter ein. Ein Beispiel
 
 Die Trefferliste führt neben den Personendaten fünf Spalten zum Lebenszyklus eines Kontos. Sie stehen in dieser Reihenfolge und beantworten die Frage, wann OpenOlat ein Konto automatisch deaktiviert oder löscht.
 
-OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration.de.md#account_reactivation).
+OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeldet. Die Oberfläche nennt diesen Schritt "Inaktivierung", das Konto trägt danach den Status "Inaktiv", siehe [Deaktivierung und Reaktivierung](../administration/Life_cycles_-_Administration/index.de.md#account_reactivation).
 
 | Spalte | Bedeutung |
 |--------|-----------|
@@ -219,7 +219,7 @@ OpenOlat deaktiviert ein Konto, das sich in der eingestellten Frist nicht anmeld
 | Tage bis Löschung | Verbleibende Tage bis zur automatischen Löschung. Nur vorhanden bei aktivem Schalter "Inaktive Konten löschen". |
 
 Die beiden Schalter setzen Sie in der System-Administration unter:<br>
-`Administration > Lebenszyklen > Konto`, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+`Administration > Lebenszyklen > Konto`, siehe [Lebenszyklen: Konto](../administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts)
 
 Alle fünf Spalten sind standardmässig ausgeblendet. Blenden Sie sie über das Zahnrad-Symbol rechts über der Tabelle ein.
 
@@ -234,9 +234,9 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 [Benutzer:in löschen >](Delete_User.de.md)<br>
 [Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights/index.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
-[Module >](../administration/Modules.de.md)<br>
+[Module >](../administration/Modules/index.de.md)<br>
 [Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General/index.de.md)<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Kontoeinstellungen verwalten >](Configure_User.de.md)
 
 **Weiterführend**<br>

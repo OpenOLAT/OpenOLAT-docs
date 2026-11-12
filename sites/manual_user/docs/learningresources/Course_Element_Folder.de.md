@@ -127,7 +127,7 @@ Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei herunterg
 
 ### Dateien bearbeiten [:octicons-tag-16:{ title="ab Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
 
-Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie docx, xlsx, pptx, draw.io, dwb, txt, html, css und xml durch einen Klick auf den Dateinamen direkt in den Bearbeitungsmodus wechseln. Voraussetzung dafür ist, dass die Editoren für diese Formate in der System-Administration aktiviert sind: `Administration > Externe Werkzeuge > Dokumenteneditoren`. Mehr dazu finden Sie unter [Externe Werkzeuge](../../manual_admin/administration/External_Tools_-_Administration.de.md).
+Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie docx, xlsx, pptx, draw.io, dwb, txt, html, css und xml durch einen Klick auf den Dateinamen direkt in den Bearbeitungsmodus wechseln. Voraussetzung dafür ist, dass die Editoren für diese Formate in der System-Administration aktiviert sind: `Administration > Externe Werkzeuge > Dokumenteneditoren`. Mehr dazu finden Sie unter [Externe Werkzeuge](../../manual_admin/administration/External_Tools_-_Administration/index.de.md).
 
 ---
 
@@ -140,7 +140,7 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)
 
 **Weiterführend**<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>

@@ -47,7 +47,7 @@ In the step "Preview locations" you select the locations you import. New locatio
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Modules: Overview >](Modules.md)<br>
+[Modules: Overview >](Modules/index.md)<br>
 [Import templates >](../../manual_user/basic_concepts/Import_Templates.md)
 
 **youtube**<br>

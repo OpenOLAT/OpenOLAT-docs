@@ -6,7 +6,7 @@
 
 In OpenOlat you are supported by AI at different points. For these points to work, you connect the AI providers you use in the AI module. The AI module supports multiple AI providers; you define per AI feature which provider and which model is used [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9253)" }](https://track.frentix.com/issue/OO-9253){:target="_blank"}.
 
-The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration.md). It is located in the system administration, system administrators configure it there. Only the role system administrator opens the system administration, administrators do not reach it without this role either. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
+The AI module is part of the external tools, see [External Tools: Overview >](External_Tools_-_Administration/index.md). It is located in the system administration, system administrators configure it there. Only the role system administrator opens the system administration, administrators do not reach it without this role either. How roles are granted is described in [Assign roles >](../usermanagement/Assign_roles.md).
 
 ## Configuration {: #config}
 
@@ -120,7 +120,7 @@ The switch can only be operated as long as "Enable feature" is switched on. For 
 A changed default only applies to persons without a stored choice. You cannot set a choice for a person, but you can delete stored choices. After that the default applies, and the dialog "AI correction" asks again:
 
 * for one person in the user management in the tab "GUI preferences" of their user account, see [Manage user settings](../usermanagement/Configure_User.md),
-* for all persons in the system administration under `Administration > Core functions > GUI preferences`, with "Reset" in the row of the attributed class `org.olat.core.commons.services.ai.AiUserPreferenceService`, see [Core functions](Core_functions.md).
+* for all persons in the system administration under `Administration > Core functions > GUI preferences`, with "Reset" in the row of the attributed class `org.olat.core.commons.services.ai.AiUserPreferenceService`, see [Core functions](Core_functions/index.md).
 
 
 #### Limits per feature [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"} {: #ai_function_limits}
@@ -271,7 +271,7 @@ taxonomy.matching.passage.prefix=
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[External Tools: Overview >](External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Question Bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>
@@ -280,7 +280,7 @@ taxonomy.matching.passage.prefix=
 [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
-[Core functions: Overview >](Core_functions.md)
+[Core functions: Overview >](Core_functions/index.md)
 
 **Further reading**<br>
 [How do I create an essay question with AI grading? >](../../manual_how-to/ai_essay/ai_essay.md)<br>

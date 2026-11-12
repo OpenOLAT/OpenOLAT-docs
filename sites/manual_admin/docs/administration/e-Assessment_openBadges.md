@@ -130,7 +130,7 @@ In the "Verification" tab you check whether a badge is genuine. Upload the badge
 [Personal achievements/successes: Badges >](../../manual_user/personal_menu/OpenBadges.md)<br>
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
 [The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)<br>
-[e-Assessment Administration: Overview >](e-Assessment_Administration.md)<br>
+[e-Assessment Administration: Overview >](e-Assessment_Administration/index.md)<br>
 [How do I make successes and achievements visible? >](../../manual_how-to/achievements/achievements.md)
 
 [To the top of the page ^](#badges)

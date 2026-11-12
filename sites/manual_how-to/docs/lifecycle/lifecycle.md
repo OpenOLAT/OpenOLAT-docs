@@ -156,7 +156,7 @@ How far a single account has progressed through these phases is shown in the "Ac
 
     Periods, email notifications and the level of automation for all three phases are configured in the system administration under:<br>
     `Administration > Life cycles > User`<br>
-    [Details about the automatic user lifecycle](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+    [Details about the automatic user lifecycle](../../manual_admin/administration/Life_cycles_-_Administration/index.md#lifecycle_accounts)
 
 [To the top of the page ^](#lifecycles)
 
@@ -237,7 +237,7 @@ It can be configured so that owners are notified of status changes.
 [Delete (a course or learning resource) >](../../manual_user/learningresources/Course_Delete.md)<br>
 [Automatic Course Life Cycle >](../../manual_admin/administration/Automatic_Course_Lifecycle.md)<br>
 [Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
-[Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration.md)<br>
+[Life cycles - Overview >](../../manual_admin/administration/Life_cycles_-_Administration/index.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)
 
 **Further reading**<br>

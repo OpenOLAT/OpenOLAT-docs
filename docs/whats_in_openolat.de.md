@@ -212,7 +212,7 @@ Womit sich OpenOlat verbindet, und was die KI für Sie übernimmt.
 
 <div class="grid cards" markdown>
 
--   __[Integrationen und Standards](manual_admin/administration/External_Tools_-_Administration.de.md)__
+-   __[Integrationen und Standards](manual_admin/administration/External_Tools_-_Administration/index.de.md)__
     {: data-oo-cluster="integrations_and_ai" data-oo-domain="integrations" }
 
     ---

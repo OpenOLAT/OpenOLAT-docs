@@ -262,7 +262,7 @@ Den Download finden Sie im Korrekturwerkzeug eines Kurses und im [Korrektur-Work
 
 !!! tip "Voraussetzung"
 
-    Der Download setzt voraus, dass in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der Schalter "PDF Dienst" eingeschaltet ist, siehe [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator).
+    Der Download setzt voraus, dass in der System-Administration unter `Administration > Externe Werkzeuge > PDF Generator` der Schalter "PDF Dienst" eingeschaltet ist, siehe [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator).
 
 
 ## Tests zurücksetzen oder annullieren [:octicons-tag-16:{ title="ab Release 14.2 (OO-4825)" }](https://track.frentix.com/issue/OO-4825)
@@ -295,7 +295,7 @@ Der Tab "Vorschau" zeigt den Test aus Sicht der Teilnehmenden. Der Tab "Kommunik
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Erinnerungen >](Course_Reminders.de.md)
 
 **Weiterführend**<br>

@@ -8,7 +8,7 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppe
 Sie konfigurieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
-Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt die Seite [Externe Werkzeuge: Übersicht](External_Tools_-_Administration.de.md#_microsoft_teams). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md).
+Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt die Seite [Externe Werkzeuge: Übersicht](External_Tools_-_Administration/index.de.md#_microsoft_teams). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md).
 
 ---
 
@@ -101,7 +101,7 @@ Im Tab "Kalender" sehen Sie, wann viele Online-Termine gleichzeitig stattfinden,
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration/index.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
 [Modul BigBlueButton >](BigBlueButton_module.de.md)
 

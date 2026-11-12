@@ -237,7 +237,7 @@ Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Be
 [Sicherheit >](Login_Security.de.md)
 
 **Weiterführend**<br>
-[Module: Übersicht >](Modules.de.md)<br>
+[Module: Übersicht >](Modules/index.de.md)<br>
 [Startseite >](Landing_pages.de.md)<br>
 [Navigation >](../../manual_user/basic_concepts/Navigation.de.md)
 

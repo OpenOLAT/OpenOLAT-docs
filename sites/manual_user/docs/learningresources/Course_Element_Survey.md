@@ -76,7 +76,7 @@ With "Show advanced configuration" you also define which groups or individual us
 
 You also release the results to these roles, groups and users and link the release to a start and an end in the advanced configuration.
 
-Which roles are preselected in a newly inserted course element is defined in the system administration under `Administration > Modules > Course elements`, see [Module Course elements](../../manual_admin/administration/Modules.md#course_element_survey) [:octicons-tag-16:{ title="from Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"}.
+Which roles are preselected in a newly inserted course element is defined in the system administration under `Administration > Modules > Course elements`, see [Module Course elements](../../manual_admin/administration/Modules/index.md#course_element_survey) [:octicons-tag-16:{ title="from Release 18.2 (OO-7529)" }](https://track.frentix.com/issue/OO-7529){:target="_blank"}.
 
 !!! tip "Tip"
 
@@ -132,7 +132,7 @@ Owners of the course reset a survey with "Reset" in the menu with the three dots
 [Forms - Overview >](Form/index.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Authoring - Overview >](../area_modules/Authoring/index.md)<br>
-[Modules: Overview >](../../manual_admin/administration/Modules.md)<br>
+[Modules: Overview >](../../manual_admin/administration/Modules/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Course administration - Archiving & Reports >](Course_Archiving/index.md)
 

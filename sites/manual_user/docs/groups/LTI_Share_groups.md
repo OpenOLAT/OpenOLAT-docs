@@ -41,7 +41,7 @@ If OpenOlat is the platform, you embed the external tool in a course via the cou
 
 ## Requirements {: #conditions}
 
-System administrators register the external platform in the system administration of OpenOlat under `Administration > External tools > LTI > Tab "External platforms"`. On the other side, administrator access to the other LMS is required as well. Who may add the LTI share of a group is set in the system administration. Depending on the setting, these are administrators, group managers and group coaches with author rights: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations.md#deployments)<br>
+System administrators register the external platform in the system administration of OpenOlat under `Administration > External tools > LTI > Tab "External platforms"`. On the other side, administrator access to the other LMS is required as well. Who may add the LTI share of a group is set in the system administration. Depending on the setting, these are administrators, group managers and group coaches with author rights: [Who can add deployments?](../../manual_admin/administration/LTI_Integrations/index.md#deployments)<br>
 Ideally, set up both systems at the same time, because certain dialogs in both systems must be configured directly one after the other.
 
 [To the top of the page ^](#LTI_access_to_a_group)
@@ -88,7 +88,7 @@ On every call, the platform sends the person's first name, last name, e-mail add
 
 OpenOlat transfers results to the platform only from a course with an LTI share, not from a group. OpenOlat does not query the LTI service for names and roles (Names and Role Provisioning Service, NRPS). A person therefore only joins the group when they call the group themselves.
 
-Which LTI services OpenOlat supports as a tool and as a platform is shown in the overview [Supported LTI services](../../manual_admin/administration/LTI_Integrations.md#supported_services).
+Which LTI services OpenOlat supports as a tool and as a platform is shown in the overview [Supported LTI services](../../manual_admin/administration/LTI_Integrations/index.md#supported_services).
 
 [To the top of the page ^](#LTI_access_to_a_group)
 
@@ -121,7 +121,7 @@ For the connection test from step 5, call the group in Moodle through the link o
 [Group Administration >](Group_Administration/index.md)<br>
 [How do I integrate an OpenOlat course into Moodle? >](../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)<br>
-[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations.md)<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)<br>
 [Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
 
 **Further reading**<br>

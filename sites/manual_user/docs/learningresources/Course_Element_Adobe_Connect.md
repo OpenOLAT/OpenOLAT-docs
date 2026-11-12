@@ -65,6 +65,6 @@ In the "Meetings" tab, the overview of the virtual rooms set up is displayed in 
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "GoToMeeting" >](Course_Element_GoToMeeting.md)<br>
 [Virtual classrooms >](../basic_concepts/Virtual_classrooms.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)
 
 [To the top of the page ^](#adobe_connect)

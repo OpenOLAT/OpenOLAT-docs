@@ -15,7 +15,7 @@ Specialty / Note | Beta version
 
 With this course element, participants start a Jupyter environment directly from the course, for example to work on notebooks. Course owners define which Jupyter image starts and do not have to distribute the environment to the participants themselves.
 
-The prerequisite is that the administration has switched on the course element and set up at least one hub, see [External tools: JupyterHub](../../manual_admin/administration/External_Tools_-_Administration.md#jupyter). For more information on JupyterHub see [jupyter.org](https://jupyter.org/hub).
+The prerequisite is that the administration has switched on the course element and set up at least one hub, see [External tools: JupyterHub](../../manual_admin/administration/External_Tools_-_Administration/index.md#jupyter). For more information on JupyterHub see [jupyter.org](https://jupyter.org/hub).
 
 ## Configuring the course element [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"}
 
@@ -31,7 +31,7 @@ Depending on how the hub is set up, the tab also shows an "Info text", the butto
 
 ## Further information {: #further_information}
 
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Jupyter.org >](https://jupyter.org/hub)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "LTI Page" >](../learningresources/Course_Element_LTI_Page.md)

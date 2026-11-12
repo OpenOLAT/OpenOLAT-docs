@@ -60,7 +60,7 @@ Die Tabelle zeigt, woraus die Infoseite besteht, von oben nach unten. Die Spalte
 | Bewertung | ja | automatisch | Bewertung |
 | Kommentare | ja | automatisch | Kommentar |
 
-Einige Elemente erscheinen erst, wenn Systemadministrator:innen das zugehörige Modul in der System-Administration eingeschaltet haben. Die Schaltfläche "Als PDF herunterladen" braucht den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator). Bewertung und Kommentare schalten Systemadministrator:innen im [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md) ein, Lizenzen unter [Lizenzen](../../manual_admin/administration/Licenses.de.md), Fachbereiche im [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Termine setzen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) voraus. Kreditpunkte richten Systemadministrator:innen in der [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) ein.
+Einige Elemente erscheinen erst, wenn Systemadministrator:innen das zugehörige Modul in der System-Administration eingeschaltet haben. Die Schaltfläche "Als PDF herunterladen" braucht den [PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator). Bewertung und Kommentare schalten Systemadministrator:innen im [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md) ein, Lizenzen unter [Lizenzen](../../manual_admin/administration/Licenses.de.md), Fachbereiche im [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Termine setzen das [Modul Termine und Absenzen](../../manual_admin/administration/Modules_Events_and_Absences.de.md) voraus. Kreditpunkte richten Systemadministrator:innen in der [e-Assessment Administration](../../manual_admin/administration/e-Assessment_Credit_Points.de.md) ein.
 
 Technische Angaben wie die ID, den externen Link und die Verantwortlichen zeigt die Infoseite nicht. Sie stehen im Fenster "Über diesen Kurs", siehe [Über diesen Kurs: Fenster öffnen](../learningresources/Technical_Information_on_Resources_and_Usage.de.md#open).
 
@@ -191,7 +191,7 @@ Der Ausdruck lässt weg, was nur am Bildschirm Sinn ergibt: Bookmark setzen, Tei
 
 !!! note "Hinweis"
 
-    Die Schaltfläche "Als PDF herunterladen" erscheint nur, wenn Systemadministrator:innen in der System-Administration einen PDF-Dienst eingerichtet haben, siehe [Externe Werkzeuge: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration.de.md#pdf_generator). Ohne PDF-Dienst drucken Sie die Infoseite über den Browser.
+    Die Schaltfläche "Als PDF herunterladen" erscheint nur, wenn Systemadministrator:innen in der System-Administration einen PDF-Dienst eingerichtet haben, siehe [Externe Werkzeuge: PDF Generator](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator). Ohne PDF-Dienst drucken Sie die Infoseite über den Browser.
 
 [Zum Seitenanfang ^](#general_functions_info)
 
@@ -279,7 +279,7 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 
 **Auf dieser Seite erwähnt**<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Lizenzen >](../../manual_admin/administration/Licenses.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>

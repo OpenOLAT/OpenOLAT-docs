@@ -157,7 +157,7 @@ Wie weit ein einzelnes Konto in diesen Phasen fortgeschritten ist, zeigt der Rei
 
     Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen stellen Sie in der System-Administration ein unter:<br>
     `Administration > Lebenszyklen > Konto`<br>
-    [Details zum automatischen Kontolebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+    [Details zum automatischen Kontolebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts)
 
 [Zum Seitenanfang ^](#lifecycles)
 
@@ -238,7 +238,7 @@ Es kann konfiguriert werden, dass Besitzer:innen über Statusänderungen informi
 [Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Automatischer Kurs-Lebenszyklus >](../../manual_admin/administration/Automatic_Course_Lifecycle.de.md)<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
-[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)
 
 **Weiterführend**<br>

@@ -171,7 +171,7 @@ Education managers see the same overview in Coaching as line managers and additi
 When a person books an offer with invoice, they select a billing address of their organisation instead of entering the address themselves. You store these billing addresses here for each organisation with "Create". The form opens in the "Edit billing address" dialog, also when you create a new address. The person can choose from the active billing addresses of the organisations in which they are a user.
 
 The tab only appears if the offer type "Invoice" is enabled. You select it in the system administration under "Available offer types":<br>
-`Administration > Core functions > Access control`, see [Core functions](Core_functions.md).
+`Administration > Core functions > Access control`, see [Core functions](Core_functions/index.md).
 
 A billing address consists of the fields "Identifier", "Name / Company", "Addition / Department", "Address line 1" to "Address line 4", "P.O. box", "Region", "ZIP", "City" and "Country". Mandatory fields are "Identifier", "Name / Company", "Address line 1", "City" and "Country".
 
@@ -228,7 +228,7 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [REST API >](REST_API.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
-[Core functions: Overview >](Core_functions.md)<br>
+[Core functions: Overview >](Core_functions/index.md)<br>
 [User tools: Booking orders >](../../manual_user/personal_menu/Bookings.md)<br>
 [Coaching - People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [e-Assessment Administration: Credit points >](e-Assessment_Credit_Points.md)<br>

@@ -60,7 +60,7 @@ Contact the COVID commissioners of your organisation if you have problems adding
 
 [Personal Configuration >](Personal_Configuration/index.md)<br>
 [Profile >](Profile/index.md)<br>
-[Modules: Overview (administration manual) >](../../manual_admin/administration/Modules.md)
+[Modules: Overview (administration manual) >](../../manual_admin/administration/Modules/index.md)
 
 **youtube**<br>
 [COVID certificates in OpenOlat](<https://www.youtube.com/embed/863v3ug_QaM>)

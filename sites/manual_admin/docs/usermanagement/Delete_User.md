@@ -79,7 +79,7 @@ On all three tabs, the filter "Inactivation" narrows the list by period, either 
 
 !!! info "Configuration of the automatic user lifecycle"
     The automatic user lifecycle runs in two steps: deactivation and deletion. Independently of this, the account expiration deactivates an account on its stored expiry date. The applicable deadlines and notifications are configured in the system administration: `Administration > Life cycles > User`<br>
-    [Details on the automatic user lifecycle](../administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+    [Details on the automatic user lifecycle](../administration/Life_cycles_-_Administration/index.md#lifecycle_accounts)
 
 ![Three tabs Accounts without activity, Deactivated accounts and Ready to delete, below them the opened Inactivation filter](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="View Delete accounts in the account search" }
 
@@ -99,7 +99,7 @@ After clicking this button, a confirmation dialog appears which you must confirm
 
 An activated automatic user lifecycle also deletes accounts fully automatically.
 
-[Details on the automatic user lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)<br>
+[Details on the automatic user lifecycle >](../../manual_admin/administration/Life_cycles_-_Administration/index.md#lifecycle_accounts)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md#user_account_lifecycle)
 
 [To the top of the page ^](#delete_user)
@@ -244,7 +244,7 @@ For **automatic deletion** via the automatic user lifecycle, an additional safeg
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Life cycles - Overview >](../administration/Life_cycles_-_Administration.md)<br>
+[Life cycles - Overview >](../administration/Life_cycles_-_Administration/index.md)<br>
 [How do I manage lifecycles of groups, courses or user accounts? >](../../manual_how-to/lifecycle/lifecycle.md)<br>
 [Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Account search >](Search_Users.md)

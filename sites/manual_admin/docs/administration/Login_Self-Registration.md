@@ -78,7 +78,7 @@ If the option is switched on, OpenOlat automatically makes the persons who regis
 
 #### Course list {: #course_list }
 
-With "Select courses" you add courses to the list, with "Remove" you take a course out. The list applies to the option "Book in courses". If the offer type "Automatic booking" is not switched on in the core functions under [Access control](Core_functions.md#access-control), the course list shows a warning: without this offer type, OpenOlat does not book anyone into the courses automatically.
+With "Select courses" you add courses to the list, with "Remove" you take a course out. The list applies to the option "Book in courses". If the offer type "Automatic booking" is not switched on in the core functions under [Access control](Core_functions/index.md#access-control), the course list shows a warning: without this offer type, OpenOlat does not book anyone into the courses automatically.
 
 #### Account expiration in days {: #account_expiration_days }
 
@@ -132,11 +132,11 @@ If the option "Display on login page" is switched off, you invite persons to sel
 [Password and Authentication >](Login_Password_and_Authentication.md)<br>
 [Module Organisations >](Modules_Organisations.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
-[Core functions: Overview >](Core_functions.md)<br>
+[Core functions: Overview >](Core_functions/index.md)<br>
 [Navigation >](../../manual_user/basic_concepts/Navigation.md)
 
 **Further reading**<br>
-[Login: Overview >](Login.md)<br>
+[Login: Overview >](Login/index.md)<br>
 [Login Page >](../../manual_user/login_registration/Login_Page.md)
 
 [To the top of the page ^](#self-registration)

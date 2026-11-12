@@ -15,7 +15,7 @@ Spezialität / Hinweis | Beta-Version
 
 Mit dem Kursbaustein starten Teilnehmende direkt aus dem Kurs eine Jupyter-Umgebung, etwa um Notebooks zu bearbeiten. Kursbesitzer:innen legen fest, welches Jupyter-Image dabei startet, und müssen die Umgebung nicht selbst an die Teilnehmenden verteilen.
 
-Voraussetzung ist, dass die Administration den Kursbaustein eingeschaltet und mindestens einen Hub eingerichtet hat, siehe [Externe Werkzeuge: JupyterHub](../../manual_admin/administration/External_Tools_-_Administration.de.md#jupyter). Weitere Informationen zu JupyterHub finden Sie auf [Jupyter.org](https://jupyter.org/hub).
+Voraussetzung ist, dass die Administration den Kursbaustein eingeschaltet und mindestens einen Hub eingerichtet hat, siehe [Externe Werkzeuge: JupyterHub](../../manual_admin/administration/External_Tools_-_Administration/index.de.md#jupyter). Weitere Informationen zu JupyterHub finden Sie auf [Jupyter.org](https://jupyter.org/hub).
 
 ## Kursbaustein konfigurieren [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"}
 
@@ -31,7 +31,7 @@ Je nach Einrichtung des Hubs zeigt der Tab zusätzlich einen "Info-Text", die Sc
 
 ## Weiterführende Informationen {: #further_information}
 
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [Jupyter.org >](https://jupyter.org/hub)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../learningresources/Course_Element_LTI_Page.de.md)

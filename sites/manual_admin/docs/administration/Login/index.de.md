@@ -3,7 +3,7 @@
 !!! info "frentix-Kund:innen"
     Die Einträge "Shibboleth" und "LDAP" erscheinen im Menü nur, wenn die jeweilige Anbindung in der Serverkonfiguration eingeschaltet ist. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
 
-![Konfigurationsmenü Login in der System-Administration mit den Bereichen Sicherheit, Passwort und Authentifizierung, Cloud-Login, Anonyme und externe Benutzer:innen, Selbstregistration und SMS](assets/admin_login_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![Konfigurationsmenü Login in der System-Administration mit den Bereichen Sicherheit, Passwort und Authentifizierung, Cloud-Login, Anonyme und externe Benutzer:innen, Selbstregistration und SMS](../assets/admin_login_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Wie sich Benutzer:innen bei OpenOlat anmelden und selbst registrieren, legen Systemadministrator:innen im nebenstehenden Menü der System-Administration fest:<br>
 `Administration > Login`
@@ -21,7 +21,7 @@ Verfügbar seit | Release 10.2 (2015)
 
 Die Anforderungen an die Sicherheit können je nach Institution variieren. In den Sicherheitseinstellungen können Sie daher den notwendigen Level an Sicherheit unter Berücksichtigung der damit eingegangenen Risiken einstellen.
 
-[Zu den Details >](../administration/Login_Security.de.md)<br>
+[Zu den Details >](../../administration/Login_Security.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 
@@ -31,7 +31,7 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey). Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden. Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Gross- und
 Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte nicht erlaubte Werte definiert werden. Im Tab "Richtlinie zur Passwortänderung" kann festgelegt werden wie oft Benutzer:innen ihr Passwort ändern müssen.
 
-[Zu den Details >](../administration/Login_Password_and_Authentication.de.md)<br>
+[Zu den Details >](../../administration/Login_Password_and_Authentication.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 
@@ -53,7 +53,7 @@ Aus Sicherheitsgründen unterstützt OpenOlat für OpenID-Connect- und OAuth-2.0
 
 Systemadministrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gästen und externen Benutzer:innen genutzt werden kann.
 
-[Zu den Details >](../administration/Guest_and_invitation.de.md)<br>
+[Zu den Details >](../../administration/Guest_and_invitation.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 
@@ -62,7 +62,7 @@ Systemadministrator:innen können festlegen, ob und in welchem Umfang OpenOlat v
 
 Hier können Systemadministrator:innen die Selbstregistration aktivieren sowie weitere Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch in externe Webseiten eingebaut werden. Ferner kann z.B. über das Feld "Gültigkeitsdauer der Logindaten" eingeschränkt werden, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
 
-[Zu den Details >](../administration/Login_Self-Registration.de.md)<br>
+[Zu den Details >](../../administration/Login_Self-Registration.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 
@@ -77,9 +77,9 @@ Damit Benutzer:innen ein vergessenes Passwort mit einem Code per SMS zurücksetz
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Login-Konzept >](../../manual_user/login_registration/Login_Concept.de.md)<br>
-[Login-Seite >](../../manual_user/login_registration/Login_Page.de.md)<br>
-[Rollen und Rechte: Gastzugang >](../../manual_user/basic_concepts/guest_access.de.md)
+[Login-Konzept >](../../../manual_user/login_registration/Login_Concept.de.md)<br>
+[Login-Seite >](../../../manual_user/login_registration/Login_Page.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../../../manual_user/basic_concepts/guest_access.de.md)
 
 [Zum Seitenanfang ^](#login)
 

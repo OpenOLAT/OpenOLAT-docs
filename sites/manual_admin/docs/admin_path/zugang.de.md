@@ -39,7 +39,7 @@ Der Abschnitt der Administration für Anmeldung und Zugang: Password und Authent
 
     **Englisch:** Login
 
-    [Im Handbuch lesen](../administration/Login.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Login%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
+    [Im Handbuch lesen](../administration/Login/index.de.md) · [Sophia fragen](?sophia=Was%20ist%20%22Login%22%20in%20OpenOlat%20und%20wie%20richte%20ich%20das%20ein%3F)
 
 </div>
 
@@ -157,7 +157,7 @@ Ein achtstelliger Bestätigungscode, den OpenOlat nach der Eingabe von Anmeldena
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Login](../administration/Login.de.md)
+[Login](../administration/Login/index.de.md)
 
 Nach der Installation stehen die Einstellungen in der System-Administration unter:<br>`Administration > Login`
 
@@ -172,13 +172,13 @@ Bei der Einrichtung begleitet Sie die zuständige Kundenberatung bei frentix mit
 Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: Die Begriffe dieser Station haben Teile und Einstellungen, die die Installation genauer steuern.
 
 - **Login:** [Sicherheit](../administration/Login_Security.de.md).
-- **Authentifizierung:** [Lokale OpenOlat-Authentifizierung](../../manual_user/login_registration/Login_Concept.de.md), Login für Administratoren, [Cloud Login](../administration/Login.de.md), [Passkey](../../manual_user/login_registration/Passkey.de.md) und weitere.
+- **Authentifizierung:** [Lokale OpenOlat-Authentifizierung](../../manual_user/login_registration/Login_Concept.de.md), Login für Administratoren, [Cloud Login](../administration/Login/index.de.md), [Passkey](../../manual_user/login_registration/Passkey.de.md) und weitere.
 - **Selbstregistrierung:** [Registrierung](../../manual_user/login_registration/index.de.md). Mehr dazu auf der Seite [Selbstregistration](../administration/Login_Self-Registration.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Login: Übersicht >](../administration/Login.de.md)<br>
+[Login: Übersicht >](../administration/Login/index.de.md)<br>
 [Login-Konzept >](../../manual_user/login_registration/Login_Concept.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Rollen und Rechte: Gastzugang >](../../manual_user/basic_concepts/guest_access.de.md)<br>

@@ -93,7 +93,7 @@ Das Modul, das die Planung des Bildungsangebots in OpenOlat einschaltet: Produkt
 
 <p class="oo-mh-kicker">Nachlesen</p>
 
-[Module: Übersicht](../administration/Modules.de.md)
+[Module: Übersicht](../administration/Modules/index.de.md)
 
 Nach der Installation aktivieren und konfigurieren Systemadministrator:innen die Module einzeln. Alle Module stehen in der System-Administration unter:<br>`Administration > Module`
 
@@ -119,7 +119,7 @@ Die Installation läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war:
 [Modul Räume >](../administration/Modules_Rooms.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 [Modul Course Planner >](../administration/Modules_Course_Planner.de.md)<br>
-[Module: Übersicht >](../administration/Modules.de.md)<br>
+[Module: Übersicht >](../administration/Modules/index.de.md)<br>
 [Modul Katalog >](../administration/Modules_Catalog_2.0.de.md)<br>
 [Extern verfügbarer Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>

@@ -53,6 +53,6 @@ Mit der Checkbox "Weitergabe Daten über Benutzer:innen erlaubt" legen Sie fest,
 [Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)
 
 **Weiterführend**<br>
-[Module: Übersicht >](Modules.de.md)
+[Module: Übersicht >](Modules/index.de.md)
 
 [Zum Seitenanfang ^](#external_page)

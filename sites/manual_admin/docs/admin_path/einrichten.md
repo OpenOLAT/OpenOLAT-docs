@@ -59,7 +59,7 @@ The Administration section with the basic functions of the platform: e-mail, fil
 
     **German:** Core Konfiguration
 
-    [Read in the manual](../administration/Core_functions.md) · [Ask Sophia](?sophia=What%20is%20%22Core%20functions%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
+    [Read in the manual](../administration/Core_functions/index.md) · [Ask Sophia](?sophia=What%20is%20%22Core%20functions%22%20in%20OpenOlat%20and%20how%20do%20I%20set%20it%20up%3F)
 
 </div>
 
@@ -132,7 +132,7 @@ The installation is running. Now the things that did not matter at the start pay
 ## Further information {: #further_information}
 
 [System >](../administration/System.md)<br>
-[Core functions: Overview >](../administration/Core_functions.md)<br>
+[Core functions: Overview >](../administration/Core_functions/index.md)<br>
 [Customizing: Overview >](../administration/Customizing.md)<br>
 [Landing pages >](../administration/Landing_pages.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>

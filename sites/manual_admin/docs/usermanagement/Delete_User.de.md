@@ -79,7 +79,7 @@ Auf allen drei Tabs schränkt der Filter "Inaktivierung" die Liste nach Zeitraum
 
 !!! info "Konfiguration des automatischen Kontolebenszyklus"
     Der automatische Kontolebenszyklus läuft in zwei Schritten: Deaktivierung und Löschung. Unabhängig davon deaktiviert der Kontoablauf ein Konto an seinem hinterlegten Ablaufdatum. Welche Fristen und Benachrichtigungen gelten, wird in der System-Administration festgelegt: `Administration > Lebenszyklen > Konto`<br>
-    [Details zum automatischen Kontolebenszyklus](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
+    [Details zum automatischen Kontolebenszyklus](../administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts)
 
 ![Drei Tabs Konten ohne Aktivität, Deaktivierte Konten und Bereit zu löschen, darunter der geöffnete Filter Inaktivierung](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" title="Ansicht Konten löschen in der Kontosuche" }
 
@@ -99,7 +99,7 @@ Nach Klick auf diesen Button erscheint nochmals eine Sicherheitsabfrage, die Sie
 
 Ein eingeschalteter automatischer Kontolebenszyklus löscht Konten auch vollautomatisch.
 
-[Details zum automatischen Kontolebenszyklus >](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)<br>
+[Details zum automatischen Kontolebenszyklus >](../../manual_admin/administration/Life_cycles_-_Administration/index.de.md#lifecycle_accounts)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md#user_account_lifecycle)
 
 [Zum Seitenanfang ^](#delete_user)
@@ -244,7 +244,7 @@ Bei der **automatischen Löschung** über den automatischen Kontolebenszyklus gr
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../../manual_how-to/lifecycle/lifecycle.de.md)<br>
 [Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [Kontosuche >](Search_Users.de.md)

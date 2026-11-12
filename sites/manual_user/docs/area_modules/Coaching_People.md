@@ -152,7 +152,7 @@ Here you see in which groups the person is a member. The prerequisite is the rig
 
 #### Calendar {: #tab_calendar}
 
-Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars system administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calendar".
+Here you see at a glance when the person is scheduled. The calendar combines their personal calendar, the course calendars of the courses in which they are a participant, and the calendars of their groups with the tool Calendar. Which of these appear depends on which calendars system administrators have switched on in the [Core functions](../../manual_admin/administration/Core_functions/index.md#calendar_administration). An event from the event and absence management only appears if it is linked to a course and the course synchronises its events with the course calendar. The prerequisite for the tab is the right "View course calendar".
 
 !!! tip "Why is a course missing in the calendar?"
 
@@ -325,7 +325,7 @@ Open a person and switch to "Educational products". The list shows the implement
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
-[Core functions: Overview >](../../manual_admin/administration/Core_functions.md)<br>
+[Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)

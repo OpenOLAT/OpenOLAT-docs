@@ -44,7 +44,7 @@ The interval and the number of attempts are part of the server configuration and
 
 The regeneration only replaces the PDF file. The serial number, the issue date and the validity remain unchanged. In a recertification, the regenerated certificate also remains the current certificate of the person.
 
-Before you regenerate certificates, make sure that the [PDF service](External_Tools_-_Administration.md#pdf_generator) is available. Otherwise the regeneration fails as well.
+Before you regenerate certificates, make sure that the [PDF service](External_Tools_-_Administration/index.md#pdf_generator) is available. Otherwise the regeneration fails as well.
 
 ![Result with one broken certificate highlighted, below it the checkbox and the button to regenerate](assets/e-assessment_certificates_tab_maintenance_v1_en.png){ class="shadow lightbox" title="Maintenance tab" }
 
@@ -70,7 +70,7 @@ If the search finds broken certificates, the checkbox "Resend email to recipient
 
 ## Further information {: #further_information}
 
-[External Tools: Overview >](External_Tools_-_Administration.md)<br>
+[External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Personal achievements/successes: Certificates >](../../manual_user/personal_menu/Certificates.md)<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>

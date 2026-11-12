@@ -231,7 +231,7 @@ With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When y
 [Security >](Login_Security.md)
 
 **Further reading**<br>
-[Modules: Overview >](Modules.md)<br>
+[Modules: Overview >](Modules/index.md)<br>
 [Landing pages >](Landing_pages.md)<br>
 [Navigation >](../../manual_user/basic_concepts/Navigation.md)
 

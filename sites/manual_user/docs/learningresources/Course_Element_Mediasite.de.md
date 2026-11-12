@@ -17,7 +17,7 @@ Mediasite ist eine automatisierte Videoplattform für Videoaufzeichnung, Videoma
 Voraussetzung ist, dass Ihre Systemadministrator:innen das Mediasite-Modul in der System-Administration aktiviert und die Verbindung zum Mediasite-Server eingerichtet haben, unter:<br>
 `Administration > Externe Werkzeuge > Mediasite`
 
-Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration.de.md). Die Verbindung nutzt LTI (Learning Tools Interoperability) in der Version 1.1 oder 1.3. Welche Version gilt, legen Ihre Systemadministrator:innen dort fest [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Inhaltsauswahl im Kurseditor steht nur mit LTI 1.3 zur Verfügung.
+Die Einrichtung ist im Administrationshandbuch beschrieben: [Externe Werkzeuge: Übersicht](../../manual_admin/administration/External_Tools_-_Administration/index.de.md). Die Verbindung nutzt LTI (Learning Tools Interoperability) in der Version 1.1 oder 1.3. Welche Version gilt, legen Ihre Systemadministrator:innen dort fest [:octicons-tag-16:{ title="ab Release 21.0 (OO-9291)" }](https://track.frentix.com/issue/OO-9291){:target="_blank"}. Die Inhaltsauswahl im Kurseditor steht nur mit LTI 1.3 zur Verfügung.
 
 ## Konfiguration im Kurseditor {: #configuration}
 
@@ -84,7 +84,7 @@ Verwendet der Kursbaustein einen eigenen Mediasite Server mit LTI 1.3, erhält e
 ## Weiterführende Informationen {: #further_information}
 
 [mediasite.com >](https://mediasite.com)<br>
-[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration.de.md)<br>
+[Externe Werkzeuge: Übersicht >](../../manual_admin/administration/External_Tools_-_Administration/index.de.md)<br>
 [LTI - Deep Linking >](../../manual_admin/administration/LTI_Deeplinking.de.md)<br>
 [Video: Übersicht >](../basic_concepts/Video/index.de.md)
 

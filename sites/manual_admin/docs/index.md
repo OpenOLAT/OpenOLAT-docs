@@ -70,7 +70,7 @@ You operate OpenOlat yourself? The installation guide leads from the system user
 Once the installation is running: read reports, set up lifecycles, adapt the wording of the interface, connect other systems.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Reports](administration/Reports.md){ .oo-mh-pcard__go }<br>
-[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lifecycles](administration/Life_cycles_-_Administration.md){ .oo-mh-pcard__go }<br>
+[<i class="o_icon o_icon_start" aria-hidden="true"></i> Lifecycles](administration/Life_cycles_-_Administration/index.md){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Language adaption tool](administration/Customizing.md#language_adaption_tool){ .oo-mh-pcard__go }<br>
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> REST API](administration/REST_API.md){ .oo-mh-pcard__go }
 
@@ -154,7 +154,7 @@ The full checklist after the update, with further items on the REST API, user pr
 
     [:octicons-arrow-right-24: System](administration/System.md)
 
-    [:octicons-arrow-right-24: Core functions](administration/Core_functions.md)
+    [:octicons-arrow-right-24: Core functions](administration/Core_functions/index.md)
 
     [:octicons-arrow-right-24: Landing pages](administration/Landing_pages.md)
 
@@ -168,7 +168,7 @@ The full checklist after the update, with further items on the REST API, user pr
 
     Here you decide who reaches your instance and how people authenticate. The settings cover the login methods, the password rules, self-registration and access for guests.
 
-    [:octicons-arrow-right-24: Login](administration/Login.md)
+    [:octicons-arrow-right-24: Login](administration/Login/index.md)
 
     [:octicons-arrow-right-24: Security](administration/Login_Security.md)
 
@@ -184,7 +184,7 @@ The full checklist after the update, with further items on the REST API, user pr
 
     A module switches a feature on for the whole instance and sets its defaults. Without the matching module, the feature does not appear in courses, groups or the personal menu.
 
-    [:octicons-arrow-right-24: Modules overview](administration/Modules.md)
+    [:octicons-arrow-right-24: Modules overview](administration/Modules/index.md)
 
     [:octicons-arrow-right-24: Module Course](administration/Modules_Course.md)
 
@@ -200,7 +200,7 @@ The full checklist after the update, with further items on the REST API, user pr
 
     Tests, the question bank, certificates and credit points are configured centrally. These settings apply to every course that assesses learners.
 
-    [:octicons-arrow-right-24: e-Assessment overview](administration/e-Assessment_Administration.md)
+    [:octicons-arrow-right-24: e-Assessment overview](administration/e-Assessment_Administration/index.md)
 
     [:octicons-arrow-right-24: Question bank](administration/eAssessment_Question_bank.md)
 
@@ -216,9 +216,9 @@ The full checklist after the update, with further items on the REST API, user pr
 
     OpenOlat connects to video conferencing systems, document editors, AI providers and LTI tools. Each integration is configured once here and is then available in courses.
 
-    [:octicons-arrow-right-24: External tools overview](administration/External_Tools_-_Administration.md)
+    [:octicons-arrow-right-24: External tools overview](administration/External_Tools_-_Administration/index.md)
 
-    [:octicons-arrow-right-24: LTI 1.3 Integrations](administration/LTI_Integrations.md)
+    [:octicons-arrow-right-24: LTI 1.3 Integrations](administration/LTI_Integrations/index.md)
 
     [:octicons-arrow-right-24: BigBlueButton module](administration/BigBlueButton_module.md)
 
@@ -232,11 +232,11 @@ The full checklist after the update, with further items on the REST API, user pr
 
     Life cycles clean up courses, groups and accounts that are no longer in use. The payment modules define how bookings are paid for.
 
-    [:octicons-arrow-right-24: Life cycles](administration/Life_cycles_-_Administration.md)
+    [:octicons-arrow-right-24: Life cycles](administration/Life_cycles_-_Administration/index.md)
 
     [:octicons-arrow-right-24: Automatic Group Life Cycle](administration/Automatic_Group_Lifecycle.md)
 
-    [:octicons-arrow-right-24: Payment modules](administration/Payment_modules.md)
+    [:octicons-arrow-right-24: Payment modules](administration/Payment_modules/index.md)
 
     [:octicons-arrow-right-24: Invoice](administration/Payment_Invoice.md)
 

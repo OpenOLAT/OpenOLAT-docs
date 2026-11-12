@@ -95,8 +95,8 @@ Beim Löschen ersetzt OpenOlat den Anmeldenamen durch eine anonyme Kennung und l
 [Benutzer:in löschen >](Delete_User.de.md)
 
 **Weiterführend**<br>
-[Login: Übersicht >](../administration/Login.de.md)<br>
-[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration.de.md)<br>
+[Login: Übersicht >](../administration/Login/index.de.md)<br>
+[Lebenszyklen: Übersicht >](../administration/Life_cycles_-_Administration/index.de.md)<br>
 [Datenschutz >](Data_protection.de.md)<br>
 [Importvorlagen >](../../manual_user/basic_concepts/Import_Templates.de.md)
 

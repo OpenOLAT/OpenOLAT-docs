@@ -59,7 +59,7 @@ Two further fields in the form "Configure PayPal Checkout" are optional. With th
 [Access configuration >](../../manual_user/learningresources/Access_configuration.md)
 
 **Further reading**<br>
-[Payment modules: Overview >](Payment_modules.md)<br>
+[Payment modules: Overview >](Payment_modules/index.md)<br>
 [Offer types >](../../manual_user/learningresources/Offer_Types.md)<br>
 [Offer concepts >](../../manual_user/basic_concepts/Offer_Concepts.md)
 

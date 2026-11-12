@@ -152,7 +152,7 @@ Hier sehen Sie, in welchen Gruppen die Person Mitglied ist. Voraussetzung ist da
 
 #### Kalender {: #tab_calendar}
 
-Hier sehen Sie auf einen Blick, wann die Person verplant ist. Der Kalender führt ihren persönlichen Kalender, die Kurskalender der Kurse, in denen sie Teilnehmer:in ist, und die Kalender ihrer Gruppen mit dem Werkzeug Kalender zusammen. Welche davon erscheinen, hängt davon ab, welche Kalender Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions.de.md#calendar_administration) eingeschaltet haben. Ein Termin aus der Termin- und Absenzenverwaltung erscheint nur, wenn er an einem Kurs hängt und der Kurs seine Termine mit dem Kurskalender synchronisiert. Voraussetzung für den Tab ist das Recht "Kurskalender anzeigen".
+Hier sehen Sie auf einen Blick, wann die Person verplant ist. Der Kalender führt ihren persönlichen Kalender, die Kurskalender der Kurse, in denen sie Teilnehmer:in ist, und die Kalender ihrer Gruppen mit dem Werkzeug Kalender zusammen. Welche davon erscheinen, hängt davon ab, welche Kalender Systemadministrator:innen in der [Core-Konfiguration](../../manual_admin/administration/Core_functions/index.de.md#calendar_administration) eingeschaltet haben. Ein Termin aus der Termin- und Absenzenverwaltung erscheint nur, wenn er an einem Kurs hängt und der Kurs seine Termine mit dem Kurskalender synchronisiert. Voraussetzung für den Tab ist das Recht "Kurskalender anzeigen".
 
 !!! tip "Warum fehlt ein Kurs im Kalender?"
 
@@ -325,7 +325,7 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
-[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)
