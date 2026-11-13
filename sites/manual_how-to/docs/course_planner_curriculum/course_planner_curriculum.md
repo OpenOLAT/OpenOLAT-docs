@@ -17,22 +17,40 @@
     * [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>
 
 
-Program, study program, degree course or training: in the Course Planner, the offering is called a product, and each run of it is an implementation. For example, you plan a program with two semesters of three modules each, and each module is a course. The program starts again every autumn, with new participants.
+You plan a program with two semesters. Each semester has three modules, and each module has one course. The program starts again every autumn, with new participants. In the Course Planner, such an offering of several courses is called a product, whether you call it a program, study program, degree course or training. Each intake is an implementation of the product. The implementation is the topmost element, semesters and modules are elements below it. A single course that takes place several times also belongs to a product in the Course Planner; this guide covers the product with several courses.
 
-This guide shows the order in which you build this in the Course Planner. The order matters, because the element type decides what you can build later: without sub-elements the implementation shows no "Structure" tab, and without the content "Single course" an element does not accept a course template. You build the structure once and then copy it for every new intake.
+This is how the Course Planner maps the program from the example:
+
+| In the program | In the Course Planner |
+|---|---|
+| the program as an offering | Product |
+| the intake that starts in autumn | Implementation of the product |
+| a semester | Element without a course, it only structures (element type with "Content" = "No content") |
+| a module | Element with exactly one course (element type with "Content" = "Single course") |
+| the course of a module | Course or course template on the module |
+
+A course template is a course from which the Course Planner creates a separate course for the element (step 5). If a module has several courses, for example one course per topic, the element type of the module has the content "Course bundle" instead of "Single course". What an element can carry is determined by its element type. System administrators create the element types, in the example "Lehrgang" for the implementation, "Semester" and "Modul" for the elements below it (step 1).
+
+This guide shows the order in which you build this in the Course Planner. The order matters, because the element type decides what you can build later: without the setting "Subelements" = "Yes" the implementation shows no "Structure" tab, and without the content "Single course" an element does not accept a course template. You build the structure once and then copy it for every new intake.
 
 ---
 
 
 ## Which planning fits? {: #which_planning}
 
-Before you start, check whether you are on the right page. Choose the simplest planning that fits your case:
+Not every offering needs a structure. Choose the simplest planning that fits your offering, then the implementation stays clear. The difference lies in the element type of the implementation: it determines whether the implementation has sub-elements and how many courses an element carries.
 
-| Case | Element type of the implementation | Guide |
-|---|---|---|
-| One course, run several times | "Content" = "Single course" | [Plan a course in several implementations](../course_planner_courses/course_planner_courses.md) |
-| Several courses without structure | "Subelements" = "No", "Content" = "Course bundle" | this guide, without step 4 |
-| Several courses in a tree structure | "Subelements" = "Yes", courses on the sub-elements | this guide, all steps |
+| Your offering | Element type of the implementation | Course template | Guide |
+|---|---|---|---|
+| One course that takes place several times, for example every quarter | "Subelements" = "No", "Content" = "Single course" | possible on the implementation | [Plan a course in several implementations](../course_planner_courses/course_planner_courses.md) |
+| Several courses that are booked together, without structure | "Subelements" = "No", "Content" = "Course bundle" | not possible | this guide, without step 4 |
+| Several courses, structured like semesters and modules | "Subelements" = "Yes", in the example "Content" = "No content"; the courses are attached to the elements below | on every element with "Content" = "Single course" | this guide, all steps |
+
+A course bundle also exists within a structure, for example on a module with several courses. The choice also depends on whether your courses are to be created from a course template. A course template is a course with the usage "Template". From it, the Course Planner creates a separate course for the element it is attached to. Because each implementation has its own elements, each intake receives its own course. An element only accepts a course template if it carries exactly one course, that is with "Content" = "Single course". If, in an offering of several courses, each course is to be created from a course template, each course needs its own element. You then choose the structure, not the course bundle. A course bundle is suitable for existing courses that you add directly.
+
+The administration manual explains the settings of the element types:<br>
+[Tab Element types >](../../manual_admin/administration/Modules_Course_Planner.md#tab_element_types)<br>
+[Content >](../../manual_admin/administration/Modules_Course_Planner.md#content)
 
 The user manual explains the three types of planning with diagrams:<br>
 [Planning single courses >](../../manual_user/area_modules/Course_Planner/index.md#planning_single_courses)<br>
@@ -55,7 +73,7 @@ To carry out the steps, four conditions must be met:
 - **Course Planner switched on**: System administrators switch on the Course Planner in the system administration, with the switch Module "Course Planner" under `Administration > Modules > Course Planner > Tab "Settings"`.
 - **Role**: You have the role Course planner or you are a product owner of the product. Authors have no access to the Course Planner, see [Who can use the Course Planner? >](../../manual_user/area_modules/Course_Planner/index.md#users)
 - **Element types**: Suitable element types exist for the implementation and its elements (step 1).
-- **Courses**: The courses have the usage "Use in Course Planner", course templates the usage "Template" (step 5).
+- **Courses**: The courses have the usage "Use in Course Planner", course templates the usage "Template". How you set the usage is shown in [step 6 of the guide for a course in several implementations](../course_planner_courses/course_planner_courses.md#embedding).
 
 [To the top of the page ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -108,7 +126,7 @@ The product itself has no "Structure" tab. Its tabs are "Overview", "Implementat
 Structure, courses and members belong to the implementation, not to the product. So first create the implementation:<br>
 `Course Planner > Products > "Title of the product" > Tab "Implementations" > Create`
 
-The "Create" menu offers one entry per element type for implementations, for example Create new "Lehrgang". In the "Create new element" dialog, you enter "Title" and "Reference", the "Type" is preselected. You find the same menu under `Course Planner > Implementations > Create`.
+The "Create" menu contains one entry for each element type that you can use as an implementation. Choose the entry for your element type, in the example: Create "Lehrgang". In the "Create new element" dialog, you enter "Title" and "Reference", the "Type" is preselected. You find the same menu under `Course Planner > Implementations > Create`.
 
 The dialog does not ask for a date. You then set the execution period in the implementation:<br>
 `Course Planner > Implementations > "Title of the implementation" > Tab "Settings" > Execution`<br>
@@ -121,14 +139,21 @@ Time-controlled automation rules depend on its begin or end (step 7).
 
 ## Step 4: Build the structure {: #build_structure}
 
-With the structure, you map semesters and modules the way the participants experience the program. For a course bundle without sub-elements, this step does not apply. Open the implementation and select the "Structure" tab. You create elements in two ways:
+With the structure, you map semesters and modules the way the participants experience the program. For a course bundle without sub-elements, this step does not apply. You build the structure in the "Structure" tab of the implementation that you created in step 3:<br>
+`Course Planner > Implementations > "Title of the implementation" > Tab "Structure"`
 
-- **Create**: The button at the top right creates an element directly below the implementation. The menu only shows the types that the element type of the implementation permits under "Child elements", plus "Create new element".
-- **Menu of the 3 dots**: At the end of a row, you create an element below this element. The entry names the permitted type, for example Create new sub-element "Modul" in the row of a semester.
+There you create elements in two ways:
+
+- **Create**: The button at the top right of the "Structure" tab creates an element directly below the implementation, in the example a semester:<br>
+`Course Planner > Implementations > "Title of the implementation" > Tab "Structure" > Create > Create "Semester"`<br>
+As separate entries, the menu only shows the types that the element type of the implementation permits under "Child elements". Each entry opens the "Create new element" dialog as in step 3, the last entry "Create new element" without a preselected type.
+- **Menu of the 3 dots**: At the end of a row, you create an element below this element, in the example a module below a semester:<br>
+`Course Planner > Implementations > "Title of the implementation" > Tab "Structure" > 3 dots in the row "Title of the semester" > Create new sub-element "Modul"`<br>
+The entry names the type that the element type of the semester permits.
 
 ![Menu of a semester row with Create new sub-element "Modul", above it the semesters and modules indented below the implementation](assets/course_planner_curriculum_structure_v1_en.png){ class="shadow lightbox" title="Structure tab of an implementation · 2026.10.27" }
 
-If a type is missing from these menus, it is not permitted below this element. This can only be changed in the element type, under "Child elements" or "Parent elements" (step 1). An element with "Subelements" = "Yes", in the example a semester, also has its own "Structure" tab.
+If a type is missing from these menus, it is not permitted below this element. This can only be changed in the element type, under "Child elements" or "Parent elements", and system administrators take care of that (step 1). An element with "Subelements" = "Yes", in the example a semester, also has its own "Structure" tab.
 
 If an element is in the wrong place, choose "Move element" in the menu of the 3 dots. In the dialog, you choose the target position and there "Above", "Below" or "Sub-element", then click "Move element".
 
@@ -143,7 +168,8 @@ You can find more about the "Structure" tab in the user manual under:<br>
 ## Step 5: Assign courses {: #assign_courses}
 
 The courses are attached to the elements that carry them in terms of content, in the example to the modules. Open the element via its title in the "Structure" tab and select the "Content" tab:<br>
-`Course Planner > Implementations > "Title of the implementation" > Tab "Structure" > "Title of the element" > Tab "Content"`
+`Course Planner > Implementations > "Title of the implementation" > Tab "Structure" > "Title of the element" > Tab "Content"`<br>
+For a course bundle without sub-elements, the courses are attached to the implementation itself: `Course Planner > Implementations > "Title of the implementation" > Tab "Content"`
 
 Here you choose between a fixed course and a course template:
 
@@ -195,7 +221,7 @@ The predefined rules of an implementation:
 
 The instantiation therefore depends on the status "Confirmed", not on a date. Because the first rule sets this status 7 days before the begin, the courses are created one week before the begin with the predefined rules. If the instantiation itself is to depend on a date, open "Edit automation rule" in the menu of the 3 dots of the rule after "Override". There you set the "Trigger" to "Time-controlled" and choose the interval to the begin of the execution period.
 
-Each rule acts on the element in which it is defined. The instantiation of the implementation only creates courses from the course templates of the implementation itself. If the course template is attached to a module, the rules of the module apply, in the module under `Tab "Settings" > Automation`. With the predefined rules, an element instantiates as soon as it has the status "Active".
+Each rule acts on the element in which it is defined. The instantiation of the implementation only creates courses from the course templates of the implementation itself. If the course template is attached to a module, the rules of the module apply, in the module under `Tab "Settings" > Automation`. With the predefined rules, an element instantiates as soon as it has the status "Active". The predefined rule sets this status on the day the execution period of the element begins. The course of a module is therefore only created on the first day of the module, not a week before. If it should be available earlier, select "Override" in the module and adjust the rule.
 
 You can find more about the automation in the user manual under:<br>
 [Configure automation >](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_settings_automation)

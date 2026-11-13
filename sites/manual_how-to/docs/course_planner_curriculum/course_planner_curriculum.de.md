@@ -17,22 +17,40 @@
     * [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>
 
 
-Lehrgang, Bildungsgang, Studiengang oder Ausbildung: Im Course Planner heisst das Angebot Produkt, der einzelne Durchgang Durchführung. Sie planen zum Beispiel einen Lehrgang mit zwei Semestern und je drei Modulen, und jedes Modul ist ein Kurs. Der Lehrgang startet jeden Herbst neu, mit neuen Teilnehmer:innen.
+Sie planen einen Lehrgang mit zwei Semestern. Jedes Semester hat drei Module, und zu jedem Modul gehört ein Kurs. Der Lehrgang startet jeden Herbst neu, mit neuen Teilnehmer:innen. Ein solches Angebot aus mehreren Kursen heisst im Course Planner Produkt, ob Sie es Lehrgang, Bildungsgang, Studiengang oder Ausbildung nennen. Jeder Jahrgang ist eine Durchführung des Produkts. Die Durchführung ist das oberste Element, Semester und Module sind Elemente darunter. Auch ein einzelner Kurs, der mehrmals stattfindet, gehört im Course Planner zu einem Produkt; diese Anleitung behandelt das Produkt aus mehreren Kursen.
 
-Diese Anleitung zeigt, in welcher Reihenfolge Sie das im Course Planner aufbauen. Die Reihenfolge zählt, denn der Elementtyp entscheidet, was Sie später bauen können: Ohne Unterelemente zeigt die Durchführung kein Tab "Struktur", und ohne den Inhalt "Einzelkurs" nimmt ein Element kein Kurstemplate an. Die Struktur bauen Sie einmal und kopieren sie danach für jeden neuen Jahrgang.
+So bildet der Course Planner den Lehrgang aus dem Beispiel ab:
+
+| Im Lehrgang | Im Course Planner |
+|---|---|
+| der Lehrgang als Angebot | Produkt |
+| der Jahrgang, der im Herbst startet | Durchführung des Produkts |
+| ein Semester | Element ohne Kurs, es gliedert nur (Elementtyp mit "Inhalt" = "Kein Inhalt") |
+| ein Modul | Element mit genau einem Kurs (Elementtyp mit "Inhalt" = "Einzelkurs") |
+| der Kurs eines Moduls | Kurs oder Kurstemplate am Modul |
+
+Ein Kurstemplate ist ein Kurs, aus dem der Course Planner für das Element einen eigenen Kurs erstellt (Schritt 5). Gehören zu einem Modul mehrere Kurse, zum Beispiel ein Kurs je Thema, hat der Elementtyp des Moduls den Inhalt "Kurs-Bundle" statt "Einzelkurs". Was ein Element tragen kann, legt sein Elementtyp fest. Die Elementtypen legen Systemadministrator:innen an, im Beispiel "Lehrgang" für die Durchführung, "Semester" und "Modul" für die Elemente darunter (Schritt 1).
+
+Diese Anleitung zeigt, in welcher Reihenfolge Sie das im Course Planner aufbauen. Die Reihenfolge zählt, denn der Elementtyp entscheidet, was Sie später bauen können: Ohne die Einstellung "Unterelemente" = "Ja" zeigt die Durchführung kein Tab "Struktur", und ohne den Inhalt "Einzelkurs" nimmt ein Element kein Kurstemplate an. Die Struktur bauen Sie einmal und kopieren sie danach für jeden neuen Jahrgang.
 
 ---
 
 
 ## Welche Planung passt? {: #which_planning}
 
-Bevor Sie beginnen, prüfen Sie, ob Sie auf der richtigen Seite sind. Wählen Sie die einfachste Planung, die zu Ihrem Fall passt:
+Nicht jedes Angebot braucht eine Struktur. Wählen Sie die einfachste Planung, die zu Ihrem Angebot passt, dann bleibt die Durchführung übersichtlich. Den Unterschied macht der Elementtyp der Durchführung: Er legt fest, ob die Durchführung Unterelemente hat und wie viele Kurse ein Element trägt.
 
-| Fall | Elementtyp der Durchführung | Anleitung |
-|---|---|---|
-| Ein Kurs, mehrfach durchgeführt | "Inhalt" = "Einzelkurs" | [Einen Kurs in mehreren Durchführungen planen](../course_planner_courses/course_planner_courses.de.md) |
-| Mehrere Kurse ohne Gliederung | "Unterelemente" = "Nein", "Inhalt" = "Kurs-Bundle" | diese Anleitung, ohne Schritt 4 |
-| Mehrere Kurse in einer Baumstruktur | "Unterelemente" = "Ja", Kurse an den Unterelementen | diese Anleitung, alle Schritte |
+| Ihr Angebot | Elementtyp der Durchführung | Kurstemplate | Anleitung |
+|---|---|---|---|
+| Ein Kurs, der mehrmals stattfindet, zum Beispiel jedes Quartal | "Unterelemente" = "Nein", "Inhalt" = "Einzelkurs" | an der Durchführung möglich | [Einen Kurs in mehreren Durchführungen planen](../course_planner_courses/course_planner_courses.de.md) |
+| Mehrere Kurse, die zusammen gebucht werden, ohne Gliederung | "Unterelemente" = "Nein", "Inhalt" = "Kurs-Bundle" | nicht möglich | diese Anleitung, ohne Schritt 4 |
+| Mehrere Kurse, gegliedert wie Semester und Module | "Unterelemente" = "Ja", im Beispiel "Inhalt" = "Kein Inhalt"; die Kurse hängen an den Elementen darunter | an jedem Element mit "Inhalt" = "Einzelkurs" | diese Anleitung, alle Schritte |
+
+Ein Kurs-Bundle gibt es auch innerhalb einer Struktur, etwa an einem Modul mit mehreren Kursen. Für die Wahl zählt auch, ob Ihre Kurse aus einem Kurstemplate entstehen sollen. Ein Kurstemplate ist ein Kurs mit dem Verwendungszweck "Template". Aus ihm erstellt der Course Planner für das Element, an dem es hängt, einen eigenen Kurs. Weil jede Durchführung ihre eigenen Elemente hat, erhält jeder Jahrgang seinen eigenen Kurs. Ein Element nimmt ein Kurstemplate nur an, wenn es genau einen Kurs trägt, also mit "Inhalt" = "Einzelkurs". Soll in einem Angebot aus mehreren Kursen jeder Kurs aus einem Kurstemplate entstehen, braucht jeder Kurs ein eigenes Element. Sie wählen dann die Struktur, nicht das Kurs-Bundle. Ein Kurs-Bundle eignet sich für bestehende Kurse, die Sie direkt einbinden.
+
+Die Einstellungen der Elementtypen erklärt das Administrationshandbuch:<br>
+[Tab Elementtypen >](../../manual_admin/administration/Modules_Course_Planner.de.md#tab_element_types)<br>
+[Inhalt >](../../manual_admin/administration/Modules_Course_Planner.de.md#content)
 
 Die drei Planungen mit Grafiken erklärt das Benutzerhandbuch:<br>
 [Planung für Einzelkurse >](../../manual_user/area_modules/Course_Planner/index.de.md#planning_single_courses)<br>
@@ -55,7 +73,7 @@ Damit Sie die Schritte ausführen können, müssen vier Voraussetzungen erfüllt
 - **Course Planner eingeschaltet**: Systemadministrator:innen schalten den Course Planner in der System-Administration ein, mit dem Schalter Modul "Course Planner" unter `Administration > Module > Course Planner > Tab "Einstellungen"`.
 - **Rolle**: Sie haben die Rolle Kursplaner:in oder sind Produktbesitzer:in des Produkts. Autor:innen haben keinen Zugang zum Course Planner, siehe [Wer kann den Course Planner nutzen? >](../../manual_user/area_modules/Course_Planner/index.de.md#users)
 - **Elementtypen**: Es gibt passende Elementtypen für die Durchführung und ihre Elemente (Schritt 1).
-- **Kurse**: Die Kurse tragen den Verwendungszweck "Verwendung im Course Planner", Kurstemplates den Verwendungszweck "Template" (Schritt 5).
+- **Kurse**: Die Kurse tragen den Verwendungszweck "Verwendung im Course Planner", Kurstemplates den Verwendungszweck "Template". Wie Sie den Verwendungszweck festlegen, zeigt [Schritt 6 der Anleitung für einen Kurs in mehreren Durchführungen](../course_planner_courses/course_planner_courses.de.md#embedding).
 
 [zum Seitenanfang ^](#plan_and_run_curriculum_with_course_planner)
 
@@ -108,7 +126,7 @@ Das Produkt selbst hat kein Tab "Struktur". Seine Tabs sind "Übersicht", "Durch
 Struktur, Kurse und Mitglieder gehören zur Durchführung, nicht zum Produkt. Legen Sie deshalb zuerst die Durchführung an:<br>
 `Course Planner > Produkte > "Titel des Produkts" > Tab "Durchführungen" > Erstellen`
 
-Das Menü "Erstellen" bietet je Elementtyp für Durchführungen einen Eintrag an, zum Beispiel Neues "Lehrgang" erstellen. Im Dialog "Neues Element erstellen" geben Sie "Titel" und "Kennzeichen" ein, der "Typ" ist vorbelegt. Dasselbe Menü finden Sie unter `Course Planner > Durchführungen > Erstellen`.
+Das Menü "Erstellen" enthält einen Eintrag für jeden Elementtyp, den Sie als Durchführung verwenden können. Wählen Sie den Eintrag für Ihren Elementtyp, im Beispiel: "Lehrgang" erstellen. Im Dialog "Neues Element erstellen" geben Sie "Titel" und "Kennzeichen" ein, der "Typ" ist vorbelegt. Dasselbe Menü finden Sie unter `Course Planner > Durchführungen > Erstellen`.
 
 Der Dialog fragt kein Datum ab. Den Durchführungszeitraum legen Sie danach in der Durchführung fest:<br>
 `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Einstellungen" > Durchführung`<br>
@@ -121,14 +139,21 @@ Zeitgesteuerte Regeln der Automatisierung richten sich nach seinem Beginn oder E
 
 ## Schritt 4: Struktur aufbauen {: #build_structure}
 
-Mit der Struktur bilden Sie Semester und Module so ab, wie die Teilnehmer:innen den Lehrgang erleben. Bei einem Kurs-Bundle ohne Unterelemente entfällt dieser Schritt. Öffnen Sie die Durchführung und wählen Sie das Tab "Struktur". Elemente legen Sie auf zwei Wegen an:
+Mit der Struktur bilden Sie Semester und Module so ab, wie die Teilnehmer:innen den Lehrgang erleben. Bei einem Kurs-Bundle ohne Unterelemente entfällt dieser Schritt. Die Struktur bauen Sie im Tab "Struktur" der Durchführung, die Sie in Schritt 3 erstellt haben:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Struktur"`
 
-- **Erstellen**: Der Button oben rechts legt ein Element direkt unter der Durchführung an. Das Menü zeigt nur die Typen, die der Elementtyp der Durchführung unter "Kindelemente" zulässt, dazu "Neues Element erstellen".
-- **Menü der 3 Punkte**: Am Ende einer Zeile legen Sie ein Element unter diesem Element an. Der Eintrag nennt den erlaubten Typ, zum Beispiel Neues Unterelement "Modul" erstellen in der Zeile eines Semesters.
+Dort legen Sie Elemente auf zwei Wegen an:
+
+- **Erstellen**: Der Button oben rechts im Tab "Struktur" legt ein Element direkt unter der Durchführung an, im Beispiel ein Semester:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Struktur" > Erstellen > "Semester" erstellen`<br>
+Als eigene Einträge zeigt das Menü nur die Typen, die der Elementtyp der Durchführung unter "Kindelemente" zulässt. Jeder Eintrag öffnet den Dialog "Neues Element erstellen" wie in Schritt 3, der letzte Eintrag "Neues Element erstellen" ohne vorbelegten Typ.
+- **Menü der 3 Punkte**: Am Ende einer Zeile legen Sie ein Element unter diesem Element an, im Beispiel ein Modul unter einem Semester:<br>
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Struktur" > 3 Punkte in der Zeile "Titel des Semesters" > Neues Unterelement "Modul" erstellen`<br>
+Der Eintrag nennt den Typ, den der Elementtyp des Semesters zulässt.
 
 ![Menü einer Semester-Zeile mit Neues Unterelement "Modul" erstellen, darüber Semester und Module eingerückt unter der Durchführung](assets/course_planner_curriculum_structure_v1_de.png){ class="shadow lightbox" title="Tab Struktur einer Durchführung · 2026.10.27" }
 
-Fehlt ein Typ in diesen Menüs, ist er unter diesem Element nicht erlaubt. Ändern lässt sich das nur im Elementtyp, unter "Kindelemente" oder "Elternelemente" (Schritt 1). Ein Element mit "Unterelemente" = "Ja", im Beispiel ein Semester, hat selbst ebenfalls ein Tab "Struktur".
+Fehlt ein Typ in diesen Menüs, ist er unter diesem Element nicht erlaubt. Ändern lässt sich das nur im Elementtyp, unter "Kindelemente" oder "Elternelemente", und das übernehmen Systemadministrator:innen (Schritt 1). Ein Element mit "Unterelemente" = "Ja", im Beispiel ein Semester, hat selbst ebenfalls ein Tab "Struktur".
 
 Steht ein Element an der falschen Stelle, wählen Sie im Menü der 3 Punkte "Element verschieben". Im Dialog wählen Sie die Zielposition und dort "Oben", "Unten" oder "Unterelement", dann klicken Sie auf "Element verschieben".
 
@@ -143,7 +168,8 @@ Mehr zum Tab "Struktur" finden Sie im Benutzerhandbuch unter:<br>
 ## Schritt 5: Kurse zuordnen {: #assign_courses}
 
 Die Kurse hängen an den Elementen, die sie inhaltlich tragen, im Beispiel an den Modulen. Öffnen Sie das Element über seinen Titel im Tab "Struktur" und wählen Sie das Tab "Kursinhalt":<br>
-`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Struktur" > "Titel des Elements" > Tab "Kursinhalt"`
+`Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Struktur" > "Titel des Elements" > Tab "Kursinhalt"`<br>
+Bei einem Kurs-Bundle ohne Unterelemente hängen die Kurse an der Durchführung selbst: `Course Planner > Durchführungen > "Titel der Durchführung" > Tab "Kursinhalt"`
 
 Hier wählen Sie zwischen einem festen Kurs und einem Kurstemplate:
 
@@ -195,7 +221,7 @@ Die vorgegebenen Regeln einer Durchführung:
 
 Die Instanziierung hängt also am Status "Bestätigt", nicht an einem Datum. Weil die erste Regel diesen Status 7 Tage vor dem Beginn setzt, entstehen die Kurse mit den vorgegebenen Regeln eine Woche vor dem Beginn. Soll die Instanziierung selbst an ein Datum gebunden sein, öffnen Sie nach "Überschreiben" im Menü der 3 Punkte der Regel "Automationsregel bearbeiten". Dort stellen Sie den "Auslöser" auf "Zeitgesteuert" und wählen den Abstand zum Beginn des Durchführungszeitraums.
 
-Jede Regel wirkt auf das Element, in dem sie steht. Die Instanziierung der Durchführung erstellt nur Kurse aus den Kurstemplates der Durchführung selbst. Hängt das Kurstemplate an einem Modul, gelten die Regeln des Moduls, im Modul unter `Tab "Einstellungen" > Automatisierung`. Ein Element instanziiert mit den vorgegebenen Regeln, sobald es den Status "Aktiv" hat.
+Jede Regel wirkt auf das Element, in dem sie steht. Die Instanziierung der Durchführung erstellt nur Kurse aus den Kurstemplates der Durchführung selbst. Hängt das Kurstemplate an einem Modul, gelten die Regeln des Moduls, im Modul unter `Tab "Einstellungen" > Automatisierung`. Ein Element instanziiert mit den vorgegebenen Regeln, sobald es den Status "Aktiv" hat. Diesen Status setzt die vorgegebene Regel am Tag, an dem der Durchführungszeitraum des Elements beginnt. Der Kurs eines Moduls entsteht also erst am ersten Tag des Moduls, nicht eine Woche davor. Soll er früher bereitstehen, wählen Sie im Modul "Überschreiben" und passen die Regel an.
 
 Mehr zur Automatisierung finden Sie im Benutzerhandbuch unter:<br>
 [Automatisierung konfigurieren >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_settings_automation)
