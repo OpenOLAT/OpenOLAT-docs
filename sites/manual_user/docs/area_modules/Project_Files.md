@@ -19,7 +19,7 @@ The following principles apply:
 - If no Microsoft licence is available, docx, pptx and xlsx are for example opened with OnlyOffice, if a licence is available for it.
 - Pdf files are usually opened with OnlyOffice.
 - Images are opened in the browser.
-- With write access, HTML files open in the HTML editor in a new browser window. With read-only access, a preview opens in a lightbox, provided a content domain is set up. [See the details in the folder concept >](../basic_concepts/Folder_Concept.md#open_html) [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
+- With write access, HTML files open in the HTML editor in a new browser window. With read-only access, a preview opens in a lightbox, provided a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up. [See the details in the folder concept >](../basic_concepts/Folder_Concept.md#open_html) [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
 - File formats that require special software are not opened. OpenOlat offers a download instead. The file can thus still be saved together with the other data in the project.<br>Example: Mac file formats, such as Pages or Keynote.
 
 
@@ -149,6 +149,7 @@ If you want to delete several files at once (bulk action), select the list view 
 
 ## Further information {: #further_information}
 
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [Folder concept >](../basic_concepts/Folder_Concept.md)<br>
 [Projects: Member Management >](Project_Member_Management.md)<br>
 [Projects: Overview >](Project_Overview/index.md)<br>

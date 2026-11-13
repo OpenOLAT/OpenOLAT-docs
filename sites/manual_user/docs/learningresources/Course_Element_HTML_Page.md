@@ -19,7 +19,7 @@ The course element displays an HTML file. You design it in the HTML editor, whic
 
     In the course element "HTML page" you store any HTML and JavaScript code,
     including content of a foreign domain. OpenOlat delivers this code under your
-    own domain, unless a separate address for content is set up. This separate
+    own domain, unless a separate address for content ([content domain](../basic_concepts/Content_Domain.md)) is set up. This separate
     address is set up by whoever operates your OpenOlat installation. Based on
     modern security considerations, frentix recommends not
     to mix different domains and therefore advises against the use of this course
@@ -81,6 +81,8 @@ If you upload a ZIP file with "Import", OpenOlat unpacks it and then offers the 
 ## Tab Display content {: #layout}
 
 In the "Display content" tab you determine how OpenOlat displays the page in the course: unaltered or optimized for OpenOlat. With the display mode "Optimized for OpenOlat" you can, for example, apply the course layout to the page content or enable a [glossary](../learningresources/Glossary_usage.md#glossary_call_in_HTML) embedded in the course for the page.
+
+If a [content domain](../basic_concepts/Content_Domain.md) is set up, OpenOlat delivers the content through it. Scripts in the content therefore have no access to the OpenOlat session. Course-internal links to other course elements continue to work. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
 
 ![Settings for display mode, JavaScript with None or jQuery, glossary terms, height, layout and character set](assets/course_element_html_page_tab_displaycontent_v2_en.png){ class="shadow lightbox" title="Display content tab in the course editor · 2026.10.08" }
 
@@ -324,6 +326,7 @@ In the created HTML pages, the option "Allow links in the entire storage folder"
 
 **Mentioned on this page**<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Glossary - Usage >](../learningresources/Glossary_usage.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>

@@ -32,7 +32,7 @@ Typical use cases are pages containing database queries, for example a literatur
     OpenOlat instance runs under its own address, the embedded page under a
     different one.
 
-    This course element does not use a separate address for content, even if
+    This course element does not use a separate address for content ([content domain](../basic_concepts/Content_Domain.md)), even if
     one is set up: it displays the foreign page directly or via the main
     address of your OpenOlat instance.
 
@@ -72,6 +72,7 @@ Disadvantage of using an «iframe»: your content might appear along with its ow
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [Course Element "Link list" >](Course_Element_Link_List.md)<br>
 [Module External page >](../../manual_admin/administration/Modules_External_Page.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)

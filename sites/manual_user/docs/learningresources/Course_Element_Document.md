@@ -20,9 +20,11 @@ The course element is well suited for displaying PDF, JPG and PNG files. In addi
 
 OpenOlat uses an integrated PDF viewer (pdf.js) [:octicons-tag-16:{ title="from Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"} which provides clear rendering. Large PDF files are loaded progressively if the file supports this. The PDF viewer is read-only: a separate editor is required for editing.
 
+OpenOlat delivers an HTML file through the [content domain](../basic_concepts/Content_Domain.md) (separate address for content), if one is set up. Scripts in the file therefore have no access to the OpenOlat session. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 !!! tip "Tip"
 
-    For video files the course element ["Video"](../learningresources/Course_Element_Video.md) should be used, and for HTML pages the course element ["Single page"](../learningresources/Course_Element_HTML_Page.md), instead of the course element "Document".
+    For video files the course element ["Video"](../learningresources/Course_Element_Video.md) should be used, and for HTML pages the course element ["HTML page"](../learningresources/Course_Element_HTML_Page.md), instead of the course element "Document".
 
 ### How do files get into the course element? [:octicons-tag-16:{ title="from Release 15.3 (OO-4801)" }](https://track.frentix.com/issue/OO-4801){:target="_blank"}
 
@@ -101,7 +103,11 @@ These permissions allow various scenarios to be implemented with the course elem
 
 ## Further information {: #further_information}
 
-[Course element "Video" >](../learningresources/Course_Element_Video.md)<br>
-[Course element "Single page" >](../learningresources/Course_Element_HTML_Page.md)
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
+[Course Element "Video" >](../learningresources/Course_Element_Video.md)<br>
+[Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
+[Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
+[Storage folder >](Storage_folder.md)<br>
+[Delete (a course or learning resource) >](Course_Delete.md)
 
 [To the top of the page ^](#document)

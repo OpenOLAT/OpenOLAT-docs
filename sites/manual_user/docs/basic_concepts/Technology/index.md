@@ -4,10 +4,11 @@ This chapter contains instructions on technologies that are useful when working 
 
   * [Using WebDAV](../Using_WebDAV.md) to facilitate file transfer from the local computer to OpenOlat folders
   * [Technology and Navigation](../Technology_and_Navigation.md) with an overview of the technologies used and the responsive design
+  * [Content domain](../Content_Domain.md) (separate address for content) with an explanation of why OpenOlat delivers content via a second web address
 
 ## Further information {: #further_information}
 
-[Using WebDAV >](../Using_WebDAV.md)<br>
-[Technology and Navigation >](../Technology_and_Navigation.md)
+[Folder concept >](../Folder_Concept.md)<br>
+[Accessibility: Basic principles >](../Accessibility_Principals.md)
 
 [To the top of the page ^](#supported_technologies)

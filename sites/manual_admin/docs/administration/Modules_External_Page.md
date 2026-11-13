@@ -16,7 +16,7 @@ In the module External page you define whether authors can use the course elemen
     OpenOlat instance runs under its own address, the embedded page under a
     different one.
 
-    This course element does not use a separate address for content, even if
+    This course element does not use a separate address for content ([content domain](../../manual_user/basic_concepts/Content_Domain.md)), even if
     one is set up: it displays the foreign page directly or via the main
     address of your OpenOlat instance.
 
@@ -48,6 +48,7 @@ The data is only transmitted for course elements with the display "Embedded (sou
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Content domain >](../../manual_user/basic_concepts/Content_Domain.md)<br>
 [Course Element "LTI Page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
 [Course Element "Link list" >](../../manual_user/learningresources/Course_Element_Link_List.md)<br>
 [Course Element "External Page" >](../../manual_user/learningresources/Course_Element_External_Page.md)

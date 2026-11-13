@@ -141,6 +141,8 @@ In the drop-down menu, you define how many attempts are allowed for this SCORM c
 
 In the "Display content" tab, you determine how OpenOlat presents the SCORM content in the course. In the display mode "Standard", the fields "Embed Javascript library", "Embed glossary terms" and "Adapt layout" cannot be selected; they only take effect in the mode "Optimized for OpenOlat".
 
+If a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up, OpenOlat delivers the content through it. Scripts in the content therefore have no access to the OpenOlat session. The SCORM package runs with full JavaScript. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 ![Display mode Standard selected, Javascript, glossary and layout therefore not selectable, display height and content character set set to automatic](assets/course_element_scorm_tab_display_content_v3_en.png){ class="shadow lightbox" title="Tab Display content in the course editor · 2026.10.08" }
 
 #### Use standard configuration {: #use_standard_configuration }
@@ -229,12 +231,16 @@ If the awarding of badges is enabled in the course settings, the course editor s
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Authoring - Create courses and learning resources >](../area_modules/authoring_new_course.md)<br>
-[Course Reminders >](Course_Reminders.md)<br>
-[Badges >](OpenBadges.md)<br>
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [SCORM 1.2: Administration >](SCORM_Administration.md)
+
+**Further reading**<br>
+[Course Reminders >](Course_Reminders.md)<br>
+[Badges >](OpenBadges.md)
 
 [To the top of the page ^](#course_element_scorm)

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="480" viewBox="0 0 940 480" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Frame from the content domain</title>
+  <desc id="d1">Browser window with the OpenOlat address learn.example.com and the session cookie of OpenOlat. Inside it, an embedded frame from the content domain content.example.net with its own cookie without an OpenOlat session. The script in the frame does not reach the session cookie, the same-origin policy of the browser blocks the access. Only a checked message, for example a link to a course element, reaches OpenOlat.</desc>
+  <defs>
+    <marker id="arrSea" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+    <marker id="arrBerry" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8F1F40"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="940" height="480" fill="#FFFFFF"/>
+
+  <!-- Browser window -->
+  <rect x="20" y="20" width="900" height="440" rx="10" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <path d="M20,64 L20,30 A10,10 0 0 1 30,20 L910,20 A10,10 0 0 1 920,30 L920,64 Z" fill="rgba(18, 99, 101, 0.12)"/>
+  <line x1="20" y1="64" x2="920" y2="64" stroke="#126365" stroke-width="1.5"/>
+  <text x="40" y="48" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Browser</text>
+  <rect x="130" y="30" width="420" height="26" rx="13" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="148" y="48" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Address bar: https://learn.example.com</text>
+
+  <!-- OpenOlat page -->
+  <text x="44" y="98" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#342C24">OpenOlat page</text>
+  <text x="44" y="118" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">learn.example.com</text>
+
+  <rect x="44" y="136" width="220" height="78" rx="8" fill="#126365"/>
+  <text x="154" y="168" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Session cookie</text>
+  <text x="154" y="192" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#FFFFFF">Person's OpenOlat session</text>
+
+  <rect x="44" y="310" width="220" height="92" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2"/>
+  <text x="154" y="340" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">OpenOlat checks</text>
+  <text x="154" y="362" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">the message and opens</text>
+  <text x="154" y="382" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">e.g. the course element</text>
+
+  <!-- Embedded frame (iframe) -->
+  <rect x="440" y="90" width="456" height="346" rx="8" fill="rgba(18, 99, 101, 0.12)" stroke="#126365" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="462" y="120" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#342C24">Embedded content (iframe)</text>
+  <text x="462" y="142" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Content domain: content.example.net</text>
+
+  <rect x="462" y="166" width="196" height="72" rx="8" fill="#FFFFFF" stroke="#2D2926" stroke-width="1.5"/>
+  <text x="560" y="196" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">Script in the content</text>
+  <text x="560" y="218" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">HTML, CP, SCORM</text>
+
+  <rect x="678" y="166" width="196" height="72" rx="8" fill="#FFFFFF" stroke="#11624F" stroke-width="1.5"/>
+  <text x="776" y="196" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#11624F">Own cookie</text>
+  <text x="776" y="218" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">no OpenOlat session</text>
+
+  <text x="462" y="402" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Example of a message:</text>
+  <text x="462" y="422" font-family="'Roboto', sans-serif" font-size="14" fill="#2D2926">Link to another course element</text>
+
+  <!-- Blocked access -->
+  <line x1="462" y1="190" x2="270" y2="175" stroke="#8F1F40" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrBerry)"/>
+  <circle cx="352" cy="182" r="15" fill="#FFFFFF" stroke="#8F1F40" stroke-width="2.5"/>
+  <line x1="344" y1="174" x2="360" y2="190" stroke="#8F1F40" stroke-width="2.5"/>
+  <line x1="360" y1="174" x2="344" y2="190" stroke="#8F1F40" stroke-width="2.5"/>
+  <text x="352" y="224" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#8F1F40">No access</text>
+  <text x="352" y="244" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#8F1F40">Same-origin policy</text>
+
+  <!-- Checked message -->
+  <polyline points="560,238 560,356 270,356" fill="none" stroke="#0F5456" stroke-width="2.5" marker-end="url(#arrSea)"/>
+  <text x="352" y="342" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#0F5456">Message</text>
+  <text x="352" y="378" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14" fill="#0F5456">(postMessage)</text>
+</svg>

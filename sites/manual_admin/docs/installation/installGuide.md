@@ -243,7 +243,7 @@ Create the file `~/lib/olat.local.properties`
 
 ### Recommended: content domain for user provided content
 
-OpenOlat can deliver user provided content (HTML single pages, CPs, SCORM packages, documents etc.) from a second domain. The browser same-origin policy then prevents this content from accessing the OpenOlat session cookie. We strongly recommend this setup for production installations.
+OpenOlat can deliver user provided content (HTML single pages, CPs, SCORM packages, documents etc.) from a second domain. The browser same-origin policy then prevents this content from accessing the OpenOlat session cookie. We strongly recommend this setup for production installations. What the content domain protects, which content it delivers and what users notice is explained in the user manual under [Content domain](../../manual_user/basic_concepts/Content_Domain.md).
 
 Add the following to `olat.local.properties`:
 
@@ -255,7 +255,7 @@ The content domain must point to the same OpenOlat server, for example via an ad
 !!! warning
 	Use a completely separate domain that does not share cookies with your OpenOlat domain. A subdomain of `server.domainname` will not work.
 
-If `server.content.domainname` is not set, user content is delivered from the main domain without this protection.
+If `server.content.domainname` is not set, user content is delivered from the main domain without this protection. The default value of the key is `${server.domainname}`, and OpenOlat only uses a content domain if it differs from `server.domainname`. Removing `server.content.domainname` from `olat.local.properties` therefore restores the delivery from the main domain after the next restart.
 
 ## Application context descriptor
 	

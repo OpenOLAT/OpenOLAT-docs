@@ -50,7 +50,7 @@ You define the central settings in the "Overview" tab. You choose between four d
 
 * **Automatic overview** generates a list of the subordinate course elements. You additionally select whether all or only certain course elements appear and whether the display is in one or two columns.
 * **Automatic overview incl. preview** also generates a directory of the subordinate course elements, but additionally shows a preview for some course elements. What the preview looks like depends on the course element. The settings are similar to those of the automatic overview. You also define whether the preview applies to all course elements or only to structure elements. However, participants do not see a preview for course elements to which they do not (yet) have access.
-* **Your HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. You then add text, images etc. in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears, where you define further settings for HTML pages.
+* **Your HTML page** allows you to create your own information page instead of the automatically generated overview. Therefore, you can select an HTML page from the storage folder, create a new HTML file or import a suitable file. You then add text, images etc. in the OpenOlat HTML editor in a similar way to the HTML page course element. In addition, the "Display content" tab appears, where you define further settings for HTML pages. If a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up, OpenOlat delivers the page through it. Scripts in it therefore have no access to the OpenOlat session. Course-internal links to other course elements continue to work. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
 * **No overview, activate first visible child node** displays the first visible subordinate course element instead of an overview.
 
 !!! info "Important"
@@ -165,6 +165,7 @@ In conventional courses, you protect the course element "Structure" and thus its
 **Mentioned on this page**<br>
 [Course Reminders >](../learningresources/Course_Reminders.md)<br>
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [Learning path course - Course editor >](../learningresources/Learning_path_course_Course_editor.md)<br>
 [Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)

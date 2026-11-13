@@ -37,6 +37,8 @@ Without this option, participants do not see the structure. After opening the co
 
 In the "Display content" tab, you define how OpenOlat displays the pages of the content package in the course, for example whether the course layout is applied to the pages and how high the display area is. This way, the CP learning content matches the course visually, or it appears unchanged as it was created.
 
+If a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up, OpenOlat delivers the content through it. Scripts in the content therefore have no access to the OpenOlat session. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 #### Use standard configuration {: #use_standard_configuration}
 
 You define the display of a CP learning content in two places: in the settings of the learning resource in the [tab "Layout"](CP_Administration/index.md#tab_layout) and here in the course element. With "Use standard configuration" you choose which settings apply in the course:
@@ -57,6 +59,7 @@ Below follow the same fields as in the "Display content" tab of the course eleme
 
 **Mentioned on this page**<br>
 [How do I create a content package? (Step-by-step instruction) >](../../manual_how-to/content_package/content_package.md)<br>
+[Content domain >](../basic_concepts/Content_Domain.md)<br>
 [CP learning content: Administration >](CP_Administration/index.md)<br>
 [Course Element "HTML page" >](Course_Element_HTML_Page.md)
 

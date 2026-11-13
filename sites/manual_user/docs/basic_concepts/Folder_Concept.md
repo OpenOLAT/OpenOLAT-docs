@@ -170,14 +170,17 @@ If you select the checkbox in the header, all list entries are selected and high
 
 ### Opening HTML files [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"} {: #open_html}
 
+!!! info "Contact"
+    The preview of an HTML file in a lightbox, a window above the current page, requires a content domain (separate address for content). The content domain is part of the server configuration. For a change, contact your organisation.
+
 When you click an HTML file in a folder, OpenOlat opens it for editing or for viewing only, depending on your access in the folder:
 
 - **With write access**, the file opens in the HTML editor in a new browser window.
 - **With read-only access**, a preview of the file opens in a lightbox above the current page.
 
-The preview in the lightbox delivers the file through a separate content domain, that is, a second web address next to the address under which you call up OpenOlat. HTML code and scripts from the file therefore have no access to the OpenOlat session of the person viewing the file.
+The preview in the lightbox delivers the file through the [content domain](Content_Domain.md). HTML code and scripts from the file therefore have no access to your OpenOlat session.
 
-The preview in the lightbox requires a content domain. The content domain is part of the server configuration; to have it set up, contact your organisation. Without a content domain, an HTML file opens in a new browser window even with read-only access. How to set up the content domain is described in the [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+Without a content domain, an HTML file opens in a new browser window even with read-only access.
 
 
 ## Trash [:octicons-tag-16:{ title="from Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
@@ -214,7 +217,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [File Hub Concept >](File_Hub_Concept.md)<br>
 [General information on the search >](Search_General/index.md)<br>
-[Installation guide >](../../manual_admin/installation/installGuide.md)
+[Content domain >](Content_Domain.md)
 
 **Further reading**<br>
 [Coach files >](../learningresources/Coach_Files.md)<br>

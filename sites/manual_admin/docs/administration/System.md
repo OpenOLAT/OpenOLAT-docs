@@ -22,7 +22,7 @@ In addition, documents (e.g. further information in pdf form) can be linked. A "
 
 ## Active sessions {: #active_sessions}
 
-The currently logged in persons are displayed here.
+Here you see the sessions of the persons currently logged in. The column "Mode" shows through which access a session was created, for example "WebDAV", "REST" or "Content". The value "Content" stands for an access through the [content domain](../../manual_user/basic_concepts/Content_Domain.md) (separate address for content). Such a session only delivers content and does not receive an OpenOlat user interface. This is why the same person can appear twice in the list: once with their session in OpenOlat and once with the mode "Content".
 
 [To the top of the page ^](#system)
 
@@ -107,3 +107,11 @@ Here system administrators can find a list of all keys for the standard variable
 
 [To the top of the page ^](#system)
 
+
+## Further information {: #further_information}
+
+[Content domain >](../../manual_user/basic_concepts/Content_Domain.md)<br>
+[WebDAV >](WebDAV.md)<br>
+[REST API >](REST_API.md)
+
+[To the top of the page ^](#system)

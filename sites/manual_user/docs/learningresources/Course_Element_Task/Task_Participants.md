@@ -30,7 +30,7 @@ Depending on the configuration, one or more tasks are available for selection in
 
 If you have selected a task or a task has been automatically assigned to you, click on "Download task" to download or display the task. If you click on the file name of the task, OpenOlat displays the task. You can then download the task again at any time.
 
-HTML files, whether assignment, submitted document or sample solution, open in a lightbox, and scripts in them only run if a [content domain](../../basic_concepts/Folder_Concept.md#open_html) is set up. [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
+HTML files, whether assignment, submitted document or sample solution, open in a lightbox, and scripts in them only run if a [content domain](../../basic_concepts/Content_Domain.md) (separate address for content) is set up. [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
 
 It is also possible that your teacher has not stored the task in the course element "Task", but has chosen a different location, e.g. another course element, an HTML page, an external website or has set the task orally in presence or in an online meeting. In this case, the "Task assignment" section does not appear.
 
@@ -111,6 +111,7 @@ The step "Grading" shows the performance summary with status, score and classifi
 [Course Element "Task" >](index.md)<br>
 [Task with peer review >](Task_Peer_Review.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
+[Content domain >](../../basic_concepts/Content_Domain.md)<br>
 [Folder concept >](../../basic_concepts/Folder_Concept.md)<br>
 [Set up a task >](Task_Setup.md)<br>
 [Supervise a task >](Task_Coaching.md)
