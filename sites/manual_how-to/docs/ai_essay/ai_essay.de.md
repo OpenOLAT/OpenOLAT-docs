@@ -23,9 +23,18 @@
 
 Mit dem KI-Feedback erhalten Lernende zu ihrer Antwort auf eine Freitextfrage ein **formatives Feedback**. Die KI vergleicht die Antwort mit den Angaben, die Sie als Autor:in hinterlegen, und beschreibt, was gelungen ist und was fehlt.
 
-Drei Wörter der Oberfläche meinen dieselbe Funktion: "Essay Bewertung", "KI-Korrektur" und "KI-Feedback". "KI-Korrektur" steht an zwei Orten, im Feld "Essay-Fragen mit KI-Korrektur" beim Erzeugen von Fragen und im Dialog, in dem Lernende einwilligen. Die Grafik zeigt, wer welches Wort an welchem Ort antrifft und was es dort bewirkt.
+OpenOlat benennt die Funktion für jede Rolle mit dem Wort, das zu ihrer Aufgabe passt. Als Autor:in richten Sie im Tab "KI-Feedback" ein, was Lernende später erhalten. Lernende erlauben im Dialog "KI-Korrektur", dass die KI ihre Antwort prüft, und lesen danach ihr KI-Feedback. Lassen Sie Fragen von der KI erzeugen, steht "Essay" für die Freitextfrage. Die Tabelle zeigt je Ziel, wer handelt, wo und unter welchem Wort der Oberfläche, in der Reihenfolge dieser Anleitung.
 
-![Vier Stationen mit Rolle, Ort und Wort der Oberfläche: drei Wörter, eine Funktion](assets/ai_essay_feedback_stations_v1_de.svg){ class="shadow lightbox" title="Stationen des KI-Feedbacks zu Freitextantworten · 2026.11.13" }
+| Ziel | Wer | Wo | Wort in der Oberfläche |
+|---|---|---|---|
+| Das [Bewertungskit](#grading_kit) füllen: die Angaben, an denen die KI eine Antwort misst | Autor:in | Tab der Freitextfrage | "KI-Feedback" |
+| Die Prüfung der Antwort durch die KI erlauben oder ablehnen | Lernende | Dialog beim Start des Quiz | "KI-Korrektur" |
+| Die Rückmeldung der KI auf die Antwort erhalten | Lernende | Hinweis während der Prüfung<br>Block unter der Antwort | "Wartet auf KI-Korrektur"<br>"KI-Feedback" |
+| Festlegen, wie viele Freitextfragen die KI erzeugt, jede mit vorgefülltem Bewertungskit | Autor:in | Dialog "Importieren" im Content Editor<br>Dialog "KI Fragen" im Fragenpool | "Essay-Frage mit KI-Korrektur"<br>"Essay-Fragen mit KI-Korrektur" |
+
+!!! info "frentix-Kund:innen"
+
+    Die Funktion "Essay Bewertung" setzt bei frentix-Kund:innen eine Vereinbarung mit frentix voraus. Danach schaltet die zuständige Kundenberatung bei frentix die Funktion frei.
 
 Drei Punkte bestimmen den Einsatz:
 
@@ -45,14 +54,14 @@ Für eine bewertete Prüfung nutzen Sie weiterhin den [Kursbaustein Test](../../
 
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "KI-Anbieter", "KI-Funktionen" und "KI-Verarbeitungs-Pools".
 
-Die Freitextfrage im Quiz erscheint nur, wenn die passende KI-Funktion in der System-Administration aktiviert ist.
+Die Freitextfrage im Quiz erscheint nur, wenn die KI-Funktion "Essay Bewertung" in der System-Administration aktiviert ist.
 
 1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
 2. Wählen Sie den Tab "KI-Funktionen".
 3. Prüfen Sie die Funktion "Essay Bewertung": Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt.
-4. Für den Weg über den Import prüfen Sie zusätzlich die Funktion "Essay Fragen Generator".
+4. Für [erzeugte Fragen](#import) prüfen Sie zusätzlich die Funktion "Essay Fragen Generator". Der Button "KI Fragen" im Fragenpool erscheint ausserdem nur mit der Funktion "MC Fragen Generator".
 
-Zwei Grenzwerte dieser Funktion wirken direkt auf Lernende und Autor:innen:
+Zwei Grenzwerte der Funktion "Essay Bewertung" wirken direkt auf Lernende und Autor:innen:
 
 | Feld | Standardwert | Wirkung |
 |---|---|---|
