@@ -2,7 +2,7 @@
 
 ## Was ist der Content Editor? {: #content_editor}
 
-Der Content Editor ermöglicht es basierend auf einem selbst gewählten Layout verschiedene Inhaltselemente in eine Seite einzufügen und so eine Inhaltsseite optimiert für Mobilgeräte zu gestalten. OpenOlat speichert Ihre Änderungen automatisch.
+Mit dem Content Editor gestalten Sie eine Seite aus verschiedenen Inhaltselementen, angeordnet nach einem Layout, das Sie selbst wählen. Die Seite ist für Mobilgeräte optimiert. OpenOlat speichert Ihre Änderungen automatisch.
 
 Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. Wer ihn nutzt, hängt vom Ort ab: im Kursbaustein "Seite" die Besitzer:innen des Kurses und berechtigte Betreuer:innen, in der Lernressource "Formular" deren Besitzer:innen, im Portfolio die Besitzer:innen der Mappe.
 
@@ -47,7 +47,7 @@ Auch die Medien einer Portfolio-Mappe liegen im Media Center. Die Lernressource 
 
 ### Lernressource Formular {: #form}
 
-Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form/index.de.md) und allen Elementen die die Lernressource Formular nutzen verwendet. 
+Auch die [Lernressource Formular](../learningresources/Form/index.de.md) und alle Elemente, die ein Formular nutzen, verwenden den Content Editor.
 
 Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
 
@@ -81,8 +81,7 @@ Falls nötig, lässt sich das Layout später jederzeit ändern. Klicken Sie dazu
 
 ![Das Zahnrad öffnet den Inspektor mit den Layout-Vorlagen, die gewählte ist türkis markiert.](assets/Lyout_Formular.jpg){ class="shadow lightbox" title="Inspektor eines Layouts" }
 
-Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern. 
-Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
+Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern. Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
 ![Die türkis markierten Pfeile am rechten Rand verschieben das ganze Layout.](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" title="Layout einer Seite im Bearbeitungsmodus" }
 
@@ -99,11 +98,11 @@ Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
 ### Inhalts-Blöcke {: #content_blocks}
 
-In jeden Bereich eines Layouts können Inhalts-Blöcke mit verschiedenen konkreten Inhalten hinzugefügt werden. Die Anzahl der Inhaltsblöcke hängt vom gewählten Layout ab. Ein dreispaltiges Layout hat zum Beispiel 3 Inhaltsblöcke.
+In jeden Bereich eines Layouts fügen Sie Inhalts-Blöcke mit verschiedenen Inhalten ein. Die Anzahl der Inhaltsblöcke hängt vom gewählten Layout ab. Ein dreispaltiges Layout hat zum Beispiel 3 Inhaltsblöcke.
 
 ### Inhalte in einem Block hinzufügen, positionieren und konfigurieren {: #add_content}
 
-Über "Inhalt hinzufügen" werden die konkreten Inhalte und Medien einem Block hinzugefügt. Der Link erscheint in jedem Bereich eines Layouts, so dass Sie den Inhalt genau dort einfügen, wo er stehen soll.
+Mit "Inhalt hinzufügen" fügen Sie Inhalte und Medien in einen Block ein. Der Link erscheint in jedem Bereich eines Layouts, so dass Sie den Inhalt genau dort einfügen, wo er stehen soll.
 
 ![Der Link Inhalt hinzufügen in jedem Bereich des Layouts, der Pfeil zeigt auf den rechten Bereich.](assets/content_editor_add_content_page_v5_de.png){ class="shadow lightbox" title="Bereiche eines Layouts im Content Editor" }
 
@@ -111,7 +110,7 @@ Der Dialog "Inhalt hinzufügen" listet die verfügbaren Inhaltstypen nach den Be
 
 Fahren Sie im Bearbeitungsmodus mit der Maus über einen Block, wird dieser hervorgehoben [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8966)" }](https://track.frentix.com/issue/OO-8966){:target="_blank"}. Das hilft, einzelne Blöcke auseinanderzuhalten, wenn mehrere gleichartige Elemente aufeinander folgen.
 
-Sobald ein hinzugefügter Inhalt angeklickt/markiert worden ist, erscheint ein Popup-Fenster, in dem Eigenschaften dieses Inhalts eingestellt werden können. Das ist der sogenannte ["Inspektor"](#inspector). 
+Klicken Sie einen Inhalt an, erscheint ein Popup-Fenster, in dem Sie seine Eigenschaften einstellen: der ["Inspektor"](#inspector).
 
 Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und ausblenden.
 
@@ -180,7 +179,7 @@ Beispiel:
 
 ### Anker {: #anchors}
 
-Jedes Titel-Element einer Seite erhält automatisch einen Anker, also ein Sprungziel, über das sich direkt zu diesem Abschnitt springen lässt [:octicons-tag-16:{ title="ab Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Andere Inhaltstypen erhalten keinen Anker.
+Jedes Titel-Element einer Seite erhält automatisch einen Anker, also ein Sprungziel, über das sich direkt zu diesem Abschnitt springen lässt. Andere Inhaltstypen erhalten keinen Anker.
 
 Sie müssen dafür nichts einstellen. Die Anker werden auf der Seite nicht angezeigt und lassen sich auch nicht einzeln kopieren. Genutzt werden sie vom Element Inhaltsverzeichnis, das die Titel der Seite auflistet und über diese Anker als Sprungmarken verlinkt. Je mehr Titel-Elemente eine Seite gliedern, desto brauchbarer wird das Inhaltsverzeichnis.<br>
 [Zum Inhaltsverzeichnis >](#table_of_contents)
@@ -192,7 +191,7 @@ Sie müssen dafür nichts einstellen. Die Anker werden auf der Seite nicht angez
 
 ## Inhaltstypen {: #content_types}
 
-Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verfügung stehen. 
+Welche Elemente zur Verfügung stehen, hängt davon ab, wo Sie den Content Editor nutzen.
 
 ![Der Dialog Inhalt hinzufügen mit den Inhaltstypen nach Bereichen, unten Media Center und Importieren.](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen" }
 
@@ -236,7 +235,7 @@ Dieses Textelement existiert nicht im Formulareditor.
 
 ### Zitat {: #quote}
 
-Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Media Center gespeichert.
+Ein Zitat erhält automatisch eine vordefinierte Formatierung. OpenOlat speichert Zitate wie Audios und Videos als wiederverwendbare Objekte im Media Center.
 
 Dieses Textelement existiert nicht im Formulareditor. 
 
@@ -250,41 +249,41 @@ Dieses Textelement existiert nicht im Formulareditor.
 
 ### Bild {: #image}
 
-Alle im Media Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Media Center abgelegt. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
+Sie binden jedes Bild aus dem Media Center ein oder laden ein neues hoch. OpenOlat legt neue Bilder automatisch im Media Center ab. Unterstützt werden die Bildformate png, jpg, gif und svg [:octicons-tag-16:{ title="svg ab Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, ergänzt OpenOlat Titel, Beschreibung, Alternativtext und Tags eines neu hochgeladenen Bildes im Hintergrund mit KI, sofern die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Mehr dazu: [Metadaten mit KI generieren](Media_Center_Items.de.md#metadata_ai)
+Ist in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, ergänzt OpenOlat Titel, Beschreibung, Alternativtext und Tags eines neu hochgeladenen Bildes im Hintergrund mit KI, sofern die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Die KI-Funktion liegt unter: `Administration > Externe Werkzeuge > KI-Modul > Tab "KI-Funktionen"`. Mehr dazu: [Metadaten mit KI generieren](Media_Center_Items.de.md#metadata_ai)
 
 
 ### Galerie [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
 
-Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Media Center. 
+Das Galerie-Element zeigt mehrere Bilder als Slideshow zum Durchblättern, in einem Raster (Spalten und Zeilen legen Autor:innen fest) oder mit Vorschau (ein Bild gross, die übrigen als verkleinerte Vorschaubilder). Das Erscheinungsbild der Galerie wählen Sie im Inspektor. Die Bilder stammen aus dem Media Center.
 
 ![Dieselbe Bilderserie als Slideshow, als Vorschau mit Miniaturen und als Raster.](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" title="Galerie in drei Darstellungen" }
 
 
 ### Bildvergleich [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
-Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
+Der Bildvergleich legt zwei Bilder übereinander. Ein Schieberegler blendet zwischen ihnen über.
 
 ![Zwei Bildvergleiche, der Regler blendet links waagrecht und rechts senkrecht über.](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" title="Bildvergleich auf einer Seite" }
 
 
 ### Audio {: #audio}
 
-Audios können direkt in OpenOlat neu aufgenommen, hochgeladen oder aus den bereits vorhandenen Audios ausgewählt werden.
+Ein Audio nehmen Sie direkt in OpenOlat auf, laden es hoch oder wählen ein vorhandenes Audio aus.
 
 ![Buttons Audio aufnehmen und Audio hinzufügen über der Medienauswahl.](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" title="Dialog Audio auswählen" }
 
 
 ### Video [:octicons-tag-16:{ title="ab Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
-Im Block "Video" können auch Videos per URL eingebunden werden.<br>
-Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube, Vimeo, Panopto und nanoo.tv. Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
+Im Block "Video" binden Sie Videos auch per URL ein.<br>
+OpenOlat unterstützt die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube, Vimeo, Panopto und nanoo.tv. Neue Videos zeichnen Sie direkt in OpenOlat auf.
 
 
 ### Dokument [:octicons-tag-16:{ title="ab Release 14.0 (OO-3943)" }](https://track.frentix.com/issue/OO-3943){:target="_blank"} {: #document}
 
-Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Media Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Media Center abgelegt.
+Dokumente in verschiedenen Formaten, etwa PDF- oder Word-Dateien, laden Sie per Drag & Drop hoch, wählen sie aus dem Media Center aus oder erstellen sie in bestimmten Formaten direkt. OpenOlat legt die Medien automatisch im Media Center ab.
 
 Über das Inspektor-Menü haben Sie ebenfalls Zugriff auf das Media Center, um den Dokumenten zusätzliche Informationen hinzuzufügen und weitere Freigaben zu definieren. Eine Datei, die zunächst nur für einen Inhaltsblock vorgesehen war, kann dadurch auch anderweitig genutzt oder von anderen OpenOlat-Benutzer:innen bearbeitet werden.
 
@@ -295,7 +294,7 @@ Zusätzlich besteht im Bereich "Share" die Möglichkeit, für neu erstellte oder
 
 ### Diagramm (draw.io) [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
-Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
+Sie laden ein vorhandenes Diagramm aus dem Media Center oder erstellen direkt ein neues mit draw.io. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
 
 ![Formenbibliothek, Zeichenfläche mit einem Ablaufdiagramm und Stilvorlagen.](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" title="draw.io Editor" }
 
@@ -309,9 +308,9 @@ Es können bereits vorhandene Diagramme aus dem Media Center geladen werden oder
 
 ### Quiz [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
-Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, auch mit Bildern und Videos.
+Mit dem Element "Quiz" binden Sie Quizfragen in eine Seite ein, die OpenOlat automatisch auswertet. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, auch mit Bildern und Videos.
 
-Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine ["Test"](../learningresources/Course_Element_Test/index.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
+Die Quizfragen fördern die Auseinandersetzung mit den Inhalten und vergeben keine Punkte. Für bewertete Fragen nutzen Sie die Kursbausteine ["Test"](../learningresources/Course_Element_Test/index.de.md) oder ["Selbsttest"](../learningresources/Course_Element_Self_Test.de.md).
 
 Umgekehrt ist das Quiz-Element der einzige Ort, an dem Lernende ein [KI-Feedback zu Freitextantworten](#ai_feedback) erhalten.
 
@@ -354,19 +353,21 @@ Das Element "HTML-Textcode" gibt es nur im Content Editor des Kursbausteins Seit
 
 ## KI-Feedback zu Freitextantworten {: #ai_feedback}
 
-Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Bewertung" konfiguriert, lassen sich einem Quiz auch Freitextfragen hinzufügen [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beantworten Lernende eine solche Frage, können sie unter "KI-Feedback" ein formatives Feedback zu ihrer Antwort abrufen. Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
+Stellen Sie Lernenden im Quiz eine offene Frage, erhalten sie zu ihrer Antwort sofort eine Rückmeldung der KI, ohne dass Sie jede Antwort selbst lesen. Senden Lernende ihre Antwort mit "Überprüfen" ab, erscheint im Block "KI-Feedback" ein formatives Feedback [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Das Feedback vergibt keine Punkte und dient der Selbsteinschätzung.
 
-Diese Auswertung gibt es nur im Quiz-Element einer Seite. In den Kursbausteinen "Test" und "Selbsttest" wird das Bewertungskit einer Freitextfrage nicht ausgeführt, auch wenn die Frage aus dem Fragenpool stammt. Wie Sie das Bewertungskit einer Frage festlegen, steht im Kapitel [KI-Feedback einer Freitextfrage bearbeiten](../area_modules/Question_Bank_Create_Questions.de.md#ai_grading).
+Den Fragetyp "Freitext" bietet das Quiz an, wenn in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Bewertung" konfiguriert ist: `Administration > Externe Werkzeuge > KI-Modul > Tab "KI-Funktionen"`.
 
-Eingeleitet wird es durch die "Beurteilung" der Antwort mit den Stufen "sehr gut", "gut", "mittelmässig", "ungenügend" und "falsch", ergänzt um eine kurze Gesamteinschätzung. Die Angabe "Verlässlichkeit Feedback" mit den Werten "hoch", "mittel" und "niedrig" zeigt, wie verlässlich die KI ihre eigene Einschätzung einstuft.
+Diese Auswertung gibt es nur im Quiz-Element einer Seite. In den Kursbausteinen "Test" und "Selbsttest" wird das Bewertungskit einer Freitextfrage nicht ausgeführt, auch wenn die Frage aus dem Fragenpool stammt. Wie Sie das Bewertungskit einer Frage festlegen, steht im Kapitel [KI-Feedback einer Freitextfrage bearbeiten](../area_modules/Question_Bank_Create_Questions.de.md#ai_grading). Den ganzen Weg von der Freitextfrage bis zum Feedback der Lernenden zeigt die Anleitung [Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz?](../../manual_how-to/ai_essay/ai_essay.de.md)
+
+Das Feedback beginnt mit der "Beurteilung" der Antwort in den Stufen "sehr gut", "gut", "mittelmässig", "ungenügend" und "falsch", ergänzt um eine kurze Gesamteinschätzung. Daneben steht der geschätzte Erfüllungsgrad der Antwort in Prozent. Die Angabe "Verlässlichkeit Feedback" mit den Werten "hoch", "mittel" und "niedrig" zeigt, wie verlässlich die KI ihre eigene Einschätzung einstuft.
 
 Unter "Detailliertes Feedback" lassen sich weitere Abschnitte aufklappen: "Was gut gelungen ist", "Was fehlt noch" und "Nächster Schritt", dazu die abgedeckten und die fehlenden Punkte der Antwort sowie unter "Sprache" Rückmeldungen zu "Grammatik" und "Rechtschreibung". Der Bereich erscheint nur, wenn die KI dazu etwas beizutragen hat.
 
 Je nach eingesetztem KI-Modell dauert die Bewertung einige Sekunden bis mehrere Minuten. Die Seite informiert währenddessen gestuft über den Fortschritt: zuerst wartet sie auf die KI-Korrektur, nach kurzer Zeit weist sie darauf hin, die Seite geöffnet zu lassen, und danach darauf, dass die Bewertung mit diesem Modell mehrere Minuten dauern kann. Sobald das Ergebnis bereit ist, aktualisiert sich die Seite selbst. Überschreitet die Bewertung die im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) eingestellte Wartezeit, bricht OpenOlat sie ab und meldet dies [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}.
 
-Zu lange Antworten weist OpenOlat schon vor der Bewertung zurück. Die zulässige Wortzahl legt die System-Administration im KI-Modul fest, standardmässig 400 Wörter. Die Meldung an die Lernenden nennt den eingestellten Wert.
+Die zulässige Wortzahl für das KI-Feedback legt die System-Administration im KI-Modul fest, standardmässig 400 Wörter. Bei längeren Antworten erhalten Lernende statt des KI-Feedbacks eine Meldung mit dem eingestellten Wert. Die Antwort bleibt gespeichert.
 
-![Beurteilung falsch mit Gesamteinschätzung und Verlässlichkeit hoch, Detailliertes Feedback eingeklappt.](assets/content_editor_ai_feedback_v1_de.png){ class="shadow lightbox" title="KI-Feedback zu einer Freitextantwort im Quiz" }
+![Beurteilung falsch mit 0 Prozent, Gesamteinschätzung und Verlässlichkeit hoch, Detailliertes Feedback eingeklappt](assets/content_editor_ai_feedback_v1_de.png){ class="shadow lightbox" title="KI-Feedback zu einer Freitextantwort im Quiz" }
 
 
 ### Einwilligung zur KI-Korrektur [:octicons-tag-16:{ title="ab Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #ai_consent}
@@ -381,7 +382,7 @@ Bevor die KI Freitextantworten von Lernenden korrigiert, fragt OpenOlat sie um E
 
 Hervorgehoben ist "Einmal erlauben", wenn die Vorgabe der Administration "ein" lautet, sonst "Jetzt nicht". Solange nichts gespeichert ist, erscheint der Dialog bei jedem neuen Versuch wieder, auch nach einem Klick auf "Neuer Versuch". Ohne Erlaubnis beantworten Lernende die Freitextfragen wie gewohnt, es erscheint nur kein KI-Feedback.
 
-"Immer erlauben" machen Lernende rückgängig, indem sie im Tab "KI-Einstellungen" wieder "Vorgabe" wählen. Dort lässt sich das KI-Feedback auch ganz ausschalten. Sie finden den Tab unter:<br>
+"Immer erlauben" machen Lernende rückgängig, indem sie im Tab "KI-Einstellungen" wieder "Vorgabe (ein)" oder "Vorgabe (aus)" wählen. Mit "Aus" schalten sie das KI-Feedback dort ganz aus. Sie finden den Tab unter:<br>
 `Persönliches Menü > Einstellungen > Tab "KI-Einstellungen"`<br>
 Mehr dazu: [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings)
 
@@ -413,16 +414,16 @@ Im Import-Dialog wählen Sie zwischen zwei Varianten:
 * ZIP-Archive bis maximal 50 MB (Ein ZIP-Archiv muss genau eine Markdown-Datei enthalten und kann zusätzlich die darin relativ referenzierten Bilddateien mitliefern.)
 * Word-Dokumente (.docx) bis maximal 200 MB [:octicons-tag-16:{ title="Word-Import ab Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
-**B) Text einfügen:** Markdown-formatierter Text wird direkt in das Eingabefeld eingefügt, z.B. aus der Zwischenablage. Lokale Bildpfade werden in diesem Modus nicht unterstützt.
+**B) Text einfügen:** Sie fügen Markdown-formatierten Text direkt in das Eingabefeld ein, etwa aus der Zwischenablage. Lokale Bildpfade unterstützt dieser Modus nicht.
 
 Darunter stehen, je nach Konfiguration des KI-Moduls, die Schalter "KI-generiertes Quiz hinzufügen" und "Bild-Metadaten mit KI generieren". Was sie bewirken, beschreiben die Abschnitte [KI-Fragen beim Import erzeugen](#import_ai_quiz) und [Bilder beim Import](#import_images).
 
 !!! info "Word-Dokumente importieren"
-    Word-Dokumente werden beim Import automatisch in Markdown umgewandelt und durchlaufen anschliessend dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
+    OpenOlat wandelt Word-Dokumente beim Import automatisch in Markdown um. Danach durchlaufen sie dieselbe Verarbeitung wie Markdown-Dateien. Formatierungen wie hochgestellter, tiefgestellter, unterstrichener und hervorgehobener Text bleiben dabei ebenso erhalten wie Tabellen und eingebettete Bilder. Beim Hochladen einer .docx-Datei zeigt OpenOlat einen Hinweis an, da nicht alle Word-Funktionen übernommen werden können. Prüfen Sie die importierten Inhalte deshalb sorgfältig.
 
 ### Umwandlung der Elemente {: #import_conversion}
 
-Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editors umgewandelt:
+Beim Import wandelt OpenOlat die Markdown-Elemente so in Blöcke des Content Editors um:
 
 | Markdown-Element | Block im Content Editor |
 |------------------|-------------------------|
@@ -445,7 +446,7 @@ Die Markdown-Elemente werden beim Import wie folgt in Blöcke des Content Editor
 Die Titelgrösse steuert zugleich, welche importierten Titel das Element ["Inhaltsverzeichnis"](#table_of_contents) erfasst und als Sprungmarken verlinkt.
 
 !!! note "Markdown-Erweiterungen"
-    Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke werden aus Sicherheitsgründen nicht übernommen; der Import schliesst mit einer entsprechenden Warnung ab.
+    Zusätzlich werden die Markdown-Erweiterungen für durchgestrichenen Text, Task-Listen und Fussnoten unterstützt. GitHub-Admonitions der Typen NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS und ERROR erhalten eine Hinweis-Box mit passendem Typ und Icon; bei MkDocs-Admonitions kommen weitere Typen wie ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG oder EXAMPLE hinzu. Ein Admonition-Titel in Anführungszeichen wird übernommen, ein leerer Titel `""` blendet die Titelzeile aus, ohne Titelangabe erscheint die Standardbezeichnung des Typs. HTML-Blöcke übernimmt der Import aus Sicherheitsgründen nicht; er schliesst mit einer entsprechenden Warnung ab.
 
 ### Bilder beim Import {: #import_images}
 
@@ -453,7 +454,7 @@ Bilder legt OpenOlat beim Import direkt im [Media Center](#media_center) ab. Ein
 
 Bilder mit absoluten URLs lädt OpenOlat beim Import herunter. Steht in der System-Administration unter `Administration > Login > Sicherheit > Tab "Medien-Server"` der Modus auf "Konfigurieren", gilt das nur für die dort freigegebenen Domänen. Ein Bild einer anderen Domäne lädt der Import nicht und meldet es als Warnung, siehe [Tab Medien-Server](../../manual_admin/administration/Login_Security.de.md#tab_mediaserver). Auch direkt im Markdown eingebettete Base64-Bilder (Data-URIs) werden übernommen.
 
-Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, steht im Import-Dialog der Schalter "Bild-Metadaten mit KI generieren". Ist er eingeschaltet, erzeugt OpenOlat für die importierten Bilder Titel, Beschreibung, Alternativtext und Tags im Hintergrund mit KI [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei überträgt OpenOlat eine verkleinerte Version jedes Bildes an den KI-Dienst. Ist er ausgeschaltet, erzeugt OpenOlat keine Metadaten mit KI.
+Ist in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Bildbeschreibungs-Generator" eingeschaltet, steht im Import-Dialog der Schalter "Bild-Metadaten mit KI generieren". Ist er eingeschaltet, erzeugt OpenOlat für die importierten Bilder Titel, Beschreibung, Alternativtext und Tags im Hintergrund mit KI [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. Dabei überträgt OpenOlat eine verkleinerte Version jedes Bildes an den KI-Dienst. Ist er ausgeschaltet, erzeugt OpenOlat keine Metadaten mit KI. Die KI-Funktion liegt unter: `Administration > Externe Werkzeuge > KI-Modul > Tab "KI-Funktionen"`.
 
 Beim Öffnen des Dialogs steht der Schalter so, wie die KI-Bildbeschreibungen für Sie eingestellt sind: nach Ihrer Wahl im [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings), ohne eigene Wahl nach der Vorgabe der Administration. Sie können ihn für jeden Import einzeln umstellen. Die Umstellung gilt nur für diesen Import, OpenOlat speichert sie nicht.<br>
 [Details zu Metadaten mit KI >](Media_Center_Items.de.md#metadata_ai)
@@ -461,22 +462,22 @@ Beim Öffnen des Dialogs steht der Schalter so, wie die KI-Bildbeschreibungen f�
 
 ### Import an einer bestimmten Position {: #import_position}
 
-Der Button "Importieren" steht zusätzlich im Dialog "Inhalt hinzufügen" zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Beim Import über diesen Dialog wird der Inhalt genau dort eingefügt, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block bzw. vor oder nach dem Element, über das der Dialog geöffnet wurde. Beim Import über den Button am unteren Rand des Content Editors werden die Inhalte am Seitenende eingefügt.
+Der Button "Importieren" steht zusätzlich im Dialog "Inhalt hinzufügen" zur Verfügung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Über diesen Dialog fügt der Import den Inhalt genau dort ein, wo Sie gerade arbeiten: im jeweiligen Inhalts-Block oder vor oder nach dem Element, über das Sie den Dialog geöffnet haben. Über den Button am unteren Rand des Content Editors landen die Inhalte am Seitenende.
 
 ![Der markierte Button Importieren im Dialog Inhalt hinzufügen.](assets/content_editor_import_add_content_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen" }
 
 
 ### KI-Fragen beim Import erzeugen {: #import_ai_quiz}
 
-Ist im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Fragen Generator" konfiguriert, steht im Import-Dialog zusätzlich der Schalter "KI-generiertes Quiz hinzufügen" [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. Beim Öffnen des Dialogs ist er eingeschaltet. Die KI erzeugt die Fragen dann aus dem importierten Text, dem Lerntext: dem Text, den Ihre Lernenden durcharbeiten. OpenOlat fügt die Fragen als [Quiz-Element](#quiz) am Seitenende an. Möchten Sie keine Fragen erzeugen lassen, schalten Sie ihn vor dem Import aus. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ). Die Multiple-Choice-Fragen entstehen nur, wenn zusätzlich die KI-Funktion "MC Fragen Generator" konfiguriert ist. Das KI-Feedback zu den Freitextfragen liefert die KI-Funktion "Essay Bewertung".
+Ist in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Fragen Generator" konfiguriert, steht im Import-Dialog zusätzlich der Schalter "KI-generiertes Quiz hinzufügen". Beim Öffnen des Dialogs ist er eingeschaltet. Die KI erzeugt die Fragen dann aus dem importierten Text, dem Lerntext: dem Text, den Ihre Lernenden durcharbeiten. OpenOlat fügt die Fragen als [Quiz-Element](#quiz) direkt nach dem importierten Inhalt ein. Möchten Sie keine Fragen erzeugen lassen, schalten Sie ihn vor dem Import aus. Über die Felder "MC-Fragen" und "Essay-Frage mit KI-Korrektur" legen Sie fest, wie viele Fragen je Typ erzeugt werden (bis zu fünf pro Typ). Die Multiple-Choice-Fragen entstehen nur, wenn zusätzlich die KI-Funktion "MC Fragen Generator" konfiguriert ist. Das KI-Feedback zu den Freitextfragen liefert die KI-Funktion "Essay Bewertung". Alle drei KI-Funktionen liegen unter: `Administration > Externe Werkzeuge > KI-Modul > Tab "KI-Funktionen"`.
 
-Drei weitere Felder steuern, welche Fragen entstehen. Unter "Bloom-Stufen" wählen Sie, welche kognitiven Stufen die Fragen abdecken sollen: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" und "Erschaffen". Die "Zielschwierigkeit" reicht von "1 - Sehr leicht (Quiz-Modus)" bis "5 - Sehr schwer"; mit "Keine Präferenz" wird die Schwierigkeit je Frage zufällig gewählt. Im Feld "Lernziele (optional)" erfassen Sie ein Lernziel pro Zeile, um die Fragen inhaltlich zu fokussieren.
+Drei weitere Felder steuern, welche Fragen entstehen. Unter "Bloom-Stufen" wählen Sie, welche kognitiven Stufen die Fragen abdecken sollen: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" und "Erschaffen". Die "Zielschwierigkeit" reicht von "1 - Sehr leicht (Quiz-Modus)" bis "5 - Sehr schwer"; mit "Keine Präferenz" wählt OpenOlat die Schwierigkeit je Frage zufällig. Im Feld "Lernziele (optional)" erfassen Sie ein Lernziel pro Zeile, um die Fragen inhaltlich zu fokussieren.
 
 ![Der Schalter KI-generiertes Quiz hinzufügen öffnet die markierten Felder MC-Fragen bis Lernziele, dazwischen der Schalter Bild-Metadaten mit KI generieren](assets/content_editor_import_ai_quiz_v2_de.png){ class="shadow lightbox" title="Dialog Importieren mit KI-generiertem Quiz · 2026.10.20" }
 
 Wie lang der importierte Lerntext für die Fragengenerierung sein darf, gibt die System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen. Sind "MC Fragen Generator" und "Essay Fragen Generator" beide aktiv, gilt der kleinere der beiden Werte. Einen längeren Text weist der Dialog zurück.
 
-Die Generierung läuft im Hintergrund und kann eine Minute dauern; das Quiz-Element erscheint, sobald die Fragen bereit sind. Prüfen Sie die erzeugten Fragen anschliessend auf inhaltliche Korrektheit. Im E-Portfolio steht die KI-Fragengenerierung nicht zur Verfügung.
+Die Generierung läuft im Hintergrund und kann eine Minute dauern. Bis dahin steht an der Stelle ein Quiz-Element mit dem Titel "Bitte warten, Quiz Fragen werden per KI erzeugt.", danach erscheinen darin die Fragen. Prüfen Sie die erzeugten Fragen anschliessend auf inhaltliche Korrektheit. Im E-Portfolio steht die KI-Fragengenerierung nicht zur Verfügung.
 
 [Zum Seitenanfang ^](#content_editor)
 
@@ -519,6 +520,7 @@ Mit Klick auf den Button öffnen Sie die Dateien Ihres Media Centers. Hier wähl
 [Kursbaustein "Selbsttest" >](../learningresources/Course_Element_Self_Test.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Fragenpool: Fragen erstellen >](../area_modules/Question_Bank_Create_Questions.de.md)<br>
+["Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz?" >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept/index.de.md)
 

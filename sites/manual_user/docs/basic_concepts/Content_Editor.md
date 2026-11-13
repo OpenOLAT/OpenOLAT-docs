@@ -2,7 +2,7 @@
 
 ## What is the Content Editor? {: #content_editor}
 
-The Content Editor lets you insert various content elements into a page based on a layout of your choice and thus design a content page optimised for mobile devices. OpenOlat saves your changes automatically.
+With the Content Editor you design a page from various content elements, arranged according to a layout you choose yourself. The page is optimised for mobile devices. OpenOlat saves your changes automatically.
 
 The Content Editor is used in several places in OpenOlat. Who uses it depends on the place: in the course element "Page" the owners of the course and authorised coaches, in the learning resource "Form" its owners, in the portfolio the owners of the binder.
 
@@ -45,7 +45,7 @@ The media of a portfolio binder are also stored in the Media Center. The learnin
 
 ### Learning resource form {: #form}
 
-The Content Editor is also used in the [learning resource Form](../learningresources/Form/index.md) and in all elements that use the learning resource Form.
+The [learning resource Form](../learningresources/Form/index.md) and all elements that use a form also use the Content Editor.
 
 The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
@@ -95,12 +95,12 @@ Every layout on a page can be deleted via the layout's three-dot menu, including
 
 ### Content blocks {: #content_blocks}
 
-Content blocks with various specific types of content can be added to each section of a layout. The number of content blocks depends on the selected layout. For example, a three-column layout has 3 content blocks.
+In each section of a layout you insert content blocks with various content. The number of content blocks depends on the selected layout. For example, a three-column layout has 3 content blocks.
 
 
 ### Adding, positioning and configuring content in a block {: #add_content}
 
-Use "Add content" to add specific content and media to a block. The link appears in every section of a layout, so you can insert the content exactly where it belongs.
+With "Add content" you insert content and media into a block. The link appears in every section of a layout, so you can insert the content exactly where it belongs.
 
 ![The Add content link in every area of the layout, the arrow points to the area on the right.](assets/content_editor_add_content_page_v5_en.png){ class="shadow lightbox" title="Areas of a layout in the Content Editor" }
 
@@ -108,7 +108,7 @@ The "Add content" dialog lists the available content types grouped into the sect
 
 When you hover over a block with the mouse in edit mode, that block is highlighted [:octicons-tag-16:{ title="from Release 20.2.0 (OO-8966)" }](https://track.frentix.com/issue/OO-8966){:target="_blank"}. This helps you tell blocks apart when several similar elements follow one another.
 
-As soon as you click or select a piece of added content, a pop-up window appears where you can configure the properties of that content. This is called the ["Inspector"](#inspector).
+If you click on a piece of content, a pop-up window appears in which you set its properties: the ["Inspector"](#inspector).
 
 You can also show or hide the Inspector pop-up using the gear icon next to the content.
 
@@ -176,7 +176,7 @@ Example:
 
 ### Anchors {: #anchors}
 
-Every title element on a page automatically receives an anchor, that is a jump target that leads directly to this section [:octicons-tag-16:{ title="from Release 21.0 (OO-9411)" }](https://track.frentix.com/issue/OO-9411){:target="_blank"}. Other content types do not receive an anchor.
+Every title element on a page automatically receives an anchor, that is a jump target that leads directly to this section. Other content types do not receive an anchor.
 
 You do not need to configure anything for this. The anchors are not shown on the page and cannot be copied individually either. They are used by the ["Table of contents"](#table_of_contents) element, which lists the titles of the page and links them via these anchors as jump marks. The more title elements structure a page, the more useful the table of contents becomes.<br>
 [To the table of contents >](#table_of_contents)
@@ -188,7 +188,7 @@ You do not need to configure anything for this. The anchors are not shown on the
 
 ## Content types {: #content_types}
 
-Please note that not *all* elements are available in every content editor. 
+Which elements are available depends on where you use the Content Editor.
 
 ![The Add content dialogue with the content types by area, at the bottom Media Center and Import.](assets/content_editor_content_types_v1_de.png){ class="shadow lightbox" title="Add content dialogue" }
 
@@ -231,7 +231,7 @@ This text element does not exist in the form editor.
 
 ### Citation {: #quote}
 
-If a text is entered as a citation, it automatically has a predefined formatting. Citations are saved as reusable objects in the Media Center, just like audio or videos.
+A citation automatically receives a predefined formatting. OpenOlat saves citations as reusable objects in the Media Center, just like audio and videos.
 
 This text element does not exist in the form editor. 
 
@@ -246,19 +246,19 @@ This text element does not exist in the form editor.
 
 ### Image {: #image}
 
-All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
+You embed any image from the Media Center or upload a new one. OpenOlat stores new images automatically in the Media Center. The image formats png, jpg, gif and svg are supported [:octicons-tag-16:{ title="svg from Release 20.3.0 (OO-9350)" }](https://track.frentix.com/issue/OO-9350){:target="_blank"}.
 
-If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md), OpenOlat adds title, description, alternative text and tags of a newly uploaded image in the background with AI, provided the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). More about this: [Generate metadata with AI](Media_Center_Items.md#metadata_ai)
+If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration, OpenOlat adds title, description, alternative text and tags of a newly uploaded image in the background with AI, provided the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). The AI feature is located under: `Administration > External tools > AI module > Tab "AI features"`. More about this: [Generate metadata with AI](Media_Center_Items.md#metadata_ai)
 
 ### Gallery [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7142)" }](https://track.frentix.com/issue/OO-7142){:target="_blank"} {: #gallery}
 
-Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
+The gallery element shows several images as a slideshow to scroll through, in a grid (authors define the columns and rows) or with preview (one image large, the others as reduced preview images). You choose the appearance of the gallery in the inspector. The images come from the Media Center.
 
 ![The same image series as a slideshow, as a preview with thumbnails and as a grid.](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" title="Gallery in three display modes" }
 
 ### Image comparison [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"} {: #image_comparison}
 
-Two superimposed images can be cross-faded using a slider.
+The image comparison places two images on top of each other. A slider cross-fades between them.
 
 ![Two image comparisons, the slider fades horizontally on the left and vertically on the right.](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" title="Image comparison on a page" }
 
@@ -266,19 +266,19 @@ Two superimposed images can be cross-faded using a slider.
 
 ### Audio {: #audio}
 
-Audio can be recorded directly in OpenOlat, uploaded or selected from existing audio.
+You record an audio directly in OpenOlat, upload it or select an existing audio.
 
 ![Buttons Record audio and Add audio above the media selection.](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" title="Select audio dialogue" }
 
 ### Video [:octicons-tag-16:{ title="from Release 18.0 (OO-7001)" }](https://track.frentix.com/issue/OO-7001){:target="_blank"} {: #video}
 
-Videos can also be integrated via URL in the block "Video".<br>
-The video formats MP4 and m3u8 as well as the platforms YouTube, Vimeo, Panopto and nanoo.tv are supported. It is also possible to record new videos directly in OpenOlat.
+In the block "Video" you also embed videos via URL.<br>
+OpenOlat supports the video formats MP4 and m3u8 as well as the platforms YouTube, Vimeo, Panopto and nanoo.tv. You record new videos directly in OpenOlat.
 
 
 ### Document [:octicons-tag-16:{ title="from Release 14.0 (OO-3943)" }](https://track.frentix.com/issue/OO-3943){:target="_blank"} {: #document}
 
-Here, you can upload documents in various formats (e.g., PDF or Word files) using drag-and-drop, select them from the Media Center, or create them directly in specific formats. The media files are automatically saved in the Media Center.
+You upload documents in various formats, for example PDF or Word files, via drag-and-drop, select them from the Media Center or create them directly in specific formats. OpenOlat stores the media automatically in the Media Center.
 
 You can also access the Media Center via the Inspector menu to add additional information to documents and define further sharing options. This allows a file that was initially intended for a single content block to be used for other purposes or edited by other OpenOlat users.
 
@@ -289,7 +289,7 @@ In addition, the "Share" section allows you to share newly created or uploaded d
 
 ### Diagram (draw.io) [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"} {: #diagram}
 
-Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
+You load an existing diagram from the Media Center or create a new one directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
 ![Shape library, drawing area with a flow chart and style templates.](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" title="draw.io editor" }
 
@@ -304,9 +304,9 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 ### Quiz [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"} {: #quiz}
 
-This content element allows you to embed quiz questions that can be automatically graded into a page. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos.
+With the element "Quiz" you embed quiz questions into a page that OpenOlat grades automatically. You can create new questions or add existing ones from the question bank. You can also add feedback to each question, including images and videos.
 
-These short quiz questions are intended to encourage engagement with the course content, but they do not award points. For graded quizzes, please use the course elements ["Test"](../learningresources/Course_Element_Test/index.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
+The quiz questions encourage engagement with the content and do not award points. For graded questions, use the course elements ["Test"](../learningresources/Course_Element_Test/index.md) or ["Self-test"](../learningresources/Course_Element_Self_Test.md).
 
 Conversely, the quiz element is the only place where learners receive [AI feedback on free-text answers](#ai_feedback).
 
@@ -347,19 +347,21 @@ The element "HTML text code" is available only in the Content Editor of the cour
 
 ## AI feedback on free-text answers {: #ai_feedback}
 
-If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has the AI feature "Essay Grading" configured, essay questions can also be added to a quiz [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. When learners answer such a question, they can request formative feedback on their answer under "AI feedback". The feedback does not award points and serves for self-assessment.
+If you ask learners an open question in the quiz, they receive an immediate response from the AI to their answer, without you reading every answer yourself. When learners submit their answer with "Check", formative feedback appears in the "AI feedback" block [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. The feedback does not award points and serves for self-assessment.
 
-This evaluation exists only in the quiz element of a page. In the course elements "Test" and "Self-test" the grading kit of an essay question is not executed, even if the question comes from the question bank. How you define the grading kit of a question is described in the chapter [Edit the AI feedback of an essay question](../area_modules/Question_Bank_Create_Questions.md#ai_grading).
+The quiz offers the question type "Essay" if the AI feature "Essay Grading" is configured in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration: `Administration > External tools > AI module > Tab "AI features"`.
 
-It opens with the "Assessment" of the answer, ranging over "very good", "good", "mediocre", "insufficient" and "wrong", together with a short overall appraisal. The "Feedback reliability" indicator with the values "high", "medium" and "low" shows how reliable the AI rates its own assessment.
+This evaluation exists only in the quiz element of a page. In the course elements "Test" and "Self-test" the grading kit of an essay question is not executed, even if the question comes from the question bank. How you define the grading kit of a question is described in the chapter [Edit the AI feedback of an essay question](../area_modules/Question_Bank_Create_Questions.md#ai_grading). The whole path from the essay question to the feedback for learners is shown in the instructions [How do I give learners AI feedback on free-text answers in a quiz?](../../manual_how-to/ai_essay/ai_essay.md)
+
+The feedback begins with the "Assessment" of the answer in the levels "very good", "good", "mediocre", "insufficient" and "wrong", together with a short overall appraisal. Next to it is the estimated score of the answer in percent. The "Feedback reliability" indicator with the values "high", "medium" and "low" shows how reliable the AI rates its own assessment.
 
 Under "Detailed feedback" further sections can be expanded: "What went well", "What is missing" and "Next step", plus the points the answer covers and those it misses, and under "Language" feedback on "Grammar" and "Spelling". The area only appears when the AI has something to contribute.
 
 Depending on the AI model in use, grading takes a few seconds up to several minutes. Meanwhile the page reports progress in stages: first it waits for the AI correction, after a short while it points out that the page should be kept open, and after that it states that grading with this model can take several minutes. As soon as the result is ready, the page updates itself. If grading exceeds the waiting time configured in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), OpenOlat cancels it and reports this [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}.
 
-OpenOlat rejects answers that are too long before grading starts. The permitted number of words is set by the system administration in the AI module, 400 words by default. The message to the learners states the configured value.
+The permitted number of words for the AI feedback is set by the system administration in the AI module, 400 words by default. For longer answers, learners receive a message with the configured value instead of the AI feedback. The answer remains saved.
 
-![Assessment wrong with an overall appraisal and Feedback reliability high, Detailed feedback collapsed.](assets/content_editor_ai_feedback_v1_en.png){ class="shadow lightbox" title="AI feedback on a free-text answer in a quiz" }
+![Assessment wrong with 0 percent, overall appraisal and Feedback reliability high, Detailed feedback collapsed](assets/content_editor_ai_feedback_v1_en.png){ class="shadow lightbox" title="AI feedback on a free-text answer in a quiz" }
 
 
 ### Consent to the AI correction [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #ai_consent}
@@ -374,7 +376,7 @@ Before the AI corrects free-text answers of learners, OpenOlat asks them for per
 
 "Allow once" is highlighted if the default of the administration is "on", otherwise "Not now". As long as nothing is stored, the dialog appears again in every new attempt, also after a click on "New attempt". Without permission, learners answer the free-text questions as usual, only no AI feedback appears.
 
-Learners undo "Always allow" by selecting "Default" again in the tab "AI settings". There the AI feedback can also be switched off completely. You find the tab under:<br>
+Learners undo "Always allow" by selecting "Default (on)" or "Default (off)" again in the tab "AI settings". With "Off" they switch the AI feedback off completely there. You find the tab under:<br>
 `Personal menu > System settings > Tab "AI settings"`<br>
 More about this: [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings)
 
@@ -404,16 +406,16 @@ In the import dialogue you choose between two options:
 * ZIP archives up to a maximum of 50 MB (A ZIP archive must contain exactly one markdown file and can additionally include the image files referenced relatively within it.)
 * Word documents (.docx) up to a maximum of 200 MB [:octicons-tag-16:{ title="Word import from Release 21.0 (OO-9415)" }](https://track.frentix.com/issue/OO-9415){:target="_blank"}.
 
-**B) Paste text:** Markdown-formatted text is pasted directly into the input field, e.g. from the clipboard. Local image paths are not supported in this mode.
+**B) Paste text:** You paste Markdown-formatted text directly into the input field, for example from the clipboard. This mode does not support local image paths.
 
 Below, depending on the configuration of the AI module, the switches "Add AI generated Quiz" and "Generate image metadata with AI" appear. What they do is described in the sections [Generate AI questions on import](#import_ai_quiz) and [Images during import](#import_images).
 
 !!! info "Importing Word documents"
-    Word documents are automatically converted to Markdown during import and then processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
+    OpenOlat automatically converts Word documents to Markdown during import. After that, they are processed in the same way as Markdown files. Formatting such as superscript, subscript, underlined and highlighted text is preserved, as are tables and embedded images. When uploading a .docx file, OpenOlat displays a notice because not all Word features can be imported. Therefore, please review the imported content carefully.
 
 ### Conversion of the elements {: #import_conversion}
 
-During import, the markdown elements are converted into blocks of the Content Editor as follows:
+During import, OpenOlat converts the markdown elements into blocks of the Content Editor as follows:
 
 | Markdown element | Block in the Content Editor |
 |------------------|-----------------------------|
@@ -436,7 +438,7 @@ During import, the markdown elements are converted into blocks of the Content Ed
 The title size also determines which imported titles the ["Table of contents"](#table_of_contents) element captures and links as jump marks.
 
 !!! note "Markdown extensions"
-    In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon; MkDocs admonitions add further types such as ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG or EXAMPLE. An admonition title in quotation marks is applied, an empty title `""` hides the title line, and without a title the default label of the type is shown. HTML blocks are not imported for security reasons; the import finishes with a corresponding warning.
+    In addition, the markdown extensions for strikethrough text, task lists and footnotes are supported. GitHub admonitions of the types NOTE, TIP, IMPORTANT, WARNING, CAUTION, INFO, SUCCESS and ERROR receive an alert box with the matching type and icon; MkDocs admonitions add further types such as ABSTRACT, HINT, QUESTION, ATTENTION, DANGER, BUG or EXAMPLE. An admonition title in quotation marks is applied, an empty title `""` hides the title line, and without a title the default label of the type is shown. The import does not take over HTML blocks for security reasons; it finishes with a corresponding warning.
 
 ### Images during import {: #import_images}
 
@@ -444,29 +446,29 @@ During import, OpenOlat stores images directly in the [Media Center](#media_cent
 
 OpenOlat downloads images with absolute URLs during import. If the mode under `Administration > Login > Security > Tab "Media server"` in the system administration is set to "Configure", this only applies to the domains enabled there. The import does not download an image from another domain and reports it as a warning, see [Tab Media server](../../manual_admin/administration/Login_Security.md#tab_mediaserver). Base64 images embedded directly in the markdown (data URIs) are also imported.
 
-If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md), the import dialog shows the switch "Generate image metadata with AI". If it is switched on, OpenOlat generates title, description, alternative text and tags for the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. OpenOlat transmits a reduced version of each image to the AI service. If it is switched off, OpenOlat does not generate metadata with AI.
+If the AI feature "Image Description Generator" is switched on in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration, the import dialog shows the switch "Generate image metadata with AI". If it is switched on, OpenOlat generates title, description, alternative text and tags for the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}. OpenOlat transmits a reduced version of each image to the AI service. If it is switched off, OpenOlat does not generate metadata with AI. The AI feature is located under: `Administration > External tools > AI module > Tab "AI features"`.
 
 When the dialog opens, the switch is set the way the AI image descriptions are set for you: according to your choice in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings), without a choice of your own according to the default of the administration. You can change it for each import individually. The change only applies to this import, OpenOlat does not store it.<br>
 [Details on metadata with AI >](Media_Center_Items.md#metadata_ai)
 
 ### Importing at a specific position {: #import_position}
 
-The "Import" button is additionally available in the dialog "Add content" [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. When importing via this dialog, the content is inserted exactly where you are working: in the respective content block, or before or after the element from which the dialog was opened. When importing via the button at the bottom of the Content Editor, the content is inserted at the end of the page.
+The "Import" button is additionally available in the dialog "Add content" [:octicons-tag-16:{ title="from Release 21.0 (OO-9423)" }](https://track.frentix.com/issue/OO-9423){:target="_blank"}. Via this dialog, the import inserts the content exactly where you are working: in the respective content block, or before or after the element from which you opened the dialog. Via the button at the bottom of the Content Editor, the content ends up at the end of the page.
 
 ![The marked Import button in the Add content dialogue.](assets/content_editor_import_add_content_v1_en.png){ class="shadow lightbox" title="Add content dialogue" }
 
 
 ### Generate AI questions on import {: #import_ai_quiz}
 
-If the AI feature "Essay Question Generator" is configured in the [AI module](../../manual_admin/administration/External_Tools_AI.md), the import dialog additionally shows the switch "Add AI generated Quiz" [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. It is switched on when the dialog opens. The AI then generates the questions from the imported text, the source text: the text your learners work through. OpenOlat appends the questions as a [quiz element](#quiz) at the end of the page. If you do not want questions to be generated, switch it off before the import. Via the "MC question" and "Essay question with AI correction" fields you define how many questions of each type are generated (up to five per type). The multiple-choice questions are only created if the AI feature "MC Question Generator" is configured as well. The AI feedback on the essay questions comes from the AI feature "Essay Grading".
+If the AI feature "Essay Question Generator" is configured in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration, the import dialog additionally shows the switch "Add AI generated Quiz". It is switched on when the dialog opens. The AI then generates the questions from the imported text, the source text: the text your learners work through. OpenOlat inserts the questions as a [quiz element](#quiz) directly after the imported content. If you do not want questions to be generated, switch it off before the import. Via the "MC question" and "Essay question with AI correction" fields you define how many questions of each type are generated (up to five per type). The multiple-choice questions are only created if the AI feature "MC Question Generator" is configured as well. The AI feedback on the essay questions comes from the AI feature "Essay Grading". All three AI features are located under: `Administration > External tools > AI module > Tab "AI features"`.
 
-Three further fields steer which questions are created. Under "Bloom levels" you choose which cognitive levels the questions should cover: "Remember", "Understand", "Apply", "Analyse", "Evaluate" and "Create". The "Target difficulty" ranges from "1 - Very easy (Quiz mode)" to "5 - Very hard"; with "No preference" the difficulty is chosen at random per question. In the "Learning objectives (optional)" field you enter one learning objective per line to focus the questions in terms of content.
+Three further fields steer which questions are created. Under "Bloom levels" you choose which cognitive levels the questions should cover: "Remember", "Understand", "Apply", "Analyse", "Evaluate" and "Create". The "Target difficulty" ranges from "1 - Very easy (Quiz mode)" to "5 - Very hard"; with "No preference" OpenOlat chooses the difficulty at random per question. In the "Learning objectives (optional)" field you enter one learning objective per line to focus the questions in terms of content.
 
 ![The switch Add AI generated Quiz opens the highlighted fields MC question to Learning objectives, in between the switch Generate image metadata with AI](assets/content_editor_import_ai_quiz_v2_en.png){ class="shadow lightbox" title="Import dialogue with AI generated quiz · 2026.10.20" }
 
 How long the imported source text for question generation may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default. If "MC Question Generator" and "Essay Question Generator" are both active, the smaller of the two values applies. The dialog rejects a longer text.
 
-Generation runs in the background and can take a minute; the quiz element appears once the questions are ready. Check the generated questions for correctness afterwards. AI question generation is not available in the e-portfolio.
+Generation runs in the background and can take a minute. Until then, a quiz element with the title "Please wait, quiz questions are being generated by AI." stands at this position; after that, the questions appear in it. Check the generated questions for correctness afterwards. AI question generation is not available in the e-portfolio.
 
 [To the top of the page ^](#content_editor)
 
@@ -509,6 +511,7 @@ Click the button to open the files in your Media Center. Here, you select files,
 [Course Element "Self-test" >](../learningresources/Course_Element_Self_Test.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Question Bank: Create Questions >](../area_modules/Question_Bank_Create_Questions.md)<br>
+["How do I give learners AI feedback on free-text answers in a quiz?" >](../../manual_how-to/ai_essay/ai_essay.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Media Center Concept >](Media_Center_Concept/index.md)
 
