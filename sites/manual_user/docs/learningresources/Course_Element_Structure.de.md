@@ -51,7 +51,7 @@ Die zentralen Einstellungen legen Sie im Tab "Übersicht" fest. Sie wählen zwis
 
   * **Automatische Übersicht** generiert ein Verzeichnis der untergeordneten Kursbausteine. Sie wählen zusätzlich, ob alle oder nur bestimmte Kursbausteine erscheinen und ob die Anzeige in einer oder zwei Spalten steht.
   * **Automatische Übersicht mit Vorschau** generiert ebenfalls ein Verzeichnis der untergeordneten Kursbausteine, zeigt aber zusätzlich bei einigen Kursbausteinen eine Vorschau. Wie die Vorschau aussieht, hängt vom Kursbaustein ab. Die Einstellungen sind ähnlich wie bei der automatischen Übersicht. Zudem legen Sie fest, ob die Vorschau für alle Kursbausteine oder nur für Strukturbausteine gilt. Teilnehmende sehen allerdings keine Vorschau für Kursbausteine, zu denen sie (noch) keinen Zugang haben.
-  * **Eigene HTML-Seite** ermöglicht es anstatt der automatisch generierten Übersicht eine eigene Informationsseite zu erstellen. Dafür können Sie eine HTML-Seite aus dem Ablageordner wählen, eine neue HTML Datei erstellen oder eine passende Datei importieren. Im OpenOlat HTML-Editor fügen Sie dann ähnlich wie beim Kursbaustein HTML-Seite Text, Bilder u.ä. hinzu. Zusätzlich erscheint der Tab "Anzeige Inhalt", in dem Sie weitere Einstellungen für HTML-Seiten festlegen.
+  * **Eigene HTML-Seite** ermöglicht es anstatt der automatisch generierten Übersicht eine eigene Informationsseite zu erstellen. Dafür können Sie eine HTML-Seite aus dem Ablageordner wählen, eine neue HTML Datei erstellen oder eine passende Datei importieren. Im OpenOlat HTML-Editor fügen Sie dann ähnlich wie beim Kursbaustein HTML-Seite Text, Bilder u.ä. hinzu. Zusätzlich erscheint der Tab "Anzeige Inhalt", in dem Sie weitere Einstellungen für HTML-Seiten festlegen. Ist eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet, liefert OpenOlat die Seite darüber aus. Skripte darin erhalten so keinen Zugriff auf die OpenOlat-Sitzung. Kursinterne Links auf andere Kursbausteine funktionieren weiterhin. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
   * **Keine Übersicht, erster sichtbarer Kursbaustein aktivieren** zeigt anstelle einer Übersicht den ersten sichtbaren, untergeordneten Kursbaustein an.
 
 
@@ -167,6 +167,7 @@ In herkömmlichen Kursen schützen Sie den Kursbaustein "Struktur" und damit sei
 **Auf dieser Seite erwähnt**<br>
 [Erinnerungen >](../learningresources/Course_Reminders.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [Lernpfadkurs - Kurseditor >](../learningresources/Learning_path_course_Course_editor.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)

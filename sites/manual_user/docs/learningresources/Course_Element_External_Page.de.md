@@ -32,7 +32,7 @@ Typische Anwendungsfälle sind Seiten mit Datenbankabfragen, zum Beispiel ein Li
     Ihre OpenOlat-Instanz läuft unter einer eigenen Adresse, die eingebundene
     Seite unter einer anderen.
 
-    Eine separate Adresse für Inhalte nutzt dieser Kursbaustein nicht, auch
+    Eine separate Adresse für Inhalte ([Inhaltsdomäne](../basic_concepts/Content_Domain.de.md)) nutzt dieser Kursbaustein nicht, auch
     wenn sie eingerichtet ist: Er zeigt die fremde Seite direkt oder über die
     Hauptadresse Ihrer OpenOlat-Instanz an.
 
@@ -73,6 +73,7 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [Kursbaustein "Linkliste" >](Course_Element_Link_List.de.md)<br>
 [Modul Externe Seite >](../../manual_admin/administration/Modules_External_Page.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)

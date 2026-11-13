@@ -37,6 +37,8 @@ Ohne diese Option sehen Teilnehmer:innen die Struktur nicht. Nach dem Öffnen de
 
 Im Tab "Anzeige Inhalt" legen Sie fest, wie OpenOlat die Seiten des Content Packages im Kurs anzeigt, zum Beispiel ob das Layout des Kurses auf die Seiten angewendet wird und wie hoch die Anzeigefläche ist. So passt der CP-Lerninhalt optisch zum Kurs, oder er erscheint unverändert so, wie er erstellt wurde.
 
+Ist eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet, liefert OpenOlat den Inhalt darüber aus. Skripte im Inhalt erhalten so keinen Zugriff auf die OpenOlat-Sitzung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 #### Standardwerte übernehmen {: #use_standard_configuration}
 
 Die Anzeige eines CP-Lerninhalts legen Sie an zwei Orten fest: in den Einstellungen der Lernressource im [Tab "Layout"](CP_Administration/index.de.md#tab_layout) und hier im Kursbaustein. Mit "Standardwerte übernehmen" wählen Sie, welche Einstellungen im Kurs gelten:
@@ -57,6 +59,7 @@ Darunter folgen dieselben Felder wie im Tab "Anzeige Inhalt" des Kursbausteins "
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich ein Content Package? (Schritt-für-Schritt-Anleitung) >](../../manual_how-to/content_package/content_package.de.md)<br>
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [CP-Lerninhalt: Administration >](CP_Administration/index.de.md)<br>
 [Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)
 

@@ -16,7 +16,7 @@ Im Modul Externe Seite legen Sie fest, ob Autor:innen den Kursbaustein "Externe 
     Ihre OpenOlat-Instanz läuft unter einer eigenen Adresse, die eingebundene
     Seite unter einer anderen.
 
-    Eine separate Adresse für Inhalte nutzt dieser Kursbaustein nicht, auch
+    Eine separate Adresse für Inhalte ([Inhaltsdomäne](../../manual_user/basic_concepts/Content_Domain.de.md)) nutzt dieser Kursbaustein nicht, auch
     wenn sie eingerichtet ist: Er zeigt die fremde Seite direkt oder über die
     Hauptadresse Ihrer OpenOlat-Instanz an.
 
@@ -48,6 +48,7 @@ Mit der Checkbox "Weitergabe Daten über Benutzer:innen erlaubt" legen Sie fest,
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Inhaltsdomäne >](../../manual_user/basic_concepts/Content_Domain.de.md)<br>
 [Kursbaustein "LTI-Seite" >](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)<br>
 [Kursbaustein "Linkliste" >](../../manual_user/learningresources/Course_Element_Link_List.de.md)<br>
 [Kursbaustein "Externe Seite" >](../../manual_user/learningresources/Course_Element_External_Page.de.md)

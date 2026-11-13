@@ -20,7 +20,7 @@ Der Kursbaustein zeigt eine HTML-Datei an. Sie gestalten sie im HTML-Editor, den
     Im Kursbaustein "HTML-Seite" hinterlegen Sie beliebigen HTML- und
     JavaScript-Code, auch Inhalte einer fremden Domäne. OpenOlat liefert diesen
     Code unter Ihrer eigenen Domäne aus, sofern keine separate Adresse für
-    Inhalte eingerichtet ist. Diese separate Adresse richtet der Betrieb Ihrer
+    Inhalte ([Inhaltsdomäne](../basic_concepts/Content_Domain.de.md)) eingerichtet ist. Diese separate Adresse richtet der Betrieb Ihrer
     OpenOlat-Installation ein. Aus modernen Sicherheitsüberlegungen
     empfiehlt frentix, verschiedene Domänen nicht zu vermischen, und rät deshalb
     vom Einsatz dieses Kursbausteins ab.
@@ -82,6 +82,8 @@ Laden Sie mit "Import" eine ZIP-Datei hoch, entpackt OpenOlat sie und zeigt Ihne
 ## Tab Anzeige Inhalt {: #layout}
 
 Im Tab "Anzeige Inhalt" legen Sie fest, wie OpenOlat die Seite im Kurs anzeigt: unverändert oder optimiert für OpenOlat. Mit dem Anzeigemodus "Optimiert für OpenOlat" wenden Sie zum Beispiel das Kurslayout auf den Seiteninhalt an oder aktivieren ein in den Kurs eingebundenes [Glossar](../learningresources/Glossary_usage.de.md#glossary_call_in_HTML) für die Seite.
+
+Ist eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) eingerichtet, liefert OpenOlat den Inhalt darüber aus. Skripte im Inhalt erhalten so keinen Zugriff auf die OpenOlat-Sitzung. Kursinterne Links auf andere Kursbausteine funktionieren weiterhin. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
 
 ![Einstellungen für Anzeigemodus, JavaScript mit Keine oder jQuery, Glossarbegriffe, Höhe, Layout und Zeichensatz](assets/course_element_html_page_tab_displaycontent_v2_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
@@ -324,6 +326,7 @@ In den angelegten HTML-Seiten ist unter "Sicherheitseinstellungen" die Option "L
 
 **Auf dieser Seite erwähnt**<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [Mitgliederverwaltung >](../learningresources/Members_management.de.md)<br>
 [Glossar - Verwendung >](../learningresources/Glossary_usage.de.md)<br>
 [tiny.cloud](https://www.tiny.cloud)<br>

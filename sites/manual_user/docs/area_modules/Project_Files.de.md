@@ -19,7 +19,7 @@ Es gelten folgende Grundsätze:
 - Wenn keine Microsoft-Lizenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
 - Pdf werden in der Regel mit OnlyOffice geöffnet.
 - Bilder werden im Browser geöffnet.
-- HTML-Dateien öffnen sich mit Schreibrecht im HTML-Editor in einem neuen Browserfenster. Mit reinem Leserecht öffnet sich eine Vorschau in einer Lightbox, sofern eine Inhaltsdomäne eingerichtet ist. [Zu den Details im Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md#open_html) [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
+- HTML-Dateien öffnen sich mit Schreibrecht im HTML-Editor in einem neuen Browserfenster. Mit reinem Leserecht öffnet sich eine Vorschau in einer Lightbox, sofern eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet ist. [Zu den Details im Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md#open_html) [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"}
 - Dateiformate, die eine spezielle Software benötigen, werden nicht geöffnet. OpenOlat bietet stattdessen einen Download an. Die Datei kann so trotzdem zusammen mit den übrigen Daten im Projekt gespeichert werden.<br>Beispiel: Mac-Dateiformate, wie z.B. Pages oder Keynote.
 
 
@@ -149,6 +149,7 @@ Wollen Sie mehrere Dateien auf einmal löschen (Sammelaktion), dann wählen Sie 
 
 ## Weiterführende Informationen {: #further_information}
 
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Projekte: Mitgliederverwaltung >](Project_Member_Management.de.md)<br>
 [Projekte: Überblick >](Project_Overview/index.de.md)<br>

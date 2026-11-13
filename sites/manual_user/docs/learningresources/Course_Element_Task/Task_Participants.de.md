@@ -33,7 +33,7 @@ Je nach Konfiguration stehen im Schritt "Zuweisung Aufgabenstellung" eine oder m
 
 Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewiesen wurde, klicken Sie auf "Aufgabe herunterladen", um die Aufgabenstellung herunterzuladen oder anzuzeigen. Klicken Sie auf den Dateinamen der Aufgabenstellung, zeigt OpenOlat die Aufgabe an. Die Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
-HTML-Dateien, ob Aufgabenstellung, abgegebenes Dokument oder Musterlösung, öffnen sich in einer Lightbox, und Skripte darin laufen nur, wenn eine [Inhaltsdomäne](../../basic_concepts/Folder_Concept.de.md#open_html) eingerichtet ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
+HTML-Dateien, ob Aufgabenstellung, abgegebenes Dokument oder Musterlösung, öffnen sich in einer Lightbox, und Skripte darin laufen nur, wenn eine [Inhaltsdomäne](../../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet ist. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
 
 Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort, z.B. einen anderen Kursbaustein, eine HTML-Seite oder eine externe Webseite, gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
 
@@ -115,6 +115,7 @@ Der Schritt "Bewertung" zeigt die Leistungsübersicht mit Status, Punktestand un
 [Kursbaustein "Aufgabe" >](index.de.md)<br>
 [Aufgabe mit Peer-Review >](Task_Peer_Review.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
+[Inhaltsdomäne >](../../basic_concepts/Content_Domain.de.md)<br>
 [Ordnerkonzept >](../../basic_concepts/Folder_Concept.de.md)<br>
 [Aufgabe einrichten >](Task_Setup.de.md)<br>
 [Aufgabe betreuen >](Task_Coaching.de.md)

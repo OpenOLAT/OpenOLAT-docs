@@ -170,14 +170,17 @@ Markieren Sie die Checkbox in der Kopfzeile, werden alle Listeneinträge ausgew�
 
 ### HTML-Dateien öffnen [:octicons-tag-16:{ title="ab Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554){:target="_blank"} {: #open_html}
 
+!!! info "Kontakt"
+    Die Vorschau einer HTML-Datei in einer Lightbox, einem Fenster über der aktuellen Seite, setzt eine Inhaltsdomäne (separate Adresse für Inhalte) voraus. Die Inhaltsdomäne ist Teil der Serverkonfiguration. Für eine Änderung wenden Sie sich an Ihre Organisation.
+
 Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je nach Ihrem Recht im Ordner zum Bearbeiten oder nur zum Ansehen:
 
 - **Mit Schreibrecht** öffnet sich die Datei im HTML-Editor in einem neuen Browserfenster.
 - **Mit reinem Leserecht** öffnet sich eine Vorschau der Datei in einer Lightbox über der aktuellen Seite.
 
-Die Vorschau in der Lightbox liefert die Datei über eine eigene Inhaltsdomäne aus, also über eine zweite Webadresse neben der Adresse, unter der Sie OpenOlat aufrufen. HTML-Code und Skripte aus der Datei erhalten so keinen Zugriff auf die OpenOlat-Sitzung (Session) der Person, die die Datei ansieht.
+Die Vorschau in der Lightbox liefert die Datei über die [Inhaltsdomäne](Content_Domain.de.md) aus. HTML-Code und Skripte aus der Datei erhalten so keinen Zugriff auf Ihre OpenOlat-Sitzung.
 
-Die Vorschau in der Lightbox setzt eine Inhaltsdomäne voraus. Die Inhaltsdomäne ist Teil der Serverkonfiguration; für die Einrichtung wenden Sie sich an Ihre Organisation. Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster. Wie die Inhaltsdomäne eingerichtet wird, beschreibt der englischsprachige [Installation guide](../../manual_admin/installation/installGuide.md#recommended-content-domain-for-user-provided-content).
+Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster.
 
 
 ## Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
@@ -214,7 +217,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kurs-Administration: Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Konzept des File Hub >](File_Hub_Concept.de.md)<br>
 [Allgemeines zur Suche >](Search_General/index.de.md)<br>
-[Installation guide >](../../manual_admin/installation/installGuide.md)
+[Inhaltsdomäne >](Content_Domain.de.md)
 
 **Weiterführend**<br>
 [Unterlagen Betreuer:innen >](../learningresources/Coach_Files.de.md)<br>

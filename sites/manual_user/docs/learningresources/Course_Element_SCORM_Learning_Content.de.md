@@ -140,6 +140,8 @@ Im Drop-down-Menü legen Sie fest, wie viele Lösungsversuche für diesen SCORM-
 
 Im Tab "Anzeige Inhalt" bestimmen Sie, wie OpenOlat den SCORM-Inhalt im Kurs darstellt. Im Anzeigemodus "Standard" sind die Felder "JavaScript hinzufügen", "Glossarbegriffe einbinden" und "Layout anpassen" nicht wählbar, sie greifen erst im Modus "Optimiert für OpenOlat".
 
+Ist eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet, liefert OpenOlat den Inhalt darüber aus. Skripte im Inhalt erhalten so keinen Zugriff auf die OpenOlat-Sitzung. Das SCORM-Paket läuft dabei mit vollem JavaScript. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 ![Anzeigemodus Standard gewählt, JavaScript, Glossar und Layout dadurch nicht wählbar, Höhe und Zeichensatz Inhalt auf Automatisch](assets/course_element_scorm_tab_display_content_v3_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
 #### Standardwerte übernehmen {: #use_standard_configuration }
@@ -228,13 +230,17 @@ Ist in den Kurseinstellungen die Vergabe von Badges aktiviert, zeigt der Kursedi
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Autorenbereich - Kurse und Lernressourcen erstellen >](../area_modules/authoring_new_course.de.md)<br>
-[Erinnerungen >](Course_Reminders.de.md)<br>
-[Badges >](OpenBadges.de.md)<br>
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [SCORM 1.2: Administration >](SCORM_Administration.de.md)
+
+**Weiterführend**<br>
+[Erinnerungen >](Course_Reminders.de.md)<br>
+[Badges >](OpenBadges.de.md)
 
 [Zum Seitenanfang ^](#course_element_scorm)
 

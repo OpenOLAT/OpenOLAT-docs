@@ -20,6 +20,8 @@ Der Kursbaustein ist gut geeignet für die Anzeige von PDF- und auch JPG- und PN
 
 OpenOlat verwendet für PDF-Dateien einen integrierten PDF-Viewer (pdf.js) [:octicons-tag-16:{ title="ab Release 18.1 (OO-6996)" }](https://track.frentix.com/issue/OO-6996){:target="_blank"}, der eine klare Darstellung bietet. Grosse PDF-Dateien werden dabei stufenweise geladen, sofern die Datei dies unterstützt. Der PDF-Viewer ist schreibgeschützt: zum Bearbeiten wird ein separater Editor benötigt.
 
+Eine HTML-Datei liefert OpenOlat über die [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) aus, sofern eine eingerichtet ist. Skripte in der Datei erhalten so keinen Zugriff auf die OpenOlat-Sitzung. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+
 !!! tip "Tipp"
 
     Für Video-Dateien sollte der [Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md) und für HTML-Seiten der [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) anstatt des Kursbaustein "Dokument" verwendet werden.
@@ -101,7 +103,11 @@ Durch diese Berechtigungen sind unterschiedliche, auch kollaborative Szenarien m
 
 ## Weiterführende Informationen {: #further_information}
 
+[Inhaltsdomäne >](../basic_concepts/Content_Domain.de.md)<br>
 [Kursbaustein "Video" >](../learningresources/Course_Element_Video.de.md)<br>
-[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
+[Ablageordner >](Storage_folder.de.md)<br>
+[Löschen (eines Kurses/einer Lernressource) >](Course_Delete.de.md)
 
 [Zum Seitenanfang ^](#document)

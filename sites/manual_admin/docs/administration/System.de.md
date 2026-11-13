@@ -22,7 +22,7 @@ Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. 
 
 ## Aktive Sitzungen {: #active_sessions}
 
-Hier werden die aktuell eingeloggten Personen angezeigt.
+Hier sehen Sie die Sitzungen der aktuell angemeldeten Personen. Die Spalte "Modus" zeigt, über welchen Zugang eine Sitzung entstanden ist, zum Beispiel "WebDAV", "REST" oder "Content". Der Wert "Content" steht für einen Zugriff über die [Inhaltsdomäne](../../manual_user/basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte). Eine solche Sitzung liefert nur Inhalte aus und erhält keine OpenOlat-Oberfläche. Deshalb kann dieselbe Person zweimal in der Liste stehen: einmal mit ihrer Sitzung in OpenOlat und einmal mit dem Modus "Content".
 
 [Zum Seitenanfang ^](#system)
 
@@ -104,5 +104,14 @@ Hier finden Systemadministrator:innen eine Übersicht über Scheduler-Jobs.
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
 
 Hier finden Systemadministrator:innen eine Auflistung aller Keys der Standard-Variablen und die Modul-Konfigurationen.
+
+[Zum Seitenanfang ^](#system)
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Inhaltsdomäne >](../../manual_user/basic_concepts/Content_Domain.de.md)<br>
+[WebDAV >](WebDAV.de.md)<br>
+[REST API >](REST_API.de.md)
 
 [Zum Seitenanfang ^](#system)
