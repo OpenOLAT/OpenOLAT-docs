@@ -349,7 +349,7 @@ The element "HTML text code" is available only in the Content Editor of the cour
 
 If the [AI module](../../manual_admin/administration/External_Tools_AI.md) has the AI feature "Essay Grading" configured, essay questions can also be added to a quiz [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}. When learners answer such a question, they can request formative feedback on their answer under "AI feedback". The feedback does not award points and serves for self-assessment.
 
-This evaluation exists only in the quiz element of a page. In the course elements "Test" and "Self-test" the grading kit of an essay question is not executed, even if the question comes from the question bank. How you define the grading kit of a question is described in the chapter [Edit the AI grading of an essay question](../area_modules/Question_Bank_Create_Questions.md#ai_grading).
+This evaluation exists only in the quiz element of a page. In the course elements "Test" and "Self-test" the grading kit of an essay question is not executed, even if the question comes from the question bank. How you define the grading kit of a question is described in the chapter [Edit the AI feedback of an essay question](../area_modules/Question_Bank_Create_Questions.md#ai_grading).
 
 It opens with the "Assessment" of the answer, ranging over "very good", "good", "mediocre", "insufficient" and "wrong", together with a short overall appraisal. The "Feedback reliability" indicator with the values "high", "medium" and "low" shows how reliable the AI rates its own assessment.
 
@@ -364,7 +364,7 @@ OpenOlat rejects answers that are too long before grading starts. The permitted 
 
 ### Consent to the AI correction [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #ai_consent}
 
-Before the AI corrects free-text answers of learners, OpenOlat asks them for permission. After a click on "Start quiz", the dialog "AI correction" appears above the first question, provided the quiz contains at least one free-text question with AI grading and the person has not stored a choice in the tab "AI settings" of their personal settings. The dialog says that the quiz corrects free-text answers with AI and that the AI feedback is a suggestion, not a grade. It also names the default of the institution.
+Before the AI corrects free-text answers of learners, OpenOlat asks them for permission. After a click on "Start quiz", the dialog "AI correction" appears above the first question, provided the quiz contains at least one free-text question with a grading kit and the person has not stored a choice in the tab "AI settings" of their personal settings. The dialog says that the quiz corrects free-text answers with AI and that the AI feedback is a suggestion, not a grade. It also names the default of the institution.
 
 ![AI correction dialogue with the note on the default of the institution and the highlighted buttons Allow once, Always allow and Not now](assets/content_editor_ai_consent_dialog_v1_en.png){ class="shadow lightbox" title="AI correction dialogue at the start of a quiz · 2026.10.20" }
 

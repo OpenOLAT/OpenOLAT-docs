@@ -1,4 +1,4 @@
-# How do I create an essay question with AI grading? {: #ai_essay}
+# How do I give learners AI feedback on free-text answers in a quiz? {: #ai_essay}
 
 ??? abstract "Aim and content of these instructions"
 
@@ -19,9 +19,13 @@
 
 ---
 
-## What AI grading does {: #concept}
+## What AI feedback does {: #concept}
 
-An essay question with AI grading gives learners **formative feedback** on their own answer. The AI compares the answer with the information you store as an author and describes what worked and what is missing.
+With AI feedback, learners receive **formative feedback** on their answer to an essay question. The AI compares the answer with the information you store as an author and describes what worked and what is missing.
+
+Three words in the interface mean the same function: "Essay Grading", "AI correction" and "AI feedback". "AI correction" appears in two places, in the "Essay questions with AI correction" field when questions are generated and in the dialog in which learners give their consent. The graphic shows who meets which word at which place and what it does there.
+
+![Four stations with role, place and word in the interface: three words, one function](assets/ai_essay_feedback_stations_v1_en.svg){ class="shadow lightbox" title="Stations of the AI feedback on free-text answers · 2026.11.13" }
 
 Three points govern its use:
 
@@ -163,6 +167,8 @@ The more open the question, the more important grading hints and misconceptions 
 
 ## The learner's view {: #learner_view}
 
+At the start of the quiz, OpenOlat asks learners in the "AI correction" dialog whether the AI may correct their free-text answers: "Allow once", "Always allow" or "Not now". Even with permission, the AI feedback remains a suggestion, not a grade. Without permission learners answer the question as usual, only no AI feedback appears. "Always allow" stores the choice in the "AI settings" tab of the personal settings, after which the dialog no longer appears. After "Allow once" or "Not now", OpenOlat asks again at the next attempt. Details are described in [Consent to the AI correction](../../manual_user/basic_concepts/Content_Editor.md#ai_consent).
+
 1. Learners start the Quiz on the page and answer the essay question in the input field. If the AI generated the question, via the import or via "AI questions" in the question bank, the question text ends with "Notes for your answer": the expected length, the number of key concepts and the scopes the answer is graded by. A question you create by hand has no such block. The block is part of the question text, so you can change or remove it in the "Question" field. The counter shows the number of words and, if a maximum is set, the permitted maximum.
 2. With **"Check"** they submit the answer. While the AI is working, the message "Waiting for AI correction" appears. If it takes longer, OpenOlat asks you to keep the page open.
 
@@ -201,7 +207,7 @@ Instead of writing the question by hand, you can have it generated from a source
 
 The AI pre-fills the grading kit of the generated questions. Check each question for content and refine the kit in the "AI feedback" tab.
 
-The same path exists in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" button. Questions created there receive the status "Review" and can then be taken into a Quiz.
+The same path exists in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" button. There you set the number of essay questions in the "Essay questions with AI correction" field. Questions created in the question bank receive the status "Review" and can then be taken into a Quiz.
 
 [To the top of the page ^](#ai_essay)
 

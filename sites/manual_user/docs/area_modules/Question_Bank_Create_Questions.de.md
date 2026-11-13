@@ -49,9 +49,11 @@ Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrekth
 
 [Zum Seitenanfang ^](#create_questions)
 
-## KI-Bewertung einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
+## KI-Feedback einer Freitextfrage bearbeiten [:octicons-tag-16:{ title="ab Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
 Bei Freitextfragen mit KI-Korrektur legt ein Bewertungskit fest, wie die KI die Antworten einschätzt. Die KI füllt dieses Kit bei der Generierung vor; Sie können es im Tab "KI-Feedback" der Frage von Hand anpassen. Der Tab erscheint auch bei einer selbst erstellten Freitextfrage. So bauen Sie das Bewertungskit von Anfang an selbst auf. OpenOlat zeigt den Tab, sobald in der System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md) die KI-Funktion "Essay Bewertung" aktiviert und mit einem KI-Anbieter und Modell konfiguriert ist.
+
+Die Oberfläche nennt diese Funktion je nach Ort anders: "Essay Bewertung" in der System-Administration, "KI-Korrektur" im Feld "Essay-Fragen mit KI-Korrektur" beim Erzeugen und im Dialog, in dem Lernende einwilligen, und "KI-Feedback" in der Frage. Wer was wo einstellt, zeigt die Grafik [KI-Feedback zu Freitextantworten](../../manual_how-to/ai_essay/ai_essay.de.md#concept) in der Anleitung zur Freitextfrage.
 
 Fünf Angaben sind Pflicht und tragen einen Stern: "Lernziel", "Quelltext-Auszug", "Musterantwort", "Bloom-Stufe" und "Sprache (BCP-47)". Alle übrigen Angaben sind optional, auch die Schlüsselpunkte und die Bewertungskriterien.
 
@@ -106,8 +108,9 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 **Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
-[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz? >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>
+[Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 [Fragenpool: Freigabemöglichkeiten >](Question_Pool_Sharing_Options.de.md)
 

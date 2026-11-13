@@ -286,7 +286,7 @@ taxonomy.matching.passage.prefix=
 [Core-Konfiguration: Übersicht >](Core_functions/index.de.md)
 
 **Weiterführend**<br>
-[Wie erstelle ich eine Freitextfrage mit KI-Auswertung? >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>
+[Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz? >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>
 [Modul Media Center >](Modules_Media_Center.de.md)
 
 [Zum Seitenanfang ^](#ai)

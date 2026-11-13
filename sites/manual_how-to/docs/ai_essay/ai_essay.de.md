@@ -1,4 +1,4 @@
-# Wie erstelle ich eine Freitextfrage mit KI-Auswertung? {: #ai_essay}
+# Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz? {: #ai_essay}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -19,9 +19,13 @@
 
 ---
 
-## Was die KI-Auswertung leistet {: #concept}
+## Was das KI-Feedback leistet {: #concept}
 
-Eine Freitextfrage mit KI-Auswertung gibt Lernenden ein **formatives Feedback** zu ihrer eigenen Antwort. Die KI vergleicht die Antwort mit den Angaben, die Sie als Autor:in hinterlegen, und beschreibt, was gelungen ist und was fehlt.
+Mit dem KI-Feedback erhalten Lernende zu ihrer Antwort auf eine Freitextfrage ein **formatives Feedback**. Die KI vergleicht die Antwort mit den Angaben, die Sie als Autor:in hinterlegen, und beschreibt, was gelungen ist und was fehlt.
+
+Drei Wörter der Oberfläche meinen dieselbe Funktion: "Essay Bewertung", "KI-Korrektur" und "KI-Feedback". "KI-Korrektur" steht an zwei Orten, im Feld "Essay-Fragen mit KI-Korrektur" beim Erzeugen von Fragen und im Dialog, in dem Lernende einwilligen. Die Grafik zeigt, wer welches Wort an welchem Ort antrifft und was es dort bewirkt.
+
+![Vier Stationen mit Rolle, Ort und Wort der Oberfläche: drei Wörter, eine Funktion](assets/ai_essay_feedback_stations_v1_de.svg){ class="shadow lightbox" title="Stationen des KI-Feedbacks zu Freitextantworten · 2026.11.13" }
 
 Drei Punkte bestimmen den Einsatz:
 
@@ -163,6 +167,8 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Missverständni
 
 ## Die Ansicht der Lernenden {: #learner_view}
 
+Beim Start des Quiz fragt OpenOlat die Lernenden im Dialog "KI-Korrektur", ob die KI ihre Freitextantworten korrigieren darf: "Einmal erlauben", "Immer erlauben" oder "Jetzt nicht". Das KI-Feedback bleibt auch nach der Erlaubnis ein Vorschlag, keine Note. Ohne Erlaubnis beantworten Lernende die Frage wie gewohnt, es erscheint nur kein KI-Feedback. "Immer erlauben" speichert die Wahl im Tab "KI-Einstellungen" der persönlichen Einstellungen, danach erscheint der Dialog nicht mehr. Nach "Einmal erlauben" oder "Jetzt nicht" fragt OpenOlat beim nächsten Versuch erneut. Details beschreibt [Einwilligung zur KI-Korrektur](../../manual_user/basic_concepts/Content_Editor.de.md#ai_consent).
+
 1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Hat die KI die Frage erzeugt, über den Import oder über "KI Fragen" im Fragenpool, endet der Fragetext mit "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Eine von Hand erstellte Frage hat diesen Block nicht. Der Block ist Teil des Fragetexts, Sie können ihn also im Feld "Frage" anpassen oder entfernen. Der Zähler zeigt die Anzahl Wörter und, falls ein Maximum gesetzt ist, das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden die Lernenden die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen.
 
@@ -201,7 +207,7 @@ Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Lerntext erzeuge
 
 Die KI füllt das Bewertungskit der erzeugten Fragen vor. Prüfen Sie jede Frage inhaltlich und schärfen Sie das Kit im Tab "KI-Feedback" nach.
 
-Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Button "KI Fragen". Dort erzeugte Fragen erhalten den Status "Review" und lassen sich anschliessend in ein Quiz übernehmen.
+Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Button "KI Fragen". Die Anzahl der Freitextfragen legen Sie dort im Feld "Essay-Fragen mit KI-Korrektur" fest. Im Fragenpool erzeugte Fragen erhalten den Status "Review" und lassen sich anschliessend in ein Quiz übernehmen.
 
 [Zum Seitenanfang ^](#ai_essay)
 

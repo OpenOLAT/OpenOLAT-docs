@@ -27,7 +27,7 @@ Ten steps from the Author role to the published course. Sophia helps along the w
 
 After that:
 
-- [How do I create an essay question with AI grading?](ai_essay/ai_essay.md)
+- [How do I give learners AI feedback on free-text answers in a quiz?](ai_essay/ai_essay.md)
 - [How can I use the same files in several courses?](multiple_use/multiple_use.md)
 
 <p class="oo-mh-pcard__aside" markdown>Prefer to work together? For trainings and workshops for authors, contact your organisation.</p>
@@ -124,7 +124,7 @@ If the guide you need is not above, find it here by role. Each card collects the
 - [How do I create a form learning resource?](create_a_form/create_a_form.md)
 - [How do I create a podcast?](podcast/podcast.md)
 - [How do I create a wiki?](wikis/wikis.md)
-- [How do I create an essay question with AI grading?](ai_essay/ai_essay.md)
+- [How do I give learners AI feedback on free-text answers in a quiz?](ai_essay/ai_essay.md)
 - [How do I prepare the creation of personal portfolios by participants?](portfolio/portfolio.md)
 - [How can I run a survey at the end of a course?](survey/survey.md)
 

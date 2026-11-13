@@ -27,7 +27,7 @@ Zehn Schritte von der Rolle Autor:in bis zum veröffentlichten Kurs. Sophia hilf
 
 Danach:
 
-- [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
+- [Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz?](ai_essay/ai_essay.de.md)
 - [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](multiple_use/multiple_use.de.md)
 
 <p class="oo-mh-pcard__aside" markdown>Lieber gemeinsam? Für Schulungen und Workshops für Autor:innen wenden Sie sich an Ihre Organisation.</p>
@@ -124,7 +124,7 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 - [Wie erstelle ich eine Formular-Lernressource?](create_a_form/create_a_form.de.md)
 - [Wie erstelle ich einen Podcast?](podcast/podcast.de.md)
 - [Wie erstelle ich ein Wiki?](wikis/wikis.de.md)
-- [Wie erstelle ich eine Freitextfrage mit KI-Auswertung?](ai_essay/ai_essay.de.md)
+- [Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz?](ai_essay/ai_essay.de.md)
 - [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](portfolio/portfolio.de.md)
 - [Wie kann ich am Ende eines Kurses eine Umfrage durchführen?](survey/survey.de.md)
 

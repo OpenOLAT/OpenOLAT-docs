@@ -283,7 +283,7 @@ taxonomy.matching.passage.prefix=
 [Core functions: Overview >](Core_functions/index.md)
 
 **Further reading**<br>
-[How do I create an essay question with AI grading? >](../../manual_how-to/ai_essay/ai_essay.md)<br>
+[How do I give learners AI feedback on free-text answers in a quiz? >](../../manual_how-to/ai_essay/ai_essay.md)<br>
 [Module Media Center >](Modules_Media_Center.md)
 
 [To the top of the page ^](#ai)

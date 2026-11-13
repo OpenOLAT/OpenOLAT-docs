@@ -49,9 +49,11 @@ Please note that the questions must be checked for correctness in each individua
 
 [To the top of the page ^](#create_questions)
 
-## Edit the AI grading of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
+## Edit the AI feedback of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
 For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this kit during generation; you can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start. OpenOlat shows the tab as soon as the AI feature "Essay Grading" is enabled and configured with an AI provider and model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration.
+
+The interface names this function differently depending on the place: "Essay Grading" in the system administration, "AI correction" in the "Essay questions with AI correction" field when generating and in the dialog in which learners give their consent, and "AI feedback" in the question. Who sets what where is shown in the graphic [AI feedback on free-text answers](../../manual_how-to/ai_essay/ai_essay.md#concept) in the instructions for the essay question.
 
 Five entries are mandatory and carry an asterisk: "Learning objective", "Reference excerpt", "Model answer", "Bloom level" and "Language (BCP-47)". All other entries are optional, including the key points and the rubric criteria.
 
@@ -106,8 +108,9 @@ If you are developing questions together, for example, you can create a workgrou
 **Mentioned on this page**<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
-[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[How do I give learners AI feedback on free-text answers in a quiz? >](../../manual_how-to/ai_essay/ai_essay.md)<br>
+[Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)
 
