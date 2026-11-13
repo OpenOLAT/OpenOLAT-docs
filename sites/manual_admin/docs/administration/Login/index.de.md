@@ -25,7 +25,7 @@ Bevor Personen mit OpenOlat arbeiten, legen Sie fest, wie sie sich anmelden. Neb
 - **LDAP:** OpenOlat übernimmt die Konten aus einem Verzeichnis wie Active Directory und prüft die Anmeldung gegen dieses Verzeichnis.
 - **Shibboleth:** Personen melden sich bei ihrer Hochschule in einer Shibboleth-Föderation an.
 
-Ein Verzeichnis wie Active Directory lässt sich auf zwei Wegen anbinden: Über LDAP übernimmt OpenOlat die Konten aus dem Verzeichnis. Über die Cloud-Login-Anbindungen "Active Directory Federation Services" und "Microsoft Azure Active Directory" übernimmt Microsoft die Anmeldung, und OpenOlat erhält nur die Bestätigung.
+Ein Verzeichnis wie Active Directory lässt sich auf zwei Wegen anbinden: Über LDAP übernimmt OpenOlat die Konten aus dem Verzeichnis. Über die Cloud-Login-Anbindungen "Active Directory Federation Services" und "Microsoft Azure Active Directory" (bei Microsoft heute Microsoft Entra ID) übernimmt Microsoft die Anmeldung, und OpenOlat erhält nur die Bestätigung.
 
 Das Cloud-Login richten Systemadministrator:innen direkt im Menü Login ein. LDAP und Shibboleth setzen die Serverkonfiguration voraus, erst danach erscheinen sie im Menü. Die Serverkonfiguration ist die Konfigurationsdatei der Installation. Diese Datei pflegt die Stelle, die OpenOlat betreibt.
 
@@ -58,10 +58,10 @@ Wie sicher die Anmeldung mit dem OpenOlat-Passwort ist, legen Sie hier fest. Sie
 
 ## Cloud-Login [:octicons-tag-16:{ title="ab Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
 
-Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit einem Identitätsanbieter. Fertige Anbindungen gibt es für Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID und Datenlotsen. Weitere Identitätsanbieter binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Systemadministrator:innen in der System-Administration unter:<br>
+Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit einem Identitätsanbieter. Fertige Anbindungen gibt es für Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID und Datenlotsen, einen Anbieter von Software für Hochschulen und Akademien. Weitere Identitätsanbieter binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Login > Cloud-Login`
 
-Welchen "Response type" ein eigener Provider braucht, steht auf der Detailseite. Wie das Modul Microsoft Teams die Anmeldung über "Microsoft Azure AD" verändert, steht unter [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled).
+Welchen "Response type" ein eigener Provider braucht, steht unter [Cloud-Login: OAuth 2.0 und OpenID Connect](../Login_Cloud_Login.de.md#authorization_code_flow). Wie das Modul Microsoft Teams die Anmeldung über "Microsoft Azure AD" verändert, steht unter [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled).
 
 [Zu den Details >](../../administration/Login_Cloud_Login.de.md)<br>
 [Zum Seitenanfang ^](#login)
@@ -108,7 +108,7 @@ Sollen Personen ihr Konto selbst anlegen, schalten Systemadministrator:innen hie
 
 ## SMS [:octicons-tag-16:{ title="ab Release 11.3 (OO-2452)" }](https://track.frentix.com/issue/OO-2452) {: #sms}
 
-Damit Benutzer:innen ein vergessenes Passwort mit einem Code per SMS zurücksetzen können, richten Sie hier einen SMS-Dienst ein. Mit "SMS Versand" schalten Sie den Versand ein und wählen unter "Dienst" den Provider. Danach legen Sie fest, ob der Code bei "Passwort zurücksetzen" zum Einsatz kommt und ob OpenOlat mit "Telefonnummer Verifikation" eine fehlende Telefonnummer beim ersten Login abfragt. Für jede versendete SMS fallen Kosten an.
+Damit Benutzer:innen ein vergessenes Passwort mit einem Code per SMS zurücksetzen können, richten Sie hier einen SMS-Dienst ein. Mit "SMS-Versand" schalten Sie den Versand ein und wählen unter "Dienst" den Provider. Danach legen Sie fest, ob der Code bei "Passwort zurücksetzen" zum Einsatz kommt und ob OpenOlat mit "Telefonnummer-Verifikation" eine fehlende Telefonnummer beim ersten Login abfragt. Für jede versendete SMS fallen Kosten an.
 
 [Zum Seitenanfang ^](#login)
 

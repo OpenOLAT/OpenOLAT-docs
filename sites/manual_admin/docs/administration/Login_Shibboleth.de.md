@@ -11,7 +11,7 @@ Ist Shibboleth eingeschaltet, finden Systemadministrator:innen die Seite in der 
 
 ## Was die Serverkonfiguration festlegt {: #server_configuration}
 
-Die Serverkonfiguration ist die Konfigurationsdatei der Installation, die Seite in der Administration nennt sie "OpenOlat Konfigurationsdatei". Diese Datei pflegt die Stelle, die OpenOlat betreibt. Die Basiskonfiguration steht dort: die Anbindung an die Föderation, welche Attribute OpenOlat in welche Profilfelder übernimmt und welcher Organisation neue Konten zugeordnet werden. Die Seite in der Administration weist darauf mit dem Satz "Die Shibboleth Basiskonfiguration muss in der OpenOlat Konfigurationsdatei vorgenommen werden." hin.
+Die Serverkonfiguration ist die Konfigurationsdatei der Installation, die Seite in der Administration nennt sie "OpenOlat-Konfigurationsdatei". Diese Datei pflegt die Stelle, die OpenOlat betreibt. Die Basiskonfiguration steht dort: die Anbindung an die Föderation, welche Attribute OpenOlat in welche Profilfelder übernimmt und welcher Organisation neue Konten zugeordnet werden. Die Seite in der Administration weist darauf mit dem Satz "Die Shibboleth-Basiskonfiguration muss in der OpenOlat-Konfigurationsdatei vorgenommen werden." hin.
 
 Eine Änderung an der Basiskonfiguration gilt erst ab dem nächsten Neustart. Ohne eingeschaltetes Shibboleth fehlt der Eintrag "Shibboleth" im Menü `Administration > Login`.
 
@@ -37,18 +37,25 @@ Nicht jede Person, die sich bei ihrer Hochschule anmelden kann, soll OpenOlat nu
 
 Sie legen bis zu zwei Attribute fest:
 
-- **Shibboleth Attribut 1:** der Name des Attributs, das OpenOlat prüft, so wie die Hochschule es an OpenOlat liefert. Die Namen kennt, wer Shibboleth in der Serverkonfiguration angebunden hat.
+- **Shibboleth-Attribut 1:** der Name des Attributs, das OpenOlat prüft, so wie die Anbindung Ihrer Installation es an OpenOlat übergibt.
 - **Gültige Werte für Attribut 1:** die zugelassenen Werte, getrennt durch Zeilenumbruch, Komma oder Semikolon. Gross- und Kleinschreibung spielen keine Rolle.
-- **Shibboleth Attribut 2** und **Gültige Werte für Attribut 2:** ein zweites Attribut mit seinen Werten, nach demselben Muster.
+- **Shibboleth-Attribut 2** und **Gültige Werte für Attribut 2:** ein zweites Attribut mit seinen Werten, nach demselben Muster.
 
-Eine Person erhält Zugang, wenn eines der beiden Attribute einen der zugelassenen Werte trägt. Allen anderen zeigt OpenOlat die Meldung "Sie dürfen nicht auf OpenOlat einloggen."
+Eine Person erhält Zugang, wenn eines der beiden Attribute einen der zugelassenen Werte trägt. Allen anderen zeigt OpenOlat die Meldung "Sie dürfen nicht auf OpenOlat einloggen." OpenOlat prüft die Attribute bei jeder Anmeldung über Shibboleth, auch bei Personen, die schon ein Konto haben.
+
+Welche Attribute eine Hochschule liefern kann, legt die Föderation fest. Bei SWITCH heisst die Föderation "Switch edu-ID Federation", ihre Attribute beschreibt die "Switch edu-ID Attribute Specification". Für eine Zugangsbeschränkung eignen sich zum Beispiel diese zwei Attribute:
+
+- **swissEduPersonHomeOrganization:** die Domain der Heimorganisation der Person, etwa ethz.ch. Damit lassen Sie nur Angehörige bestimmter Hochschulen hinein.
+- **eduPersonAffiliation:** die Art der Zugehörigkeit, etwa student, staff oder faculty. Damit lassen Sie zum Beispiel nur Personen mit dem Wert student hinein.
+
+Im Feld "Shibboleth-Attribut 1" steht der Name, unter dem die Anbindung Ihrer Installation das Attribut an OpenOlat übergibt. Er kann vom Namen in der Föderation abweichen, etwa "Shib-SwissEP-HomeOrganization" statt swissEduPersonHomeOrganization. Den genauen Namen erfahren Sie von der Stelle, die OpenOlat betreibt.
 
 [Zum Seitenanfang ^](#shibboleth)
 
 
-## Direktlink für SSO Zugang [:octicons-tag-16:{ title="ab Release 10.3.4 (OO-1651)" }](https://track.frentix.com/issue/OO-1651) {: #direct_link}
+## Direktlink für SSO-Zugang [:octicons-tag-16:{ title="ab Release 10.3.4 (OO-1651)" }](https://track.frentix.com/issue/OO-1651) {: #direct_link}
 
-Soll die Anmeldung über Shibboleth direkt von der Website Ihrer Hochschule aus starten, setzen Sie dort den "Direktlink für SSO Zugang" ein. SSO (Single Sign-on) heisst: Die Person meldet sich einmal bei ihrer Hochschule an und ist damit auch in OpenOlat angemeldet. Die Seite zeigt diese Adresse an. Sie führt ohne Umweg über die Login-Seite von OpenOlat zur Anmeldung über Shibboleth.
+Soll die Anmeldung über Shibboleth direkt von der Website Ihrer Hochschule aus starten, setzen Sie dort den "Direktlink für SSO-Zugang" ein. SSO (Single Sign-on) heisst: Die Person meldet sich einmal bei ihrer Hochschule an und ist damit auch in OpenOlat angemeldet. Die Seite zeigt diese Adresse an. Sie führt ohne Umweg über die Login-Seite von OpenOlat zur Anmeldung über Shibboleth.
 
 [Zum Seitenanfang ^](#shibboleth)
 

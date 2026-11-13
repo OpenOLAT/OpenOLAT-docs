@@ -24,7 +24,7 @@ Before people work with OpenOlat, you define how they log in. Besides the OpenOl
 - **LDAP:** OpenOlat takes over the accounts from a directory such as Active Directory and checks the login against this directory.
 - **Shibboleth:** People log in at their university in a Shibboleth federation.
 
-A directory such as Active Directory can be connected in two ways: via LDAP, OpenOlat takes over the accounts from the directory. Via the cloud login integrations "Active Directory Federation Services" and "Microsoft Azure Active Directory", Microsoft takes over the login, and OpenOlat only receives the confirmation.
+A directory such as Active Directory can be connected in two ways: via LDAP, OpenOlat takes over the accounts from the directory. Via the cloud login integrations "Active Directory Federation Services" and "Microsoft Azure Active Directory" (at Microsoft now Microsoft Entra ID), Microsoft takes over the login, and OpenOlat only receives the confirmation.
 
 System administrators set up the cloud login directly in the menu Login. LDAP and Shibboleth require the server configuration, only then do they appear in the menu. The server configuration is the configuration file of the installation. This file is maintained by the body that operates OpenOlat.
 
@@ -54,10 +54,10 @@ How secure the login with the OpenOlat password is, you define here. You select 
 
 ## Cloud login [:octicons-tag-16:{ title="from Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
 
-So that users can log in with the account of another service, you connect OpenOlat here with an identity provider. Ready-made integrations exist for Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID and Datenlotsen. You connect further identity providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". System administrators configure these integrations in the system administration under:<br>
+So that users can log in with the account of another service, you connect OpenOlat here with an identity provider. Ready-made integrations exist for Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID and Datenlotsen, a provider of software for universities and academies. You connect further identity providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". System administrators configure these integrations in the system administration under:<br>
 `Administration > Login > Cloud login`
 
-Which "Response type" your own provider needs is described on the details page. How the Microsoft Teams module changes the login via "Microsoft Azure AD" is described under [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled).
+Which "Response type" your own provider needs is described under [Cloud login: OAuth 2.0 and OpenID Connect](../Login_Cloud_Login.md#authorization_code_flow). How the Microsoft Teams module changes the login via "Microsoft Azure AD" is described under [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled).
 
 [See the details >](../../administration/Login_Cloud_Login.md)<br>
 [To the top of the page ^](#login)
@@ -99,7 +99,7 @@ If people should create their account themselves, system administrators switch o
 
 ## SMS [:octicons-tag-16:{ title="from Release 11.3 (OO-2452)" }](https://track.frentix.com/issue/OO-2452) {: #sms}
 
-So that users can reset a forgotten password with a code by SMS, you set up an SMS service here. With "SMS distribution" you switch on the sending and select the provider under "Service". Then you define whether the code is used for "Reset password" and whether OpenOlat asks for a missing phone number at the first login with "Phone number's verification". Costs are incurred for each SMS sent.
+So that users can reset a forgotten password with a code by SMS, you set up an SMS service here. With "SMS distribution" you switch on the sending and select the provider under "Service". Then you define whether the code is used for "Reset password" and whether OpenOlat asks for a missing phone number at the first login with "Phone number verification". Costs are incurred for each SMS sent.
 
 [To the top of the page ^](#login)
 

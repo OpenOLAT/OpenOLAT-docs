@@ -18,7 +18,7 @@ Das Menü "Weitere Aktionen" mit dem Symbol aus drei Punkten oben rechts auf der
 
 So binden Sie einen Identitätsanbieter an:
 
-1. Registrieren Sie OpenOlat beim Identitätsanbieter als Anwendung. Als Rücksprungadresse geben Sie dort die "Umleitungs-URI" an, die OpenOlat im Abschnitt "Login via oAuth, Cloud Dienste und Soziale Netzwerke" direkt unter dem Menü "Weitere Aktionen" anzeigt.
+1. Registrieren Sie OpenOlat beim Identitätsanbieter als Anwendung. Als Rücksprungadresse geben Sie dort die "Umleitungs-URI" an, die OpenOlat im Abschnitt "Login via OAuth, Cloud-Dienste und soziale Netzwerke" direkt unter dem Menü "Weitere Aktionen" anzeigt.
 2. Wählen Sie den Identitätsanbieter im Menü "Weitere Aktionen".
 3. Tragen Sie im Abschnitt des Identitätsanbieters die Zugangsdaten ein, die er für OpenOlat ausgestellt hat, etwa "Client ID" und "Client secret". Mit diesen beiden Angaben weist sich OpenOlat beim Identitätsanbieter aus.
 4. Klicken Sie auf "Speichern".
@@ -27,52 +27,64 @@ Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl. Mit "Entferne
 
 ### Microsoft Azure Active Directory [:octicons-tag-16:{ title="ab Release 15.3 (OO-4904)" }](https://track.frentix.com/issue/OO-4904) {: #azure}
 
-Arbeitet Ihre Organisation mit Microsoft 365, melden sich Ihre Mitarbeitenden mit ihrem Microsoft-Konto an. Dafür fügen Sie "Microsoft Azure Active Directory" hinzu. Im Feld "Verzeichnis-ID (Mandant)" tragen Sie die Verzeichnis-ID Ihres Microsoft-Tenants ein, also der Microsoft-365-Umgebung Ihrer Organisation, damit sich nur Personen Ihrer Organisation anmelden. Bleibt das Feld leer, steht die Anmeldung allen Personen mit einem Microsoft-365-Konto offen. Auf der Login-Seite heisst der Eintrag "Microsoft Azure AD".
+Arbeitet Ihre Organisation mit Microsoft 365, melden sich Ihre Mitarbeitenden mit ihrem Microsoft-Konto an. Dafür fügen Sie "Microsoft Azure Active Directory" hinzu. Microsoft hat diesen Dienst in Microsoft Entra ID umbenannt, unter diesem Namen finden Sie ihn bei Microsoft. Auf der Login-Seite heisst der Eintrag "Microsoft Azure AD".
 
-Sind das Modul "Microsoft Teams" und dessen Funktion "Terminaufzeichnung" eingeschaltet, fragt die Anmeldung über "Microsoft Azure AD" bei Microsoft eine zusätzliche Berechtigung ab, und dafür braucht es die Zustimmung der Administration Ihres Microsoft-Tenants, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+Bei Microsoft registrieren Sie OpenOlat im Microsoft Entra Admin Center als App unter:<br>
+`Entra ID > App-Registrierungen > Neue Registrierung`<br>
+Dafür brauchen Sie bei Microsoft mindestens die Rolle "Anwendungsentwickler". Nach der Registrierung zeigt die Seite "Übersicht" der App die Anwendungs-ID (Client-ID). Diese tragen Sie in OpenOlat im Feld "Client ID" ein.
+
+Der Mandant (Tenant) ist die Microsoft-365-Umgebung Ihrer Organisation. Im Feld "Verzeichnis-ID (Mandant)" tragen Sie seine Kennung ein, damit sich nur Personen Ihrer Organisation anmelden. Bleibt das Feld leer, steht die Anmeldung allen Personen mit einem Microsoft-365-Konto offen. Microsoft nennt diese Kennung "Mandanten-ID" und zeigt sie im Microsoft Entra Admin Center unter:<br>
+`Entra ID > Übersicht > Eigenschaften`<br>
+Dafür brauchen Sie bei Microsoft mindestens die Rolle "Globaler Leser".
+
+Sind das Modul "Microsoft Teams" und dessen Funktion "Terminaufzeichnung" eingeschaltet, fragt die Anmeldung über "Microsoft Azure AD" bei Microsoft eine zusätzliche Berechtigung ab, und dafür braucht es die Zustimmung der Administration Ihres Mandanten bei Microsoft, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
 ### Switch edu-ID [:octicons-tag-16:{ title="ab Release 16.2.6 (OO-6252)" }](https://track.frentix.com/issue/OO-6252) {: #switch_eduid}
 
 Switch edu-ID ist ein persönliches Konto bei SWITCH, das einer Person auch nach einem Wechsel der Hochschule bleibt. Hochschulen in der Schweiz binden sie als Cloud-Login an, nicht über [Shibboleth](Login_Shibboleth.de.md). Mit "2-Faktor-Authentifizierung erzwingen" verlangt OpenOlat von Switch edu-ID eine Anmeldung mit zweitem Faktor; Switch edu-ID fragt die Person dann zusätzlich zum Passwort nach diesem Faktor.
+
+### Datenlotsen {: #datenlotsen}
+
+Datenlotsen ist ein Anbieter von Software für den Betrieb von Hochschulen und Akademien, darunter ein Campus-Management-System. Sein Angebot führt der Anbieter heute unter dem Namen octo. Die Anbindung "Datenlotsen" brauchen Sie nur, wenn sich die Personen Ihrer Organisation mit einem Konto aus einem System dieses Anbieters anmelden. Im Abschnitt "Datenlotsen" tragen Sie dann "Client ID" und "Client secret" ein, die der Anbieter für OpenOlat ausstellt, und unter "OAuth2 endpoint" die Adresse, unter der sein Anmeldedienst erreichbar ist.
 
 
 ## Eigenen Provider hinzufügen [:octicons-tag-16:{ title="ab Release 16.2.6 (OO-6267)" }](https://track.frentix.com/issue/OO-6267) {: #own_provider}
 
 Fehlt Ihr Identitätsanbieter in der Liste, binden Sie ihn selbst an, sofern er OpenID Connect oder OAuth 2.0 unterstützt, die offenen Standards für eine Anmeldung über einen Identitätsanbieter. Das Menü "Weitere Aktionen" bietet dafür zwei Wege:
 
-- **OAuth 2.0 Provider hinzufügen:** Sie tragen alle Angaben des Identitätsanbieters von Hand ein, darunter "Provider name", "Display name", "Client Id", "Client secret", "Response type" und die Adressen der Endpunkte.
+- **OAuth 2.0 Provider hinzufügen:** Sie tragen alle Angaben des Identitätsanbieters von Hand ein, darunter "Provider name", "Display name", "Client Id", "Client secret", "Response type" und die Adressen der Endpunkte. Endpunkte sind die Adressen beim Identitätsanbieter, die OpenOlat bei der Anmeldung aufruft: Unter "Authorization end point" meldet sich die Person an. Über "Token URL" holt OpenOlat danach ein Access Token ab, einen Berechtigungsnachweis für die Angaben zur Person. Ist "User info (optional)" ausgefüllt, ruft OpenOlat mit diesem Token dort weitere Angaben zur Person ab.
 - **OAuth 2.0 Provider mit Discovery URL hinzufügen:** Sie geben nur die "URL" ein, unter der der Identitätsanbieter seine Konfiguration veröffentlicht. Mit "Konfiguration laden" übernimmt OpenOlat die übrigen Angaben in das Formular.
 
-Mit "Attributen editieren" im Abschnitt des Providers legen Sie fest, welches Attribut des Identitätsanbieters in welches Attribut des OpenOlat-Kontos übernommen wird.
+Mit "Attribute editieren" im Abschnitt des Providers legen Sie fest, welches Attribut des Identitätsanbieters in welches Attribut des OpenOlat-Kontos übernommen wird.
 
 ### OAuth 2.0 und OpenID Connect [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287) {: #authorization_code_flow}
 
-Aus Sicherheitsgründen unterstützt OpenOlat für OpenID-Connect- und OAuth-2.0-Anbindungen ausschliesslich den sicheren Authorization Code Flow. Beim Anlegen eines Providers über "OAuth 2.0 Provider hinzufügen" oder über die Discovery URL ist im Feld "Response type" daher der Wert "code" zu wählen.
+Aus Sicherheitsgründen unterstützt OpenOlat für OpenID-Connect- und OAuth-2.0-Anbindungen ausschliesslich den Authorization Code Flow. Bei diesem Ablauf leitet OpenOlat die Person zur Anmeldung an den Identitätsanbieter weiter. Der Identitätsanbieter schickt sie mit einem Code zurück, den OpenOlat nur einmal einlösen darf. OpenOlat tauscht diesen Code direkt beim Identitätsanbieter gegen das Access Token ein, so läuft das Token nie über den Browser der Person. Beim Anlegen eines Providers über "OAuth 2.0 Provider hinzufügen" oder über die Discovery URL wählen Sie deshalb im Feld "Response type" den Wert "code".
 
 [Zum Seitenanfang ^](#cloud_login)
 
 
 ## Automatische Umleitung [:octicons-tag-16:{ title="ab Release 13.1.1 (OO-3847)" }](https://track.frentix.com/issue/OO-3847) {: #automatic_redirect}
 
-Melden sich alle Personen über denselben Identitätsanbieter an, sparen Sie ihnen den Umweg über die Login-Seite. Mit "Automatische Umleitung (Lokaler Login über /maintenance/)" im Abschnitt des Identitätsanbieters öffnet OpenOlat beim Aufruf sofort die Anmeldung des Identitätsanbieters. Die Option steht bei Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID, Datenlotsen und bei eigenen Providern. Schalten Sie sie nur bei einem Identitätsanbieter ein, OpenOlat leitet immer zu einem einzigen weiter.
+Melden sich alle Personen über denselben Identitätsanbieter an, sparen Sie ihnen den Umweg über die Login-Seite. Mit "Automatische Umleitung (lokaler Login über /maintenance/)" im Abschnitt des Identitätsanbieters öffnet OpenOlat beim Aufruf sofort die Anmeldung des Identitätsanbieters. Die Option steht bei Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID, Datenlotsen und bei eigenen Providern. Schalten Sie sie nur bei einem Identitätsanbieter ein, OpenOlat leitet immer zu einem einzigen weiter.
 
 Die Login-Seite mit dem OpenOlat-Passwort bleibt erreichbar: Rufen Sie die Adresse Ihrer Installation mit dem Zusatz `/maintenance/` auf, zum Beispiel `https://your.openolat.domain/maintenance/`. Diesen Weg brauchen Systemadministrator:innen etwa, wenn der Identitätsanbieter nicht erreichbar ist.
 
 
 ## Erster Login und neue Konten {: #first_login}
 
-Wie OpenOlat eine Person beim ersten Login über einen Identitätsanbieter aufnimmt, legen Sie im Abschnitt "Login via oAuth, Cloud Dienste und Soziale Netzwerke" fest.
+Wie OpenOlat eine Person beim ersten Login über einen Identitätsanbieter aufnimmt, legen Sie im Abschnitt "Login via OAuth, Cloud-Dienste und soziale Netzwerke" fest.
 
 Zuerst sucht OpenOlat ein bestehendes Konto: über die E-Mail-Adresse, die der Identitätsanbieter liefert, und danach über den Anmeldenamen, den der Identitätsanbieter liefert. Findet OpenOlat ein Konto, verknüpft es die Anmeldung damit. Die Person behält ihre Kurse und Daten und meldet sich künftig über den Identitätsanbieter an.
 
 Findet OpenOlat kein Konto, entscheidet "Kontoerstellung erlauben":
 
 - **Eingeschaltet:** OpenOlat legt ein neues Konto an. Die Person ergänzt dabei ihre Angaben in einem Registrierungsdialog.
-- **Ausgeschaltet:** Die Person sieht die Meldung "Ihr Konto wurde auf dem OpenOlat Dienst noch nicht angelegt, dies ist notwendig um sich anmelden zu können. Bitte kontaktieren Sie die Systemadministration." Sie legen das Konto vorher in der Benutzerverwaltung an, siehe [Konto erstellen](../usermanagement/Create_User.de.md).
+- **Ausgeschaltet:** Die Person sieht die Meldung "Ihr Konto wurde auf dem OpenOlat-Dienst noch nicht angelegt, dies ist notwendig, um sich anmelden zu können. Bitte kontaktieren Sie die Systemadministration." Sie legen das Konto vorher in der Benutzerverwaltung an, siehe [Konto erstellen](../usermanagement/Create_User.de.md).
 
 Ist "Kontoerstellung erlauben" eingeschaltet, erscheinen zwei weitere Optionen:
 
-- **Interaktive Registrierungsdialog Überspringen wenn möglich:** OpenOlat legt das neue Konto ohne Registrierungsdialog an, sofern der Identitätsanbieter einen gültigen Anmeldenamen und alle Pflichtfelder des Profils liefert. [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5381)" }](https://track.frentix.com/issue/OO-5381)
+- **Interaktiven Registrierungsdialog überspringen, wenn möglich:** OpenOlat legt das neue Konto ohne Registrierungsdialog an, sofern der Identitätsanbieter einen gültigen Anmeldenamen und alle Pflichtfelder des Profils liefert. [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5381)" }](https://track.frentix.com/issue/OO-5381)
 - **Disclaimer-Dialog überspringen:** OpenOlat fragt Personen, die sich über einen Identitätsanbieter anmelden, nicht nach der Zustimmung zu den Nutzungsbedingungen.
 
 Mit welchen Verfahren sich ein einzelnes Konto anmeldet, sehen Administrator:innen im Reiter "Authentifizierungen" des Kontos:<br>

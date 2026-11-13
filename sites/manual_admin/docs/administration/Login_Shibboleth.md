@@ -11,7 +11,7 @@ If Shibboleth is switched on, system administrators find the page in the system 
 
 ## What the server configuration defines {: #server_configuration}
 
-The server configuration is the configuration file of the installation. This file is maintained by the body that operates OpenOlat. The basic configuration is there: the connection to the federation, which attributes OpenOlat takes over into which profile fields and to which organisation new accounts are assigned. The page in the administration only holds the optional authorization rules.
+The server configuration is the configuration file of the installation, the page in the administration calls it the "OpenOlat configuration file". This file is maintained by the body that operates OpenOlat. The basic configuration is there: the connection to the federation, which attributes OpenOlat takes over into which profile fields and to which organisation new accounts are assigned. The page in the administration points this out with the sentence "The Shibboleth basic configuration must be done in the OpenOlat configuration file."
 
 A change to the basic configuration applies only from the next restart. Without Shibboleth switched on, the entry "Shibboleth" is missing from the menu `Administration > Login`.
 
@@ -37,11 +37,18 @@ Not every person who can log in at their university should use OpenOlat. With "A
 
 You define up to two attributes:
 
-- **Shibboleth attribute 1:** the name of the attribute that OpenOlat checks, as the university delivers it to OpenOlat. The names are known to whoever connected Shibboleth in the server configuration.
+- **Shibboleth attribute 1:** the name of the attribute that OpenOlat checks, as the integration of your installation passes it to OpenOlat.
 - **Allowed values for attribute 1:** the allowed values, separated by line break, comma or semicolon. Upper and lower case do not matter.
 - **Shibboleth attribute 2** and **Allowed values for attribute 2:** a second attribute with its values, following the same pattern.
 
-A person gets access if one of the two attributes carries one of the allowed values. To everyone else, OpenOlat shows the message "You are not authorized to log in OpenOlat."
+A person gets access if one of the two attributes carries one of the allowed values. To everyone else, OpenOlat shows the message "You are not authorized to log in to OpenOlat." OpenOlat checks the attributes at every login via Shibboleth, also for people who already have an account.
+
+Which attributes a university can deliver is defined by the federation. At SWITCH, the federation is called "Switch edu-ID Federation", and the "Switch edu-ID Attribute Specification" describes its attributes. For an access restriction, these two attributes are suitable, for example:
+
+- **swissEduPersonHomeOrganization:** the domain of the home organisation of the person, for example ethz.ch. With it, you only let in members of certain universities.
+- **eduPersonAffiliation:** the type of affiliation, for example student, staff or faculty. With it, you let in, for example, only people with the value student.
+
+The field "Shibboleth attribute 1" holds the name under which the integration of your installation passes the attribute to OpenOlat. It can differ from the name in the federation, for example "Shib-SwissEP-HomeOrganization" instead of swissEduPersonHomeOrganization. You get the exact name from the body that operates OpenOlat.
 
 [To the top of the page ^](#shibboleth)
 

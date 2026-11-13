@@ -18,7 +18,7 @@ The menu "More actions" with the three-dot icon at the top right of the page lis
 
 How to connect an identity provider:
 
-1. Register OpenOlat as an application with the identity provider. As the return address, enter the "Redirect-URI" there that OpenOlat shows in the section "Login via oAuth, cloud services and social providers" directly below the menu "More actions".
+1. Register OpenOlat as an application with the identity provider. As the return address, enter the "Redirect URI" there that OpenOlat shows in the section "Login via OAuth, cloud services and social providers" directly below the menu "More actions".
 2. Select the identity provider in the menu "More actions".
 3. In the section of the identity provider, enter the credentials it has issued for OpenOlat, for example "Client ID" and "Client secret". With these two details, OpenOlat identifies itself to the identity provider.
 4. Click "Save".
@@ -27,27 +27,39 @@ From then on, the login page offers the identity provider for selection. With "R
 
 ### Microsoft Azure Active Directory [:octicons-tag-16:{ title="from Release 15.3 (OO-4904)" }](https://track.frentix.com/issue/OO-4904) {: #azure}
 
-If your organisation works with Microsoft 365, your staff log in with their Microsoft account. For this, you add "Microsoft Azure Active Directory". In the field "Directory (tenant) ID", enter the directory ID of your Microsoft tenant, that is the Microsoft 365 environment of your organisation, so that only people of your organisation can log in. If the field stays empty, the login is open to all people with a Microsoft 365 account. On the login page, the entry is called "Microsoft Azure AD".
+If your organisation works with Microsoft 365, your staff log in with their Microsoft account. For this, you add "Microsoft Azure Active Directory". Microsoft has renamed this service to Microsoft Entra ID, and you find it under this name at Microsoft. On the login page, the entry is called "Microsoft Azure AD".
 
-If the module "Microsoft Teams" and its function "Meeting recording" are switched on, the login via "Microsoft Azure AD" requests an additional permission from Microsoft, and this requires the consent of the administration of your Microsoft tenant, see [Microsoft Teams module: Function "Meeting recording"](Teams_module.md#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+At Microsoft, you register OpenOlat as an app in the Microsoft Entra admin center under:<br>
+`Entra ID > App registrations > New registration`<br>
+For this, you need at least the role "Application Developer" at Microsoft. After the registration, the "Overview" page of the app shows the Application (client) ID. You enter it in OpenOlat in the field "Client ID".
+
+The tenant is the Microsoft 365 environment of your organisation. In the field "Directory (tenant) ID", enter its identifier so that only people of your organisation can log in. If the field stays empty, the login is open to all people with a Microsoft 365 account. Microsoft calls this identifier "Tenant ID" and shows it in the Microsoft Entra admin center under:<br>
+`Entra ID > Overview > Properties`<br>
+For this, you need at least the role "Global Reader" at Microsoft.
+
+If the module "Microsoft Teams" and its function "Meeting recording" are switched on, the login via "Microsoft Azure AD" requests an additional permission from Microsoft, and this requires the consent of the administration of your tenant at Microsoft, see [Microsoft Teams module: Function "Meeting recording"](Teams_module.md#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
 ### Switch edu-ID [:octicons-tag-16:{ title="from Release 16.2.6 (OO-6252)" }](https://track.frentix.com/issue/OO-6252) {: #switch_eduid}
 
-Switch edu-ID is a personal account at SWITCH that stays with a person even after a change of university. Universities in Switzerland connect it as a cloud login, not via [Shibboleth](Login_Shibboleth.md). With "Enforce 2 factor authentication", OpenOlat requests a login with a second factor from Switch edu-ID; Switch edu-ID then asks the person for this factor in addition to the password.
+Switch edu-ID is a personal account at SWITCH that stays with a person even after a change of university. Universities in Switzerland connect it as a cloud login, not via [Shibboleth](Login_Shibboleth.md). With "Enforce 2-factor authentication", OpenOlat requests a login with a second factor from Switch edu-ID; Switch edu-ID then asks the person for this factor in addition to the password.
+
+### Datenlotsen {: #datenlotsen}
+
+Datenlotsen is a provider of software for running universities and academies, among them a campus management system. Today, the provider runs its offer under the name octo. You only need the integration "Datenlotsen" if the people of your organisation log in with an account from a system of this provider. In the section "Datenlotsen", you then enter the "Client ID" and "Client secret" that the provider issues for OpenOlat, and under "OAuth2 endpoint" the address at which its login service can be reached.
 
 
 ## Add your own provider [:octicons-tag-16:{ title="from Release 16.2.6 (OO-6267)" }](https://track.frentix.com/issue/OO-6267) {: #own_provider}
 
 If your identity provider is missing from the list, you connect it yourself, provided it supports OpenID Connect or OAuth 2.0, the open standards for a login via an identity provider. The menu "More actions" offers two ways for this:
 
-- **Add OAuth 2.0 provider:** You enter all details of the identity provider by hand, among them "Provider name", "Display name", "Client Id", "Client secret", "Response type" and the addresses of the end points.
+- **Add OAuth 2.0 provider:** You enter all details of the identity provider by hand, among them "Provider name", "Display name", "Client Id", "Client secret", "Response type" and the addresses of the end points. End points are the addresses at the identity provider that OpenOlat calls during the login: at the "Authorization end point", the person logs in. Via the "Token URL", OpenOlat then fetches an access token, a proof of authorization for the details about the person. If "User info (optional)" is filled in, OpenOlat uses this token to fetch further details about the person there.
 - **Add OAuth 2.0 provider with discovery URL:** You only enter the "URL" at which the identity provider publishes its configuration. With "Load configuration", OpenOlat takes over the other details into the form.
 
 With "Edit attributes" in the section of the provider, you define which attribute of the identity provider is taken over into which attribute of the OpenOlat account.
 
 ### OAuth 2.0 and OpenID Connect [:octicons-tag-16:{ title="from Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287) {: #authorization_code_flow}
 
-For security reasons, OpenOlat supports only the secure authorization code flow for OpenID Connect and OAuth 2.0 integrations. When creating a provider via "Add OAuth 2.0 provider" or via the discovery URL, you must therefore select "code" in the "Response type" field.
+For security reasons, OpenOlat supports only the authorization code flow for OpenID Connect and OAuth 2.0 integrations. In this flow, OpenOlat redirects the person to the identity provider for the login. The identity provider sends them back with a code that OpenOlat may redeem only once. OpenOlat exchanges this code directly at the identity provider for the access token, so the token never passes through the browser of the person. When creating a provider via "Add OAuth 2.0 provider" or via the discovery URL, you therefore select the value "code" in the field "Response type".
 
 [To the top of the page ^](#cloud_login)
 
@@ -61,7 +73,7 @@ The login page with the OpenOlat password remains reachable: call the address of
 
 ## First login and new accounts {: #first_login}
 
-How OpenOlat takes in a person at the first login via an identity provider, you define in the section "Login via oAuth, cloud services and social providers".
+How OpenOlat takes in a person at the first login via an identity provider, you define in the section "Login via OAuth, cloud services and social providers".
 
 First, OpenOlat looks for an existing account: via the e-mail address that the identity provider delivers, and then via the username that the identity provider delivers. If OpenOlat finds an account, it links the login to it. The person keeps their courses and data and logs in via the identity provider from then on.
 
