@@ -37,6 +37,6 @@ def clean(title):
 
 
 def on_page_markdown(markdown, page, config, files):
-    if page.title:
+    if isinstance(page.title, str):
         page.title = clean(page.title)
     return markdown
