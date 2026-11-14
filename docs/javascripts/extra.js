@@ -51,6 +51,13 @@ try {
 			if (event.target.naturalWidth === 1150) {
 				instance.element().querySelector("img").style.width = "min(95vw, 1400px)";
 			}
+			/* Small screenshots under 400 px would open at the size they already have on the
+			   page: show them at twice their page width (larger, not sharper). Crops taken at
+			   double pixel density already open at twice their page width and stay as they are
+			   (14.11.2026) */
+			else if (event.target.naturalWidth < 400 && event.target.clientWidth * 2 > event.target.naturalWidth) {
+				instance.element().querySelector("img").style.width = (event.target.clientWidth * 2) + "px";
+			}
 			instance.show();
 		});
 	});
