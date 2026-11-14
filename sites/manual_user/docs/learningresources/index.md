@@ -99,7 +99,7 @@ Here you can find more information about the [course element blog](../learningre
 
 ![Entry Resource folder with the open folder icon highlighted in the Create menu of the authoring area](assets/learning_resource_resource_folder_v2_en.png){ width="202" class="aside-right lightbox" title="Create menu in the authoring area · 2026.11.10" }
 
-With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the chapter ["Course Settings"](Course_Settings/index.md#options) in the tab "Options".
+With the help of the resource folder, files (content, information, graphics, etc.) can be used in multiple courses. The files are referenced from the resource folder and therefore do not need to be created multiple times. The linked resource folder is displayed in the files of the linked course under `_sharedfolder`, and all files stored in the resource folder can be accessed. Changes to the files in the resource folder then apply to all linked courses. Note that only *one* resource folder can be added per course. Further information can be found in the course settings in the [tab "Options"](Course_Settings_Options.md).
 
 [To the top of the page ^](#learning_resources)
 

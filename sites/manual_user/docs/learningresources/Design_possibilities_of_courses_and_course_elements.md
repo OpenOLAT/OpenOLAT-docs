@@ -8,7 +8,17 @@ The presentation of a course and its built-in course elements can be configured 
 
 ### Tab "Layout"
 
-In the tab "Layout" of the course settings, you define the default style of the display: `Course > Administration > Settings > Tab "Layout"`. These include: the selection of a background image, the definition of the style, and the assignment of a color category.
+In the tab "Layout" of the course settings, you determine how the course looks and how participants move through it: `Course > Administration > Settings > Tab "Layout"`. You select a layout template, set the course navigation and determine the default style of the course elements.
+
+Which layout templates are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](Storage_folder.md). They then appear in the selection as "from course folder". You open the storage folder under:<br>
+`Course > Administration > Files > Storage folder`
+
+In the "Navigation" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
+
+![Status symbols on a line on the left, the symbol of the course element in front of each title](assets/lp_icons_v1_en.png){ class="shadow lightbox" title="Course menu with path and icons" }
+![Only the titles of the course elements, status symbols on the right](assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" title="Course menu without path and icons" }
+
+In the section "Course element default style" you define the default presentation of the course elements: the selection of a background image, the definition of the style, and the assignment of a color category. In the preview you can see the effects.
 
 Course owners can upload their own image (maximum 4 MB) for the display of the course elements, choose an image from the library, or do without an image altogether. The image can be positioned on the right or the left, displayed as a gradient on the right, or full-screen.
 
@@ -54,9 +64,13 @@ On the top course node and all structure course elements, further display settin
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Customizing: Overview >](../../manual_admin/administration/Customizing.md)<br>
+[Storage folder >](Storage_folder.md)
+
 **Further reading**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
-[Course Settings >](Course_Settings/index.md)<br>
+[Course Settings >](Course_Settings/index.md)
 
 **youtube**<br>
 [Configuring course elements](<https://www.youtube.com/embed/SAkzzoOQEoQ>)

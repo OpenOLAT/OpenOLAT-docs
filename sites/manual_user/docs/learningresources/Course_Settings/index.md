@@ -24,180 +24,23 @@ Name | Course settings
 Available since | Release 13.0 (OO-3706)
 
 
-## Tab Metadata {: #metadata}
+## Tabs {: #tabs}
+
+If you are looking for a setting, the overview tells you which tab it is in, and the link takes you to its description. The table follows the order of the tabs. Which tabs you see depends on the type of course and on settings of the system administration.
+
+| Tab | Purpose |
+|---|---|
+| [Metadata](../Course_Settings_Metadata.md) | Name and classify the course so that it can be found: title, reference, implementation format, subjects and license. Only the title is mandatory. After creating, copying or importing, OpenOlat opens the settings on this tab. |
+| [Info](../Course_Settings_Info.md) | Define the information for the info page, which interested parties see even without course access: cover image, teaser, description, facts, objectives, requirements and certification. |
+| [Execution](../Course_Settings_Execution.md) | Set the implementation period and switch on absence management. In learning path courses you define how the learning progress is calculated; here you also copy a conventional course as a learning path course. |
+| [Share](../Course_Settings_Share/index.md) | Define who can use or book the course, when participants can withdraw, whether other authors have access and whether another LMS uses the course via LTI. Here you also create the offers for the catalog. |
+| [Catalog](../Course_Settings_Catalog.md) | Add the course to categories of catalog 1.0. You only see the tab in courses with the usage "Standalone" and if the option "Catalog V1" is selected in the system administration. |
+| [Terms of use](../Course_Settings_Disclaimer.md) | Store terms of use and a privacy policy that persons agree to before the course opens. You only see the tab if the option "Course related terms of use and data protection" is switched on in the system administration. |
+| [Layout](../Design_possibilities_of_courses_and_course_elements.md) | Determine how the course looks and how participants move through it: layout template, course navigation and style of the course elements. |
+| [Toolbar](../Course_Settings_Toolbar.md) | Switch the toolbar in the course header on or off and define which tools participants see in it. |
+| [Assessment](../Course_Settings_Assessment/index.md) | Configure points, passing, evidence of achievement, credit points, [certificates and recertification](../Course_Settings_Assessment_Certificate.md) and the award of badges. In conventional courses, only evidence of achievement, certificates and badges are available here. |
+| [Options](../Course_Settings_Options.md) | Integrate a glossary or a resource folder and switch on the "Coach files" folder and to-dos for coaches. Learning resource managers and administrators see further options here. |
 
-![Tab "Metadata" active, first in the tab bar](../assets/course_settings_tab_metadata_v2_en.png){ class="shadow lightbox" title="Metadata tab in the course settings · 2026.10.29" }
-
-Metadata name the course and classify it. The metadata can be used to make your course easier to find, for example. Only the title is mandatory.
-
-After creating, copying or importing a learning resource, OpenOlat opens the settings on this tab. This way you check the title and reference right at the start [:octicons-tag-16:{ title="from Release 21.1 (OO-9775)" }](https://track.frentix.com/issue/OO-9775){:target="_blank"}.
-
-Metadata of a course are
-
-* Title
-* Reference (An external identifier that is displayed in the course overview. E.g. the name from the course catalog or a printed course catalog.)
-* Type of the learning resource (in this case: course)
-* Implementation format (blended learning, self-study, ...)
-* Subjects (from the taxonomy)
-* License
-
-[For more details >](../Course_Settings_Metadata.md)<br>
-[More about metadata >](../../basic_concepts/Search_General/index.md#metadata)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Info {: #info}
-
-![Tab "Info" active, second in the tab bar](../assets/course_settings_tab_info_v2_en.png){ class="shadow lightbox" title="Info tab in the course settings · 2026.10.29" }
-
-Here you define information about the course or learning resource. This includes:
-
-* Cover image and teaser movie
-* Teaser (text line/term)
-* Description
-* Facts: Authors / taught by, Main language and Expenditure of work
-* Display settings: which sections the info page shows
-* Additional information: Objectives, Requirements and Certification
-
-This information is also visible to interested parties without course access on the info page.
-
-[More about the set up of the info page >](../Course_Settings_Info.md)<br>
-[More about the content of the info page >](../Info_page.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Execution {: #execution}
-
-![Tab "Execution" active, third in the tab bar](../assets/course_settings_tab_execution_v2_en.png){ class="shadow lightbox" title="Execution tab in the course settings · 2026.10.29" }
-
-Here you can
-
-* set the implementation period of the course,
-* switch on and configure the "[Absence management](../../area_modules/Absence_Management.md)", provided it is switched on in the system administration under `Administration > Modules > Events / Absences`,
-* copy a conventional course as a learning path course with "Duplicate as learning path"
-* and for [learning path courses](../Learning_path_course/index.md) set how the learning progress is calculated: based on the number of course elements or on the duration of the course elements.
-
-[For more details >](../Course_Settings_Execution.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Share {: #share}
-
-![Tab "Share" active, fourth in the tab bar](../assets/course_settings_tab_share_v2_en.png){ class="shadow lightbox" title="Share tab in the course settings · 2026.10.29" }
-
-In the "Share" tab, you define how and for whom a course or learning resource is released.
-
-* Whether access is only possible for selected members, the course itself can be selected and booked or access is completely open
-* When participants can withdraw from the course
-* Whether only administrative roles of a specific organizational unit are granted access
-* Whether and how other authors can access the course
-* Whether external OER catalogs and search engines receive information
-* Whether an offer is made in the catalog for the course and if so, which one
-* Whether the course can also be used from another LMS via LTI
-
-[Details about the Share tab >](../Course_Settings_Share/index.md)<br>
-[More about sharing >](../Access_configuration.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Catalog {: #catalog}
-
-![Tab "Catalog" active, between "Share" and "Terms of use"](../assets/course_settings_tab_catalog_v2_de.png){ class="shadow lightbox" title="Catalog tab in the course settings · 2026.10.02" }
-
-Here you add the course to one or more categories of catalog 1.0. You only see the tab if the course has the usage "Standalone" and the option "Catalog V1" is selected in the system administration under `Administration > Modules > Catalog > Tab "Settings"`.
-
-[For more details >](../Course_Settings_Catalog.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Terms of use [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455){:target="_blank"} {: #disclaimer}
-
-![Tab "Terms of use" active, fifth in the tab bar](../assets/course_settings_tab_disclaimer_v2_en.png){ class="shadow lightbox" title="Terms of use tab in the course settings · 2026.10.29" }
-
-Here you store course-related terms of use and a course-related privacy policy that persons agree to before the course opens. You only see the tab if the option "Course related terms of use and data protection" is switched on in the system administration under `Administration > Modules > Course`.
-
-[For more details >](../Course_Settings_Disclaimer.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Layout {: #layout}
-
-![Tab "Layout" active, sixth in the tab bar](../assets/course_settings_tab_layout_v2_en.png){ class="shadow lightbox" title="Layout tab in the course settings · 2026.10.29" }
-
-In the Layout tab you determine how the course looks and how participants move through it. Here you
-
-* select a layout template for the course,
-* set the course navigation
-* and determine the style of the course elements.
-
-Which layout templates are available is determined by the system layout (theme) that applies to your entire OpenOlat instance. The "Default" template is always available. A uniform appearance for all courses (colors, fonts, logo) is therefore implemented centrally via a custom system layout, see [Layout](../../../manual_admin/administration/Customizing.md#layout). For a single course, choose the option "Customize...": there you set the font and colors for text, headings, links, menu and toolbox and upload a logo. In addition, you can store your own CSS files in the "courseCSS" folder of the course [Storage folder](../Storage_folder.md). They then appear in the selection as "from course folder". You open the storage folder under:<br>
-`Course > Administration > Files > Storage folder`
-
-In the "Navigation" section you can set the visibility of the menu and crumb navigation. In learning path courses you also specify whether the icons and the path are displayed in the menu ("Display icons in menu", "Display path in menu"). Depending on the linear or flexible scenario, one or the other variant offers itself.
-
-![Status symbols on a line on the left, the symbol of the course element in front of each title](../assets/lp_icons_v1_en.png){ class="shadow lightbox" title="Course menu with path and icons" }
-![Only the titles of the course elements, status symbols on the right](../assets/no_lp_no_icons_v1_en.png){ class="shadow lightbox" title="Course menu without path and icons" }
-
-In the section "Course element default style" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
-
-[To the top of the page ^](#course_settings)
-
-
-## Tab Toolbar {: #toolbar}
-
-![Tab "Toolbar" active, seventh in the tab bar](../assets/course_settings_tab_toolbar_v2_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.10.29" }
-
-Here you can switch the toolbar in the course header on or off and define which specific individual tools are displayed to course participants in the toolbar.
-
-[For more details >](../Course_Settings_Toolbar.md)<br>
-[To the top of the page ^](#course_settings)
-
-
-## Tab Assessment {: #assessment}
-
-![Tab "Assessment" active, eighth in the tab bar](../assets/course_settings_tab_assessment_v2_en.png){ class="shadow lightbox" title="Assessment tab in the course settings · 2026.10.29" }
-
-In the Assessment tab, you can make settings for
-
-* Course assessment with points: sum, average, weighted
-* Requirements for passing the course
-* The role of coaches in the assessment process
-* Activate and configure evidence of achievement
-* Activate and configure credit points
-* Activate and configure course certificates and also set up recertification
-* Activate the award of badges
-
-
-!!! info "Important"
-
-    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the "Assessment" tab. You set the requirements for passing in the course editor on the top course element in the "Score" tab:<br>
-    `Course > Administration > Course editor > top course element > Tab "Score"`
-
-    There is no progression for conventional courses.
-
-
-[For more details >](../Course_Settings_Assessment/index.md)<br>
-[For more details on certificates >](../Course_Settings_Assessment_Certificate.md#certificate)<br>
-[For more details on recertification >](../Course_Settings_Assessment_Certificate.md#recertification)<br>
-[To the top of the page ^](#course_settings)
-
-## Tab Options {: #options}
-
-![Tab "Options" active, last in the tab bar](../assets/course_settings_tab_options_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.10.29" }
-
-Here you activate as required
-
-* a course-specific [glossary](../Glossary_create.md#integrate)
-* a [resource folder](../index.md) for your course
-* a special folder for coaches
-* to-dos for coaches
-
-If you have an administrative role (learning resource manager, administrator), OpenOlat shows you further options here, provided the corresponding modules are switched on:
-
-* activate the invitation of external users for course owners with author rights
-* activate the "LTI 1.3" release for course owners with author rights
-
-[For more details >](../Course_Settings_Options.md)<br>
 [To the top of the page ^](#course_settings)
 
 

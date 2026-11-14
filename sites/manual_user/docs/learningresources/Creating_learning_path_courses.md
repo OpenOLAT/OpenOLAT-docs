@@ -37,7 +37,7 @@ The calculation basis determines the progress that learners see in the progress 
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank"}
 
-Under `Course > Administration > Settings`, tab "Assessment", you additionally define whether the progress graphic also displays the total score of the course (sum or average) and whether and how the course counts as passed. More on this under [Course Settings, tab Assessment](Course_Settings/index.md#assessment).
+Under `Course > Administration > Settings`, tab "Assessment", you additionally define whether the progress graphic also displays the total score of the course (sum or average) and whether and how the course counts as passed. More on this under [Course Settings, tab Assessment](Course_Settings_Assessment/index.md).
 
 ![Progress graphic with 58 percent next to the menu My course](assets/Prozentanzeige.en.png){ class="shadow lightbox" title="Toolbar of a learning path course" }
 
@@ -60,7 +60,7 @@ Like all learning resources, learning path courses can be copied. In addition, a
 **Mentioned on this page**<br>
 [Course Administration: Overview >](Administration/index.md)<br>
 [Deleting, Moving and Copying Course Elements >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md)<br>
-[Course Settings >](Course_Settings/index.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)
 
 **Further reading**<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
