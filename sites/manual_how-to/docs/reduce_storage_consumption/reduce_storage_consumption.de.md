@@ -75,7 +75,7 @@ Die Quota für Gruppenordner wird in der Gruppenadministration eingestellt. Sie 
 
 <br>
 
-Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse". Ihr Verbrauch erscheint in der Auswertung Speicherverbrauch unter dem Filter "Intern ohne Quota", eine Grenze lässt sich für sie nicht einstellen. Wie die Auswertung aufgebaut ist, beschreibt die Kurs-Administration im Abschnitt ["Speicherverbrauch"](../../manual_user/learningresources/Administration/index.de.md#storage_usage).
+Keine eigene Quota haben die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse". Ihr Verbrauch erscheint in der Auswertung Speicherverbrauch unter dem Filter "Intern ohne Quota", eine Grenze lässt sich für sie nicht einstellen. Wie die Auswertung aufgebaut ist, beschreibt die Seite "Ablageordner" im Abschnitt ["Speicherverbrauch"](../../manual_user/learningresources/Storage_folder.de.md#storage_usage).
 
 <br>
 
@@ -223,13 +223,12 @@ Ausführliche Informationen zu den Lebenszyklen finden Sie unter<br>
 
 **Auf dieser Seite erwähnt**<br>
 [Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
-[Kurs-Administration: Übersicht >](../../manual_user/learningresources/Administration/index.de.md)<br>
+[Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
 [Dateien und Ordner >](../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Löschen (eines Kurses/einer Lernressource) >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten? >](../lifecycle/lifecycle.de.md)
 
 **Weiterführend**<br>
-[Ablageordner >](../../manual_user/learningresources/Storage_folder.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Media Center: Konzept >](../../manual_user/basic_concepts/Media_Center_Concept/index.de.md)

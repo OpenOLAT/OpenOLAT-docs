@@ -14,7 +14,36 @@ Werden Dateien hochgeladen, muss die Grössenbegrenzung sowohl für die einzelne
 
 Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen werden und so eine systematische Strukturierung von kursbezogenen Dateien umgesetzt werden.
 
-Wie viel Speicher die Dateien des Kurses belegen, zeigt die Aktion "Speicherverbrauch anzeigen" oben rechts unter `Kurs > Administration > Dateien`. Dort sehen Sie den Speicherverbrauch je Ressource des Kurses und können die Quota anpassen, siehe [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md) [:octicons-tag-16:{ title="ab Release 18.0 (OO-6938)" }](https://track.frentix.com/issue/OO-6938)
+## Speicherverbrauch [:octicons-tag-16:{ title="ab Release 18.0.2 (OO-6938)" }](https://track.frentix.com/issue/OO-6938){:target="_blank"} {: #storage_usage}
+
+Wird ein Kurs gross oder geht ein Upload nicht mehr durch, zeigt die Auswertung Speicherverbrauch, welche Ordner und Kursbausteine wie viel Speicher belegen und wo eine Quota die Grenze setzt. Eine Quota ist das Speicherlimit eines Ordners. So sehen Sie, wo Sie aufräumen können und ob Sie mehr Platz anfordern müssen.
+
+Die Auswertung unterscheidet die internen Ressourcen des Kurses, also seine Ordner und Kursbausteine, von den eingebundenen Lernressourcen wie einem Test oder einem Video. Die eingebundenen Lernressourcen nennt OpenOlat externe Ressourcen.
+
+Sie öffnen die Auswertung im Bereich "Dateien" mit dem Button :o_icon_o_icon_hdd: "Speicherverbrauch anzeigen" oben rechts:<br>
+`Kurs > Administration > Dateien > Speicherverbrauch anzeigen`
+
+![Button Speicherverbrauch anzeigen oben rechts markiert, über den Ablageorten des Kurses](assets/course_admin_files_storage_usage_button_v1_de.png){ class="shadow lightbox" title="Bereich Dateien der Kurs-Administration" }
+
+Die Seite "Speicherverbrauch Ressourcen" zeigt oben die Werte "Gesamtgrösse", "Interne Grösse" und "Anzahl Dateien" des Kurses, dazu ein Kreisdiagramm mit dem Anteil der Ressourcen mit und ohne Quota. Darunter listet eine Tabelle den Ablageordner und die Kursbausteine in der Struktur des Kurses. Über das Suchfeld finden Sie eine Zeile nach Name oder Typ, "Alle öffnen" und "Alle schliessen" klappen die Struktur auf und zu. Je Zeile stehen der Typ, die Anzahl Dateien, die Grösse, die Quota und in der Spalte "Aktuell verwendet" ein Balken, wie viel der Quota belegt ist. Ab 80 Prozent hebt OpenOlat den Balken farbig hervor. Mit "Anzeigen" öffnen Sie den Ordner oder den Kursbaustein der Zeile. Die Tabelle lässt sich als Excel-Datei exportieren.
+
+![Filter Alle, Intern mit Quota und Intern ohne Quota markiert, darunter die Zeile Ablageordner mit Quota und Aktion Quota anpassen](assets/course_admin_storage_usage_v1_de.png){ class="shadow lightbox" title="Seite Speicherverbrauch Ressourcen eines Kurses" }
+
+Drei Filter grenzen die Tabelle ein:
+
+* "Alle": alle Ordner und Kursbausteine des Kurses, auch solche ohne Dateien.
+* "Intern mit Quota": die Ordner mit eigener Quota. Das sind der Ablageordner, "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)" sowie die Kursbausteine "Ordner" und "Teilnehmer:innen Ordner".
+* "Intern ohne Quota": die Kursbausteine, die Speicher belegen, aber keine eigene Quota haben. Das sind "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse".
+
+Verwendet ein Kursbaustein "Ordner" als Ablageort einen Ordner aus dem Ablageordner, erscheint er nicht als eigene Zeile. Dasselbe gilt für "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)", wenn sie einen Ordner aus dem Ablageordner nutzen. Die Dateien zählen dann zum Ablageordner und fallen unter dessen Quota. Beim Kursbaustein "Teilnehmer:innen Ordner" zeigt die Tabelle je Teilnehmer:in den Abgabeordner und den Rückgabeordner. Die Quota gilt für jeden dieser Ordner einzeln.
+
+### Quota anpassen {: #storage_usage_edit_quota}
+
+Die Aktion "Quota anpassen" steht nur in den Zeilen mit eigener Quota: beim Ablageordner, bei "Unterlagen Betreuer:innen" und "Dokumente (Toolbar)" sowie bei den Kursbausteinen "Ordner" und "Teilnehmer:innen Ordner". Die Kursbausteine "Forum", "Dateidiskussion", "Aufgabe", "Gruppenaufgabe", "Seite" und "Themenbörse" zählen ihren Verbrauch, haben aber keine Quota, die sich anpassen lässt.
+
+Ändern können die Quota [Administrator:innen, Systemadministrator:innen und Lernressourcenverwalter:innen](../basic_concepts/Roles/index.de.md#org) der Organisation, der der Kurs angehört. Alle anderen sehen im Dialog "Quota anpassen" die aktuellen Werte, aber keinen Button zum Speichern. Brauchen Sie für einen Ordner mehr Platz, wenden Sie sich an eine dieser Personen.
+
+Weitere Wege, den Speicherbedarf zu senken, beschreibt die Anleitung ["Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?"](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md).
 
 ## Automatisch angelegte Ordner [:octicons-tag-16:{ title="ab Release 19.0 (OO-7700)" }](https://track.frentix.com/issue/OO-7700)
 
@@ -36,6 +65,7 @@ Sobald diese Checkbox aktiviert ist, ist der Pfad für andere Dateien im Ablageo
 **Auf dieser Seite erwähnt**<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.de.md)<br>
 [Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](Course_Element_Participant_Folder.de.md)<br>
