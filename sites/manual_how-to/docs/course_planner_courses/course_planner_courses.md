@@ -2,7 +2,7 @@
 
 ??? abstract "Purpose and content of this guide"
 
-    This guide shows you how to use Course Planner to automatically and efficiently plan and create courses based on the offering.
+    This guide shows you how to use the Course Planner to plan a course that takes place several times and to have the course created automatically for each implementation.
 
 
 ??? abstract "Target group"
@@ -18,6 +18,18 @@
     * [Familiarity with basic concepts of OpenOlat >](../../manual_user/basic_concepts/index.md)<br>
 
 
+You offer the language course "Spanish for Beginners" every spring and every fall. Each run has new participants, its own events and its own course. In the Course Planner, the area of OpenOlat for planning such offerings, the language course as a whole is a product, and each run is an implementation of this product. You plan the product once and create an implementation for each run.
+
+This is how the Course Planner maps the language course from the example:
+
+| In the language course | In the Course Planner |
+|---|---|
+| the language course as a whole | Product |
+| the run in spring or in fall | Implementation of the product |
+| the course of a run | Course that you assign to the implementation, or course template |
+
+You assign a finished course to the implementation directly (step 7). A course template is a course from which the Course Planner creates a separate course for each implementation ([step 10](#automatic_course_creation)). This way, each run gets its own course without you copying it by hand. If your offer consists of several courses, for example a training programme with semesters and modules, follow the guide [How do I plan and run a product with several courses with the Course Planner?](../course_planner_curriculum/course_planner_curriculum.md)
+
 ---
 
 ## What can the Course Planner do? {: #purpose}
@@ -26,12 +38,12 @@ With the Course Planner, **planning work** can be separated from **content creat
 
 **Course planners** can carry out all organizational planning even before the content (courses) has been completed by **authors**:
 
-* Planning multiple implementations of the same course at different times
-* Planning of products with multiple courses (and multiple implementations of each), see [How do I plan and run a product with several courses with the Course Planner?](../course_planner_curriculum/course_planner_curriculum.md)
+* Planning several implementations of the same product at different times, each with its own course
+* Planning of products with several courses, see [How do I plan and run a product with several courses with the Course Planner?](../course_planner_curriculum/course_planner_curriculum.md)
 * Creation of offers in the catalog
 * Reports on booking orders already received
 * Planning events related to the various implementations (e.g., for in-person events or exams)
-* Scheduling automatic instantiation of the courses
+* Defining when the Course Planner automatically creates the courses from course templates
 
 Of course, you can also create OpenOlat courses without Course Planner. However, Course Planner provides you with a tool that brings together all the organizational tasks.
 

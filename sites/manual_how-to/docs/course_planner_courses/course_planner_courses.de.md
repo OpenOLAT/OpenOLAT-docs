@@ -2,7 +2,7 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Diese Anleitung zeigt Ihnen, wie Sie mit dem Course Planner automatisiert und effizient vom Angebot ausgehend Kurse planen und erstellen.
+    Diese Anleitung zeigt Ihnen, wie Sie mit dem Course Planner einen Kurs planen, der mehrmals stattfindet, und für jede Durchführung den Kurs automatisch erstellen lassen.
 
 ??? abstract "Zielgruppe"
 
@@ -17,7 +17,17 @@
     * [Vertrautheit mit Basiskonzepten von OpenOlat >](../../manual_user/basic_concepts/index.de.md)<br>
 
 
+Sie bieten den Sprachkurs "Spanisch für Anfänger" jedes Frühjahr und jeden Herbst an. Jeder Durchgang hat neue Teilnehmer:innen, eigene Termine und einen eigenen Kurs. Im Course Planner, dem Bereich von OpenOlat für die Planung solcher Angebote, ist der Sprachkurs als Ganzes ein Produkt, und jeder Durchgang ist eine Durchführung dieses Produkts. Das Produkt planen Sie einmal, für jeden Durchgang legen Sie eine Durchführung an.
 
+So bildet der Course Planner den Sprachkurs aus dem Beispiel ab:
+
+| Im Sprachkurs | Im Course Planner |
+|---|---|
+| der Sprachkurs als Ganzes | Produkt |
+| der Durchgang im Frühjahr oder im Herbst | Durchführung des Produkts |
+| der Kurs eines Durchgangs | Kurs, den Sie der Durchführung zuordnen, oder Kurstemplate |
+
+Einen fertigen Kurs ordnen Sie der Durchführung direkt zu (Schritt 7). Ein Kurstemplate ist ein Kurs, aus dem der Course Planner für jede Durchführung einen eigenen Kurs erstellt ([Schritt 10](#automatic_course_creation)). So erhält jeder Durchgang seinen Kurs, ohne dass Sie ihn von Hand kopieren. Besteht Ihr Angebot aus mehreren Kursen, etwa ein Lehrgang mit Semestern und Modulen, folgen Sie der Anleitung [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](../course_planner_curriculum/course_planner_curriculum.de.md)
 
 ---
 
@@ -28,12 +38,12 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 
 **Kursplaner:innen** können schon vor Fertigstellung der Inhalte (Kurse) durch **Autor:innen** die gesamte organisatorische Planung vornehmen:
 
-* Planung mehrfacher Durchführungen des gleichen Kurses zu verschiedenen Zeiten
-* Planung von Produkten mit mehreren Kursen (und jeweils mehreren Durchführungen), siehe [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](../course_planner_curriculum/course_planner_curriculum.de.md)
+* Planung mehrerer Durchführungen desselben Produkts zu verschiedenen Zeiten, jede mit eigenem Kurs
+* Planung von Produkten aus mehreren Kursen, siehe [Wie kann ich mit dem Course Planner ein Produkt aus mehreren Kursen planen und durchführen?](../course_planner_curriculum/course_planner_curriculum.de.md)
 * Erstellung von Angeboten im Katalog
 * Reports zu den bereits eingegangenen Buchungsaufträgen
 * Planung von Terminen im Zusammenhang mit den verschiedenen Durchführungen (z.B. für Präsenzveranstaltungen oder Prüfungen)
-* Terminierung einer automatischen Instanziierung der Kurse
+* Festlegen, wann der Course Planner die Kurse aus Kurstemplates automatisch erstellt
 
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
