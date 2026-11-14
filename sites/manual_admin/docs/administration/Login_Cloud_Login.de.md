@@ -25,15 +25,46 @@ So binden Sie einen Identitätsanbieter an:
 
 Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl. Mit "Entfernen" im Abschnitt des Identitätsanbieters und einer Bestätigung nehmen Sie die Anbindung wieder weg.
 
+### Active Directory Federation Services {: #adfs}
+
+Für die Anmeldung mit einem Microsoft-Konto der Organisation bringt OpenOlat zwei Anbindungen mit. Welche passt, hängt davon ab, wo Ihre Organisation die Konten führt:
+
+- **Microsoft Azure Active Directory:** Die Konten liegen im Clouddienst von Microsoft, den Organisationen mit Microsoft 365 nutzen. Die Einrichtung beschreibt der nächste Abschnitt.
+- **Active Directory Federation Services:** Die Organisation betreibt den Anmeldedienst selbst, auf ihren eigenen Windows-Servern.
+
+Im Abschnitt "Active Directory Federation Services" tragen Sie im Feld "OAuth2 endpoint (oAuthEndpoint)" die Adresse des Anmeldedienstes Ihrer Organisation ein, zum Beispiel `https://adfs.openolat.org/adfs/oauth2`, dazu "Client ID" und "Client secret". Das "Client secret" braucht es laut Hinweis im Formular nur für ADFS 2016. Welche Version im Einsatz ist und welche Werte gelten, weiss die Stelle, die den Anmeldedienst Ihrer Organisation betreibt.
+
+Laut [Dokumentation von Microsoft](https://learn.microsoft.com/de-de/windows-server/identity/ad-fs/ad-fs-overview), Stand November 2026, gehört AD FS (Active Directory-Verbunddienste) zu Windows Server, und Microsoft empfiehlt den Wechsel zum Clouddienst Microsoft Entra ID, dem früheren Azure Active Directory. Die Adressen für die Anmeldung über [OAuth 2.0](#authorization_code_flow) liegen bei AD FS unter dem Pfad `/adfs/oauth2/` ([Microsoft: OIDC-Authentifizierung mit AD FS](https://learn.microsoft.com/de-de/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs)). "Client ID" und "Client secret" entstehen bei AD FS, wenn OpenOlat dort als Client registriert wird; AD FS lässt laut [Microsoft](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adfsod/7fc51569-b46d-4aba-8ae6-bad19cb9951b) nur registrierte Clients zu.
+
 ### Microsoft Azure Active Directory [:octicons-tag-16:{ title="ab Release 15.3 (OO-4904)" }](https://track.frentix.com/issue/OO-4904) {: #azure}
 
 Arbeitet Ihre Organisation mit Microsoft 365, melden sich Ihre Mitarbeitenden mit ihrem Microsoft-Konto an. Dafür fügen Sie "Microsoft Azure Active Directory" hinzu. Microsoft hat diesen Dienst in Microsoft Entra ID umbenannt, unter diesem Namen finden Sie ihn bei Microsoft. Auf der Login-Seite heisst der Eintrag "Microsoft Azure AD".
 
-Bei Microsoft registrieren Sie OpenOlat im Microsoft Entra Admin Center als App unter:<br>
+Im Abschnitt "Microsoft Azure Active Directory" tragen Sie drei Angaben ein, die Microsoft für OpenOlat ausstellt: "Client ID", "Client secret" und "Verzeichnis-ID (Mandant)", die Kennung der Microsoft-365-Umgebung Ihrer Organisation. Dafür registrieren Sie OpenOlat zuerst bei Microsoft als App. Danach tragen Sie die drei Angaben in OpenOlat ein und klicken auf "Speichern". Ab dann zeigt die Login-Seite den Eintrag "Microsoft Azure AD". Die Zuordnung von Attributen braucht es bei dieser Anbindung nicht, "Attribute editieren" gibt es nur bei eigenen Providern.
+
+Die Schritte bei Microsoft in den nächsten Absätzen geben die Dokumentation von Microsoft wieder, Stand November 2026. Microsoft kann Menüs und Beschriftungen jederzeit ändern.
+
+#### App bei Microsoft registrieren {: #azure_app_registration}
+
+Laut [Microsoft](https://learn.microsoft.com/de-de/entra/identity-platform/quickstart-register-app) registrieren Sie OpenOlat im Microsoft Entra Admin Center als App unter:<br>
 `Entra ID > App-Registrierungen > Neue Registrierung`<br>
 Dafür brauchen Sie bei Microsoft mindestens die Rolle "Anwendungsentwickler". Nach der Registrierung zeigt die Seite "Übersicht" der App die Anwendungs-ID (Client-ID). Diese tragen Sie in OpenOlat im Feld "Client ID" ein.
 
-Der Mandant (Tenant) ist die Microsoft-365-Umgebung Ihrer Organisation. Im Feld "Verzeichnis-ID (Mandant)" tragen Sie seine Kennung ein, damit sich nur Personen Ihrer Organisation anmelden. Bleibt das Feld leer, steht die Anmeldung allen Personen mit einem Microsoft-365-Konto offen. Microsoft nennt diese Kennung "Mandanten-ID" und zeigt sie im Microsoft Entra Admin Center unter:<br>
+#### Umleitungs-URI bei Microsoft eintragen {: #azure_redirect_uri}
+
+Microsoft schickt die Person nach der Anmeldung nur an eine Adresse zurück, die in der App als Umleitungs-URI eingetragen ist und genau übereinstimmt. Sonst bricht die Anmeldung mit dem Fehler AADSTS50011 ab ([Microsoft: Fehler AADSTS50011](https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/app-integration/error-code-aadsts50011-redirect-uri-mismatch)). Laut [Microsoft](https://learn.microsoft.com/de-de/entra/identity-platform/how-to-add-redirect-uri) tragen Sie die Adresse ein unter:<br>
+`App-Registrierungen > "Ihre App" > Authentifizierung > Umleitungs-URI hinzufügen > Web`<br>
+Als Umleitungs-URI geben Sie die "Umleitungs-URI" ein, die OpenOlat auf der Seite Cloud-Login im Abschnitt "Login via OAuth, Cloud-Dienste und soziale Netzwerke" anzeigt, und schliessen bei Microsoft mit "Konfigurieren" ab.
+
+#### Geheimen Clientschlüssel bei Microsoft erzeugen {: #azure_client_secret}
+
+Laut [Microsoft](https://learn.microsoft.com/de-de/entra/identity-platform/howto-create-service-principal-portal) erzeugen Sie den Schlüssel für das Feld "Client secret" unter:<br>
+`App-Registrierungen > "Ihre App" > Zertifikate und geheime Schlüssel > geheime Clientschlüssel > Neuer geheimer Clientschlüssel`<br>
+Sie geben eine Beschreibung und eine Gültigkeitsdauer ein und klicken auf "Hinzufügen". Microsoft zeigt den Wert des Schlüssels danach nur einmal an. Diesen Wert tragen Sie in OpenOlat im Feld "Client secret" ein. Ein geheimer Clientschlüssel gilt laut [Microsoft](https://learn.microsoft.com/en-us/entra/identity-platform/how-to-add-credentials) höchstens 24 Monate, Microsoft empfiehlt weniger als 12 Monate. Erzeugen Sie vor dem Ablauf einen neuen Schlüssel und tragen Sie ihn in OpenOlat ein, sonst scheitert die Anmeldung über Microsoft.
+
+#### Mandant bei Microsoft nachschlagen {: #azure_tenant}
+
+Der Mandant (Tenant) ist die Microsoft-365-Umgebung Ihrer Organisation. Im Feld "Verzeichnis-ID (Mandant)" tragen Sie seine Kennung ein, damit sich nur Personen Ihrer Organisation anmelden. Bleibt das Feld leer, steht die Anmeldung allen Personen mit einem Microsoft-365-Konto offen. Ob OpenOlat für eine solche Person ein neues Konto anlegt, regelt "Kontoerstellung erlauben", siehe [Erster Login und neue Konten](#first_login). Microsoft nennt diese Kennung "Mandanten-ID" und zeigt sie laut [Microsoft](https://learn.microsoft.com/de-de/entra/fundamentals/how-to-find-tenant) im Microsoft Entra Admin Center unter:<br>
 `Entra ID > Übersicht > Eigenschaften`<br>
 Dafür brauchen Sie bei Microsoft mindestens die Rolle "Globaler Leser".
 
@@ -55,7 +86,25 @@ Fehlt Ihr Identitätsanbieter in der Liste, binden Sie ihn selbst an, sofern er 
 - **OAuth 2.0 Provider hinzufügen:** Sie tragen alle Angaben des Identitätsanbieters von Hand ein, darunter "Provider name", "Display name", "Client Id", "Client secret", "Response type" und die Adressen der Endpunkte. Endpunkte sind die Adressen beim Identitätsanbieter, die OpenOlat bei der Anmeldung aufruft: Unter "Authorization end point" meldet sich die Person an. Über "Token URL" holt OpenOlat danach ein Access Token ab, einen Berechtigungsnachweis für die Angaben zur Person. Ist "User info (optional)" ausgefüllt, ruft OpenOlat mit diesem Token dort weitere Angaben zur Person ab.
 - **OAuth 2.0 Provider mit Discovery URL hinzufügen:** Sie geben nur die "URL" ein, unter der der Identitätsanbieter seine Konfiguration veröffentlicht. Mit "Konfiguration laden" übernimmt OpenOlat die übrigen Angaben in das Formular.
 
-Mit "Attribute editieren" im Abschnitt des Providers legen Sie fest, welches Attribut des Identitätsanbieters in welches Attribut des OpenOlat-Kontos übernommen wird.
+### Provider name und Display name {: #provider_name}
+
+Beide Namen legen Sie beim Hinzufügen fest. "Display name" ist die Beschriftung, mit der die Login-Seite den Identitätsanbieter zur Auswahl anbietet. Sie können ihn später im Abschnitt des Providers ändern. "Provider name" ist die interne Kennung der Anbindung: 3 bis 8 Zeichen aus Buchstaben ohne Umlaute, Ziffern, Punkt, Bindestrich und Unterstrich, und jeder Name nur einmal. OpenOlat speichert die Anmeldungen der Personen über diesen Provider unter diesem Namen, deshalb lässt er sich nach dem Hinzufügen nicht mehr ändern.
+
+### Discovery URL {: #discovery_url}
+
+Mit "OAuth 2.0 Provider mit Discovery URL hinzufügen" lädt OpenOlat die Konfiguration des Identitätsanbieters und füllt damit das Formular vor: "Issuer", "Authorization end point", "Token URL", "User info (optional)", "Response type" und "Scopes". Prüfen Sie die Angaben und ergänzen Sie "Provider name", "Display name", "Client Id" und "Client secret". "Client Id" ist dieselbe Angabe, die bei den fertigen Anbindungen "Client ID" heisst. Für "Response type" gilt der Wert "code", siehe [OAuth 2.0 und OpenID Connect](#authorization_code_flow).
+
+Zwei Begriffe stammen aus den Standards: Der Issuer ist die Adresse, mit der sich der Identitätsanbieter ausweist. Scopes sind die Bereiche von Angaben zur Person, die OpenOlat beim Identitätsanbieter anfragt ([OAuth 2.0, RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749), Abschnitt 3.3).
+
+Nach dem Standard [OpenID Connect Discovery](https://openid.net/specs/openid-connect-discovery-1_0.html), Abschnitt 4, veröffentlicht ein Identitätsanbieter seine Konfiguration unter seiner Issuer-Adresse mit dem Zusatz `/.well-known/openid-configuration`. Die genaue Adresse nennt die Dokumentation des Identitätsanbieters.
+
+### Attribute editieren {: #attribute_mapping}
+
+Mit "Attribute editieren" im Abschnitt des Providers legen Sie fest, welches Attribut des Identitätsanbieters in welches Attribut des OpenOlat-Kontos übernommen wird. Links tragen Sie den Namen des Attributs beim Identitätsanbieter ein, rechts wählen Sie das Attribut in OpenOlat.
+
+Für die Anmeldung braucht OpenOlat mindestens eine Kennung, die die Person beim Identitätsanbieter eindeutig bezeichnet. Liefert der Identitätsanbieter ein Token nach OpenID Connect, nimmt OpenOlat dafür ohne Zuordnung dessen Wert "sub", die Kennung der Person, die nach dem Standard [OpenID Connect Core](https://openid.net/specs/openid-connect-core-1_0.html), Abschnitt 2, in jedem solchen Token steht. Sonst ordnen Sie ein solches Attribut dem OpenOlat-Attribut "Identifier" zu. Fehlt die Kennung, bricht die Anmeldung mit der Meldung "Sie konnten nicht identifiziert werden" ab. Damit OpenOlat beim ersten Login ein bestehendes Konto findet, ordnen Sie zusätzlich die E-Mail-Adresse zu, siehe [Erster Login und neue Konten](#first_login). Soll OpenOlat neue Konten ohne Registrierungsdialog anlegen, braucht es auch "Nickname" für den Anmeldenamen und alle Pflichtfelder des Profils.
+
+Die Namen der Attribute legt der Identitätsanbieter fest. Der Standard [OpenID Connect Core](https://openid.net/specs/openid-connect-core-1_0.html), Abschnitt 5.1, nennt unter anderem `email` für die E-Mail-Adresse, `given_name` für den Vornamen, `family_name` für den Nachnamen und `preferred_username` für den bevorzugten Anmeldenamen. Welche davon Ihr Identitätsanbieter liefert, steht in seiner Dokumentation.
 
 ### OAuth 2.0 und OpenID Connect [:octicons-tag-16:{ title="ab Release 20.2.6 (OO-9287)" }](https://track.frentix.com/issue/OO-9287) {: #authorization_code_flow}
 
@@ -99,8 +148,20 @@ Welche Meldungen eine Person sieht, wenn die Anmeldung über den Identitätsanbi
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Shibboleth >](Login_Shibboleth.de.md)<br>
+[Microsoft: Übersicht über AD FS >](https://learn.microsoft.com/de-de/windows-server/identity/ad-fs/ad-fs-overview)<br>
+[Microsoft: OIDC-Authentifizierung mit AD FS >](https://learn.microsoft.com/de-de/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs)<br>
+[Microsoft: OAuth und OpenID Connect bei AD FS >](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adfsod/7fc51569-b46d-4aba-8ae6-bad19cb9951b)<br>
+[Microsoft: Anwendung registrieren >](https://learn.microsoft.com/de-de/entra/identity-platform/quickstart-register-app)<br>
+[Microsoft: Fehler AADSTS50011 >](https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/app-integration/error-code-aadsts50011-redirect-uri-mismatch)<br>
+[Microsoft: Umleitungs-URI hinzufügen >](https://learn.microsoft.com/de-de/entra/identity-platform/how-to-add-redirect-uri)<br>
+[Microsoft: Geheimen Clientschlüssel erstellen >](https://learn.microsoft.com/de-de/entra/identity-platform/howto-create-service-principal-portal)<br>
+[Microsoft: Anmeldeinformationen hinzufügen >](https://learn.microsoft.com/en-us/entra/identity-platform/how-to-add-credentials)<br>
+[Microsoft: Mandanten-ID finden >](https://learn.microsoft.com/de-de/entra/fundamentals/how-to-find-tenant)<br>
 [Modul Microsoft Teams >](Teams_module.de.md)<br>
+[Shibboleth >](Login_Shibboleth.de.md)<br>
+[OpenID Connect Discovery >](https://openid.net/specs/openid-connect-discovery-1_0.html)<br>
+[OAuth 2.0, RFC 6749 >](https://datatracker.ietf.org/doc/html/rfc6749)<br>
+[OpenID Connect Core >](https://openid.net/specs/openid-connect-core-1_0.html)<br>
 [Konto erstellen >](../usermanagement/Create_User.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
 [Login-Seite >](../../manual_user/login_registration/Login_Page.de.md)
