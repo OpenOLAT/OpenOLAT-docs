@@ -37,7 +37,7 @@ Die Berechnungsgrundlage bestimmt den Fortschritt, den die Lernenden in der Fort
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank"}
 
-Unter `Kurs > Administration > Einstellungen`, Tab "Bewertung", legen Sie zusätzlich fest, ob die Fortschrittsgrafik auch die Gesamtpunkte des Kurses anzeigt (Summe oder Durchschnitt) und ob und wie der Kurs als bestanden gilt. Mehr dazu unter [Kurseinstellungen, Tab Bewertung](Course_Settings/index.de.md#assessment).
+Unter `Kurs > Administration > Einstellungen`, Tab "Bewertung", legen Sie zusätzlich fest, ob die Fortschrittsgrafik auch die Gesamtpunkte des Kurses anzeigt (Summe oder Durchschnitt) und ob und wie der Kurs als bestanden gilt. Mehr dazu unter [Kurseinstellungen, Tab Bewertung](Course_Settings_Assessment/index.de.md).
 
 ![Fortschrittsgrafik mit 17 Prozent und 2 Punkten neben dem Menü Mein Kurs](assets/Prozentanzeige.png){ class="shadow lightbox" title="Toolbar eines Lernpfadkurses" }
 
@@ -60,7 +60,7 @@ Wie alle Lernressourcen lassen sich Lernpfadkurse kopieren. Zusätzlich steht un
 **Auf dieser Seite erwähnt**<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
-[Kurseinstellungen >](Course_Settings/index.de.md)
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)
 
 **Weiterführend**<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>

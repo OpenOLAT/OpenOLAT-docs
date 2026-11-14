@@ -8,7 +8,17 @@ Die Darstellung eines Kurses und der eingebauten Kursbausteine kann von den Kurs
 
 ### Tab "Layout" 
 
-Im Tab "Layout" der Kurseinstellungen legen Sie den Standardstil der Darstellung fest: `Kurs > Administration > Einstellungen > Tab "Layout"`. Dazu zählen: die Auswahl eines Hintergrundbildes, die Definition des Stils sowie die Zuordnung einer Farbkategorie.
+Im Tab "Layout" der Kurseinstellungen bestimmen Sie, wie der Kurs aussieht und wie sich Teilnehmende darin bewegen: `Kurs > Administration > Einstellungen > Tab "Layout"`. Sie wählen eine Layoutvorlage, legen die Kursnavigation fest und bestimmen den Standardstil der Kursbausteine.
+
+Welche Layoutvorlagen zur Auswahl stehen, bestimmt das Systemlayout (Theme), das für Ihre ganze OpenOlat-Instanz gilt. Die Vorlage "Standard" ist immer vorhanden. Ein einheitliches Erscheinungsbild für alle Kurse (Farben, Schriften, Logo) wird deshalb zentral über ein individuelles Systemlayout umgesetzt, siehe [Darstellung](../../manual_admin/administration/Customizing.de.md#layout). Für einen einzelnen Kurs wählen Sie die Option "Eigene Konfiguration festlegen": Dort legen Sie Schriftart und Farben für Text, Überschriften, Links, Menü und Toolbox fest und laden ein Logo hoch. Darüber hinaus können Sie im [Ablageordner](Storage_folder.de.md) des Kurses im Ordner "courseCSS" eigene CSS-Dateien hinterlegen, die dann in der Auswahl als "Aus Kursablageordner" erscheinen. Den Ablageordner öffnen Sie unter:<br>
+`Kurs > Administration > Dateien > Ablageordner`
+
+Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfadkursen legen Sie zusätzlich fest, ob im Menü die Icons und der Pfad angezeigt werden ("Icons im Menu anzeigen", "Pfad im Menu anzeigen"). Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
+
+![Statussymbole an einer Linie links, vor jedem Titel das Symbol des Kursbausteins](assets/lp_icons_DE.png){ class="shadow lightbox" title="Kursmenü mit Pfad und Icons" }
+![Nur die Titel der Kursbausteine, Statussymbole rechts](assets/no_lp_no_icons_DE.png){ class="shadow lightbox" title="Kursmenü ohne Pfad und Icons" }
+
+Im Bereich "Standard Stil Kursbausteine" legen Sie die Basisdarstellung der Kursbausteine fest: die Auswahl eines Hintergrundbildes, die Definition des Stils sowie die Zuordnung einer Farbkategorie. In der Vorschau sehen Sie die Auswirkungen.
 
 Kursbesitzer:innen können für die Darstellung der Kursbausteine ein eigenes Bild hochladen (maximal 4 MB), ein Bild aus der Bibliothek wählen oder auf ein Bild ganz verzichten. Das Bild kann rechts oder links positioniert, als Verlauf rechts oder vollflächig dargestellt werden.
 
@@ -59,9 +69,13 @@ Auf dem obersten Kursknoten und allen Struktur-Kursbausteinen können im Tab "Ü
 
 ## Weiterführende Informationen {: #further_information}
 
+**Auf dieser Seite erwähnt**<br>
+[Customizing: Übersicht >](../../manual_admin/administration/Customizing.de.md)<br>
+[Ablageordner >](Storage_folder.de.md)
+
 **Weiterführend**<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
-[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)
 
 **youtube**<br>
 [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>)
