@@ -10,29 +10,22 @@ Which configuration tools are offered to you here is determined on the one hand 
 <br>
 
 
-## Profile {: #profile}
+## Menu items {: #menu_items}
 
-In the personal menu under "Profile" you change your personal details and set up your visiting card.
+If you are looking for a setting for your person or your account, the overview tells you under which menu item it is located and takes you to its description with the link. The table follows the order in the personal menu.
 
-[View the details >](../Profile/index.md)
+| Menu item | Purpose |
+|---|---|
+| [Profile](../Profile/index.md) | Change your personal details and set up your visiting card. If system administrators have enabled the COVID certificate, you also find the tab ["COVID certificate"](../COVID_certificate.md) in the profile. |
+| [Settings](../Settings.md) | Adapt OpenOlat to your needs, for example choose the language of the user interface or display tools in the main navigation. |
+| [Password](../Password.md) | Change your OpenOlat password. |
 
-
-## Settings {: #settings}
-
-All users can customise OpenOlat according to their own needs and, for example, select the language of the user interface or display the most important personal functions in the main navigation.
-
-[View the details >](../Settings.md)
-
-
-## Password {: #password}
-
-You can change your password here.
-
-[View the details >](../Password.md)
+[To the top of the page ^](#personal_configuration)
 
 
-## COVID certificate {: #covid_certificate}
+## Further information {: #further_information}
 
-During the COVID pandemic, frentix integrated functions for uploading and managing COVID certificates in OpenOlat. If system administrators have activated these functions, you find them in the profile, in the tab "COVID certificate".
+[User tools >](../Personal_Tools/index.md)<br>
+[Core functions: Overview >](../../../manual_admin/administration/Core_functions/index.md)
 
-[View the details >](../COVID_certificate.md)
+[To the top of the page ^](#personal_configuration)

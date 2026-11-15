@@ -9,106 +9,23 @@ Welche Werkzeuge Ihnen hier angeboten werden, bestimmt zum einen die Aktivierung
 <br>
 <br>
 
-## Kalender {: #calendar}
+## Menüpunkte {: #menu_items}
 
-Im persönlichen Kalender sehen Sie Ihre privaten Termine sowie Einträge aus Gruppen- und Kurskalendern, die über die Kalenderliste Ihrem persönlichen Kalender hinzugefügt wurden.
+Suchen Sie ein Werkzeug, sagt Ihnen die Übersicht in einem Satz, wozu es dient, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge im persönlichen Menü.
 
-Sie können private Termine erstellen, die nur Sie sehen, oder öffentliche Termine, die andere OpenOlat-Benutzer:innen mit Zugriffsrechten ebenfalls sehen.
-
-[Zu den Details >](../Calendar.de.md)
-
-
-## Abonnements {: #subscriptions}
-
-:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
-
-Möchten Sie zeitnah über Änderungen in Kursen und Gruppen informiert werden? Dann können Sie auf den gewünschten Kursbausteinen Abonnements einrichten. Neuigkeiten werden Ihnen dann ein Mal pro Tag als E-Mail zugeschickt.
-
-Von folgenden Objekten können Sie Änderungsmeldungen im Abonnement beziehen:
-
-  * Forum
-  * Ordner
-  * Wiki
-  * Kalender
-  * Aufgabe
-  * Dateidiskussion
-  * Portfoliomappen
-  * Mitteilungen
-  * Teilnehmer:innen Ordner
-  * Blog
-  * Podcast
-  * Video
-  * Projekte [:octicons-tag-16:{ title="ab Release 18.0 (OO-6980)" }](https://track.frentix.com/issue/OO-6980)
-
-[Zu den Details >](../Subscriptions.de.md)
-
-
-## File Hub {: #file_hub}
-
-Im File Hub sind alle Ordner aufgelistet, auf die Sie Zugriff haben: Kursordner, Gruppenordner, Archivordner und weitere. Auch Ihre **persönlichen Dateien** erreichen Sie über den File Hub.
-
-[Zu den Details >](../File_Hub.de.md)
-
-
-## Notizen {: #notes}
-
-In jedem Kurs können Sie Notizen verfassen. Unter diesem Punkt sehen Sie, welche Notizen Sie gemacht haben, und können diese bearbeiten und ausdrucken.
-
-[Zu den Details >](../Notes.de.md)
-
-
-## Buchungsaufträge {: #bookings}
-
-Alle Ihre Buchungsaufträge werden hier inklusive weiterer Buchungsinformationen aufgelistet.
-
-[Zu den Details >](../Bookings.de.md)
-
-
-## Personensuche {: #other_users}
-
-Sie können nach anderen OpenOlat-Benutzer:innen suchen, öffentliche Visitenkarten ansehen, den "public"-Bereich der persönlichen Dateien anderer Benutzer:innen durchstöbern, freigegebene Portfoliomappen anschauen oder mit Hilfe des Kontaktformulars die jeweiligen Personen kontaktieren.
-
-[Zu den Details >](../Other_users.de.md)
-
-
-## Absenzen {: #absences}
-
-Ist das Modul für Termine und Absenzen aktiviert, können Sie an dieser Stelle die für Sie erfassten Absenzen einsehen.
-
-[Zu den Details >](../Absences.de.md)
-
-
-## Portfolio 2.0 {: #portfolio}
-
-Ein Portfolio dient der Sammlung und Dokumentation von (Lern-)Artefakten, Lernergebnissen und Lernprozessen sowie zur Förderung der Reflexion über den eigenen Entwicklungsprozess. Lernprodukte können hier gesammelt und bei Bedarf bestimmten Personen zugänglich gemacht werden.
-
-[Zu den Details >](../Portfolio/index.de.md)
-
-
-## Media Center {: #media_center}
-
-Das Media Center ist die zentrale Sammelstelle für Medien:
-
-* Unterschiedliche Medientypen (Dateiformate),
-* die (je nach vergebener Zugriffsberechtigung) auch von verschiedenen Personen genutzt
-* und an unterschiedlichen Stellen in OpenOlat verwendet werden können.
-
-[Zu den Details >](../Media_Center.de.md)
-
-
-## To-Dos {: #to_dos}
-
-Die zu erledigenden Aufgaben (To-Dos) finden sich an mehreren Stellen in OpenOlat (z.B. innerhalb eines Projektes). Im persönlichen Menü finden Sie alle Ihre persönlichen To-Dos zusammengefasst in einer Übersicht.
-
-[Zu den Details >](../To-Dos.de.md)
-
-
-## E-Mails {: #mail}
-
-Unter E-Mails können Sie alle in OpenOlat versandten und erhaltenen E-Mails einsehen. Die E-Mail-Historie in OpenOlat wird gespeichert und somit der Überblick über erhaltene und versendete E-Mails gewahrt. Zur besseren Übersicht können Sie E-Mails nach Kontext sortieren und anzeigen lassen.
-
-[Zu den Details >](../E-Mail.de.md)
-
+| Menüpunkt | Wozu |
+|---|---|
+| [Kalender](../Calendar.de.md) | Private Termine erstellen und die Termine aus Ihren Kursen und Gruppen in einem Kalender zusammen sehen. |
+| [Abonnements](../Subscriptions.de.md) | Die Neuigkeiten aus allem, was Sie abonniert haben, gesammelt sehen und Ihre Abonnements verwalten, etwa für Foren, Ordner oder Projekte. |
+| [File Hub](../File_Hub.de.md) | Alle Ordner öffnen, auf die Sie Zugriff haben, etwa Kursordner, Gruppenordner und Ihre persönlichen Dateien. |
+| [Notizen](../Notes.de.md) | Die Notizen, die Sie in Ihren Kursen geschrieben haben, gesammelt ansehen, bearbeiten, ausdrucken und löschen. |
+| [Buchungsaufträge](../Bookings.de.md) | Nachsehen, welche Kurse und Lernressourcen Sie gebucht haben und in welchem Status eine Buchung steht. |
+| [Personensuche](../Other_users.de.md) | Andere Personen in OpenOlat suchen, ihre Visitenkarte und ihren Ordner "public" ansehen und sie kontaktieren. |
+| [Absenzen](../Absences.de.md) | Ihre Termine und Absenzen in den Kursen mit Absenzenmanagement ansehen. Den Menüpunkt zeigt OpenOlat, wenn das Modul Termine und Absenzen eingeschaltet ist. |
+| [Portfolio 2.0](../Portfolio/index.de.md) | Lernprodukte in Portfoliomappen sammeln, über den eigenen Lernprozess reflektieren und Mappen mit anderen Personen teilen. |
+| [Media Center](../Media_Center.de.md) | Ihre Medien erstellen, hochladen und verwalten, um sie etwa in Kursen oder im Portfolio zu verwenden, und die Medien sehen, die andere für Sie freigegeben haben. |
+| [To-dos](../To-Dos.de.md) | Alle To-dos sehen, bei denen Sie zugewiesen oder delegiert sind, etwa aus Kursen und Projekten, und persönliche To-dos erstellen. |
+| [E-Mail](../E-Mail.de.md) | Die E-Mails sehen, die Sie in OpenOlat erhalten oder versendet haben. Den Menüpunkt zeigt OpenOlat, wenn das OpenOlat Postfach eingeschaltet ist. |
 
 Leistungsnachweise, Zertifikate, Badges, Kompetenzen und Kreditpunkte stehen im persönlichen Menü im Abschnitt "Erfolge/Leistungen". Die Links auf diese Seiten finden Sie in den Quick Links auf der Seite [Persönliches Menü](../index.de.md#sections).
 
@@ -118,3 +35,13 @@ Leistungsnachweise, Zertifikate, Badges, Kompetenzen und Kreditpunkte stehen im 
     Wenn Sie Ihre Werkzeuge statt im persönlichen Menü lieber in der Hauptnavigation angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
     `Persönliches Menü > Konfiguration > Einstellungen > Tab "System" > Persönliche Werkzeuge`<br>
     Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Hauptnavigation rechts oben angezeigt und sind so schneller erreichbar.
+
+[Zum Seitenanfang ^](#personal_tools)
+
+
+## Weiterführende Informationen {: #further_information}
+
+[Persönliche Konfiguration: Einstellungen >](../Settings.de.md)<br>
+[Persönliche Konfiguration >](../Personal_Configuration/index.de.md)
+
+[Zum Seitenanfang ^](#personal_tools)

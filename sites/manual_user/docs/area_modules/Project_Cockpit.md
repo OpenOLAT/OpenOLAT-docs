@@ -45,7 +45,7 @@ The objects in a project can be linked to each other to make it easier to find r
 
 ## Notifications
 
-Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [subscription function](../personal_menu/Personal_Tools/index.md#subscriptions) (on the right-hand side, below the images of the project members, toggle "Changes").
+Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [subscription function](../personal_menu/Subscriptions.md) (on the right-hand side, below the images of the project members, toggle "Changes").
 
 ![Toggle Changes below the images of the project members, which switches the subscription on and off](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" title="Cockpit of a project" }
 
@@ -54,7 +54,7 @@ Several people work together on a project, so it is important to be informed abo
     The subscription function is activated in new projects by default. It can be switched off using the toggle.
 
 
-The [subscription function](../personal_menu/Personal_Tools/index.md#subscriptions) is also available in other areas, e.g. in courses in certain course elements. In projects it has the following special feature:
+The [subscription function](../personal_menu/Subscriptions.md) is also available in other areas, e.g. in courses in certain course elements. In projects it has the following special feature:
 
 * **Bulk mails** are created to avoid sending a mail for every small change in the project.
 * **Exception**: Changes to to-dos
@@ -62,6 +62,7 @@ The [subscription function](../personal_menu/Personal_Tools/index.md#subscriptio
 
 ## Further information {: #further_information}
 
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
 [User tools >](../personal_menu/Personal_Tools/index.md)
 
 [To the top of the page ^](#cockpit)

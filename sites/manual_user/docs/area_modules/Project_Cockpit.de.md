@@ -45,7 +45,7 @@ Die Objekte eines Projektes lassen sich miteinander verknüpfen, um zusammengeh�
 
 ## Benachrichtigungen
 
-In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, über Fortschritte und Änderungen informiert zu werden. Verwenden Sie dazu die [Abonnement-Funktion](../personal_menu/Personal_Tools/index.de.md#subscriptions) (am rechten Rand, unter den Bildern der Projektmitglieder, Schalter "Änderungen").
+In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, über Fortschritte und Änderungen informiert zu werden. Verwenden Sie dazu die [Abonnement-Funktion](../personal_menu/Subscriptions.de.md) (am rechten Rand, unter den Bildern der Projektmitglieder, Schalter "Änderungen").
 
 ![Schalter Änderungen unter den Bildern der Projektmitglieder, mit dem das Abonnement ein- und ausgeschaltet wird](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" title="Cockpit eines Projekts" }
 
@@ -54,7 +54,7 @@ In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, üb
     Standardmässig ist die Abonnement-Funktion in neuen Projekten aktiviert. Sie kann mit dem Schalter ausgeschaltet werden.
 
 
-Die [Abonnement-Funktion](../personal_menu/Personal_Tools/index.de.md#subscriptions) steht auch in anderen Bereichen, z.B. in Kursen in bestimmten Kursbausteinen, zur Verfügung. In Projekten hat sie die folgende Besonderheit:
+Die [Abonnement-Funktion](../personal_menu/Subscriptions.de.md) steht auch in anderen Bereichen, z.B. in Kursen in bestimmten Kursbausteinen, zur Verfügung. In Projekten hat sie die folgende Besonderheit:
 
 * Es werden **Sammel-Mails** erzeugt, um zu vermeiden, dass wegen jeder kleinen Änderung im Projekt eine Mail verschickt wird.
 * **Ausnahme**: Änderungen bei To-dos
@@ -62,6 +62,7 @@ Die [Abonnement-Funktion](../personal_menu/Personal_Tools/index.de.md#subscripti
 
 ## Weiterführende Informationen {: #further_information}
 
+[Persönliche Werkzeuge: Abonnements >](../personal_menu/Subscriptions.de.md)<br>
 [Persönliche Werkzeuge >](../personal_menu/Personal_Tools/index.de.md)
 
 [Zum Seitenanfang ^](#cockpit)

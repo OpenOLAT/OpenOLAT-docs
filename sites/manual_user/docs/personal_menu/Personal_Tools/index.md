@@ -9,106 +9,23 @@ Which tools are offered to you here is determined on the one hand by the activat
 <br>
 <br>
 
-## Calendar {: #calendar}
+## Menu items {: #menu_items}
 
-In the personal calendar, you can see your private appointments as well as entries from group and course calendars that have been added to your personal calendar via the calendar list.
+If you are looking for a tool, the overview tells you in one sentence what it is for and takes you to its description with the link. The table follows the order in the personal menu.
 
-You can create private appointments that only you can see, or public appointments that other OpenOlat users with access rights can also see.
-
-Find out [more >](../Calendar.md)
-
-
-## Subscriptions {: #subscriptions}
-
-:octicons-device-camera-video-24: **Video introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
-
-Would you like to be informed promptly about changes to courses and groups? Then you can set up subscriptions for the desired course elements. News will then be sent to you once a day by e-mail.
-
-You can subscribe to change notifications for the following objects:
-
-  * Forum
-  * Folder
-  * Wiki
-  * Calendar
-  * Task
-  * File dialog
-  * Portfolio binders
-  * Notifications
-  * Participant folder
-  * Blog
-  * Podcast
-  * Video
-  * Projects [:octicons-tag-16:{ title="from Release 18.0 (OO-6980)" }](https://track.frentix.com/issue/OO-6980)
-
-Find out [more >](../Subscriptions.md)
-
-
-## File Hub {: #file_hub}
-
-The File Hub lists all folders you have access to: course folders, group folders, archive folders and more. You can also reach your **personal files** via the File Hub.
-
-Find out [more >](../File_Hub.md)
-
-
-## Notes {: #notes}
-
-You can write notes in every course. Here you can see which notes you have made and can edit and print them out.
-
-Find out [more >](../Notes.md)
-
-
-## Booking orders {: #bookings}
-
-All your booking orders are listed here, including further booking information.
-
-Find out [more >](../Bookings.md)
-
-
-## Other users {: #other_users}
-
-You can search for other OpenOlat users, view public visiting cards, browse the "public" section of other users' personal files, view shared portfolio binders or contact the respective persons using the contact form.
-
-Find out [more >](../Other_users.md)
-
-
-## Absences {: #absences}
-
-If the module for lectures and absences is activated, you can view the absences recorded for you at this point.
-
-Find out [more >](../Absences.md)
-
-
-## Portfolio 2.0 {: #portfolio}
-
-A portfolio is used to collect and document (learning) artifacts, learning outcomes and learning processes, as well as to promote reflection on one's own development process. Learning products can be collected here and made accessible to specific people if required.
-
-Find out [more >](../Portfolio/index.md)
-
-
-## Media Center {: #media_center}
-
-The Media Center is the central collection point for media:
-
-* Different media types (file formats),
-* which (depending on the access authorization assigned) can also be used by different people
-* and can be used in different places in OpenOlat.
-
-Find out [more >](../Media_Center.md)
-
-
-## To-dos {: #to_dos}
-
-The tasks to be completed (to-dos) can be found in several places in OpenOlat (e.g. within a project). In the personal menu you will find all your personal to-dos summarized in an overview.
-
-Find out [more >](../To-Dos.md)
-
-
-## E-mails {: #mail}
-
-You can view all e-mails sent and received in OpenOlat under E-mails. The e-mail history in OpenOlat is saved, thus maintaining an overview of e-mails received and sent. For a better overview, you can sort and display e-mails by context.
-
-Find out [more >](../E-Mail.md)
-
+| Menu item | Purpose |
+|---|---|
+| [Calendar](../Calendar.md) | Create private appointments and see the appointments from your courses and groups together in one calendar. |
+| [Subscriptions](../Subscriptions.md) | See the news from everything you have subscribed to in one place and manage your subscriptions, for example for forums, folders or projects. |
+| [File Hub](../File_Hub.md) | Open all folders you have access to, for example course folders, group folders and your personal files. |
+| [Notes](../Notes.md) | View, edit, print and delete the notes you have written in your courses in one place. |
+| [Booking orders](../Bookings.md) | Check which courses and learning resources you have booked and which status a booking has. |
+| [Other users](../Other_users.md) | Search for other persons in OpenOlat, view their visiting card and their folder "public", and contact them. |
+| [Absences](../Absences.md) | View your events and absences in the courses with absence management. OpenOlat shows the menu item when the module Events and Absences is enabled. |
+| [Portfolio 2.0](../Portfolio/index.md) | Collect learning products in portfolio binders, reflect on your own learning process and share binders with other persons. |
+| [Media Center](../Media_Center.md) | Create, upload and manage your media to use them, for example, in courses or in the portfolio, and see the media that others have shared with you. |
+| [To-dos](../To-Dos.md) | See all to-dos to which you are assigned or delegated, for example from courses and projects, and create personal to-dos. |
+| [E-mail](../E-Mail.md) | See the e-mails you have received or sent in OpenOlat. OpenOlat shows the menu item when the OpenOlat inbox is enabled. |
 
 Evidence of achievement, certificates, badges, competences and credit points are in the personal menu in the section "Achievements/Successes". You find the links to these pages in the quick links on the page [Personal menu](../index.md#sections).
 
@@ -118,3 +35,13 @@ Evidence of achievement, certificates, badges, competences and credit points are
     If you prefer to have your tools displayed in the main navigation instead of the personal menu, you can move the menu option from the personal menu there. You make the setting for this under<br>
     `Personal menu > Configuration > Settings > Tab "System" > User tools`<br>
     All tools that you mark here are displayed in the main navigation at the top right instead of in the personal menu and can thus be accessed more quickly.
+
+[To the top of the page ^](#personal_tools)
+
+
+## Further information {: #further_information}
+
+[Personal Configuration: Settings >](../Settings.md)<br>
+[Personal Configuration >](../Personal_Configuration/index.md)
+
+[To the top of the page ^](#personal_tools)

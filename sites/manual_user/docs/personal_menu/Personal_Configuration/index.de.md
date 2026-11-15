@@ -10,29 +10,22 @@ Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, bestimmt zum einen d
 <br>
 
 
-## Profil {: #profile}
+## Menüpunkte {: #menu_items}
 
-Im persönlichen Menü unter "Profil" ändern Sie die Angaben zu Ihrer Person und richten Ihre Visitenkarte ein.
+Suchen Sie eine Einstellung zu Ihrer Person oder zu Ihrem Konto, sagt Ihnen die Übersicht, unter welchem Menüpunkt sie liegt, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge im persönlichen Menü.
 
-[Zu den Details >](../Profile/index.de.md)
+| Menüpunkt | Wozu |
+|---|---|
+| [Profil](../Profile/index.de.md) | Die Angaben zu Ihrer Person ändern und Ihre Visitenkarte einrichten. Haben Systemadministrator:innen das COVID-Zertifikat eingeschaltet, finden Sie im Profil auch den Tab ["COVID-Zertifikat"](../COVID_certificate.de.md). |
+| [Einstellungen](../Settings.de.md) | OpenOlat an Ihre Bedürfnisse anpassen, etwa die Sprache der Oberfläche wählen oder Werkzeuge in der Hauptnavigation anzeigen. |
+| [Passwort](../Password.de.md) | Ihr OpenOlat-Passwort ändern. |
 
-
-## Einstellungen {: #settings}
-
-Alle Benutzer:innen können OpenOlat individuell nach ihren eigenen Bedürfnissen anpassen und z.B. die Sprache der Bedieneroberfläche auswählen oder die persönlich wichtigsten Funktionen in der Hauptnavigation anzeigen lassen.
-
-[Zu den Details >](../Settings.de.md)
-
-
-## Passwort {: #password}
-
-Hier können Sie Ihr Passwort ändern.
-
-[Zu den Details >](../Password.de.md)
+[Zum Seitenanfang ^](#personal_configuration)
 
 
-## COVID-Zertifikat {: #covid_certificate}
+## Weiterführende Informationen {: #further_information}
 
-Während der COVID-Pandemie hat frentix Funktionen zum Hochladen und Verwalten von COVID-Zertifikaten in OpenOlat integriert. Falls Systemadministrator:innen diese Funktionen aktiviert haben, finden Sie sie im Profil, im Tab "COVID-Zertifikat".
+[Persönliche Werkzeuge >](../Personal_Tools/index.de.md)<br>
+[Core-Konfiguration: Übersicht >](../../../manual_admin/administration/Core_functions/index.de.md)
 
-[Zu den Details >](../COVID_certificate.de.md)
+[Zum Seitenanfang ^](#personal_configuration)
