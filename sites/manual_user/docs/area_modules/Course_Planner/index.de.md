@@ -1,5 +1,7 @@
 # Course Planner: Übersicht [:octicons-tag-16:{ title="ab Release 20.0 (OO-7834)" }](https://track.frentix.com/issue/OO-7834){:target="_blank"} {: #course_planner}
 
+Wozu jeder Button der Startseite dient und wo er beschrieben ist, zeigt der Abschnitt [Startseite und Bereiche](#start_page).
+
 
 ## Steckbrief
 
@@ -8,24 +10,12 @@ Name | Course Planner
 Verfügbar seit | Release 13.0 (2018)
 Umbau | Release 20.0 (OO-7834)
 
-## Dashboard [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9173)" }](https://track.frentix.com/issue/OO-9173){:target="_blank"} {: #dashboard_teaser}
-
-Beim Öffnen des Course Planners gelangen Sie auf die Übersichtsseite mit den Zugriffs-Buttons, der Suche und einem Bereich mit konfigurierbaren Widgets (Durchführungen, Termine, Mitglieder).
-
-Die Zugriffs-Buttons sind in die drei Bereiche "Produkte", "Produktivität" und "Tools" gegliedert [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"}. Der Abschnitt [Wo finde ich den Course Planner?](#access) beschreibt sie in dieser Reihenfolge.
-
-![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](../assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Dashboard.de.md)
-
----
-
 
 ## Wozu dient der Course Planner? {: #purpose}
 
-Der Course Planner ist ein Modul für das **Kursmanagement**. Ziel ist es, automatisiert und effizient vom Angebot ausgehend Kurse zu erstellen und durchzuführen.
+Der Course Planner ist ein Modul für das Kursmanagement. Ziel ist es, automatisiert und effizient vom Angebot ausgehend Kurse zu erstellen und durchzuführen.
 
-Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung** (im Autorenbereich) getrennt werden.
+Mit dem Course Planner kann die Planungsarbeit von der Inhaltserstellung (im Autorenbereich) getrennt werden.
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
 
@@ -131,16 +121,16 @@ Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 
 ## Wer kann den Course Planner nutzen? [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8916)" }](https://track.frentix.com/issue/OO-8916){:target="_blank"} {: #users}
 
-Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle "Kursplaner:in"** zur Verfügung. (Bei Verwendung von Organisationseinheiten, kann die Rolle Kursplaner:innen auch auf bestimmte Organisationseinheiten beschränkt sein.) 
+Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der Rolle "Kursplaner:in" zur Verfügung. (Bei Verwendung von Organisationseinheiten, kann die Rolle Kursplaner:innen auch auf bestimmte Organisationseinheiten beschränkt sein.) 
 
-**Administrator:innen** und **Principals** haben ebenfalls Zugriff. (Auch diese Rollen sind evtl. auf Organisationseinheiten beschränkt.)
+Administrator:innen und Principals haben ebenfalls Zugriff. (Auch diese Rollen sind evtl. auf Organisationseinheiten beschränkt.)
 
-**Principals** haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie "Status ändern", "Entfernen" oder "Instanzieren" stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
+Principals haben dabei ausschliesslich lesenden Zugriff auf den gesamten Course Planner: Aktionen wie "Status ändern", "Entfernen" oder "Instanzieren" stehen ihnen nicht zur Verfügung. Öffnen Principals einen Kurs direkt aus dem Course Planner heraus, gilt dieselbe Leserechte-Beschränkung auch für die Kursansicht.
 
 !!! info "Hinweis für die Einschränkung als Principal"
     Die Lese-Einschränkung ist dann aktiv, wenn der Principal auch nur diese Rolle ausübt. Es kann Querverbindungen geben, wenn ein User z.B. mehrere Rollen in einem Produkt hat. Dann kann dieser User aktiv werden, wo es die Rolle entsprechend zulässt. z.B. in einem To-do welches "ihm" zugewiesen ist.
 
-Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **Elementbesitzer:innen** im Rahmen ihres Zuständigkeitsbereichs zugreifen.
+Begrenzt auf ein bestimmtes Produkt können die Produktbesitzer:innen und Elementbesitzer:innen im Rahmen ihres Zuständigkeitsbereichs zugreifen.
 
 !!! info "Weitere OpenOlat Rollen"
     Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung, weniger auf die Planung, Terminierung und Administration von Kursen und Durchführungen.
@@ -166,7 +156,7 @@ Je nach Rolle ist einer, sind zwei oder alle drei Bereiche abgedeckt:
 * **Elementbesitzer:in**: trägt die inhaltliche Verantwortung für die eigenen Elemente (unabhängig von der Organisation). Sie hat vollen Zugriff auf die Inhalte und Termine des eigenen Elements, kann Mitglieder und Einstellungen jedoch nur lesen und die Struktur nicht verändern.
 * **Principal**: hat ausschliesslich lesenden Zugriff auf den gesamten Course Planner (siehe Abschnitt oben).
 
-Zusätzlich haben **Besitzer:innen von Zertifikatsprogrammen** Zugang zum Course Planner.
+Zusätzlich haben Besitzer:innen von Zertifikatsprogrammen Zugang zum Course Planner.
 
 ### Rechte-Matrix {: #rights_matrix}
 
@@ -198,7 +188,7 @@ Legende: :material-check: Zugang beziehungsweise Aktion verfügbar · :material-
 
 ## Wo finde ich den Course Planner? {: #access}
 
-Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie den Course Planner in der **Hauptnavigation**.
+Wenn Sie die Rolle und Rechte eines/einer Kursplaner:in besitzen, finden Sie den Course Planner in der Hauptnavigation.
 
 !!! tip "Voraussetzung"
 
@@ -208,102 +198,45 @@ Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie
 
 ---
 
-### Produkte {: #group_products}
+## Startseite und Bereiche [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #start_page}
 
-Der Bereich **Produkte** enthält die Planungsobjekte des Course Planners: das Bildungsprodukt selbst, seine Durchführungen und deren Termine.
+Öffnen Sie den Course Planner, gelangen Sie auf seine Startseite. Oben stehen die Suche und die Buttons zu den Funktionen, gegliedert in die drei Bereiche "Produkte", "Produktivität" und "Tools". Darunter zeigt der Abschnitt "Übersicht" Widgets zu Durchführungen, Terminen und To-dos.
 
-#### Produkte {: #products}
+![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](../assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
 
-Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
+Suchen Sie eine Funktion, sagt Ihnen die Übersicht in einem Satz, wozu sie dient, und führt Sie mit dem Link zu ihrer Beschreibung. Die Tabellen folgen der Startseite: Jede Tabelle entspricht einem Bereich, mit dessen Titel aus der Oberfläche und in derselben Reihenfolge. Welche Buttons Sie sehen, hängt von Ihrer Rolle ab und davon, welche Module die System-Administration eingeschaltet hat.
 
-Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
+**Produkte**
 
-![Die Produktliste mit Kennzeichen, Organisation und Anzahl Durchführungen, den Tabs Alle, Aktiv und Gelöscht und dem Button Produkt erstellen](../assets/course_planner_products_v4_de.png){ class="shadow lightbox" title="Bereich Produkte im Course Planner" }
+| Button | Wozu |
+|---|---|
+| [Produkte](../Course_Planner_Products.de.md) | Bildungsprodukte anlegen und verwalten. Ein Produkt ist ein Lernangebot, das Sie in einer oder mehreren Durchführungen anbieten. |
+| [Durchführungen](../Course_Planner_Implementations.de.md) | Die Durchführungen aller Produkte anlegen und verwalten. Jede Durchführung findet zu einer eigenen Zeit und mit eigenen Teilnehmer:innen statt. |
+| [Termine](../Course_Planner_Events.de.md) | Die Termine Ihrer Durchführungen sehen und planen, zum Beispiel die Kurstage eines Moduls. |
 
-[Zu den Details >](../../area_modules/Course_Planner_Products.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
+**Produktivität**
 
-#### Durchführungen {: #implementations}
+| Button | Wozu |
+|---|---|
+| [To-dos](../Course_Planner_Todos.de.md) | Die To-dos aller Elemente an einem Ort verfolgen, etwa die Ihnen zugewiesenen und die überfälligen. |
+| [Reports](../Course_Planner_Reports/index.de.md) | Aus Vorlagen Excel-Reports zu den Buchungsaufträgen Ihrer Produkte und Durchführungen erzeugen. |
 
-Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. kann sich jedes Semester sowohl ein einzelner Kurs wiederholen, als auch ein strukturierter Bildungsgang bestehend aus mehreren Kursen.
+**Tools**
 
-![Alle Durchführungen mit Kennzeichen, Produkt, Beginn, Ende, Typ, Zählern und Status, mit Statusfiltern und dem Button Erstellen](../assets/course_planner_implementations_v5_de.png){ class="shadow lightbox" title="Bereich Durchführungen im Course Planner" }
+| Button | Wozu |
+|---|---|
+| [Zertifikatsprogramme](../Course_Planner_Certification_Programs.de.md) | Ein Zertifikat für den Besuch einer Durchführung oder mehrerer Kurse vergeben und die Rezertifizierung der Mitglieder verwalten. |
+| [Raumverwaltung](../Course_Planner_Rooms.de.md) | Die Raumplanung und die Räume Ihrer Organisation lesen, etwa welche Räume für Termine gebucht sind und wo sich Buchungen überschneiden. Räume und Gebäude pflegen Systemadministrator:innen in der System-Administration unter `Administration > Module > Räume`. |
 
-[Zu den Details >](../../area_modules/Course_Planner_Implementations.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
+Die folgenden zwei Funktionen stehen ausserhalb der drei Bereiche. Ihre Tabelle trägt deshalb einen Titel, den die Oberfläche nicht zeigt.
 
-#### Termine {: #events}
+**Weitere Funktionen der Startseite**
 
-Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teilbereiches daraus. 
+| Funktion | Wozu |
+|---|---|
+| [Suche und Übersicht](../Course_Planner_Dashboard.de.md) | Durchführungen, Kurse und Termine suchen und die Widgets im Abschnitt "Übersicht" nach Ihren Bedürfnissen anpassen. |
+| [Importieren](../Course_Planner_Import_Export/index.de.md) | Produkte, Durchführungen und Mitgliedschaften aus einer Excel-Datei einlesen, über den Eintrag "Importieren" im Mehr-Menü (⋮) oben rechts. Den Export starten Sie in den Listen "Produkte", "Durchführungen" und "Termine". |
 
-![Alle Termine mit Datum, Zeit, Einheiten, Element, Status, Kurs und Dozenten, mit Zeitraum-Kacheln und Filtern](../assets/course_planner_events_v4_de.png){ class="shadow lightbox" title="Bereich Termine im Course Planner" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Events.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Produktivität {: #group_productivity}
-
-Der Bereich **Produktivität** enthält die Werkzeuge für die laufende Arbeit: die Aufgabenverfolgung und die Auswertungen.
-
-#### To-dos [:octicons-tag-16:{ title="ab Release 21.0 (OO-9417)" }](https://track.frentix.com/issue/OO-9417){:target="_blank"} {: #todos_teaser}
-
-Im Course Planner gehört jedes To-do zu einem Element, etwa zu einer Durchführung oder zu einem ihrer untergeordneten Elemente. Sie erstellen To-dos im Tab «To-dos» eines Elements oder per Sammelaktion für mehrere Durchführungen zugleich. Die zentrale Übersicht und der Tab «To-dos» eines Produkts fassen die To-dos zusammen. Das To-do-Widget auf der Startseite des Course Planners zeigt offene und überfällige To-dos auf einen Blick.
-
-![Alle To-dos mit Priorität, Fälligkeit, Status, Produkt, Element, Zuweisung und Tags, überfällige Einträge in Rot](../assets/course_planner_todos_v1_de.png){ class="shadow lightbox" title="Bereich To-dos im Course Planner" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Todos.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
-
-#### Reports [:octicons-tag-16:{ title="ab Release 20.0.0 (OO-8387)" }](https://track.frentix.com/issue/OO-8387){:target="_blank"} {: #reports}
-
-Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
-
-![Die sechs Reportvorlagen zu Buchungsaufträgen mit der Spalte Ausführen und darunter ein generierter Report mit Download](../assets/course_planner_reports1_v4_de.png){ class="shadow lightbox" title="Bereich Reports im Course Planner" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Reports/index.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Tools {: #group_tools}
-
-Der Bereich **Tools** enthält die produktübergreifenden Werkzeuge, die nicht an eine einzelne Durchführung gebunden sind.
-
-#### Zertifikatsprogramme [:octicons-tag-16:{ title="ab Release 20.2.0 (OO-8559)" }](https://track.frentix.com/issue/OO-8559){:target="_blank"} {: #certificate_programs}
-
-Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Absolvieren mehrerer Kurse gibt. 
-
-![Die Liste der Zertifikatsprogramme mit Gültigkeitsdauer, Rezertifizierung, benötigten Kreditpunkten und den Zählern Aktiv, Kandidat:innen und Alumni](../assets/course_planner_certification_programs_v3_de.png){ class="shadow lightbox" title="Bereich Zertifikatsprogramme im Course Planner" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
-
-#### Raumverwaltung [:octicons-tag-16:{ title="ab Release 21.0 (OO-9570)" }](https://track.frentix.com/issue/OO-9570){:target="_blank"} {: #rooms_teaser}
-
-Kursplaner:innen erhalten unter «Tools» den Bereich «Raumverwaltung» mit einer schreibgeschützten Übersicht der Raumplanung und der Räume, auf die sie über ihre organisatorische Zugehörigkeit Zugriff haben. Räume und Gebäude selbst werden in der System-Administration gepflegt, unter `Administration > Module > Räume`.
-
-![Eine aufgeklappte Raumbuchung mit Termin, dem Hinweis Keine Dozenten verfügbar, Raumkarte und dem Button Im Course Planner öffnen](../assets/course_planner_rooms_scheduling_table_v2_de.png){ class="shadow lightbox" title="Raumplanung der Raumverwaltung im Course Planner" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Rooms.de.md)<br>
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-### Import / Export [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9178)" }](https://track.frentix.com/issue/OO-9178){:target="_blank"} {: #import_export}
-
-Produkte, Durchführungen und Mitgliedschaften lassen sich als Excel-Datei exportieren, in der Datei bearbeiten und anschliessend wieder importieren. So können viele Einträge auf einmal angelegt oder aktualisiert werden.
-
-Den **Export** starten Sie in den Listen «Produkte», «Durchführungen» und «Termine»: Einträge auswählen, dann auf **Export** klicken.
-
-![Ein markiertes Produkt und der Button Export neben Löschen über der Liste, hervorgehoben](../assets/course_planner_export_action_v1_de.png){ class="shadow lightbox" title="Produktliste des Course Planners" }
-
-Den **Import** starten Sie über das Mehr-Menü (⋮) oben rechts auf der Übersichtsseite mit dem Eintrag **Importieren**.
-
-![Der Eintrag Importieren im Mehr-Menü oben rechts, hervorgehoben](../assets/course_planner_import_action_v1_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
-
-[Zu den Details >](../../area_modules/Course_Planner_Import_Export/index.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
 
 ---
