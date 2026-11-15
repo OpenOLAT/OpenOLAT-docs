@@ -4,6 +4,8 @@
 
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Aktivierung.
 
+Mit der Integration schreiben und kopieren Benutzer:innen im File Hub und im Media Center von OpenOlat Dateien von und nach SharePoint und OneDrive. Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
+
 
 ## SharePoint [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #sharepoint}
 

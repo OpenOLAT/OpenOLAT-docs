@@ -70,6 +70,17 @@ The following fields are available:
 
 Use the button "Check connection" to test whether the server can be reached.
 
+
+#### ONNX embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
+
+!!! info "frentix customers"
+
+    The model directory and the files in it are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
+
+If Taxonomy Matching (Embeddings) is to run without an external AI provider, use an ONNX embedding model: OpenOlat loads it from a model directory on its own server, needs no API key, and no text leaves the server.
+
+As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](Modules_Taxonomy.md#ai_matching).
+
 [To the top of the page ^](#ai)
 
 ---

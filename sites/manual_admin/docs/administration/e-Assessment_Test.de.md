@@ -30,6 +30,8 @@ Ausserdem können sie grundsätzlich festlegen, ob eine Bewertung nach der manue
 
 Eine Korrektur kann auch durch kurs-externe Betreuer:innen durchgeführt werden. (Diese sind zwar in OpenOlat registriert, aber kein Mitglied im Kurs.) Für diese steht der Korrektur-Workflow zur Verfügung, wenn er hier aktiviert wird.
 
+Mit dem Korrektur-Workflow erstellen Sie persönliche Korrekturaufträge und weisen sie festgelegten Korrektor:innen zu. Steht die Korrektur eines Tests auf "Manuell durch Korrektor:innen", korrigieren Betreuer:innen ihn nicht mehr über das Bewertungswerkzeug im Kurs.
+
 Für das Management der Korrekturen durch mehrere verschiedene Korrektor:innen benötigt es E-Mails zur Kommunikation. Es können mehrere Mail-Vorlagen an die verschiedenen Beteiligten in verschiedenen Sprachen vorformuliert werden.
 
 Die angefallene Korrekturzeit kann verschiedenen Rollen zugänglich gemacht werden.

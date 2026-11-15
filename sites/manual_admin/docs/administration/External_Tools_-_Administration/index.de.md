@@ -9,15 +9,34 @@ Name | Externe Werkzeuge
 Verfügbar seit | Release 10.5 (2016)
 
 
-## BigBlueButton {: #bbb}
+## Menüpunkte {: #menu_items}
 
-!!! info "frentix-Kund:innen"
+Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er dient, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge des Menüs "Externe Werkzeuge". Menüpunkte ohne eigene Seite beschreibt diese Seite weiter unten, in derselben Reihenfolge.
 
-    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "Konfiguration" und "Raumvorlagen".
+| Menüpunkt | Wozu |
+|---|---|
+| [BigBlueButton](../BigBlueButton_module.de.md) | BigBlueButton, eine Software für Online-Konferenzen und virtuelle Klassenzimmer, einschalten, die Server einrichten und die Raumvorlagen festlegen. |
+| [OpenMeetings](#openmeetings) | Die Webkonferenz-Lösung OpenMeetings anbinden und die angelegten Räume überblicken. Beschrieben weiter unten auf dieser Seite. |
+| [Adobe Connect](#adobe_connect) | Die Webkonferenz-Lösung Adobe Connect einschalten und konfigurieren. Beschrieben weiter unten auf dieser Seite. |
+| [Microsoft Teams](../Teams_module.de.md) | Microsoft Teams für Online-Termine in Kursen und Gruppen einschalten und festlegen, wo und mit welchen Varianten Online-Termine entstehen und ob OpenOlat ihre Aufzeichnungen übernimmt. |
+| [Microsoft SharePoint / OneDrive](../SharePoint_OneDrive.de.md) | SharePoint und OneDrive einbinden, damit Benutzer:innen im File Hub und im Media Center Dateien von und nach SharePoint und OneDrive schreiben und kopieren. |
+| [Zoom](../Zoom.de.md) | Zoom-Profile verwalten, damit Zoom-Meetings in Kursen und Gruppen möglich sind. |
+| [LTI](../LTI_Integrations/index.de.md) | LTI 1.3 einschalten und externe LTI Plattformen und Werkzeuge mit OpenOlat verbinden. |
+| [GoToTraining](#go_to_training) | Die virtuelle Schulungsplattform GoToTraining einschalten und konfigurieren. Beschrieben weiter unten auf dieser Seite. |
+| [vitero](#vitero) | Die Webkonferenz-Lösung vitero über ihr Web Service API anbinden. Beschrieben weiter unten auf dieser Seite. |
+| [JupyterHub](#jupyter) | Den Kursbaustein "JupyterHub" einschalten und die Hubs einrichten, deren Jupyter-Umgebung Lernende aus dem Kurs heraus starten. Beschrieben weiter unten auf dieser Seite. |
+| [card2brain](#card2brain) | Die Lernkartei card2brain einschalten und konfigurieren. Beschrieben weiter unten auf dieser Seite. |
+| [Edubase/Edubook](#edubase) | Die E-Book-Plattform Edubase einschalten und konfigurieren. Beschrieben weiter unten auf dieser Seite. |
+| [Youtube API](#youtube_api) | Einen API Schlüssel hinterlegen, damit OpenOlat Titel, Beschreibung und Lizenz eingebundener YouTube-Videos abruft. Beschrieben weiter unten auf dieser Seite. |
+| [Opencast](#opencast) | Opencast, eine Software für die Aufzeichnung und Veröffentlichung von Lehrveranstaltungen, über die API und über LTI anbinden. Beschrieben weiter unten auf dieser Seite. |
+| [Mediasite](#mediasite) | Das Mediasite-Modul einschalten, mit dem Kursbesitzer:innen Aufzeichnungen eines Mediasite-Servers in Kurse einbinden, und einen vorkonfigurierten Server hinterlegen. Beschrieben weiter unten auf dieser Seite. |
+| [edu-sharing](#edusharing) | edu-sharing anbinden, um Lerninhalte mit anderen Lernplattformen auszutauschen, und den Kursbaustein freischalten. Beschrieben weiter unten auf dieser Seite. |
+| [Dokumenteneditoren](#dokumenteneditoren) | Die Werkzeuge für die Bearbeitung von Office-Dokumenten konfigurieren, ONLYOFFICE und Microsoft Office. Beschrieben weiter unten auf dieser Seite. |
+| [draw.io](#draw_io) | Das Diagramm-Werkzeug draw.io einrichten. Beschrieben weiter unten auf dieser Seite. |
+| [Analytics](#analytics) | Externe Analyse-Services wie Google Analytics einschalten. Beschrieben weiter unten auf dieser Seite. |
+| [KI-Modul](../External_Tools_AI.de.md) | Die KI-Anbieter anbinden und je KI-Funktion festlegen, welcher Anbieter und welches Modell sie ausführt. |
+| [PDF Generator](#pdf_generator) | Einen PDF-Dienst einrichten, ohne den OpenOlat keine PDFs wie Zertifikate oder Testresultate erzeugt. Beschrieben weiter unten auf dieser Seite. |
 
-BigBlueButton ist eine Software für Online-Konferenzen und virtuelle Klassenzimmer. Damit Webkonferenzen mit BigBlueButton in OpenOlat möglich sind, aktivieren und konfigurieren Sie BigBlueButton in der System-Administration unter `Administration > Externe Werkzeuge > BigBlueButton`.
-
-[Zu den Details >](../BigBlueButton_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -49,67 +68,6 @@ Adobe Connect ist die Webkonferenz-Lösung aus der Adobe-Produktlinie.
 
 Aktivieren und konfigurieren können Sie das Werkzeug, wenn die erforderlichen Lizenzen vorhanden sind.
 
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
-## Microsoft Teams [:octicons-tag-16:{ title="ab Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
-
-!!! info "frentix-Kund:innen"
-
-    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
-
-Microsoft Teams ist die Webkonferenz-Lösung von Microsoft: In Kursen und Gruppen entstehen damit Online-Termine, zu denen die Teilnehmenden direkt aus OpenOlat beitreten. Nach der Aktivierung können Autor:innen den [Kursbaustein "Microsoft Teams"](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md) in ihren Kursen einsetzen.
-
-**Voraussetzungen für die Aktivierung:**
-
-* Ein Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen.
-* Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt.
-
-**Voraussetzungen für die Nutzung:**
-
-* Benutzer:innen melden sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Anmeldung über "Microsoft Azure AD"). Dies ist Voraussetzung, um Online-Termine eröffnen zu können: OpenOlat erstellt die Online-Termine über die Programmierschnittstelle von Microsoft (Microsoft Graph API) im Namen der angemeldeten Person.
-* Ist das Modul eingeschaltet, verlangt OpenOlat bei der Anmeldung über "Microsoft Azure AD" von Microsoft zusätzlich die Berechtigung, Online-Termine anzulegen (`OnlineMeetings.ReadWrite`). Mit der Funktion "Terminaufzeichnung" kommt die Berechtigung hinzu, Aufzeichnungen zu lesen (`OnlineMeetingRecording.Read.All`). Die Berechtigung für Aufzeichnungen braucht in der Azure-App die Zustimmung einer Administratorin oder eines Administrators des Microsoft-Tenants. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Tenant, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888){:target="_blank"}
-
-**Konfiguration in der System-Administration** unter:<br>
-`Administration > Externe Werkzeuge > Microsoft Teams`
-
-Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, finden Sie im Benutzerhandbuch im Abschnitt [Rollen in MS Teams](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
-
-[Zu den Details >](../Teams_module.de.md)<br>
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
-## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
-
-Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, aktivieren Sie diese beiden Werkzeuge in der System-Administration unter `Administration > Externe Werkzeuge > Microsoft SharePoint / OneDrive`. Sie lassen sich auch einzeln aktivieren.
-
-Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
-
-[Zu den Details >](../SharePoint_OneDrive.de.md)<br>
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
-## Zoom [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
-
-Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
-Damit Zoom Meetings in OpenOlat möglich sind, aktivieren und konfigurieren Sie Zoom in der System-Administration unter `Administration > Externe Werkzeuge > Zoom`.
-
-[Zu den Details >](../Zoom.de.md)<br>
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
-## LTI 1.3 [:octicons-tag-16:{ title="ab Release 15.5.0 (OO-5205)" }](https://track.frentix.com/issue/OO-5205){:target="_blank"} {: #lti}
-
-In der System-Administration aktivieren und konfigurieren Sie LTI 1.3 unter:<br>
-`Administration > Externe Werkzeuge > LTI`
-
-So können z.B. externe LTI Plattformen und Werkzeuge verbunden werden.
-
-[Zu den Details >](../LTI_Integrations/index.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
@@ -157,7 +115,7 @@ vitero Server berücksichtigt OpenOlat nicht.
 
 ## JupyterHub [:octicons-tag-16:{ title="ab Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
-Mit JupyterHub starten Lernende aus dem Kurs heraus eine Jupyter-Umgebung. Welches Image der Hub dabei startet, legt der Kursbaustein fest. OpenOlat bindet den Hub über LTI 1.3 an. Deshalb muss das Modul "LTI 1.3" in der System-Administration eingeschaltet sein, siehe [LTI 1.3](#lti):<br>
+Mit JupyterHub starten Lernende aus dem Kurs heraus eine Jupyter-Umgebung. Welches Image der Hub dabei startet, legt der Kursbaustein fest. OpenOlat bindet den Hub über LTI 1.3 an. Deshalb muss das Modul "LTI 1.3" in der System-Administration eingeschaltet sein, siehe [LTI 1.3 Integrationen](../LTI_Integrations/index.de.md):<br>
 `Administration > Externe Werkzeuge > LTI > Konfiguration`
 
 Einen Hub richten Sie in der System-Administration ein: `Administration > Externe Werkzeuge > JupyterHub > Hub-Konfiguration hinzufügen`. Die Schaltfläche erscheint, sobald "JupyterHub Kursbaustein" eingeschaltet ist. Im Feld "JupyterHub URL" tragen Sie die Adresse des Hubs ein. Aus dieser Adresse bildet OpenOlat die Umleitungs-URI und die übrigen LTI-Adressen selbst. In OpenOlat tragen Sie sie nicht von Hand ein:
@@ -328,33 +286,6 @@ In der System-Administration unter `Administration > Externe Werkzeuge > Analyti
 
 
 
-## KI-Modul [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
-
-!!! info "frentix-Kund:innen"
-
-    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Einstellungen in den Tabs "KI-Anbieter", "KI-Funktionen" und "KI-Verarbeitungs-Pools".
-
-In der System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` aktivieren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können.
-
-[Zu den Details >](../External_Tools_AI.de.md)<br>
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
-## ONNX Einbettungsmodell [:octicons-tag-16:{ title="ab Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
-
-!!! info "frentix-Kund:innen"
-
-    Das Modellverzeichnis und die Dateien darin sind Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
-
-Soll die Taxonomie-Zuordnung (Embeddings) ohne externen KI-Anbieter laufen, setzen Sie ein ONNX Einbettungsmodell ein: OpenOlat lädt es aus einem Modellverzeichnis auf dem eigenen Server, braucht keinen API Schlüssel, und kein Text verlässt den Server.
-
-Sobald im Modellverzeichnis ein Modell liegt, zeigt die System-Administration unter `Administration > Externe Werkzeuge > KI-Modul` im Tab "KI-Anbieter" den Abschnitt "ONNX Einbettungsmodell" mit den erkannten Modellen. Dort erkennt "Neu einlesen" neu abgelegte Modelle, und "Validieren" prüft, ob jedes Modell korrekt geladen wird. Im Tab "KI-Funktionen" wählen Sie danach bei der Taxonomie-Zuordnung (Embeddings) den Anbieter "Local ONNX" und das Einbettungsmodell, siehe [Modul Taxonomie: Automatische Zuordnung per KI](../Modules_Taxonomy.de.md#ai_matching).
-
-[Zum Seitenanfang ^](#ext_tools)
-
-
-
 ## PDF Generator [:octicons-tag-16:{ title="ab Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten, [Infoseiten von Lernressourcen und Durchführungen](../../../manual_user/learningresources/General_Functions_Infopage.de.md#print) oder ähnliches.
@@ -387,11 +318,6 @@ Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Modul BigBlueButton >](../BigBlueButton_module.de.md)<br>
-[Kursbaustein "Microsoft Teams" >](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
-[Modul Microsoft Teams >](../Teams_module.de.md)<br>
-[SharePoint / OneDrive >](../SharePoint_OneDrive.de.md)<br>
-[Zoom >](../Zoom.de.md)<br>
 [LTI 1.3 Integrationen >](../LTI_Integrations/index.de.md)<br>
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [Website vitero >](https://www.vitero.com/de)<br>
@@ -402,8 +328,6 @@ Wie Sie den PDF-Dienst AthenaPDF installieren und konfigurieren, erfahren Sie im
 [Dokumentation zu Mediasite >](https://mediasite.com/)<br>
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Website draw.io >](https://www.drawio.com)<br>
-[Externe Werkzeuge: KI-Modul >](../External_Tools_AI.de.md)<br>
-[Modul Taxonomie >](../Modules_Taxonomy.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../../../manual_user/learningresources/General_Functions_Infopage.de.md)<br>
 [Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>
 [GitHub: Gotenberg >](https://github.com/gotenberg/gotenberg)<br>

@@ -8,7 +8,19 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppe
 Sie konfigurieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
-Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt die Seite [Externe Werkzeuge: Übersicht](External_Tools_-_Administration/index.de.md#_microsoft_teams). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md).
+Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt der Abschnitt [Voraussetzungen](#prerequisites). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md). Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, steht dort im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
+
+---
+
+## Voraussetzungen {: #prerequisites}
+
+Bevor Sie das Modul einschalten, braucht Ihre Organisation einen Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen. Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt.
+
+Damit Personen Online-Termine eröffnen können, melden sie sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Anmeldung über "Microsoft Azure AD"). OpenOlat erstellt die Online-Termine über die Programmierschnittstelle von Microsoft (Microsoft Graph API) im Namen der angemeldeten Person.
+
+Ist das Modul eingeschaltet, verlangt OpenOlat bei der Anmeldung über "Microsoft Azure AD" von Microsoft zusätzlich die Berechtigung, Online-Termine anzulegen (`OnlineMeetings.ReadWrite`). Mit der Funktion "Terminaufzeichnung" kommt die Berechtigung hinzu, Aufzeichnungen zu lesen (`OnlineMeetingRecording.Read.All`). Die Berechtigung für Aufzeichnungen braucht in der Azure-App die Zustimmung einer Administratorin oder eines Administrators des Microsoft-Tenants. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Tenant, siehe [Funktion "Terminaufzeichnung"](#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+
+[Zum Seitenanfang ^](#teams_module)
 
 ---
 
@@ -112,7 +124,6 @@ Im Tab "Kalender" sehen Sie, wann viele Online-Termine gleichzeitig stattfinden,
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Externe Werkzeuge: Übersicht >](External_Tools_-_Administration/index.de.md)<br>
 [Kursbaustein "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
 [Modul BigBlueButton >](BigBlueButton_module.de.md)<br>
 [Cloud-Login >](Login_Cloud_Login.de.md)

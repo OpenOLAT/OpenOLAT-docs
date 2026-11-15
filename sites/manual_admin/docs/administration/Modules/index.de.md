@@ -1,62 +1,58 @@
 # Module: Übersicht {: #modules}
 
-![Aufgeklapptes Menü Module in der System-Administration, jeder Eintrag der Liste entspricht einem Abschnitt dieser Seite](../assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Aufgeklapptes Menü Module in der System-Administration mit seinen Einträgen von Instant-Messaging bis Qualitätsmanagement](../assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
-In diesem Bereich haben Systemadministrator:innen Zugriff auf die Module:
+Im Menü Module der System-Administration schalten Systemadministrator:innen die Module von OpenOlat für die ganze Instanz ein und legen ihre Einstellungen fest. Sie finden das Menü in der System-Administration unter:<br>
+`Administration > Module`
 
 
+## Menüpunkte {: #menu_items}
 
-## Instant-Messaging {: #instant_messaging}
+Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er dient, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge des Menüs "Module". Menüpunkte ohne eigene Seite beschreibt diese Seite weiter unten, in derselben Reihenfolge.
 
-Hier können Chat und Kurznachrichten aktiviert und konfiguriert werden.
+| Menüpunkt | Wozu |
+|---|---|
+| [Instant-Messaging](../Instant_Messaging.de.md) | Chat und Kurznachrichten einschalten und konfigurieren. |
+| [Video](../Modules_Video.de.md) | Die Lernressource Video und den Kursbaustein "Video" einschalten, die Transkodierung einrichten und die Standardauflösung festlegen. |
+| [Wiki](#wiki) | Die Lernressource "Wiki" systemweit ein- oder ausschalten und den XSS Scanner einschalten. Beschrieben weiter unten auf dieser Seite. |
+| [Kurserinnerungen](../Modules_Course_Reminders.de.md) | Festlegen, ob und wann OpenOlat die Versandbedingungen der Erinnerungen prüft und die fälligen E-Mails verschickt. |
+| [Audio/Video-Aufnahme](../Modules_Audio_Video_Recording.de.md) | Audio- und Videoaufnahmen ein- oder ausschalten, die an verschiedenen Stellen in OpenOlat möglich sind, und die Konvertierung der Aufnahmen einrichten. |
+| [Kontaktverfolgung](../Modules_Contact_Tracing.de.md) | Personen an physischen Orten registrieren, damit Sie Behörden auf Anfrage Angaben zur Kontaktverfolgung liefern können; das Modul entstand während der COVID-Pandemie. |
+| [Dokumentenpool](../Modules_Document_pool.de.md) | Eine Dokumentenbibliothek bereitstellen, die sich automatisch nach einer Taxonomie und ihren Kompetenzen gliedert. |
+| [COVID-Zertifikat](#covid_certificate) | Das COVID-Zertifikat mit Gültigkeitsdauer, Erinnerungen und Scan-Einstellungen einschalten. Beschrieben weiter unten auf dieser Seite. |
+| [Taxonomie](../Modules_Taxonomy.de.md) | Taxonomien für verschiedene Bereiche von OpenOlat erstellen und bearbeiten. |
+| [Livestream](#livestream) | Den Kursbaustein "Video Livestream" verfügbar machen, URL Vorlagen anlegen und den Paella Player konfigurieren. Beschrieben weiter unten auf dieser Seite. |
+| [Zeitabschnitte](../Modules_Time_Period.de.md) | Zeitabschnitte wie Semester anlegen, auf die der Durchführungszeitraum eines Kurses statt auf ein Datum verweist, zum Beispiel "SoSe26" für das Sommersemester 2026. |
+| [Media Center](../Modules_Media_Center.de.md) | Festlegen, welche Rollen Medien im Media Center für andere freigeben dürfen und welche Taxonomien mit dem Media Center verbunden sind. |
+| [Externe Seite](../Modules_External_Page.de.md) | Den Kursbaustein "Externe Seite" einrichten, der Inhalte einer fremden Domäne innerhalb Ihrer OpenOlat-Domäne anzeigt; frentix rät vom Einsatz ab. |
+| [Datenschutz](#data_privacy) | Festlegen, welche Systemrollen die administrativen Benutzer:innen-Properties und den letzten Besuch sehen und ob der Kursbaustein "Externe Seite" Kontodaten übermittelt. Beschrieben weiter unten auf dieser Seite. |
+| [Buchungen](#booking_orders) | Die Buchungsaufträge zu einer Buchungsnummer in einem Zeitraum anzeigen. Beschrieben weiter unten auf dieser Seite. |
+| [Gruppen](../Modules_Groups.de.md) | Festlegen, wer Gruppen erstellen darf, welche Rechte Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext haben und ob eine Einladung in Kurse und Gruppen eine E-Mail oder eine Bestätigung verlangt. |
+| [Termine / Absenzen](../Modules_Events_and_Absences.de.md) | Das Management für Termine und Absenzen einschalten und konfigurieren, das vor Release 20 Lektionen- und Absenzenmanagement hiess. |
+| [Bibliothek](#library) | Das Menü "Bibliothek" einschalten und seinen Ressourcenordner wählen. Beschrieben weiter unten auf dieser Seite. |
+| [Forum](#forum) | Pseudonymisierte Forenbeiträge erlauben und die Standardkonfiguration für Foren festlegen. Beschrieben weiter unten auf dieser Seite. |
+| [Kurs](../Modules_Course.de.md) | Festlegen, mit welchen Voreinstellungen neue Kurse starten, etwa Lernpfadkurs oder herkömmlicher Kurs, und Durchführungsformate, Farbkategorien und Stil Bilder verwalten. |
+| [Kursbausteine](#course_elements) | Festlegen, mit welchen Werten die Kursbausteine "Aufgabe", "Gruppenaufgabe", "Teilnehmer:innen Ordner", "Test" und "Umfrage" starten, wenn Autor:innen sie neu einfügen. Beschrieben weiter unten auf dieser Seite. |
+| [Katalog](../Modules_Catalog_2.0.de.md) | Festlegen, ob Benutzer:innen einen Katalog sehen und welchen, und den Katalog konfigurieren. |
+| [Lernressource](../Modules_Learning_Resource.de.md) | Systemweite Einstellungen und Vorgaben für Kurse und andere Lernressourcen festlegen. |
+| [Organisationen](../Modules_Organisations.de.md) | Organisationsstrukturen in OpenOlat abbilden, um Rollen und Zugriffsberechtigungen auf einzelne Organisationseinheiten zu beschränken. |
+| [Rolle Person zu Person](#role_user_to_user) | Eigene Rollen und Gegenrollen definieren, die zwei Personen verbinden, zum Beispiel Vorgesetzte:r und Mitarbeiter:in. Beschrieben weiter unten auf dieser Seite. |
+| [Anfrage Konto löschen](#request_account_deletion) | Anfragen zum Löschen des eigenen Kontos erlauben und die E-Mail-Adresse für diese Anfragen angeben. Beschrieben weiter unten auf dieser Seite. |
+| [Course Planner](../Modules_Course_Planner.de.md) | Das Modul "Course Planner" einschalten, Elementtypen anlegen und die Einstellungen dazu festlegen. |
+| [Räume](../Modules_Rooms.de.md) | Physische Räume in Gebäuden zentral verwalten und für Termine im Course Planner buchen. |
+| [To-do](../Modules_ToDo.de.md) | Das persönliche Werkzeug "To-do" einschalten und festlegen, wer To-dos erstellen, zuweisen oder delegieren darf. |
+| [Projekte](../Modules_Projects.de.md) | Das Projekt-Tool von OpenOlat einschalten und konfigurieren. |
+| [Qualitätsmanagement](../Modules_Quality_Management.de.md) | Das Qualitätsmanagement einschalten und die E-Mail-Adressen dafür festlegen, zum Beispiel für Verbesserungsvorschläge. |
+| [SEO / OAI-PMH Metadaten](../Modules_OAI.de.md) | Ermöglichen, dass andere Service Provider die Metadaten von Lernressourcen sammeln oder an Suchmaschinen weitergeben. |
 
-[Zu den Details >](../Instant_Messaging.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
 
-## Kurserinnerungen {: #course_reminders}
-
-Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpunkten die Versandbedingungen überprüft und die fälligen Mails verschickt.
-
-[Zu den Details >](../Modules_Course_Reminders.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Video {: #video}
-
-Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zur Transkodierung, sowie die Standardauflösung können definiert werden. 
-
-[Zu den Details >](../Modules_Video.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-##  Wiki {: #wiki}
+## Wiki {: #wiki}
 
 Hier können Sie die Lernressource "Wiki" systemweit ein- oder ausschalten. Das Wiki ist zurzeit noch anfällig für Cross-Site-Scripting (XSS). Daher kann zusätzlich der XSS Scanner aktiviert werden. Dies kann einzelne Funktionen des Wikis in OpenOlat beeinträchtigen. Bei ausgeschaltetem XSS Scanner lässt sich das Wiki mit dem Risiko eines solchen Angriffs verwenden. Allerdings verfügt das Wiki über eine automatische Versionierung, so dass jede Änderung nachvollziehbar bleibt. 
 
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Audio-/Video-Aufnahme {: #audio_video_recording}
-
-Hier wird die an verschiedenen Stellen in OpenOlat vorhandene Möglichkeit für Audio- und Videoaufnahmen ein- oder ausgeschaltet.
-Die aufgezeichneten Audio- und Videodaten werden automatisch im Hintergrund von einem externen Dienst in ein Format konvertiert, das mit den meisten Browsern kompatibel ist. Auch ein lokales Transcoding kann aktiviert werden.
-
-[Zu den Details >](../Modules_Audio_Video_Recording.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Kontaktverfolgung {: #contact_tracing}
-
-Dieses Modul wurde während der COVID-Pandemie erstellt. Aktivieren Sie das Modul, wenn Sie über physische Orte verfügen, an denen sich Menschen treffen und Sie aufgrund von Vorschriften im Bereich der öffentlichen Gesundheit (z.B. COVID19) den Behörden Informationen zur Kontaktverfolgung zur Verfügung stellen müssen.
-
-
-[Zu den Details >](../Modules_Contact_Tracing.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -69,25 +65,7 @@ Während der COVID-Pandemie wurde hier die Aktivierung des COVID-Zertifikats mit
 
 
 
-## Dokumentenpool {: #documentpool}
-
-Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer Strukturierung auf Basis einer Taxonomie und Kompetenzen.
-
-[Zu den Details >](../Modules_Document_pool.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Taxonomie {: #taxonomy}
-
-Hier können mehrere Taxonomien für unterschiedliche Bereiche in OpenOlat erstellt und editiert werden.
-
-[Zu den Details >](../Modules_Taxonomy.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Video Livestream [:octicons-tag-16:{ title="ab Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
+## Livestream [:octicons-tag-16:{ title="ab Release 14.0 (OO-4043)" }](https://track.frentix.com/issue/OO-4043){:target="_blank"} {: #livestream}
 
 Hier kann der Kursbaustein "Video Livestream" verfügbar gemacht und konfiguriert werden. In der System-Administration hat die Seite `Administration > Module > Livestream` drei Tabs. Im Tab "Einstellungen" schalten Sie den Kursbaustein und die Option "Multistream" ein und legen die Initialwerte für neue Kursbausteine fest. Die Einstellungen im Einzelnen beschreibt die Seite [Kursbaustein "Video Livestream"](../../../manual_user/learningresources/Course_Element_Video_Livestream.de.md).
 
@@ -107,38 +85,6 @@ OpenOlat spielt die Livestreams im Paella Player ab. Im Feld "Player config (JSO
 
 
 
-## Zeitabschnitte {: #time_periods}
-
-Erstellen und verwalten Sie Zeitabschnitte (z.B. Semesterdaten), um bei Kurslaufzeiten auf einen
-Zeitabschnitt anstelle eines Datums verweisen zu können. Die hier erstellten Zeitabschnitte können bei der Konfiguration des Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
-werden. Als Zeitabschnitt könnten z.B. "SoSe26" und als Beschreibung "Sommersemester
-2026" verwendet werden.
-
-[Zu den Details >](../Modules_Time_Period.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Media Center {: #media_center}
-
-Medien im Media Center können für andere freigeben werden. Hier können Sie definieren, welche Freigabemöglichkeiten die jeweiligen Rollen besitzen.
-
-Ausserdem kann definiert werden, ob bzw. welche Taxonomie mit dem Media Center verbunden werden sollen.
-
-[Zu den Details >](../Modules_Media_Center.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Externe Seite {: #external_page}
-
-Der Kursbaustein "Externe Seite" zeigt Inhalte einer fremden Domäne innerhalb Ihrer OpenOlat-Domäne an und kann dabei Daten an die externe Seite übertragen. frentix empfiehlt, Domänen nicht zu vermischen, und rät vom Einsatz ab.
-
-[Zu den Details >](../Modules_External_Page.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
 ## Datenschutz {: #data_privacy}
 
 Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert. 
@@ -151,32 +97,10 @@ Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktue
 
 
 
-## Buchungsaufträge {: #booking_orders}
+## Buchungen {: #booking_orders}
 
 Hier können Sie für eine bestimmte Buchungsnummer alle Buchungsaufträge in einem bestimmten Zeitraum anzeigen lassen.
 
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Gruppen {: #groups}
-
-Hier kann definiert werden, ob Autor:innen und Benutzer:innen ohne zusätzliche Rolle neue Gruppen erstellen dürfen. Auch mögliche Rechte für Gruppenverwalter:innen und Lernressourcenverwalter:innen im Gruppenkontext können definiert werden.
-
-Um den **Datenschutzanforderungen** gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen **eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch die eingeladenen Benutzer:innen *bestätigt* werden muss**.
-
-Systemadministrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
-
-[Zu den Details >](../Modules_Groups.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Termine / Absenzen {: #events_and_absences}
-
-Wird hier das Management für Termine und Absenzen (vor Release 20: Lektionen- und Absenzenmanagement) eingeschaltet, kann es mit einer Vielzahl an Optionen konfiguriert werden. 
-
-[Zu den Details von "Termine / Absenzen" >](../Modules_Events_and_Absences.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -193,20 +117,6 @@ Hier nehmen Sie die Aktivierung des Menüs "Bibliothek" und Wahl des zugehörige
 
 Systemadministrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
 
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Kurs {: #course}
-
-Wenn Autor:innen neue Kurse erstellen, finden sie Voreinstellungen vor, die Systemadministrator:innen hier festlegen.
-
-* Im Tab "Einstellungen" legen Sie fest, welcher Kurstyp bei neuen Kursen voreingestellt ist, Lernpfad oder herkömmlicher Kurs. Auch Einstellungen für bewertbare Kursbausteine können hier vorgenommen werden. 
-* Im Tab "Durchführungsformate" können neue Durchführungsformate definiert und vorhandene bearbeitet oder
-gelöscht werden. 
-* Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil der Bilder können in diesem Menü hinzugefügt werden.
-
-[Zu den Details >](../Modules_Course.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -253,33 +163,6 @@ Kursbesitzer:innen ändern die Berechtigungen danach in jedem Kursbaustein einze
 
 
 
-## Katalog {: #catalog}
-
-Hier kann die Verwendung eines Katalogs ein- oder ausgeschaltet und konfiguriert werden.
-
-[Zu den Details >](../Modules_Catalog_2.0.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Lernressource {: #learning_resource}
-
-Hier nehmen Sie Einstellungen zu Lernressourcen vor.
-
-[Zu den Details >](../Modules_Learning_Resource.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Organisationen {: #organisations}
-
-Mit aktiviertem Modul "Organisationen" können Organisationsstrukturen in OpenOlat abgebildet werden. Damit können dann Rollen oder Zugriffsberechtigungen auf bestimmte Organisationseinheiten beschränkt werden.
-
-[Zu den Details >](../Modules_Organisations.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
 ## Rolle Person zu Person {: #role_user_to_user}
 
 Nach Aktivierung von "Person zu Person" definieren Sie eigene Rollen und Gegenrollen, mit denen zwei Personen verbunden werden, z.B. Vorgesetzte:r und Mitarbeiter:in oder Lehrperson und Lernende:r.
@@ -292,50 +175,5 @@ Nach Aktivierung von "Person zu Person" definieren Sie eigene Rollen und Gegenro
 
 Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanfrage kann eine E-Mail-Adresse angegeben werden.
 
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Course Planner {: #course_planner}
-
-Wird das Modul "Course Planner" hier aktiviert, können Elementtypen angelegt und Einstellungen dazu gemacht werden. 
-
-[Zu den Details des Course Planners >](../Modules_Course_Planner.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## To-do {: #to-do}
-
-Bei aktiviertem Modul kann definiert werden, wer To-dos erstellen, zuweisen oder delegieren darf.
-
-[Zu den Details >](../Modules_ToDo.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Projekte {: #projects}
-
-Hier wird das in OpenOlat vorhandene Projekt-Tool aktiviert.
-
-[Zu den Details >](../Modules_Projects.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## Qualitätsmanagement {: #quality_management}
-
-Hier finden Sie die Aktivierung des Qualitätsmanagements und die dafür erforderliche Definition von speziellen E-Mailadressen, z.B. für Verbesserungsvorschläge. 
-
-[Zu den Details >](../Modules_Quality_Management.de.md)<br>
-[Zum Seitenanfang ^](#modules)
-
-
-
-## SEO / OAI-PMH Metadaten {: #OAI-PMH}
-
-Hier können Sie ermöglichen und konfigurieren, dass andere Service Provider die Metadaten von Lernressourcen sammeln oder an Suchmaschinen-Anbieter weiterleiten können.
-
-[Zu den Details >](../Modules_OAI.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 

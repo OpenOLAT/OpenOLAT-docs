@@ -28,6 +28,8 @@ In addition, you can generally specify whether a grade will be released and made
 
 Grading can also be performed by coaches from outside the course. (Although they are registered in OpenOlat, they are not members of the course.) The grading workflow is available to them if it is enabled here.
 
+With the correction workflow you create personal grading assignments and assign them to defined correctors. If the correction of a test is set to "Manual by correctors", coaches no longer correct it via the assessment tool in the course.
+
 Emails are needed to coordinate corrections made by several different correctors. Pre-written email templates can be created in different languages for the various people involved.
 
 The minutes used for correction can be made available to various roles.

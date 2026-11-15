@@ -9,15 +9,34 @@ Name | External tools
 Available since | Release 10.5 (2016)
 
 
-## BigBlueButton {: #bbb}
+## Menu items {: #menu_items}
 
-!!! info "frentix customers"
+If you are looking for a menu item, the overview tells you in one sentence what it is for, and the link takes you to its description. The table follows the order of the menu "External tools". Menu items without a page of their own are described further down on this page, in the same order.
 
-    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "Configuration" and "Room-templates".
+| Menu item | Purpose |
+|---|---|
+| [BigBlueButton](../BigBlueButton_module.md) | Switch on BigBlueButton, a software for online conferences and virtual classrooms, set up the servers and define the room templates. |
+| [OpenMeetings](#openmeetings) | Connect the web conferencing solution OpenMeetings and get an overview of the rooms created. Described further down on this page. |
+| [Adobe Connect](#adobe_connect) | Switch on and configure the web conferencing solution Adobe Connect. Described further down on this page. |
+| [Microsoft Teams](../Teams_module.md) | Switch on Microsoft Teams for online meetings in courses and groups and define where and with which variants online meetings are created and whether OpenOlat takes over their recordings. |
+| [Microsoft SharePoint / OneDrive](../SharePoint_OneDrive.md) | Integrate SharePoint and OneDrive so that users write and copy files to and from SharePoint and OneDrive in the File Hub and in the Media Center. |
+| [Zoom](../Zoom.md) | Manage Zoom profiles so that Zoom meetings are possible in courses and groups. |
+| [LTI](../LTI_Integrations/index.md) | Switch on LTI 1.3 and connect external LTI platforms and tools with OpenOlat. |
+| [GoToTraining](#go_to_training) | Switch on and configure the virtual training platform GoToTraining. Described further down on this page. |
+| [vitero](#vitero) | Connect the web conferencing solution vitero via its Web Service API. Described further down on this page. |
+| [JupyterHub](#jupyter) | Switch on the course element "JupyterHub" and set up the hubs whose Jupyter environment learners start from within the course. Described further down on this page. |
+| [card2brain](#card2brain) | Switch on and configure the flashcard software card2brain. Described further down on this page. |
+| [Edubase/Edubook](#edubase) | Switch on and configure the e-book platform Edubase. Described further down on this page. |
+| [Youtube API](#youtube_api) | Store an API key so that OpenOlat retrieves the title, description and license of embedded YouTube videos. Described further down on this page. |
+| [Opencast](#opencast) | Connect Opencast, a software for recording and publishing courses, via the API and via LTI. Described further down on this page. |
+| [Mediasite](#mediasite) | Switch on the Mediasite module, with which course owners integrate recordings of a Mediasite server into courses, and store a preconfigured server. Described further down on this page. |
+| [edu-sharing](#edusharing) | Connect edu-sharing to exchange learning content with other learning platforms, and enable the course element. Described further down on this page. |
+| [Document editors](#dokumenteneditoren) | Configure the tools for editing Office documents, ONLYOFFICE and Microsoft Office. Described further down on this page. |
+| [draw.io](#draw_io) | Set up the diagram tool draw.io. Described further down on this page. |
+| [Analytics](#analytics) | Switch on external analytics services such as Google Analytics. Described further down on this page. |
+| [AI module](../External_Tools_AI.md) | Connect the AI providers and define for each AI feature which provider and which model executes it. |
+| [PDF generator](#pdf_generator) | Set up a PDF service, without which OpenOlat creates no PDFs such as certificates or test results. Described further down on this page. |
 
-BigBlueButton is software for online conferences and virtual classrooms. To make web conferences with BigBlueButton possible in OpenOlat, activate and configure BigBlueButton in the system administration under `Administration > External tools > BigBlueButton`.
-
-[See the details >](../BigBlueButton_module.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -48,67 +67,6 @@ Adobe Connect is the web conferencing solution from the Adobe product line.
 
 You can activate and configure the tool if the required licenses are available.
 
-[To the top of the page ^](#ext_tools)
-
-
-
-## Microsoft Teams [:octicons-tag-16:{ title="from Release 15.4 (OO-5124)" }](https://track.frentix.com/issue/OO-5124){:target="_blank"} {: #_microsoft_teams}
-
-!!! info "frentix customers"
-
-    For frentix customers, their customer advisor at frentix takes care of this configuration.
-
-Microsoft Teams is the web conferencing solution from Microsoft. In courses and groups, it provides online meetings that participants join directly from OpenOlat. After activation, authors can use the [course element "Microsoft Teams"](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md) in their courses.
-
-**Prerequisites for activation:**
-
-* A Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses.
-* The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration.
-
-**Prerequisites for use:**
-
-* Users log in to OpenOlat with the Microsoft account of their organisation (login via "Microsoft Azure AD"). This is a prerequisite for opening online meetings: OpenOlat creates the online meetings via the programming interface of Microsoft (Microsoft Graph API) on behalf of the logged-in person.
-* If the module is switched on, OpenOlat additionally requests from Microsoft at the login via "Microsoft Azure AD" the permission to create online meetings (`OnlineMeetings.ReadWrite`). With the function "Meeting recording", the permission to read recordings is added (`OnlineMeetingRecording.Read.All`). In the Azure app, the permission for recordings needs the consent of an administrator of the Microsoft tenant. If it is missing, the login fails for persons without administrator rights in the tenant, see [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888){:target="_blank"}
-
-**Configuration in the system administration** under:<br>
-`Administration > External tools > Microsoft Teams`
-
-How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described in the user manual in the section [Roles in MS Teams](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
-
-[See the details >](../Teams_module.md)<br>
-[To the top of the page ^](#ext_tools)
-
-
-
-## Microsoft SharePoint / OneDrive [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #microsoft_sharepoint}
-
-To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, activate these two tools in the system administration under `Administration > External tools > Microsoft SharePoint / OneDrive`. You can also activate them individually.
-
-The prerequisite is that the required licenses are available.
-
-[See the details >](../SharePoint_OneDrive.md)<br>
-[To the top of the page ^](#ext_tools)
-
-
-
-## Zoom [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6187)" }](https://track.frentix.com/issue/OO-6187){:target="_blank"} {: #zoom}
-
-Zoom is software that can be used to hold video conferences, meetings, and webinars.
-To make Zoom meetings possible in OpenOlat, activate and configure Zoom in the system administration under `Administration > External tools > Zoom`.
-
-[See the details >](../Zoom.md)<br>
-[To the top of the page ^](#ext_tools)
-
-
-
-## LTI 1.3 [:octicons-tag-16:{ title="from Release 15.5.0 (OO-5205)" }](https://track.frentix.com/issue/OO-5205){:target="_blank"} {: #lti}
-
-In the system administration you activate and configure LTI 1.3 under:<br>
-`Administration > External tools > LTI`
-
-This allows e.g. external LTI platforms and tools to be connected.
-
-[See the details >](../LTI_Integrations/index.md)<br>
 [To the top of the page ^](#ext_tools)
 
 
@@ -148,7 +106,7 @@ For the connection, OpenOlat automatically creates user accounts on the vitero s
 
 ## JupyterHub [:octicons-tag-16:{ title="from Release 18.0.0 (OO-6901)" }](https://track.frentix.com/issue/OO-6901){:target="_blank"} {: #jupyter}
 
-With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled in the system administration, see [LTI 1.3](#lti):<br>
+With JupyterHub, learners start a Jupyter environment from within the course. The course element sets which image the hub starts. OpenOlat connects the hub via LTI 1.3. The module "LTI 1.3" must therefore be enabled in the system administration, see [LTI 1.3 Integrations](../LTI_Integrations/index.md):<br>
 `Administration > External tools > LTI > Configuration`
 
 You set up a hub in the system administration: `Administration > External tools > JupyterHub > Add hub configuration`. The button appears once "JupyterHub course element" is switched on. In the "JupyterHub URL" field you enter the address of the hub. From this address OpenOlat builds the redirection URI and the other LTI addresses itself. In OpenOlat you do not enter them by hand:
@@ -319,33 +277,6 @@ In the system administration under `Administration > External tools > Analytics`
 
 
 
-## AI module [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #ai_modul}
-
-!!! info "frentix customers"
-
-    For frentix customers, their customer advisor at frentix takes care of the settings in the tabs "AI providers", "AI features" and "AI processing pools".
-
-In the system administration under `Administration > External tools > AI module` you activate and configure the artificial intelligence tools that can be integrated into OpenOlat.
-
-[See the details >](../External_Tools_AI.md)<br>
-[To the top of the page ^](#ext_tools)
-
-
-
-## ONNX embedding model [:octicons-tag-16:{ title="from Release 21.0 (OO-9428)" }](https://track.frentix.com/issue/OO-9428){:target="_blank"} {: #onnx_embedding_model}
-
-!!! info "frentix customers"
-
-    The model directory and the files in it are part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
-
-If Taxonomy Matching (Embeddings) is to run without an external AI provider, use an ONNX embedding model: OpenOlat loads it from a model directory on its own server, needs no API key, and no text leaves the server.
-
-As soon as a model is in the model directory, the system administration shows the section "ONNX embedding model" with the detected models under `Administration > External tools > AI module` in the tab "AI providers". There, "Rescan" detects newly placed models, and "Validate" checks whether each model loads correctly. Then, in the tab "AI features", select the provider "Local ONNX" and the embedding model for Taxonomy Matching (Embeddings), see [Module Taxonomy: Automatic assignment by AI](../Modules_Taxonomy.md#ai_matching).
-
-[To the top of the page ^](#ext_tools)
-
-
-
 ## PDF Generator [:octicons-tag-16:{ title="from Release 13.2 (OO-3784)" }](https://track.frentix.com/issue/OO-3784){:target="_blank"} {: #pdf_generator}
 
 In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists, [info pages of learning resources and implementations](../../../manual_user/learningresources/General_Functions_Infopage.md#print) or similar.
@@ -378,11 +309,6 @@ the [installation manual](../../installation/athenaPdf.md).
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[BigBlueButton module >](../BigBlueButton_module.md)<br>
-[Course Element "Microsoft Teams" >](../../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
-[Microsoft Teams module >](../Teams_module.md)<br>
-[SharePoint / OneDrive >](../SharePoint_OneDrive.md)<br>
-[Zoom >](../Zoom.md)<br>
 [LTI 1.3 Integrations >](../LTI_Integrations/index.md)<br>
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [Website vitero >](https://www.vitero.com/)<br>
@@ -393,8 +319,6 @@ the [installation manual](../../installation/athenaPdf.md).
 [Documentation for Mediasite >](https://mediasite.com/)<br>
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Website draw.io >](https://www.drawio.com)<br>
-[External tools: AI module >](../External_Tools_AI.md)<br>
-[Module Taxonomy >](../Modules_Taxonomy.md)<br>
 [General Functions: Info Page >](../../../manual_user/learningresources/General_Functions_Infopage.md)<br>
 [Website Gotenberg >](https://gotenberg.dev/docs/getting-started/introduction)<br>
 [GitHub: Gotenberg >](https://github.com/gotenberg/gotenberg)<br>

@@ -79,7 +79,7 @@ Ist die Option eingeschaltet, macht OpenOlat die Personen, die sich selbst regis
 
 #### Kursliste {: #course_list }
 
-Mit "Kurse wählen" fügen Sie der Liste Kurse hinzu, mit "Entfernen" nehmen Sie einen Kurs heraus. Die Liste gilt für die Option "In Kurse buchen". Ist in der Core-Konfiguration unter [Zugangskontrolle](Core_functions/index.de.md#zugangskontrolle) die Angebotsart "Automatische Buchungen" nicht eingeschaltet, zeigt die Kursliste eine Warnung: ohne diese Angebotsart bucht OpenOlat niemanden automatisch in die Kurse.
+Mit "Kurse wählen" fügen Sie der Liste Kurse hinzu, mit "Entfernen" nehmen Sie einen Kurs heraus. Die Liste gilt für die Option "In Kurse buchen". Ist in der Core-Konfiguration unter [Zugangskontrolle](Core_functions/index.de.md#access_control) die Angebotsart "Automatische Buchungen" nicht eingeschaltet, zeigt die Kursliste eine Warnung: ohne diese Angebotsart bucht OpenOlat niemanden automatisch in die Kurse.
 
 #### Kontoablauf in Tagen {: #account_expiration_days }
 

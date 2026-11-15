@@ -78,7 +78,7 @@ If the option is switched on, OpenOlat automatically makes the persons who regis
 
 #### Course list {: #course_list }
 
-With "Select courses" you add courses to the list, with "Remove" you take a course out. The list applies to the option "Book in courses". If the offer type "Automatic booking" is not switched on in the core functions under [Access control](Core_functions/index.md#access-control), the course list shows a warning: without this offer type, OpenOlat does not book anyone into the courses automatically.
+With "Select courses" you add courses to the list, with "Remove" you take a course out. The list applies to the option "Book in courses". If the offer type "Automatic booking" is not switched on in the core functions under [Access control](Core_functions/index.md#access_control), the course list shows a warning: without this offer type, OpenOlat does not book anyone into the courses automatically.
 
 #### Account expiration in days {: #account_expiration_days }
 

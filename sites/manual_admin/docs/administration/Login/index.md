@@ -36,64 +36,21 @@ Administrators see the login procedures of a single account in the "Authenticati
 [To the top of the page ^](#login)
 
 
-## Security [:octicons-tag-16:{ title="from Release 9.3.0 (OO-922)" }](https://track.frentix.com/issue/OO-922) {: #security}
+## Menu items {: #menu_items}
 
-How much protection an instance needs depends on the requirements of your organisation. In the security settings, system administrators weigh each protection function against its effect on embedded content.
+If you are looking for a menu item, the overview tells you in one sentence what it is for, and the link takes you to its description. The table follows the order of the menu "Login".
 
-[See the details >](../../administration/Login_Security.md)<br>
-[To the top of the page ^](#login)
+| Menu item | Purpose |
+|---|---|
+| [Security](../Login_Security.md) | Weigh each protection function of the instance against its effect on embedded content and switch it on. |
+| [Password and authentication](../Login_Password_and_Authentication.md) | Select the security level of the login with the OpenOlat password, with or without passkey, determine the rules for passwords and define in the tab "Password change policies" how often users have to change their password. |
+| [Cloud login](../Login_Cloud_Login.md) | Connect OpenOlat with an identity provider, for example Google, Microsoft Azure Active Directory, Keycloak, Switch edu-ID or your own OAuth 2.0 provider, so that users log in with the account of this service. |
+| [Shibboleth](../Login_Shibboleth.md) | Restrict access via Shibboleth to people with certain attributes and read the direct link for the login via Shibboleth. The entry only appears when Shibboleth is switched on in the server configuration. |
+| [LDAP](../Login_LDAP.md) | Start the synchronization with the directory by hand and remove accounts that are missing from the directory. The entry only appears when LDAP is switched on in the server configuration. |
+| [Anonymous and external users](../Guest_and_invitation.md) | Define whether and how far anonymous guests and external users use OpenOlat. |
+| [Self-registration](../Login_Self-Registration.md) | Switch on self-registration so that people create their account themselves, and limit with "Validity period of the login data" how long such an account stays valid. |
+| [SMS](#sms) | Set up an SMS service so that users reset a forgotten password with a code by SMS. Described further down on this page. |
 
-
-## Password and authentication [:octicons-tag-16:{ title="from Release 18.1.2 (OO-7418)" }](https://track.frentix.com/issue/OO-7418) {: #password_and_authentification}
-
-How secure the login with the OpenOlat password is, you define here. You select the security level, with or without passkey, and determine the rules for passwords: a minimum and a maximum length are mandatory, if needed requirements for letters, upper and lower case, numbers and special characters as well as invalid values are added. In the tab "Password change policies" you define how often users have to change their password.
-
-[See the details >](../../administration/Login_Password_and_Authentication.md)<br>
-[To the top of the page ^](#login)
-
-
-## Cloud login [:octicons-tag-16:{ title="from Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
-
-So that users can log in with the account of another service, you connect OpenOlat here with an identity provider. Ready-made integrations exist for Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID and Datenlotsen, a provider of software for universities and academies. You connect further identity providers with "Add OAuth 2.0 provider" or "Add OAuth 2.0 provider with discovery URL". System administrators configure these integrations in the system administration under:<br>
-`Administration > Login > Cloud login`
-
-Which "Response type" your own provider needs is described under [Cloud login: OAuth 2.0 and OpenID Connect](../Login_Cloud_Login.md#authorization_code_flow). How the Microsoft Teams module changes the login via "Microsoft Azure AD" is described under [Microsoft Teams module: Function "Meeting recording"](../Teams_module.md#recording_enabled).
-
-[See the details >](../../administration/Login_Cloud_Login.md)<br>
-[To the top of the page ^](#login)
-
-
-## Shibboleth {: #shibboleth}
-
-Universities in a Shibboleth federation, an association of universities, check the login of their members themselves. Via Shibboleth, these people also use their university account for OpenOlat. The basic configuration is in the server configuration. In the system administration, you restrict access to people with certain attributes and find the direct link for the login via Shibboleth:<br>
-`Administration > Login > Shibboleth`
-
-[See the details >](../../administration/Login_Shibboleth.md)<br>
-[To the top of the page ^](#login)
-
-
-## LDAP {: #ldap}
-
-If your organisation keeps its accounts in a directory such as Active Directory, OpenOlat takes them over via LDAP and checks the login against the directory. The connection to the directory is in the server configuration. In the system administration, you start the synchronization by hand and remove accounts that are missing from the directory:<br>
-`Administration > Login > LDAP`
-
-[See the details >](../../administration/Login_LDAP.md)<br>
-[To the top of the page ^](#login)
-
-
-## Anonymous and external users [:octicons-tag-16:{ title="from Release 10.2 (OO-1362)" }](https://track.frentix.com/issue/OO-1362) {: #anonymous_and_external}
-
-Here, system administrators define whether and how far anonymous guests and external users use OpenOlat.
-
-[See the details >](../../administration/Guest_and_invitation.md)<br>
-[To the top of the page ^](#login)
-
-
-## Self-registration [:octicons-tag-16:{ title="from Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
-
-If people should create their account themselves, system administrators switch on self-registration here and define the settings for it. The address of the self-registration can also be placed on a website or in an e-mail. With the field "Validity period of the login data" you limit how long an account from self-registration stays valid.
-
-[See the details >](../../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)
 
 

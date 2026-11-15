@@ -1,5 +1,10 @@
 # Modul Audio-/Video-Recording {: #module_audio_video_recording}
 
+Hier schalten Systemadministrator:innen die Audio- und Videoaufnahmen ein oder aus, die an verschiedenen Stellen in OpenOlat möglich sind. Sie finden die Einstellungen in der System-Administration unter:<br>
+`Administration > Module > Audio/Video-Aufnahme`
+
+Ist für die Konvertierung ein externer Dienst eingerichtet, konvertiert er die aufgezeichneten Audio- und Videodaten automatisch im Hintergrund in ein Format, das mit den meisten Browsern kompatibel ist. Die Seite zeigt dann diesen Hinweis, und "Video-Konvertierungs-Modus" und "Audio-Konvertierungs-Modus" lassen sich nicht ändern. Sonst lässt sich die Konvertierung lokal auf dem Server einschalten, wie unten beschrieben.
+
 ## Aufnahmekonfigurationen {: #recording_config}
 
 ### Videoaufzeichnung aktivieren

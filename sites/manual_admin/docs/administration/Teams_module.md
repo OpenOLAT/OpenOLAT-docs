@@ -8,7 +8,19 @@ Microsoft Teams is the web conferencing solution from Microsoft. In courses and 
 You configure the module in the system administration under:<br>
 `Administration > External tools > Microsoft Teams`
 
-The page [External Tools: Overview](External_Tools_-_Administration/index.md#_microsoft_teams) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md).
+The section [Prerequisites](#prerequisites) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md). How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described there in the section [Roles in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
+
+---
+
+## Prerequisites {: #prerequisites}
+
+Before you switch on the module, your organisation needs a Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses. The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration.
+
+So that persons can open online meetings, they log in to OpenOlat with the Microsoft account of their organisation (login via "Microsoft Azure AD"). OpenOlat creates the online meetings via the programming interface of Microsoft (Microsoft Graph API) on behalf of the logged-in person.
+
+If the module is switched on, OpenOlat additionally requests from Microsoft at the login via "Microsoft Azure AD" the permission to create online meetings (`OnlineMeetings.ReadWrite`). With the function "Meeting recording", the permission to read recordings is added (`OnlineMeetingRecording.Read.All`). In the Azure app, the permission for recordings needs the consent of an administrator of the Microsoft tenant. If it is missing, the login fails for persons without administrator rights in the tenant, see [Function "Meeting recording"](#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+
+[To the top of the page ^](#teams_module)
 
 ---
 
@@ -112,7 +124,6 @@ With "Month", "Week", "Day" and "Year" you switch the view, "Year" lists the onl
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
 [BigBlueButton module >](BigBlueButton_module.md)<br>
 [Cloud login >](Login_Cloud_Login.md)

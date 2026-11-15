@@ -37,73 +37,22 @@ Mit welchen Verfahren sich ein einzelnes Konto anmeldet, sehen Administrator:inn
 [Zum Seitenanfang ^](#login)
 
 
+## Menüpunkte {: #menu_items}
 
-## Sicherheit [:octicons-tag-16:{ title="ab Release 9.3.0 (OO-922)" }](https://track.frentix.com/issue/OO-922) {: #security}
+Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er dient, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge des Menüs "Login".
 
-Wie viel Schutz eine Instanz braucht, hängt von den Anforderungen Ihrer Organisation ab. In den Sicherheitseinstellungen wägen Systemadministrator:innen jede Schutzfunktion gegen ihre Wirkung auf eingebundene Inhalte ab.
+| Menüpunkt | Wozu |
+|---|---|
+| [Sicherheit](../Login_Security.de.md) | Jede Schutzfunktion der Instanz gegen ihre Wirkung auf eingebundene Inhalte abwägen und einschalten. |
+| [Passwort und Authentifizierung](../Login_Password_and_Authentication.de.md) | Die Sicherheitsstufe der Anmeldung mit dem OpenOlat-Passwort wählen, mit oder ohne Passkey, die Regeln für Passwörter bestimmen und im Tab "Richtlinie zur Passwortänderung" festlegen, wie oft Benutzer:innen ihr Passwort ändern müssen. |
+| [Cloud-Login](../Login_Cloud_Login.de.md) | OpenOlat mit einem Identitätsanbieter verbinden, etwa Google, Microsoft Azure Active Directory, Keycloak, Switch edu-ID oder einem eigenen OAuth 2.0 Provider, damit sich Benutzer:innen mit dem Konto dieses Dienstes anmelden. |
+| [Shibboleth](../Login_Shibboleth.de.md) | Den Zugang über Shibboleth auf Personen mit bestimmten Attributen einschränken und den Direktlink für die Anmeldung über Shibboleth ablesen. Der Eintrag erscheint erst, wenn Shibboleth in der Serverkonfiguration eingeschaltet ist. |
+| [LDAP](../Login_LDAP.de.md) | Die Synchronisation mit dem Verzeichnis von Hand starten und Konten entfernen, die im Verzeichnis fehlen. Der Eintrag erscheint erst, wenn LDAP in der Serverkonfiguration eingeschaltet ist. |
+| [Anonyme und externe Benutzer:innen](../Guest_and_invitation.de.md) | Festlegen, ob und wie weit anonyme Gäste und externe Benutzer:innen OpenOlat nutzen. |
+| [Selbstregistration](../Login_Self-Registration.de.md) | Die Selbstregistration einschalten, damit Personen ihr Konto selbst anlegen, und mit "Gültigkeitsdauer der Logindaten" begrenzen, wie lange ein solches Konto gültig bleibt. |
+| [SMS](#sms) | Einen SMS-Dienst einrichten, damit Benutzer:innen ein vergessenes Passwort mit einem Code per SMS zurücksetzen. Beschrieben weiter unten auf dieser Seite. |
 
-[Zu den Details >](../../administration/Login_Security.de.md)<br>
 [Zum Seitenanfang ^](#login)
-
-
-
-## Passwort und Authentifizierung [:octicons-tag-16:{ title="ab Release 18.1.2 (OO-7418)" }](https://track.frentix.com/issue/OO-7418) {: #password_and_authentification}
-
-Wie sicher die Anmeldung mit dem OpenOlat-Passwort ist, legen Sie hier fest. Sie wählen die Sicherheitsstufe, mit oder ohne Passkey, und bestimmen die Regeln für Passwörter: Pflicht sind eine Mindest- und eine Maximallänge, bei Bedarf kommen Anforderungen an Buchstaben, Gross- und Kleinschreibung, Ziffern und Sonderzeichen sowie nicht erlaubte Werte dazu. Im Tab "Richtlinie zur Passwortänderung" legen Sie fest, wie oft Benutzer:innen ihr Passwort ändern müssen.
-
-[Zu den Details >](../../administration/Login_Password_and_Authentication.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
-
-
-## Cloud-Login [:octicons-tag-16:{ title="ab Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #cloud_login}
-
-Damit sich Benutzer:innen mit dem Konto eines anderen Dienstes anmelden können, verbinden Sie OpenOlat hier mit einem Identitätsanbieter. Fertige Anbindungen gibt es für Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID und Datenlotsen, einen Anbieter von Software für Hochschulen und Akademien. Weitere Identitätsanbieter binden Sie mit "OAuth 2.0 Provider hinzufügen" oder "OAuth 2.0 Provider mit Discovery URL hinzufügen" an. Diese Anbindungen konfigurieren Systemadministrator:innen in der System-Administration unter:<br>
-`Administration > Login > Cloud-Login`
-
-Welchen "Response type" ein eigener Provider braucht, steht unter [Cloud-Login: OAuth 2.0 und OpenID Connect](../Login_Cloud_Login.de.md#authorization_code_flow). Wie das Modul Microsoft Teams die Anmeldung über "Microsoft Azure AD" verändert, steht unter [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](../Teams_module.de.md#recording_enabled).
-
-[Zu den Details >](../../administration/Login_Cloud_Login.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
-
-
-## Shibboleth {: #shibboleth}
-
-Hochschulen in einer Shibboleth-Föderation, einem Verbund von Hochschulen, prüfen die Anmeldung ihrer Angehörigen selbst. Über Shibboleth nutzen diese Personen ihr Hochschulkonto auch für OpenOlat. Die Basiskonfiguration steht in der Serverkonfiguration. In der System-Administration schränken Sie den Zugang auf Personen mit bestimmten Attributen ein und finden den Direktlink für die Anmeldung über Shibboleth:<br>
-`Administration > Login > Shibboleth`
-
-[Zu den Details >](../../administration/Login_Shibboleth.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
-
-
-## LDAP {: #ldap}
-
-Führt Ihre Organisation ihre Konten in einem Verzeichnis wie Active Directory, übernimmt OpenOlat sie über LDAP und prüft die Anmeldung gegen das Verzeichnis. Die Verbindung zum Verzeichnis steht in der Serverkonfiguration. In der System-Administration starten Sie die Synchronisation von Hand und entfernen Konten, die im Verzeichnis fehlen:<br>
-`Administration > Login > LDAP`
-
-[Zu den Details >](../../administration/Login_LDAP.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
-
-
-## Anonyme und externe Benutzer:innen [:octicons-tag-16:{ title="ab Release 10.2 (OO-1362)" }](https://track.frentix.com/issue/OO-1362) {: #anonymous_and_external}
-
-Hier legen Systemadministrator:innen fest, ob und wie weit anonyme Gäste und externe Benutzer:innen OpenOlat nutzen.
-
-[Zu den Details >](../../administration/Guest_and_invitation.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
-
-
-## Selbstregistration [:octicons-tag-16:{ title="ab Release 8.1.1 (OO-226)" }](https://track.frentix.com/issue/OO-226) {: #self-registration}
-
-Sollen Personen ihr Konto selbst anlegen, schalten Systemadministrator:innen hier die Selbstregistration ein und legen die Einstellungen dazu fest. Die Adresse der Selbstregistrierung lässt sich auch auf einer Website oder in einer E-Mail einsetzen. Mit dem Feld "Gültigkeitsdauer der Logindaten" begrenzen Sie, wie lange ein Konto aus der Selbstregistrierung gültig bleibt.
-
-[Zu den Details >](../../administration/Login_Self-Registration.de.md)<br>
-[Zum Seitenanfang ^](#login)
-
 
 
 ## SMS [:octicons-tag-16:{ title="ab Release 11.3 (OO-2452)" }](https://track.frentix.com/issue/OO-2452) {: #sms}

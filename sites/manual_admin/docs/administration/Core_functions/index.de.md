@@ -2,7 +2,7 @@
 
 ![Grundeinstellungen des ganzen Systems in sechzehn Bereichen, von Sprache und Region bis Lizenzen, im aufgeklappten Menü Core-Konfiguration der System-Administration](../assets/admin_core_config_overview_v4_de.png){ width="196" class="shadow lightbox aside-left-lg" title="Menü Core-Konfiguration in der System-Administration · 2026.10.22" }
 
-In der Core-Konfiguration legen Systemadministrator:innen die Grundeinstellungen fest, die für das ganze System gelten: von Sprache und Startseite über E-Mail und Dateien bis zu den Schnittstellen, über die andere Systeme auf OpenOlat zugreifen. Die Abschnitte dieser Seite folgen der Reihenfolge des Menüs. Sie finden das Menü in der System-Administration unter:<br>
+In der Core-Konfiguration legen Systemadministrator:innen die Grundeinstellungen fest, die für das ganze System gelten: von Sprache und Startseite über E-Mail und Dateien bis zu den Schnittstellen, über die andere Systeme auf OpenOlat zugreifen. Sie finden das Menü in der System-Administration unter:<br>
 `Administration > Core-Konfiguration`
 
 ## Steckbrief
@@ -11,24 +11,39 @@ Name | Core-Konfiguration
 ---------|----------
 Verfügbar seit | Release 8.0 (2012)
 
-## Sprache und Region
+
+## Menüpunkte {: #menu_items}
+
+Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er dient, und führt Sie mit dem Link zu seiner Beschreibung. Die Tabelle folgt der Reihenfolge des Menüs "Core-Konfiguration". Menüpunkte ohne eigene Seite beschreibt diese Seite weiter unten, in derselben Reihenfolge.
+
+| Menüpunkt | Wozu |
+|---|---|
+| [Sprache und Region](#language_region) | Die Standardsprache und die wählbaren Sprachen festlegen, Sprachpakete übertragen, die geschlechtergerechte Sprache wählen und das Zahlenformat bestimmen. Beschrieben weiter unten auf dieser Seite. |
+| [REST API](../REST_API.de.md) | Die Schnittstelle ein- und ausschalten, über die andere Systeme wie eine Schülerverwaltung ihre Daten mit OpenOlat austauschen, die extern verwalteten Objekte bestimmen und die protokollierten Aufrufe auswerten. |
+| [MCP-Server](#mcp_server) | Den Zugang aus einem KI-Client auf OpenOlat einschalten und festlegen, welche MCP-Tools welche Personen erhalten. Beschrieben weiter unten auf dieser Seite. |
+| [Startseite](../Landing_pages.de.md) | Für Rollen oder für Benutzer:innen mit bestimmten Benutzerattributen die Seite vorgeben, die nach dem Login öffnet. |
+| [Persönliche Werkzeuge](#personal_tools) | Festlegen, welche Werkzeuge den Benutzer:innen zur Verfügung stehen und welche davon standardmässig in der Menüleiste erscheinen. Beschrieben weiter unten auf dieser Seite. |
+| [Kalender](#calendar_administration) | Den Kalender für das ganze System oder für einzelne Orte ein- oder ausschalten. Beschrieben weiter unten auf dieser Seite. |
+| [WebSocket](#websocket) | Die ständige Verbindung zwischen Browser und Server einschalten, über die Änderungen sofort erscheinen. Beschrieben weiter unten auf dieser Seite. |
+| [E-Mail](../E-Mail_Settings.de.md) | Die Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach festlegen und das Aussehen der versendeten E-Mails bestimmen. |
+| [Dateien und Ordner](../Files_and_Folders.de.md) | Festlegen, wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbewahrt und wann der Papierkorb endgültig geleert wird. |
+| [WebDAV](../WebDAV.de.md) | Den Zugang einschalten und einrichten, über den Benutzer:innen von ihrem Computer aus auf ihre Ordner in OpenOlat zugreifen. |
+| [Zugangskontrolle](#access_control) | Die Zugangskontrolle über Angebote einschalten und die Angebotsarten wählen, die zur Verfügung stehen. Beschrieben weiter unten auf dieser Seite. |
+| [Statistiken](#statistics) | Die Statistiken von Hand aktualisieren oder komplett neu berechnen. Beschrieben weiter unten auf dieser Seite. |
+| [Volltextsuche](#full_text_search) | Die Indexierung für die Volltextsuche starten oder stoppen und die Dateitypen wählen, die in die Suche eingehen. Beschrieben weiter unten auf dieser Seite. |
+| [Benachrichtigungen](#notifications) | Sehen, wann OpenOlat die E-Mails zu Abonnements verschickt, und einen Versand sofort auslösen. Beschrieben weiter unten auf dieser Seite. |
+| [GUI-Einstellungen](#gui_settings) | Die gespeicherten Einstellungen der Oberfläche für alle Benutzer:innen zurücksetzen. Beschrieben weiter unten auf dieser Seite. |
+| [Lizenzen](../Licenses.de.md) | Lizenzen für Ordner, den Fragenpool und Lernressourcen einschalten und die Lizenztypen verwalten. |
+
+[Zum Seitenanfang ^](#core_config)
+
+
+## Sprache und Region {: #language_region}
 
 In welcher Sprache Benutzer:innen OpenOlat sehen, legen Systemadministrator:innen hier fest: die Standardsprache und die Sprachen, die zur Wahl stehen. Mit "Sprachpakete importieren" und "Sprachpakete exportieren" übertragen sie Sprachen zwischen OpenOlat Systemen. Unter "Geschlechtergerechte Sprache" wählen sie, wie Personenbezeichnungen in der Oberfläche geschrieben werden.
 
 Im Abschnitt "Formate" legen Systemadministrator:innen das "Zahlenformat" fest. Es bestimmt, mit welchen Tausender- und Dezimaltrennzeichen OpenOlat Zahlen und Preise systemweit anzeigt. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8470)" }](https://track.frentix.com/issue/OO-8470)
 
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## REST API
-
-!!! info "frentix-Kund:innen"
-    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
-
-Andere Systeme wie eine Schülerverwaltung oder eine externe Kursverwaltung tauschen ihre Daten über die REST API (Representational State Transfer) mit OpenOlat aus. Hier schalten Systemadministrator:innen die REST API ein und aus, bestimmen die extern verwalteten Objekte und werten im Tab "Audit-Log" die protokollierten Aufrufe aus.
-
-[Zu den Details >](../../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -47,15 +62,6 @@ Der MCP-Server ist ausgeschaltet, bis Systemadministrator:innen ihn mit dem Scha
 Personen mit Zugang über ein Profil erstellen ihre Tokens selbst in den [Einstellungen](../../../manual_user/personal_menu/Settings.de.md) des persönlichen Menüs, im Tab "MCP". Ist der MCP-Server eingeschaltet, sehen Administrator:innen und Benutzerverwalter:innen die Tokens, Profile und wirksamen Tools einer Person in der Benutzerverwaltung unter:<br>
 `Benutzerverwaltung > "Benutzername" > Tab "MCP"`
 
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## Startseite [:octicons-tag-16:{ title="ab Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
-
-Damit jede Person nach dem Login dort beginnt, wo sie arbeitet, geben Systemadministrator:innen für Rollen oder für Benutzer:innen mit bestimmten Benutzerattributen eine Startseite vor.
-
-[Zu den Details >](../../administration/Landing_pages.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 
@@ -96,36 +102,7 @@ Der Schalter "WebSocket" auf der Seite "WebSocket Konfiguration" schaltet die Ve
 
 
 
-## E-Mail
-
-Wie OpenOlat E-Mails verschickt und wie sie aussehen, legen Systemadministrator:innen hier fest. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
-
-[Zu den Details >](../../administration/E-Mail_Settings.de.md)<br>
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## Dateien und Ordner [:octicons-tag-16:{ title="ab Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375)
-
-Wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbewahrt und wann der Papierkorb endgültig geleert wird, legen Systemadministrator:innen hier fest. Die Seite hat fünf Tabs: "Überblick", "Konfiguration", "Quotas", "Grosse Dateien" und "Papierkorb".
-
-![Fünf Tabs Überblick, Konfiguration, Quotas, Grosse Dateien und Papierkorb, der Tab Überblick ist gewählt](../assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" title="Seite Dateien und Ordner in der Core-Konfiguration" }
-
-[Zu den Details >](../../administration/Files_and_Folders.de.md)<br>
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## WebDAV
-
-Über WebDAV (Web-based Distributed Authoring and Versioning) greifen Benutzer:innen von ihrem Computer aus auf ihre Ordner in OpenOlat zu. Hier schalten Systemadministrator:innen den WebDAV-Zugang systemweit ein und legen fest, wie er funktioniert.
-
-[Zu den Details >](../../administration/WebDAV.de.md)<br>
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## Zugangskontrolle
+## Zugangskontrolle {: #access_control}
 
 !!! info "frentix-Kund:innen"
     Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix diese Konfiguration.
@@ -136,7 +113,7 @@ Wie viel Speicherplatz Ordner belegen dürfen, wie OpenOlat Dateiversionen aufbe
 
 
 
-## Statistiken
+## Statistiken {: #statistics}
 
 Sollen die Statistiken vor dem nächsten geplanten Lauf aktuell sein, lösen Systemadministrator:innen die Aktualisierung hier selbst aus. Die Seite zeigt, ob die Statistikgenerierung eingeschaltet ist und wann die Statistiken zuletzt aktualisiert wurden. "Statistiken inkrementell updaten" ergänzt sie um die neuen Daten, "Statistiken komplett neu berechnen" berechnet sie von Grund auf neu.
 
@@ -144,7 +121,7 @@ Sollen die Statistiken vor dem nächsten geplanten Lauf aktuell sein, lösen Sys
 
 
 
-## Volltextsuche
+## Volltextsuche {: #full_text_search}
 
 Damit die Volltextsuche auch Inhalte von Dateien findet, indexiert OpenOlat diese regelmässig. Hier sehen Systemadministrator:innen den Stand der Indexierung und starten oder stoppen sie mit "Indexierung starten" und "Indexierung stoppen". Mit den Checkboxen "Excel Dateien indexieren", "Powerpoint Dateien indexieren" und "PDF Dateien indexieren" legen sie fest, welche dieser Dateitypen in die Suche eingehen.
 
@@ -178,19 +155,10 @@ Die beiden Einstellungen ergänzen sich, sie überschreiben sich nicht. Wer "aus
 
 
 
-## GUI-Einstellungen
+## GUI-Einstellungen {: #gui_settings}
 
 GUI-Einstellungen (Graphical User Interface) halten fest, wie eine Person die Oberfläche eingerichtet hat. Hier setzen Systemadministrator:innen sie für alle Benutzer:innen zurück. Die Tabelle fasst die gespeicherten Einträge je "Zugeordnete Klasse" mit ihrer "Anzahl Einträge" zusammen. "Zurücksetzen" löscht die Einträge einer Zeile, "Mehrere Einträge zurücksetzen" die Einträge der ausgewählten Zeilen.
 
-[Zum Seitenanfang ^](#core_config)
-
-
-
-## Lizenzen [:octicons-tag-16:{ title="ab Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
-
-Eine Lizenz zeigt, unter welchen Bedingungen andere eine Datei, eine Frage oder eine Lernressource verwenden dürfen. Lizenzen sind in OpenOlat optional. Hier schalten Systemadministrator:innen sie für Ordner, den Fragenpool und Lernressourcen ein und verwalten die Lizenztypen.
-
-[Zu den Details >](../../administration/Licenses.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
 

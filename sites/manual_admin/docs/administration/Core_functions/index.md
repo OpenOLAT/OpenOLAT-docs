@@ -2,7 +2,7 @@
 
 ![Basic settings of the whole system in sixteen areas, from language and region to licenses, in the expanded Core functions menu of the system administration](../assets/admin_core_config_overview_v4_en.png){ width="196" class="shadow lightbox aside-left-lg" title="Core functions menu in the system administration · 2026.10.22" }
 
-In the Core functions, system administrators define the basic settings that apply to the whole system: from language and landing pages to e-mail and files, up to the interfaces through which other systems access OpenOlat. The sections of this page follow the order of the menu. You find the menu in the system administration under:<br>
+In the Core functions, system administrators define the basic settings that apply to the whole system: from language and landing pages to e-mail and files, up to the interfaces through which other systems access OpenOlat. You find the menu in the system administration under:<br>
 `Administration > Core functions`
 
 ## Profile
@@ -11,24 +11,39 @@ Name | Core functions
 ---------|----------
 Available since | Release 8.0 (2012)
 
-## Language and region
+
+## Menu items {: #menu_items}
+
+If you are looking for a menu item, the overview tells you in one sentence what it is for, and the link takes you to its description. The table follows the order of the menu "Core functions". Menu items without a page of their own are described further down on this page, in the same order.
+
+| Menu item | Purpose |
+|---|---|
+| [Language and region](#language_region) | Define the default language and the languages users can choose from, transfer language packages, choose the gender-sensitive language and determine the number format. Described further down on this page. |
+| [REST API](../REST_API.md) | Switch on and off the interface through which other systems such as a student administration exchange their data with OpenOlat, determine the externally managed objects and evaluate the logged calls. |
+| [MCP server](#mcp_server) | Switch on the access from an AI client to OpenOlat and define which MCP tools which users get. Described further down on this page. |
+| [Landing pages](../Landing_pages.md) | Preset the page that opens after the login for roles or for users with certain user attributes. |
+| [User tools](#personal_tools) | Define which tools are available to users and which of them appear by default in the menu bar. Described further down on this page. |
+| [Calendar](#calendar_administration) | Switch the calendar on or off for the whole system or for individual places. Described further down on this page. |
+| [WebSocket](#websocket) | Switch on the permanent connection between browser and server through which changes appear at once. Described further down on this page. |
+| [E-mail](../E-Mail_Settings.md) | Define the requirements for the e-mail address and the OpenOlat mailbox and determine the look of the e-mails sent. |
+| [Files and folders](../Files_and_Folders.md) | Define how much storage space folders may use, how OpenOlat keeps file versions and when the trash is emptied for good. |
+| [WebDAV](../WebDAV.md) | Switch on and set up the access through which users access their folders in OpenOlat from their computer. |
+| [Access control](#access_control) | Switch on access control via offers and choose the offer types that are available. Described further down on this page. |
+| [Statistics](#statistics) | Update the statistics by hand or recalculate them completely. Described further down on this page. |
+| [Full-text search](#full_text_search) | Start or stop the indexing for the full-text search and choose the file types that are included in the search. Described further down on this page. |
+| [Notifications](#notifications) | See when OpenOlat sends the e-mails on subscriptions, and trigger a sending immediately. Described further down on this page. |
+| [GUI preferences](#gui_settings) | Reset the stored settings of the user interface for all users. Described further down on this page. |
+| [Licenses](../Licenses.md) | Switch on licenses for folders, the question bank and learning resources and manage the license types. |
+
+[To the top of the page ^](#core_config)
+
+
+## Language and region {: #language_region}
 
 In which language users see OpenOlat, system administrators define here: the default language and the languages users can choose from. With "Import language packages" and "Export language packages" they transfer languages between OpenOlat systems. Under "Gender-sensitive language" they choose how designations of persons are written in the user interface.
 
 In the section "Formats" system administrators define the "Number format". It determines which thousands separator and decimal separator OpenOlat uses to display numbers and prices system-wide. [:octicons-tag-16:{ title="from Release 20.0 (OO-8470)" }](https://track.frentix.com/issue/OO-8470)
 
-[To the top of the page ^](#core_config)
-
-
-
-## REST API
-
-!!! info "frentix customers"
-    For frentix customers, their customer advisor at frentix takes care of this configuration.
-
-Other systems such as a student administration or an external course administration exchange their data with OpenOlat via the REST API (Representational State Transfer). Here system administrators switch the REST API on and off, determine the externally managed objects and evaluate the logged calls in the tab "Audit log".
-
-[See the details >](../../administration/REST_API.md)<br>
 [To the top of the page ^](#core_config)
 
 
@@ -47,15 +62,6 @@ The MCP server is switched off until system administrators switch it on with the
 Users with access through a profile create their tokens themselves in the [Settings](../../../manual_user/personal_menu/Settings.md) of the personal menu, in the tab "MCP". When the MCP server is switched on, administrators and user managers see the tokens, profiles and effective tools of a user in the user management under:<br>
 `User management > "Username" > Tab "MCP"`
 
-[To the top of the page ^](#core_config)
-
-
-
-## Landing pages [:octicons-tag-16:{ title="from Release 10.0 (OO-986)" }](https://track.frentix.com/issue/OO-986)
-
-So that every person starts where they work after the login, system administrators preset a landing page for roles or for users with certain user attributes.
-
-[See the details >](../../administration/Landing_pages.md)<br>
 [To the top of the page ^](#core_config)
 
 
@@ -96,36 +102,7 @@ The toggle "WebSocket" on the page "Configuration WebSocket" switches the connec
 
 
 
-## E-mail
-
-How OpenOlat sends e-mails and how they look, system administrators define here. The page has two segments: "Settings" with the requirements for the e-mail address and the OpenOlat mailbox, and "E-mail template" with the look of the e-mails sent.
-
-[See the details >](../../administration/E-Mail_Settings.md)<br>
-[To the top of the page ^](#core_config)
-
-
-
-## Files and folders [:octicons-tag-16:{ title="from Release 14.2 (OO-4375)" }](https://track.frentix.com/issue/OO-4375)
-
-How much storage space folders may use, how OpenOlat keeps file versions and when the trash is emptied for good, system administrators define here. The page has five tabs: "Overview", "Configuration", "Quotas", "Large files" and "Trash".
-
-![Five tabs Overview, Configuration, Quotas, Large files and Trash, the Overview tab is selected](../assets/core_config_files_and_folders_tab_overview_v1_en.png){ class="shadow lightbox" title="Files and folders page in the Core functions" }
-
-[See the details >](../../administration/Files_and_Folders.md)<br>
-[To the top of the page ^](#core_config)
-
-
-
-## WebDAV
-
-With WebDAV (Web-based Distributed Authoring and Versioning) users access their folders in OpenOlat from their computer. Here system administrators switch WebDAV access on system-wide and define how it works.
-
-[See the details >](../../administration/WebDAV.md)<br>
-[To the top of the page ^](#core_config)
-
-
-
-## Access control
+## Access control {: #access_control}
 
 !!! info "frentix customers"
     For frentix customers, their customer advisor at frentix takes care of this configuration.
@@ -136,7 +113,7 @@ Through offers, persons get access to learning resources and groups. With "Enabl
 
 
 
-## Statistics
+## Statistics {: #statistics}
 
 If the statistics should be up to date before the next scheduled run, system administrators trigger the update here themselves. The page shows whether the statistics generation is switched on and when the statistics were last updated. "Update statistics incrementally" adds the new data, "Recalculate statistics" calculates them anew from scratch.
 
@@ -144,7 +121,7 @@ If the statistics should be up to date before the next scheduled run, system adm
 
 
 
-## Full-text search
+## Full-text search {: #full_text_search}
 
 So that the full-text search also finds the content of files, OpenOlat indexes them regularly. Here system administrators see the status of the indexing and start or stop it with "Start indexing" and "Stop indexing". With the checkboxes "Index Excel files", "Index Powerpoint files" and "Index PDF files" they define which of these file types are included in the search.
 
@@ -178,19 +155,10 @@ The two settings complement each other, they do not override each other. Anyone 
 
 
 
-## GUI preferences
+## GUI preferences {: #gui_settings}
 
 GUI preferences (Graphical User Interface) record how a person has set up the user interface. Here system administrators reset them for all users. The table groups the stored entries by "Attributed class" with their "Number of entries". "Reset" deletes the entries of one row, "Bulk reset" the entries of the selected rows.
 
-[To the top of the page ^](#core_config)
-
-
-
-## Licenses [:octicons-tag-16:{ title="from Release 12.4 (OO-3170)" }](https://track.frentix.com/issue/OO-3170)
-
-A license shows under which conditions others may use a file, a question or a learning resource. Licenses are optional in OpenOlat. Here system administrators switch them on for folders, the question bank and learning resources and manage the license types.
-
-[See the details >](../../administration/Licenses.md)<br>
 [To the top of the page ^](#core_config)
 
 
