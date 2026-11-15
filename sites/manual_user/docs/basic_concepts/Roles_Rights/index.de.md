@@ -1,19 +1,24 @@
-# Rollen und Rechte: Übersicht {: #overview} 
+# Rollen und Rechte: Übersicht {: #overview}
 
-Die Hauptnavigation von OpenOlat ist rollenabhängig: Jede Aufgabe hat ihren eigenen **Arbeitsbereich**.<br>
-[Zu den Details >](../Roles_Home_Areas.de.md)
+Was eine Person in OpenOlat sieht und tun darf, hängt von ihrem Benutzertyp und von ihren Rollen ab. In OpenOlat gibt es 3 Benutzertypen. Insbesondere die registrierten Benutzer:innen können verschiedene Rollen erhalten, und an jede Rolle sind bestimmte Rechte geknüpft, auch Rechte in Kursen. Die Hauptnavigation ist deshalb rollenabhängig: Jede Aufgabe hat ihren eigenen Arbeitsbereich.
 
-In OpenOlat gibt es 3 **Benutzertypen**.<br>
-[Zu den Details >](../User_Types.de.md)
+Suchen Sie eine Antwort zu Rollen und Rechten, sagt Ihnen die Tabelle, auf welcher Seite sie steht. Die Tabelle folgt der Reihenfolge der Navigation.
 
-Insbesondere die registrierten Benutzer:innen können verschiedene **Rollen** erhalten.<br>
-[Zu den Details >](../Roles/index.de.md)
+| Seite | Wozu |
+|---|---|
+| [Arbeitsbereiche](../Roles_Home_Areas.de.md) | Nachsehen, in welchem Bereich der Hauptnavigation jede Rolle arbeitet und warum zwei Personen nach dem Login verschiedene Menüs sehen. |
+| [Benutzertypen](../User_Types.de.md) | Die 3 Benutzertypen unterscheiden: registrierte Benutzer:innen, externe Benutzer:innen und anonyme Gäste. |
+| [Rollen](../Roles/index.de.md) | Nachschlagen, was jede Rolle erlaubt und wo sie gilt: in der Organisation, im Kurs, in der Gruppe, im Course Planner oder in einer Beziehung zwischen Personen. |
+| [Rollen zuweisen](../Assign_Roles.de.md) | Nachsehen, wo Sie eine Rolle vergeben: Organisationsrollen meist in der Benutzerverwaltung, Kursrollen in der Mitgliederverwaltung des Kurses, weitere Rollen an anderen Stellen. |
+| [Rechte in Kursen](../Authorisation_Concept.de.md) | Nachschlagen, worauf Besitzer:innen, Betreuer:innen, Teilnehmer:innen und die organisationsweiten Rollen in einem Kurs zugreifen, je nach Status des Kurses. |
+| [Gastzugang](../guest_access.de.md) | Lernenden, deren Daten nicht gespeichert werden müssen, ohne OpenOlat-Konto als anonyme Gäste Zugang zu herkömmlichen Kursen und anderen Lernressourcen geben. Den Gastzugang schalten die Systemadministrator:innen ein. |
 
-Die **Zuweisung der Rollen** erfolgt meist in der Benutzerverwaltung, je nach Rolle aber auch an anderen Stellen.<br>
-[Zu den Details >](../Assign_Roles.de.md)
+[Zum Seitenanfang ^](#overview)
 
-An die Rollen sind jeweils bestimmte Rechte geknüpft. Auch die **Rechte in Kursen**.<br>
-[Zu den Details >](../Authorisation_Concept.de.md)
 
-Für Lernende, deren Daten nicht gespeichert werden müssen, kann auch ein anonymer **Gastzugang** genutzt werden.<br>
-[Zu den Details >](../guest_access.de.md)
+## Weiterführende Informationen {: #further_information}
+
+[Rollen zuweisen (Administrationshandbuch) >](../../../manual_admin/usermanagement/Assign_roles.de.md)<br>
+[Course Planner: Übersicht >](../../area_modules/Course_Planner/index.de.md)
+
+[Zum Seitenanfang ^](#overview)

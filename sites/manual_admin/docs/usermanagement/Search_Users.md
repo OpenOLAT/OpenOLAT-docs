@@ -68,7 +68,7 @@ The entries for absence managers, project managers, quality managers, question b
 We distinguish three course roles:
 
   * Course owners
-  * [Course coaches](../../manual_user/basic_concepts/Roles_Rights/index.md#course-rights-and-roles) and
+  * [Course coaches](../../manual_user/basic_concepts/Roles/index.md#coach) and
   * Course participants
 
 The members of the respective roles can be displayed and edited here.
@@ -234,7 +234,7 @@ The "Account" tab of a single person carries the same periods, see [Manage user 
 
 **Mentioned on this page**<br>
 [Delete user >](Delete_User.md)<br>
-[Roles and rights >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
+[Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Group administration >](../../manual_user/groups/Group_Administration/index.md)<br>
 [Modules >](../administration/Modules/index.md)<br>
 [General information on the search >](../../manual_user/basic_concepts/Search_General/index.md)<br>

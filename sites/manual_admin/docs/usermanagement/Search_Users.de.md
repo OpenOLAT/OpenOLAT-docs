@@ -67,7 +67,7 @@ Die Einträge für Absenzenverwalter:innen, Projektverwalter:innen, Qualitätsve
 Es werden drei Kursrollen unterschieden:
 
   * Kursbesitzer:innen
-  * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles_Rights/index.de.md#kursbezogene-rollen-und-rechte) und
+  * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles/index.de.md#coach) und
   * Kursteilnehmer:innen
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet werden.
@@ -232,7 +232,7 @@ Dieselben Fristen führt der Reiter "Konto" einer einzelnen Person, siehe [Konto
 
 **Auf dieser Seite erwähnt**<br>
 [Benutzer:in löschen >](Delete_User.de.md)<br>
-[Rollen und Rechte >](../../manual_user/basic_concepts/Roles_Rights/index.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Gruppenverwaltung >](../../manual_user/groups/Group_Administration/index.de.md)<br>
 [Module >](../administration/Modules/index.de.md)<br>
 [Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General/index.de.md)<br>
