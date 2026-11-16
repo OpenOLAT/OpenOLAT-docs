@@ -4,7 +4,7 @@ Ist das Konto einer Person angelegt, geben Sie ihr die Rollen, die sie für ihre
 
 Suchen Sie die Person in der Benutzerverwaltung und öffnen Sie ihr Konto:<br>
 `Benutzerverwaltung > "Name der Person" > Rollen`<br>
-Das Konto öffnet sich auf der Seite "Kontoeinstellungen verwalten" mit mehreren Reitern. Im Reiter "[Rollen](../../manual_user/basic_concepts/Roles_Rights/index.de.md)" ordnen Sie der Person die gewünschten Rollen zu.
+Das Konto öffnet sich auf der Seite "Kontoeinstellungen verwalten" mit mehreren Reitern. Im Reiter "[Rollen](../../manual_user/basic_concepts/Roles/index.de.md#org)" ordnen Sie der Person die gewünschten Rollen zu.
 
 Welche Rechte eine Rolle mit sich bringt, beschreibt das Benutzerhandbuch: [Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles/index.de.md) für die Organisationsrollen und [Rechte in Kursen](../../manual_user/basic_concepts/Authorisation_Concept.de.md) für die Rollen in einem Kurs.
 

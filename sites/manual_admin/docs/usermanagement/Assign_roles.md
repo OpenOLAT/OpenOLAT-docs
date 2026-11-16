@@ -4,7 +4,7 @@ Once a person's account has been created, you give them the roles they need for 
 
 Search for the person in the user management and open their account:<br>
 `User management > "Name of the person" > Roles`<br>
-The account opens on the page "Manage user settings" with several tabs. In the "[Roles](../../manual_user/basic_concepts/Roles_Rights/index.md)" tab you assign the desired roles to the person.
+The account opens on the page "Manage user settings" with several tabs. In the "[Roles](../../manual_user/basic_concepts/Roles/index.md#org)" tab you assign the desired roles to the person.
 
 The user manual describes which rights a role brings with it: [Which roles are available?](../../manual_user/basic_concepts/Roles/index.md) for the organisation roles and [Authorisation in courses](../../manual_user/basic_concepts/Authorisation_Concept.md) for the roles in a course.
 

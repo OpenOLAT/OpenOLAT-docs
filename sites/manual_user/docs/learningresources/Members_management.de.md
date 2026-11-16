@@ -80,7 +80,7 @@ Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In die
 
 ![Rollenwechsel-Menü in der Toolbar mit den verfügbaren Rollen Besitzer:in, Betreuer:in und Kursplaner:in](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Rollenwechsel-Menü in der Toolbar" }
 
-Besitzt die Person noch darüber hinausgehende [System-Rollen](../basic_concepts/Roles_Rights/index.de.md), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
+Besitzt die Person noch darüber hinausgehende [System-Rollen](../basic_concepts/Roles/index.de.md#org), wie Lernressourcenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
 
 
 ### Mitglieder hinzufügen {: #add_members}

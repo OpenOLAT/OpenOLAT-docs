@@ -79,7 +79,7 @@ A course member can hold multiple roles in a course at the same time. In this ca
 
 ![Role switch menu in the toolbar with the available roles Owner, Coach, and Course planner](assets/Rollenwechsel_20.jpg){ class="shadow lightbox" title="Role switch menu in the toolbar" }
 
-If the person has additional [system roles](../basic_concepts/Roles_Rights/index.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
+If the person has additional [system roles](../basic_concepts/Roles/index.md#org), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
 
 ### Adding members {: #add_members}
