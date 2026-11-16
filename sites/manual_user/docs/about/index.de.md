@@ -4,7 +4,7 @@ Dieses Handbuch macht Sie mit OpenOlat vertraut und erklärt Ihnen dessen Funkti
 
 Das OpenOlat-Handbuch ist für Personen geschrieben, die aus verschiedensten Gründen Interesse an E-Learning und dem Einsatz von OpenOlat haben. Wenn Sie noch nie mit OpenOlat (ehemals OLAT) gearbeitet haben, wird Ihnen hier erklärt, wie Sie schrittweise in die Nutzung der Lernplattform einsteigen können. Dazu zählt die Recherche nach gewünschten Lerninhalten, deren Bearbeitung sowie der Einsatz kollaborativer Werkzeuge.
 
-Möglicherweise kennen Sie OLAT als Benutzer und möchten nun selbst Lerninhalte in OpenOlat zur Verfügung stellen. Dann können die Kapitel zu Lernressourcen, Kurserstellung, Kursbausteinen und Kurseditor, Testerstellung sowie Kursbetrieb Ihre Arbeit unterstützen.
+Möglicherweise haben Sie OLAT bisher genutzt und möchten nun selbst Lerninhalte in OpenOlat zur Verfügung stellen. Dann können die Kapitel zu Lernressourcen, Kurserstellung, Kursbausteinen und Kurseditor, Testerstellung sowie Kursbetrieb Ihre Arbeit unterstützen.
 
 Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewerk. Orientieren Sie sich am Inhaltsverzeichnis, um möglichst schnell an die gewünschte Stelle zu gelangen.
 
@@ -17,7 +17,7 @@ Normalerweise wird in diesem Handbuch die männliche und weibliche Form verwende
 
 #### Handbuch Link
 
-Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren Hilfeseiten, je nach Konfiguration durch Systemadministrator:innen. Klicken Sie auf das Fragezeichen :o_icon_o_icon_help: und wählen Sie "OpenOlat Handbuch". Ist nur das Handbuch als Hilfe eingerichtet, steht dort direkt das Handbuch-Symbol :o_icon_o_icon_manual:.
+Rechts oben in der Hauptnavigation besteht jederzeit Zugang zum OpenOlat Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren Hilfeseiten, je nach Konfiguration durch Systemadministrator:innen. Klicken Sie auf das Fragezeichen :o_icon_o_icon_help: und wählen Sie "OpenOlat Handbuch". Ist nur das Handbuch als Hilfe eingerichtet, steht dort direkt das Handbuch-Symbol :o_icon_o_icon_manual:.
 
 !!! info "Wichtig"
 
@@ -32,19 +32,19 @@ Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch zu
 
 Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen, die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B. einzelnen Formularfeldern geben. Wenn Sie dieses Icon :o_icon_o_icon_help: neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines Tests im Kurseditor:
 
-![Tooltip zum Feld Korrektur mit Erklärung zu automatischer und manueller Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px }
+![Tooltip zum Feld Korrektur mit Erklärung zu automatischer und manueller Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px title="Kursbaustein Test im Kurseditor" }
 
 
 #### Hellgrauer Text innerhalb von Feldern...
 
-![Eingabefeld mit hellgrauem Platzhaltertext "Suchen" als Hinweis zum Ausfüllen](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px }
+![Eingabefeld mit hellgrauem Platzhaltertext "Suchen" als Hinweis zum Ausfüllen](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px title="Suchfeld" }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen,
 
 
 #### Hellgrauer Text unterhalb von Feldern 
 
-![Feld "Titel im Kursmenü" mit hellgrauem Hinweistext "Max. 25 Zeichen" darunter](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px }
+![Feld "Titel im Kursmenü" mit hellgrauem Hinweistext "Max. 25 Zeichen" darunter](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px title="Kurseditor, Tab Titel und Beschreibung" }
 
 stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 

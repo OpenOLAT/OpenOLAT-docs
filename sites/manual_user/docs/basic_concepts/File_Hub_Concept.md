@@ -32,7 +32,7 @@ The File Hub arranges the storage locations in four branches: courses, groups, p
 The folders and files are displayed in the File Hub according to individual, personal permissions. This is why the File Hub is one of the user tools. You open it in the personal menu under:<br>
 `Personal menu > User tools > File Hub`
 
-![Arrow pointing to the profile picture at the top right, which opens the personal menu](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Menu bar in the Courses site" }
+![Arrow pointing to the profile picture at the top right, which opens the personal menu](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Main navigation in the Courses site" }
 
 ![Entry File Hub highlighted under User tools, behind it the start page of the File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" title="Opened personal menu" }
 

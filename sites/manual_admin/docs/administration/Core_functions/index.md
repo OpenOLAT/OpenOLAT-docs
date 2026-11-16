@@ -22,7 +22,7 @@ If you are looking for a menu item, the overview tells you in one sentence what 
 | [REST API](../REST_API.md) | Switch on and off the interface through which other systems such as a student administration exchange their data with OpenOlat, determine the externally managed objects and evaluate the logged calls. |
 | [MCP server](#mcp_server) | Switch on the access from an AI client to OpenOlat and define which MCP tools which users get. Described further down on this page. |
 | [Landing pages](../Landing_pages.md) | Preset the page that opens after the login for roles or for users with certain user attributes. |
-| [User tools](#personal_tools) | Define which tools are available to users and which of them appear by default in the menu bar. Described further down on this page. |
+| [User tools](#personal_tools) | Define which tools are available to users and which of them appear by default in the main navigation. Described further down on this page. |
 | [Calendar](#calendar_administration) | Switch the calendar on or off for the whole system or for individual places. Described further down on this page. |
 | [WebSocket](#websocket) | Switch on the permanent connection between browser and server through which changes appear at once. Described further down on this page. |
 | [E-mail](../E-Mail_Settings.md) | Define the requirements for the e-mail address and the OpenOlat mailbox and determine the look of the e-mails sent. |
@@ -68,9 +68,9 @@ Users with access through a profile create their tokens themselves in the [Setti
 
 ## User tools [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
-Which [tools](../../../manual_user/personal_menu/index.md) are available to users at all, system administrators define in the list "Available tools". In the list "Preset" they choose which of these tools appear by default as an icon in the menu bar.
+Which [tools](../../../manual_user/personal_menu/index.md) are available to users at all, system administrators define in the list "Available tools". In the list "Preset" they choose which of these tools appear by default as an icon in the main navigation. Chat, Search and "Coach's notifications" are not in this list: OpenOlat places them in the main navigation itself as soon as they are available.
 
-![All 24 tools of the Available tools list selected: here the administration releases which tools the users can choose from at all](../assets/core_functions_user_tools_available_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Available tools list on the User tools page · 2026.11.16" } ![Calendar, booking orders, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](../assets/core_functions_user_tools_preset_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Preset list on the User tools page · 2026.11.16" }
+![All 24 tools of the Available tools list selected: here the administration releases which tools the users can choose from at all](../assets/core_functions_user_tools_available_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Available tools list on the User tools page · 2026.11.16" } ![Calendar, booking orders, help and print are preselected and therefore sit in the main navigation, the others the users activate themselves](../assets/core_functions_user_tools_preset_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Preset list on the User tools page · 2026.11.16" }
 
 [To the top of the page ^](#core_config)
 

@@ -55,7 +55,7 @@ The tool for this is the **Supervisor chat**. As the course owner, you configure
 ![Form Supervisor chat with Allow requests from participants set to Yes and global notification for the coaches](assets/communication_during_exam_author1_v1_de.png){ class="shadow lightbox" title="Tab Communication of the course element Test in the course editor" }
 
 * **Allow requests from participants**: With "Yes", exam participants and coaches can start requests via chat. With "No", only coaches start a chat.
-* **Enable global notification for**: For new chat activities, OpenOlat informs the selected course roles, owners or coaches, in the global menu bar. The coaches are preselected.
+* **Enable global notification for**: For new chat activities, OpenOlat informs the selected course roles, owners or coaches, in the main navigation. The coaches are preselected.
 
 The Supervisor chat during exams works regardless of whether the general chat function is activated in the OpenOlat instance or not.
 
@@ -148,7 +148,7 @@ Exam participants will then receive an invitation and can accept it.
 
 It is possible for coaches to supervise several exams taking place at the same time. For example, a subject expert can be available for subject-related problems, while other coaches take on the organizational tasks of the exam supervision.
 
-So that this person does not have to switch to the different courses to check the chats there, OpenOlat informs them about new chat activities in the global menu bar. The prerequisite is that their course role is selected under "Enable global notification for", see [Set up communication channels as course owner/author](#author).
+So that this person does not have to switch to the different courses to check the chats there, OpenOlat informs them about new chat activities in the main navigation. The prerequisite is that their course role is selected under "Enable global notification for", see [Set up communication channels as course owner/author](#author).
 
 However, when the exams are over, these notes are also gone. They are only available during the exam.
 

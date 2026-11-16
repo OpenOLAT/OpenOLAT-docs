@@ -34,7 +34,7 @@ Sophia durchsucht ausschliesslich das indexierte OpenOlat-Benutzerhandbuch (Retr
 
 ## Handbuch Link {: #help_link}
 
-Rechts oben in der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
+Rechts oben in der Hauptnavigation besteht jederzeit Zugang zum OpenOlat
 Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
 Hilfeseiten, je nach Konfiguration durch Systemadministrator:innen. Klicken
 Sie auf das Fragezeichen :o_icon_o_icon_help: und wählen Sie "OpenOlat Handbuch".
@@ -70,14 +70,14 @@ neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![Tooltip zum Feld Korrektur mit Erklärung zu Auto- und Manuell-Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px }
+![Tooltip zum Feld Korrektur mit Erklärung zu Auto- und Manuell-Korrektur, Testkonfiguration im Kurseditor](assets/example_questionmark.de.png){ class="shadow lightbox" width=400px title="Kursbaustein Test im Kurseditor" }
 
 [Zum Seitenanfang ^](#help)
 
 
 ## Hellgrauer Text innerhalb von Feldern... {: #help_within_fields}
 
-![Hellgrauer Platzhaltertext «Suchen» im leeren Suchfeld](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px }
+![Hellgrauer Platzhaltertext «Suchen» im leeren Suchfeld](assets/help_gui_demo.de.png){ class="shadow lightbox" width=150px title="Suchfeld" }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen.
 
@@ -86,7 +86,7 @@ Tests im Kurseditor:
 
 ## Hellgrauer Text unterhalb von Feldern... {: #help_below_fields}
 
-![Hellgrauer Hinweistext «Max. 25 Zeichen» unter dem Feld Titel im Kursmenü](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px }
+![Hellgrauer Hinweistext «Max. 25 Zeichen» unter dem Feld Titel im Kursmenü](assets/help_gui_demo1.de.png){ class="shadow lightbox" width=420px title="Kurseditor, Tab Titel und Beschreibung" }
 
 ...stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 

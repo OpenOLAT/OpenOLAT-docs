@@ -2,9 +2,9 @@
 
 All registered OpenOlat users have a personal menu. It brings together your own tools, your records of achievement and your personal configuration in one place, and you can set it up individually.
 
-You open the menu at the top right of the menu bar by clicking on your profile picture or on the small arrow next to it. As long as you have not stored a profile picture, OpenOlat shows your initials there. The menu appears as an area over the right edge of the window. With the close symbol at the top left of the area you hide it again.
+You open the menu at the top right of the main navigation by clicking on your profile picture or on the small arrow next to it. As long as you have not stored a profile picture, OpenOlat shows your initials there. The menu appears as an area over the right edge of the window. With the close symbol at the top left of the area you hide it again.
 
-![Profile picture at the top right of the menu bar, marked with a circle and an arrow, opens the personal menu; to the left the main navigation with Courses, Groups, Catalog and Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Menu bar at the top right" }
+![Profile picture at the top right of the main navigation, marked with a circle and an arrow, opens the personal menu; to the left the sites Courses, Groups, Catalog and Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Main navigation at the top right" }
 
 
 ## Profile
@@ -65,7 +65,7 @@ A detailed description of all tools is available on the page [User tools](Person
 
 ## Available tools {: #available_tools}
 
-System administrators decide which tools are offered to you at all. In the system administration they release under `Administration > Core functions > User tools` the tools that are available, and in the preset they define which of them appear in the menu bar by default. Your personal menu can therefore contain more or fewer entries than are listed on this page.
+System administrators decide which tools are offered to you at all. In the system administration they release under `Administration > Core functions > User tools` the tools that are available, and in the preset they define which of them appear in the main navigation by default. Your personal menu can therefore contain more or fewer entries than are listed on this page.
 
 Accounts with the role Invitee only see Help, Subscriptions and Password in the personal menu as long as no further role is assigned to them.
 
@@ -74,14 +74,14 @@ The sites of the top navigation bar, for example Courses, Groups or Catalog, do 
 [Core functions: User tools (Administration manual) >](../../manual_admin/administration/Core_functions/index.md#personal_tools)
 
 
-## Move tools to the menu bar [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}
+## Move tools to the main navigation [:octicons-tag-16:{ title="from Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}
 
-Tools that you need often do not have to stay in the personal menu. You can place them as an icon directly in the menu bar, where they are available with a single click.
+Tools that you need often do not have to stay in the personal menu. You can place them as an icon directly in the main navigation, where they are available with a single click.
 
 You make this setting under<br>
 `Personal menu > Configuration > Settings > Tab "System" > User tools`
 
-Select the checkboxes of the tools that should appear in the menu bar, and save.
+Select the checkboxes of the tools that should appear in the main navigation, and save.
 
 ![Checkbox Calendar selected, the list also contains Profile, Certificates and Print](assets/pers_menu_move_item_v2_en.png){ class="shadow lightbox" title="User tools in the System tab of the settings" }
 
@@ -89,28 +89,28 @@ Not only the user tools are available for selection, but also entries from the o
 
 !!! info "Important"
 
-    Each tool is shown only once, either in the personal menu or in the menu bar.
+    Each tool is shown only once, either in the personal menu or in the main navigation.
 
 !!! info "Important"
 
-    OpenOlat places the moved tools into the menu bar only at your next login. Until then the menu bar stays unchanged, and the tool remains in the personal menu. Log out and log in again to see the result.
+    OpenOlat places the moved tools into the main navigation only at your next login. Until then the main navigation stays unchanged, and the tool remains in the personal menu. Log out and log in again to see the result.
 
-In the example the "Calendar" has been moved to the menu bar. After the next login its icon sits to the left of the chat status, and the entry is missing from the personal menu.
+In the example the "Calendar" has been moved to the main navigation. After the next login its icon sits to the left of the chat status, and the entry is missing from the personal menu.
 
-![Calendar icon in the menu bar, marked with a circle; in the opened personal menu the entry Calendar is missing](assets/pers_menu_moved_tool_v2_en.png){ class="shadow lightbox" title="Menu bar and personal menu" }
+![Calendar icon in the main navigation, marked with a circle; in the opened personal menu the entry Calendar is missing](assets/pers_menu_moved_tool_v2_en.png){ class="shadow lightbox" title="Main navigation and personal menu" }
 
 !!! tip "Tip"
 
-    Do not move all tools, only the ones you use every day. This keeps the menu bar clear.
+    Do not move all tools, only the ones you use every day. This keeps the main navigation clear.
 
 [Settings: User tools >](../personal_menu/Settings.md#personal_tools)
 
 
-## Always in the menu bar: Chat and search {: #always_visible}
+## Always in the main navigation: Chat and search {: #always_visible}
 
-Two tools are not part of the personal menu but are always in the menu bar: the [Chat](../basic_concepts/Chat.md) (instant messaging) with your status and the counter of unread messages, and the [global search](../basic_concepts/Search_Global.md). They cannot be moved.
+Two tools are not part of the personal menu but are always in the main navigation: the [Chat](../basic_concepts/Chat.md) (instant messaging) with your status and the counter of unread messages, and the [global search](../basic_concepts/Search_Global.md). They cannot be moved.
 
-![Chat status, counter of unread messages and search icon on the right of the menu bar, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menu bar on the right" }
+![Chat status, counter of unread messages and search icon on the right of the main navigation, marked with a circle](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Main navigation on the right" }
 
 
 ## Further information {: #further_information}

@@ -22,7 +22,7 @@ Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er di
 | [REST API](../REST_API.de.md) | Die Schnittstelle ein- und ausschalten, über die andere Systeme wie eine Schülerverwaltung ihre Daten mit OpenOlat austauschen, die extern verwalteten Objekte bestimmen und die protokollierten Aufrufe auswerten. |
 | [MCP-Server](#mcp_server) | Den Zugang aus einem KI-Client auf OpenOlat einschalten und festlegen, welche MCP-Tools welche Personen erhalten. Beschrieben weiter unten auf dieser Seite. |
 | [Startseite](../Landing_pages.de.md) | Für Rollen oder für Benutzer:innen mit bestimmten Benutzerattributen die Seite vorgeben, die nach dem Login öffnet. |
-| [Persönliche Werkzeuge](#personal_tools) | Festlegen, welche Werkzeuge den Benutzer:innen zur Verfügung stehen und welche davon standardmässig in der Menüleiste erscheinen. Beschrieben weiter unten auf dieser Seite. |
+| [Persönliche Werkzeuge](#personal_tools) | Festlegen, welche Werkzeuge den Benutzer:innen zur Verfügung stehen und welche davon standardmässig in der Hauptnavigation erscheinen. Beschrieben weiter unten auf dieser Seite. |
 | [Kalender](#calendar_administration) | Den Kalender für das ganze System oder für einzelne Orte ein- oder ausschalten. Beschrieben weiter unten auf dieser Seite. |
 | [WebSocket](#websocket) | Die ständige Verbindung zwischen Browser und Server einschalten, über die Änderungen sofort erscheinen. Beschrieben weiter unten auf dieser Seite. |
 | [E-Mail](../E-Mail_Settings.de.md) | Die Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach festlegen und das Aussehen der versendeten E-Mails bestimmen. |
@@ -68,9 +68,9 @@ Personen mit Zugang über ein Profil erstellen ihre Tokens selbst in den [Einste
 
 ## Persönliche Werkzeuge [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #personal_tools}
 
-Welche [Werkzeuge](../../../manual_user/personal_menu/index.de.md) den Benutzer:innen überhaupt zur Verfügung stehen, legen Systemadministrator:innen in der Liste "Werkzeug zur Verfügung" fest. In der Liste "Voreinstellung" wählen sie, welche dieser Werkzeuge standardmässig als Symbol in der Menüleiste erscheinen.
+Welche [Werkzeuge](../../../manual_user/personal_menu/index.de.md) den Benutzer:innen überhaupt zur Verfügung stehen, legen Systemadministrator:innen in der Liste "Werkzeug zur Verfügung" fest. In der Liste "Voreinstellung" wählen sie, welche dieser Werkzeuge standardmässig als Symbol in der Hauptnavigation erscheinen. Chat, Suche und "Betreuer:innen Benachrichtigungen" stehen nicht in dieser Liste: OpenOlat stellt sie selbst in die Hauptnavigation, sobald sie zur Verfügung stehen.
 
-![Alle 24 Werkzeuge der Liste Werkzeug zur Verfügung gesetzt: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](../assets/core_functions_user_tools_available_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge · 2026.11.16" } ![Kalender, Buchungsaufträge, Hilfe und Drucken sind vorausgewählt und liegen damit in der Menüleiste, die übrigen aktivieren die Benutzer:innen selbst](../assets/core_functions_user_tools_preset_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Liste Voreinstellung auf der Seite Persönliche Werkzeuge · 2026.11.16" }
+![Alle 24 Werkzeuge der Liste Werkzeug zur Verfügung gesetzt: hier gibt die Administration frei, welche Werkzeuge die Benutzer:innen überhaupt wählen können](../assets/core_functions_user_tools_available_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Liste Werkzeug zur Verfügung auf der Seite Persönliche Werkzeuge · 2026.11.16" } ![Kalender, Buchungsaufträge, Hilfe und Drucken sind vorausgewählt und liegen damit in der Hauptnavigation, die übrigen aktivieren die Benutzer:innen selbst](../assets/core_functions_user_tools_preset_v1_de.png){ class="shadow lightbox thumbnail-xl" title="Liste Voreinstellung auf der Seite Persönliche Werkzeuge · 2026.11.16" }
 
 [Zum Seitenanfang ^](#core_config)
 

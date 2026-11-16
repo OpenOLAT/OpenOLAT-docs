@@ -55,7 +55,7 @@ Das Werkzeug hierfür ist der **Betreuer:innen-Chat**. Sie stellen ihn als Kursb
 ![Formular Betreuer:innen-Chat mit Anfragen von Teilnehmer:innen zulassen auf Ja und globaler Benachrichtigung für die Betreuer:innen](assets/communication_during_exam_author1_v1_de.png){ class="shadow lightbox" title="Tab Kommunikation des Kursbausteins Test im Kurseditor" }
 
 * **Anfragen von Teilnehmer:innen zulassen**: Mit "Ja" können Prüfungsteilnehmer:innen und Betreuer:innen Anfragen via Chat starten. Mit "Nein" starten nur Betreuer:innen einen Chat.
-* **Globale Benachrichtigung aktivieren für**: Bei neuen Chat-Aktivitäten informiert OpenOlat die gewählten Kursrollen, Besitzer:innen oder Betreuer:innen, in der globalen Menüleiste. Voreingestellt sind die Betreuer:innen.
+* **Globale Benachrichtigung aktivieren für**: Bei neuen Chat-Aktivitäten informiert OpenOlat die gewählten Kursrollen, Besitzer:innen oder Betreuer:innen, in der Hauptnavigation. Voreingestellt sind die Betreuer:innen.
 
 Der Betreuer:innen-Chat während Prüfungen funktioniert unabhängig davon, ob die allgemeine Chat-Funktion in der OpenOlat-Instanz aktiviert ist oder nicht.
 
@@ -148,7 +148,7 @@ Prüfungsteilnehmer:innen erhalten dann eine Einladung und können diese annehme
 
 Es ist möglich, dass Betreuer:innen mehrere gleichzeitig stattfindende Prüfungen betreuen. Zum Beispiel kann eine Fachexpert:in für Fachprobleme zur Verfügung stehen, während andere Betreuer:innen die organisatorischen Aufgaben der Prüfungsaufsicht übernehmen.
 
-Damit diese Person nicht jeweils in die verschiedenen Kurse wechseln muss, um dort die Chats abzufragen, informiert OpenOlat sie bei neuen Chat-Aktivitäten in der globalen Menüleiste. Voraussetzung ist, dass ihre Kursrolle unter "Globale Benachrichtigung aktivieren für" gewählt ist, siehe [Als Kursbesitzer:in/Autor:in Kommunikationskanäle einrichten](#author).
+Damit diese Person nicht jeweils in die verschiedenen Kurse wechseln muss, um dort die Chats abzufragen, informiert OpenOlat sie bei neuen Chat-Aktivitäten in der Hauptnavigation. Voraussetzung ist, dass ihre Kursrolle unter "Globale Benachrichtigung aktivieren für" gewählt ist, siehe [Als Kursbesitzer:in/Autor:in Kommunikationskanäle einrichten](#author).
 
 Wenn die Prüfungen vorbei sind, sind allerdings auch diese Hinweise weg. Sie sind nur während der Prüfung vorhanden.
 

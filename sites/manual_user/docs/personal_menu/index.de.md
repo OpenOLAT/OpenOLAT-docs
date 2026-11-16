@@ -2,9 +2,9 @@
 
 Alle registrierten OpenOlat-Benutzer:innen verfügen über ein persönliches Menü. Es fasst Ihre eigenen Werkzeuge, Ihre Nachweise und Ihre persönliche Konfiguration an einer Stelle zusammen und lässt sich individuell einrichten.
 
-Sie öffnen das Menü rechts oben in der Menüleiste mit einem Klick auf Ihr Profilbild oder auf den kleinen Pfeil daneben. Solange Sie kein Profilbild hinterlegt haben, zeigt OpenOlat dort Ihre Initialen. Das Menü legt sich als Bereich über den rechten Rand des Fensters. Mit dem Schliessen-Symbol links oben im Bereich blenden Sie es wieder aus.
+Sie öffnen das Menü rechts oben in der Hauptnavigation mit einem Klick auf Ihr Profilbild oder auf den kleinen Pfeil daneben. Solange Sie kein Profilbild hinterlegt haben, zeigt OpenOlat dort Ihre Initialen. Das Menü legt sich als Bereich über den rechten Rand des Fensters. Mit dem Schliessen-Symbol links oben im Bereich blenden Sie es wieder aus.
 
-![Profilbild rechts oben in der Menüleiste, mit Kreis und Pfeil markiert, öffnet das persönliche Menü; links davon die Hauptnavigation mit Kurse, Gruppen, Katalog und Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Menüleiste oben rechts" }
+![Profilbild rechts oben in der Hauptnavigation, mit Kreis und Pfeil markiert, öffnet das persönliche Menü; links davon die Bereiche Kurse, Gruppen, Katalog und Coaching](assets/pers_menu1_v1_de.png){ class="shadow lightbox" title="Hauptnavigation oben rechts" }
 
 
 ## Steckbrief
@@ -65,7 +65,7 @@ Eine ausführliche Beschreibung aller Werkzeuge finden Sie auf der Seite [Persö
 
 ## Verfügbare Werkzeuge {: #available_tools}
 
-Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheiden Systemadministrator:innen. In der System-Administration geben sie unter `Administration > Core-Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legen in der Voreinstellung fest, welche davon standardmässig in der Menüleiste erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
+Welche Werkzeuge Ihnen überhaupt angeboten werden, entscheiden Systemadministrator:innen. In der System-Administration geben sie unter `Administration > Core-Konfiguration > Persönliche Werkzeuge` frei, welche Werkzeuge zur Verfügung stehen, und legen in der Voreinstellung fest, welche davon standardmässig in der Hauptnavigation erscheinen. Ihr persönliches Menü kann deshalb mehr oder weniger Einträge enthalten, als auf dieser Seite aufgeführt sind.
 
 Konten mit der Rolle Einladung sehen im persönlichen Menü nur Hilfe, Abonnements und Passwort, solange ihnen keine weitere Rolle zugewiesen ist.
 
@@ -74,14 +74,14 @@ Die Bereiche der Hauptnavigation, zum Beispiel Kurse, Gruppen oder Katalog, geh�
 [Core-Konfiguration: Persönliche Werkzeuge (Administrationshandbuch) >](../../manual_admin/administration/Core_functions/index.de.md#personal_tools)
 
 
-## Werkzeuge in die Menüleiste verschieben [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}
+## Werkzeuge in die Hauptnavigation verschieben [:octicons-tag-16:{ title="ab Release 10.0 (OO-988)" }](https://track.frentix.com/issue/OO-988) {: #move_tools}
 
-Werkzeuge, die Sie häufig brauchen, müssen nicht im persönlichen Menü bleiben. Sie können sie als Symbol direkt in die Menüleiste holen, wo sie mit einem Klick erreichbar sind.
+Werkzeuge, die Sie häufig brauchen, müssen nicht im persönlichen Menü bleiben. Sie können sie als Symbol direkt in die Hauptnavigation holen, wo sie mit einem Klick erreichbar sind.
 
 Die Einstellung dazu nehmen Sie vor unter<br>
 `Persönliches Menü > Konfiguration > Einstellungen > Tab "System" > Persönliche Werkzeuge`
 
-Markieren Sie dort die Kontrollkästchen der Werkzeuge, die in der Menüleiste erscheinen sollen, und speichern Sie.
+Markieren Sie dort die Kontrollkästchen der Werkzeuge, die in der Hauptnavigation erscheinen sollen, und speichern Sie.
 
 ![Kontrollkästchen Kalender markiert, die Liste enthält auch Profil, Zertifikate und Drucken](assets/pers_menu_move_item_v2_de.png){ class="shadow lightbox" title="Persönliche Werkzeuge im Tab System der Einstellungen" }
 
@@ -89,28 +89,28 @@ Zur Auswahl stehen nicht nur die persönlichen Werkzeuge, sondern auch Einträge
 
 !!! info "Wichtig"
 
-    Jedes Werkzeug wird nur einmal angezeigt, entweder im persönlichen Menü oder in der Menüleiste.
+    Jedes Werkzeug wird nur einmal angezeigt, entweder im persönlichen Menü oder in der Hauptnavigation.
 
 !!! info "Wichtig"
 
-    OpenOlat übernimmt die verschobenen Werkzeuge erst beim nächsten Login in die Menüleiste. Bis dahin bleibt die Menüleiste unverändert, und das Werkzeug steht weiterhin im persönlichen Menü. Melden Sie sich ab und wieder an, um das Ergebnis zu sehen.
+    OpenOlat übernimmt die verschobenen Werkzeuge erst beim nächsten Login in die Hauptnavigation. Bis dahin bleibt die Hauptnavigation unverändert, und das Werkzeug steht weiterhin im persönlichen Menü. Melden Sie sich ab und wieder an, um das Ergebnis zu sehen.
 
-Im Beispiel ist der "Kalender" in die Menüleiste verschoben. Nach dem nächsten Login liegt sein Symbol links neben dem Chat-Status, und im persönlichen Menü fehlt der Eintrag.
+Im Beispiel ist der "Kalender" in die Hauptnavigation verschoben. Nach dem nächsten Login liegt sein Symbol links neben dem Chat-Status, und im persönlichen Menü fehlt der Eintrag.
 
-![Kalendersymbol in der Menüleiste neben dem Chat-Status, mit Kreis markiert; im geöffneten persönlichen Menü fehlt der Eintrag Kalender](assets/pers_menu_moved_tool_v2_de.png){ class="shadow lightbox" title="Menüleiste und persönliches Menü" }
+![Kalendersymbol in der Hauptnavigation neben dem Chat-Status, mit Kreis markiert; im geöffneten persönlichen Menü fehlt der Eintrag Kalender](assets/pers_menu_moved_tool_v2_de.png){ class="shadow lightbox" title="Hauptnavigation und persönliches Menü" }
 
 !!! tip "Tipp"
 
-    Verschieben Sie nicht alle Werkzeuge, sondern nur die, die Sie täglich benutzen. So bleibt die Menüleiste übersichtlich.
+    Verschieben Sie nicht alle Werkzeuge, sondern nur die, die Sie täglich benutzen. So bleibt die Hauptnavigation übersichtlich.
 
 [Einstellungen: Persönliche Werkzeuge >](../personal_menu/Settings.de.md#personal_tools)
 
 
-## Immer in der Menüleiste: Chat und Suche {: #always_visible}
+## Immer in der Hauptnavigation: Chat und Suche {: #always_visible}
 
-Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in der Menüleiste: der [Chat](../basic_concepts/Chat.de.md) (Instant Messaging) mit Ihrem Status und dem Zähler der ungelesenen Nachrichten sowie die [globale Suche](../basic_concepts/Search_Global.de.md). Sie lassen sich nicht verschieben.
+Zwei Werkzeuge stehen nicht im persönlichen Menü, sondern grundsätzlich in der Hauptnavigation: der [Chat](../basic_concepts/Chat.de.md) (Instant Messaging) mit Ihrem Status und dem Zähler der ungelesenen Nachrichten sowie die [globale Suche](../basic_concepts/Search_Global.de.md). Sie lassen sich nicht verschieben.
 
-![Chat-Status, Zähler der ungelesenen Nachrichten und Suchsymbol rechts in der Menüleiste, mit Kreis markiert](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Menüleiste rechts" }
+![Chat-Status, Zähler der ungelesenen Nachrichten und Suchsymbol rechts in der Hauptnavigation, mit Kreis markiert](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox" title="Hauptnavigation rechts" }
 
 
 ## Weiterführende Informationen {: #further_information}

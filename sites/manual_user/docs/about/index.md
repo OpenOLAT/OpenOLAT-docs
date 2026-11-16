@@ -16,7 +16,7 @@ If you were already an OLAT expert, this manual will serve as a work of referenc
 
 #### Manual link
 
-At the top right of the main menu bar there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by system administrators. Click the question mark :o_icon_o_icon_help: and select "OpenOlat Manual". If the manual is the only help option set up, the manual icon :o_icon_o_icon_manual: appears there directly.
+At the top right of the main navigation there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by system administrators. Click the question mark :o_icon_o_icon_help: and select "OpenOlat Manual". If the manual is the only help option set up, the manual icon :o_icon_o_icon_manual: appears there directly.
 
 !!! info "Important"
 
@@ -32,20 +32,20 @@ While working with OpenOlat, you cannot only dispose of this manual, but also us
 
 In addition to that, you will find 3 more types of assistance mainly in forms, but not restricted to, which will provide you with brief information on single form fields. When locating this icon :o_icon_o_icon_help: to the right of a label, a mouseover will display a short information. Here, an example of the configuration of a test in the course editor:
 
-![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px }
+![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px title="Course element Test in the course editor" }
 
 
 
 #### Light grey text within a form field...
 
-![Input field with light grey placeholder text "Search" as a hint on what to fill in](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px }
+![Input field with light grey placeholder text "Search" as a hint on what to fill in](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px title="Search field" }
 
 ...assists you with filling out the field itself,
 
 
 #### Light grey text underneath a field...
 
-![Field "Title in course menu" with light grey hint text "Max. 25 characters" underneath](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px }
+![Field "Title in course menu" with light grey hint text "Max. 25 characters" underneath](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px title="Course editor, Title and description tab" }
 
 ...provides information about what is required.
 

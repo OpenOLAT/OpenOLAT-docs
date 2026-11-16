@@ -32,7 +32,7 @@ Der File Hub ordnet die Ablageorte in vier Zweige: Kurse, Gruppen, persönliche 
 Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlichen Berechtigungen angezeigt. Deshalb gehört der File Hub zu den persönlichen Werkzeugen. Sie öffnen ihn im persönlichen Menü unter:<br>
 `Persönliches Menü > Persönliche Werkzeuge > File Hub`
 
-![Pfeil auf das Profilbild rechts oben, das das persönliche Menü öffnet](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Menüleiste im Bereich Kurse" }
+![Pfeil auf das Profilbild rechts oben, das das persönliche Menü öffnet](assets/file_hub_pers_menu_open_v1_de.png){ class="shadow lightbox" title="Hauptnavigation im Bereich Kurse" }
 
 ![Eintrag File Hub unter Persönliche Werkzeuge markiert, dahinter die Startseite des File Hub](assets/file_hub_pers_menu_marked_v3_de.png){ class="shadow lightbox" title="Geöffnetes persönliches Menü" }
 

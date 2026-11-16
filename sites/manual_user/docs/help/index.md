@@ -34,7 +34,7 @@ Sophia searches exclusively the indexed OpenOlat user manual (Retrieval-Augmente
 
 ## Link to the Manual {: #help_link}
 
-At the top right of the main menu bar, you can always access the OpenOlat
+At the top right of the main navigation, you can always access the OpenOlat
 manual (this is where you are currently located) and possibly further
 help pages, depending on the configuration by system administrators. Click
 the question mark :o_icon_o_icon_help: and select "OpenOlat Manual". If the
@@ -67,14 +67,14 @@ which give you briefly and concisely required or more detailed information on e.
 individual form fields. If you find this icon :o_icon_o_icon_help:
 next to a field label, move the mouse over it to get a short information. Here is an example from the configuration of a test in the course editor:
 
-![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px }
+![Tooltip on the Correction field explaining automatic and manual correction, test configuration in the course editor](assets/example_questionmark.en.png){ class="shadow lightbox" width=400px title="Course element Test in the course editor" }
 
 [To the top of the page ^](#help)
 
 
 ## Light gray text inside fields... {: #help_within_fields}
 
-![Light gray placeholder text "Search" in the empty search field](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px }
+![Light gray placeholder text "Search" in the empty search field](assets/help_gui_demo.en.png){ class="shadow lightbox" width=150px title="Search field" }
 
 ...gives assistance **how** the fields should be filled in.
 
@@ -83,7 +83,7 @@ next to a field label, move the mouse over it to get a short information. Here i
 
 ## Light gray text below fields... {: #help_below_fields}
 
-![Light gray hint text "Max. 25 characters" below the Title in course menu field](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px }
+![Light gray hint text "Max. 25 characters" below the Title in course menu field](assets/help_gui_demo1.en.png){ class="shadow lightbox" width=420px title="Course editor, Title and description tab" }
 
 ...provides directly needed information **about** the field content.
 
