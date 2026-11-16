@@ -68,7 +68,7 @@ With the "Filter" menu you additionally narrow the list by product, status and e
 
 Which columns the list shows, you determine with the gear icon to the right above the list. Your selection is stored for your account.
 
-![Only the columns ID and Status are not ticked, in the opened dialog Select columns in the Educational products of the Coaching Tool.](assets/coaching_educational_products_columns_v1_en.png){ class="shadow lightbox" title="Dialog Select columns of the educational products" }
+![Nine columns to choose from, the last one Calendar, all ticked except ID and Status.](assets/coaching_educational_products_columns_v2_en.png){ class="shadow lightbox" title="Dialog Displayed columns of the educational products · 2026.11.16" }
 
 * **Favourite**<br>The flag with which you mark an implementation. You reach marked implementations through the tab "Favourites".
 * **ID**<br>The number under which OpenOlat keeps the implementation. Useful for enquiries to the support. This column is hidden at the start.
@@ -77,9 +77,9 @@ Which columns the list shows, you determine with the gear icon to the right abov
 * **Product**<br>The educational product to which the implementation belongs, with its reference.
 * **Begin** and **End**<br>The planned period of the implementation.
 * **Status**<br>The status of the implementation, that is "Preparation", "Provisional", "Confirmed", "Cancelled" or "Finished". This column is hidden at the start.
-* **Timetable**<br>The access to the events of the implementation.
+* **Calendar**<br>The link "Timetable" leads to the events of the implementation.
 
-In the other areas the choice of columns differs. The user management additionally shows the column "Roles". The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Progress".
+In the other areas the choice of columns differs. The user management additionally shows the columns "Roles" and "All roles" and offers the filter "Roles" [:octicons-tag-16:{ title="from Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}, described under [Manage user settings](../../manual_admin/usermanagement/Configure_User.md) in the administration manual. The educational products under "Courses" and the person view in the Coaching Tool show the additional column "Progress".
 
 [To the top of the page ^](#educational_products)
 
@@ -126,6 +126,7 @@ Where a part lands in the tab "In preparation" depends on what stands in the row
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Coaching: Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
 [Working with tables >](../basic_concepts/Table_Concept.md)<br>
+[Manage user settings >](../../manual_admin/usermanagement/Configure_User.md)<br>
 [Info page >](../learningresources/Info_page.md)
 
 **Further reading**<br>

@@ -105,7 +105,7 @@ Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt f�
 
 Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfallen.
 
-Ein aktives Konto mit hinterlegtem Ablaufdatum f체hrt beide Fristen nebeneinander: "Tage bis Ablauf" f체r das Datum, "Tage bis Inaktivierung" f체r den letzten Login.
+Ein aktives Konto mit hinterlegtem Ablaufdatum f체hrt beide Fristen nebeneinander: "Tage bis Ablauf" z채hlt bis zum Ablaufdatum, "Tage bis Inaktivierung" bis zum Ende der Frist seit dem letzten Login. Liegt das Ablaufdatum fr체her, nennt auch "Tage bis Inaktivierung" das Ablaufdatum.
 
 !["Tage bis Ablauf" zeigt "In 831 Tage" zum Kontoablauf 31.12.2028, "Tage bis Inaktivierung" zeigt "In 704 Tage"](assets/user_management_account_tab_active_v2_de.png){ class="shadow lightbox" title="Reiter Konto eines aktiven Kontos" }
 

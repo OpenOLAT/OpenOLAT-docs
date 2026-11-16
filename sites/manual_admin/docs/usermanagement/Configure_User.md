@@ -105,9 +105,9 @@ Besides the number of days, both periods also name the date on which the step fa
 
 If the toggles are off, no automatic process takes effect and the periods are omitted.
 
-An active account with a stored expiry date carries both periods next to each other: "Days until expiry" for the date, "Days until inactivation" for the last login.
+An active account with a stored expiry date carries both periods next to each other: "Days until expiry" counts down to the expiry date, "Days until inactivation" to the end of the period since the last login. If the expiry date comes first, "Days until inactivation" also names the expiry date.
 
-!["Days until expiry" shows "In 837 days" for the account expiration 12/31/2028, "Days until inactivation" shows "In 710 days"](assets/user_management_account_tab_active_v1_en.png){ class="shadow lightbox" title="Account tab of an active account" }
+!["Days until expiry" shows "In 776 days" for the account expiration 12/31/2028, "Days until inactivation" ends on the same date](assets/user_management_account_tab_active_v2_en.png){ class="shadow lightbox" title="Account tab of an active account · 2026.11.16" }
 
 After a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
 
@@ -351,17 +351,24 @@ They assign the competence type "Manage" in the same level in the "Management" t
 
 ### Educational products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-The "Educational products" tab shows all implementations of the person, regardless of the role they hold in them [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+The "Educational products" tab shows all implementations of the person, regardless of the role they hold in them and whether they hold this role in the implementation itself or in an element below it, for example in a module [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-OpenOlat only shows the tab when the Course Planner is active. Administrators, user managers, roles managers and principals reach it.
+OpenOlat only shows the tab when the [module "Course Planner"](../administration/Modules_Course_Planner.md) is switched on. Administrators, user managers, roles managers and principals reach it.
 
-The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which educational offerings the person passes through, "Learning resources" shows which courses they are registered in. Unlike there, you neither add nor remove the person here.
+The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which implementations the person passes through, "Learning resources" shows which courses they are registered in. The "Educational products" tab is purely an overview.
 
-![Marked tab Educational products, preselected filter tab Relevant and the column Roles](assets/user_management_educational_products_v1_en.png){ class="shadow lightbox" title="Educational products tab in User management" }
+![Marked column All roles: for one implementation Roles is empty, All roles names Master coach and Element owner](assets/user_management_educational_products_v2_en.png){ class="shadow lightbox" title="Educational products tab in User management · 2026.11.16" }
 
-The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the list shows the additional column "Roles", which states for each implementation in which role the person takes part. In return, the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" are missing. A click on the title of an implementation opens its structure with the contained courses.
+The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" are missing. In return, the list shows two columns that state for each implementation in which role the person takes part:
 
-What the individual tabs show is described in the section [Filtering the list](../../manual_user/area_modules/Coaching_Educational_Products.md#filter) in the user manual.
+* **Roles**<br>The roles of the person in the implementation itself. Their roles in the elements below it are shown in the column "All roles".
+* **All roles** [:octicons-tag-16:{ title="from Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}<br>All roles of the person in the whole implementation, that is in the implementation itself and in every element below it, for example in a module. Each role appears once, even if the person holds it in several elements.
+
+With the filter "Roles" you narrow the list down to the implementations in which the person holds one of the selected roles, no matter on which level. You show the filters with the small arrow below the filter tabs. You can choose from "Participant", "Coach", "Master coach", "Owner" and "Element owner". This way you find, for example in the tab "All", every implementation in which the person is a master coach, including the finished ones.
+
+A click on the title of an implementation opens its complete structure with all elements and courses, including those in which the person holds no role. There, the column "Roles" names the role of the person for each element. This shows you on which level they take part.
+
+What the individual tabs and the other columns show, for example the column "Calendar", is described in the sections [Filtering the list](../../manual_user/area_modules/Coaching_Educational_Products.md#filter) and [The columns of the list](../../manual_user/area_modules/Coaching_Educational_Products.md#columns) in the user manual.
 
 [To the top of the page ^](#user_configuration)
 
@@ -393,6 +400,7 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [User roles >](index.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>
 [Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
+[Module Course Planner >](../administration/Modules_Course_Planner.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
