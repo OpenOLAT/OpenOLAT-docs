@@ -26,6 +26,7 @@ If you are looking for a setting for your person or your account, the overview t
 ## Further information {: #further_information}
 
 [User tools >](../Personal_Tools/index.md)<br>
+[Personal achievements/successes >](../Achievements/index.md)<br>
 [Core functions: Overview >](../../../manual_admin/administration/Core_functions/index.md)
 
 [To the top of the page ^](#personal_configuration)

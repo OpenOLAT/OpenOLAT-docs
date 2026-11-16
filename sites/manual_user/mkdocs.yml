@@ -106,6 +106,7 @@ nav:
       - To-dos: "personal_menu/To-Dos.md"
       - E-mail: "personal_menu/E-Mail.md"
     - Achievements/Successes:
+      - personal_menu/Achievements/index.md
       - Evidence of achievement: "personal_menu/Evidence_of_Achievements.md"
       - Certificates: "personal_menu/Certificates.md"
       - Badges: "personal_menu/OpenBadges.md"

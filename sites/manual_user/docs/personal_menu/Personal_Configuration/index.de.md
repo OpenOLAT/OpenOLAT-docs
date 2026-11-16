@@ -26,6 +26,7 @@ Suchen Sie eine Einstellung zu Ihrer Person oder zu Ihrem Konto, sagt Ihnen die 
 ## Weiterführende Informationen {: #further_information}
 
 [Persönliche Werkzeuge >](../Personal_Tools/index.de.md)<br>
+[Persönliche Erfolge/Leistungen >](../Achievements/index.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../../manual_admin/administration/Core_functions/index.de.md)
 
 [Zum Seitenanfang ^](#personal_configuration)

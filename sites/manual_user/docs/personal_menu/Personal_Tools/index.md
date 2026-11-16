@@ -42,6 +42,7 @@ Evidence of achievement, certificates, badges, competences and credit points are
 ## Further information {: #further_information}
 
 [Personal Configuration: Settings >](../Settings.md)<br>
+[Personal achievements/successes >](../Achievements/index.md)<br>
 [Personal Configuration >](../Personal_Configuration/index.md)
 
 [To the top of the page ^](#personal_tools)

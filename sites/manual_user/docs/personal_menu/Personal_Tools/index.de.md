@@ -42,6 +42,7 @@ Leistungsnachweise, Zertifikate, Badges, Kompetenzen und Kreditpunkte stehen im 
 ## Weiterführende Informationen {: #further_information}
 
 [Persönliche Konfiguration: Einstellungen >](../Settings.de.md)<br>
+[Persönliche Erfolge/Leistungen >](../Achievements/index.de.md)<br>
 [Persönliche Konfiguration >](../Personal_Configuration/index.de.md)
 
 [Zum Seitenanfang ^](#personal_tools)
