@@ -349,17 +349,24 @@ Den Kompetenztyp "Verwalten" vergeben sie in derselben Ebene im Tab "Verwaltung"
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Der Reiter "Bildungsprodukte" zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+Der Reiter "Bildungsprodukte" zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat und ob sie diese Rolle in der Durchführung selbst oder in einem Element darunter hat, zum Beispiel in einem Modul [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
 
-Den Reiter zeigt OpenOlat nur bei aktivem Course Planner. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem [Modul "Course Planner"](../administration/Modules_Course_Planner.de.md). Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
-Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Bildungsangebote die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Anders als dort tragen Sie die Person hier weder ein noch aus.
+Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Durchführungen die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Der Reiter "Bildungsprodukte" ist eine reine Übersicht.
 
-![Markierter Reiter Bildungsprodukte, vorausgewählter Tab Relevant und die Spalte Rollen](assets/user_management_educational_products_v1_de.png){ class="shadow lightbox" title="Reiter Bildungsprodukte in der Benutzerverwaltung" }
+![Markierte Spalte Alle Rollen: Bei einer Durchführung ist Rollen leer, Alle Rollen nennt Klassenlehrer:in und Elementbesitzer:in](assets/user_management_educational_products_v2_de.png){ class="shadow lightbox" title="Reiter Bildungsprodukte in der Benutzerverwaltung · 2026.11.16" }
 
-Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Gegenüber dem Coaching Tool zeigt die Liste zusätzlich die Spalte "Rollen", die je Durchführung ausweist, in welcher Rolle die Person beteiligt ist. Dafür fehlen die Spalten "Favorit" und "Status" sowie die Tabs "Favoriten" und "Vorbereitung". Ein Klick auf den Titel einer Durchführung öffnet deren Struktur mit den enthaltenen Kursen.
+Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Gegenüber dem Coaching Tool fehlen die Spalten "Favorit" und "Status" sowie die Tabs "Favoriten" und "Vorbereitung". Dafür zeigt die Liste zwei Spalten, die je Durchführung ausweisen, in welcher Rolle die Person beteiligt ist:
 
-Was die einzelnen Tabs zeigen, beschreibt der Abschnitt [Die Liste filtern](../../manual_user/area_modules/Coaching_Educational_Products.de.md#filter) im Benutzerhandbuch.
+* **Rollen**<br>Die Rollen der Person in der Durchführung selbst. Ihre Rollen in den Elementen darunter zeigt die Spalte "Alle Rollen".
+* **Alle Rollen** [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}<br>Alle Rollen der Person in der ganzen Durchführung, also in der Durchführung selbst und in jedem Element darunter, zum Beispiel in einem Modul. Jede Rolle steht einmal, auch wenn die Person sie in mehreren Elementen hat.
+
+Mit dem Filter "Rollen" grenzen Sie die Liste auf die Durchführungen ein, in denen die Person eine der gewählten Rollen hat, egal auf welcher Ebene. Die Filter blenden Sie mit dem kleinen Pfeil unter den Filter-Tabs ein. Zur Wahl stehen "Teilnehmer:in", "Betreuer:in", "Klassenlehrer:in", "Besitzer:in" und "Elementbesitzer:in". So finden Sie zum Beispiel im Tab "Alle" sämtliche Durchführungen, in denen die Person Klassenlehrer:in ist, auch die beendeten.
+
+Ein Klick auf den Titel einer Durchführung öffnet ihre vollständige Struktur mit allen Elementen und Kursen, auch mit denen, in denen die Person keine Rolle hat. Die Spalte "Rollen" nennt dort je Element die Rolle der Person. So sehen Sie, auf welcher Ebene sie beteiligt ist.
+
+Was die einzelnen Tabs und die übrigen Spalten zeigen, etwa die Spalte "Kalender", beschreiben die Abschnitte [Die Liste filtern](../../manual_user/area_modules/Coaching_Educational_Products.de.md#filter) und [Die Spalten der Liste](../../manual_user/area_modules/Coaching_Educational_Products.de.md#columns) im Benutzerhandbuch.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -391,6 +398,7 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Benutzerrollen >](index.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
+[Modul Course Planner >](../administration/Modules_Course_Planner.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
 
 **Weiterführend**<br>

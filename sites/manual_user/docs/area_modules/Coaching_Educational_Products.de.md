@@ -67,7 +67,7 @@ Mit dem Menü "Filter" grenzen Sie zusätzlich nach Produkt, Status und Durchfü
 
 Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts über der Liste. Ihre Auswahl bleibt für Ihr Konto gespeichert.
 
-![Nur die Spalten ID und Status sind nicht angekreuzt, im geöffneten Dialog Spalten auswählen in den Bildungsprodukten des Coaching Tools.](assets/coaching_educational_products_columns_v1_de.png){ class="shadow lightbox" title="Dialog Spalten auswählen der Bildungsprodukte" }
+![Neun Spalten zur Auswahl, von Favorit bis Kalender, angekreuzt sind alle ausser ID und Status.](assets/coaching_educational_products_columns_v2_de.png){ class="shadow lightbox" title="Dialog Spalten auswählen der Bildungsprodukte · 2026.11.16" }
 
 * **Favorit**<br>Die Flagge, mit der Sie eine Durchführung markieren. Markierte Durchführungen erreichen Sie über den Tab "Favoriten".
 * **ID**<br>Die Nummer, unter der OpenOlat die Durchführung führt. Nützlich für Rückfragen an den Support. Diese Spalte ist zu Beginn ausgeblendet.
@@ -76,9 +76,9 @@ Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts übe
 * **Produkt**<br>Das Bildungsprodukt, zu dem die Durchführung gehört, mit seinem Kennzeichen.
 * **Beginn** und **Ende**<br>Der geplante Zeitraum der Durchführung.
 * **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
-* **Stundenplan**<br>Der Zugang zu den Terminen der Durchführung.
+* **Kalender**<br>Der Link "Stundenplan" führt zu den Terminen der Durchführung.
 
-In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalte "Rollen". Die Bildungsprodukte unter "Kurse" und die Personenansicht im Coaching Tool zeigen zusätzlich die Spalte "Fortschritt".
+In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalten "Rollen" und "Alle Rollen" und bietet den Filter "Rollen" [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}, beschrieben unter [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md) im Administrationshandbuch. Die Bildungsprodukte unter "Kurse" und die Personenansicht im Coaching Tool zeigen zusätzlich die Spalte "Fortschritt".
 
 [Zum Seitenanfang ^](#educational_products)
 
@@ -125,6 +125,7 @@ Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile s
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 [Coaching: Übersicht >](../../manual_user/area_modules/Coaching/index.de.md)<br>
 [Mit Tabellen arbeiten >](../basic_concepts/Table_Concept.de.md)<br>
+[Kontoeinstellungen verwalten >](../../manual_admin/usermanagement/Configure_User.de.md)<br>
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
 **Weiterführend**<br>
