@@ -1,6 +1,6 @@
 # Modules: Overview {: #modules}
 
-![Expanded Modules menu in the system administration with its entries from Instant Messaging to Quality management](../assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Expanded Modules menu in the system administration with its entries from Wiki to SEO / OAI-PMH metadata](../assets/admin_module_overview_v5_en.png){ width="258" class="shadow lightbox aside-left-lg" }
 
 In the menu Modules of the system administration, system administrators switch on the modules of OpenOlat for the whole instance and define their settings. You find the menu in the system administration under:<br>
 `Administration > Modules`

@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![Aufgeklapptes Menü Module in der System-Administration mit seinen Einträgen von Instant-Messaging bis Qualitätsmanagement](../assets/admin_module_overview_v4_de.png){ class="shadow lightbox aside-left-lg" }
+![Aufgeklapptes Menü Module in der System-Administration mit seinen Einträgen von Wiki bis SEO / OAI-PMH Metadaten](../assets/admin_module_overview_v5_de.png){ width="258" class="shadow lightbox aside-left-lg" }
 
 Im Menü Module der System-Administration schalten Systemadministrator:innen die Module von OpenOlat für die ganze Instanz ein und legen ihre Einstellungen fest. Sie finden das Menü in der System-Administration unter:<br>
 `Administration > Module`

@@ -70,7 +70,7 @@ Users with access through a profile create their tokens themselves in the [Setti
 
 Which [tools](../../../manual_user/personal_menu/index.md) are available to users at all, system administrators define in the list "Available tools". In the list "Preset" they choose which of these tools appear by default as an icon in the menu bar.
 
-![All eighteen tools of the Available tools list selected: here the administration releases which tools the users can choose from at all](../assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" title="Available tools list on the User tools page" } ![Only calendar, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](../assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" title="Preset list on the User tools page" }
+![All 24 tools of the Available tools list selected: here the administration releases which tools the users can choose from at all](../assets/core_functions_user_tools_available_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Available tools list on the User tools page · 2026.11.16" } ![Calendar, booking orders, help and print are preselected and therefore sit in the menu bar, the others the users activate themselves](../assets/core_functions_user_tools_preset_v1_en.png){ class="shadow lightbox thumbnail-xl" title="Preset list on the User tools page · 2026.11.16" }
 
 [To the top of the page ^](#core_config)
 
