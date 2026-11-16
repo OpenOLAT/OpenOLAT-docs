@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge {: #personal_tools}
 
-![Abschnitt Persönliche Werkzeuge im persönlichen Menü, mit Rahmen und Pfeil markiert, mit zwölf Einträgen von Kalender bis E-Mail](../assets/pers_menu_tools_v4_de.png){ class="aside-right shadow lightbox"}
+![Abschnitt Persönliche Werkzeuge im persönlichen Menü, mit Rahmen und Pfeil markiert, mit elf Einträgen von Kalender bis E-Mail](../assets/pers_menu_tools_v6_de.png){ width="350" class="aside-right shadow lightbox" }
 
 Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../index.de.md).
 
