@@ -11,7 +11,51 @@ Verfügbar seit | Release 13.0 (2018)
 Umbau | Release 20.0 (OO-7834)
 
 
-## Wozu dient der Course Planner? {: #purpose}
+## Startseite und Bereiche [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #start_page}
+
+Öffnen Sie den Course Planner, gelangen Sie auf seine Startseite. Oben stehen die Suche und die Buttons zu den Funktionen, gegliedert in die drei Bereiche "Produkte", "Produktivität" und "Tools". Darunter zeigt der Abschnitt "Übersicht" Widgets zu Durchführungen, Terminen und To-dos.
+
+![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](../assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
+
+Suchen Sie eine Funktion, sagt Ihnen die Übersicht in einem Satz, wozu sie dient, und führt Sie mit dem Link zu ihrer Beschreibung. Die Tabellen folgen der Startseite: Jede Tabelle entspricht einem Bereich, mit dessen Titel aus der Oberfläche und in derselben Reihenfolge. Welche Buttons Sie sehen, hängt von Ihrer Rolle ab und davon, welche Module die System-Administration eingeschaltet hat.
+
+**Produkte**
+
+| Button | Wozu |
+|---|---|
+| [Produkte](../Course_Planner_Products.de.md) | Bildungsprodukte anlegen und verwalten. Ein Produkt ist ein Lernangebot, das Sie in einer oder mehreren Durchführungen anbieten. |
+| [Durchführungen](../Course_Planner_Implementations.de.md) | Die Durchführungen aller Produkte anlegen und verwalten. Jede Durchführung findet zu einer eigenen Zeit und mit eigenen Teilnehmer:innen statt. |
+| [Termine](../Course_Planner_Events.de.md) | Die Termine Ihrer Durchführungen sehen und planen, zum Beispiel die Kurstage eines Moduls. |
+
+**Produktivität**
+
+| Button | Wozu |
+|---|---|
+| [To-dos](../Course_Planner_Todos.de.md) | Die To-dos aller Elemente an einem Ort verfolgen, etwa die Ihnen zugewiesenen und die überfälligen. |
+| [Reports](../Course_Planner_Reports/index.de.md) | Aus Vorlagen Excel-Reports zu den Buchungsaufträgen Ihrer Produkte und Durchführungen erzeugen. |
+
+**Tools**
+
+| Button | Wozu |
+|---|---|
+| [Zertifikatsprogramme](../Course_Planner_Certification_Programs.de.md) | Ein Zertifikat für den Besuch einer Durchführung oder mehrerer Kurse vergeben und die Rezertifizierung der Mitglieder verwalten. |
+| [Raumverwaltung](../Course_Planner_Rooms.de.md) | Die Raumplanung und die Räume Ihrer Organisation lesen, etwa welche Räume für Termine gebucht sind und wo sich Buchungen überschneiden. Räume und Gebäude pflegen Systemadministrator:innen in der System-Administration unter `Administration > Module > Räume`. |
+
+Die folgenden zwei Funktionen stehen ausserhalb der drei Bereiche. Ihre Tabelle trägt deshalb einen Titel, den die Oberfläche nicht zeigt.
+
+**Weitere Funktionen der Startseite**
+
+| Funktion | Wozu |
+|---|---|
+| [Suche und Übersicht](../Course_Planner_Dashboard.de.md) | Durchführungen, Kurse und Termine suchen und die Widgets im Abschnitt "Übersicht" nach Ihren Bedürfnissen anpassen. |
+| [Importieren](../Course_Planner_Import_Export/index.de.md) | Produkte, Durchführungen und Mitgliedschaften aus einer Excel-Datei einlesen, über den Eintrag "Importieren" im Mehr-Menü (⋮) oben rechts. Den Export starten Sie in den Listen "Produkte", "Durchführungen" und "Termine". |
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+
+## Wann sich der Course Planner lohnt {: #purpose}
 
 Der Course Planner ist ein Modul für das Kursmanagement. Ziel ist es, automatisiert und effizient vom Angebot ausgehend Kurse zu erstellen und durchzuführen.
 
@@ -24,14 +68,14 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 | -------------------------------- | --------------------------------------------------------- |
 | nur eigenständige einzelne Kurse | einzelne oder mehrere Kurse mit mehreren Durchführungen   |
 | alles wird einzeln in den  Kursen administriert und verwaltet | zentrale Administration |
-| x                                | funktionale Trennung zwischen Administration und Inhalt   |
-| x                                | zentrale Planung mehrerer Kurse                           |
-| x                                | zentrale Mitgliederverwaltung mehrerer Kurse              |
-| x                                | zentrale Ausschreibung mehrerer Kurse                     |
-| x                                | zentrale Steuerung und Verwaltung mehrerer Kurse          |
+|                                  | funktionale Trennung zwischen Administration und Inhalt   |
+|                                  | zentrale Planung mehrerer Kurse                           |
+|                                  | zentrale Mitgliederverwaltung mehrerer Kurse              |
+|                                  | zentrale Ausschreibung mehrerer Kurse                     |
+|                                  | zentrale Steuerung und Verwaltung mehrerer Kurse          |
 
 
-Mit dem Course Planner gemanaged werden können
+Mit dem Course Planner planen Sie:
 
 * Einzelkurse
 * Course Bundles
@@ -193,49 +237,6 @@ Wenn Sie die Rolle und Rechte eines/einer Kursplaner:in besitzen, finden Sie den
 !!! tip "Voraussetzung"
 
     Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht in der Hauptnavigation zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in oder den Support Ihrer OpenOlat-Instanz.
-
-[Zum Seitenanfang ^](#course_planner)
-
----
-
-## Startseite und Bereiche [:octicons-tag-16:{ title="ab Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #start_page}
-
-Öffnen Sie den Course Planner, gelangen Sie auf seine Startseite. Oben stehen die Suche und die Buttons zu den Funktionen, gegliedert in die drei Bereiche "Produkte", "Produktivität" und "Tools". Darunter zeigt der Abschnitt "Übersicht" Widgets zu Durchführungen, Terminen und To-dos.
-
-![Die Startseite des Course Planners mit den Zugriffs-Buttons in den drei Bereichen Produkte, Produktivität und Tools und den Widgets Durchführungen und To-do im Abschnitt Übersicht](../assets/course_planner_overview_v5_de.png){ class="shadow lightbox" title="Startseite des Course Planners" }
-
-Suchen Sie eine Funktion, sagt Ihnen die Übersicht in einem Satz, wozu sie dient, und führt Sie mit dem Link zu ihrer Beschreibung. Die Tabellen folgen der Startseite: Jede Tabelle entspricht einem Bereich, mit dessen Titel aus der Oberfläche und in derselben Reihenfolge. Welche Buttons Sie sehen, hängt von Ihrer Rolle ab und davon, welche Module die System-Administration eingeschaltet hat.
-
-**Produkte**
-
-| Button | Wozu |
-|---|---|
-| [Produkte](../Course_Planner_Products.de.md) | Bildungsprodukte anlegen und verwalten. Ein Produkt ist ein Lernangebot, das Sie in einer oder mehreren Durchführungen anbieten. |
-| [Durchführungen](../Course_Planner_Implementations.de.md) | Die Durchführungen aller Produkte anlegen und verwalten. Jede Durchführung findet zu einer eigenen Zeit und mit eigenen Teilnehmer:innen statt. |
-| [Termine](../Course_Planner_Events.de.md) | Die Termine Ihrer Durchführungen sehen und planen, zum Beispiel die Kurstage eines Moduls. |
-
-**Produktivität**
-
-| Button | Wozu |
-|---|---|
-| [To-dos](../Course_Planner_Todos.de.md) | Die To-dos aller Elemente an einem Ort verfolgen, etwa die Ihnen zugewiesenen und die überfälligen. |
-| [Reports](../Course_Planner_Reports/index.de.md) | Aus Vorlagen Excel-Reports zu den Buchungsaufträgen Ihrer Produkte und Durchführungen erzeugen. |
-
-**Tools**
-
-| Button | Wozu |
-|---|---|
-| [Zertifikatsprogramme](../Course_Planner_Certification_Programs.de.md) | Ein Zertifikat für den Besuch einer Durchführung oder mehrerer Kurse vergeben und die Rezertifizierung der Mitglieder verwalten. |
-| [Raumverwaltung](../Course_Planner_Rooms.de.md) | Die Raumplanung und die Räume Ihrer Organisation lesen, etwa welche Räume für Termine gebucht sind und wo sich Buchungen überschneiden. Räume und Gebäude pflegen Systemadministrator:innen in der System-Administration unter `Administration > Module > Räume`. |
-
-Die folgenden zwei Funktionen stehen ausserhalb der drei Bereiche. Ihre Tabelle trägt deshalb einen Titel, den die Oberfläche nicht zeigt.
-
-**Weitere Funktionen der Startseite**
-
-| Funktion | Wozu |
-|---|---|
-| [Suche und Übersicht](../Course_Planner_Dashboard.de.md) | Durchführungen, Kurse und Termine suchen und die Widgets im Abschnitt "Übersicht" nach Ihren Bedürfnissen anpassen. |
-| [Importieren](../Course_Planner_Import_Export/index.de.md) | Produkte, Durchführungen und Mitgliedschaften aus einer Excel-Datei einlesen, über den Eintrag "Importieren" im Mehr-Menü (⋮) oben rechts. Den Export starten Sie in den Listen "Produkte", "Durchführungen" und "Termine". |
 
 [Zum Seitenanfang ^](#course_planner)
 

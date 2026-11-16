@@ -11,7 +11,51 @@ Available since | Release 13.0 (2018)
 Redesign | Release 20.0 (OO-7834)
 
 
-## What's the purpose of the Course Planner? {: #purpose}
+## Start page and areas [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #start_page}
+
+When you open the Course Planner, you are taken to its start page. At the top are the search and the buttons to the functions, divided into the three areas "Products", "Productivity" and "Tools". Below, the "Overview" section shows widgets on implementations, events and to-dos.
+
+![The Course Planner start page with the access buttons in the three areas Products, Productivity and Tools and the Implementations and To-do widgets in the Overview section](../assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
+
+If you are looking for a function, the overview tells you in one sentence what it is for and takes you to its description with the link. The tables follow the start page: each table corresponds to one area, with its title from the user interface and in the same order. Which buttons you see depends on your role and on which modules the system administration has switched on.
+
+**Products**
+
+| Button | What for |
+|---|---|
+| [Products](../Course_Planner_Products.md) | Create and manage educational products. A product is a learning offer that you offer in one or more implementations. |
+| [Implementations](../Course_Planner_Implementations.md) | Create and manage the implementations of all products. Each implementation takes place at its own time and with its own participants. |
+| [Events](../Course_Planner_Events.md) | View and plan the events of your implementations, for example the course days of a module. |
+
+**Productivity**
+
+| Button | What for |
+|---|---|
+| [To-dos](../Course_Planner_Todos.md) | Track the to-dos of all elements in one place, for example those assigned to you and the overdue ones. |
+| [Reports](../Course_Planner_Reports/index.md) | Generate Excel reports on the booking orders of your products and implementations from templates. |
+
+**Tools**
+
+| Button | What for |
+|---|---|
+| [Certification programs](../Course_Planner_Certification_Programs.md) | Award a certificate for attending an implementation or several courses and manage the recertification of the members. |
+| [Room management](../Course_Planner_Rooms.md) | Read the room scheduling and the rooms of your organisation, for example which rooms are booked for events and where bookings overlap. System administrators maintain rooms and buildings in the system administration under `Administration > Modules > Rooms`. |
+
+The following two functions are located outside the three areas. Their table therefore has a title that the user interface does not show.
+
+**Further functions of the start page**
+
+| Function | What for |
+|---|---|
+| [Search and overview](../Course_Planner_Dashboard.md) | Search for implementations, courses and events and adapt the widgets in the "Overview" section to your needs. |
+| [Import](../Course_Planner_Import_Export/index.md) | Read in products, implementations and memberships from an Excel file, via the entry "Import" in the more menu (⋮) at the top right. You start the export in the lists "Products", "Implementations" and "Events". |
+
+[To the top of the page ^](#course_planner)
+
+---
+
+
+## When the Course Planner pays off {: #purpose}
 
 The Course Planner is a module for course management. The aim is to create and run courses automatically and efficiently, starting from the offer.
 
@@ -24,13 +68,13 @@ Of course, you can also create OpenOlat courses without Course Planner. However,
 | -------------------------------- | --------------------------------------------------------- |
 | only independent single courses | single or multiple courses with several implementations   |
 | everything is administered and managed individually in the courses | central administration |
-| x                                | Functional separation between administration and content   |
-| x                                | Central planning of several courses                          |
-| x                                | Central member administration of several courses              |
-| x                                | Central tendering of several courses                    |
-| x                                | Central control and management of multiple courses          |
+|                                  | Functional separation between administration and content   |
+|                                  | Central planning of several courses                          |
+|                                  | Central member administration of several courses              |
+|                                  | Central tendering of several courses                    |
+|                                  | Central control and management of multiple courses          |
 
-The Course Planner can be used to manage
+With the Course Planner you plan:
 
 * single courses
 * course bundles
@@ -185,50 +229,6 @@ If you have the role and rights of a course planner, you will find the Course Pl
 
     In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the main navigation, please contact your system administrator or the support of your OpenOlat instance.
 
-
-[To the top of the page ^](#course_planner)
-
----
-
-
-## Start page and areas [:octicons-tag-16:{ title="from Release 21.0 (OO-9418)" }](https://track.frentix.com/issue/OO-9418){:target="_blank"} {: #start_page}
-
-When you open the Course Planner, you are taken to its start page. At the top are the search and the buttons to the functions, divided into the three areas "Products", "Productivity" and "Tools". Below, the "Overview" section shows widgets on implementations, events and to-dos.
-
-![The Course Planner start page with the access buttons in the three areas Products, Productivity and Tools and the Implementations and To-do widgets in the Overview section](../assets/course_planner_overview_v5_en.png){ class="shadow lightbox" title="Start page of the Course Planner" }
-
-If you are looking for a function, the overview tells you in one sentence what it is for and takes you to its description with the link. The tables follow the start page: each table corresponds to one area, with its title from the user interface and in the same order. Which buttons you see depends on your role and on which modules the system administration has switched on.
-
-**Products**
-
-| Button | What for |
-|---|---|
-| [Products](../Course_Planner_Products.md) | Create and manage educational products. A product is a learning offer that you offer in one or more implementations. |
-| [Implementations](../Course_Planner_Implementations.md) | Create and manage the implementations of all products. Each implementation takes place at its own time and with its own participants. |
-| [Events](../Course_Planner_Events.md) | View and plan the events of your implementations, for example the course days of a module. |
-
-**Productivity**
-
-| Button | What for |
-|---|---|
-| [To-dos](../Course_Planner_Todos.md) | Track the to-dos of all elements in one place, for example those assigned to you and the overdue ones. |
-| [Reports](../Course_Planner_Reports/index.md) | Generate Excel reports on the booking orders of your products and implementations from templates. |
-
-**Tools**
-
-| Button | What for |
-|---|---|
-| [Certification programs](../Course_Planner_Certification_Programs.md) | Award a certificate for attending an implementation or several courses and manage the recertification of the members. |
-| [Room management](../Course_Planner_Rooms.md) | Read the room scheduling and the rooms of your organisation, for example which rooms are booked for events and where bookings overlap. System administrators maintain rooms and buildings in the system administration under `Administration > Modules > Rooms`. |
-
-The following two functions are located outside the three areas. Their table therefore has a title that the user interface does not show.
-
-**Further functions of the start page**
-
-| Function | What for |
-|---|---|
-| [Search and overview](../Course_Planner_Dashboard.md) | Search for implementations, courses and events and adapt the widgets in the "Overview" section to your needs. |
-| [Import](../Course_Planner_Import_Export/index.md) | Read in products, implementations and memberships from an Excel file, via the entry "Import" in the more menu (⋮) at the top right. You start the export in the lists "Products", "Implementations" and "Events". |
 
 [To the top of the page ^](#course_planner)
 
