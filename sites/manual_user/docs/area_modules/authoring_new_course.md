@@ -126,7 +126,7 @@ Click "Embed" to create the learning resource.
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
 [Create CP learning content >](../learningresources/CP_Editor.md)<br>
 [How do I create a content package? >](../../manual_how-to/content_package/content_package.md)<br>
-[Creating Wikis >](../learningresources/Wiki.md)<br>
+[Wiki >](../learningresources/Wiki.md)<br>
 [How do I create a wiki? >](../../manual_how-to/wikis/wikis.md)<br>
 [Portfolio template: Creation >](../learningresources/Portfolio_template_Creation.md)<br>
 [Glossary >](../learningresources/Glossary/index.md)<br>

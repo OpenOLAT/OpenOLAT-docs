@@ -14,7 +14,7 @@ Via WebDAV you access the following OpenOlat folders. OpenOlat creates the struc
   * Folders of [groups](../groups/Using_Group_Tools.md)
   * [Storage folders of courses](../learningresources/Storage_folder.md) (course owners only)
   * [Course element "Folder"](../learningresources/Course_Element_Folder.md)
-  * [Resource folders](../learningresources/index.md#resource_folder) (owners of the learning resource only)
+  * [Resource folders](../learningresources/index.md#resource_folder) (owners and coaches with write access, participants with read access)
   * [Course archives](../learningresources/Course_Archiving/index.md) (authors, learning resource managers and administrators only) [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on the configuration of the folder.

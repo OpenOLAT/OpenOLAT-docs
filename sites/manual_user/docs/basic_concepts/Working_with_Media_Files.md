@@ -42,7 +42,7 @@ For learning resources in the author area that contain media files, these media 
 [Content Editor >](../basic_concepts/Content_Editor.md)<br>
 [Media Center Concept >](Media_Center_Concept/index.md)<br>
 [Blog: Overview >](../learningresources/Blog/index.md)<br>
-[Creating Wikis >](../learningresources/Wiki.md)<br>
+[Wiki >](../learningresources/Wiki.md)<br>
 [Creating Tests >](../learningresources/Test/index.md)
 
 [To the top of the page ^](#media_files)

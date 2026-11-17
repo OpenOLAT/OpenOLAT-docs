@@ -1,33 +1,48 @@
-# Creating Wikis
+# Wiki {: #wiki}
 
-A Wiki (Hawaiian for "fast") is a collaborative hypertext system for web pages. Here learners and teachers can create hypertexts together. By default, all participants have read and write access.
+!!! info "Contact"
 
-In OpenOlat a Wiki is a learning resource that can be used independently of a course or integrated into a course. Furthermore groups also contain a [group tool "Wiki"](../groups/Using_Group_Tools.md).
+    The system administration switches on the wiki for the whole OpenOlat instance: the learning resource, the course element and the group tool "Wiki" together. To have it activated, contact your organisation.
 
-If a Wiki is integrated into a course it can be used in several courses. If you have not yet created a course you will find information on that in the chapter ["Creating Courses"](../learningresources/Creating_Course.md) before you create your Wiki by means of the guide "[Four steps to your Wiki](../resource_wiki/Four_Steps_to_Your_Wiki.md)".
+A wiki (Hawaiian for "fast") is a collection of pages that several people write together and link to each other. Learners and teachers create texts in it together. By default, all persons who have access to the wiki may read and edit the pages.
+
+## Profile
+
+Name | Wiki
+---------|----------
+Icon | :o_icon_o_FileResource-WIKI_icon:
+Available since | Release 7.1 or earlier
+Purpose | Write texts together and link them to each other
+In the course | Course element "Wiki" or entry "Wiki" in the course toolbar
+
+In OpenOlat, a wiki is a learning resource. You use it independently of courses or embed it in a course, and the same wiki can be used in several courses. Groups also have a wiki of their own, the [group tool "Wiki"](../groups/Using_Group_Tools.md).
+
+How to create a wiki step by step is shown in the guide [Four Steps to Your Wiki](../resource_wiki/Four_Steps_to_Your_Wiki.md). If you want to embed the wiki in a course and do not have a course yet, the chapter [Creating Courses](../learningresources/Creating_Course.md) describes the first steps.
 
 ## Possible applications of Wikis
 
-A wiki can be used, for example, for the joint text creation of groups or the entire plenum of a course. In this way the content of a course can be created cooperatively or the teacher can create a wiki structure which the learners have to fill with appropriate content. A common idea, in the form of short profiles, can also be implemented in the Wiki.
+A wiki is suitable wherever several people create texts together, for example a group or all participants of a course. In this way, the participants develop the content of a course together, or teachers create a structure of wiki pages that the learners fill with content. A round of introductions in which each person introduces themselves on a page of their own can also be implemented in the wiki.
 
-Or use a Wiki as a knowledge base that can be created by course participants
-of a higher semester and used as a reference in preliminary courses or
-introductory events. Also thematic link collections or collections of exam
-questions can be created together in a Wiki.
+A wiki also serves as a knowledge base: participants of a higher semester create it, and preliminary courses or introductory events use it as a reference. It is equally suitable for thematic link collections or collections of exam questions.
 
 ## Characteristics of an OpenOlat Wiki
 
-In a wiki, all participants have equal rights and can edit, change and delete
-content (read and write rights) on all wiki pages. Only complete Wiki pages as
-well as the Wiki itself can only be deleted by the owner of learning resources
-or courses. In your course you can also adjust user permissions for
-participants and coaches in the tab "Wiki learning content".
+In a wiki, all participants have equal rights: they read all wiki pages, edit them and in doing so also delete text. An entire wiki page can be deleted by the person who created the page and by the owners of the learning resource or the course. The wiki itself can be deleted by the owners of the learning resource.
 
-Wiki pages are created, edited and linked by means of a [Wiki syntax](../learningresources/Course_Element_Wiki.md#wiki-syntax).
+In the course, you define in the "Wiki" course element whether coaches and participants may edit wiki pages (setting "Edit Material"):<br>
+`Course > Administration > Course editor > Course element "Wiki" > Tab "Wiki learning content"`
 
-Tip: Make sure to create targeted links between the individual pages to create a
-real hypertext with multiple nodes.
+You create, edit and link wiki pages with the [wiki syntax](../learningresources/Course_Element_Wiki.md#wiki-syntax).
 
-!!! info "Important"
+Tip: Link the pages to each other in a targeted way. This creates a network of pages in which readers find their way from one topic to the next.
 
-    If you can neither find the course element nor the learning resource "Wiki" in your OpenOlat instance an administrator has disabled this feature system-wide.
+## Further information {: #further_information}
+
+[Using Group Tools >](../groups/Using_Group_Tools.md)<br>
+[Four Steps to Your Wiki >](../resource_wiki/Four_Steps_to_Your_Wiki.md)<br>
+[Creating Courses >](../learningresources/Creating_Course.md)<br>
+[Course Element "Wiki" >](../learningresources/Course_Element_Wiki.md)<br>
+[How do I create a wiki? >](../../manual_how-to/wikis/wikis.md)<br>
+[Toolbar >](Course_Settings_Toolbar.md)
+
+[To the top of the page ^](#wiki)

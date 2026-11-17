@@ -39,7 +39,7 @@ Please differentiate:
 [Course Element "Blog"](../learningresources/Course_Element_Blog.md)
 
 **Further reading**<br>
-[Creating Wikis](../learningresources/Wiki.md)<br>
+[Wiki](../learningresources/Wiki.md)<br>
 [Podcast: Overview](Podcast/index.md)
 
 [To the top of the page ^](#blog_create)

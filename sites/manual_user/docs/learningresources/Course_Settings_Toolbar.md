@@ -325,7 +325,7 @@ The "Events" icon appears automatically in the toolbar as soon as the appointmen
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Creating Wikis >](Wiki.md)<br>
+[Wiki >](Wiki.md)<br>
 [Blog: Overview >](Blog/index.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Course Administration: Overview >](Administration/index.md)<br>

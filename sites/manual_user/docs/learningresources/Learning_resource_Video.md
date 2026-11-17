@@ -1,8 +1,15 @@
 # Learning resource: Video {: #learning_resource_video}
 
-:o_icon_o_FileResource-VIDEO_icon:
-
 With the Video learning resource, you make a video available in OpenOlat once and then embed it in as many courses as you like, or you offer it independently of courses. The learning resource is more than the video file: it has its own info page, its own "Administration" menu and its own sharing settings. In the video editor, you can also make the video interactive, for example with annotations or quiz questions.
+
+## Profile
+
+Name | Video
+---------|----------
+Icon | :o_icon_o_FileResource-VIDEO_icon:
+Available since | Release 10.5 (OO-725)
+Purpose | Make a video available once and use it in several courses
+In the course | Course elements "Video" and "Video task"
 
 You create the learning resource in the authoring area: with "Import file" you upload an MP4 file, with "Embed via URL" you embed an external video, for example from YouTube or Vimeo. The steps are described in the section [Import learning resources](../area_modules/authoring_new_course.md#import-learning-resources). You then find the video in the authoring area in the "My entries" tab.
 
@@ -86,30 +93,17 @@ With "Replace poster" you choose one of several still images from the video, wit
 
 With subtitles, the video remains understandable even without sound. You upload subtitles manually or, if the frentix cloud transcoding service is active, have them generated automatically (see [Automatic subtitle generation](#video_subtitles_auto)).
 
-Create the subtitle file outside of OpenOlat. In the "Subtitle configuration" tab, upload the VTT file and select the appropriate language.
+Create the subtitle file outside of OpenOlat, as a text file in WebVTT format (extension .vtt). In the "Subtitle configuration" tab, upload the VTT file and select the appropriate language.
 
 A video can have subtitles in multiple languages. OpenOlat supports the [WebVTT format](https://w3c.github.io/webvtt/) (see also [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), so the file must be saved with the .vtt extension. This format is compatible with most common video players.
 
-#### Here's what you should look out for:
+#### Structure of the VTT file {: #video_subtitles_vtt}
 
-!!! note "Note"
+These rules apply to the structure of the VTT file:
 
-    The first line of the VTT document must contain the keyword WEBVTT, followed by a blank line.
-
-
-
-A timestamp is required before each subtitle line, and it must be in the following format:
-
-
-
-!!! note "Note"
-
-    hh\:mm\:ss.msec 
-
-    Example: 00:00:20.396 (Time: 0 hours, 0 minutes, 20.396 seconds)
-
-    Milliseconds must be specified to the third decimal place.
-
+* The first line of the VTT document must contain the keyword WEBVTT, followed by a blank line.
+* A timestamp is required before each subtitle line, and it must be in the format `hh:mm:ss.msec`. Example: `00:00:20.396` (time: 0 hours, 0 minutes, 20.396 seconds).
+* Milliseconds must be specified to the third decimal place.
 
 !!! warning "Attention"
 
@@ -117,18 +111,18 @@ A timestamp is required before each subtitle line, and it must be in the followi
 
 The following example shows the beginning of a typical VTT file:
 
-!!! note "Note"
+```text
+WEBVTT
 
-    WEBVTT
+00:00:00.000 --> 00:00:04.000
+Where did he go?
 
-    00:00:00.000 --> 00:00:04.000<br>
-    Where did he go?
+00:00:03.000 --> 00:00:06.500
+I think he went down this lane.
 
-    00:00:03.000 --> 00:00:06.500<br>
-    I think he went down this lane.
-
-    00:00:04.000 --> 00:00:06.500<br>
-    What are you waiting for?
+00:00:04.000 --> 00:00:06.500
+What are you waiting for?
+```
 
 Uploaded subtitles appear in a table, where you can also delete them.
 
@@ -136,7 +130,7 @@ Uploaded subtitles appear in a table, where you can also delete them.
 
 !!! info "Contact"
 
-    Automatic subtitle generation is part of the frentix cloud transcoding service and is not included in the standard distribution of OpenOlat. Contact your organisation for this.
+    Automatic subtitle generation belongs to the frentix cloud transcoding service, a service provided by frentix. To have it activated, contact your organisation.
 
 If the frentix cloud transcoding service is activated for the OpenOlat instance, the service automatically creates a subtitle file (transcript) in WebVTT format when transcoding an uploaded video. The following applies:
 
@@ -206,6 +200,8 @@ The video editor includes three editing areas:
 
 The configuration area contains the tabs "Chapters", "Annotations", "Segments", "Comments" and "Quiz".
 
+The timeline shows the elements in tracks, one track each for quiz (Q), comments (K), annotations (A), segments (S), chapters (C) and the video (V). With the filters "Type" and "Color" above the timeline, you narrow down the elements shown. With the two icons on the right above the tracks, you switch between this view and a table with the columns "Start time", "Type", "Text" and "Color".
+
 
 ### Video editor: Chapters [:octicons-tag-16:{ title="from Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
@@ -223,9 +219,9 @@ Chapters can then be edited and deleted again. They also appear in the timeline.
 
 With annotations, you display a text at any point in the video, for example to highlight an important point or to add a reference. In addition to text, links are also possible, for example to further information.
 
-Select the point in the timeline where the annotation should appear and click "Add". The configuration of the annotation opens.
+In the "Annotations" tab, select the point in the timeline where the annotation should appear and click "Add". The configuration of the annotation opens.
 
-Enter the text, set under "Duration" how long the annotation appears, and choose a color under "Color" to mark it in the left area. Use the pencil icon to adjust the position and size of the annotation field. You can also drag the field to another position with the mouse. Save the settings.
+Enter the text, set under "Duration" how long the annotation appears, and choose a color under "Color" to mark it on the left edge of the annotation field. Use the pencil icon to adjust the position and size of the annotation field. You can also drag the field to another position with the mouse. Save the settings.
 
 ![Configuration of an annotation with text, color and the icon for position and size, next to it the annotation field in the video and the annotation in the timeline](assets/Video_Annotationen.jpg){ class="shadow lightbox" title="Video editor, Annotations tab" }
 
@@ -241,11 +237,11 @@ In the video editor, select the "Segments" tab and click "Add". The configuratio
 
 ![Tab "Segments" and the "Add" button highlighted, still without segments](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" title="Video editor, Segments tab" }
 
-Create each segment with "Add" and give it a time span and a "Term". Segments must not overlap in time, and each segment has exactly one term.
+Create each segment with "Add" and give it a time span and a "Term". A segment lasts at least 5 seconds. Segments must not overlap in time, and each segment has exactly one term.
 
 You can also first enter all terms and then assign them to the time spans in the video:
 
-* Click "Terms".
+* In the configuration of a segment, click "Terms".
 
 ![Configuration of a segment with start, end, duration and term, the "Terms" button highlighted](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" title="Configuration of a segment" }
 
@@ -265,7 +261,7 @@ The segments appear in their own track in the timeline. From there, you quickly 
 
 !!! tip "Hints"
 
-    * Use the play button on the video to check your work.
+    * Check your work with the play button of the video.
     * You can click on a segment in the timeline to go directly to the editing screen for that segment.
 
 Segments are mainly used in the "Video task" course element. Some examples:
@@ -279,9 +275,9 @@ Segments are mainly used in the "Video task" course element. Some examples:
 
 With comments, you highlight key statements at a specific point in the video, add information or prepare for the following section. Each comment carries the name of the person who created it.
 
-During playback, the video stops at the point of the comment. It only continues when the person closes the comment or clicks the play button again. This is how comments differ from annotations.
+During playback, the video stops at the point of the comment. The video only continues when the person watching the video closes the comment or clicks the play button again. This is how comments differ from annotations.
 
-You create a comment as text or as a video. You record a video comment directly in OpenOlat with the webcam, import it as a file or embed it via a URL. This creates a "video within a video" at that point.
+You create a comment in the "Comments" tab with "Add", as "Text" or as a video. You record a video comment directly in OpenOlat with the webcam, import it as a file or embed it via a URL. This creates a "video within a video" at that point.
 
 ![Comment with video URL and text, selection Text, Record video, Import video and Video URL to import, plus the comment in track K of the timeline](assets/Video_Kommentare.jpg){ class="shadow lightbox" title="Video editor, Comments tab" }
 
@@ -290,11 +286,7 @@ You create a comment as text or as a video. You record a video comment directly 
 
 With quiz questions, you stop the video at a point and encourage participants to reflect on what they have seen. You create a quiz question on the "Quiz" tab with "Add". There are 12 question types to choose from. After you select the question type, the editor of the quiz question opens: enter the question and the answers there and save.
 
-Which tabs the editor shows depends on the question type.
-
-!!! note "Note"
-
-    For more information on the different question types, see the chapter "[Test Question Types](../learningresources/Test_question_types.md)".
+Which tabs the editor shows depends on the question type. For more information on the different question types, see the page [Test Question Types](../learningresources/Test_question_types.md).
 
 You take over a question from the question bank with "Import questions from pool" in the menu behind the icon with the three dots next to "Add"; you then configure it like a newly created quiz question.
 

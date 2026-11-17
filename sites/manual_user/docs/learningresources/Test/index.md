@@ -1,10 +1,19 @@
 # Creating Tests {: #create_tests}
 
-This chapter explains how authors create tests in OpenOlat, which question types are available and which settings exist. In addition, you learn how to integrate and use tests and self-tests in courses and how to assess and provide test results.
+With a test, you check online what your participants know, for practice or as an exam. This chapter shows authors how to create tests and which question types and settings exist. In addition, you learn how to integrate and use tests and self-tests in courses and how to assess and provide test results.
 
-OpenOlat saves tests in the standardized format QTI 2.1. QTI stands for "Question & Test Interoperability", a data format for online tests. Tests in this format can also be used in other LMS and systems that support the standard. [IMS](http://www.imsglobal.org/ "IMS") develops such open standards for the e-learning sector.
+## Profile
 
-In OpenOlat, tests are part of the "learning resources". You create a learning resource separately and integrate it into online courses. For example, you use the same learning resource "Test (QTI 2.1)" in multiple courses.
+Name | Test
+---------|----------
+Icon | :o_icon_o_FileResource-IMSQTI21_icon:
+Available since | Release 11.0 (2016)
+Purpose | Check and assess knowledge, with questions in the QTI 2.1 format
+In the course | Course elements "Test", "Self-test" and "Practice"
+
+OpenOlat saves tests in the standardized format QTI 2.1. QTI stands for "Question & Test Interoperability", a data format for online tests. Tests in this format can also be used in other LMS (learning management systems) and systems that support the standard. [IMS](http://www.imsglobal.org/ "IMS") develops such open standards for the e-learning sector.
+
+In OpenOlat, tests are part of the "learning resources". You create a learning resource separately and integrate it into online courses. For example, you use the same learning resource "Test" in multiple courses.
 
 [To the top of the page ^](#create_tests)
 
@@ -23,9 +32,11 @@ You create tests with the [OpenOlat test editor](../Test_editor_QTI_2.1/index.md
 
 OpenOlat sends the answers to the server and assesses them only there. The solutions are therefore not in the source code of the test or self-test that participants see in the browser.
 
-When you integrate a test into your course, you decide whether you use it as a self-test, i.e. for practice purposes, or as an exam test ("live" test). In the first case, use the "Self-test" course element; in the second case, use the "Test" course element. OpenOlat stores self-test results anonymized and exam test results personalized. In the case of self-tests, coaches do not see the results achieved by individual participants.
+When you integrate a test into your course, you decide whether you use it as a self-test, i.e. for practice purposes, or as an exam test ("live" test). In the first case, use the "Self-test" course element; in the second case, use the "Test" course element. If you archive the results in the course under `Course > Administration > Archiving & Reporting`, OpenOlat outputs self-test results anonymized and exam test results with names. In the case of self-tests, coaches do not see the results achieved by individual participants.
 
 Depending on the teaching scenario, the "Test" course element also makes sense for practice purposes: whenever coaches want to know how individual participants are progressing, or when they want to identify weaker course members and support them in a targeted way. Therefore, check for each teaching scenario which course element fits.
+
+The course element [Practice](../Course_Element_Practice.md) also uses tests: it takes the questions with which participants practise from one or more tests, among other sources.
 
 [To the top of the page ^](#create_tests)
 
@@ -57,7 +68,7 @@ If you have a test as a file in IMS QTI format from another LMS, import it as a 
 
 !!! info "Important"
 
-    During import, the test file is checked for a valid QTI 2.1 package. Incorrectly generated packages, for example from external tools, are rejected with an error message. [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9454)" }](https://track.frentix.com/issue/OO-9454)
+    During import, OpenOlat checks whether the test file is a valid QTI 2.1 package. OpenOlat rejects incorrectly generated packages, for example from external tools, with an error message. [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9454)" }](https://track.frentix.com/issue/OO-9454)
 
 [To the top of the page ^](#create_tests)
 

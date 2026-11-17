@@ -1,4 +1,4 @@
-# Forms - Overview
+# Forms - Overview {: #overview}
 
 With a form, you collect information, opinions and ratings in OpenOlat, for example:
 
@@ -7,6 +7,15 @@ With a form, you collect information, opinions and ratings in OpenOlat, for exam
 * as rubric assessment
 * for self-assessment
 * or when booking offers in the Course Planner [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
+## Profile
+
+Name | Form
+---------|----------
+Icon | :o_icon_o_FileResource-FORM_icon:
+Available since | Release 11.2 (OO-2329)
+Purpose | Collect information, opinions and ratings
+In the course | Course elements "Form" and "Survey", as rubric also in "Assessment", "Task" and "Group task"
 
 The following pages show how you create and configure a form for each purpose.
 
@@ -28,10 +37,13 @@ The following pages show how you create and configure a form for each purpose.
 
 !!! info "Important"
 
-    There is a learning resource "Form" and a course element "Form". The learning resource contains the form itself, the course element includes it in a course. The concept behind this is explained in the guide [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md).
+    There is a learning resource "Form" and a course element "Form". The learning resource contains the form itself, the course element includes it in a course. The guide [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md) explains the concept behind this.
 
-## Profile
 
-Name | Form
----------|----------
-Available since | Release 11.2 (OO-2329)
+## Further information {: #further_information}
+
+[Course element "Assessment" >](../Course_Element_Assessment.md)<br>
+[Course element "Task" >](../Course_Element_Task/index.md)<br>
+[Course element "Group task" >](../Course_Element_Grouptask.md)
+
+[To the top of the page ^](#overview)

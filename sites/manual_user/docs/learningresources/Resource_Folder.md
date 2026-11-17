@@ -1,27 +1,34 @@
 # Resource folder {: #resource_folder}
 
-Resource folders are learning resources in OpenOlat and are created in the authoring area. They can be used standalone or linked to courses. 
+With a resource folder, you store files in one place and use them in several courses, in addition to the files of the individual course. In OpenOlat, resource folders are learning resources that you create in the authoring area and use standalone or linked to courses.
 
-To use cross-course files for course creation in addition to normal course files, a resource folder should be used.
+## Profile
+
+Name | Resource folder
+---------|----------
+Icon | :o_icon_o_FileResource-SHAREDFOLDER_icon:
+Available since | Release 7.1 or earlier
+Purpose | Store files centrally and use them in several courses
+In the course | `Course > Administration > Settings > Options`, one resource folder per course
 
 ## Using a resource folder in a course
 
-A resource folder lets you centrally organize files (e.g. content, information, graphics) and use them in several courses.
+With a resource folder, you organize files centrally, for example content, information and graphics, and use them in several courses.
 
-To link a resource folder to a course, select the desired resource folder or create a new one under `Course > Administration > Settings > Options`. Only one resource folder can be linked per course.
+You link the resource folder to the course in the course settings: under `Course > Administration > Settings > Options`, select the desired resource folder or create a new one. Only one resource folder can be linked per course.
 
 There are two ways to embed it: read-only or without write protection.
 
 ![Selected resource folder with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" title="Options tab in the course settings" }
 
-**Read only**: The files are only referenced. Within the course, they can neither be changed, deleted, nor added to. This ensures that all courses always use the same up-to-date files.
-
-**Without write protection**: Course owners can change, delete, or add files. These changes are applied directly in the resource folder and therefore affect all linked courses, even if the persons involved are not owners of the resource folder.
+- **Read only**: The files are only referenced. Within the course, they can neither be changed, deleted, nor added to. This way, all linked courses always use the same files in the same state.
+- **Without write protection**: Course owners change and delete files or add new ones. These changes apply directly in the resource folder and therefore in all linked courses, even if the persons involved are not owners of the resource folder.
 
 Therefore, consider carefully whether write protection should be removed.
 
 ### Where to find the files of the resource folder
-Once a resource folder is linked to the course, it appears under `Course > Administration > Files` as "_sharedfolder" with all the files stored in the resource folder. 
+
+If a resource folder is linked to the course, it appears under `Course > Administration > Files` as the folder "_sharedfolder" with all files of the resource folder.
 
 ![Folder "_sharedfolder" among the storage locations, next to the storage folder and the other folders of the course](assets/sharedfolder_20.png){ class="shadow lightbox" title="Files page of a course" }
 
@@ -30,22 +37,25 @@ Once a resource folder is linked to the course, it appears under `Course > Admin
 By default, the files of the resource folder are read-only and cannot be changed.
 
 ### Accessing the files
-The files of the resource folder can be used just like all other files in a course's storage folder, and can also be linked to different course elements. 
 
-For example, central files could be used for a consistent course layout, or documents could be provided via the Document course element, or images could be integrated in the "HTML page" course element, and so on. Whenever there is access to the storage folder within the course, the documents of the linked resource folder can also be used via "_sharedfolder". 
+If the resource folder is linked to the course, you use its files in the course elements like the files of the storage folder. With the ["Folder" course element](Course_Element_Folder.md), you show participants a folder from the resource folder directly in the course.
+
+For example, you use central files for a consistent course layout, provide documents via the "Document" course element or embed images in the "HTML page" course element. Wherever you select files from the storage folder in the course, the folder "_sharedfolder" with the files of the linked resource folder is also available next to it.
 
 
 ## Using it independently of a course
-To use the resource folder standalone, select the usage "Standalone" under `Resource folder > Administration > Settings > Share` and configure the sharing further, e.g. free for guests or with a password. The resource folder must then also be published. This is not necessary when linked to a course.
 
-For more detailed information, see ["Access configuration/Share"](../learningresources/Access_configuration.md).
+To use the resource folder standalone, select the usage "Standalone" under `Resource folder > Administration > Settings > Share` and set up an offer, for example an offer for guests or a booking with an access code. In addition, set the resource folder to the status "Published". This is not necessary when linked to a course.
+
+For more information, see the page [Access configuration](../learningresources/Access_configuration.md).
 
 !!! note "Note"
 
-    Another way to use it independently is via [WebDAV](../basic_concepts/Using_WebDAV.md). In the WebDAV view, in addition to courses and groups, the shared folders of which you are an owner are also displayed.
+    Another way to use it independently is [WebDAV](../basic_concepts/Using_WebDAV.md). In the WebDAV view, in addition to courses and groups, the resource folders appear in the folder "sharedfolders": for editing those of which you are an owner or coach, read-only those of which you are a participant.
 
 ## Further information {: #further_information}
 
+[Course Element "Folder" >](Course_Element_Folder.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Course Settings - Tab Options >](Course_Settings_Options.md)<br>

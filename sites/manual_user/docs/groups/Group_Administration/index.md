@@ -47,7 +47,7 @@ Tool | | Description
 :o_icon_o_bc_icon: | Folder| With a folder the members exchange files. Depending on the configuration by the system administrators, they can also edit office documents together. Once the folder is switched on and saved, you define who can upload and create files.
 :o_icon_o_fo_icon:| Forum| With the forum all members exchange ideas at different times. As coach of the group, you edit and delete posts and write new ones.
 :o_icon_o_icon_chat: | Chat| With the chat the members write to each other in real time. There you also see which other members are currently logged in to OpenOlat.
-:o_icon_o_wiki_icon: | Wiki| With a wiki the members create content together. How to work with a wiki is described on the page [Creating Wikis](../../learningresources/Wiki.md).
+:o_icon_o_wiki_icon: | Wiki| With a wiki the members create content together. How to work with a wiki is described on the page [Wiki](../../learningresources/Wiki.md).
 :o_icon_o_ep_icon: | ePortfolio| With a [portfolio](../../area_modules/Portfolio_General_Information.md) 2.0 the members work together on a portfolio. It is not a portfolio for an assessment.
 :material-monitor: | OpenMeetings| If OpenMeetings is switched on and saved, a virtual meeting room is available to the group. It works similarly to the [Course Element "OpenMeetings"](../../learningresources/Course_Element_OpenMeetings.md).
 :material-monitor: | Adobe Connect| With Adobe Connect a virtual meeting room is available to the group. It works similarly to the [Course Element "Adobe Connect"](../../learningresources/Course_Element_Adobe_Connect.md) [:octicons-tag-16:{ title="from Release 14.0 (OO-3889)" }](https://track.frentix.com/issue/OO-3889).
@@ -170,7 +170,7 @@ The tab only exists if the system administration has defined for invitations or 
 **Mentioned on this page**<br>
 [Group Management >](../../area_modules/Group_Management.md)<br>
 [User tools: Calendar >](../../personal_menu/Calendar.md)<br>
-[Creating Wikis >](../../learningresources/Wiki.md)<br>
+[Wiki >](../../learningresources/Wiki.md)<br>
 [Portfolio - General Information >](../../area_modules/Portfolio_General_Information.md)<br>
 [Course Element "OpenMeetings" >](../../learningresources/Course_Element_OpenMeetings.md)<br>
 [Course Element "Adobe Connect" >](../../learningresources/Course_Element_Adobe_Connect.md)<br>
