@@ -53,7 +53,6 @@ Ist eine Inhaltsdomäne eingerichtet, liefert OpenOlat diese Inhalte darüber au
 - Kursbausteine [Aufgabe](../learningresources/Course_Element_Task/index.de.md) und [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md): Aufgabenstellung, abgegebene Dokumente und Musterlösung
 - Kursbaustein [Dokument](../learningresources/Course_Element_Document.de.md) mit einer HTML-Datei
 - Vorschau einer HTML-Datei, die Sie im Kurseditor auswählen, in den Kursbausteinen "HTML-Seite", "Struktur" und [Test](../learningresources/Course_Element_Test/index.de.md)
-- Inhalte aus [edu-sharing](../learningresources/Course_Element_edu_Sharing.de.md), die in eine HTML-Seite eingebettet sind
 - HTML-Dateien in [Ordnern](Folder_Concept.de.md#open_html) und in [Projekten](../area_modules/Project_Files.de.md), wenn Sie die Datei nur lesen dürfen
 - Vorschau von Zertifikaten
 - Infoseiten im Dokumentenpool und im Fragenpool
@@ -115,7 +114,6 @@ OpenOlat folgt mit der Inhaltsdomäne einem Verfahren, das grosse Plattformen se
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
 [Kursbaustein "Dokument" >](../learningresources/Course_Element_Document.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
-[Kursbaustein "edu-sharing" >](../learningresources/Course_Element_edu_Sharing.de.md)<br>
 [Ordnerkonzept >](Folder_Concept.de.md)<br>
 [Projekte: Dateien >](../area_modules/Project_Files.de.md)<br>
 [System >](../../manual_admin/administration/System.de.md)<br>
