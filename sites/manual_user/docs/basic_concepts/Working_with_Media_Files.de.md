@@ -42,7 +42,7 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 [Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
 [Media Center: Konzept >](Media_Center_Concept/index.de.md)<br>
 [Blog: Übersicht >](../learningresources/Blog/index.de.md)<br>
-[Wiki erstellen >](../learningresources/Wiki.de.md)<br>
+[Wiki >](../learningresources/Wiki.de.md)<br>
 [Tests erstellen >](../learningresources/Test/index.de.md)
 
 [Zum Seitenanfang ^](#media_files)

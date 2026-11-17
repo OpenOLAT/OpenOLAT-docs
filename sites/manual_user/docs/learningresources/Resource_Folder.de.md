@@ -1,51 +1,61 @@
 # Ressourcenordner {: #resource_folder}
 
-Ressourcenordner zählen in OpenOlat zu den Lernressourcen und werden im Autorenbereich erstellt. Sie können eigenständig oder verknüpft mit Kursen verwendet werden. 
+Mit einem Ressourcenordner legen Sie Dateien an einer Stelle ab und nutzen sie in mehreren Kursen, zusätzlich zu den Dateien des einzelnen Kurses. Ressourcenordner sind in OpenOlat Lernressourcen, die Sie im Autorenbereich erstellen und eigenständig oder verknüpft mit Kursen verwenden.
 
-Um neben den normalen Kursdateien auch kursübergreifende Dateien für die Kurserstellung verwenden zu können, sollte ein Ressourcenordner verwendet werden.
+## Steckbrief
+
+Name | Ressourcenordner
+---------|----------
+Icon | :o_icon_o_FileResource-SHAREDFOLDER_icon:
+Verfügbar seit | Release 7.1 oder früher
+Zweck | Dateien zentral ablegen und in mehreren Kursen nutzen
+Im Kurs | `Kurs > Administration > Einstellungen > Optionen`, ein Ressourcenordner je Kurs
 
 ## Ressourcenordner im Kurs verwenden
 
-Mit einem Ressourcenordner lassen sich Dateien (z. B. Inhalte, Informationen, Grafiken) zentral organisieren und in mehreren Kursen nutzen.
+Mit einem Ressourcenordner organisieren Sie Dateien zentral, zum Beispiel Inhalte, Informationen und Grafiken, und nutzen sie in mehreren Kursen.
 
-Um einen Ressourcenordner mit einem Kurs zu verbinden, wählen Sie unter `Kurs > Administration > Einstellungen > Optionen` den gewünschten Ressourcenordner aus oder erstellen einen neuen. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
+Den Ressourcenordner verbinden Sie in den Kurseinstellungen mit dem Kurs: Wählen Sie unter `Kurs > Administration > Einstellungen > Optionen` den gewünschten Ressourcenordner aus oder erstellen Sie einen neuen. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
 
 Bei der Einbindung gibt es zwei Varianten: schreibgeschützt oder ohne Schreibschutz.
 
 ![Gewählter Ressourcenordner mit Häkchen "Schreibgeschützt" und den Buttons "Auswahl löschen" und "Auswechseln"](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen" }
 
-**Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs können sie weder verändert noch gelöscht oder ergänzt werden. Damit ist sichergestellt, dass alle Kurse stets dieselben aktuellen Dateien nutzen.
-
-**Ohne Schreibschutz**: Kursbesitzer:innen können Dateien ändern, löschen oder neue hinzufügen. Diese Anpassungen werden direkt im Ressourcenordner übernommen und wirken sich damit auf alle verknüpften Kurse aus, auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
+- **Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs lassen sie sich weder verändern noch löschen oder ergänzen. So nutzen alle verknüpften Kurse stets dieselben Dateien im selben Stand.
+- **Ohne Schreibschutz**: Kursbesitzer:innen ändern und löschen Dateien oder fügen neue hinzu. Diese Anpassungen gelten direkt im Ressourcenordner und damit in allen verknüpften Kursen, auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
 
 Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.
 
 ### Hier findet man die Dateien des Ressourcenordners
-Wurde ein Ressourcenordner mit dem Kurs verbunden, erscheint er unter `Kurs > Administration > Dateien` als "_sharedfolder" mit allen Dateien, die im Ressourcenordner hinterlegt wurden. 
+
+Ist ein Ressourcenordner mit dem Kurs verbunden, erscheint er unter `Kurs > Administration > Dateien` als Ordner "_sharedfolder" mit allen Dateien des Ressourcenordners.
 
 ![Ordner "_sharedfolder" unter den Ablageorten, neben dem Ablageordner und den übrigen Ordnern des Kurses](assets/sharedfolder_20.png){ class="shadow lightbox" title="Seite Dateien eines Kurses" }
 
 ![Dateiliste im Ordner "_sharedfolder" mit den Dateien des Ressourcenordners](assets/sharedfolder_20_b.png){ class="shadow lightbox" title="Ordner _sharedfolder auf der Seite Dateien eines Kurses" }
 
-In der Standardeinstellung sind die Dateien des Ressourcenordners schreibgeschützt und können nicht verändert werden. 
+In der Standardeinstellung sind die Dateien des Ressourcenordners schreibgeschützt und können nicht verändert werden.
 
 ### Zugriff auf die Dateien
-Die Dateien des Ressourcenordners können genau wie alle anderen Dateien des Ablageordners eines Kurses verwendet und auch mit unterschiedlichen Kursbausteinen verknüpft werden. 
 
-So könnten zentrale Dateien z.B. für einheitliche Kurslayouts verwendet, oder Dokumente über den Kursbaustein Dokument bereitgestellt oder Bilder im Kursbaustein "HTML-Seite" integriert werden usw. Immer dann, wenn innerhalb des Kurses Zugriff auf den Ablageordner besteht können auch die Dokumente des verknüpften Ressourcenordners über "_sharedfolder" verwendet werden. 
+Ist der Ressourcenordner mit dem Kurs verbunden, nutzen Sie seine Dateien in den Kursbausteinen wie die Dateien des Ablageordners. Mit dem Kursbaustein [Ordner](Course_Element_Folder.de.md) zeigen Sie Teilnehmenden einen Ordner aus dem Ressourcenordner direkt im Kurs.
+
+So nutzen Sie zentrale Dateien zum Beispiel für ein einheitliches Kurslayout, stellen Dokumente über den Kursbaustein "Dokument" bereit oder binden Bilder in den Kursbaustein "HTML-Seite" ein. Überall, wo Sie im Kurs Dateien aus dem Ablageordner wählen, steht daneben auch der Ordner "_sharedfolder" mit den Dateien des verknüpften Ressourcenordners bereit.
 
 
 ## Kursunabhängige Nutzung
-Um den Ressourcenordner eigenständig zu verwenden, wählen Sie unter `Ressourcenordner > Administration > Einstellungen > Freigabe` den Verwendungszweck "Eigenständig" und konfigurieren die Freigabe weiter, z.B. frei für Gäste oder mit einem Passwort. Ferner muss der Ressourcenordner dann auch veröffentlicht werden. Bei einer Verbindung mit einem Kurs ist das nicht nötig.
 
-Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../learningresources/Access_configuration.de.md).
+Um den Ressourcenordner eigenständig zu verwenden, wählen Sie unter `Ressourcenordner > Administration > Einstellungen > Freigabe` den Verwendungszweck "Eigenständig" und richten ein Angebot ein, zum Beispiel ein Angebot für Gäste oder eine Buchung mit Zugangscode. Zusätzlich setzen Sie den Ressourcenordner auf den Status "Veröffentlicht". Bei einer Verbindung mit einem Kurs ist das nicht nötig.
+
+Mehr dazu auf der Seite [Zugangskonfiguration / Freigabe](../learningresources/Access_configuration.de.md).
 
 !!! note "Hinweis"
 
-    Eine weitere Möglichkeit der unabhängigen Nutzung besteht über [WebDAV](../basic_concepts/Using_WebDAV.de.md). In der WebDAV-Ansicht werden neben Kursen und Gruppen auch die Sharedfolders, bei denen man Besitzer:in ist, angezeigt.
+    Eine weitere Möglichkeit der unabhängigen Nutzung bietet [WebDAV](../basic_concepts/Using_WebDAV.de.md). In der WebDAV-Ansicht erscheinen neben Kursen und Gruppen im Ordner "sharedfolders" auch die Ressourcenordner: zum Bearbeiten jene, bei denen Sie Besitzer:in oder Betreuer:in sind, schreibgeschützt jene, bei denen Sie Teilnehmer:in sind.
 
 ## Weiterführende Informationen {: #further_information}
 
+[Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)<br>
@@ -53,6 +63,3 @@ Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../lea
 [Ablageordner >](Storage_folder.de.md)
 
 [Zum Seitenanfang ^](#resource_folder)
-
-
-

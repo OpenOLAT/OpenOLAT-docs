@@ -39,7 +39,7 @@ Bitte unterscheiden Sie:
 [Kursbaustein "Blog"](../learningresources/Course_Element_Blog.de.md)
 
 **Weiterführend**<br>
-[Wiki erstellen](../learningresources/Wiki.de.md)<br>
+[Wiki](../learningresources/Wiki.de.md)<br>
 [Podcast: Übersicht](Podcast/index.de.md)
 
 [zum Seitenanfang ^](#blog_create)

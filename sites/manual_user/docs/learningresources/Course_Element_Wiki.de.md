@@ -282,7 +282,7 @@ Mit dem Link "Als CP exportieren" exportieren alle Beteiligten das Wiki als IMS-
 [MediaWiki: Hilfe zur Formatierung](https://www.mediawiki.org/wiki/Help:Formatting)
 
 **Weiterführend**<br>
-[Wiki erstellen >](Wiki.de.md)<br>
+[Wiki >](Wiki.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)
 

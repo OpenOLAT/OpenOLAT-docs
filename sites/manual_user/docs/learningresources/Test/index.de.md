@@ -1,11 +1,20 @@
 # Tests erstellen {: #create_tests}
 
 
-Dieses Kapitel erklärt, wie Autor:innen in OpenOlat Tests erstellen, welche Fragetypen zur Verfügung stehen und welche Einstellungen bereitstehen. Darüber hinaus erfahren Sie, wie Sie Tests und Selbsttests in Kurse einbinden und nutzen und wie Sie Testergebnisse auswerten und bereitstellen.
+Mit einem Test prüfen Sie online, was Ihre Teilnehmenden wissen, zur Übung oder als Prüfung. Dieses Kapitel zeigt Autor:innen, wie sie Tests erstellen und welche Fragetypen und Einstellungen es gibt. Darüber hinaus erfahren Sie, wie Sie Tests und Selbsttests in Kurse einbinden und nutzen und wie Sie Testergebnisse auswerten und bereitstellen.
 
-OpenOlat speichert Tests im standardisierten Format QTI 2.1. QTI steht für "Question & Test Interoperability", ein Datenformat für Online-Tests. Tests in diesem Format lassen sich auch in anderen LMS und Systemen nutzen, die den Standard unterstützen. [IMS](http://www.imsglobal.org/ "IMS") entwickelt solche offenen Standards für den E-Learning-Bereich.
+## Steckbrief
 
-In OpenOlat gehören Tests zu den "Lernressourcen". Sie erstellen eine Lernressource separat und binden sie in Online-Kurse ein. So verwenden Sie zum Beispiel dieselbe Lernressource "Test (QTI 2.1)" in mehreren Kursen.
+Name | Test
+---------|----------
+Icon | :o_icon_o_FileResource-IMSQTI21_icon:
+Verfügbar seit | Release 11.0 (2016)
+Zweck | Wissen prüfen und bewerten, mit Fragen im Format QTI 2.1
+Im Kurs | Kursbausteine "Test", "Selbsttest" und "Übung"
+
+OpenOlat speichert Tests im standardisierten Format QTI 2.1. QTI steht für "Question & Test Interoperability", ein Datenformat für Online-Tests. Tests in diesem Format lassen sich auch in anderen LMS (Learning Management Systems) und Systemen nutzen, die den Standard unterstützen. [IMS](http://www.imsglobal.org/ "IMS") entwickelt solche offenen Standards für den E-Learning-Bereich.
+
+In OpenOlat gehören Tests zu den "Lernressourcen". Sie erstellen eine Lernressource separat und binden sie in Online-Kurse ein. So verwenden Sie zum Beispiel dieselbe Lernressource "Test" in mehreren Kursen.
 
 [Zum Seitenanfang ^](#create_tests)
 
@@ -24,9 +33,11 @@ Tests erstellen Sie mit dem [OpenOlat-Testeditor](../Test_editor_QTI_2.1/index.d
 
 OpenOlat schickt die Antworten an den Server und wertet sie erst dort aus. Die Lösungen stehen deshalb nicht im Quellcode des Tests oder Selbsttests, den Teilnehmende im Browser sehen.
 
-Wenn Sie einen Test in Ihren Kurs einbinden, entscheiden Sie, ob Sie ihn als Selbsttest, also zu Übungszwecken, oder als Prüfungstest ("scharfer" Test) einsetzen. Im ersten Fall verwenden Sie den Kursbaustein "Selbsttest", im zweiten Fall den Kursbaustein "Test". OpenOlat speichert Selbsttestresultate anonymisiert und Prüfungstestresultate personalisiert. Bei Selbsttests sehen Betreuer:innen nicht, welche Resultate einzelne Teilnehmende erzielt haben.
+Wenn Sie einen Test in Ihren Kurs einbinden, entscheiden Sie, ob Sie ihn als Selbsttest, also zu Übungszwecken, oder als Prüfungstest ("scharfer" Test) einsetzen. Im ersten Fall verwenden Sie den Kursbaustein "Selbsttest", im zweiten Fall den Kursbaustein "Test". Archivieren Sie die Resultate im Kurs unter `Kurs > Administration > Archivierung & Reports`, gibt OpenOlat Selbsttestresultate anonymisiert aus und Prüfungstestresultate mit Namen. Bei Selbsttests sehen Betreuer:innen nicht, welche Resultate einzelne Teilnehmende erzielt haben.
 
 Je nach Lehrszenario ist auch für Übungszwecke der Kursbaustein "Test" sinnvoll: immer dann, wenn Betreuer:innen wissen möchten, wie sich einzelne Teilnehmende entwickeln, oder wenn sie schwächere Kursmitglieder erkennen und gezielt unterstützen wollen. Prüfen Sie deshalb für jedes Lehrszenario, welcher Kursbaustein passt.
+
+Auch der Kursbaustein [Übung](../Course_Element_Practice.de.md) verwendet Tests: Er nimmt die Fragen, mit denen Teilnehmende üben, unter anderem aus einem oder mehreren Tests.
 
 [Zum Seitenanfang ^](#create_tests)
 
@@ -58,7 +69,7 @@ Liegt Ihnen ein Test als Datei im Format IMS QTI aus einem anderen LMS vor, impo
 
 !!! info "Wichtig"
 
-    Beim Import wird die Testdatei auf ein gültiges QTI-2.1-Paket geprüft. Fehlerhaft erzeugte Pakete, zum Beispiel aus externen Tools, werden mit einer Fehlermeldung abgelehnt. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9454)" }](https://track.frentix.com/issue/OO-9454)
+    Beim Import prüft OpenOlat, ob die Testdatei ein gültiges QTI-2.1-Paket ist. Fehlerhaft erzeugte Pakete, zum Beispiel aus externen Tools, lehnt OpenOlat mit einer Fehlermeldung ab. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9454)" }](https://track.frentix.com/issue/OO-9454)
 
 [Zum Seitenanfang ^](#create_tests)
 

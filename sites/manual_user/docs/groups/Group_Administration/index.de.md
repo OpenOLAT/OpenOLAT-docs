@@ -47,7 +47,7 @@ Werkzeug | | Beschreibung
 :o_icon_o_bc_icon: | Ordner| Mit einem Ordner tauschen die Mitglieder Dateien aus. Je nach Konfiguration durch die Systemadministrator:innen bearbeiten sie Office-Dokumente auch gemeinsam. Ist der Ordner eingeschaltet und gespeichert, legen Sie fest, wer Dateien hochladen und erstellen darf.
 :o_icon_o_fo_icon:| Forum| Mit dem Forum tauschen sich alle Mitglieder zeitversetzt aus. Als Betreuer:in der Gruppe bearbeiten und löschen Sie Beiträge und verfassen neue.
 :o_icon_o_icon_chat: | Chat| Mit dem Chat schreiben die Mitglieder einander in Echtzeit. Sie sehen dort auch, welche anderen Mitglieder gerade in OpenOlat angemeldet sind.
-:o_icon_o_wiki_icon: | Wiki| Mit einem Wiki erstellen die Mitglieder gemeinsam Inhalte. Wie die Arbeit mit einem Wiki geht, beschreibt die Seite [Wiki erstellen](../../learningresources/Wiki.de.md).
+:o_icon_o_wiki_icon: | Wiki| Mit einem Wiki erstellen die Mitglieder gemeinsam Inhalte. Wie die Arbeit mit einem Wiki geht, beschreibt die Seite [Wiki](../../learningresources/Wiki.de.md).
 :o_icon_o_ep_icon: | Portfolio| Mit einem [Portfolio](../../area_modules/Portfolio_General_Information.de.md) 2.0 arbeiten die Mitglieder gemeinsam an einem Portfolio. Es ist kein Portfolio für eine Bewertung.
 :material-monitor: | OpenMeetings| Ist OpenMeetings eingeschaltet und gespeichert, steht der Gruppe ein virtueller Meetingraum zur Verfügung. Er funktioniert ähnlich wie der [Kursbaustein "OpenMeetings"](../../learningresources/Course_Element_OpenMeetings.de.md).
 :material-monitor: | Adobe Connect| Mit Adobe Connect steht der Gruppe ein virtueller Meetingraum zur Verfügung. Er funktioniert ähnlich wie der [Kursbaustein "Adobe Connect"](../../learningresources/Course_Element_Adobe_Connect.de.md) [:octicons-tag-16:{ title="ab Release 14.0 (OO-3889)" }](https://track.frentix.com/issue/OO-3889).
@@ -170,7 +170,7 @@ Den Tab gibt es nur, wenn die System-Administration für Einladungen oder für L
 **Auf dieser Seite erwähnt**<br>
 [Gruppenverwaltung >](../../area_modules/Group_Management.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../../personal_menu/Calendar.de.md)<br>
-[Wiki erstellen >](../../learningresources/Wiki.de.md)<br>
+[Wiki >](../../learningresources/Wiki.de.md)<br>
 [Allgemeines zum Portfolio >](../../area_modules/Portfolio_General_Information.de.md)<br>
 [Kursbaustein "OpenMeetings" >](../../learningresources/Course_Element_OpenMeetings.de.md)<br>
 [Kursbaustein "Adobe Connect" >](../../learningresources/Course_Element_Adobe_Connect.de.md)<br>

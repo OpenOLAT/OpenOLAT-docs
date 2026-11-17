@@ -1,27 +1,35 @@
 # Blog: Übersicht {: #blog_learning_resource_overview}
 
+Mit einem Blog veröffentlichen Sie Beiträge als Text, Bild oder Video, die neuesten zuoberst. Blogs sind in OpenOlat Lernressourcen, die Sie eigenständig oder eingebunden in einen Kurs verwenden.
+
+## Steckbrief
+
+Name | Blog
+---------|----------
+Icon | :o_icon_o_FileResource-BLOG_icon:
+Verfügbar seit | Release 7.1 oder früher
+Zweck | Beiträge als Text, Bild oder Video zeitlich geordnet veröffentlichen
+Im Kurs | Kursbaustein "Blog" oder Eintrag "Blog" in der Toolbar des Kurses
+
 ## Was sind Blogs?
 
-Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Blogs werden häufig als Online-Journal für fachbezogene oder persönliche Information eingesetzt. Mit einem Blog können Sie Ihren Kursteilnehmer:innen Inhalte als Text, Bild oder Video schnell und einfach zur Verfügung stellen. Die Einträge werden zeitlich sortiert angezeigt, die neuesten Meldungen erscheinen immer oben. Kursteilnehmer:innen können Blogs über den RSS-Feed abonnieren, Einträge bewerten und Kommentare dazu verfassen.
+Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Blogs werden häufig als Online-Journal für fachbezogene oder persönliche Information eingesetzt. Mit einem Blog stellen Sie Ihren Teilnehmer:innen Inhalte als Text, Bild oder Video zur Verfügung. Die Einträge erscheinen zeitlich sortiert, die neuesten immer oben. Teilnehmer:innen abonnieren Blogs über den RSS-Feed. Sind Bewertungen und Kommentare in der Lernressource eingeschaltet, bewerten sie Einträge und schreiben Kommentare dazu.
 
-!!! info ""
-
-    Blogs werden in der Regel wie öffentliche Tagebücher verwendet. Der Vorteil liegt in der schnellen und standardisierten Veröffentlichung.
-
+Eine Alternative zu einem Blog ist der Kursbaustein [Forum](../Course_Element_Forum.de.md).
 
 ## Blog erstellen
 
-Mit dem Erstellen von Blogs ist hier das Erstellen der Blog-Lernressourcen und das Einbinden der Lernressourcen in einen Kursbaustein gemeint. (Nicht das Ergänzen, Editieren, Kommentieren und Bewerten von Beiträgen durch Kursteilnehmer:innen im Kurs. Dies bezeichnen wir als [Bloggen](../Blog_Blogging.de.md).)
+Für einen Blog im Kurs erstellen Sie die Lernressource Blog und binden sie in den Kurs ein. Wie danach im Kurs Beiträge ergänzt, bearbeitet, kommentiert und bewertet werden, beschreibt die Seite [Bloggen](../Blog_Blogging.de.md).
 
 [Zu den Details >](../Blog_Create.de.md)
 
 Falls Sie noch wenig Erfahrung mit dem Erstellen von Kursen haben, finden Sie hier eine Schritt-für-Schritt-Anleitung zum Erstellen und Einbinden:<br>
-[Wie erstelle ich einen Blog?](../../../manual_how-to/blog/blog.de.md)<br>
+[Wie erstelle ich einen Blog?](../../../manual_how-to/blog/blog.de.md)
 
 
 ## Blog konfigurieren
 
-Die Konfiguration eines Blogs geschieht einerseits in der Blog-**Lernressource**, andererseits in den Blog-**Kursbausteinen**, in die die Lernressource eingebunden wird.
+Einen Blog konfigurieren Sie in der Lernressource Blog und dort, wo er in den Kurs eingebunden ist: im Kursbaustein "Blog" oder in der Toolbar des Kurses.
 
 [Blog im Kursbaustein konfigurieren >](../Blog_Configuration.de.md)<br>
 [Blog: Administration >](../Blog_Administration.de.md)
@@ -29,10 +37,9 @@ Die Konfiguration eines Blogs geschieht einerseits in der Blog-**Lernressource**
 
 ## Bloggen
 
-Der Begriff "Bloggen" meint das Nutzen, Verwenden, Einsetzen eines erstellten und konfigurierten Blogs.
-Also wie Kursteilnehmer:innen und Betreuer:innen mit einem Blog in einem OpenOlat-Kurs arbeiten können:
+Bloggen heisst, mit einem erstellten und konfigurierten Blog im Kurs zu arbeiten. Je nach Berechtigung im Kursbaustein können Teilnehmer:innen und Betreuer:innen:
 
-* aufrufen, lesen 
+* den Blog aufrufen und lesen
 * Beiträge hinzufügen
 * Beiträge kommentieren
 * Beiträge bewerten
@@ -40,20 +47,11 @@ Also wie Kursteilnehmer:innen und Betreuer:innen mit einem Blog in einem OpenOla
 [Zu den Details >](../Blog_Blogging.de.md)
 
 
-!!! note "Hinweis"
-
-    Eine Alternative zu einem Blog könnte eventuell ein [Forum](../Course_Element_Forum.de.md) sein.
-
-
 ## Weiterführende Informationen {: #further_information}
 
-**Auf dieser Seite erwähnt**<br>
-[Bloggen >](../Blog_Blogging.de.md)<br>
-[Blog erstellen >](../Blog_Create.de.md)<br>
-[Wie erstelle ich einen Blog? >](../../../manual_how-to/blog/blog.de.md)<br>
-[Blog im Kursbaustein konfigurieren >](../Blog_Configuration.de.md)<br>
-[Blog: Administration >](../Blog_Administration.de.md)<br>
-[Forum >](../Course_Element_Forum.de.md)
+[Kursbaustein "Blog" >](../Course_Element_Blog.de.md)<br>
+[Toolbar >](../Course_Settings_Toolbar.de.md)<br>
+[Podcast: Übersicht >](../Podcast/index.de.md)
 
 [Zum Seitenanfang ^](#blog_learning_resource_overview)
 

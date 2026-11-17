@@ -1,4 +1,4 @@
-# Formulare - Übersicht
+# Formulare - Übersicht {: #overview}
 
 Mit einem Formular sammeln Sie in OpenOlat Angaben, Meinungen und Bewertungen, zum Beispiel:
 
@@ -7,6 +7,15 @@ Mit einem Formular sammeln Sie in OpenOlat Angaben, Meinungen und Bewertungen, z
 * als Rubrik-Bewertung
 * zur Selbsteinschätzung
 * oder beim Buchen von Angeboten im Course Planner [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"}
+
+## Steckbrief
+
+Name | Formular
+---------|----------
+Icon | :o_icon_o_FileResource-FORM_icon:
+Verfügbar seit | Release 11.2 (OO-2329)
+Zweck | Angaben, Meinungen und Bewertungen sammeln
+Im Kurs | Kursbausteine "Formular" und "Umfrage", als Rubrik auch in "Bewertung", "Aufgabe" und "Gruppenaufgabe"
 
 Die folgenden Seiten zeigen, wie Sie ein Formular für den jeweiligen Zweck erstellen und konfigurieren.
 
@@ -28,10 +37,13 @@ Die folgenden Seiten zeigen, wie Sie ein Formular für den jeweiligen Zweck erst
 
 !!! info "Wichtig"
 
-    Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Das Konzept dahinter wird Ihnen in der Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md) erklärt.
+    Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Das Konzept dahinter erklärt die Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md).
 
-## Steckbrief
 
-Name | Formular
----------|----------
-Verfügbar seit | Release 11.2 (OO-2329)
+## Weiterführende Informationen {: #further_information}
+
+[Kursbaustein "Bewertung" >](../Course_Element_Assessment.de.md)<br>
+[Kursbaustein "Aufgabe" >](../Course_Element_Task/index.de.md)<br>
+[Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)
+
+[Zum Seitenanfang ^](#overview)

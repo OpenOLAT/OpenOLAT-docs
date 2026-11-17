@@ -1,36 +1,48 @@
-# Wiki erstellen
+# Wiki {: #wiki}
 
-Ein Wiki (hawaiianisch für "schnell") ist ein kollaboratives Hypertext-System für Webseiten. Hier können Lernende und Lehrende gemeinsam Hypertexte erstellen. Standardmässig haben alle Beteiligten Lese- und Schreibrechte.
+!!! info "Kontakt"
 
-Ein Wiki ist in OpenOlat eine Lernressource, die sowohl kursunabhängig als auch integriert in einen Kurs verwendet werden kann. Ferner beinhalten Gruppen ebenfalls ein [Gruppenwerkzeug "Wiki"](../groups/Using_Group_Tools.de.md).
+    Die System-Administration schaltet das Wiki für die ganze OpenOlat-Instanz ein: die Lernressource, den Kursbaustein und das Gruppenwerkzeug "Wiki" zusammen. Für die Aktivierung wenden Sie sich an Ihre Organisation.
 
-Wird ein Wiki in einen Kurs eingebunden, kann ein und dasselbe Wiki in mehreren Kursen verwendet werden. Wenn Sie noch keinen Kurs erstellt haben, finden Sie im Kapitel ["Kurs erstellen"](../learningresources/Creating_Course.de.md) Informationen dazu, bevor Sie mit Hilfe der Anleitung ["Vier Schritte zu Ihrem Wiki"](../resource_wiki/Four_Steps_to_Your_Wiki.de.md) Ihr Wiki erstellen.
+Ein Wiki (hawaiianisch für "schnell") ist eine Sammlung von Seiten, die mehrere Personen gemeinsam schreiben und untereinander verlinken. Lernende und Lehrende erstellen darin zusammen Texte. Standardmässig dürfen alle Personen, die Zugang zum Wiki haben, die Seiten lesen und bearbeiten.
+
+## Steckbrief
+
+Name | Wiki
+---------|----------
+Icon | :o_icon_o_FileResource-WIKI_icon:
+Verfügbar seit | Release 7.1 oder früher
+Zweck | Texte gemeinsam schreiben und untereinander verlinken
+Im Kurs | Kursbaustein "Wiki" oder Eintrag "Wiki" in der Toolbar des Kurses
+
+Ein Wiki ist in OpenOlat eine Lernressource. Sie nutzen es unabhängig von Kursen oder binden es in einen Kurs ein, und dasselbe Wiki lässt sich in mehreren Kursen verwenden. Gruppen haben ausserdem ein eigenes Wiki, das [Gruppenwerkzeug "Wiki"](../groups/Using_Group_Tools.de.md).
+
+Wie Sie ein Wiki Schritt für Schritt erstellen, zeigt die Anleitung [Vier Schritte zu Ihrem Wiki](../resource_wiki/Four_Steps_to_Your_Wiki.de.md). Möchten Sie das Wiki in einen Kurs einbinden und haben noch keinen Kurs, beschreibt das Kapitel [Kurs erstellen](../learningresources/Creating_Course.de.md) die ersten Schritte.
 
 ## Einsatzmöglichkeiten von Wikis
 
-Ein Wiki kann beispielsweise für die gemeinsame Texterstellung von Gruppen oder des gesamten Plenums eines Kurses, verwendet werden. So können die Inhalte eines Kurses kooperativ erstellt werden oder der Lehrende legt eine inhaltliche Wiki-Struktur an, den die Lernenden angemessen inhaltlich füllen müssen. Auch eine gemeinsame Vorstellung, in Form von kurzen Steckbriefen kann im Wiki umgesetzt werden.
+Ein Wiki eignet sich überall dort, wo mehrere Personen gemeinsam Texte erstellen, etwa eine Gruppe oder alle Teilnehmenden eines Kurses. So erarbeiten die Teilnehmenden die Inhalte eines Kurses gemeinsam, oder Lehrende legen eine Struktur aus Wiki-Seiten an, die die Lernenden mit Inhalt füllen. Auch eine Vorstellungsrunde, in der sich jede Person auf einer eigenen Seite vorstellt, lässt sich im Wiki umsetzen.
 
-Oder verwenden Sie ein Wiki als eine Wissensbasis, die von Teilnehmenden eines höheren Semesters erstellt und in Vorkursen oder
-Einführungsveranstaltungen als Referenz verwendet werden kann. Auch
-thematische Linksammlungen oder Sammlungen von Klausurfragen können gemeinsam
-in einem Wiki erstellt werden.
+Ein Wiki dient auch als Wissensbasis: Teilnehmende eines höheren Semesters erstellen es, und Vorkurse oder Einführungsveranstaltungen nutzen es als Referenz. Ebenso eignet es sich für thematische Linksammlungen oder Sammlungen von Klausurfragen.
 
 ## Kennzeichen eines OpenOlat Wikis
 
-In einem Wiki sind alle Beteiligten gleichberechtigt und können alle Wiki-Seiten bearbeiten, ändern und Inhalte löschen (Lese- und Schreibrechte).
-Lediglich komplette Wiki-Seiten sowie das Wiki selbst können nur vom Besitzer
-der Lernressource bzw. des Kurses gelöscht werden. Im Kurs können Sie im Tab
-"Wiki-Lerninhalt" auch die Benutzerberechtigungen für Teilnehmende und Betreuende
-anpassen.
+In einem Wiki sind alle Beteiligten gleichberechtigt: Sie lesen alle Wiki-Seiten, bearbeiten sie und löschen dabei auch Text. Eine ganze Wiki-Seite löschen die Person, die die Seite angelegt hat, und die Besitzer:innen der Lernressource oder des Kurses. Das Wiki selbst löschen die Besitzer:innen der Lernressource.
 
-Wiki-Seiten werden mit Hilfe einer [Wiki-Syntax](../learningresources/Course_Element_Wiki.de.md#wiki-syntax)
-erstellt, bearbeitet und untereinander verlinkt.
+Im Kurs legen Sie beim Kursbaustein "Wiki" fest, ob Betreuer:innen und Teilnehmende Wiki-Seiten bearbeiten dürfen (Einstellung "Artikel bearbeiten"):<br>
+`Kurs > Administration > Kurseditor > Kursbaustein "Wiki" > Tab "Wiki-Lerninhalt"`
 
-Tipp: Achten Sie darauf, gezielt Verlinkungen zwischen den einzelnen Seiten
-herzustellen um einen wirklichen Hypertext mit vielfältigen Knoten zu
-erstellen.
+Wiki-Seiten erstellen, bearbeiten und verlinken Sie mit der [Wiki-Syntax](../learningresources/Course_Element_Wiki.de.md#wiki-syntax).
 
-!!! info "Wichtig"
+Tipp: Verlinken Sie die Seiten gezielt untereinander. So entsteht ein Netz aus Seiten, in dem die Lesenden von einem Thema zum nächsten finden.
 
-    Wenn Sie in Ihrer OpenOlat Instanz weder den Kursbaustein noch die Lernressource "Wiki" finden, so wurde dies systemweit von einem Administrator ausgeschaltet.
+## Weiterführende Informationen {: #further_information}
 
+[Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
+[Vier Schritte zu Ihrem Wiki >](../resource_wiki/Four_Steps_to_Your_Wiki.de.md)<br>
+[Kurs erstellen >](../learningresources/Creating_Course.de.md)<br>
+[Kursbaustein "Wiki" >](../learningresources/Course_Element_Wiki.de.md)<br>
+[Wie erstelle ich ein Wiki? >](../../manual_how-to/wikis/wikis.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)
+
+[Zum Seitenanfang ^](#wiki)

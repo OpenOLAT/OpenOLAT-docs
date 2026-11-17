@@ -14,7 +14,7 @@ WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein o
   * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
   * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer:innen)
   * [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md)
-  * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (nur Besitzer:innen der Lernressource)
+  * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (Besitzer:innen und Betreuer:innen mit Schreibrecht, Teilnehmende mit Leserecht)
   * [Kursarchive](../learningresources/Course_Archiving/index.de.md) (nur Autor:innen, Lernressourcenmanager:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, hängt von der Konfiguration des Ordners ab.

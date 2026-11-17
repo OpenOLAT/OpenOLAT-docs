@@ -126,7 +126,7 @@ Mit "Einbinden" erstellen Sie die Lernressource.
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>
 [CP-Lerninhalt erstellen >](../learningresources/CP_Editor.de.md)<br>
 [Wie erstelle ich ein Content Package? >](../../manual_how-to/content_package/content_package.de.md)<br>
-[Wiki erstellen >](../learningresources/Wiki.de.md)<br>
+[Wiki >](../learningresources/Wiki.de.md)<br>
 [Wie erstelle ich ein Wiki? >](../../manual_how-to/wikis/wikis.de.md)<br>
 [Portfoliovorlage: Erstellung >](../learningresources/Portfolio_template_Creation.de.md)<br>
 [Glossar >](../learningresources/Glossary/index.de.md)<br>

@@ -325,7 +325,7 @@ Das Icon "Termine" erscheint automatisch in der Toolbar, sobald das Termin- und 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Wiki erstellen >](Wiki.de.md)<br>
+[Wiki >](Wiki.de.md)<br>
 [Blog: Übersicht >](Blog/index.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>

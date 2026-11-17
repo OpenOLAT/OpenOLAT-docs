@@ -4,95 +4,79 @@
 
 Mit OpenOlat-Kursen bilden Sie verschiedene Veranstaltungsformate ab, zum Beispiel Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle. Ebenso setzen Sie verschiedene Arten des Lernens um, zum Beispiel problembasiertes, kooperatives oder selbstorganisiertes Lernen. Dafür setzen Sie beliebig viele [Kursbausteine](../Course_Elements/index.de.md) in frei wählbarer Reihenfolge ein und richten den Kurs so nach Ihrem didaktischen Konzept aus.
 
-Um Kurse zu erstellen, brauchen Sie Autorenrechte. Diese erhalten Sie bei Ihrer OpenOlat-Supportstelle oder bei den Administrator:innen Ihrer OpenOlat-Instanz.
+## Steckbrief
+
+Name | Kurs
+---------|----------
+Icon | :o_icon_o_CourseModule_icon:
+Verfügbar seit | Release 7.1 oder früher
+Zweck | Lerninhalte, Aktivitäten und Bewertungen in einer Struktur aus Kursbausteinen zusammenführen
+
+Um Kurse zu erstellen, brauchen Sie die [Rolle](../../basic_concepts/Roles/index.de.md) "Autor:in". Fehlt sie Ihnen, wenden Sie sich an Ihre Organisation.
 
 ## Der Kurszyklus im Überblick {: #course_lifecycle}
 
 ### 1. Kurs anlegen {: #stage1}
 
-Erstellen Sie die Lernressource Kurs über `Autorenbereich > Erstellen > Kurs` und wählen Sie das gewünschte Kursdesign: "Mit Lernpfad" oder "Mit Lernfortschritt" für einen Lernpfadkurs, "Klassisch" für einen herkömmlichen Kurs.
+Am Anfang steht die Lernressource Kurs. Sie erstellen sie im Autorenbereich über `Autorenbereich > Erstellen > Kurs` und wählen dabei das Kursdesign. "Mit Lernpfad" führt die Teilnehmenden in einer festen Reihenfolge durch den Kurs, "Mit Lernfortschritt" zeigt ihren Fortschritt ohne feste Reihenfolge. Beide ergeben einen [Lernpfadkurs](../Learning_path_course/index.de.md). "Klassisch" ergibt einen herkömmlichen Kurs.
 
-![Eintrag Kurs im aufgeklappten Menü Erstellen, oben rechts](../assets/create_course_16_DE.png){ class="shadow lightbox" title="Autorenbereich" }
+![Eintrag Kurs als erster Eintrag im aufgeklappten Menü Erstellen](../assets/create_course_16_DE.png){ class="shadow lightbox" title="Menü Erstellen im Autorenbereich" }
 
-!!! note "Weitere Informationen"
-    * [Kurse erstellen](../Creating_Course.de.md)
-    * [Mein erster Kurs](../../../manual_how-to/my_first_course/my_first_course.de.md)
-    * [Lernpfadkurse erstellen](../Creating_learning_path_courses.de.md)
+Mehr dazu finden Sie auf den Seiten [Kurs erstellen](../Creating_Course.de.md), [Mein erster Kurs](../../../manual_how-to/my_first_course/my_first_course.de.md) und [Lernpfadkurse erstellen](../Creating_learning_path_courses.de.md).
 
 ### 2. Kurs einrichten, gestalten, publizieren {: #stage2}
 
-Im Kurseditor setzen Sie Ihren Kurs um: Sie wählen die passenden
-Kursbausteine aus, erstellen bei Bedarf Lernressourcen und konfigurieren alles
-wie gewünscht. Den Kurseditor öffnen Sie über `Kurs > Administration > Kurseditor`.
+Im Kurseditor setzen Sie Ihren Kurs um: Sie wählen die passenden Kursbausteine aus, erstellen bei Bedarf Lernressourcen und konfigurieren alles wie gewünscht. Den Kurseditor öffnen Sie über `Kurs > Administration > Kurseditor`. Ihre Änderungen übernehmen Sie mit "Publizieren" in der Toolbar des Kurseditors in den Kurs. Die Teilnehmenden sehen sie, sobald der Kurs den Status "Veröffentlicht" hat (Schritt 4).
 
-![Eintrag Kurseditor im aufgeklappten Menü Administration](../assets/Kurseditor_oeffnen.png){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Eintrag Kurseditor unter Einstellungen und Mitgliederverwaltung](../assets/Kurseditor_oeffnen.png){ class="shadow lightbox" title="Menü Administration in der Kurs-Toolbar" }
 
-!!! note "Weitere Informationen"
-    * [Kursbausteine](../Course_Elements/index.de.md)
-    * [Verwendung von Kurseditorwerkzeugen](../Using_additional_Course_Editor_Tools.de.md)
-    * [Lernpfadkurs - Kurseditor](../Learning_path_course_Course_editor.de.md)
-    * [Lernressourcen](../index.de.md)
-    * [Allgemeine Konfiguration von Kursbausteinen](../General_Configuration_of_Course_Elements.de.md)
-    * [Kurseinstellungen](../Course_Settings/index.de.md)
+Mehr dazu finden Sie auf den Seiten [Kursbausteine im Überblick](../Course_Elements/index.de.md), [Kurseditorwerkzeuge](../Using_additional_Course_Editor_Tools.de.md), [Lernpfadkurs - Kurseditor](../Learning_path_course_Course_editor.de.md), [Lernressourcen](../index.de.md), [Kursbausteine im Kurseditor](../General_Configuration_of_Course_Elements.de.md) und [Kurseinstellungen](../Course_Settings/index.de.md).
 
 ### 3. Zugang einrichten {: #stage3}
 
 Den Zugang legen Sie in der Kurs-Administration fest: `Kurs > Administration > Einstellungen`. Wichtig ist dabei vor allem der Tab "Freigabe".
 
-![Eintrag Einstellungen im aufgeklappten Menü Administration, daneben der Status Veröffentlicht](../assets/Einstellungen1.png){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Eintrag Einstellungen, daneben der Status Veröffentlicht](../assets/Einstellungen1.png){ class="shadow lightbox" title="Menü Administration in der Kurs-Toolbar" }
 
-!!! note "Weitere Informationen"
-    * [Zugangskonfiguration](../Access_configuration.de.md)
-    * [Kurseinstellungen](../Course_Settings/index.de.md)
+In Lernpfadkursen geben Sie einzelne Kursbausteine zeitlich begrenzt frei: Sie wählen den Kursbaustein im Kurseditor aus und legen in seinem Tab "Lernpfad" ein "Freigabedatum" und eine Frist "Zu bearbeiten bis" fest. Mit dem Kontrollkästchen "Relatives Datum" legen Sie beide Daten in Tagen nach einem Ereignis fest, etwa nach dem ersten Kursbesuch oder nach der Einschreibung der Teilnehmenden. Sie finden den Tab unter `Kurs > Administration > Kurseditor > Tab "Lernpfad"`. Die Datumsfelder gibt es bei den einzelnen Kursbausteinen, nicht beim Kursbaustein "Struktur" und nicht beim obersten Knoten des Kurses.
 
-In Lernpfadkursen ist es teilweise möglich, den Teilnehmer:innen einen zeitlich limitierten Zugang auf einen Kurs zu geben:
-
-* auf Ebene Kursbaustein: ja, über `Kurs > Administration > Kurseditor > Tab "Lernpfad"` mit relativem Datum
-* auf Strukturbausteinen: nein
-* auf dem obersten Knoten (Gesamtkurs): nein
+Mehr dazu finden Sie auf den Seiten [Zugangskonfiguration / Freigabe](../Access_configuration.de.md) und [Kurseinstellungen](../Course_Settings/index.de.md).
 
 ### 4. Kurs veröffentlichen {: #stage4}
 
-Setzen Sie in der Kurs-Toolbar den Status auf "Veröffentlicht". Damit wird der
-Kurs auch für die Teilnehmenden sichtbar.
+Ist der Kurs bereit, setzen Sie in der Kurs-Toolbar den Status auf "Veröffentlicht". Damit öffnen alle Mitglieder den Kurs, auch die Teilnehmenden. Wer Mitglied wird, legen Sie in der Freigabe (Schritt 3) und in der [Mitgliederverwaltung](../Members_management.de.md) fest.
 
-![Aufgeklapptes Statusmenü mit den Werten Vorbereitung, Review, Freigabe Betreuer und Beendet, aktueller Status Veröffentlicht](../assets/Status_veröffentlicht.png){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Werte Vorbereitung, Review, Freigabe Betreuer und Beendet, aktueller Status Veröffentlicht](../assets/Status_veröffentlicht.png){ class="shadow lightbox" title="Menü Status in der Kurs-Toolbar" }
 
-!!! note "Weitere Informationen"
-    * [Zugangskonfiguration](../Access_configuration.de.md)
+Mehr dazu finden Sie auf der Seite [Zugangskonfiguration / Freigabe](../Access_configuration.de.md).
 
 ### 5. Kurs durchführen und bewerten {: #stage5}
 
-Im Bewertungswerkzeug bewerten Sie die Teilnehmenden und geben Feedback.
-Daneben betreuen Sie den Kurs, zum Beispiel mit Beiträgen im Forum oder bei
-der Organisation der Absenzen.
+Während der Kurs läuft, bewerten Sie die Teilnehmenden im Bewertungswerkzeug und geben ihnen Feedback: `Kurs > Administration > Bewertungswerkzeug`. Daneben betreuen Sie den Kurs, zum Beispiel mit Beiträgen im Forum oder bei der Organisation der Absenzen.
 
-![Eintrag Bewertungswerkzeug im aufgeklappten Menü Administration](../assets/Administration_Bewertungswerkzeug.png){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Eintrag Bewertungswerkzeug unter Kurseditor und Ablageordner](../assets/Administration_Bewertungswerkzeug.png){ class="shadow lightbox" title="Menü Administration in der Kurs-Toolbar" }
 
-!!! note "Weitere Informationen"
-    * [Kursbetrieb](../Administration/index.de.md)
+Mehr dazu finden Sie auf der Seite [Kursbetrieb](../Administration/index.de.md).
 
 ### 6. Kurs beenden {: #stage6}
 
-Ist der Kurs vorbei, setzen Sie den Status auf "Beendet".
+Ist der Kurs vorbei, setzen Sie den Status auf "Beendet". Alle Mitglieder öffnen den Kurs danach nur noch lesend, Änderungen sind nicht mehr möglich.
 
-![Status Beendet als brauner Badge](../assets/beendet.png){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Status Beendet als brauner Badge](../assets/beendet.png){ class="shadow lightbox" title="Status in der Kurs-Toolbar" }
 
-!!! note "Weitere Informationen"
-    * [Zugangskonfiguration](../Access_configuration.de.md)
+Mehr dazu finden Sie auf der Seite [Zugangskonfiguration / Freigabe](../Access_configuration.de.md).
 
 ### 7. Kurs löschen {: #stage7}
 
-Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kurse stehen im Autorenbereich im Tab "Gelöscht". In den übrigen Tabs blendet der Filter "Status" mit der Option "Papierkorb" sie ein oder aus.
+Einen Kurs, den Sie nicht mehr brauchen, löschen Sie über `Kurs > Administration > Löschen`. OpenOlat entfernt dabei die Personendaten aus dem Kurs, Zugriff haben danach nur noch die Besitzer:innen. Gelöschte Kurse haben den Status "Papierkorb" und stehen im Autorenbereich im Tab "Gelöscht". Dort stellen Sie einen Kurs bei Bedarf wieder her. In den übrigen Tabs blendet der Filter "Status" mit der Option "Papierkorb" sie ein oder aus.
 
 ![Option Papierkorb im aufgeklappten Filter Status, dazu der Tab Gelöscht](../assets/authoring_filter_status_trash_v1_de.png){ class="shadow lightbox" title="Tab Meine Kurse im Autorenbereich" }
 
-!!! note "Weitere Informationen"
-    * [Zugangskonfiguration](../Access_configuration.de.md)
+Mehr dazu finden Sie auf den Seiten [Zugangskonfiguration / Freigabe](../Access_configuration.de.md) und [Autorenbereich - Übersicht](../../area_modules/Authoring/index.de.md#authoring-deleted).
 
-## Tipp {: #tip}
+## Kurs planen {: #tip}
 
-!!! tip "Bevor Sie Ihren OpenOlat Kurs erstellen"
+!!! tip "Bevor Sie Ihren OpenOlat-Kurs erstellen"
 
     Überlegen Sie zunächst, was Sie mit dem Kurs erreichen wollen.
 
@@ -103,13 +87,13 @@ Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kur
     `Kurs > Administration > Als Lernpfad duplizieren` erstellen Sie später
     daraus eine Kopie als Lernpfadkurs, sofern der Lernpfadkurs alle enthaltenen
     Kursbausteine unterstützt. Der herkömmliche Kurs bleibt dabei erhalten. Diese
-    Umwandlung führt nur vom herkömmlichen Kurs zum Lernpfadkurs.
+    Kopie gibt es nur in eine Richtung: vom herkömmlichen Kurs zum Lernpfadkurs.
 
     Wählen Sie nach dem Entscheid für ein Kursdesign die Kursbausteine aus, mit
     denen Sie Ihr Ziel erreichen und Ihr Kurskonzept umsetzen. Bündeln Sie
     zusammengehörende Inhalte, damit sich die Teilnehmenden im Kurs gut
     zurechtfinden. Wenn der Aufbau klar ist, bereiten Sie die Lerninhalte, weitere
-    Dateien ([HTML-Seiten, PDF-Dateien, CP-Lerninhalte](../index.de.md) usw.)
+    Dateien (HTML-Seiten, PDF-Dateien, [CP-Lerninhalte](../index.de.md#cp-content) usw.)
     und alles vor, was Sie für den Einsatz in der Lernplattform benötigen.
 
 [Zum Seitenanfang ^](#general_information)
@@ -118,23 +102,20 @@ Der Kurs wird über `Kurs > Administration > Löschen` gelöscht. Gelöschte Kur
 
 ## Rollenwechsel {: #role_change}
 
-In der Toolbar wird Ihnen angezeigt, in welcher Rolle Sie gerade den Kurs betrachten. Als Autor:in eines Kurses wird dies in der Regel die Rolle "Besitzer:in" sein. Über das Rollenmenü wechseln Sie jederzeit in die "Teilnehmer:innenansicht".
+Wie Teilnehmende Ihren Kurs erleben, prüfen Sie mit dem Rollenwechsel selbst: Sie sehen den Kurs aus ihrer Sicht, etwa den Ablauf der Kursbausteine "Aufgabe", "Gruppenaufgabe", "Checkliste" oder "Teilnehmer:innen Ordner". In welcher Rolle Sie den Kurs gerade sehen, zeigt die Toolbar im Menü "Rolle". Haben Sie den Kurs erstellt, ist das die Rolle "Besitzer:in". Über das Menü "Rolle" wechseln Sie jederzeit in die "Teilnehmer:innenansicht".
 
-![Rollenmenü Besitzer:in, aufgeklappt mit dem Eintrag Wechseln zu Teilnehmer:innenansicht](../assets/Besitzer_TN.jpg){ class="shadow lightbox" title="Kurs-Toolbar" }
+![Rolle Besitzer:in, aufgeklappt mit dem Eintrag Teilnehmer:innenansicht unter Wechseln zu](../assets/Besitzer_TN.jpg){ class="shadow lightbox" title="Menü Rolle in der Kurs-Toolbar" }
 
-Sofern Sie noch weitere Rollen im Kurs besitzen werden diese ebenfalls angezeigt und Sie können zur entsprechenden Ansicht wechseln.
+Haben Sie im Kurs weitere Rollen, stehen sie ebenfalls im Menü, und Sie wechseln in die entsprechende Ansicht.
 
-Bei den Rollen wird aber nicht zwischen Betreuer:innen und Gruppenbetreuer:innen oder Teilnehmer:innen und Gruppenteilnehmer:innen unterschieden, sondern die Möglichkeiten innerhalb der Rolle Betreuer:in bzw. Teilnehmer:in zusammengefasst.
+Das Menü unterscheidet nicht zwischen Betreuer:innen und Gruppenbetreuer:innen oder zwischen Teilnehmer:innen und Gruppenteilnehmer:innen. Es fasst die Möglichkeiten in den Rollen "Betreuer:in" und "Teilnehmer:in" zusammen.
 
-Der Rollenwechsel bietet sich z.B. an, wenn man als Kursbesitzer:in die Teilnehmendenrolle einnehmen möchte. Auch kann man sich so den Ablauf der Kursbausteine Aufgabe, Gruppenaufgabe, Checkliste oder des Teilnehmer:innenordners aus der Teilnehmendensicht gut anschauen.
+### Initiale Rolle bei Kursaufruf [:octicons-tag-16:{ title="ab Release 19.1 (OO-8231)" }](https://track.frentix.com/issue/OO-8231) {: #initial_role}
 
-### Initiale Rolle bei Kursaufruf {: #initial_role}
+Benutzer:innen mit administrativen Rollen, etwa Administrator:in oder Lernressourcenverwalter:in, öffnen Kurse auch dann, wenn sie nicht Mitglied sind. Sind sie in einem Kurs zusätzlich als Teilnehmer:in eingetragen, öffnet OpenOlat den Kurs in der Rolle "Teilnehmer:in". So erleben sie den Kurs, wie er für sie als Teilnehmer:in gedacht ist. Über das Menü "Rolle" wechseln sie wie gewohnt in eine andere Rolle.
 
-Benutzer:innen mit administrativen Rechten (wie Administrator:in oder Lernressourcenverwalter:in) können Kurse öffnen, obwohl sie kein Mitglied des Kurses sind. Dieses Recht entspricht der Rolle, stört aber, wenn die Benutzer:in explizit Teilnehmer:in in einem Kurs sein soll.
-
-Deshalb: Ist eine Person mit administrativen Rechten Teilnehmer:in in einem Kurs, wird der Kurs initial immer in der Rolle "Teilnehmer:in" geöffnet. (Die Rolle kann aber wie gewohnt gewechselt werden.)
-
-Dies gilt nicht für Kursbesitzer:innen oder Betreuer:innen. Denn für diese Rollen ist es sinnvoll, beim Betreten des Kurses sofort in der Rolle "Besitzer:in" bzw. "Betreuer:in" zu sein. (Auf die Teilnehmer:innenansicht kann dann umgestellt werden.)
+Die Rollen als Mitglied gehen den administrativen Rollen immer vor. Unter den Mitgliedsrollen gilt in der Grundeinstellung: Besitzer:in vor Betreuer:in vor Teilnehmer:in. Wer einen Kurs besitzt oder betreut, sieht ihn beim Öffnen deshalb sofort in dieser Rolle und stellt bei Bedarf auf die Teilnehmer:innenansicht um. Die Reihenfolge der Mitgliedsrollen legen Administrator:innen in der System-Administration im [Modul Lernressource](../../../manual_admin/administration/Modules_Learning_Resource.de.md) fest, Abschnitt "Standard-Rollenpriorität":<br>
+`Administration > Module > Lernressource > Tab "Einstellungen"`
 
 
 <details>
@@ -143,18 +124,18 @@ Dies gilt nicht für Kursbesitzer:innen oder Betreuer:innen. Denn für diese Rol
     <b>Situation:</b> <br>
     - Sie erstellen einen Kurs mit dem Kursbaustein "Einschreibung".<br>
     - Sie wechseln in die Teilnehmer:innenansicht und nehmen eine Einschreibung vor.<br>
-    <b>-></b> OpenOlat wechselt danach ungewollt in die Besitzer:innenrolle.<br>
-    - Bei erneutem Wechsel in die Teilnehmer:innenansicht wird der sinnvolle Warndialog ("Sie sind in der Rolle Teilnehmer:in") mit Löschoption für Daten nicht mehr angezeigt.<br>
-    - Erst nach einem erneuten Aufruf des Kurses wird die Teilnehmer:innenansicht mit Warndialog wieder korrekt angezeigt.
+    <b>-></b> OpenOlat wechselt danach in die Rolle "Besitzer:in".<br>
+    - Wechseln Sie erneut in die Teilnehmer:innenansicht, erscheint der Warndialog ("Sie sind in der Rolle Teilnehmer:in") mit der Option, Daten zu löschen, nicht mehr.<br>
+    - Erst wenn Sie den Kurs erneut aufrufen, zeigt OpenOlat die Teilnehmer:innenansicht wieder mit Warndialog.
     <br><br>
     <b>Erklärung:</b> <br>
-    Die Teilnehmer:innenansicht ist analog zur Kurs-Freigabe "Ohne Buchung" umgesetzt - man ist in dieser Ansicht nicht in der Kurs-Mitgliederverwaltung eingebucht.
-    Es passiert deshalb nun Folgendes:<br>
-    - Trägt man sich im Kursbaustein "Einschreibung" in eine Gruppe ein, so wird man in diesem Moment Gruppenteilnehmer:in und ist in der Mitgliederverwaltung des Kurses eingetragen.<br>
-    - Sobald man im Kurs eine eingetragene Mitgliedschaft "Teilnehmer:in" (Kurs oder Gruppe oder Curriculum) besitzt, steht die "Teilnehmer:innenansicht" nicht mehr zur Verfügung. Diese ist nur vorhanden, wenn man nicht in der Kurs-Mitgliederverwaltung als Teilnehmer:in aufgeführt ist.<br>
-    <b>-></b> Schreibe ich mich aus der Teilnehmer:innenansicht in eine Gruppe ein, existiert danach die Teilnehmer:innenansicht für mich nicht mehr, sondern ich bin als Gruppenteilnehmer:in in der Mitgliederverwaltung des Kurses aufgeführt. Deshalb wechselt die Rolle von der Teilnehmer:innenansicht in die Besitzer:innenrolle.<br>
-    - Klappt man nun bei den Rollen die Auswahl aus, sieht man anstelle der Teilnehmer:innenansicht nun die Rolle "Teilnehmer:in" aufgeführt.<br>
-    - Trägt man sich aus der Gruppe wieder aus (und lädt den Kurs neu), so ist die Rolle "Teilnehmer:in" wieder weg und stattdessen die Teilnehmer:innenansicht wieder verfügbar.<br><br>
+    Die Teilnehmer:innenansicht funktioniert wie die Freigabe "Ohne Buchung": In dieser Ansicht sind Sie nicht in der Mitgliederverwaltung des Kurses eingetragen.
+    Daraus folgt:<br>
+    - Tragen Sie sich im Kursbaustein "Einschreibung" in eine Gruppe ein, werden Sie in diesem Moment Gruppenteilnehmer:in und stehen in der Mitgliederverwaltung des Kurses.<br>
+    - Die Teilnehmer:innenansicht gibt es nur, solange Sie in der Mitgliederverwaltung des Kurses nicht als Teilnehmer:in stehen. Sind Sie Teilnehmer:in des Kurses, einer Gruppe oder eines Curriculums, steht sie Ihnen nicht zur Verfügung.<br>
+    <b>-></b> Nach der Einschreibung in eine Gruppe haben Sie deshalb keine Teilnehmer:innenansicht mehr, sondern stehen als Gruppenteilnehmer:in in der Mitgliederverwaltung des Kurses. OpenOlat wechselt darum von der Teilnehmer:innenansicht in die Rolle "Besitzer:in".<br>
+    - Im Menü "Rolle" steht danach anstelle der Teilnehmer:innenansicht die Rolle "Teilnehmer:in".<br>
+    - Tragen Sie sich aus der Gruppe wieder aus und laden den Kurs neu, verschwindet die Rolle "Teilnehmer:in", und die Teilnehmer:innenansicht steht wieder zur Verfügung.<br><br>
 
 </details>
 

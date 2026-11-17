@@ -1,8 +1,15 @@
 # Lernressource: Video {: #learning_resource_video}
 
-:o_icon_o_FileResource-VIDEO_icon:
-
 Mit der Lernressource Video stellen Sie ein Video einmal in OpenOlat bereit und binden es danach in beliebig viele Kurse ein, oder Sie bieten es unabhängig von Kursen an. Die Lernressource besteht nicht nur aus der Videodatei: Sie hat eine eigene Infoseite, ein eigenes Menü "Administration" und eigene Freigabeeinstellungen. Im Videoeditor gestalten Sie das Video zudem interaktiv aus, zum Beispiel mit Annotationen oder Quizfragen.
+
+## Steckbrief
+
+Name | Video
+---------|----------
+Icon | :o_icon_o_FileResource-VIDEO_icon:
+Verfügbar seit | Release 10.5 (OO-725)
+Zweck | Ein Video einmal bereitstellen und in mehreren Kursen nutzen
+Im Kurs | Kursbausteine "Video" und "Videoaufgabe"
 
 Sie erstellen die Lernressource im Autorenbereich: Mit "Datei importieren" laden Sie eine MP4-Datei hoch, mit "Per URL einbinden" binden Sie ein externes Video ein, etwa von YouTube oder Vimeo. Die Schritte beschreibt der Abschnitt [Lernressourcen importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Danach finden Sie das Video im Autorenbereich im Tab "Meine Einträge".
 
@@ -83,26 +90,18 @@ Mit "Poster ersetzen" wählen Sie eines von mehreren Standbildern aus dem Video,
 
 Mit Untertiteln bleibt das Video auch ohne Ton verständlich. Sie laden Untertitel manuell hoch oder lassen sie bei aktivem frentix Cloud-Transcodingservice automatisch generieren (siehe [Automatische Untertitelgenerierung](#video_subtitles_auto)).
 
-Erstellen Sie die Untertiteldatei ausserhalb von OpenOlat. Im Tab "Untertitel konfigurieren" laden Sie die VTT-Datei hoch und wählen die passende Sprache.
+Erstellen Sie die Untertiteldatei ausserhalb von OpenOlat, als Textdatei im Format WebVTT (Endung .vtt). Im Tab "Untertitel konfigurieren" laden Sie die VTT-Datei hoch und wählen die passende Sprache.
 
 Einem Video können Untertitel in mehreren Sprachen zugewiesen werden. OpenOlat unterstützt das [WebVTT-Format](https://w3c.github.io/webvtt/) (siehe auch [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), daher muss die Datei mit der Endung .vtt gespeichert sein. Dieses Format ist mit den meisten gängigen Video-Playern kompatibel.
 
 
-#### Darauf sollten Sie achten:
+#### Aufbau der VTT-Datei {: #video_subtitles_vtt}
 
-!!! note "Hinweis"
+Für den Aufbau der VTT-Datei gelten diese Regeln:
 
-    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen, gefolgt von einer leeren Zeile.
-
-Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format vorliegen muss:
-
-!!! note "Hinweis"
-
-    hh\:mm\:ss.msec 
-
-    Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
-
-    Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
+* In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen, gefolgt von einer leeren Zeile.
+* Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im Format `hh:mm:ss.msec` vorliegen muss. Beispiel: `00:00:20.396` (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden).
+* Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
 
 !!! warning "Achtung"
 
@@ -110,20 +109,18 @@ Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Forma
 
 Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
 
-!!! note "Hinweis"
+```text
+WEBVTT
 
-    WEBVTT
+00:00:00.000 --> 00:00:04.000
+Where did he go?
 
-    00:00:00.000 --> 00:00:04.000<br>
-    Where did he go?
+00:00:03.000 --> 00:00:06.500
+I think he went down this lane.
 
-    00:00:03.000 --> 00:00:06.500<br>
-    I think he went down this lane.
-
-    00:00:04.000 --> 00:00:06.500<br>
-    What are you waiting for?
-
-
+00:00:04.000 --> 00:00:06.500
+What are you waiting for?
+```
 
 Hochgeladene Untertitel erscheinen in einer Tabelle, dort können Sie sie auch löschen.
 
@@ -131,7 +128,7 @@ Hochgeladene Untertitel erscheinen in einer Tabelle, dort können Sie sie auch l
 
 !!! info "Kontakt"
 
-    Die automatische Untertitelgenerierung ist Teil des frentix Cloud-Transcodingservice und nicht in der Standard-Distribution von OpenOlat enthalten. Wenden Sie sich dafür an Ihre Organisation.
+    Die automatische Untertitelgenerierung gehört zum frentix Cloud-Transcodingservice, einem Dienst von frentix. Für die Aktivierung wenden Sie sich an Ihre Organisation.
 
 Ist der frentix Cloud-Transcodingservice für die OpenOlat-Instanz aktiviert, erstellt der Service beim Transcodieren eines hochgeladenen Videos automatisch eine Untertiteldatei (Transkript) im WebVTT-Format. Dabei gilt:
 
@@ -202,6 +199,8 @@ Der Videoeditor umfasst drei Bearbeitungsbereiche:
 
 Im Konfigurationsbereich stehen die Tabs "Kapitel", "Annotationen", "Segmente", "Kommentare" und "Quiz".
 
+Die Timeline zeigt die Elemente in Spuren, je eine Spur für Quiz (Q), Kommentare (K), Annotationen (A), Segmente (S), Kapitel (C) und das Video (V). Mit den Filtern "Typ" und "Farbe" über der Timeline grenzen Sie die angezeigten Elemente ein. Mit den beiden Symbolen rechts über den Spuren wechseln Sie zwischen dieser Ansicht und einer Tabelle mit den Spalten "Startzeit", "Typ", "Text" und "Farbe".
+
 
 ### Videoeditor: Kapitel [:octicons-tag-16:{ title="ab Release 11.1 (OO-2246)" }](https://track.frentix.com/issue/OO-2246){:target="_blank"} {: #video_chapter}
 
@@ -220,9 +219,9 @@ Kapitel lassen sich danach bearbeiten und wieder löschen. Sie erscheinen auch i
 
 Mit Annotationen blenden Sie an einer beliebigen Stelle im Video einen Text ein, etwa um eine wichtige Stelle hervorzuheben oder eine Literaturangabe zu ergänzen. Neben Text sind auch Links möglich, zum Beispiel auf weiterführende Informationen.
 
-Wählen Sie in der Timeline die Stelle, an der die Annotation erscheinen soll, und klicken Sie auf "Hinzufügen". Es öffnet sich die Konfiguration der Annotation.
+Wählen Sie im Tab "Annotationen" in der Timeline die Stelle, an der die Annotation erscheinen soll, und klicken Sie auf "Hinzufügen". Es öffnet sich die Konfiguration der Annotation.
 
-Geben Sie den Text ein, legen Sie unter "Dauer" fest, wie lange die Annotation erscheint, und wählen Sie unter "Farbe" eine Farbe für die Kennzeichnung im linken Bereich. Mit dem Stift-Symbol passen Sie Position und Grösse des Annotationsfelds an. Sie können das Feld auch mit der Maus an eine andere Stelle ziehen. Speichern Sie die Einstellungen.
+Geben Sie den Text ein, legen Sie unter "Dauer" fest, wie lange die Annotation erscheint, und wählen Sie unter "Farbe" eine Farbe für die Kennzeichnung am linken Rand des Annotationsfelds. Mit dem Stift-Symbol passen Sie Position und Grösse des Annotationsfelds an. Sie können das Feld auch mit der Maus an eine andere Stelle ziehen. Speichern Sie die Einstellungen.
 
 ![Konfiguration einer Annotation mit Text, Farbe und dem Symbol für Position und Grösse, daneben das Annotationsfeld im Video und die Annotation in der Timeline](assets/Video_Annotationen.jpg){ class="shadow lightbox" title="Videoeditor, Tab Annotationen" }
 
@@ -240,11 +239,11 @@ Im Videoeditor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es 
 
 ![Tab "Segmente" und die Schaltfläche "Hinzufügen" markiert, noch ohne Segmente](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" title="Videoeditor, Tab Segmente" }
 
-Legen Sie jedes Segment mit "Hinzufügen" an und geben Sie ihm einen Zeitraum und einen "Begriff". Segmente dürfen sich zeitlich nicht überschneiden, und jedem Segment ist genau ein Begriff zugeordnet.
+Legen Sie jedes Segment mit "Hinzufügen" an und geben Sie ihm einen Zeitraum und einen "Begriff". Ein Segment dauert mindestens 5 Sekunden. Segmente dürfen sich zeitlich nicht überschneiden, und jedem Segment ist genau ein Begriff zugeordnet.
 
 Sie können auch zuerst alle Begriffe erfassen und sie danach den Zeiträumen im Video zuordnen:
 
-* Klicken Sie auf "Begriffe".
+* Klicken Sie in der Konfiguration eines Segments auf "Begriffe".
 
 ![Konfiguration eines Segments mit Beginn, Ende, Dauer und Begriff, die Schaltfläche "Begriffe" markiert](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" title="Konfiguration eines Segments" }
 
@@ -265,7 +264,7 @@ Die Segmente erscheinen in der Timeline in einer eigenen Spur. Von dort rufen Si
 
 !!! tip "Tipps"
 
-    * Benutzen Sie den Abspielknopf des Videos um Ihre Arbeit zu kontrollieren.
+    * Kontrollieren Sie Ihre Arbeit mit der Abspieltaste des Videos.
     * Sie können ein Segment in der Timeline anklicken und gelangen dadurch direkt zur Bearbeitung dieses Segments.
 
 
@@ -273,16 +272,16 @@ Segmente kommen vor allem im Kursbaustein "Videoaufgabe" zum Einsatz. Einige Bei
 
 * Sie ordnen einen zentralen Begriff einem Zeitraum im Video zu. Die Teilnehmenden suchen später im Kurs die Stelle, an der dieser Aspekt vorkommt.
 * Sie kennzeichnen die Phasen eines Prozesses als Segmente. Die Teilnehmenden bestimmen dann die passenden Abschnitte im Video. Ähnlich funktioniert die Zuordnung von Theorien.
-* In einem Beobachtungsvideo, etwa einer Kindergarten-Szene oder eines Bewerbungsgesprächs, erkennen die Teilnehmenden typische Aspekte oder Fehler.
+* In einem Beobachtungsvideo, etwa einer Kindergarten-Szene oder einem Bewerbungsgespräch, erkennen die Teilnehmenden typische Aspekte oder Fehler.
 
 
 ### Videoeditor: Kommentare :octicons-tag-16:{ title="ab Release 17.2 (OO-6766)" } {: #video_comments}
 
 Mit Kommentaren heben Sie an einer bestimmten Stelle im Video Kernaussagen hervor, ergänzen Informationen oder bereiten auf den folgenden Abschnitt vor. Jeder Kommentar trägt den Namen der Person, die ihn erstellt hat.
 
-Beim Abspielen hält das Video an der Stelle des Kommentars an. Weiter geht es erst, wenn die Person den Kommentar schliesst oder erneut auf die Abspieltaste klickt. Darin unterscheiden sich Kommentare von Annotationen.
+Beim Abspielen hält das Video an der Stelle des Kommentars an. Das Video läuft erst weiter, wenn die Person, die das Video ansieht, den Kommentar schliesst oder erneut auf die Abspieltaste klickt. Darin unterscheiden sich Kommentare von Annotationen.
 
-Einen Kommentar legen Sie als Text oder als Video an. Einen Video-Kommentar nehmen Sie direkt in OpenOlat mit der Webcam auf, importieren ihn als Datei oder binden ihn über eine URL ein. So entsteht an dieser Stelle ein "Video im Video".
+Einen Kommentar legen Sie im Tab "Kommentare" mit "Hinzufügen" an, als "Text" oder als Video. Einen Video-Kommentar nehmen Sie direkt in OpenOlat mit der Webcam auf, importieren ihn als Datei oder binden ihn über eine URL ein. So entsteht an dieser Stelle ein "Video im Video".
 
 
 ![Kommentar mit Video-URL und Text, Auswahl Text, Video aufnehmen, Video importieren und Video-URL zum Importieren, dazu der Kommentar in der Spur K der Timeline](assets/Video_Kommentare.jpg){ class="shadow lightbox" title="Videoeditor, Tab Kommentare" }
@@ -292,11 +291,7 @@ Einen Kommentar legen Sie als Text oder als Video an. Einen Video-Kommentar nehm
 
 Mit Quizfragen halten Sie das Video an einer Stelle an und regen die Teilnehmenden zum Nachdenken über das Gesehene an. Sie legen eine Quizfrage im Tab "Quiz" mit "Hinzufügen" an. Zur Wahl stehen 12 Fragetypen. Nach der Wahl des Fragetyps öffnet sich der Editor der Quizfrage: Geben Sie dort die Frage und die Antworten ein und speichern Sie.
 
-Welche Tabs der Editor zeigt, hängt vom Fragetyp ab.
-
-!!! note "Hinweis"
-
-    Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
+Welche Tabs der Editor zeigt, hängt vom Fragetyp ab. Weitere Informationen zu den unterschiedlichen Fragetypen finden Sie auf der Seite [Test Fragetypen](../learningresources/Test_question_types.de.md).
 
 Eine Frage aus dem Fragenpool übernehmen Sie mit "Fragen aus Pool importieren" im Menü hinter dem Symbol mit den drei Punkten neben "Hinzufügen"; danach konfigurieren Sie sie wie eine neu erstellte Quizfrage.
 
