@@ -53,7 +53,6 @@ If a content domain is set up, OpenOlat delivers the following content through i
 - Course elements [Task](../learningresources/Course_Element_Task/index.md) and [Group task](../learningresources/Course_Element_Grouptask.md): assignment, submitted documents and sample solution
 - Course element [Document](../learningresources/Course_Element_Document.md) with an HTML file
 - Preview of an HTML file that you select in the course editor, in the course elements "HTML page", "Structure" and [Test](../learningresources/Course_Element_Test/index.md)
-- Content from [edu-sharing](../learningresources/Course_Element_edu_Sharing.md) embedded in an HTML page
 - HTML files in [folders](Folder_Concept.md#open_html) and in [projects](../area_modules/Project_Files.md), if you may only read the file
 - Preview of certificates
 - Info pages in the document pool and in the question bank
@@ -115,7 +114,6 @@ With the content domain, OpenOlat follows a procedure that large platforms have 
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
 [Course Element "Document" >](../learningresources/Course_Element_Document.md)<br>
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
-[Course Element "edu-sharing" >](../learningresources/Course_Element_edu_Sharing.md)<br>
 [Folder concept >](Folder_Concept.md)<br>
 [Projects: Files >](../area_modules/Project_Files.md)<br>
 [System >](../../manual_admin/administration/System.md)<br>
