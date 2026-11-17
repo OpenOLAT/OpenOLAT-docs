@@ -58,7 +58,7 @@ For standalone use, you also define in the section "Access" which access partici
 
 **Further**<br>
 [Podcast: Overview >](Podcast/index.md)<br>
-[Listen and watch to podcasts >](Podcast_listen_and_watch.md)<br>
+[Listening to and watching podcasts >](Podcast_listen_and_watch.md)<br>
 [Blog: Administration >](Blog_Administration.md)
 
 [To the top of the page ^](#podcast_administration)

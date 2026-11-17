@@ -38,7 +38,7 @@ The course element shows the podcast regardless of the status of the learning re
 ## Further information {: #further_information}
 
 [Course Element "Podcast" >](../Course_Element_Podcast.md)<br>
-[Listen and watch to podcasts >](../Podcast_listen_and_watch.md)<br>
+[Listening to and watching podcasts >](../Podcast_listen_and_watch.md)<br>
 [Members management >](../Members_management.md)<br>
 [Offer types >](../Offer_Types.md)
 

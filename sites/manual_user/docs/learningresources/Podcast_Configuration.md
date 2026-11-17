@@ -84,7 +84,7 @@ With the "Create contributions" right, participants can also create episodes and
 
 **Further**<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>
-[Listen and watch to podcasts >](../learningresources/Podcast_listen_and_watch.md)
+[Listening to and watching podcasts >](../learningresources/Podcast_listen_and_watch.md)
 
 [To the top of the page ^](#config)
 

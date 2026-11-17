@@ -1,4 +1,4 @@
-# Listen and watch to podcasts {: #listen_and_watch}
+# Listening to and watching podcasts {: #listen_and_watch}
 
 
 Participants - and generally anyone with access to the podcast - can: 
