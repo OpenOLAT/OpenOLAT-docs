@@ -4,7 +4,7 @@ If a person needs help with their account, for example a new password, an additi
 
 Administrators see all tabs described below, provided the related modules are switched on. The other roles see fewer tabs; which roles reach a tab is stated in the respective section.
 
-![Header area with status, identity, organisation, account type and username, below them 25 tabs from User profile to Grading assignments](assets/user_management_configure_user_v6_en.png){ class="shadow lightbox" title="User settings of an account in User management · 2026.10.31" }
+![Header area with status, Identity, User in, E-Mail, account type and username, below them in three rows the tabs from User profile to Grading assignments](assets/user_management_configure_user_v6_en.png){ class="shadow lightbox" title="User settings of an account in User management · 2026.10.31" }
 
 The header area above the tabs shows at a glance whose account it is, which organisations the person belongs to and which roles they have. Next to the picture of the person, the status of the account is displayed, for example "Active". Below the name, two icons open the "Visiting card" of the person and a form with which you write them an "E-mail". [:octicons-tag-16:{ title="from Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -171,6 +171,15 @@ Only administrators reach the tab.
 [To the top of the page ^](#user_configuration)
 
 
+### MCP [:octicons-tag-16:{ title="from Release 21.2 (OO-9912)" }](https://track.frentix.com/issue/OO-9912) {: #mcp}
+
+If a person works via the [MCP server](../administration/Core_functions/index.md#mcp_server) with an AI client such as Claude Code, the "MCP" tab shows their profiles, under "Effective tools" the tools they get through them, and the tokens with which their AI client logs in; here you create a token for them with "Create token" and invalidate one with "Revoke".
+
+OpenOlat only shows the tab if the MCP server is switched on, and not for invited accounts and guest accounts. System administrators reach it, as well as administrators and user managers, provided the person is a user in their organisation.
+
+[To the top of the page ^](#user_configuration)
+
+
 ### Properties
 
 The "Properties" tab lists the technical entries that OpenOlat stores for this account, with the columns "Category", "Group", "Resource", "Name", "Value", "Created" and "Modified". You can download the table if needed, and you delete a single entry with "Delete".
@@ -289,7 +298,7 @@ If a person needs more time for a test because of a restriction, you record the 
 
 Administrators, user managers, roles managers and principals reach the tab. Administrators and roles managers can record and change a compensation for disadvantages.
 
-![Four mandatory fields marked with an asterisk, below them the optional field Course element](assets/disadvantage_compensation.jpg){ class="shadow lightbox" title="Dialog Add disadvantage compensation" }
+![The four mandatory fields Approved by, Approval date, Extra time (minutes) and Course with an asterisk, below them the optional field Course element](assets/user_management_disadvantage_compensation_v1_en.png){ class="shadow lightbox" title="Dialog Add disadvantage compensation in the Compensation for disadvantages tab · 2026.11.18" }
 
 [To the top of the page ^](#user_configuration)
 
@@ -396,6 +405,7 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [Assign roles >](Assign_roles.md)<br>
 [Self-registration >](../administration/Login_Self-Registration.md)<br>
 [Password and Authentication >](../administration/Login_Password_and_Authentication.md)<br>
+[Core functions: Overview >](../administration/Core_functions/index.md)<br>
 [Modules: Overview >](../administration/Modules/index.md)<br>
 [User roles >](index.md)<br>
 [Files and Folders >](../administration/Files_and_Folders.md)<br>

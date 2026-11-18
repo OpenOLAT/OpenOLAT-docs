@@ -49,16 +49,16 @@ If you switch the customer number off again, the field disappears from all forms
 
 ## Tab Organisations structures {: #tab_structure}
 
-The "Organisations structures" tab shows the organisations already created, together with their sub-organisations, as a tree structure.
+In the "Organisations structures" tab, you see all organisations with their sub-organisations as a tree structure. Here you create organisations, move them and open an organisation to edit its details and assignments.
 
 ### Creating and editing organisations [:octicons-tag-16:{ title="from Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
 !!! info "frentix customers"
     An organisation cannot be moved directly into an organisation that is above it in the tree structure. For frentix customers, their customer advisor at frentix takes care of the change.
 
-![Tree structure of the organisations, in the three-dot menu the entries Move organisation and Add new organisation under this one](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Organisations structures tab of the Organisations module" }
+![Tree structure of the organisations, in the three-dot menu the entries Move organisation and Add new organisation under this one](assets/organisations_tab_structure_v3_en.png){ class="shadow lightbox" title="Organisations structures tab of the Organisations module · 2026.11.18" }
 
-New organisations can be added using the "Create new organisation" button at the top right, or for existing organisations by clicking the three dots and "Add new organisation under this one". Both dialogs contain the same fields as the [Metadata](#edit_metadata) tab.
+You create a new organisation with the "Create new organisation" button at the top right, and a sub-organisation by clicking the three dots of the parent organisation and "Add new organisation under this one". Both dialogs contain the same fields as the [Metadata](#edit_metadata) tab.
 
 If the [customer number](#customer_number) is switched on, you show the "Customer number" column in the list of organisations via "Displayed columns". It is hidden by default.
 
@@ -82,7 +82,7 @@ You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Metadata"`
 ![Marked field Identifier with the greyed-out value default-org, below it the field Name with the value OpenOlat](assets/organisations_edit_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab of the default organisation · 2026.10.02" }
 
-In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, a location and a description can be entered. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. In addition, you assign the organisation type here, as defined in the "Organisations types" tab. If every organisation is linked to a corresponding organisation type on creation, a hierarchical structure can be built. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
+In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, you enter a location and a description. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. In addition, you assign the organisation type here, as defined in the [Organisations types](#tab_types) tab. Which types are available depends on the type of the parent organisation. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
 
 For organisations that system administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
 
@@ -92,30 +92,25 @@ The default organisation, shown in the image, is different: its identifier is al
 
     If your OpenOlat synchronizes the organisations with LDAP groups, it assigns each LDAP group the organisation whose identifier, name or External ID matches the name of the group. Upper and lower case do not matter. For this reason, do not choose a name for the default organisation that an LDAP group also has. Otherwise LDAP manages the members of the default organisation.
 
-### User management {: #edit_account_managment}
+### User management [:octicons-tag-16:{ title="from Release 13.0 (OO-3299)" }](https://track.frentix.com/issue/OO-3299){:target="_blank"} {: #edit_account_managment}
 
 You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "User management"`
-![Add user menu with the roles from System administrator to User](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="User management tab of an organisation" }
+![Open Add user menu with the roles from System administrator to User, next to it the users of the organisation with their role](assets/organisations_edit_tab_account_management_v2_en.png){ class="shadow lightbox" title="User management tab of an organisation · 2026.11.18" }
 
-The "User management" tab shows a list of the users currently assigned to this organisation. You can also remove existing users again.
+In the "User management" tab, you define who has which role in this organisation. The list shows the accounts of the organisation with their role. If a person has several roles, they appear in a separate row for each role. You also assign the roles of a single account in User management, see [Assign roles](../usermanagement/Assign_roles.md).
 
-The "Add user" button can be used to add further users with a specific role. Select the desired role from the listed roles. In the following dialog, you can search for users. They can be added according to the selection. It is also possible to add several users at once.
+With "Add user", you first select the role. In the "Add user as" dialog, you then search for the accounts and add one or several of them. To withdraw a role again, select the rows and click "Remove". If a person is not a user in any other organisation, they keep the role User here, so that they remain assigned to an organisation. If an external system manages the members of the organisation, both buttons are missing.
 
-Members of various roles can be assigned to each level of the organisation.
-
-The **role assignment** is possible
-
-  * on a specific organisation
-  * on a specific organisation and all sub-organisations below this organisation
+The icon in the "Inherited" column shows as a tooltip where a role applies: "Roles of this organisation", "Role propagated on the organisation under this one" or "Roles inherited from the organisations above". When you add an account, OpenOlat sets this itself. The role User only applies in this organisation, all other roles in the "Add user" menu also apply in the sub-organisations.
 
 ### Learning resources {: #edit_learning_resources}
 
 You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Learning resources"`
-!["Add courses" button above the still empty list of assigned courses](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" title="Learning resources tab of an organisation" }
+![List of the courses directly assigned to the organisation, above it the "Add courses" button](assets/organisations_edit_tab_learning_resources_v2_en.png){ class="shadow lightbox" title="Learning resources tab of an organisation · 2026.11.18" }
 
-In the "Learning resources" tab, you see which courses are directly assigned to the organisation, and you adjust this assignment. Via "Add courses", a dialog lets you search for further own and available courses to assign to the organisation. To remove courses again, select the rows in the list and click "Remove". OpenOlat asks for confirmation in the dialog "Remove learning resources" before it removes the assignment.
+In the "Learning resources" tab, you see which courses are directly assigned to the organisation, and you adjust this assignment. With "Add courses", you search in a dialog for further own and available courses and assign them to the organisation. To remove courses again, select the rows in the list and click "Remove". OpenOlat asks for confirmation in the dialog "Remove learning resources" before it removes the assignment.
 
 "Add courses" only finds courses. You assign tests, videos and other learning resources to an organisation in the Administrative access of the learning resource, described under [Course settings - Tab Share](../../manual_user/learningresources/Course_Settings_Share/index.md#section_share). For several learning resources at once, use the [bulk action in Authoring](../../manual_user/area_modules/Authoring_BulkActions.md#bulk_administrative_access).
 
@@ -190,7 +185,7 @@ If the [customer number](#customer_number) is switched on, a billing address of 
 
 You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "E-mail domains mappings"`
-![Still empty list of the e-mail domain mappings of an organisation with the Create e-mail domain mapping button](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation" }
+![Two e-mail domain mappings of an organisation with the columns Active, Subdomain allowed and Accounts with domain, above them the Create e-mail domain mapping button](assets/organisations_edit_tab_email_domain_v2_en.png){ class="shadow lightbox" title="E-mail domains mappings tab of an organisation · 2026.11.18" }
 
 If people create their account themselves via self-registration, the e-mail domain decides whether the registration is possible and to which organisation the new account belongs. Here you store the e-mail domains of this organisation. If the [e-mail domain mapping](#tab_configuration) is switched on, self-registration only accepts e-mail addresses whose domain is stored as an active mapping, and OpenOlat assigns the new account to this organisation.
 
@@ -200,11 +195,16 @@ If people create their account themselves via self-registration, the e-mail doma
 
 ## Tab Organisations types {: #tab_types}
 
-![List of four organisation types, above it the Create organisation type button](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Organisations types tab of the Organisations module" }
+![List of the organisation types with the columns Reference and Name, above it the Create organisation type button](assets/organisations_tab_types_v2_en.png){ class="shadow lightbox" title="Organisations types tab of the Organisations module · 2026.11.18" }
 
-The organisation types define which elements an organisation structure can contain and give these elements a more specific meaning. The types can also map a hierarchical structure, but this is not mandatory. An example of organisation types is `Company --> Division --> Department`.
+With organisation types, you distinguish the kinds of organisations in your structure, for example company, division and department. You create them in the system administration under:<br>
+`Administration > Modules > Organisations > Tab "Organisations types"`
 
-Further types can be created via "Create organisation type". In addition to the reference and the name, a description can be entered. At this point, a CSS class can be used to define a layout that only applies to this organisation type. In addition, existing types can be subordinated to the new organisation type.
+A type gives each organisation to which you assign it in the [Metadata](#edit_metadata) tab a more specific meaning. Via the "Sub types" field, the types can also map a hierarchy, for example `Company --> Division --> Department`. This is not mandatory.
+
+With "Create organisation type", you create a further type. Mandatory fields are "Reference" and "Name", plus a description. In the "CSS class" field, you store a CSS class; OpenOlat saves it with the type and provides it via the [REST API](REST_API.md). You do not need the field for working in OpenOlat itself.
+
+In the "Sub types" field, you select the existing types that may be placed below an organisation of this type. In the "Metadata" tab of a sub-organisation, OpenOlat then only offers these types. If the field remains empty, all types are available there. The same settings determine where an organisation can be [moved](#create_and_edit).
 
 [To the top of the page ^](#organisations)
 
@@ -216,7 +216,7 @@ Further types can be created via "Create organisation type". In addition to the 
 
     This tab is only displayed if the e-mail domain mapping has been activated in the "Configuration" tab.
 
-![E-mail domains per organisation with the columns Active, Subdomain allowed and Accounts with domain](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="E-mail domains mappings tab of the Organisations module" }
+![E-mail domains per organisation with the columns Active, Subdomain allowed and Accounts with domain](assets/organisations_tab_mail_domains_v2_en.png){ class="shadow lightbox" title="E-mail domains mappings tab of the Organisations module · 2026.11.18" }
 
 With the e-mail domain mappings, you restrict self-registration to specific e-mail domains. OpenOlat then only accepts e-mail addresses whose domain is stored as an active mapping of an organisation, and assigns the new account to this organisation. If several organisations match, the person selects one of them during registration.
 
@@ -234,6 +234,7 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [REST API >](REST_API.md)<br>
+[Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
 [Core functions: Overview >](Core_functions/index.md)<br>
@@ -243,7 +244,6 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md)
 
 **Further reading**<br>
-[Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Roles and Rights: Which roles are available? >](../../manual_user/basic_concepts/Roles/index.md)<br>
 [Self-registration >](Login_Self-Registration.md)
 

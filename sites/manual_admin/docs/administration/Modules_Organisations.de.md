@@ -51,16 +51,16 @@ Schalten Sie die Debitorennummer wieder aus, verschwindet das Feld aus allen For
 
 ## Tab Organisationsstruktur {: #tab_structure}
 
-Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen mit ihren Unterorganisationen als Baumstruktur dargestellt.
+Im Tab "Organisationsstruktur" sehen Sie alle Organisationen mit ihren Unterorganisationen als Baumstruktur. Hier legen Sie Organisationen an, verschieben sie und öffnen eine Organisation, um ihre Angaben und Zuordnungen zu bearbeiten.
 
 ### Neue Organisationen erstellen und bearbeiten [:octicons-tag-16:{ title="ab Release 13.0 (OO-3298)" }](https://track.frentix.com/issue/OO-3298){:target="_blank"} {: #create_and_edit}
 
 !!! info "frentix-Kund:innen"
     Eine Organisation lässt sich nicht direkt in eine Organisation verschieben, die in der Baumstruktur über ihr liegt. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
 
-![Baumstruktur der Organisationen, im Menü der 3 Punkte die Einträge Organisation verschieben und Unterorganisation erstellen](assets/organisations_tab_structure_v2_de.png){ class="shadow lightbox" title="Tab Organisationsstruktur im Modul Organisationen" }
+![Baumstruktur der Organisationen, im Menü der 3 Punkte die Einträge Organisation verschieben und Unterorganisation erstellen](assets/organisations_tab_structure_v3_de.png){ class="shadow lightbox" title="Tab Organisationsstruktur im Modul Organisationen · 2026.11.18" }
 
-Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden. Beide Dialoge enthalten dieselben Felder wie der Tab [Metadaten](#edit_metadata).
+Eine neue Organisation legen Sie mit dem Button "Neue Organisation erstellen" rechts oben an, eine Unterorganisation mit Klick auf die 3 Punkte der übergeordneten Organisation und "Unterorganisation erstellen". Beide Dialoge enthalten dieselben Felder wie der Tab [Metadaten](#edit_metadata).
 
 Ist die [Debitorennummer](#customer_number) eingeschaltet, blenden Sie in der Liste der Organisationen über "Spalten auswählen" die Spalte "Debitorennummer" ein. Standardmässig ist sie ausgeblendet.
 
@@ -72,7 +72,7 @@ Eine bestehende Organisation verschieben Sie mit Klick auf die 3 Punkte und "Org
 
 Wählen Sie in der Baumstruktur eine Organisation aus oder klicken Sie bei ihr unter den 3 Punkten auf "Bearbeiten", um ihre Metadaten und weiteren Zuordnungen anzupassen oder zu ergänzen.
 
-![Leerer Ordner Rechtliche Dokumente einer Unterorganisation mit dem Button Dateien hochladen](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Tab Rechtliche Dokumente einer Organisation" }
+![Leerer Ordner Rechtliche Dokumente einer Unterorganisation mit dem Button Dateien hochladen](assets/organisations_tab_structure_legal_documents_v2_de.png){ class="shadow lightbox" title="Tab Rechtliche Dokumente einer Organisation · 2026.11.18" }
 
 Den Tab "Rechtliche Dokumente" finden Sie in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Rechtliche Dokumente"`<br>
@@ -86,7 +86,7 @@ Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Metadaten"`
 ![Markiertes Feld Bezeichnung mit dem ausgegrauten Wert default-org, darunter das Feld Name mit dem Wert OpenOlat](assets/organisations_edit_tab_metadata_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Standardorganisation · 2026.10.02" }
 
-Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen können ein Standort und eine Beschreibung eingetragen werden. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem ordnen Sie hier den Organisationstyp zu, wie er im Tab "Organisationstypen" definiert ist. Wird bei der Erstellung jede Organisation mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
+Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen tragen Sie einen Standort und eine Beschreibung ein. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem ordnen Sie hier den Organisationstyp zu, wie er im Tab [Organisationstypen](#tab_types) definiert ist. Welche Typen zur Wahl stehen, hängt vom Typ der übergeordneten Organisation ab. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
 
 Bei Organisationen, die Systemadministrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
 
@@ -98,22 +98,17 @@ Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist im
 
 
 
-### Kontenverwaltung {: #edit_account_managment}
+### Kontenverwaltung [:octicons-tag-16:{ title="ab Release 13.0 (OO-3299)" }](https://track.frentix.com/issue/OO-3299){:target="_blank"} {: #edit_account_managment}
 
 Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Kontenverwaltung"`
-![Menü Konto hinzufügen mit den Rollen von Systemadministrator:in bis Benutzer:in](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation" }
+![Geöffnetes Menü Konto hinzufügen mit den Rollen von Systemadministrator:in bis Benutzer:in, daneben die Konten der Organisation mit ihrer Rolle](assets/organisations_edit_tab_account_management_v2_de.png){ class="shadow lightbox" title="Tab Kontenverwaltung einer Organisation · 2026.11.18" }
 
-Der Tab "Kontenverwaltung" zeigt eine Liste der Benutzer:innen, die dieser Organisation aktuell zugeordnet sind. Sie können bestehende Benutzer:innen auch wieder entfernen.
+Im Tab "Kontenverwaltung" legen Sie fest, wer in dieser Organisation welche Rolle hat. Die Liste zeigt die Konten der Organisation mit ihrer Rolle. Hat eine Person mehrere Rollen, steht sie je Rolle in einer eigenen Zeile. Die Rollen eines einzelnen Kontos vergeben Sie auch in der Benutzerverwaltung, siehe [Rollen zuweisen](../usermanagement/Assign_roles.de.md).
 
-Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden. Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren Benutzer:innen ist möglich.
+Mit "Konto hinzufügen" wählen Sie zuerst die Rolle aus. Im Dialog "Konto hinzufügen als" suchen Sie danach die Konten und fügen eines oder mehrere hinzu. Um eine Rolle wieder zu entziehen, markieren Sie die Zeilen und klicken auf "Entfernen". Ist eine Person in keiner anderen Organisation Benutzer:in, behält sie hier die Rolle Benutzer:in, damit sie einer Organisation zugeordnet bleibt. Verwaltet ein externes System die Mitglieder der Organisation, fehlen beide Buttons.
 
-Jeder Stufe der Organisation können Mitglieder verschiedenster Rollen zugeordnet werden.
-
-Die **Rollen-Zuordnung** ist möglich
-
-  * auf einer spezifischen Organisation
-  * auf einer spezifischen Organisation und allen dieser Organisation untergeordneten Organisationsstrukturen
+Das Symbol in der Spalte "Vererbung" nennt als Tooltip, wo eine Rolle gilt: "Rolle nur auf dieser Organisation", "Rolle wird auf untere Organisationen vererbt" oder "Rolle von einer übergeordneten Organisation geerbt". Beim Hinzufügen legt OpenOlat das selbst fest. Die Rolle Benutzer:in gilt nur in dieser Organisation, alle übrigen Rollen im Menü "Konto hinzufügen" gelten auch in den Unterorganisationen.
 
 
 
@@ -121,9 +116,9 @@ Die **Rollen-Zuordnung** ist möglich
 
 Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Lernressourcen"`
-![Button "Kurse hinzufügen" über der noch leeren Liste der zugeordneten Kurse](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" title="Tab Lernressourcen einer Organisation" }
+![Liste der Kurse, die der Organisation direkt zugeordnet sind, darüber der Button "Kurse hinzufügen"](assets/organisations_edit_tab_learning_resources_v2_de.png){ class="shadow lightbox" title="Tab Lernressourcen einer Organisation · 2026.11.18" }
 
-Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordnet sind, und passen diese Zuordnung an. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese der Organisation zuzuordnen. Um Kurse wieder zu entfernen, markieren Sie die Zeilen in der Liste und klicken auf "Entfernen". OpenOlat fragt im Dialog "Lernressourcen entfernen" nach, bevor es die Zuordnung aufhebt.
+Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordnet sind, und passen diese Zuordnung an. Mit "Kurse hinzufügen" suchen Sie in einem Dialog nach weiteren eigenen und verfügbaren Kursen und ordnen sie der Organisation zu. Um Kurse wieder zu entfernen, markieren Sie die Zeilen in der Liste und klicken auf "Entfernen". OpenOlat fragt im Dialog "Lernressourcen entfernen" nach, bevor es die Zuordnung aufhebt.
 
 "Kurse hinzufügen" findet nur Kurse. Tests, Videos und andere Lernressourcen ordnen Sie einer Organisation in der Administrativen Freigabe der Lernressource zu, beschrieben unter [Kurseinstellungen - Tab Freigabe](../../manual_user/learningresources/Course_Settings_Share/index.de.md#section_share). Für mehrere Lernressourcen gleichzeitig gibt es die [Sammelaktion im Autorenbereich](../../manual_user/area_modules/Authoring_BulkActions.de.md#bulk_administrative_access).
 
@@ -202,7 +197,7 @@ Ist die [Debitorennummer](#customer_number) eingeschaltet, hat eine Rechnungsadr
 
 Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "E-Mail-Domänen-Zuordnungen"`
-![Noch leere Liste der E-Mail-Domänen-Zuordnungen einer Organisation mit dem Button E-Mail-Domänen-Zuordnung erstellen](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen einer Organisation" }
+![Zwei E-Mail-Domänen-Zuordnungen einer Organisation mit den Spalten Aktiv, Unter-Domänen erlaubt und Konten mit Domäne, darüber der Button E-Mail-Domänen-Zuordnung erstellen](assets/organisations_edit_tab_email_domain_v2_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen einer Organisation · 2026.11.18" }
 
 Legen Personen ihr Konto per Selbstregistrierung selbst an, entscheidet die E-Mail-Domäne, ob die Registrierung möglich ist und zu welcher Organisation das neue Konto gehört. Hier hinterlegen Sie die E-Mail-Domänen dieser Organisation. Ist die [E-Mail-Domänen-Zuordnung](#tab_configuration) eingeschaltet, nimmt die Selbstregistrierung nur E-Mail-Adressen an, deren Domäne als aktive Zuordnung hinterlegt ist, und OpenOlat ordnet das neue Konto dieser Organisation zu.
 
@@ -212,11 +207,16 @@ Legen Personen ihr Konto per Selbstregistrierung selbst an, entscheidet die E-Ma
 
 ## Tab Organisationstypen {: #tab_types}
 
-![Liste von vier Organisationstypen, darüber der Button Organisationstyp erstellen](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" title="Tab Organisationstypen im Modul Organisationen" }
+![Liste der Organisationstypen mit den Spalten Kennzeichen und Name, darüber der Button Organisationstyp erstellen](assets/organisations_tab_types_v2_de.png){ class="shadow lightbox" title="Tab Organisationstypen im Modul Organisationen · 2026.11.18" }
 
-Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich --> Abteilung`.
+Mit Organisationstypen unterscheiden Sie die Arten von Organisationen in Ihrer Struktur, etwa Firma, Bereich und Abteilung. Sie legen sie in der System-Administration an unter:<br>
+`Administration > Module > Organisationen > Tab "Organisationstypen"`
 
-Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben dem Kennzeichen und dem Namen kann eine Beschreibung angegeben werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuen Organisationstyp bereits bestehende Typen untergeordnet werden.
+Ein Typ gibt jeder Organisation, der Sie ihn im Tab [Metadaten](#edit_metadata) zuordnen, eine nähere Bedeutung. Über das Feld "Sub types" bilden die Typen auch eine Hierarchie ab, zum Beispiel `Firma --> Bereich --> Abteilung`. Nötig ist das nicht.
+
+Mit "Organisationstyp erstellen" legen Sie einen weiteren Typ an. Pflichtfelder sind "Kennzeichen" und "Name", dazu kommt eine Beschreibung. Im Feld "CSS Class" hinterlegen Sie eine CSS-Klasse; OpenOlat speichert sie mit dem Typ und gibt sie über die [REST API](REST_API.de.md) aus. Für die Arbeit in OpenOlat selbst brauchen Sie das Feld nicht.
+
+Im Feld "Sub types" wählen Sie die bestehenden Typen, die unter einer Organisation dieses Typs liegen dürfen. Im Tab "Metadaten" einer Unterorganisation bietet OpenOlat dann nur diese Typen an. Bleibt das Feld leer, stehen dort alle Typen zur Wahl. Nach denselben Angaben richtet sich, wohin sich eine Organisation [verschieben](#create_and_edit) lässt.
 
 
 [Zum Seitenanfang ^](#organisations)
@@ -229,7 +229,7 @@ Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur en
 
     Dieser Tab wird nur angezeigt, wenn die E-Mail-Domänen-Zuordnung im Tab "Konfiguration" aktiviert wurde.
 
-![E-Mail-Domänen je Organisation mit den Spalten Aktiv, Unter-Domänen erlaubt und Konten mit Domäne](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen im Modul Organisationen" }
+![E-Mail-Domänen je Organisation mit den Spalten Aktiv, Unter-Domänen erlaubt und Konten mit Domäne](assets/organisations_tab_mail_domains_v2_de.png){ class="shadow lightbox" title="Tab E-Mail-Domänen-Zuordnungen im Modul Organisationen · 2026.11.18" }
 
 Mit den E-Mail-Domänen-Zuordnungen schränken Sie die Selbstregistrierung auf bestimmte E-Mail-Domänen ein. OpenOlat nimmt dann nur E-Mail-Adressen an, deren Domäne bei einer Organisation als aktive Zuordnung hinterlegt ist, und ordnet das neue Konto dieser Organisation zu. Passen mehrere Organisationen, wählt die Person bei der Registrierung eine davon aus.
 
@@ -247,6 +247,7 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 [Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [REST API >](REST_API.de.md)<br>
+[Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)<br>
 [Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)<br>
 [Core-Konfiguration: Übersicht >](Core_functions/index.de.md)<br>
@@ -256,7 +257,6 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 [Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md)
 
 **Weiterführend**<br>
-[Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../manual_user/basic_concepts/Roles/index.de.md)<br>
 [Selbstregistration >](Login_Self-Registration.de.md)
 

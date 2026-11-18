@@ -4,7 +4,7 @@ Braucht eine Person Hilfe bei ihrem Konto, etwa ein neues Passwort, eine weitere
 
 Administrator:innen sehen alle im Folgenden beschriebenen Reiter, sofern die zugehörigen Module eingeschaltet sind. Die übrigen Rollen sehen weniger Reiter; welche Rollen einen Reiter erreichen, steht im jeweiligen Abschnitt.
 
-![Kopfbereich mit Status, Identität, Organisation, Kontotyp und Anmeldename, darunter 25 Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v6_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung · 2026.10.31" }
+![Kopfbereich mit Status, Identität, Benutzer:in in, E-Mail, Kontotyp und Anmeldename, darunter in drei Zeilen die Reiter von Profil bis Korrekturaufträge](assets/user_management_configure_user_v6_de.png){ class="shadow lightbox" title="Kontoeinstellungen eines Kontos in der Benutzerverwaltung · 2026.10.31" }
 
 Der Kopfbereich über den Reitern zeigt auf einen Blick, wem das Konto gehört, in welchen Organisationen die Person ist und welche Rollen sie hat. Neben dem Bild der Person steht der Status des Kontos, zum Beispiel "Aktiv". Unter dem Namen öffnen zwei Symbole die "Visitenkarte" der Person und ein Formular, mit dem Sie ihr eine "E-Mail" schreiben. [:octicons-tag-16:{ title="ab Release 20.0.2 (OO-8515)" }](https://track.frentix.com/issue/OO-8515)
 
@@ -171,6 +171,15 @@ Den Reiter erreichen nur Administrator:innen.
 [zum Seitenanfang ^](#user_configuration)
 
 
+### MCP [:octicons-tag-16:{ title="ab Release 21.2 (OO-9912)" }](https://track.frentix.com/issue/OO-9912) {: #mcp}
+
+Arbeitet eine Person über den [MCP-Server](../administration/Core_functions/index.de.md#mcp_server) mit einem KI-Client wie Claude Code, zeigt der Reiter "MCP" ihre Profile, unter "Wirksame Tools" die Tools, die sie damit erhält, und die Tokens, mit denen sich ihr KI-Client anmeldet; hier erstellen Sie mit "Token erstellen" ein Token für sie und machen eines mit "Widerrufen" ungültig.
+
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem MCP-Server und nicht bei eingeladenen Konten und Gastkonten. Ihn erreichen Systemadministrator:innen, dazu Administrator:innen und Benutzerverwalter:innen, sofern die Person in ihrer Organisation Benutzer:in ist.
+
+[zum Seitenanfang ^](#user_configuration)
+
+
 ### Properties
 
 Der Reiter "Properties" listet die technischen Einträge, die OpenOlat zu diesem Konto speichert, mit den Spalten "Kategorie", "Gruppe", "Ressource", "Name", "Wert", "Erstellt" und "Geändert". Die Tabelle laden Sie bei Bedarf herunter, einen einzelnen Eintrag löschen Sie mit "Löschen".
@@ -288,7 +297,7 @@ Braucht eine Person wegen einer Einschränkung mehr Zeit für einen Test, erfass
 
 Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals. Einen Nachteilsausgleich erfassen und ändern können Administrator:innen und Rollenverwalter:innen.
 
-![Vier mit Stern markierte Pflichtfelder, darunter das optionale Feld Kursbaustein](assets/Nachteilsausgleich.jpg){ class="shadow lightbox" title="Dialog Nachteilsausgleich hinzufügen" }
+![Die vier Pflichtfelder Bewilligt von, Bewilligungsdatum, Zusatzzeit (Minuten) und Kurs mit Stern, darunter das optionale Feld Kursbaustein](assets/user_management_disadvantage_compensation_v1_de.png){ class="shadow lightbox" title="Dialog Nachteilsausgleich hinzufügen im Reiter Nachteilsausgleich · 2026.11.18" }
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -394,6 +403,7 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Rollen zuweisen >](Assign_roles.de.md)<br>
 [Selbstregistration >](../administration/Login_Self-Registration.de.md)<br>
 [Passwort und Authentifizierung >](../administration/Login_Password_and_Authentication.de.md)<br>
+[Core-Konfiguration: Übersicht >](../administration/Core_functions/index.de.md)<br>
 [Module: Übersicht >](../administration/Modules/index.de.md)<br>
 [Benutzerrollen >](index.de.md)<br>
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
