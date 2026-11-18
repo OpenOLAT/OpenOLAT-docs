@@ -113,19 +113,19 @@ A **central overview** consolidates all to-dos across all products, and on the d
 
 ### Import Markdown/Word
 
-Prepared learning content in Word or Markdown files previously had to be rebuilt by hand in the **Page**. From Release 21.0, an [**import function**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#markdown){:target="_blank"} is available. Either the **Word and Markdown files** can be imported completely, or their content can be pasted as text in the import dialog. OpenOlat automatically converts the content into the matching blocks (title, text, tables, code, images and more). Referenced images automatically end up in the Media Center.
+Prepared learning content in Word or Markdown files previously had to be rebuilt by hand in the **Page**. From Release 21.0, an [**import function**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/Editor_Import/#markdown){:target="_blank"} is available. Either the **Word and Markdown files** can be imported completely, or their content can be pasted as text in the import dialog. OpenOlat automatically converts the content into the matching blocks (title, text, tables, code, images and more). Referenced images automatically end up in the Media Center.
 
 ![Import Word file in the Page](assets/210/content_editor_import_dialog_v1_en.png){ class="shadow lightbox" title="Import Word file in the Page" }
 
 ### Table of contents
 
-Navigating in long pages is made easier by the new content element [**«Table of contents»**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#table_of_contents){:target="_blank"}. The table lists - either for the whole page or a single chapter - the titles as clickable jump links and takes you directly to the respective section with one click.
+Navigating in long pages is made easier by the new content element [**«Table of contents»**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/Editor_Add_Content/#table_of_contents){:target="_blank"}. The table lists - either for the whole page or a single chapter - the titles as clickable jump links and takes you directly to the respective section with one click.
 
-Since all title elements are now [**automatically given anchors**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#anchors){:target="_blank"}, the jump targets within the page arise entirely on their own.
+Since all title elements are now [**automatically given anchors**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/Editor_Layout/#anchors){:target="_blank"}, the jump targets within the page arise entirely on their own.
 
 ### Optimized layout deletion
 
-All [layout blocks can now be deleted](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/#delete_layout){:target="_blank"}, including the topmost one. In doing so, you can decide whether the content is also deleted with it or moved into the adjacent layout.
+All [layout blocks can now be deleted](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/Editor_Layout/#delete_layout){:target="_blank"}, including the topmost one. In doing so, you can decide whether the content is also deleted with it or moved into the adjacent layout.
 
 If the last remaining layout is removed, the page automatically receives an empty default layout again.
 
@@ -141,7 +141,7 @@ For each free-text question, the AI provides a **[«Grading kit»](https://docs.
 
 ### Formative AI feedback for learners
 
-Free-text questions with AI grading can be used directly in a **quiz in the** [**Content Editor**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/){:target="_blank"}. When learners answer such a question, formative feedback on their answer is retrieved under **AI feedback**: "Overall assessment", "What went well", "What is missing" and "Next step" - either as a short summary or as detailed feedback.
+Free-text questions with AI grading can be used directly in a **quiz in the** [**Content Editor**](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Editor/Editor_Quiz/){:target="_blank"}. When learners answer such a question, formative feedback on their answer is retrieved under **AI feedback**: "Overall assessment", "What went well", "What is missing" and "Next step" - either as a short summary or as detailed feedback.
 
 The feedback deliberately awards no points but supports self-assessment and invites further work. The prerequisite is the configured "Essay Grading" AI feature.
 

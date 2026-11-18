@@ -82,7 +82,7 @@ What you build, and what learners work through.
 
     What sits in the authoring area: courses, tests, videos, blogs, podcasts, glossaries and forms.
 
--   __[Content and media](manual_user/basic_concepts/Content_Editor.md)__
+-   __[Content and media](manual_user/basic_concepts/Content_Editor/index.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="authoring" }
 
     ---

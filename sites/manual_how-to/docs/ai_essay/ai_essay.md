@@ -15,7 +15,7 @@
 
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
     * [Course Element Page](../../manual_user/learningresources/Course_Element_Page.md)
-    * [Content Editor](../../manual_user/basic_concepts/Content_Editor.md)
+    * [Content Editor](../../manual_user/basic_concepts/Content_Editor/index.md)
 
 ---
 
@@ -180,7 +180,7 @@ The more open the question, the more important grading hints and rubric criteria
 
 ## The learner's view {: #learner_view}
 
-At the start of the quiz, OpenOlat asks learners in the "AI correction" dialog whether the AI may correct their free-text answers: "Allow once", "Always allow" or "Not now". The AI feedback is a response for the learners; points and passed status remain unaffected. Without permission learners answer the question as usual, only no AI feedback appears. "Always allow" stores the choice in the "AI settings" tab of the personal settings, after which the dialog no longer appears. After "Allow once" or "Not now", OpenOlat asks again at the next run through the Quiz, for example after "New attempt". In the "AI settings" tab, learners change their choice at any time: "Off" switches the AI feedback off, "Default (on)" or "Default (off)" lets OpenOlat ask again at the start. Details are described in [Consent to the AI correction](../../manual_user/basic_concepts/Content_Editor.md#ai_consent).
+At the start of the quiz, OpenOlat asks learners in the "AI correction" dialog whether the AI may correct their free-text answers: "Allow once", "Always allow" or "Not now". The AI feedback is a response for the learners; points and passed status remain unaffected. Without permission learners answer the question as usual, only no AI feedback appears. "Always allow" stores the choice in the "AI settings" tab of the personal settings, after which the dialog no longer appears. After "Allow once" or "Not now", OpenOlat asks again at the next run through the Quiz, for example after "New attempt". In the "AI settings" tab, learners change their choice at any time: "Off" switches the AI feedback off, "Default (on)" or "Default (off)" lets OpenOlat ask again at the start. Details are described in [Consent to the AI correction](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md#ai_consent).
 
 1. Learners start the Quiz on the page and answer the essay question in the input field. If the AI generated the question, via the import or via "AI questions" in the question bank, the question text ends with "Notes for your answer": the expected length, the number of key concepts and the scopes the answer is graded by. A question you create by hand has no such block. The block is part of the question text, so you can change or remove it in the "Question" field. The counter shows the number of words and, if a maximum is set, the permitted maximum.
 2. With **"Check"** they submit the answer. While the AI is working, the message "Waiting for AI correction" appears. If it takes longer, OpenOlat asks you to keep the page open: the feedback appears on the open page. After that, "Continue" leads to the next question.
@@ -245,7 +245,8 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 **Mentioned on this page**<br>
 ["How do I create my first OpenOlat course?" >](../my_first_course/my_first_course.md)<br>
 [Course Element "Page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor/index.md)<br>
+[Content Editor: Quiz and AI feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [User tools: Media Center >](../../manual_user/personal_menu/Media_Center.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>

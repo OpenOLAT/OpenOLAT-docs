@@ -102,7 +102,7 @@ You configure each AI feature separately. OpenOlat loads the available models di
 * MC Question Generator (creation of multiple-choice questions), used in [Question Bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 * Image Description Generator (creation of image descriptions, alternative text, and keywords), used in [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md) [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
 * Essay Question Generator (creation of open-text questions with grading criteria)
-* Essay Grading (formative AI feedback on open-text answers), used in the question bank and in the [Content Editor >](../../manual_user/basic_concepts/Content_Editor.md) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
+* Essay Grading (formative AI feedback on open-text answers), used in the question bank and in the [quiz of the Content Editor >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback) [:octicons-tag-16:{ title="from Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
 The benefit of these features for authors and the places where they take effect are shown in the concept study [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md).
 
@@ -287,7 +287,7 @@ taxonomy.matching.passage.prefix=
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
 [Question Bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
+[Content Editor: Quiz and AI feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>

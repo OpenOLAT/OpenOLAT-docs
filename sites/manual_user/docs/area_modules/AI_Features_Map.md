@@ -52,7 +52,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 </g></a>
 
 <!-- Card 3: Content Editor -->
-<a href="../../basic_concepts/Content_Editor/#ai_feedback"><title>Content Editor: AI feedback in the quiz</title><g>
+<a href="../../basic_concepts/Content_Editor/Editor_Quiz/#ai_feedback"><title>Content Editor: AI feedback in the quiz</title><g>
 <rect class="card" x="40" y="280" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="40" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="310" class="place">CONTENT EDITOR</text>
@@ -128,7 +128,7 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)
 

@@ -216,7 +216,7 @@ The tab only appears if system administrators have switched on at least one of t
 
 The tab shows one row per feature:
 
-* **"AI feedback on free-text answers"**: Your answer to a free-text question (essay question) in a quiz is sent to the AI, and you receive formative feedback. It does not award points. More about this: [AI feedback on free-text answers](../basic_concepts/Content_Editor.md#ai_feedback)
+* **"AI feedback on free-text answers"**: Your answer to a free-text question (essay question) in a quiz is sent to the AI, and you receive formative feedback. It does not award points. More about this: [AI feedback on free-text answers](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback)
 * **"AI image descriptions"**: For an image that you upload, OpenOlat generates title, description, alternative text and tags with the AI. More about this: [Generate metadata with AI](../basic_concepts/Media_Center_Items.md#metadata_ai)
 
 In each row you select one of three values and then click "Save":
@@ -227,7 +227,7 @@ In each row you select one of three values and then click "Save":
 
 If the AI feedback is set to "Off", you answer free-text questions as usual, only no AI feedback appears. If the AI image descriptions are set to "Off", OpenOlat does not generate metadata in the background when you upload an image. You can still trigger the button "Generate metadata with AI" in the form yourself at any time.
 
-As long as "Default" is selected for the AI feedback, OpenOlat asks you at the start of a quiz with AI feedback whether the AI may correct your answers. More about this: [Consent to the AI correction](../basic_concepts/Content_Editor.md#ai_consent)
+As long as "Default" is selected for the AI feedback, OpenOlat asks you at the start of a quiz with AI feedback whether the AI may correct your answers. More about this: [Consent to the AI correction](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_consent)
 
 If you selected "Always allow" in this dialog, the row here is set to "On". If you want to be asked again, select "Default" and click "Save". After that the default of the system administration applies again. The option "Personalized interface components" under ["Reset configurations"](#reset) in the tab "System" sets your AI settings back to "Default".
 
@@ -251,7 +251,7 @@ System administrators set the default for everyone in the AI module: [External t
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [Module Instant Messaging >](../../manual_admin/administration/Instant_Messaging.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)
 

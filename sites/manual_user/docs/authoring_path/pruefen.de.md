@@ -263,7 +263,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Test konfigurieren >](../learningresources/Configure_tests.de.md)<br>
 [Kommunikation während einer Prüfung >](../../manual_how-to/communication_during_exam/communication_during_exam.de.md)<br>
 [Tests bewerten >](../learningresources/Assessing_tests.de.md)<br>
-[Test Einstellungen - Administration >](../learningresources/Test_settings.de.md)<br>
+[Test: Einstellungen >](../learningresources/Test_settings.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](../area_modules/Question_Bank_Review_Process.de.md)<br>
 [Fragenpool: Fragen verwenden >](../area_modules/Question_bank_possible_operations.de.md)<br>
 [Das Bewertungsformular >](../learningresources/The_assessment_form.de.md)<br>

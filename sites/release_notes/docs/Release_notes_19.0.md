@@ -75,7 +75,7 @@ The integration of the organisation's Sharepoint Online drive is implemented in 
 
 ## Content Creator
 
-The Content Editor of the course element 'Page' becomes the [Content Creator](../manual_user/basic_concepts/Content_Editor.md){:target="_blank”} and offers further useful blocks for the didactic preparation of content from release 19.0.
+The Content Editor of the course element 'Page' becomes the [Content Creator](../manual_user/basic_concepts/Content_Editor/index.md){:target="_blank”} and offers further useful blocks for the didactic preparation of content from release 19.0.
 
 The selection dialogue for adding content in the Content Creator and Form Editor has been optimised and offers a comprehensive overview of all available objects.
 

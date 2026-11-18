@@ -52,7 +52,7 @@ In a portfolio entry, the formula is a content element of its own between texts 
 ## Further information {: #further_information}
 
 [CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
-[Content Editor >](Content_Editor.md)<br>
+[Content Editor: Add content >](Content_Editor/Editor_Add_Content.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
 [User tools: Portfolio 2.0 >](../personal_menu/Portfolio/index.md)
 

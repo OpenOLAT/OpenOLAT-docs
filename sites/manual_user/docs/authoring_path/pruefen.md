@@ -261,7 +261,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Configure tests >](../learningresources/Configure_tests.md)<br>
 [Communication during an exam >](../../manual_how-to/communication_during_exam/communication_during_exam.md)<br>
 [Assessing tests >](../learningresources/Assessing_tests.md)<br>
-[Test settings - Administration >](../learningresources/Test_settings.md)<br>
+[Test: Settings >](../learningresources/Test_settings.md)<br>
 [Question Bank Review Process >](../area_modules/Question_Bank_Review_Process.md)<br>
 [Question bank: Use questions >](../area_modules/Question_bank_possible_operations.md)<br>
 [The assessment form >](../learningresources/The_assessment_form.md)<br>

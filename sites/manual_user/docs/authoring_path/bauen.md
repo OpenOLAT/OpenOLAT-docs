@@ -143,7 +143,7 @@ The block-based editor that content is assembled from out of paragraphs, images,
 
     **German:** Content Editor
 
-    [Read in the manual](../basic_concepts/Content_Editor.md) · [Ask Sophia](?sophia=What%20is%20%22Content%20editor%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
+    [Read in the manual](../basic_concepts/Content_Editor/index.md) · [Ask Sophia](?sophia=What%20is%20%22Content%20editor%22%20in%20OpenOlat%20and%20how%20do%20I%20use%20it%3F)
 
 </div>
 
@@ -234,9 +234,9 @@ With frentix: we show it in a training. For a training, contact your organisatio
 The first course is running. Now the things that did not matter at the start pay off: the terms of this station have parts and settings that control the course more precisely.
 
 - **Course editor:** Enable edit mode.
-- **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Types of Course Elements](../learningresources/Course_Elements/index.md).
+- **Course element:** [External page](../learningresources/Course_Element_External_Page.md), [Link list](../learningresources/Course_Element_Link_List.md), [CP learning content](../learningresources/Course_Element_CP_Learning_Content.md), [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.md) and more. All settings are on the page [Course elements at a glance](../learningresources/Course_Elements/index.md).
 - **Task:** [Group task](../learningresources/Course_Element_Grouptask.md), [Workflow](../learningresources/Course_Element_Task/Task_Setup.md#workflow).
-- **Content editor:** [Content element](../basic_concepts/Content_Editor.md) (in the interface: **Add content**), [Import](../basic_concepts/Content_Editor.md), [Inspector](../basic_concepts/Content_Editor.md).
+- **Content editor:** [Content element](../basic_concepts/Content_Editor/Editor_Add_Content.md) (in the interface: **Add content**), [Import](../basic_concepts/Content_Editor/Editor_Import.md), [Inspector](../basic_concepts/Content_Editor/Editor_Layout.md#inspector).
 - **Media Center:** [Shares](../../manual_admin/administration/Modules_Media_Center.md). All settings are on the page [Media Center Concept](../basic_concepts/Media_Center_Concept/index.md).
 
 ## Further information {: #further_information}
@@ -251,7 +251,7 @@ The first course is running. Now the things that did not matter at the start pay
 [Course Element Forum >](../learningresources/Course_Element_Forum.md)<br>
 [Course Element Task >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element Assessment >](../learningresources/Course_Element_Assessment.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
 [Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
@@ -263,6 +263,9 @@ The first course is running. Now the things that did not matter at the start pay
 [Course Element SCORM 1.2 >](../learningresources/Course_Element_SCORM_Learning_Content.md)<br>
 [Course Element Group Task >](../learningresources/Course_Element_Grouptask.md)<br>
 [Set up a task >](../learningresources/Course_Element_Task/Task_Setup.md)<br>
+[Add content >](../basic_concepts/Content_Editor/Editor_Add_Content.md)<br>
+[Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
+[Layout >](../basic_concepts/Content_Editor/Editor_Layout.md)<br>
 [Module Media Center >](../../manual_admin/administration/Modules_Media_Center.md)
 
 **Further reading**<br>

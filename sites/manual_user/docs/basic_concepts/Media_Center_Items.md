@@ -75,9 +75,9 @@ Fields that are already filled in are retained during generation; the title is o
 
 ![Subject Astronomy set by the AI, together with the notice about the AI generation and the triggering button](assets/media_center_items_ai_v2_en.png){ class="shadow lightbox" title="Dialog Add media file" }
 
-When you upload a new image, in the Media Center with "Add media file" as well as in the element [Image](Content_Editor.md#image) of the Content Editor, OpenOlat additionally adds missing metadata in the background with AI. After saving, OpenOlat reports: "The image metadata is generated with AI in the background and will be added automatically in a few moments." This way only runs if the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). It is skipped if you have already used the button "Generate metadata with AI" in the same form [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
+When you upload a new image, in the Media Center with "Add media file" as well as in the element [Image](Content_Editor/Editor_Add_Content.md#image) of the Content Editor, OpenOlat additionally adds missing metadata in the background with AI. After saving, OpenOlat reports: "The image metadata is generated with AI in the background and will be added automatically in a few moments." This way only runs if the AI image descriptions are switched on for you, see [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings). It is skipped if you have already used the button "Generate metadata with AI" in the same form [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
 
-During the [Markdown import into the Content Editor](Content_Editor.md#import_images) you decide with the switch "Generate image metadata with AI" in the import dialog whether OpenOlat generates the metadata of the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
+During the [Markdown import into the Content Editor](Content_Editor/Editor_Import.md#import_images) you decide with the switch "Generate image metadata with AI" in the import dialog whether OpenOlat generates the metadata of the imported images in the background with AI [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [To the top of the page ^](#media_center_items)
 
@@ -114,7 +114,8 @@ Here you can specify who is allowed to use a media element. Participants can onl
 **Mentioned on this page**<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
-[Content Editor >](Content_Editor.md)<br>
+[Content Editor: Add content >](Content_Editor/Editor_Add_Content.md)<br>
+[Content Editor: Import >](Content_Editor/Editor_Import.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)
 
 **Further reading**<br>

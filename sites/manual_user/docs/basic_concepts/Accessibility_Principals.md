@@ -10,6 +10,6 @@ The WCAG 2.1 AA standard is also mentioned or required internationally in many l
 
 [WCAG 2.1 (W3C) >](https://www.w3.org/TR/WCAG21/)<br>
 [Accessibility: Colors >](Accessibility_Colors.md)<br>
-[Content Editor >](Content_Editor.md)
+[Content Editor >](Content_Editor/index.md)
 
 [To the top of the page ^](#principals)

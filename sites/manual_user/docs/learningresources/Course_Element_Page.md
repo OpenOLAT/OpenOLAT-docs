@@ -71,7 +71,7 @@ Under "Media":
 
 Under "Knowledge":
 
-* **Quiz:** Embeds quiz questions into the page, newly created or imported from the question bank [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. For essay questions, learners receive [AI feedback on their answer](../basic_concepts/Content_Editor.md#ai_feedback) here [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
+* **Quiz:** Embeds quiz questions into the page, newly created or imported from the question bank [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. For essay questions, learners receive [AI feedback on their answer](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback) here [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
 
 Under "Other & design":
 
@@ -87,7 +87,7 @@ If content already exists in markdown format or as a Word document (.docx), you 
 
 This allows content from external tools, plain text files or AI applications to be adopted as a page in the course without manual reformatting.
 
-[Details on the import >](../basic_concepts/Content_Editor.md#markdown)
+[Details on the import >](../basic_concepts/Content_Editor/Editor_Import.md#markdown)
 
 
 ## Edit page (Edit mode)
@@ -109,7 +109,7 @@ To change, copy or move a content element, click it. Its toolbar with four icons
 
 ![Cogwheel, Duplicate, 3 points and arrow cross on the selected content element Title, on the right the inspector of the title](assets/course_element_page_contentelement_title_v2_en.png){ class="shadow lightbox" title="Toolbar of a content element in the course element Page · 2026.11.10" }
 
-* **Gear icon ("Edit settings"):** shows and hides the [inspector](../basic_concepts/Content_Editor.md#inspector) with the settings of the element.
+* **Gear icon ("Edit settings"):** shows and hides the [inspector](../basic_concepts/Content_Editor/Editor_Layout.md#inspector) with the settings of the element.
 * **Duplicate:** copies the element [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 * **3 dots ("More actions"):** opens a menu with "Add before", "Add after", "Duplicate" and "Delete".
 * **Arrow cross ("Drag content"):** moves the element by drag & drop to another position, also to another field or layout.
@@ -153,12 +153,15 @@ You upload media to the Media Center in the personal menu or directly in the Con
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
+[Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
+[Content Editor: Layout >](../basic_concepts/Content_Editor/Editor_Layout.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)
 
 **Further reading**<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "Portfolio task" >](../learningresources/Course_Element_Portfolio_Task.md)
 

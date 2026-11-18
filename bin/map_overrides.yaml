@@ -116,3 +116,59 @@ overrides:
     field: man
     value: manual_admin/administration/Login_Cloud_Login
     register: 64
+  - key: authoring.content_editor
+    field: man
+    value: manual_user/basic_concepts/Content_Editor/index
+    register: 66
+  - key: authoring.content_element
+    field: man
+    value: manual_user/basic_concepts/Content_Editor/Editor_Add_Content
+    register: 66
+  - key: authoring.ce_import
+    field: man
+    value: manual_user/basic_concepts/Content_Editor/Editor_Import
+    register: 66
+  - key: authoring.inspector
+    field: man
+    value: manual_user/basic_concepts/Content_Editor/Editor_Layout#inspector
+    register: 66
+  - key: authoring.media_center
+    field: man
+    value: manual_user/basic_concepts/Media_Center_Concept/index
+    register: 67
+  - key: course.course_design
+    field: man
+    value: manual_user/learningresources/Administration/index
+    register: 67
+  - key: course.course_element
+    field: man
+    value: manual_user/learningresources/Course_Elements/index
+    register: 67
+  - key: course.learning_path_course
+    field: man
+    value: manual_user/learningresources/Learning_path_course/index
+    register: 67
+  - key: roles.owner
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 67
+  - key: roles.participant
+    field: man
+    value: manual_user/basic_concepts/Roles/index
+    register: 67
+  - key: quality.form
+    field: man
+    value: manual_user/learningresources/Form/index
+    register: 67
+  - key: course.course_lifecycle
+    field: man
+    value: manual_admin/administration/Life_cycles_-_Administration/index
+    register: 67
+  - key: course.archiving_tool
+    field: man
+    value: manual_user/learningresources/Course_Archiving/index
+    register: 67
+  - key: course.course_archive
+    field: man
+    value: manual_user/learningresources/Course_Archiving/index
+    register: 67

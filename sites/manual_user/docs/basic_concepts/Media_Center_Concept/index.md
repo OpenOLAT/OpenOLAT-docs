@@ -91,7 +91,7 @@ There are various ways to store media in the Media Center:
 
 ### Create new media outside the Media Center in the Content Editor {: #create_in_editor}
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../Content_Editor.md). In the course, you use for example the course element ["Page"](../../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [Content Editor](../Content_Editor/index.md). In the course, you use for example the course element ["Page"](../../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear. Click on the button and you will be taken to the Media Center with all the corresponding options.
 
 ![Drop-down menu next to Add media file with Document, draw.io diagram, Text, Video via URL, video and audio recording and Citation](../assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Select medium in the course element Page" }
 
@@ -247,7 +247,7 @@ You cannot add media items in the media management, the "Add media file" button 
 **Mentioned on this page**<br>
 [Personal Configuration: Settings >](../../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](../Media_Center_Items.md)<br>
-[Content Editor >](../Content_Editor.md)<br>
+[Content Editor >](../Content_Editor/index.md)<br>
 [Course Element "Page" >](../../learningresources/Course_Element_Page.md)<br>
 [Delete user >](../../../manual_admin/usermanagement/Delete_User.md)<br>
 [Files and Folders >](../../../manual_admin/administration/Files_and_Folders.md)<br>

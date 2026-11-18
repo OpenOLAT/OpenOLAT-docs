@@ -41,7 +41,7 @@ You provide the source text in one of two modes:
 
 How long the source text may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. If "MC Question Generator" and "Essay Question Generator" are both active, the smaller of the two values applies. The dialog states the applicable limit and rejects texts that are too long.
 
-You then define how many questions are generated: "Multiple-choice questions" and, if the AI feature "Essay Grading" is configured, "Essay questions with AI correction". The AI suggests sensible values based on the length of the source text, which you can adjust. With the fields "Bloom levels", "Target difficulty" and "Learning objectives (optional)" you steer which questions are created, as with the [import in the Content Editor](../basic_concepts/Content_Editor.md#import_ai_quiz); the Bloom levels "Understand" and "Apply" are preselected. Start the process with "Generate questions".
+You then define how many questions are generated: "Multiple-choice questions" and, if the AI feature "Essay Grading" is configured, "Essay questions with AI correction". The AI suggests sensible values based on the length of the source text, which you can adjust. With the fields "Bloom levels", "Target difficulty" and "Learning objectives (optional)" you steer which questions are created, as with the [import in the Content Editor](../basic_concepts/Content_Editor/Editor_Import.md#import_ai_quiz); the Bloom levels "Understand" and "Apply" are preselected. Start the process with "Generate questions".
 
 Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question bank once they are ready. They are created in the language of the source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. AI-generated questions receive the "Review" status so they are checked before reuse.
 
@@ -76,7 +76,7 @@ With the "Test feedback" button you enter a sample answer and see in the preview
 
 !!! info "Where learners receive the AI feedback"
 
-    The grading kit only takes effect in the [quiz element of a page](../basic_concepts/Content_Editor.md#ai_feedback). Add the essay question there with "Import questions from pool" in the 3-dot menu of the quiz element. In the course elements "Test" and "Self-test" the grading kit is not executed. There the essay answer remains subject to manual correction in the assessment tool.
+    The grading kit only takes effect in the [quiz element of a page](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback). Add the essay question there with "Import questions from pool" in the 3-dot menu of the quiz element. In the course elements "Test" and "Self-test" the grading kit is not executed. There the essay answer remains subject to manual correction in the assessment tool.
 
 [To the top of the page ^](#create_questions)
 
@@ -108,7 +108,8 @@ If you are developing questions together, for example, you can create a workgrou
 **Mentioned on this page**<br>
 [Test question types >](../learningresources/Test_question_types.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
+[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [How do I give learners AI feedback on free-text answers in a quiz? >](../../manual_how-to/ai_essay/ai_essay.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Question Bank Review Process >](Question_Bank_Review_Process.md)<br>

@@ -46,7 +46,12 @@ nav:
       - Math formula: "basic_concepts/Math_formula.md"
       - To-dos basics: "basic_concepts/To_Dos_Basics.md"
       - Events and absences: "basic_concepts/Events_and_Absences.md"
-      - Content Editor: "basic_concepts/Content_Editor.md"
+      - Content Editor:
+        - basic_concepts/Content_Editor/index.md
+        - Layout: "basic_concepts/Content_Editor/Editor_Layout.md"
+        - Add content: "basic_concepts/Content_Editor/Editor_Add_Content.md"
+        - Quiz and AI feedback: "basic_concepts/Content_Editor/Editor_Quiz.md"
+        - Import: "basic_concepts/Content_Editor/Editor_Import.md"
       - Working with media files: "basic_concepts/Working_with_Media_Files.md"
       - Working with videos:
         - basic_concepts/Video/index.md

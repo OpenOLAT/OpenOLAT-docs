@@ -16,7 +16,7 @@ There are folders in various places in OpenOlat in which media files are also st
 
 ## Learning content in the Content Editor
 
-Media files that are integrated with the [Content Editor](../basic_concepts/Content_Editor.md) are stored in the [Media Center](Media_Center_Concept/index.md).
+Media files that are integrated with the [Content Editor](../basic_concepts/Content_Editor/index.md) are stored in the [Media Center](Media_Center_Concept/index.md).
 
 **Advantages:**
 
@@ -39,7 +39,7 @@ For learning resources in the author area that contain media files, these media 
 ## Further information {: #further_information}
 
 [Folder concept >](../basic_concepts/Folder_Concept.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
 [Media Center Concept >](Media_Center_Concept/index.md)<br>
 [Blog: Overview >](../learningresources/Blog/index.md)<br>
 [Wiki >](../learningresources/Wiki.md)<br>

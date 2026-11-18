@@ -185,7 +185,7 @@ Instead of the export, you can download the empty folder structure in the step "
 
 The AI works out what an image or a text is about and assigns the result to a taxonomy level on its own. It compares the meaning, not the exact wording. An English text therefore also finds a level with a German name, a synonym finds the intended level, and a related term finds the one that is closest in content.
 
-The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there. A taxonomy level that hangs on a media item or on a learning resource is called a subject there.
+The assignment takes effect when you upload an image in the [Media Center](../../manual_user/basic_concepts/Media_Center_Items.md#metadata_ai) and when you [import Markdown files into the Content Editor](../../manual_user/basic_concepts/Content_Editor/Editor_Import.md#markdown). The result appears in the field "Subjects" of the metadata and can be changed there. A taxonomy level that hangs on a media item or on a learning resource is called a subject there.
 
 OpenOlat searches the taxonomies that are selected for the Media Center. You set these in the system administration under `Administration > Modules > Media Center` in the field "Linked taxonomies", see [Module Media Center: Taxonomy](Modules_Media_Center.md#taxonomy). If no taxonomy is selected there, OpenOlat searches the taxonomies that are selected under `Administration > Modules > Learning resource`. The overview under `Administration > Modules > Taxonomy` shows per taxonomy for which areas it is activated; in this case it shows "disabled" for the Media Center.
 
@@ -246,7 +246,7 @@ If the field "Subjects" stays empty although the AI has generated title, descrip
 [Portfolio - General Information >](../../manual_user/area_modules/Portfolio_General_Information.md)<br>
 [Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
 [Information and settings for items in the Media Center >](../../manual_user/basic_concepts/Media_Center_Items.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.md)<br>
+[Content Editor: Import >](../../manual_user/basic_concepts/Content_Editor/Editor_Import.md)<br>
 [Module Media Center >](Modules_Media_Center.md)<br>
 [External tools: AI module >](External_Tools_AI.md)
 

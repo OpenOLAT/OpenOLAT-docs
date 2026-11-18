@@ -131,6 +131,7 @@ plugins:
           Achievements/Successes : Erfolge/Leistungen
           Action to-dos : Massnahmen To-dos
           Actions in the Authoring section : Aktionen im Autorenbereich
+          Add content : Inhalt hinzufügen
           Additional Course Features : Zusätzliche Kursfunktionen
           Adjust OpenOlat : OpenOlat anpassen
           Admin manual: Administrationshandbuch
@@ -553,6 +554,7 @@ plugins:
           Question bank : Fragenpool
           Question rules : Frageregeln
           Questions : Fragen
+          Quiz and AI feedback : Quiz und KI-Feedback
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
           Recording : Aufnehmen
           Recording absences : Absenzen erfassen
