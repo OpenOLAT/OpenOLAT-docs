@@ -28,7 +28,7 @@
 <br>
 
 **Fall 1**<br>
-In OpenOlat gibt es Kurse die nur **einmalig** durchgeführt werden:<br>
+In OpenOlat gibt es Kurse, die nur einmalig durchgeführt werden:<br>
 Verwendungszweck "Eigenständig" unter `Kurs > Administration > Einstellungen > Freigabe`
 
 * Soll es doch eine zweite Durchführung geben, kann ein solcher Kurs im Autorenbereich kopiert werden. Dann müssen in der Kurskopie andere Mitglieder hinzugefügt werden.
@@ -40,7 +40,7 @@ Verwendungszweck "Eigenständig" unter `Kurs > Administration > Einstellungen > 
 **Fall 2**<br>
 In OpenOlat können Kurse auch für die **mehrfache Verwendung** vorgesehen werden. 
 
-* Der **Course Planner** ist das Tool um OpenOlat-Kurse mehrfach durchzuführen.
+* Der Course Planner ist das Tool, um OpenOlat-Kurse mehrfach durchzuführen.
 * Im Course Planner organisieren Sie mehrere **Durchführungen** eines Kurses (oder auch mehrerer Kurse im Course Bundle).
 * Damit ein Kurs für mehrere Durchführungen verwendet werden kann, muss er dafür vorgesehen werden: Verwendungszweck "Verwendung im Course Planner" unter `Kurs > Administration > Einstellungen > Freigabe`
 * Wichtig: In diesem Fall können die Mitglieder nicht mehr dem Kurs hinzugefügt werden, sondern müssen den Durchführungen zugeordnet werden. (Denn jede Durchführung hat andere Teilnehmende.)
@@ -51,13 +51,13 @@ In OpenOlat können Kurse auch für die **mehrfache Verwendung** vorgesehen werd
 ---
 
 
-##  Vorgehen {: #procedure}
+## Vorgehen {: #procedure}
 
 ### Schritt 1: Course Planner öffnen {: #step1}
 
-Öffnen Sie in der Hauptnavigation den Course Planner und klicken Sie darin den Button "Zertifikatsprogramme".
+Öffnen Sie in der Hauptnavigation den Course Planner und klicken Sie in der Übersicht unter "Akkreditierung" auf "Zertifikatsprogramme".
 
-![Markierter Tab Course Planner in der Hauptnavigation und markierter Button Zertifikatsprogramme auf der Übersicht des Course Planner](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" title="Übersicht des Course Planner" }
+![Übersicht des Course Planner: Unter "Akkreditierung" führt "Zertifikatsprogramme" zu allen Zertifikatsprogrammen](assets/certification_programs_settings_config_step1_v2_de.png){ class="shadow lightbox" title="Übersicht des Course Planner · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -66,9 +66,9 @@ In OpenOlat können Kurse auch für die **mehrfache Verwendung** vorgesehen werd
 
 ### Schritt 2: Neues Zertifikatsprogramm erstellen {: #step2}
 
-Erstellen Sie mit dem Button "Zertifikatsprogramm erstellen" rechts oben ein neues Zertifikatsprogramm.
+Erstellen Sie mit dem Button "Zertifikatsprogramm erstellen" rechts oben ein neues Zertifikatsprogramm. Den Button sehen Personen mit der Rolle Kursplaner:in, welche die Verwaltung des Course Planner übernimmt, und Administrator:innen. Besitzer:innen eines Zertifikatsprogramms finden ihr Programm in derselben Liste und bearbeiten es dort.
 
-![Markierter Button "Zertifikatsprogramm erstellen" rechts über der Liste der Zertifikatsprogramme](assets/certification_programs_settings_config_step2_v1_de.png){ class="shadow lightbox" title="Seite Zertifikatsprogramme im Course Planner" }
+![Liste der Zertifikatsprogramme: Mit "Zertifikatsprogramm erstellen" oben rechts legen Sie ein neues Programm an](assets/certification_programs_settings_config_step2_v2_de.png){ class="shadow lightbox" title="Seite Zertifikatsprogramme im Course Planner · 2026.11.18" }
 
 Beginnen Sie anschliessend mit der Einrichtung am besten hier:<br>
 `Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab "Einstellungen" > Konfiguration`
@@ -82,11 +82,10 @@ Beginnen Sie anschliessend mit der Einrichtung am besten hier:<br>
 
 Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer hat?
 
-* Wenn nicht, kann der Toggle-Button "Gültigkeit" ausgeschaltet bleiben. 
-(Das Zertifikat hat dann eine unbegrenzte Gültigkeit.)
-* Soll die Gültigkeit begrenzt werden, aktivieren Sie den Toggle-Button. Geben Sie in diesem Fall dann die Gültigkeitsdauer in Tagen an.
+* Wenn nicht, lassen Sie den Schalter "Gültigkeit" ausgeschaltet. Das Zertifikat gilt dann unbegrenzt.
+* Soll die Gültigkeit begrenzt sein, schalten Sie "Gültigkeit" ein. Geben Sie unter "Gültigkeitsdauer" an, wie viele Tage, Wochen, Monate oder Jahre das Zertifikat gilt.
 
-![Schalter "Gültigkeit" eingeschaltet mit einer Gültigkeitsdauer von 365 Tagen, Schalter "Rezertifizierung" ausgeschaltet](assets/certification_programs_settings_config_step3_v1_de.png){ class="shadow lightbox" title="Konfiguration im Tab Einstellungen eines Zertifikatsprogramms" }
+![Konfiguration eines Zertifikatsprogramms: "Gültigkeit" eingeschaltet, die Gültigkeitsdauer von 365 Tagen legt fest, wie lange ein Zertifikat gilt](assets/certification_programs_settings_config_step3_v2_de.png){ class="shadow lightbox" title="Konfiguration im Tab Einstellungen eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -94,11 +93,20 @@ Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer ha
 
 
 ### Schritt 4: Rezertifizierung? {: #step4}
-Erst durch die Angabe einer Gültigkeitsdauer wird die Option zur Rezertifizierung auswählbar.
 
-Wird die Rezertifizierung gewünscht, geben Sie ein Zeitfenster für die Rezertifizierung an. So wird festgelegt, wie lange die Teilnehmer:innen Zeit haben, ihr Zertifikat zu erneuern nachdem es abgelaufen ist.
+Soll ein abgelaufenes Zertifikat erneuert werden können, richten Sie im selben Bereich die Rezertifizierung ein:<br>
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab "Einstellungen" > Konfiguration`
 
-![Schalter "Rezertifizierung" eingeschaltet mit einem Zeitfenster für die Rezertifizierung von 30 Tagen](assets/certification_programs_settings_config_step4_v1_de.png){ class="shadow lightbox" title="Abschnitt Rezertifizierung in der Konfiguration eines Zertifikatsprogramms" }
+Den Schalter "Rezertifizierung" schalten Sie erst ein, wenn "Gültigkeit" eingeschaltet ist. Geben Sie danach unter "Zeitfenster für Rezertifizierung" an, wie lange die Teilnehmer:innen Zeit haben, ihr Zertifikat zu erneuern, nachdem es abgelaufen ist.
+
+Wählen Sie unter "Modus", ob die Rezertifizierung automatisch ausgelöst wird ("Automatisch") oder manuell ausgelöst werden muss ("Manuell"). Voreingestellt ist "Manuell".
+
+* **Automatisch**: OpenOlat erneuert das Zertifikat selbst, sobald es abgelaufen ist.
+* **Manuell**: Besitzer:innen erneuern das Zertifikat im Tab "Mitglieder", oder die Person schliesst eine verknüpfte Durchführung erneut erfolgreich ab.
+
+Weitere Einzelheiten zu beiden Modi beschreibt die Seite [Course Planner: Zertifikatsprogramme](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_settings).
+
+![Rezertifizierung eingeschaltet: Zeitfenster für die Rezertifizierung von 30 Tagen und die Wahl des Modus "Automatisch" oder "Manuell"](assets/certification_programs_settings_config_step4_v2_de.png){ class="shadow lightbox" title="Abschnitt Rezertifizierung in der Konfiguration eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -107,14 +115,14 @@ Wird die Rezertifizierung gewünscht, geben Sie ein Zeitfenster für die Rezerti
 
 ### Schritt 5: Kreditpunkte für die Rezertifizierung? {: #step5}
 
-Wenn die Rezertifizierung aktiviert wurde, kann mit einem weiteren Toggle-Button entschieden werden, ob Kreditpunkte für die Rezertifizierung erforderlich sind. Wird dies gewünscht, machen Sie anschliessend Angaben dazu,
+Ist die Rezertifizierung eingeschaltet, legen Sie mit dem Schalter "Kreditpunkte für Rezertifizierung erforderlich" fest, ob eine Rezertifizierung Kreditpunkte kostet. Im Modus "Automatisch" ist dieser Schalter immer eingeschaltet, denn die automatische Rezertifizierung braucht Kreditpunkte. Ist der Schalter eingeschaltet, geben Sie an,
 
-* ob die Rezertifizierung automatisch oder manuell ausgelöst werden soll.
-* welches Kreditpunktesystem verwendet werden soll.
-* wieviele Kreditpunkte benötigt werden, um ein Zertifikat zu erlangen.
-* ob eine vorzeitige Rezertifizierung durch die Teilnehmenden möglich ist. (Teilnehmer:innen können dann ihr Zertifikat vorzeitig erneuern, auch wenn das Zertifikat noch gültig ist.)
+* in welchem "Kreditpunktesystem" die Kreditpunkte gezählt werden.
+* wie viele Kreditpunkte eine Rezertifizierung kostet ("Benötigte Kreditpunkte").
 
-![Kreditpunkte für die Rezertifizierung eingeschaltet: automatischer Modus, 20 Skillpoints benötigt, vorzeitige Rezertifizierung möglich](assets/certification_programs_settings_config_step5_v1_de.png){ class="shadow lightbox" title="Kreditpunkte in der Konfiguration eines Zertifikatsprogramms" }
+Bei jeder Rezertifizierung zieht OpenOlat diese Kreditpunkte vom Kreditpunkteguthaben der Person ab, also von den Kreditpunkten, die sie in diesem Kreditpunktesystem gesammelt hat. Das Kreditpunktesystem selbst legt die System-Administration an, siehe [e-Assessment Administration: Kreditpunkte](../../manual_admin/administration/e-Assessment_Credit_Points.de.md).
+
+![Kreditpunkte für die Rezertifizierung eingeschaltet: Kreditpunktesystem "Skillpoints" mit 20 benötigten Kreditpunkten](assets/certification_programs_settings_config_step5_v2_de.png){ class="shadow lightbox" title="Kreditpunkte in der Konfiguration eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -123,10 +131,16 @@ Wenn die Rezertifizierung aktiviert wurde, kann mit einem weiteren Toggle-Button
 
 ### Schritt 6: Zertifikat auswählen {: #step6}
 
-Bestimmen Sie nun unter "Zertifikat", welches PDF-Zertifikat verschickt wird.
-Wählen Sie die passende Vorlage: eine systemweite Vorlage ("System") oder eine eigene Datei ("Eigenes"). Mit "Vorschau" prüfen Sie das Zertifikat mit Beispieldaten, bevor Sie das erste ausstellen. In den Feldern "Optionale Variable 1" bis "Optionale Variable 3" hinterlegen Sie bei Bedarf Angaben, die auf jedem Zertifikat dieses Zertifikatsprogramms gleich sind.
+Bestimmen Sie nun, welches PDF-Zertifikat OpenOlat ausstellt:<br>
+`Course Planner > Zertifikatsprogramme > "Programmtitel" > Tab "Einstellungen" > Zertifikat`
 
-![Zertifikatvorlage mit dem Button "Vorschau", darüber drei leere Felder für optionale Variablen](assets/certification_programs_settings_config_step6_v1_de.png){ class="shadow lightbox" title="Bereich Zertifikat im Tab Einstellungen eines Zertifikatsprogramms" }
+Wählen Sie unter "Zertifikatvorlage" die passende Vorlage: eine systemweite Vorlage ("System") oder eine eigene Datei ("Eigenes"), die Sie hochladen. Mit "Vorschau" prüfen Sie das Zertifikat mit Beispieldaten, bevor Sie das erste ausstellen. Eine eigene Vorlage ist eine HTML-Vorlage als ZIP-Datei mit der Datei "index.html" oder ein PDF-Formular; Aufbau und Variablen beschreibt die Seite [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md#certificate_template).
+
+Druckt Ihre Organisation Zertifikate auf vorgedrucktes Papier, schalten Sie "Mit Druckversion" ein. Unter "Druckvorlage" wählen Sie dann eine zweite Vorlage ohne die vorgedruckten Elemente, ebenfalls als "System" oder "Eigenes". Im Tab "Mitglieder" steht danach "Druckzertifikat exportieren" bereit. Die Teilnehmenden erhalten weiterhin nur das Zertifikat aus der Zertifikatvorlage.
+
+In den Feldern "Optionale Variable 1" bis "Optionale Variable 3" hinterlegen Sie bei Bedarf Angaben, die auf jedem Zertifikat dieses Zertifikatsprogramms gleich sind. Mit "Mit Seriennummer" erhält jedes ausgestellte Zertifikat automatisch eine Seriennummer.
+
+![Bereich Zertifikat: Zertifikatvorlage und Druckvorlage je als "System" oder "Eigenes" mit "Vorschau", darunter die optionalen Variablen und die Seriennummer](assets/certification_programs_settings_config_step6_v2_de.png){ class="shadow lightbox" title="Bereich Zertifikat im Tab Einstellungen eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -135,9 +149,9 @@ Wählen Sie die passende Vorlage: eine systemweite Vorlage ("System") oder eine 
 
 ### Schritt 7: Metadaten {: #step7}
 
-In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und mit "Administrative Freigabe" den administrativen Zugriff auf eine bestimmte Organisationseinheit eingrenzen.
+In den Metadaten geben Sie den Titel des Programms an und unter "Kennzeichen" eine eigene Kennung, nach der Sie in der Liste der Zertifikatsprogramme suchen können und die in den vorbereiteten Meldungen erscheint. Mit "Administrative Freigabe" bestimmen Sie die Organisationen, deren Administrator:innen und Kursplaner:innen das Programm verwalten dürfen.
 
-![Felder "Titel" und "Kennzeichen", darunter die Auswahlliste "Administrative Freigabe" mit der gewählten Organisation](assets/certification_programs_settings_config_step7_v1_de.png){ class="shadow lightbox" title="Bereich Metadaten im Tab Einstellungen eines Zertifikatsprogramms" }
+![Bereich Metadaten: "Titel" und "Kennzeichen" des Programms, darunter "Administrative Freigabe" mit der Organisation, die das Programm verwalten darf](assets/certification_programs_settings_config_step7_v2_de.png){ class="shadow lightbox" title="Bereich Metadaten im Tab Einstellungen eines Zertifikatsprogramms · 2026.11.18" }
 
 
 [Zum Seitenanfang ^](#create_certification_programs)
@@ -146,13 +160,13 @@ In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und mit
 
 ### Schritt 8: Durchführung hinzufügen {: #step8}
 
-Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren einer der hier aufgelisteten Durchführungen (ODER-Verknüpfung, es genügt eine der hier aufgelisteten Durchführungen).
+Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren einer der hier aufgelisteten Durchführungen (ODER-Verknüpfung, es genügt eine der hier aufgelisteten Durchführungen). OpenOlat misst den Erfolg am Kurs: Hat eine Person einen Kurs dieser Durchführung bestanden, gilt die Durchführung als erfolgreich absolviert.
 Fügen Sie also im Tab "Durchführungen" mit dem Button "Durchführung hinzufügen" rechts oben mindestens eine Durchführung hinzu.
 
 Falls Sie mehrere Durchführungen angeben möchten, beachten Sie:<br>
-Ob es sich um mehrere Durchführungen des genau gleichen Produkts oder Kurses handelt, spielt keine Rolle. Deshalb ist die Auswahl mit Bedacht zu treffen um eine Gleichwertigkeit zu gewährleisten.
+Ob es sich um mehrere Durchführungen des genau gleichen Produkts oder Kurses handelt, spielt für OpenOlat keine Rolle: Jede aufgelistete Durchführung führt zum selben Zertifikat. Wählen Sie die Durchführungen deshalb mit Bedacht, damit sie gleichwertig sind.
 
-![Markierter Tab "Durchführungen" und markierter Button "Durchführung hinzufügen", darunter die Liste mit einer hinzugefügten Durchführung](assets/certification_programs_settings_config_step8_v1_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Zertifikatsprogramms" }
+![Tab "Durchführungen" eines Zertifikatsprogramms: Mit "Durchführung hinzufügen" oben rechts nehmen Sie eine Durchführung in die Liste auf, deren Abschluss zum Zertifikat führt](assets/certification_programs_settings_config_step8_v2_de.png){ class="shadow lightbox" title="Tab Durchführungen eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -160,9 +174,11 @@ Ob es sich um mehrere Durchführungen des genau gleichen Produkts oder Kurses ha
 
 ### Schritt 9: Mitglieder und Besitzer:innen hinzufügen {: #step9}
 
-Sobald alle Bedingungen und Eigenschaften des Zertifikats geklärt sind, können Sie im Tab "Mitglieder" die Personen bestimmen, die es erwerben sollen.
+Sobald alle Bedingungen und Eigenschaften des Zertifikats geklärt sind, können Sie im Tab "Mitglieder" die Personen bestimmen, die es erwerben sollen. Teilnehmende einer verknüpften Durchführung erscheinen dort unter "Kandidat:innen", bis sie ihr erstes Zertifikat erhalten. Weitere Personen nehmen Sie mit "Neue Person zertifizieren" auf.
 
 Soll eine weitere Person dieses Zertifikatsprogramm bearbeiten können, ergänzen Sie diese Person im Tab "Besitzer:innen".
+
+Wer im Zertifikatsprogramm wann etwas geändert hat, zeigt später der Tab "Aktivitätslog", beschrieben auf der Seite [Course Planner: Zertifikatsprogramme](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md#config_tab_activitylog).
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -170,11 +186,11 @@ Soll eine weitere Person dieses Zertifikatsprogramm bearbeiten können, ergänze
 
 ### Schritt 10: Meldungen ergänzen {: #step10}
 
-Ist geklärt, wie das Zertifikatsprogramm aufgebaut ist, können nach Bedarf automatische Benachrichtigungen eingerichtet werden. (Der Bedarf zeigt sich meist erst, wenn der Ablauf des Zertifikatsprogramms klar ist.)<br> 
-Für das Erstellen der Meldungen steht der Tab "Meldungen" zur Verfügung. 
-Einige typische Meldungen sind vorbereitet und Sie können den Versand einfach aktivieren oder deaktivieren. Im unteren Teil können Sie mit "Erinnerung hinzufügen" eigene Erinnerungen einrichten.
+Ist geklärt, wie das Zertifikatsprogramm aufgebaut ist, richten Sie nach Bedarf automatische Benachrichtigungen ein. Der Bedarf zeigt sich meist erst, wenn der Ablauf des Zertifikatsprogramms klar ist. Dafür steht der Tab "Meldungen" zur Verfügung.
 
-![Fünf vorbereitete Benachrichtigungen mit je einem Schalter für den Versand, darunter der Button "Erinnerung hinzufügen" für eigene Erinnerungen](assets/certification_programs_settings_config_step10_v1_de.png){ class="shadow lightbox" title="Tab Meldungen eines Zertifikatsprogramms" }
+Oben fasst die "Konfigurationsübersicht" zusammen, was Sie in den Schritten 3 bis 5 eingestellt haben. Danach richten sich die vorbereiteten Meldungen unter "Benachrichtigungen": "Zertifikat erstellt", "Zertifikat widerrufen" und "Aus dem Programm entfernt" stehen immer bereit, "Zertifikat abgelaufen" mit einer Gültigkeit und "Zertifikat erneuert" mit einer Rezertifizierung. Den Versand jeder Meldung schalten Sie ein oder aus. Unter "Erinnerungen zur Rezertifizierung" richten Sie mit "Erinnerung hinzufügen" eigene Erinnerungen ein.
+
+![Tab "Meldungen": fünf vorbereitete Benachrichtigungen mit je einem Schalter für den Versand, darunter "Erinnerung hinzufügen" für eigene Erinnerungen](assets/certification_programs_settings_config_step10_v2_de.png){ class="shadow lightbox" title="Tab Meldungen eines Zertifikatsprogramms · 2026.11.18" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
@@ -195,7 +211,7 @@ Einige typische Meldungen sind vorbereitet und Sie können den Versand einfach a
 
 ## Anwendungsfall 2: Ausbildungsprogramme mit automatischer Rezertifizierung  {: #use_case_2}
 
-* In Ausbildungsinstitutionen sammeln Lernende über mehrere Module hinweg Punkte, die zu einem Abschlusszertifikat führen.
+* In Ausbildungsprogrammen sammeln Lernende über mehrere Module hinweg Punkte, die zu einem Abschlusszertifikat führen.
 * Nach Ablauf dieses Zertifikats kann es automatisch oder manuell verlängert werden, sobald neue Punkte hinzukommen.
 * Mit diesem System soll kontinuierliches Lernen angestossen werden.
 
@@ -208,7 +224,7 @@ Einige typische Meldungen sind vorbereitet und Sie können den Versand einfach a
 
 * Führungskräfte absolvieren verschiedene Lernmodule und sammeln dabei Skillpoints.
 * Erreichen sie den Schwellenwert, verlängert sich ihr Zertifikat automatisch.
-* Wenn gewünscht, kann die Verlängerung auch durch eine manuelle Freigabe erfolgen, damit die Kontrolle jederzeit bei der Institution bleibt.
+* Wenn gewünscht, verlängern Besitzer:innen des Zertifikatsprogramms das Zertifikat stattdessen von Hand (Modus "Manuell"), damit die Kontrolle jederzeit bei der Organisation bleibt.
 
 [Zum Seitenanfang ^](#create_certification_programs)
 

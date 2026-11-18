@@ -70,7 +70,7 @@ To move an existing organisation, click the three dots and "Move organisation". 
 
 Select an organisation in the tree structure, or click "Edit" under its three dots, to adjust or supplement its metadata and other assignments.
 
-![Empty Legal documents folder of a sub-organisation with the Upload files button](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" title="Legal documents tab of an organisation" }
+![Empty Legal documents folder of a sub-organisation with the Upload files button](assets/organisations_tab_structure_legal_documents_v1_en.png){ class="shadow lightbox" title="Legal documents tab of an organisation · 2026.11.18" }
 
 You find the "Legal documents" tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Legal documents"`<br>

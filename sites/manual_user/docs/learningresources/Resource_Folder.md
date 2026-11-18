@@ -15,11 +15,11 @@ In the course | `Course > Administration > Settings > Options`, one resource fol
 
 With a resource folder, you organize files centrally, for example content, information and graphics, and use them in several courses.
 
-You link the resource folder to the course in the course settings: under `Course > Administration > Settings > Options`, select the desired resource folder or create a new one. Only one resource folder can be linked per course.
+As a course owner, you link the resource folder to the course in the course settings: under `Course > Administration > Settings > Options`, click "Replace" and select the desired resource folder or create a new one. Its title then appears under "Selected resource folder", and with "Save" you apply the selection. Only one resource folder can be linked per course.
 
-There are two ways to embed it: read-only or without write protection.
+With the checkbox "Read only", you choose between two ways to embed it: read-only or without write protection.
 
-![Selected resource folder with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" title="Options tab in the course settings" }
+![Course settings, tab "Options": "Selected resource folder" with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.18" }
 
 - **Read only**: The files are only referenced. Within the course, they can neither be changed, deleted, nor added to. This way, all linked courses always use the same files in the same state.
 - **Without write protection**: Course owners change and delete files or add new ones. These changes apply directly in the resource folder and therefore in all linked courses, even if the persons involved are not owners of the resource folder.
@@ -30,9 +30,9 @@ Therefore, consider carefully whether write protection should be removed.
 
 If a resource folder is linked to the course, it appears under `Course > Administration > Files` as the folder "_sharedfolder" with all files of the resource folder.
 
-![Folder "_sharedfolder" among the storage locations, next to the storage folder and the other folders of the course](assets/sharedfolder_20.png){ class="shadow lightbox" title="Files page of a course" }
+![Files page of a course: under "Storage locations", the folder "_sharedfolder" next to the "Storage folder" holds the files of the linked resource folder](assets/resource_folder_sharedfolder_v1_en.png){ class="shadow lightbox" title="Files page of a course · 2026.11.18" }
 
-![File list in the "_sharedfolder" folder with the files of the resource folder](assets/sharedfolder_20_b.png){ class="shadow lightbox" title="Folder _sharedfolder on the Files page of a course" }
+![File list in the "_sharedfolder" folder: the files of the linked resource folder, ready for use in the course](assets/resource_folder_sharedfolder_files_v1_en.png){ class="shadow lightbox" title="Folder _sharedfolder on the Files page of a course · 2026.11.18" }
 
 By default, the files of the resource folder are read-only and cannot be changed.
 

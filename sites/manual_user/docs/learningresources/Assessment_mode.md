@@ -201,13 +201,13 @@ An exam from an event also appears in the assessment management of the course an
 
 ## Perform Exam
 
-Participants who have been assigned to an exam are informed about the start of the exam at the beginning of the exam or at the beginning of the lead time. If OpenOlat is still blocked at the end of the exam due to a follow-up time, they are also informed of this.
+Participants who have been assigned to an exam are informed about the start of the exam at the beginning of the exam or at the beginning of the prep time. If OpenOlat is still blocked at the end of the exam due to a follow-up time, they are also informed of this.
 
 ![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" title="Notification for participants" }
 
 If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". You open the assessment tool under: `Course > Administration > Assessment tool`. The button appears from the day on which the exam begins, not only at the configured time.
 
-![Menu Administration of the course with the entry Assessment tool and area Assessment mode with a scheduled exam and the button "Start exam" marked](assets/assessment_management_exam_coach_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Menu "Administration" of the course with the entry "Assessment tool", next to it the area "Assessment mode" with a scheduled exam and the button "Start exam"](assets/assessment_management_exam_coach_v2_en.png){ class="shadow lightbox" title="Overview of the assessment tool · 2026.11.18" }
 
 If the exam starts later than planned, the prep time remains as configured. The end of the exam is postponed by the same time, so the configured exam duration remains the same.
 
