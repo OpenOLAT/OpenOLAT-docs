@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 370" width="700" height="370" role="img" aria-label="Procedure option 3 in four steps: create questions in the question bank, create and edit test learning resource, import questions from the question bank, insert test learning resource into the test course element.">
+<rect x="0" y="0" width="700" height="370" fill="#FFFFFF"/>
+<rect x="74" y="1.00" width="547" height="51" fill="#FFFFFF" stroke="#808080" stroke-width="2"/>
+<text x="347.5" y="34.00" font-family="'Roboto', Arial, sans-serif" font-size="20" fill="#000000" text-anchor="middle">Create questions in the question bank</text>
+<path d="M344.0 59.00 H351.0 V74.00 H358.5 L347.5 103.25 L336.5 74.00 H344.0 Z" fill="#808080" stroke="#808080" stroke-width="1" stroke-linejoin="round"/>
+<rect x="74" y="106.25" width="547" height="51" fill="#FFFFFF" stroke="#808080" stroke-width="2"/>
+<text x="347.5" y="139.25" font-family="'Roboto', Arial, sans-serif" font-size="20" fill="#000000" text-anchor="middle">Create and edit test learning resource</text>
+<path d="M344.0 164.25 H351.0 V179.25 H358.5 L347.5 208.50 L336.5 179.25 H344.0 Z" fill="#808080" stroke="#808080" stroke-width="1" stroke-linejoin="round"/>
+<rect x="74" y="211.50" width="547" height="51" fill="#FFFFFF" stroke="#808080" stroke-width="2"/>
+<text x="347.5" y="244.50" font-family="'Roboto', Arial, sans-serif" font-size="20" fill="#000000" text-anchor="middle">Import questions from the question bank</text>
+<path d="M344.0 269.50 H351.0 V284.50 H358.5 L347.5 313.75 L336.5 284.50 H344.0 Z" fill="#808080" stroke="#808080" stroke-width="1" stroke-linejoin="round"/>
+<rect x="74" y="316.75" width="547" height="51" fill="#FFFFFF" stroke="#808080" stroke-width="2"/>
+<text x="347.5" y="349.75" font-family="'Roboto', Arial, sans-serif" font-size="20" fill="#000000" text-anchor="middle">Insert test learning resource into the test course element</text>
+</svg>

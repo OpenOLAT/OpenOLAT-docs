@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2246 1568" width="2246" height="1568" role="img" aria-label="Four nested levels, each with its own configuration: the course contains the course element Test, which contains the learning resource Test, which contains the questions.">
+<rect x="0" y="0" width="2246" height="1568" fill="#FFFFFF"/>
+<rect x="1.25" y="1.25" width="2242.7" height="1565.5" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<rect x="176" y="172" width="1997.9" height="1320" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<rect x="352" y="320" width="1751.9" height="1097" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="42" y="102" font-family="'Roboto', Arial, sans-serif" font-size="86" font-weight="700" fill="#000000">Course</text>
+<path d="M397.0 58 H453.0 V38 L508.0 75 L453.0 112 V92 H397.0 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="531.0" y="98" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<text x="204" y="268" font-family="'Roboto', Arial, sans-serif" font-size="86" font-weight="700" fill="#000000">Course element “Test”</text>
+<path d="M1196.90625 223 H1252.90625 V203 L1307.90625 240 L1252.90625 277 V257 H1196.90625 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="1330.9" y="264" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<text x="384" y="423" font-family="'Roboto', Arial, sans-serif" font-size="86" font-weight="700" fill="#000000">Learning resource “Test”</text>
+<path d="M1482.90625 375 H1538.90625 V355 L1593.90625 392 L1538.90625 429 V409 H1482.90625 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="1616.9" y="419" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<rect x="501" y="528" width="440" height="142" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="721.0" y="632" font-family="'Roboto', Arial, sans-serif" font-size="87" font-weight="700" fill="#000000" text-anchor="middle">Question</text>
+<path d="M951 586 H1007 V566 L1062 603 L1007 640 V620 H951 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="1085.0" y="628" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<rect x="501" y="700" width="440" height="142" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="721.0" y="803" font-family="'Roboto', Arial, sans-serif" font-size="87" font-weight="700" fill="#000000" text-anchor="middle">Question</text>
+<path d="M951 757 H1007 V737 L1062 774 L1007 811 V791 H951 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="1085.0" y="799" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<rect x="501" y="872" width="440" height="142" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="721.0" y="982" font-family="'Roboto', Arial, sans-serif" font-size="87" font-weight="700" fill="#000000" text-anchor="middle">Question</text>
+<path d="M951 936 H1007 V916 L1062 953 L1007 990 V970 H951 Z" fill="#209D9E" stroke="#209D9E" stroke-width="5" stroke-linejoin="round"/>
+<text x="1085.0" y="978" font-family="'Roboto', Arial, sans-serif" font-size="67" font-weight="700" fill="#009F9E">Configuration</text>
+<text x="560" y="1175" font-family="'Roboto', Arial, sans-serif" font-size="86" font-weight="700" fill="#000000">...</text>
+</svg>

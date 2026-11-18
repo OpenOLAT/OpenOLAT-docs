@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" width="1400" height="820" role="img" aria-label="Ein Kurs mit drei Kursbausteinen der Typen HTML-Seite, Video und Test. In den Kursbaustein Test ist die Lernressource Test eingefügt. Deren Fragen gehen in den Fragenpool und kommen aus dem Fragenpool zurück.">
+<rect x="0" y="0" width="1400" height="820" fill="#FFFFFF"/>
+<rect x="20" y="20" width="480" height="780" fill="none" stroke="#209D9E" stroke-width="3" stroke-dasharray="14 9"/>
+<text x="44" y="78" font-family="'Roboto', Arial, sans-serif" font-size="46" font-weight="700" fill="#209D9E" text-anchor="start">Kurs</text>
+<rect x="50" y="110" width="420" height="205" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="72" y="162" font-family="'Roboto', Arial, sans-serif" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Kursbaustein</text>
+<text x="72" y="206" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Typ: HTML-Seite</text>
+<text x="72" y="246" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Titel: …</text>
+<rect x="50" y="335" width="420" height="205" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="72" y="387" font-family="'Roboto', Arial, sans-serif" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Kursbaustein</text>
+<text x="72" y="431" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Typ: Video</text>
+<text x="72" y="471" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Titel: …</text>
+<rect x="50" y="560" width="420" height="205" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="72" y="612" font-family="'Roboto', Arial, sans-serif" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Kursbaustein</text>
+<text x="72" y="656" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Typ: Test</text>
+<text x="72" y="696" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Titel: …</text>
+<rect x="60" y="566" width="310" height="142" rx="20" fill="none" stroke="#8F1F40" stroke-width="3.5"/>
+<rect x="590" y="400" width="370" height="400" fill="#FFFFFF" stroke="#808080" stroke-width="2.5"/>
+<text x="612" y="452" font-family="'Roboto', Arial, sans-serif" font-size="38" font-weight="700" fill="#000000" text-anchor="start">Lernressource</text>
+<text x="612" y="496" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Typ: Test</text>
+<text x="612" y="536" font-family="'Roboto', Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" text-anchor="start">Titel: …</text>
+<rect x="600" y="410" width="340" height="146" rx="20" fill="none" stroke="#8F1F40" stroke-width="3.5"/>
+<rect x="686" y="652" width="230" height="120" rx="10" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<rect x="674" y="638" width="230" height="120" rx="10" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<rect x="662" y="624" width="230" height="120" rx="10" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<rect x="650" y="610" width="230" height="120" rx="10" fill="#FFFFFF" stroke="#222222" stroke-width="5"/>
+<text x="765.0" y="681.9" font-family="'Roboto', Arial, sans-serif" font-size="34" font-weight="700" fill="#000000" text-anchor="middle">Frage</text>
+<polygon points="585.0,685.0 512.0,685.0 512.0,668.0 478.0,690.0 512.0,712.0 512.0,695.0 585.0,695.0" fill="#808080" stroke="#808080" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1080" y="20" width="300" height="780" fill="none" stroke="#8F1F40" stroke-width="3" stroke-dasharray="14 9"/>
+<text x="1100" y="76" font-family="'Roboto', Arial, sans-serif" font-size="38" font-weight="700" fill="#8F1F40" text-anchor="start">Fragenpool</text>
+<rect x="1105" y="362" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="344" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="326" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="308" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="290" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="272" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="254" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="236" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="218" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="200" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="632" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="614" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="596" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="578" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="560" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="542" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="524" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="506" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="488" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1105" y="470" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="362" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="344" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="326" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="308" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="290" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="272" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="254" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="236" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="218" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="200" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="632" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="614" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="596" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="578" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="560" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="542" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="524" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="506" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="488" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<rect x="1245" y="470" width="100" height="60" rx="10" fill="#FFFFFF" stroke="#666666" stroke-width="6"/>
+<polygon points="897.6,629.3 1043.4,541.8 1052.2,556.4 1070.0,520.0 1029.5,518.6 1038.3,533.2 892.4,620.7" fill="#808080" stroke="#808080" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1067.4,580.7 991.6,626.2 982.8,611.6 965.0,648.0 1005.5,649.4 996.7,634.8 1072.6,589.3" fill="#808080" stroke="#808080" stroke-width="2" stroke-linejoin="round"/>
+</svg>

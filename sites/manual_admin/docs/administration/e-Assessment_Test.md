@@ -2,49 +2,51 @@
 
 The test settings are located in the System Administration under `Administration > e-Assessment > Test`, spread across four tabs.
 
-## Tab QTI {: #tab_QTI}
+## Tab QTI [:octicons-tag-16:{ title="from Release 11.3 (OO-2535)" }](https://track.frentix.com/issue/OO-2535) {: #tab_QTI}
 
-On this tab, a digitally signed test receipt of the test results can be enabled. The signature requires a certificate in .pfx format with a private key and the corresponding password. The test receipt confirms to participants that they completed the test at the stated time.
+The test receipt confirms to participants that they completed the test at the stated time. On this tab, you enable the digitally signed test receipt with "Receipt of test results". For the signature, upload a certificate in .pfx format with a private key under "Certificate" and enter the corresponding password in the field "Certificate password".
 
-Under Extensions, the QtiWorks Math extension can be enabled. It requires a Maxima installation on the server.
+With "Validate test receipt" you upload the XML file of a test receipt, and OpenOlat checks whether the test receipt is valid.
 
-![Checkbox Test receipt of the test results with certificate upload and Certificat password, below it checkbox QtiWorks Math extension](assets/e-assessment_test_tab_QTI_v1_de.png){ class="shadow lightbox" title="QTI tab on the Test page" }
+![e-Assessment, Test and tab QTI light, framed Receipt of test results, Certificate and Certificate password: here you enable the signed test receipt](assets/e-assessment_test_tab_QTI_v2_en.png){ class="shadow lightbox" title="QTI tab on the Test page · 2026.11.18" }
+
+[To the top of the page ^](#test)
 
 ---
 
 ## Tab Correction  {: #tab_correction}
 
-System administrators can choose whether to enable the grading tool for anonymous grading.
+System administrators use "Anonymous" under "Correction tool" to specify whether the correction tool is set up for anonymous corrections.
 
-In addition, you can generally specify whether a grade will be released and made visible to participants after a manual correction.
+Under "Release assessment" they also specify whether an assessment is released after the manual correction and participants can view it: "Not released" or "Released". This setting is the default for the course element Test; in the course element, it can be changed for the individual test under "Release assessment".
 
-![Checkbox Correction tool Anonymous enabled and option Not released selected](assets/e-assessment_test_tab_correction_v1_de.png){ class="shadow lightbox" title="Correction tab on the Test page" }
-
-[To the top of the page ^](#test)
-
----
-
-## Correction workflow tab {: #tab_correction-workflow}
-
-Grading can also be performed by coaches from outside the course. (Although they are registered in OpenOlat, they are not members of the course.) The grading workflow is available to them if it is enabled here.
-
-With the correction workflow you create personal grading assignments and assign them to defined correctors. If the correction of a test is set to "Manual by correctors", coaches no longer correct it via the assessment tool in the course.
-
-Emails are needed to coordinate corrections made by several different correctors. Pre-written email templates can be created in different languages for the various people involved.
-
-The minutes used for correction can be made available to various roles.
-
-![Correction workflow enabled, visibility of the actual correction minutes for four roles, list of mail templates with a translate link](assets/e-assessment_test_tab_correction_workflow_v1_de.png){ class="shadow lightbox" title="Correction workflow tab on the Test page" }
+![Tab Correction light, framed Correction tool with Anonymous and Release assessment with Not released and Released: here you set anonymous grading and the release of the assessment](assets/e-assessment_test_tab_correction_v2_en.png){ class="shadow lightbox" title="Correction tab on the Test page · 2026.11.18" }
 
 [To the top of the page ^](#test)
 
 ---
 
-## Tab "Tests export" {: #tab_tests_export}
+## Tab Correction workflow {: #tab_correction-workflow}
 
-If OpenOlat exams are printed as handwritten exams, an additional page can be attached, which is defined here.
+Tests can also be corrected by correctors who are not members of the course. They are registered in OpenOlat, but do not belong to the course. The correction workflow is available to them as soon as you tick "Enable correction workflow" here.
 
-![Field Additional sheet with Edit button to define the additional text](assets/e-assessment_test_tab_tests_export_v1_de.png){ class="shadow lightbox" title="Tab Tests export on the page Test" }
+With the correction workflow you create personal grading assignments and assign them to defined correctors. If the correction of a test is set to "Manual by correctors", coaches no longer correct it via the assessment tool in the course. How you set up the correction workflow for a test is described in [Test: Correction workflow](../../manual_user/learningresources/Test_correction_workflow.md).
+
+Emails are needed to coordinate corrections made by several different correctors. Under "E-mail templates" you pre-write the e-mails to the various people involved, with "Translate" also in other languages.
+
+Under "Visibility of correction's real minutes" you specify which roles see the correction time actually spent: administrator, learning resource manager, author and corrector.
+
+![Tab Correction workflow light, framed Enable correction workflow, Visibility of correction's real minutes and the E-mail templates: here you enable the workflow and adapt the e-mails](assets/e-assessment_test_tab_correction_workflow_v2_en.png){ class="shadow lightbox" title="Correction workflow tab on the Test page · 2026.11.18" }
+
+[To the top of the page ^](#test)
+
+---
+
+## Tab Tests export [:octicons-tag-16:{ title="from Release 16.1 (OO-5648)" }](https://track.frentix.com/issue/OO-5648) {: #tab_tests_export}
+
+If OpenOlat exams are printed as handwritten exams, an additional page can be attached. You define the text of this page here under "Additional sheet" with "Edit". How authors export a test as a handwritten exam is described in [Test: Export handwritten exams](../../manual_user/learningresources/Test_handwritten_exams.md).
+
+![Tab Tests export light, framed Additional sheet with Edit: here you define the text of the attached page](assets/e-assessment_test_tab_tests_export_v2_en.png){ class="shadow lightbox" title="Tab Tests export on the page Test · 2026.11.18" }
 
 [To the top of the page ^](#test)
 
@@ -52,10 +54,10 @@ If OpenOlat exams are printed as handwritten exams, an additional page can be at
 
 ## Further information {: #further_information}
 
+[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
+[Test: Export handwritten exams >](../../manual_user/learningresources/Test_handwritten_exams.md)<br>
 [Assessment tool - overview >](../../manual_user/learningresources/Assessment_tool_overview/index.md)<br>
 [Coaching - Overview >](../../manual_user/area_modules/Coaching/index.md)<br>
-[Test: Settings >](../../manual_user/learningresources/Test_settings.md)<br>
-[Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
-[Test: Export handwritten exams >](../../manual_user/learningresources/Test_handwritten_exams.md)
+[Test: Settings >](../../manual_user/learningresources/Test_settings.md)
 
 [To the top of the page ^](#test)

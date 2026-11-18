@@ -10,7 +10,7 @@ Haben die Kursbesitzer:innen ein Glossar in den Kurs eingebunden und als Werkzeu
 
 Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eigenen Fenster. Mit "Glossarbegriffe in Lerninhalt einblenden" zeigt OpenOlat die Erklärung eines Begriffs im Lerninhalt, sobald Sie mit der Maus auf den Begriff zeigen.
 
-![Menü Glossar markiert, geöffnet mit den Einträgen Glossar in separatem Fenster öffnen und Glossarbegriffe in Lerninhalt einblenden](assets/glossary_toolbar_dropdown_v1_de.png){ class="shadow lightbox" title="Kurstoolbar mit geöffnetem Menü Glossar" }
+![Menü Glossar in der Kurstoolbar hell, geöffnet mit den Einträgen Glossar in separatem Fenster öffnen und Glossarbegriffe in Lerninhalt einblenden markiert: zwei Wege, das Glossar im Kurs zu nutzen](assets/glossary_toolbar_dropdown_v2_de.png){ class="shadow lightbox" title="Kurstoolbar mit geöffnetem Menü Glossar · 2026.11.18" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -21,7 +21,7 @@ Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eige
 
 Steht ein Begriff aus dem Glossar im Lerninhalt des Kurses, etwa auf einer HTML-Seite oder im Wiki, unterstreicht OpenOlat ihn mit einer feinen Punktlinie. Zeigen Sie mit der Maus auf den Begriff, erscheint seine Erklärung aus dem Glossar.
 
-![Glossarbegriffe Wiki und WebDAV gepunktet unterstrichen, beim Begriff WebDAV ist die Erklärung aus dem Glossar eingeblendet](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="HTML-Seite in einem Kurs" }
+![Glossarbegriffe WebDAV und Wiki gepunktet unterstrichen, bei WebDAV die Erklärung aus dem Glossar: Teilnehmende lesen einen Fachbegriff nach, ohne die Seite zu verlassen](assets/glossary_usage_html_v2_de.png){ class="shadow lightbox" title="Kursbaustein Seite in einem Kurs · 2026.11.18" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -56,9 +56,9 @@ Die Systemadministrator:innen schalten den Gastlogin für die OpenOlat-Instanz e
 
 ### Ausdruck des Glossars {: #print}
 
-Für eine Fassung auf Papier drucken Sie das Glossar aus. Öffnen Sie es dazu in der Kurstoolbar im Menü "Glossar" mit "Glossar in separatem Fenster öffnen". Im neuen Fenster klicken Sie oben rechts auf die Schaltfläche zum Drucken.
+Für eine Fassung auf Papier drucken Sie das Glossar aus. Öffnen Sie es dazu in der Kurstoolbar im Menü "Glossar" mit "Glossar in separatem Fenster öffnen". Im neuen Fenster klicken Sie oben rechts auf "Drucken".
 
-![Glossar im eigenen Fenster mit allen Begriffen, oben rechts die Schaltfläche zum Drucken markiert](assets/glossary_print_v1_de.png){ class="shadow lightbox" title="Glossar in separatem Fenster" }
+![Glossar im eigenen Fenster mit allen Begriffen, oben rechts Drucken hell: das ganze Glossar auf Papier](assets/glossary_print_v2_de.png){ class="shadow lightbox" title="Glossar in separatem Fenster · 2026.11.18" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 

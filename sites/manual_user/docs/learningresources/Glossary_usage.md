@@ -4,13 +4,13 @@ A glossary explains the technical terms of a course. Participants look up a term
 
 ## Where can a glossary be called up? {: #glossary_call}
 
-### Course tool {: #glossary_call_in_toolbar}
+### Call in the toolbar {: #glossary_call_in_toolbar}
 
 If the course owners have integrated a glossary into the course and switched it on as a tool, the menu "Glossary" appears in the course toolbar, see [Integrate glossary](Glossary_create.md#integrate).
 
 With "Open glossary in new window" you read all terms in a separate window. With "Show glossary terms in learning content" OpenOlat shows the explanation of a term in the learning content as soon as you point at the term with the mouse.
 
-![Menu Glossary marked, opened with the entries Open glossary in new window and Show glossary terms in learning content](assets/glossary_toolbar_dropdown_v1_en.png){ class="shadow lightbox" title="Course toolbar with the Glossary menu opened · 2026.11.09" }
+![Menu Glossary in the course toolbar light, opened with the entries Open glossary in new window and Show glossary terms in learning content marked: two ways to use the glossary in the course](assets/glossary_toolbar_dropdown_v2_en.png){ class="shadow lightbox" title="Course toolbar with the Glossary menu opened · 2026.11.18" }
 
 [To the top of the page ^](#glossary_usage)
 
@@ -21,7 +21,7 @@ With "Open glossary in new window" you read all terms in a separate window. With
 
 If a term from the glossary appears in the learning content of the course, for example on an HTML page or in the wiki, OpenOlat underlines it with a fine dotted line. If you point at the term with the mouse, its explanation from the glossary appears.
 
-![Glossary terms Wiki and WebDAV underlined with dots, for the term WebDAV the explanation from the glossary is shown](assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="HTML page in a course" }
+![Glossary terms WebDAV and Wiki underlined with dots, for WebDAV the explanation from the glossary: participants look up a technical term without leaving the page](assets/glossary_usage_html_v2_en.png){ class="shadow lightbox" title="Course element Page in a course · 2026.11.18" }
 
 [To the top of the page ^](#glossary_usage)
 
@@ -43,7 +43,6 @@ With "Copy to clipboard" you take the link into an e-mail or onto a web page. Wi
 ---
 
 
-
 ### Call by guests {: #glossary_call_by_guests}
 
 A glossary is also open to persons without an OpenOlat account if you share it for guests. Guests are anonymous users who do not appear in the [user management](../../manual_admin/usermanagement/index.md).
@@ -57,9 +56,9 @@ The system administrators switch on the guest login for the OpenOlat instance an
 
 ### Printout of the glossary {: #print}
 
-For a version on paper, you print the glossary. To do so, open it in the course toolbar in the menu "Glossary" with "Open glossary in new window". In the new window, click the print button at the top right.
+For a version on paper, you print the glossary. To do so, open it in the course toolbar in the menu "Glossary" with "Open glossary in new window". In the new window, click "Print" at the top right.
 
-![Glossary in its own window with all terms, the print button at the top right marked](assets/glossary_print_v1_de.png){ class="shadow lightbox" title="Glossary in a separate window" }
+![Glossary in its own window with all terms, Print at the top right light: the whole glossary on paper](assets/glossary_print_v2_en.png){ class="shadow lightbox" title="Glossary in a separate window · 2026.11.18" }
 
 [To the top of the page ^](#glossary_usage)
 

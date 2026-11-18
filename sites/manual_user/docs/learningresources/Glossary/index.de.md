@@ -21,7 +21,7 @@ In einen Kurs bringen Sie ein Glossar in zwei Schritten: Wählen Sie es unter `K
 
 In der Toolbar erscheint dann das Menü "Glossar". Wählen Sie darin "Glossarbegriffe in Lerninhalt einblenden", markiert OpenOlat die Glossarbegriffe im Lerninhalt des Kurses, zum Beispiel in HTML-Seiten. Bewegen Sie den Mauszeiger über einen markierten Begriff, zeigt OpenOlat seine Definition aus dem Glossar.
 
-![HTML-Seite eines Kurses mit gepunktet unterstrichenen Glossarbegriffen, die Definition von "WebDAV" erscheint beim Zeigen mit der Maus](../assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="Glossarbegriff in einer HTML-Seite des Kurses" }
+![Lerninhalt eines Kurses mit gepunktet unterstrichenen Glossarbegriffen, die Definition von "WebDAV" erscheint beim Zeigen mit der Maus](../assets/glossary_usage_html_v2_de.png){ class="shadow lightbox" title="Glossarbegriff im Kursbaustein Seite · 2026.11.18" }
 
 Glossare lassen sich so konfigurieren, dass auch Teilnehmende Begriffe ergänzen, siehe [Glossar: Administration](../Glossary_administration.de.md#tab_write_permissions).
 

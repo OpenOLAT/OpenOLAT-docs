@@ -21,7 +21,7 @@ You bring a glossary into a course in two steps: select it under `Course > Admin
 
 The "Glossary" menu then appears in the toolbar. If you select "Show glossary terms in learning content" there, OpenOlat marks the glossary terms in the learning content of the course, for example in HTML pages. If you move the mouse pointer over a marked term, OpenOlat shows its definition from the glossary.
 
-![HTML page of a course with glossary terms underlined with dots, the definition of "WebDAV" appears when pointing at it with the mouse](../assets/glossary_usage_html_v1_de.png){ class="shadow lightbox" title="Glossary term on an HTML page of the course" }
+![Learning content of a course with glossary terms underlined with dots, the definition of "WebDAV" appears when pointing at it with the mouse](../assets/glossary_usage_html_v2_en.png){ class="shadow lightbox" title="Glossary term in the course element Page · 2026.11.18" }
 
 Glossaries can be configured so that participants can also add terms, see [Glossary: Administration](../Glossary_administration.md#tab_write_permissions).
 
