@@ -18,17 +18,17 @@ To create courses, you need the [role](../../basic_concepts/Roles/index.md) "Aut
 
 ### 1. Create course {: #stage1}
 
-Everything starts with the learning resource Course. You create it in the authoring area via `Authoring > Create > Course` and choose the course design. "With learning path" guides the participants through the course in a fixed sequence, "With learning progress" shows their progress without a fixed sequence. Both result in a [learning path course](../Learning_path_course/index.md). "Classic" results in a conventional course.
+Everything starts with the learning resource Course. You create it in the authoring area via `Authoring > Create > Course` and choose the course design. "With learning path" guides the participants through the course in a fixed sequence, "With learning progress" shows their progress without a fixed sequence. Both result in a [learning path course](../Learning_path_course/index.md). "Classic" results in a conventional course. If you or your organisation have prepared templates, choose "Course from template" in the same menu instead. A template is a prepared course with the usage "Template". OpenOlat creates your course as a copy of it, and the template itself remains unchanged. [:octicons-tag-16:{ title="from Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897)
 
-![Entry Course as the first entry in the opened Create menu](../assets/create_course_16_DE.png){ class="shadow lightbox" title="Create menu in the authoring area" }
+![Entry Course as the first entry in the opened Create menu](../assets/create_course_v1_en.png){ class="shadow lightbox" title="Create menu in the authoring area · 2026.11.18" }
 
-For more information, see the pages [Creating Courses](../Creating_Course.md), [My first course](../../../manual_how-to/my_first_course/my_first_course.md) and [Creating learning path courses](../Creating_learning_path_courses.md).
+For more information, see the pages [Creating Courses](../Creating_Course.md), [My first course](../../../manual_how-to/my_first_course/my_first_course.md), [Creating learning path courses](../Creating_learning_path_courses.md) and [Various types of learning resources](../index.md#course).
 
 ### 2. Set up, design, publish course {: #stage2}
 
 You implement your course in the course editor: you select the suitable course elements, create learning resources if necessary and configure everything as desired. You open the course editor via `Course > Administration > Course editor`. With "Publish" in the toolbar of the course editor, you transfer your changes to the course. Participants see them as soon as the course has the status "Published" (step 4).
 
-![Entry Course editor below Settings and Members management](../assets/course_editor.png){ class="shadow lightbox" title="Administration menu in the course toolbar" }
+![Entry Course editor below Settings and Members management, followed by Files](../assets/course_editor_open_v1_en.png){ class="shadow lightbox" title="Administration menu in the course toolbar · 2026.11.18" }
 
 For more information, see the pages [Course elements at a glance](../Course_Elements/index.md), [Course editor tools](../Using_additional_Course_Editor_Tools.md), [Learning path course - Course editor](../Learning_path_course_Course_editor.md), [Various types of learning resources](../index.md), [Course elements in the Course editor](../General_Configuration_of_Course_Elements.md) and [Course Settings](../Course_Settings/index.md).
 
@@ -42,9 +42,9 @@ In learning path courses, you release individual course elements for a limited t
 
 For more information, see the pages [Access configuration](../Access_configuration.md) and [Course Settings](../Course_Settings/index.md).
 
-### 4. Publish course {: #stage4}
+### 4. Publish course [:octicons-tag-16:{ title="from Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #stage4}
 
-When the course is ready, set the status to "Published" in the course toolbar. All members then open the course, including the participants. You define who becomes a member in the "Share" tab (step 3) and in the [members management](../Members_management.md).
+When the course is ready, set the status to "Published" in the course toolbar. All members then open the course, including the participants. A newly created course has the status "Preparation". In this status and in the status "Review", only the owners among the members have access, for example you as the person who created the course. In the status "Access for coach", the coaches have access as well. You define who becomes a member in the "Share" tab (step 3) and in the [members management](../Members_management.md).
 
 ![Values Preparation, Review, Access for coach and Finished, current status Published](../assets/course_state.png){ class="shadow lightbox" title="Status menu in the course toolbar" }
 
@@ -52,19 +52,21 @@ For more information, see the page [Access configuration](../Access_configuratio
 
 ### 5. Run and assess the course {: #stage5}
 
-While the course is running, you assess the participants in the assessment tool and give them feedback: `Course > Administration > Assessment tool`. In addition, you coach the course, for example with posts in the forum or by organising the absences.
+While the course is running, you assess the participants in the assessment tool and give them feedback: `Course > Administration > Assessment tool`. In addition, you coach the course, for example with posts in the forum. You manage the events and absences of the participants in the same menu under "Events and Absences". The menu shows this entry as soon as you have switched on the "Event & absence management" in the course:<br>
+`Course > Administration > Settings > Tab "Execution"`
 
-![Entry Assessment tool below Course editor and Storage folder](../assets/course_assessment_tool.png){ class="shadow lightbox" title="Administration menu in the course toolbar" }
+![Entry Assessment tool below Course editor and Files, further down Events and Absences](../assets/course_assessment_tool_v1_en.png){ class="shadow lightbox" title="Administration menu in the course toolbar · 2026.11.18" }
 
-For more information, see the page [Course Operation](../Administration/index.md).
+For more information, see the pages [Course Operation](../Administration/index.md) and [Events and absences](../Events_and_absences.md).
 
 ### 6. End course {: #stage6}
 
-Once the course is over, set the status to "Finished". After that, all members open the course read-only, and changes are no longer possible.
+Once the course is over, set the status to "Finished". After that, owners and coaches open the course read-only, and changes are no longer possible. What the participants see depends on the setting "Access for participants in status "Finished"": with "Read-only", they also open the course read-only; with "No access", they no longer open it. The system administration defines the default for this. For your course, you change the setting under:<br>
+`Course > Administration > Settings > Tab "Options"` [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
 ![Status Finished as a brown badge](../assets/course_finish.png){ class="shadow lightbox" title="Status in the course toolbar" }
 
-For more information, see the page [Access configuration](../Access_configuration.md).
+For more information, see the pages [Access configuration](../Access_configuration.md) and [Course Settings - Tab Options](../Course_Settings_Options.md).
 
 ### 7. Delete course {: #stage7}
 
@@ -90,9 +92,9 @@ For more information, see the pages [Access configuration](../Access_configurati
 
 ## Role change {: #role_change}
 
-With the role change, you check yourself how participants experience your course: you see the course from their point of view, for example the flow of the course elements "Task", "Group task", "Check list" or "Participant folder". The toolbar shows in the "Role" menu in which role you are currently viewing the course. If you created the course, this is the "Owner" role. Via the "Role" menu you switch to the "Participant view" at any time.
+With the role change, you check for yourself how participants experience your course: you see the course from their point of view, for example the flow of the course elements "Task", "Group task", "Check list" or "Participant folder". The "Role" menu in the toolbar shows the role in which you are currently viewing the course. If you created the course, this is the "Owner" role. In the same menu, you switch under "Switch to" to the "Participant view", as long as you are not a participant in the course yourself. In this view, you are not entered as participant. With the button "Leave participant view" below the toolbar, you return to your previous role.
 
-![Role Owner, opened with the entry Participant view below Switch to](../assets/Besitzer_TN.jpg){ class="shadow lightbox" title="Role menu in the course toolbar" }
+![Role Owner, opened with the entry Participant view below Switch to](../assets/course_role_switch_v1_en.png){ class="shadow lightbox" title="Role menu in the course toolbar · 2026.11.18" }
 
 If you have other roles in the course, they are also in the menu, and you switch to the corresponding view.
 
@@ -110,20 +112,16 @@ Member roles always take precedence over administrative roles. Among the member 
     <summary>Special case: Behaviour when enrolling in a group (course element "Enrolment")</summary>
 
     <b>Situation:</b> <br>
-    - You create a course with the course element "Enrolment".<br>
-    - You switch to the participant view and make an enrolment.<br>
-    <b>-></b> OpenOlat then switches to the "Owner" role.<br>
-    - If you switch to the participant view again, the warning dialogue ("You are in the participant role") with the option to delete data no longer appears.<br>
-    - Only when you call up the course again does OpenOlat show the participant view with the warning dialogue again.
+    - Your course contains the course element "Enrolment". As owner, you switch to the participant view via the "Role" menu. Below the toolbar, the note "You are in the participant view. Activities in the course elements are saved." then appears with the button "Leave participant view".<br>
+    - You enrol in a group in the course element "Enrolment".<br>
+    <b>-></b> OpenOlat immediately switches to the "Owner" role, and the note disappears (explanation below). The "Role" menu now shows the role "Participant" instead of the participant view. If you switch to this role, no note appears, because you are now actually a participant of the course.<br>
+    - If you call up the course again, nothing changes: OpenOlat opens it in the "Owner" role, and the participant view is missing from the "Role" menu.<br>
+    - The participant view is only available again when you are no longer a member of the group and call up the course again. You leave the group in the course element "Enrolment" with "Delist", provided that the checkbox "Delisting permitted" is selected in the configuration of the course element. Otherwise, you remove your membership in the group in the members management of the course: <code>Course > Administration > Members management</code>
     <br><br>
     <b>Explanation:</b> <br>
-    The participant view works like the share option "Without booking": in this view you are not entered in the members management of the course.
-    This results in the following:<br>
-    - If you enrol in a group in the course element "Enrolment", you become a group participant at that moment and are listed in the members management of the course.<br>
-    - The participant view is only available as long as you are not listed as participant in the members management of the course. If you are a participant of the course, of a group or of a curriculum, it is not available to you.<br>
-    <b>-></b> After enrolling in a group, you therefore no longer have a participant view but are listed as group participant in the members management of the course. OpenOlat therefore switches from the participant view to the "Owner" role.<br>
-    - The "Role" menu then shows the role "Participant" instead of the participant view.<br>
-    - If you leave the group again and reload the course, the role "Participant" disappears, and the participant view is available again.<br><br>
+    In the participant view, you see the course like participants without being entered as participant in the members management. This is similar to the offer type "Without booking": with this offer, users open the course without a membership. You find the offer types of a course under:<br>
+    <code>Course > Administration > Settings > Tab "Share"</code><br>
+    With the enrolment, you become a group participant and are therefore listed in the members management of the course. However, the participant view is only available as long as you are not a participant in the course, neither directly nor via a group or an implementation in the Course Planner. This is why OpenOlat switches after the enrolment to the role in which you also see the course when you open it, by default "Owner" (see section <a href="#initial_role">Initial role when opening a course</a>).<br><br>
 
 </details>
 
