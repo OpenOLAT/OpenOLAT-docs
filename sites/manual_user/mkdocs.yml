@@ -436,7 +436,6 @@ nav:
     - Resource folder: "learningresources/Resource_Folder.md"
     - Form:
       - learningresources/Form/index.md
-      - General Information: "learningresources/Forms_General_Information.md"
       - Administration:
         - Form editor:
           - learningresources/Form_Editor/index.md

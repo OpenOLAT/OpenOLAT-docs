@@ -391,7 +391,7 @@ Merkmale:
 [Formular-Elemente >](../../manual_user/learningresources/Form_Elements/index.de.md)
 
 **Weiterführend**<br>
-[Allgemeines zu Formularen >](../../manual_user/learningresources/Forms_General_Information.de.md)<br>
+[Formulare - Übersicht >](../../manual_user/learningresources/Form/index.de.md)<br>
 [Der Formulareditor >](../../manual_user/learningresources/Form_Editor/index.de.md)<br>
 [Das Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>
 [Frageregeln in Formularen >](../../manual_user/learningresources/Form_Question_Rules.de.md)<br>
