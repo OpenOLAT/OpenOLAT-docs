@@ -10,6 +10,6 @@ Der WCAG-2.1-AA-Standard wird auch international in vielen Gesetzestexten und Vo
 
 [WCAG 2.1 (W3C) >](https://www.w3.org/TR/WCAG21/)<br>
 [Barrierefreiheit: Farben >](Accessibility_Colors.de.md)<br>
-[Content Editor >](Content_Editor.de.md)
+[Content Editor >](Content_Editor/index.de.md)
 
 [Zum Seitenanfang ^](#principals)

@@ -216,7 +216,7 @@ Der Tab erscheint nur, wenn Systemadministrator:innen mindestens eine der beiden
 
 Je Funktion steht eine Zeile im Tab:
 
-* **"KI-Feedback zu Freitextantworten"**: Ihre Antwort auf eine Freitextfrage (Essay-Frage) in einem Quiz geht an die KI, und Sie erhalten ein formatives Feedback. Es vergibt keine Punkte. Mehr dazu: [KI-Feedback zu Freitextantworten](../basic_concepts/Content_Editor.de.md#ai_feedback)
+* **"KI-Feedback zu Freitextantworten"**: Ihre Antwort auf eine Freitextfrage (Essay-Frage) in einem Quiz geht an die KI, und Sie erhalten ein formatives Feedback. Es vergibt keine Punkte. Mehr dazu: [KI-Feedback zu Freitextantworten](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback)
 * **"KI-Bildbeschreibungen"**: Für ein Bild, das Sie hochladen, erzeugt OpenOlat mit der KI Titel, Beschreibung, Alternativtext und Tags. Mehr dazu: [Metadaten mit KI generieren](../basic_concepts/Media_Center_Items.de.md#metadata_ai)
 
 In jeder Zeile wählen Sie einen von drei Werten und klicken danach auf "Speichern":
@@ -227,7 +227,7 @@ In jeder Zeile wählen Sie einen von drei Werten und klicken danach auf "Speiche
 
 Steht das KI-Feedback auf "Aus", beantworten Sie Freitextfragen wie gewohnt, es erscheint nur kein KI-Feedback. Stehen die KI-Bildbeschreibungen auf "Aus", erzeugt OpenOlat beim Hochladen eines Bildes keine Metadaten im Hintergrund. Den Button "Metadaten mit KI generieren" im Formular können Sie trotzdem jederzeit selbst auslösen.
 
-Solange beim KI-Feedback "Vorgabe" gewählt ist, fragt OpenOlat Sie zu Beginn eines Quiz mit KI-Feedback, ob die KI Ihre Antworten korrigieren darf. Mehr dazu: [Einwilligung zur KI-Korrektur](../basic_concepts/Content_Editor.de.md#ai_consent)
+Solange beim KI-Feedback "Vorgabe" gewählt ist, fragt OpenOlat Sie zu Beginn eines Quiz mit KI-Feedback, ob die KI Ihre Antworten korrigieren darf. Mehr dazu: [Einwilligung zur KI-Korrektur](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_consent)
 
 Haben Sie in diesem Dialog "Immer erlauben" gewählt, steht die Zeile hier auf "Ein". Möchten Sie wieder gefragt werden, wählen Sie "Vorgabe" und klicken auf "Speichern". Danach gilt wieder die Vorgabe der System-Administration. Die Option "Personalisierung von Bildschirmkomponenten" unter ["Einstellungen Zurücksetzen"](#reset) im Tab "System" stellt Ihre KI-Einstellungen wieder auf "Vorgabe".
 
@@ -251,7 +251,7 @@ Welche Vorgabe für alle gilt, legen Systemadministrator:innen im KI-Modul fest:
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Modul Instant Messaging >](../../manual_admin/administration/Instant_Messaging.de.md)<br>
 [Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
 

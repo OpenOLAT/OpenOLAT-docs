@@ -75,9 +75,9 @@ Bereits ausgefüllte Felder bleiben bei der Generierung erhalten; der Titel wird
 
 ![Fachbereich Astronomy von der KI gesetzt, dazu Hinweis und auslösender Button](assets/media_center_items_ai_v2_de.png){ class="shadow lightbox" title="Dialog Mediendatei hinzufügen" }
 
-Beim Hochladen eines neuen Bildes, im Media Center mit "Mediendatei hinzufügen" wie im Element [Bild](Content_Editor.de.md#image) des Content Editors, ergänzt OpenOlat fehlende Metadaten zusätzlich im Hintergrund mit KI. Nach dem Speichern meldet OpenOlat: "Die Bild-Metadaten werden im Hintergrund mit KI generiert und in wenigen Augenblicken automatisch ergänzt." Dieser Weg läuft nur, wenn die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Er entfällt, wenn Sie im selben Formular schon den Button "Metadaten mit KI generieren" benutzt haben [:octicons-tag-16:{ title="ab Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
+Beim Hochladen eines neuen Bildes, im Media Center mit "Mediendatei hinzufügen" wie im Element [Bild](Content_Editor/Editor_Add_Content.de.md#image) des Content Editors, ergänzt OpenOlat fehlende Metadaten zusätzlich im Hintergrund mit KI. Nach dem Speichern meldet OpenOlat: "Die Bild-Metadaten werden im Hintergrund mit KI generiert und in wenigen Augenblicken automatisch ergänzt." Dieser Weg läuft nur, wenn die KI-Bildbeschreibungen für Sie eingeschaltet sind, siehe [Tab KI-Einstellungen](../personal_menu/Settings.de.md#tab_ai_settings). Er entfällt, wenn Sie im selben Formular schon den Button "Metadaten mit KI generieren" benutzt haben [:octicons-tag-16:{ title="ab Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"}.
 
-Beim [Markdown-Import in den Content Editor](Content_Editor.de.md#import_images) entscheiden Sie mit dem Schalter "Bild-Metadaten mit KI generieren" im Import-Dialog, ob OpenOlat die Metadaten der importierten Bilder im Hintergrund mit KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
+Beim [Markdown-Import in den Content Editor](Content_Editor/Editor_Import.de.md#import_images) entscheiden Sie mit dem Schalter "Bild-Metadaten mit KI generieren" im Import-Dialog, ob OpenOlat die Metadaten der importierten Bilder im Hintergrund mit KI erzeugt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9356)" }](https://track.frentix.com/issue/OO-9356){:target="_blank"}.
 
 [Zum Seitenanfang ^](#media_center_items)
 
@@ -114,7 +114,8 @@ Hier kann festgelegt werden, durch wen ein Medienelement verwendet werden darf. 
 **Auf dieser Seite erwähnt**<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
-[Content Editor >](Content_Editor.de.md)<br>
+[Content Editor: Inhalt hinzufügen >](Content_Editor/Editor_Add_Content.de.md)<br>
+[Content Editor: Importieren >](Content_Editor/Editor_Import.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)
 
 **Weiterführend**<br>

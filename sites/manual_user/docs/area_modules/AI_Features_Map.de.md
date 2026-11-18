@@ -52,7 +52,7 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 </g></a>
 
 <!-- Karte 3: Content Editor -->
-<a href="../../basic_concepts/Content_Editor/#ai_feedback"><title>Content Editor: KI-Feedback im Quiz</title><g>
+<a href="../../basic_concepts/Content_Editor/Editor_Quiz/#ai_feedback"><title>Content Editor: KI-Feedback im Quiz</title><g>
 <rect class="card" x="40" y="280" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="40" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="310" class="place">CONTENT EDITOR</text>
@@ -128,7 +128,7 @@ KI unterstützt Sie beim Erstellen von Inhalten an mehreren Stellen in OpenOlat,
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)
 

@@ -75,7 +75,7 @@ Die Integration des Sharepoint Online Drives der Organisation ist im Media Cente
 
 ## Content Creator
 
-Der Content Editor des Kursbausteins 'Seite' wird zum [Content Creator](../manual_user/basic_concepts/Content_Editor.de.md){:target="_blank”} und bietet ab Release 19.0 weitere nützliche Blöcke zur didaktischen Aufbereitung von Inhalten.
+Der Content Editor des Kursbausteins 'Seite' wird zum [Content Creator](../manual_user/basic_concepts/Content_Editor/index.de.md){:target="_blank”} und bietet ab Release 19.0 weitere nützliche Blöcke zur didaktischen Aufbereitung von Inhalten.
 
 Der Auswahldialog zum Hinzufügen von Inhalten im Content Creator und Formular-Editor wurde optimiert und bietet einen umfassenden Überblick über alle verfügbaren Objekte.
 

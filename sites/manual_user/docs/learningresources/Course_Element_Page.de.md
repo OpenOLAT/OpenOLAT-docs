@@ -74,7 +74,7 @@ Unter "Medien":
 
 Unter "Wissen":
 
-* **Quiz:** Bindet Quizfragen in die Seite ein, neu erstellt oder aus dem Fragenpool importiert [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. Bei Freitextfragen erhalten Lernende hier ein [KI-Feedback zu ihrer Antwort](../basic_concepts/Content_Editor.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
+* **Quiz:** Bindet Quizfragen in die Seite ein, neu erstellt oder aus dem Fragenpool importiert [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. Bei Freitextfragen erhalten Lernende hier ein [KI-Feedback zu ihrer Antwort](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
 
 Unter "Andere & Design":
 
@@ -90,7 +90,7 @@ Liegen Inhalte schon im Markdown-Format oder als Word-Dokument (.docx) vor, impo
 
 Damit lassen sich Inhalte aus externen Werkzeugen, einfachen Textdateien oder KI-Anwendungen ohne manuelles Nachformatieren als Seite im Kurs übernehmen.
 
-[Details zum Import >](../basic_concepts/Content_Editor.de.md#markdown)
+[Details zum Import >](../basic_concepts/Content_Editor/Editor_Import.de.md#markdown)
 
 
 ## Seite editieren (Bearbeitungsmodus)
@@ -112,7 +112,7 @@ Um ein Inhaltselement zu ändern, zu kopieren oder zu verschieben, klicken Sie e
 
 ![Zahnrad, Duplizieren, 3 Punkte und Pfeilkreuz am selektierten Inhaltselement Titel, rechts der Inspektor des Titels](assets/course_element_page_contentelement_title_v2_de.png){ class="shadow lightbox" title="Werkzeugleiste eines Inhaltselements im Kursbaustein Seite · 2026.11.10" }
 
-* **Zahnrad ("Einstellungen bearbeiten"):** blendet den [Inspektor](../basic_concepts/Content_Editor.de.md#inspector) mit den Einstellungen des Elements ein und aus.
+* **Zahnrad ("Einstellungen bearbeiten"):** blendet den [Inspektor](../basic_concepts/Content_Editor/Editor_Layout.de.md#inspector) mit den Einstellungen des Elements ein und aus.
 * **Duplizieren:** kopiert das Element [:octicons-tag-16:{ title="ab Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
 * **3 Punkte ("Mehr Aktionen"):** öffnet ein Menü mit "Davor hinzufügen", "Danach hinzufügen", "Duplizieren" und "Löschen".
 * **Pfeilkreuz ("Inhalt umziehen"):** verschiebt das Element per Drag & Drop an eine andere Stelle, auch in ein anderes Feld oder Layout.
@@ -156,12 +156,15 @@ Medien laden Sie im persönlichen Menü ins Media Center hoch oder direkt im Con
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
+[Content Editor: Importieren >](../basic_concepts/Content_Editor/Editor_Import.de.md)<br>
+[Content Editor: Layout >](../basic_concepts/Content_Editor/Editor_Layout.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)
 
 **Weiterführend**<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)
 

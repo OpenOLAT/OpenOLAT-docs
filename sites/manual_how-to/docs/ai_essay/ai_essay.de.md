@@ -15,7 +15,7 @@
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
     * [Kursbaustein Seite](../../manual_user/learningresources/Course_Element_Page.de.md)
-    * [Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md)
+    * [Content Editor](../../manual_user/basic_concepts/Content_Editor/index.de.md)
 
 ---
 
@@ -180,7 +180,7 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Bewertungskrite
 
 ## Die Ansicht der Lernenden {: #learner_view}
 
-Beim Start des Quiz fragt OpenOlat die Lernenden im Dialog "KI-Korrektur", ob die KI ihre Freitextantworten korrigieren darf: "Einmal erlauben", "Immer erlauben" oder "Jetzt nicht". Das KI-Feedback ist eine Rückmeldung für die Lernenden, Punkte und Bestanden-Status bleiben davon unberührt. Ohne Erlaubnis beantworten Lernende die Frage wie gewohnt, es erscheint nur kein KI-Feedback. "Immer erlauben" speichert die Wahl im Tab "KI-Einstellungen" der persönlichen Einstellungen, danach erscheint der Dialog nicht mehr. Nach "Einmal erlauben" oder "Jetzt nicht" fragt OpenOlat beim nächsten Durchgang durch das Quiz erneut, etwa nach "Neuer Versuch". Im Tab "KI-Einstellungen" ändern Lernende ihre Wahl jederzeit: "Aus" schaltet das KI-Feedback ab, "Vorgabe (ein)" oder "Vorgabe (aus)" lässt OpenOlat wieder beim Start fragen. Details beschreibt [Einwilligung zur KI-Korrektur](../../manual_user/basic_concepts/Content_Editor.de.md#ai_consent).
+Beim Start des Quiz fragt OpenOlat die Lernenden im Dialog "KI-Korrektur", ob die KI ihre Freitextantworten korrigieren darf: "Einmal erlauben", "Immer erlauben" oder "Jetzt nicht". Das KI-Feedback ist eine Rückmeldung für die Lernenden, Punkte und Bestanden-Status bleiben davon unberührt. Ohne Erlaubnis beantworten Lernende die Frage wie gewohnt, es erscheint nur kein KI-Feedback. "Immer erlauben" speichert die Wahl im Tab "KI-Einstellungen" der persönlichen Einstellungen, danach erscheint der Dialog nicht mehr. Nach "Einmal erlauben" oder "Jetzt nicht" fragt OpenOlat beim nächsten Durchgang durch das Quiz erneut, etwa nach "Neuer Versuch". Im Tab "KI-Einstellungen" ändern Lernende ihre Wahl jederzeit: "Aus" schaltet das KI-Feedback ab, "Vorgabe (ein)" oder "Vorgabe (aus)" lässt OpenOlat wieder beim Start fragen. Details beschreibt [Einwilligung zur KI-Korrektur](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_consent).
 
 1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Hat die KI die Frage erzeugt, über den Import oder über "KI Fragen" im Fragenpool, endet der Fragetext mit "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Eine von Hand erstellte Frage hat diesen Block nicht. Der Block ist Teil des Fragetexts, Sie können ihn also im Feld "Frage" anpassen oder entfernen. Der Zähler zeigt die Anzahl Wörter und, falls ein Maximum gesetzt ist, das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden die Lernenden die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen: Das Feedback erscheint auf der offenen Seite. Danach führt "Weiter" zur nächsten Frage.
@@ -245,7 +245,8 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 **Auf dieser Seite erwähnt**<br>
 ["Wie erstelle ich meinen ersten OpenOlat-Kurs?" >](../my_first_course/my_first_course.de.md)<br>
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
+[Content Editor >](../../manual_user/basic_concepts/Content_Editor/index.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../../manual_user/personal_menu/Media_Center.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>

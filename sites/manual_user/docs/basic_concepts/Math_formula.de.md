@@ -52,7 +52,7 @@ In einem Portfolio-Eintrag steht die Formel als eigenes Inhaltselement zwischen 
 ## Weiterführende Informationen {: #further_information}
 
 [CortexJS keybindings >](https://cortexjs.io/mathlive/reference/keybindings/)<br>
-[Content Editor >](Content_Editor.de.md)<br>
+[Content Editor: Inhalt hinzufügen >](Content_Editor/Editor_Add_Content.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
 [Persönliche Werkzeuge: Portfolio 2.0 >](../personal_menu/Portfolio/index.de.md)
 

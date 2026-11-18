@@ -82,7 +82,7 @@ Was Sie bauen, und was Lernende bearbeiten.
 
     Was im Autorenbereich liegt: Kurse, Tests, Videos, Blogs, Podcasts, Glossare und Formulare.
 
--   __[Inhalte und Medien](manual_user/basic_concepts/Content_Editor.de.md)__
+-   __[Inhalte und Medien](manual_user/basic_concepts/Content_Editor/index.de.md)__
     {: data-oo-cluster="teaching_and_courses" data-oo-domain="authoring" }
 
     ---

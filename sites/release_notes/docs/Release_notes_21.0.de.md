@@ -113,19 +113,19 @@ Eine **zentrale Übersicht** fasst alle To-dos über sämtliche Produkte hinweg 
 
 ### Import Markdown/Word
 
-Vorbereitete Lerninhalte in Word- oder Markdown-Dateien mussten bisher in der **Seite** von Hand nachgebaut werden. Ab Release 21.0 steht eine [**Import-Funktion**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/#markdown){:target="_blank"} zur Verfügung. Dabei können entweder die **Word- und Markdown-Dateien** komplett importiert, oder deren Inhalt als Text im Import-Dialog eingefügt werden. OpenOlat wandelt den Inhalt automatisch in die passenden Blöcke (Titel, Text, Tabellen, Code, Bilder und mehr) um. Referenzierte Bilder landen automatisch im Media Center.
+Vorbereitete Lerninhalte in Word- oder Markdown-Dateien mussten bisher in der **Seite** von Hand nachgebaut werden. Ab Release 21.0 steht eine [**Import-Funktion**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/Editor_Import/#markdown){:target="_blank"} zur Verfügung. Dabei können entweder die **Word- und Markdown-Dateien** komplett importiert, oder deren Inhalt als Text im Import-Dialog eingefügt werden. OpenOlat wandelt den Inhalt automatisch in die passenden Blöcke (Titel, Text, Tabellen, Code, Bilder und mehr) um. Referenzierte Bilder landen automatisch im Media Center.
 
 ![Import Word-Datei in der Seite](assets/210/content_editor_import_dialog_v1_de.png){ class="shadow lightbox" title="Import Word-Datei in der Seite" }
 
 ### Inhaltsverzeichnis
 
-Das Navigieren in langen Seiten wird durch das neue Inhaltselement [**«Inhaltsverzeichnis»**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/#table_of_contents){:target="_blank"} erleichtert. Das Verzeichnis listet - entweder für die ganze Seite oder ein einzelnes Kapitel - die Titel als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt.
+Das Navigieren in langen Seiten wird durch das neue Inhaltselement [**«Inhaltsverzeichnis»**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/Editor_Add_Content/#table_of_contents){:target="_blank"} erleichtert. Das Verzeichnis listet - entweder für die ganze Seite oder ein einzelnes Kapitel - die Titel als anklickbare Sprungmarken auf und führt mit einem Klick direkt zum jeweiligen Abschnitt.
 
-Da neu **alle Titel-Elemente** [**automatisch mit Ankern**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/#anchors){:target="_blank"} versehen werden, entstehen die Sprungziele innerhalb der Seite ganz ohne Zutun.
+Da neu **alle Titel-Elemente** [**automatisch mit Ankern**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/Editor_Layout/#anchors){:target="_blank"} versehen werden, entstehen die Sprungziele innerhalb der Seite ganz ohne Zutun.
 
 ### Optimiertes Layout löschen
 
-Es können neu alle [Layoutblöcke gelöscht](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/#delete_layout){:target="_blank"} werden, auch das oberste. Dabei kann entschieden werden, ob der Inhalt ebenfalls mit gelöscht oder in das angrenzende Layout verschoben wird.
+Es können neu alle [Layoutblöcke gelöscht](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/Editor_Layout/#delete_layout){:target="_blank"} werden, auch das oberste. Dabei kann entschieden werden, ob der Inhalt ebenfalls mit gelöscht oder in das angrenzende Layout verschoben wird.
 
 Wird das letzte verbleibende Layout entfernt, erhält die Seite automatisch wieder ein leeres Standard-Layout.
 
@@ -141,7 +141,7 @@ Zu jeder Freitextfrage liefert die KI ein **[«Bewertungskit»](https://docs.ope
 
 ### Formatives KI-Feedback für Lernende
 
-Freitextfragen mit KI-Bewertung lassen sich direkt in einem **Quiz im** [**Content Editor**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/){:target="_blank"} einsetzen. Beantworten Lernende eine solche Frage, wird unter **KI-Feedback** eine formative Rückmeldung zu ihrer Antwort abgerufen: «Gesamteinschätzung», «Was gut gelungen ist», «Was fehlt noch» und «Nächster Schritt» – wahlweise als kurze Zusammenfassung oder als detailliertes Feedback.
+Freitextfragen mit KI-Bewertung lassen sich direkt in einem **Quiz im** [**Content Editor**](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Editor/Editor_Quiz/){:target="_blank"} einsetzen. Beantworten Lernende eine solche Frage, wird unter **KI-Feedback** eine formative Rückmeldung zu ihrer Antwort abgerufen: «Gesamteinschätzung», «Was gut gelungen ist», «Was fehlt noch» und «Nächster Schritt» – wahlweise als kurze Zusammenfassung oder als detailliertes Feedback.
 
 Das Feedback vergibt bewusst keine Punkte, sondern unterstützt die Selbsteinschätzung und lädt zum Weiterarbeiten ein. Voraussetzung ist die konfigurierte KI Funktion «Essay Bewertung».
 

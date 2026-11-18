@@ -190,7 +190,7 @@ Statt des Exports können Sie im Schritt "Daten einfügen" über "Download .zip-
 
 Die KI liest aus einem Bild oder einem Text heraus, worum es inhaltlich geht, und ordnet das Ergebnis selbständig einer Taxonomieebene zu. Sie vergleicht dabei die Bedeutung, nicht den Wortlaut. Ein englischer Text findet deshalb auch eine deutsch benannte Ebene, ein Synonym findet die gemeinte Ebene, und ein verwandter Begriff findet die inhaltlich nächste.
 
-Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern. Eine Taxonomieebene, die an einem Medium oder an einer Lernressource hängt, heisst dort Fachbereich.
+Die Zuordnung wirkt beim Hochladen eines Bildes im [Media Center](../../manual_user/basic_concepts/Media_Center_Items.de.md#metadata_ai) und beim [Import von Markdown-Dateien in den Content Editor](../../manual_user/basic_concepts/Content_Editor/Editor_Import.de.md#markdown). Das Ergebnis steht im Feld "Themen/Fachbereiche" der Metadaten und lässt sich dort ändern. Eine Taxonomieebene, die an einem Medium oder an einer Lernressource hängt, heisst dort Fachbereich.
 
 OpenOlat durchsucht die Taxonomien, die für das Media Center ausgewählt sind. Welche das sind, legen Sie in der System-Administration unter `Administration > Module > Media Center` im Feld "Verknüpfte Taxonomien" fest, siehe [Modul Media Center: Taxonomie](Modules_Media_Center.de.md#taxonomy). Ist dort keine Taxonomie ausgewählt, durchsucht OpenOlat die Taxonomien, die unter `Administration > Module > Lernressource` ausgewählt sind. Die Übersicht unter `Administration > Module > Taxonomie` zeigt je Taxonomie, für welche Bereiche sie aktiviert ist; beim Media Center steht in diesem Fall "nicht aktiviert".
 
@@ -250,7 +250,7 @@ Bleibt das Feld "Themen/Fachbereiche" leer, obwohl die KI Titel, Beschreibung un
 [Allgemeines zum Portfolio >](../../manual_user/area_modules/Portfolio_General_Information.de.md)<br>
 [Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
+[Content Editor: Importieren >](../../manual_user/basic_concepts/Content_Editor/Editor_Import.de.md)<br>
 [Modul Media Center >](Modules_Media_Center.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](External_Tools_AI.de.md)
 

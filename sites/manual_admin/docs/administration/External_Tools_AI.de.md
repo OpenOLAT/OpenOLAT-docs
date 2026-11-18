@@ -104,7 +104,7 @@ Sie konfigurieren jede KI-Funktion einzeln. Die verfügbaren Modelle lädt OpenO
 * MC Fragen Generator (Erstellung von MC-Fragen), genutzt im [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 * Bildbeschreibungs-Generator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern), genutzt im [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md) [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}
 * Essay Fragen Generator (Erstellung von Freitextfragen samt Bewertungskriterien)
-* Essay Bewertung (formatives KI-Feedback zu Freitextantworten), genutzt im Fragenpool und im [Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
+* Essay Bewertung (formatives KI-Feedback zu Freitextantworten), genutzt im Fragenpool und im [Quiz des Content Editors >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9496)" }](https://track.frentix.com/issue/OO-9496){:target="_blank"}
 
 Welchen Nutzen diese Funktionen für Autor:innen haben und an welchen Orten sie wirken, zeigt die Konzeptstudie [KI-Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md).
 
@@ -290,7 +290,7 @@ taxonomy.matching.passage.prefix=
 [Modul Taxonomie >](Modules_Taxonomy.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../../manual_user/basic_concepts/Media_Center_Items.de.md)<br>
-[Content Editor >](../../manual_user/basic_concepts/Content_Editor.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [KI-Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>

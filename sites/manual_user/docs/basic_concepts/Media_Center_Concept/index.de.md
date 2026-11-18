@@ -91,7 +91,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Neue Medien ausserhalb des Media Centers im Content Editor erstellen {: #create_in_editor}
 
-Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../Content_Editor.de.md) angelegt werden. Im Kurs nutzen Sie dafür zum Beispiel den Kursbaustein ["Seite"](../../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
+Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../Content_Editor/index.de.md) angelegt werden. Im Kurs nutzen Sie dafür zum Beispiel den Kursbaustein ["Seite"](../../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center". Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten.
 
 ![Aufklappmenü neben Mediendatei hinzufügen mit Dokument, draw.io Diagramm, Text, Video per URL, Video- und Audioaufzeichnung und Zitat](../assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" title="Dialog Medium auswählen im Kursbaustein Seite" }
 
@@ -247,7 +247,7 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 **Auf dieser Seite erwähnt**<br>
 [Persönliche Konfiguration: Einstellungen >](../../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../Media_Center_Items.de.md)<br>
-[Content Editor >](../Content_Editor.de.md)<br>
+[Content Editor >](../Content_Editor/index.de.md)<br>
 [Kursbaustein "Seite" >](../../learningresources/Course_Element_Page.de.md)<br>
 [Benutzer:in löschen >](../../../manual_admin/usermanagement/Delete_User.de.md)<br>
 [Dateien und Ordner >](../../../manual_admin/administration/Files_and_Folders.de.md)<br>

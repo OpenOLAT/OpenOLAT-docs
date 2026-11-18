@@ -41,7 +41,7 @@ Den Lerntext geben Sie in einem von zwei Modi vor:
 
 Wie lang der Lerntext sein darf, gibt die System-Administration im [KI-Modul](../../manual_admin/administration/External_Tools_AI.de.md#ai_function_limits) vor, standardmässig 60000 Zeichen [:octicons-tag-16:{ title="ab Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. Sind "MC Fragen Generator" und "Essay Fragen Generator" beide aktiv, gilt der kleinere der beiden Werte. Der Dialog nennt die geltende Grenze und weist zu lange Texte zurück.
 
-Anschliessend legen Sie fest, wie viele Fragen erzeugt werden: "Multiple-Choice-Fragen" und, sofern die KI-Funktion "Essay Bewertung" konfiguriert ist, "Essay-Fragen mit KI-Korrektur". Die KI schlägt anhand der Länge des Lerntexts sinnvolle Werte vor, die Sie anpassen können. Mit den Feldern "Bloom-Stufen", "Zielschwierigkeit" und "Lernziele (optional)" steuern Sie, welche Fragen entstehen, wie beim [Import im Content Editor](../basic_concepts/Content_Editor.de.md#import_ai_quiz); vorausgewählt sind die Bloom-Stufen "Verstehen" und "Anwenden". Mit "Fragen generieren" starten Sie den Vorgang.
+Anschliessend legen Sie fest, wie viele Fragen erzeugt werden: "Multiple-Choice-Fragen" und, sofern die KI-Funktion "Essay Bewertung" konfiguriert ist, "Essay-Fragen mit KI-Korrektur". Die KI schlägt anhand der Länge des Lerntexts sinnvolle Werte vor, die Sie anpassen können. Mit den Feldern "Bloom-Stufen", "Zielschwierigkeit" und "Lernziele (optional)" steuern Sie, welche Fragen entstehen, wie beim [Import im Content Editor](../basic_concepts/Content_Editor/Editor_Import.de.md#import_ai_quiz); vorausgewählt sind die Bloom-Stufen "Verstehen" und "Anwenden". Mit "Fragen generieren" starten Sie den Vorgang.
 
 Die Generierung läuft im Hintergrund. Sie können den Dialog offen lassen oder schliessen; die neuen Fragen erscheinen im Fragenpool, sobald sie fertig sind. Sie werden in der Sprache des Lerntexts erstellt [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. KI-generierte Fragen erhalten den Status "Review", damit sie vor der Weiterverwendung fachlich geprüft werden.
 
@@ -76,7 +76,7 @@ Mit dem Button "Feedback testen" geben Sie eine Beispielantwort ein und sehen in
 
 !!! info "Wo Lernende das KI-Feedback erhalten"
 
-    Das Bewertungskit wirkt ausschliesslich im [Quiz-Element einer Seite](../basic_concepts/Content_Editor.de.md#ai_feedback). Fügen Sie die Freitextfrage dort über das 3-Punkte-Menü des Quiz-Elements mit "Fragen aus Pool importieren" ein. In den Kursbausteinen "Test" und "Selbsttest" wird das Bewertungskit nicht ausgeführt. Dort bleibt die Freitextantwort der manuellen Korrektur im Bewertungswerkzeug vorbehalten.
+    Das Bewertungskit wirkt ausschliesslich im [Quiz-Element einer Seite](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback). Fügen Sie die Freitextfrage dort über das 3-Punkte-Menü des Quiz-Elements mit "Fragen aus Pool importieren" ein. In den Kursbausteinen "Test" und "Selbsttest" wird das Bewertungskit nicht ausgeführt. Dort bleibt die Freitextantwort der manuellen Korrektur im Bewertungswerkzeug vorbehalten.
 
 [Zum Seitenanfang ^](#create_questions)
 
@@ -108,7 +108,8 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 **Auf dieser Seite erwähnt**<br>
 [Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor.de.md)<br>
+[Content Editor: Importieren >](../basic_concepts/Content_Editor/Editor_Import.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz? >](../../manual_how-to/ai_essay/ai_essay.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
