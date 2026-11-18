@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 30.09.2026 • Letztes Update: 04.11.2026**
+:material-calendar-month-outline: **Releasedatum: 30.09.2026 • Letztes Update: 18.11.2026**
 
 * * *
 
@@ -193,7 +193,9 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **[Zertifikate](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Certification_Programs/#certificate_status){:target="_blank"}:** OpenOlat erstellt Zertifikate zuverlässig im Hintergrund, auch nach einem Neustart, und wiederholt fehlgeschlagene Versuche automatisch. Bis dahin zeigt das Zertifikat den Status «Hängig».
 * **Sprachen:** Polnisch und Spanisch sind vollständig übersetzt, alle weiteren ausgelieferten Sprachen auf dem Stand von 21.1.
 * **Sprachanpassungswerkzeug:** Die Sprache lässt sich direkt beim Bearbeiten eines Textes wechseln, ohne zum Start zurückzukehren.
-* **Web-Katalog:** Suchmaschinen und Vorschauen in sozialen Netzwerken zeigen neu das Teaserbild von Durchführungen sowie Preis, Termine und Taxonomie der Angebote (:octicons-tag-24: Release 21.1.1)
+* **Web-Katalog:**
+    * Suchmaschinen und Vorschauen in sozialen Netzwerken zeigen neu das Teaserbild von Durchführungen sowie Preis, Termine und Taxonomie der Angebote (:octicons-tag-24: Release 21.1.1)
+    * Startseite, Suche und Microsites erhalten eine eigene kanonische URL, Beschreibung und Vorschaubild für Suchmaschinen und soziale Netzwerke (:octicons-tag-24: Release 21.1.3)
 
 * * *
 
@@ -214,6 +216,8 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 * **Antwortadresse der System-Mails:** Die neue Property `adminemailname` legt einen Anzeigenamen für die Antwortadresse fest (:octicons-tag-24: Release 21.1.1)
 * Aktualisierung der Bibliotheken von Drittanbietern
 * **[Tomcat ab 10.1.61](https://docs.openolat.org/de/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}:** Bei mehr als 10 Browsersprachen erscheint wieder die Login-Seite statt einer Fehlerseite. Empfohlen: `maxLocaleCount="-1"` auf allen Connectors in `server.xml` (:octicons-tag-24: Release 21.1.2)
+* **[Inhaltsdomäne](https://docs.openolat.org/de/manual_user/basic_concepts/Content_Domain/#links){:target="_blank"}:** Links auf OpenOlat-Seiten in HTML-Inhalten und PDF-Dateien öffnen das Ziel im OpenOlat-Fenster statt einer Login-Seite. Lesezeichen der Inhaltsdomäne führen zur OpenOlat-Adresse (:octicons-tag-24: Release 21.1.3)
+* **Geringerer Speicherbedarf:** OpenOlat gibt nicht mehr benötigte Ressourcen zuverlässiger frei, pro Sitzung bleiben höchstens 25 statt 100 Fenster gespeichert (:octicons-tag-24: Release 21.1.3)
 
 * * *
 
@@ -244,6 +248,7 @@ Beim Export aller Testresultate trugen die PDF-Dateien bisher nur eine Nummer al
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 21.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.3&title=Release%20Notes%2021.1.3){:target="_blank"}
 * [YouTrack Release Notes 21.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.2&title=Release%20Notes%2021.1.2){:target="_blank"}
 * [YouTrack Release Notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release Notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}

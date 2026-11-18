@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 04.11.2026**
+:material-calendar-month-outline: **Releasedatum: 25.03.2026 • Letztes Update: 18.11.2026**
 
 * * *
 
@@ -257,8 +257,9 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 - fxSyncher: Konfiguration in der Administration lesend einsehbar (:octicons-tag-24: Release 20.3.2 - nur frentix-Release)
 - [KI Modul](https://docs.openolat.org/de/manual_admin/administration/External_Tools_AI/#ai_properties){:target="_blank"}: Anbieter und Funktionen lassen sich über `olat.properties` vorbelegen (`ai.*`) (:octicons-tag-24: Release 20.3.4)
 - Paella player: mp4-Streams werden im CORS-Modus geladen, der Stream-Server muss `Access-Control-Allow-Origin` senden (:octicons-tag-24: Release 20.3.10)
-- Aktualisierung der Bibliotheken von Drittanbietern (:octicons-tag-24: Release 20.3.10)
+- Aktualisierung der Bibliotheken von Drittanbietern
 - [Tomcat ab 10.1.61](https://docs.openolat.org/de/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}: Bei mehr als 10 Browsersprachen erscheint wieder die Login-Seite statt einer Fehlerseite. Empfohlen: `maxLocaleCount="-1"` auf allen Connectors in `server.xml` (:octicons-tag-24: Release 20.3.12)
+- Geringerer Speicherbedarf: OpenOlat gibt nicht mehr benötigte Ressourcen zuverlässiger frei, pro Sitzung bleiben höchstens 25 statt 100 Fenster gespeichert (:octicons-tag-24: Release 20.3.13)
 
 * * *
 
@@ -280,6 +281,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 ## Weitere Informationen
 
+- [YouTrack Release Notes 20.3.13](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.13&title=Release%20Notes%2020.3.13){:target="_blank"}
 - [YouTrack Release Notes 20.3.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.12&title=Release%20Notes%2020.3.12){:target="_blank"}
 - [YouTrack Release Notes 20.3.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.11&title=Release%20Notes%2020.3.11){:target="_blank"}
 - [YouTrack Release Notes 20.3.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.10&title=Release%20Notes%2020.3.10){:target="_blank"}

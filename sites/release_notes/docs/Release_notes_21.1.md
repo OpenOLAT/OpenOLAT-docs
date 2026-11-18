@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 09/30/2026 • Last update: 11/04/2026**
+:material-calendar-month-outline: **Release date: 09/30/2026 • Last update: 11/18/2026**
 
 * * *
 
@@ -193,7 +193,9 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **[Certificates](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Certification_Programs/#certificate_status){:target="_blank"}:** OpenOlat creates certificates reliably in the background, even after a restart, and automatically repeats failed attempts. Until then, the certificate shows the status «Pending».
 * **Languages:** Polish and Spanish are fully translated, all other shipped languages are at the level of 21.1.
 * **Language adaptation tool:** The language can be switched directly while editing a text, without returning to the start.
-* **Web catalog:** Search engines and social media previews now show the teaser image of implementations as well as the price, dates and taxonomy of offers (:octicons-tag-24: Release 21.1.1)
+* **Web catalog:**
+    * Search engines and social media previews now show the teaser image of implementations as well as the price, dates and taxonomy of offers (:octicons-tag-24: Release 21.1.1)
+    * Start page, search and microsites receive their own canonical URL, description and preview image for search engines and social media (:octicons-tag-24: Release 21.1.3)
 
 * * *
 
@@ -214,6 +216,8 @@ Until now, when all test results were exported, the PDF files only had a number 
 * **Reply-to address of system mails:** The new property `adminemailname` defines a display name for the reply-to address (:octicons-tag-24: Release 21.1.1)
 * Update of third-party libraries
 * **[Tomcat 10.1.61 and greater](https://docs.openolat.org/en/manual_admin/installation/updateGuide/#tomcat-10161-and-greater){:target="_blank"}:** With more than 10 browser languages, the login page appears again instead of an error page. Recommended: `maxLocaleCount="-1"` on all connectors in `server.xml` (:octicons-tag-24: Release 21.1.2)
+* **[Content domain](https://docs.openolat.org/en/manual_user/basic_concepts/Content_Domain/#links){:target="_blank"}:** Links to OpenOlat pages in HTML content and PDF files open the target in the OpenOlat window instead of a login page. Bookmarks of the content domain lead to the OpenOlat address (:octicons-tag-24: Release 21.1.3)
+* **Lower memory use:** OpenOlat releases resources that are no longer needed more reliably, and each session keeps at most 25 instead of 100 windows (:octicons-tag-24: Release 21.1.3)
 
 * * *
 
@@ -244,6 +248,7 @@ Until now, when all test results were exported, the PDF files only had a number 
 
 ## Further information
 
+* [YouTrack Release notes 21.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.3&title=Release%20Notes%2021.1.3){:target="_blank"}
 * [YouTrack Release notes 21.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.2&title=Release%20Notes%2021.1.2){:target="_blank"}
 * [YouTrack Release notes 21.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.1&title=Release%20Notes%2021.1.1){:target="_blank"}
 * [YouTrack Release notes 21.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2021.1.0&title=Release%20Notes%2021.1.0){:target="_blank"}
