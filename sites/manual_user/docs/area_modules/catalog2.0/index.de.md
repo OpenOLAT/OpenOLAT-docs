@@ -74,7 +74,7 @@ Ein Launcher vom Typ "Taxonomieebene" zeigt also keine Kurse und Lernressourcen 
 
 ![Launcher vom Typ Taxonomieebene mit vier Kacheln markiert: Ein Klick auf eine Kachel öffnet die Microsite dieser Kategorie](../assets/catalog20_categorielauncher_v2_de.png){ class="shadow lightbox" title="Launcher vom Typ Taxonomieebene auf der Startseite des Katalogs · 2026.11.18" }
 
-Klicken Sie auf eine Karte/Kachel in einem Launcher eines anderen Typs oder in einer Microsite, öffnet sich die Infoseite oder sofort der Kurs.
+Klicken Sie auf eine Karte/Kachel in einem Launcher eines anderen Typs, startet der Kurs bzw. die Lernressource sofort, wenn Sie dort schon Mitglied sind. Sonst öffnet sich die Infoseite, auch bei einem Angebot ohne Buchung und bei einer Durchführung.
 
 **Seite/Ansicht 3:**<br>
 Wird zuerst eine Microsite geöffnet, zeigen Sie in der Liste mit "Mehr erfahren" die [Infoseite](../../learningresources/Info_page.de.md) an oder starten den Kurs bzw. die Lernressource mit "Öffnen" gleich. Haben Sie noch keinen Zugang, steht statt "Öffnen" der Button "Buchen".

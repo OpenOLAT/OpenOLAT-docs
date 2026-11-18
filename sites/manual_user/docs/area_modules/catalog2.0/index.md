@@ -74,7 +74,7 @@ A launcher of type "Taxonomy level" therefore does not show courses and learning
 
 ![Launcher of the type Taxonomy level with four tiles marked: a click on a tile opens the microsite of this category](../assets/catalog20_categorielauncher_v2_en.png){ class="shadow lightbox" title="Launcher of the type Taxonomy level on the start page of the catalog · 2026.11.18" }
 
-If you click on a card/tile in a launcher of another type or in a microsite, the info page or the course opens immediately.
+If you click on a card/tile in a launcher of another type, the course or learning resource starts immediately if you are already a member. Otherwise the info page opens, also for an offer without booking and for an implementation.
 
 **Page/Display 3:**<br>
 If a microsite is opened first, you display the [info page](../../learningresources/Info_page.md) in the list with "Learn more" or start the course or learning resource immediately with "Open". If you do not have access yet, the button "Book" appears instead of "Open".
