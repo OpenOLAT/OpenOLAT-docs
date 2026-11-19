@@ -1,10 +1,12 @@
 # Bloggen {: #blog_blogging}
 
-Ist in einem veröffentlichten Kurs ein Blog enthalten, können Betreuer:innen und Kursteilnehmer:innen mit diesem Blog arbeiten (bloggen). Der Begriff "bloggen" meint das Nutzen, Verwenden, Einsetzen eines erstellten und konfigurierten Blogs.
+Ist in einem veröffentlichten Kurs ein Blog eingebunden, arbeiten Teilnehmer:innen und Betreuer:innen damit: Sie lesen Beiträge, schreiben eigene, kommentieren und bewerten sie. Das heisst bloggen.
+
+Was Teilnehmer:innen und Betreuer:innen im Blog tun dürfen, legen die Besitzer:innen des Kurses im Kursbaustein fest. Die Berechtigung "Beiträge erstellen" bestimmt, wer eigene Beiträge schreibt, die Berechtigung "Moderator", wer alle Beiträge bearbeitet und löscht, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md#blog_configuration_permissions). Den Button "Eintrag hinzufügen" sehen deshalb nur Personen mit einer dieser Berechtigungen und die Besitzer:innen des Kurses. Im Blog der Toolbar erstellen und moderieren Besitzer:innen und Betreuer:innen des Kurses die Beiträge.
 
 !!! note "Quick Links"
 
-    Sie können als Kursteilnehmer:in oder Betreuer:in 
+    Je nach Berechtigung können Sie als Teilnehmer:in oder Betreuer:in
 
     * [Beiträge aufrufen und lesen](#blog_blogging_read_posts)
     * [Beiträge hinzufügen und editieren](#blog_blogging_add_posts)
@@ -19,7 +21,7 @@ Ist in einem veröffentlichten Kurs ein Blog enthalten, können Betreuer:innen u
 
 ## Beiträge aufrufen und lesen {: #blog_blogging_read_posts}
 
-Zum Aufrufen eines Blogs klicken Sie einfach links im Kursmenü auf den entsprechenden Kursbaustein. Anschliessend wählen Sie den Beitrag, der Sie interessiert.
+Einen Blog öffnen Sie im Kursmenü links mit einem Klick auf seinen Kursbaustein, einen Blog für den ganzen Kurs mit dem Blog-Icon in der [Toolbar](Course_Settings_Toolbar.de.md#blog). Anschliessend wählen Sie den Beitrag, der Sie interessiert.
 
 Zum Umschalten zwischen "Listenansicht" und "Tabellenansicht" verwenden Sie die Buttons rechts über der Liste.
 
@@ -29,13 +31,13 @@ Mit dem Schalter "Zeitleiste & Tags" blenden Sie rechts neben der Liste zusätzl
 
 !!! info "Wichtig"
 
-    Haben Sie nur Leserechte auf den Blog (z.B. als Betreuer:in ohne Schreibrecht oder als Kursteilnehmer:in, die/der keine eigenen Beiträge erstellen darf), steht Ihnen nur der Filter "Alle" zur Verfügung [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
+    Haben Sie im Blog nur Leserechte, etwa als Teilnehmer:in ohne die Berechtigung "Beiträge erstellen", steht Ihnen nur der Filter "Alle" zur Verfügung [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9220)" }](https://track.frentix.com/issue/OO-9220){:target="_blank"}.
 
 ![Filter Alle, Meine Einträge und Entwürfe, Buttons Listenansicht und Tabellenansicht sowie Schalter Zeitleiste & Tags hervorgehoben](assets/blog_blogging_list_v3_de.png){ class="shadow lightbox" title="Blog in der Kursansicht · 2026.10.08" }
 
 !!! note "Hinweis"
 
-    Es besteht auch die Möglichkeit, eine Blog-Lernressource "stand alone" (ohne Einbindung in einen Kurs) zu nutzen. In diesem Fall könnte die Blog-Lernressource nach der Veröffentlichung z.B. via Link in einer Mail oder im Katalog aufgerufen werden.<br>Denken Sie auch daran, dass Sie in Mails einen Link direkt auf einen bestimmten Kursbaustein innerhalb eines Kurses (z.B. den Blog) verschicken können.    
+    Eine Blog-Lernressource lässt sich auch eigenständig verwenden, ohne Kurs. Nach der Freigabe öffnen Personen sie dann zum Beispiel über einen Link in einer E-Mail oder über den Katalog.<br>Auch auf einen einzelnen Kursbaustein, etwa den Blog, verschicken Sie in einer E-Mail einen direkten Link.
 
 [Zum Seitenanfang ^](#blog_blogging)
 
@@ -45,10 +47,10 @@ Mit dem Schalter "Zeitleiste & Tags" blenden Sie rechts neben der Liste zusätzl
 
 !!! tip "Voraussetzung"
 
-    Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#create_entries))<br>
-    Beachten Sie ausserdem, dass per Link eingefügte **externe** Blogs nicht bearbeitet werden können.
+    Eigene Beiträge schreiben Sie als Teilnehmer:in oder Betreuer:in, wenn Ihnen die Besitzer:innen des Kurses im Kursbaustein die Berechtigung "Beiträge erstellen" oder "Moderator" gegeben haben und ein dort gesetzter Zeitraum ("Beginn", "Ende") gerade gilt, siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#create_entries).<br>
+    Die Beiträge eines externen Blogs, den die Lernressource per URL einbindet, entstehen ausserhalb von OpenOlat und werden dort bearbeitet.
 
-Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufügen" verwenden. Zum erneuten Öffnen und Editieren wählen Sie die Option unter den 3 Punkten, bzw. klicken Sie in der Listenansicht auf den Titel. In der Kursansicht finden Sie bei jedem Ihrer Beiträge einen Link "Bearbeiten".
+Einen eigenen Beitrag fügen Sie mit dem Button "Eintrag hinzufügen" hinzu. Zum erneuten Öffnen und Bearbeiten wählen Sie "Bearbeiten" im Menü mit den drei Punkten oder klicken in der Listenansicht auf den Titel. In der Kursansicht finden Sie bei jedem Ihrer Beiträge einen Link "Bearbeiten".
 
 Beim Hinzufügen und Editieren füllen Sie folgende Felder aus.
 
@@ -62,13 +64,13 @@ Optional ordnen Sie dem Eintrag Tags zu. Sie wählen ein vorhandenes Tag oder le
 
 #### Inhalt {: #entry_content}
 
-Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt. Dafür wechseln Sie oben rechts am Feld von "Mehrere Zeilen" auf "Formatiert". Sie schreiben den Inhalt im selben HTML-Editor wie im Kursbaustein "HTML-Seite", hier aber ohne das Menü "Tabelle". Wie Sie mehrere Bilder nebeneinander anordnen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](Course_Element_HTML_Page.de.md#images_side_by_side).
+Der Inhalt ist der eigentliche Blogeintrag, füllen Sie dieses Feld deshalb immer aus. Formatierungen und Bilder sind erlaubt. Dafür wechseln Sie oben rechts am Feld von "Mehrere Zeilen" auf "Formatiert". Sie schreiben den Inhalt im selben HTML-Editor wie im Kursbaustein "HTML-Seite", hier aber ohne das Menü "Tabelle". Wie Sie mehrere Bilder nebeneinander anordnen, beschreibt der Abschnitt [Mehrere Bilder nebeneinander](Course_Element_HTML_Page.de.md#images_side_by_side).
 
 ![Drei Bilder nebeneinander in einer Reihe unter dem Text eines Blogeintrags](assets/blog_entry_images_side_by_side_v1_de.png){ class="shadow lightbox" title="Veröffentlichter Blogeintrag" }
 
 #### Zusammenfassung {: #entry_summary}
 
-Die Zusammenfassung ist fakultativ und wird als Vorschau eines Artikels oder Eintrags verwendet. Es kann sich somit auch um eine kurze Einleitung handeln.
+Die Zusammenfassung ist optional. OpenOlat zeigt sie als Vorschau des Eintrags, sie kann also auch eine kurze Einleitung sein.
 
 #### Audio- oder Videodatei {: #entry_media_file}
 
@@ -76,26 +78,25 @@ Optional hängen Sie dem Eintrag eine Datei in den Formaten MP3, MP4, M4V, M4A o
 
 #### Datum und Zeit der Veröffentlichung {: #entry_publication_date}
 
-Das Datum und die Zeit der Veröffentlichung werden dafür verwendet, den Eintrag für andere Teilnehmende sichtbar zu machen oder zu verbergen. Liegt der Zeitpunkt der Veröffentlichung in der Vergangenheit, so wird der Eintrag sichtbar. Liegt er hingegen in der Zukunft, so handelt es sich um eine geplante Veröffentlichung des Eintrags.
+Mit Datum und Zeit der Veröffentlichung legen Sie fest, ab wann andere Teilnehmende den Eintrag sehen. Liegt der Zeitpunkt in der Vergangenheit, ist der Eintrag sichtbar. Liegt er in der Zukunft, ist die Veröffentlichung geplant.
 
-Sie können den Eintrag durch Klicken auf "Veröffentlichen" für andere zugänglich machen (ab dem angegebenen Datum). Wenn Sie an Ihrem Eintrag zu einem späteren Zeitpunkt weiterschreiben wollen, klicken Sie auf "Entwurf speichern". "Abbrechen" verwirft Ihre Änderungen und schliesst das Formularfenster. In der Liste der Einträge zeigt eine farbige Markierung den Status: "Entwurf" in Gelb, "Geplant" in Blau für eine Veröffentlichung in der Zukunft und "Veröffentlicht" in Grün. Veröffentlichte Einträge sind für andere sichtbar.
+Mit "Veröffentlichen" machen Sie den Eintrag ab dem angegebenen Datum für andere zugänglich. Wenn Sie an Ihrem Eintrag zu einem späteren Zeitpunkt weiterschreiben wollen, klicken Sie auf "Entwurf speichern". "Abbrechen" verwirft Ihre Änderungen und schliesst das Formularfenster. In der Liste der Einträge zeigt eine farbige Markierung den Status: "Entwurf" in Gelb, "Geplant" in Blau für eine Veröffentlichung in der Zukunft und "Veröffentlicht" in Grün. Veröffentlichte Einträge sind für andere sichtbar.
 
-Sie können den neuen Eintrag entweder direkt veröffentlichen, das Datum der Veröffentlichung wählen oder den Eintrag als Entwurf speichern.
 [Zum Seitenanfang ^](#blog_blogging)
 
 
 ## Beiträge löschen {: #blog_blogging_delete_posts}
 
-Zu jedem Blogbeitrag erscheint ein Button "Löschen", wenn Sie dazu berechtigt sind (weil Sie der/die Autor:in sind oder Moderator:in/Kursbesitzer:in).
+Am Beitrag erscheint "Löschen" bei Ihren eigenen Beiträgen, als Moderator:in oder Besitzer:in des Kurses bei allen Beiträgen.
 
-In der Tabellenansicht ist eine Massenaktion zum Löschen mehrerer Beiträge verfügbar. Selektieren Sie dazu die Checkboxen der ersten Spalte. Verschiedene Filter und die Suchfunktion unterstützen die Suche bestimmter Beiträge.
+In der Tabellenansicht löschen Sie mit einer Massenaktion mehrere Beiträge auf einmal. Wählen Sie dazu die Checkboxen in der ersten Spalte und klicken Sie auf "Löschen". Filter und Suche helfen, bestimmte Beiträge zu finden.
 
 [Zum Seitenanfang ^](#blog_blogging)
 
 
 ## Beiträge kommentieren {: #blog_blogging_comment_posts}
 
-Die Kursmitglieder können Blogbeiträge mit einem Text kommentieren. An Kommentare können auch Dateien angehängt und hochgeladen werden.
+Ist in der Blog-Lernressource "Beiträge kommentieren" eingeschaltet, kommentieren die Kursmitglieder Blogbeiträge mit einem Text und hängen Dateien an, siehe [Blog: Administration](Blog_Administration.de.md#tab_options).
 
 Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie in die Kommentarzeile. Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
 
@@ -110,8 +111,8 @@ Mit "Datei anhängen" hängen Sie Ihrem Kommentar eine Datei an. Im Dialog "Date
 
 ## Beiträge bewerten {: #blog_blogging_assess_posts}
 
-Zur Bewertung können Kursmitglieder für Beiträge 1-5 Sterne vergeben. <br>
-Im Normalzustand sehen Sie die Bewertungen der anderen Lesenden angezeigt. Sobald Sie Ihre Maus über die Sterne bewegen, können Sie Ihre eigene Bewertung ergänzen. 
+Ist in der Blog-Lernressource "Beiträge bewerten" eingeschaltet, bewerten die Kursmitglieder Beiträge mit 1 bis 5 Sternen.<br>
+Die Sterne zeigen zuerst die Bewertungen der anderen Lesenden. Fahren Sie mit der Maus über die Sterne und klicken Sie auf den Stern Ihrer eigenen Bewertung.
 
 ![Bewertung der anderen mit vier von fünf Sternen, Durchschnitt 4.0 / 5 und Anzahl Bewertungen hervorgehoben](assets/blog_blogging_assess_v2_de.png){ class="shadow lightbox" title="Blogbeitrag in der Kursansicht · 2026.10.08" }
 
@@ -120,23 +121,23 @@ Im Normalzustand sehen Sie die Bewertungen der anderen Lesenden angezeigt. Sobal
 
 ## Einen Blog moderieren {: #blog_blogging_moderate}
 
-Unter dem Moderieren eines Blogs versteht man das Lenken oder ein lenkendes Eingreifen in eine Kommunikation. In einem Blog heisst das, dass eine Person überprüft, ob die Beiträge angemessen sind oder korrigiert, bzw. eventuell sogar gelöscht werden müssen. Moderator:innen eines OpenOlat-Blogs haben die Rechte alle Einträge zu lesen, zu kommentieren, zu editieren, zu löschen und neue Einträge zu erstellen. Zudem können Moderator:innen auch den Titel und die Beschreibung des ganzen Feeds anpassen.
+Moderieren heisst, lenkend in eine Kommunikation einzugreifen. Im Blog prüfen Moderator:innen, ob die Beiträge angemessen sind, und korrigieren oder löschen sie bei Bedarf. Moderator:innen eines OpenOlat-Blogs lesen, kommentieren, bearbeiten und löschen alle Einträge und erstellen neue. Mit dem Button "Blog bearbeiten" passen sie zudem Titel und Beschreibung des ganzen Blogs an.
 
-Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#moderator))
+Besitzer:innen des Kurses moderieren immer. Das Recht "Moderator" vergeben Sie im Kursbaustein zusätzlich an Betreuer:innen oder gezielt an einzelne Personen, siehe [Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md#moderator).
 
 !!! info "Wichtig"
 
-    Sind Blogeinträge importiert worden, können sie nur von Moderator:innen, Besitzer:innen oder Betreuer:innen gelöscht werden. (Als Ersteller:innen der Beiträge sind dort weiterhin die ursprünglichen Autor:innen angezeigt.)
+    Blogeinträge aus einem Blog, der als Datei importiert wurde, löschen nur Moderator:innen und Besitzer:innen des Kurses. Als Ersteller:innen zeigen die Beiträge weiterhin die ursprünglichen Autor:innen.
 
 [Zum Seitenanfang ^](#blog_blogging)
 
 
-## Beiträge abonnieren {: #blog_blogging_abo}
+## Beiträge abonnieren [:octicons-tag-16:{ title="ab Release 11.5 (OO-1620)" }](https://track.frentix.com/issue/OO-1620) {: #blog_blogging_abo}
 
-Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen. Eine Anleitung dazu finden Sie hier: [Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)
+Mit einem Abonnement verpassen Sie keine neuen Einträge. Wie Sie Abonnements einrichten, zeigt das Video [Abonnements einrichten](https://www.youtube.com/embed/h9gOqt7TR7Q).
 
 Wenn Sie benachrichtigt werden möchten, sobald irgendein neuer Beitrag eingefügt wird, abonnieren Sie den Blog als Ganzes. Dazu dient das Glockensymbol "Abonnieren" rechts über der Liste der Einträge.
-Wenn Sie nur benachrichtigt werden möchten, sobald ein Kommentar zu einem Blogeintrag abgegeben wird, können Sie auch ein solches Abo wählen.
+Möchten Sie nur bei neuen Kommentaren zu den Blogeinträgen benachrichtigt werden, wählen Sie beim Glockensymbol "Nur Kommentare abonnieren".
 
 Wenn Sie den Link zum Blog weitergeben möchten, finden Sie den Link links über der Beitragsliste unter "RSS".
 
@@ -147,7 +148,7 @@ Möchten Sie den direkten Link zu einem einzelnen Beitrag weitergeben, können S
 
 ## Beiträge im Media Center ablegen {: #blog_blogging_media_center}
 
-Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An Ihren eigenen Beiträgen erscheint dafür der Button "Zum Mediencenter hinzufügen".
+Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An Ihren eigenen Beiträgen erscheint dafür der Button "Zum Media Center hinzufügen".
 
 [Zum Seitenanfang ^](#blog_blogging)
 
@@ -156,9 +157,12 @@ Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An
 
 **Auf dieser Seite erwähnt**<br>
 [Blog im Kursbaustein konfigurieren >](../learningresources/Blog_Configuration.de.md)<br>
-[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
+[Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Blog: Administration >](Blog_Administration.de.md)
 
 **Weiterführend**<br>
+[Blog: Übersicht >](Blog/index.de.md)<br>
 [Blog erstellen >](../learningresources/Blog_Create.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)
 

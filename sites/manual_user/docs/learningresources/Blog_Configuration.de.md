@@ -2,6 +2,8 @@
 
 Einen Blog konfigurieren Sie an zwei Orten: im Kursbaustein und in der Lernressource. Im Kursbaustein legen Sie fest, welcher Blog im Kurs erscheint und wer darin moderiert und Beiträge erstellt. Diese Seite beschreibt den Kursbaustein. Was für den Blog in allen Kursen gilt, legen Sie in der Lernressource fest, siehe [Blog: Administration](Blog_Administration.de.md).
 
+Gilt ein Blog für den ganzen Kurs, binden Sie ihn statt als Kursbaustein über die Toolbar des Kurses ein. Unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` schalten Sie dazu die Checkbox "Blog" ein und wählen mit "Auswählen" eine vorhandene Blog-Lernressource, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). In diesem Blog erstellen und moderieren Besitzer:innen und Betreuer:innen des Kurses die Beiträge. Teilnehmer:innen lesen sie und kommentieren und bewerten sie, wenn die Lernressource das erlaubt. Sollen Teilnehmer:innen selbst Beiträge schreiben, binden Sie den Blog als Kursbaustein ein.
+
 ## Konfiguration im Kursbaustein "Blog" {: #blog_configuration_course_element}
 
 Nachdem Sie im Kurseditor einen Kursbaustein "Blog" eingefügt haben, finden Sie die Konfigurationen zu Lernressource und Berechtigungen im Tab "Blog-Lerninhalt" des Kursbausteins.
@@ -86,6 +88,7 @@ Ob Beiträge bewertet und kommentiert werden können und wer bei neuen Kommentar
 
 **Auf dieser Seite erwähnt**<br>
 [Blog: Administration >](Blog_Administration.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Bloggen >](../learningresources/Blog_Blogging.de.md)
 

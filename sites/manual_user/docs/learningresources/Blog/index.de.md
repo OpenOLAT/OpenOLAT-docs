@@ -13,42 +13,25 @@ Im Kurs | Kursbaustein "Blog" oder Eintrag "Blog" in der Toolbar des Kurses
 
 ## Was sind Blogs?
 
-Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Blogs werden häufig als Online-Journal für fachbezogene oder persönliche Information eingesetzt. Mit einem Blog stellen Sie Ihren Teilnehmer:innen Inhalte als Text, Bild oder Video zur Verfügung. Die Einträge erscheinen zeitlich sortiert, die neuesten immer oben. Teilnehmer:innen abonnieren Blogs über den RSS-Feed. Sind Bewertungen und Kommentare in der Lernressource eingeschaltet, bewerten sie Einträge und schreiben Kommentare dazu.
+Der Begriff "Blog" setzt sich aus "World Wide Web" und "Log" für Logbuch zusammen. Viele führen einen Blog als Online-Journal für fachbezogene oder persönliche Information. Als Lernressource legen Sie den Blog einmal an und binden ihn in einen oder mehrere Kurse ein: als Kursbaustein, also als Eintrag im Kursmenü, oder über die Toolbar, die Werkzeugleiste oben im Kurs. Teilnehmer:innen abonnieren einen Blog, um über neue Beiträge benachrichtigt zu werden. Sind Bewertungen und Kommentare in der Lernressource eingeschaltet, bewerten sie die Beiträge und schreiben Kommentare dazu.
 
-Eine Alternative zu einem Blog ist der Kursbaustein [Forum](../Course_Element_Forum.de.md).
+## Seiten zum Blog {: #pages}
 
-## Blog erstellen
+Diese Seiten beschreiben den Blog, in der Reihenfolge der Navigation:
 
-Für einen Blog im Kurs erstellen Sie die Lernressource Blog und binden sie in den Kurs ein. Wie danach im Kurs Beiträge ergänzt, bearbeitet, kommentiert und bewertet werden, beschreibt die Seite [Bloggen](../Blog_Blogging.de.md).
+Seite | Wozu
+---------|----------
+[Erstellen](../Blog_Create.de.md) | Eine Blog-Lernressource anlegen und in den Kurs einbinden, im Unterschied zum Erstellen eines Beitrags.
+[Administration](../Blog_Administration.de.md) | Die Einstellungen der Lernressource, die in allen Kursen gelten, etwa ob Beiträge bewertet und kommentiert werden und wer bei neuen Kommentaren eine E-Mail erhält.
+[Kursbaustein](../Blog_Configuration.de.md) | Festlegen, welcher Blog im Kurs erscheint, wer ihn moderiert und wer Beiträge erstellt, dazu der Weg über die Toolbar für einen Blog des ganzen Kurses.
+[Bloggen](../Blog_Blogging.de.md) | Beiträge lesen, hinzufügen, kommentieren, bewerten, moderieren und abonnieren.
 
-[Zu den Details >](../Blog_Create.de.md)
-
-Falls Sie noch wenig Erfahrung mit dem Erstellen von Kursen haben, finden Sie hier eine Schritt-für-Schritt-Anleitung zum Erstellen und Einbinden:<br>
-[Wie erstelle ich einen Blog?](../../../manual_how-to/blog/blog.de.md)
-
-
-## Blog konfigurieren
-
-Einen Blog konfigurieren Sie in der Lernressource Blog und dort, wo er in den Kurs eingebunden ist: im Kursbaustein "Blog" oder in der Toolbar des Kurses.
-
-[Blog im Kursbaustein konfigurieren >](../Blog_Configuration.de.md)<br>
-[Blog: Administration >](../Blog_Administration.de.md)
-
-
-## Bloggen
-
-Bloggen heisst, mit einem erstellten und konfigurierten Blog im Kurs zu arbeiten. Je nach Berechtigung im Kursbaustein können Teilnehmer:innen und Betreuer:innen:
-
-* den Blog aufrufen und lesen
-* Beiträge hinzufügen
-* Beiträge kommentieren
-* Beiträge bewerten
-
-[Zu den Details >](../Blog_Blogging.de.md)
+Für Diskussionen im Kurs ist der Kursbaustein [Forum](../Course_Element_Forum.de.md) eine Alternative zum Blog.
 
 
 ## Weiterführende Informationen {: #further_information}
 
+[Wie erstelle ich einen Blog? >](../../../manual_how-to/blog/blog.de.md)<br>
 [Kursbaustein "Blog" >](../Course_Element_Blog.de.md)<br>
 [Toolbar >](../Course_Settings_Toolbar.de.md)<br>
 [Podcast: Übersicht >](../Podcast/index.de.md)

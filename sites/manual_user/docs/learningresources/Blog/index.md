@@ -13,42 +13,25 @@ In the course | Course element "Blog" or entry "Blog" in the course toolbar
 
 ## What are blogs?
 
-The term "Blog" comprises "World Wide Web" and "Log" for logbook. Blogs are often used as online journals for professional or personal information. With a blog, you provide your participants with content as text, image or video. The entries appear sorted by time, the latest always at the top. Participants subscribe to blogs via the RSS feed. If ratings and comments are switched on in the learning resource, they rate entries and write comments on them.
+The term "Blog" comprises "World Wide Web" and "Log" for logbook. Many people run a blog as an online journal for professional or personal information. As a learning resource, you create the blog once and embed it in one or more courses: as a course element, that is an entry in the course menu, or via the toolbar, the bar with the course tools at the top of the course. Participants subscribe to a blog to be notified of new posts. If ratings and comments are switched on in the learning resource, they rate the posts and write comments on them.
 
-An alternative to a blog is the ["Forum" course element](../Course_Element_Forum.md).
+## Pages about the blog {: #pages}
 
-## Create a blog
+These pages describe the blog, in the order of the navigation:
 
-For a blog in the course, you create the Blog learning resource and embed it in the course. How posts are then added, edited, commented on and rated in the course is described on the page [Blogging](../Blog_Blogging.md).
+Page | Purpose
+---------|----------
+[Create](../Blog_Create.md) | Create a blog learning resource and embed it in the course, as opposed to creating a post.
+[Administration](../Blog_Administration.md) | The settings of the learning resource that apply in all courses, for example whether posts are rated and commented on and who receives an e-mail for new comments.
+[Course element](../Blog_Configuration.md) | Define which blog appears in the course, who moderates it and who creates posts, plus the way via the toolbar for a blog of the whole course.
+[Blogging](../Blog_Blogging.md) | Read, add, comment on, rate, moderate and subscribe to posts.
 
-[Further details >](../Blog_Create.md)
-
-If you have little experience with creating courses, you will find step-by-step instructions for creating and integrating them here:<br>
-[How do I create a blog?](../../../manual_how-to/blog/blog.md)
-
-
-## Configure a blog
-
-You configure a blog in the Blog learning resource and where it is embedded in the course: in the "Blog" course element or in the course toolbar.
-
-[Configure a blog in the course element >](../Blog_Configuration.md)<br>
-[Blog: Administration >](../Blog_Administration.md)
-
-
-## Blogging
-
-Blogging means working with a created and configured blog in the course. Depending on the permissions in the course element, participants and coaches can:
-
-* open and read the blog
-* add posts
-* comment on posts
-* assess posts
-
-[Further details >](../Blog_Blogging.md)
+For discussions in the course, the ["Forum" course element](../Course_Element_Forum.md) is an alternative to the blog.
 
 
 ## Further information {: #further_information}
 
+[How do I create a blog? >](../../../manual_how-to/blog/blog.md)<br>
 [Course Element "Blog" >](../Course_Element_Blog.md)<br>
 [Toolbar >](../Course_Settings_Toolbar.md)<br>
 [Podcast: Overview >](../Podcast/index.md)
