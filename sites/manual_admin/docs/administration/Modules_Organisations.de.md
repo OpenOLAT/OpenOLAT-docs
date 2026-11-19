@@ -86,9 +86,13 @@ Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Metadaten"`
 ![Markiertes Feld Bezeichnung mit dem ausgegrauten Wert default-org, darunter das Feld Name mit dem Wert OpenOlat](assets/organisations_edit_tab_metadata_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Standardorganisation · 2026.10.02" }
 
-Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen tragen Sie einen Standort und eine Beschreibung ein. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem ordnen Sie hier den Organisationstyp zu, wie er im Tab [Organisationstypen](#tab_types) definiert ist. Welche Typen zur Wahl stehen, hängt vom Typ der übergeordneten Organisation ab. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
+Im Tab "Metadaten" pflegen Sie die Angaben, an denen eine Organisation in OpenOlat erkannt wird. Neben der Bezeichnung und dem Namen tragen Sie einen Standort und eine Beschreibung ein. Ist die [Debitorennummer](#customer_number) eingeschaltet, steht zwischen Standort und Beschreibung zusätzlich das Feld "Debitorennummer". Die ID, eine Nummer, die OpenOlat selbst vergibt, und die Externe ID zeigt OpenOlat nur an, sie lassen sich hier nicht ändern. Ausserdem ordnen Sie hier den Organisationstyp zu, wie er im Tab [Organisationstypen](#tab_types) definiert ist. Welche Typen zur Wahl stehen, hängt vom Typ der übergeordneten Organisation ab. Eine Organisation, die gleichzeitig mehreren übergeordneten Organisationen angehört, lässt sich nicht abbilden.
 
-Bei Organisationen, die Systemadministrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
+Den Namen sehen Personen in der Baumstruktur und in jeder Liste, in der eine Organisation zur Wahl steht. Die Bezeichnung ist das Kürzel, an dem andere Systeme die Organisation finden, etwa der [Import im Course Planner](../../manual_user/area_modules/Course_Planner_Import_Export/index.de.md) oder die [REST API](REST_API.de.md); in der Liste des Tabs "Organisationsstruktur" steht sie in der Spalte "Org. ID". Vergeben Sie jede Bezeichnung nur einmal, sonst findet der Import im Course Planner die Organisation nicht.
+
+Die Externe ID ist die Kennung, unter der das System, aus dem Ihre Organisationsstruktur stammt, die Organisation führt. Dieses System setzt sie über die REST API und findet die Organisation daran wieder, auch wenn sich Name oder Bezeichnung ändern. Gleicht Ihr OpenOlat die Organisationen mit [LDAP](Login_LDAP.de.md)-Gruppen ab, trägt der Abgleich bei einer Organisation ohne Externe ID den Namen der Gruppe ein.
+
+Bei Organisationen, die Systemadministrator:innen selbst erstellt haben, lassen sich Bezeichnung und Name jederzeit ändern. Gesperrt und damit ausgegraut sind die beiden Felder nur, wenn ein externes System die Organisation verwaltet. Ein solches System kann über die [REST API](REST_API.de.md) auch die Debitorennummer einer Organisation setzen und das Feld dabei sperren.
 
 Anders bei der Standardorganisation, die das Bild zeigt: Ihre Bezeichnung ist immer gesperrt, ihr Name nicht. OpenOlat legt die Standardorganisation beim ersten Start mit dem Namen "OpenOLAT" und der Bezeichnung "default-org" an und sperrt dabei das Feld "Bezeichnung". OpenOlat erkennt die Standardorganisation an dieser Bezeichnung, deshalb bleibt das Feld auch später gesperrt. Den Namen können Systemadministrator:innen jederzeit im Tab "Metadaten" ändern, etwa in den Namen der eigenen Organisation. Im Bild trägt sie den geänderten Namen "OpenOlat". Kurse, Lernressourcen und Rollen bleiben beim Umbenennen unverändert zugeordnet. Verschieben oder löschen lässt sich die Standardorganisation nicht.
 
@@ -118,7 +122,7 @@ Sie finden den Tab in der System-Administration unter:<br>
 `Administration > Module > Organisationen > Tab "Organisationsstruktur" > "Name der Organisation" > Tab "Lernressourcen"`
 ![Liste der Kurse, die der Organisation direkt zugeordnet sind, darüber der Button "Kurse hinzufügen"](assets/organisations_edit_tab_learning_resources_v2_de.png){ class="shadow lightbox" title="Tab Lernressourcen einer Organisation · 2026.11.18" }
 
-Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordnet sind, und passen diese Zuordnung an. Mit "Kurse hinzufügen" suchen Sie in einem Dialog nach weiteren eigenen und verfügbaren Kursen und ordnen sie der Organisation zu. Um Kurse wieder zu entfernen, markieren Sie die Zeilen in der Liste und klicken auf "Entfernen". OpenOlat fragt im Dialog "Lernressourcen entfernen" nach, bevor es die Zuordnung aufhebt.
+Im Tab "Lernressourcen" sehen Sie, welche Lernressourcen der Organisation direkt zugeordnet sind, und passen diese Zuordnung an. Direkt zugeordnet heisst: genau dieser Organisation; was einer Unterorganisation zugeordnet ist, steht nur in deren Tab "Lernressourcen". Mit "Kurse hinzufügen" öffnen Sie einen Dialog, der mit dem Tab "Meine Einträge" beginnt, den Kursen, deren Besitzer:in Sie sind; "Alle Einträge" listet zusätzlich die Kurse der Organisationen, in denen Sie Administrator:in sind, "Suchen" und "Admin. Suchen" öffnen ein Suchformular für weitere Kurse. Markieren Sie die Kurse und ordnen Sie sie mit "Kurse hinzufügen" der Organisation zu. Um Lernressourcen wieder zu entfernen, markieren Sie die Zeilen in der Liste und klicken auf "Entfernen". OpenOlat fragt im Dialog "Lernressourcen entfernen" nach, bevor es die Zuordnung aufhebt.
 
 "Kurse hinzufügen" findet nur Kurse. Tests, Videos und andere Lernressourcen ordnen Sie einer Organisation in der Administrativen Freigabe der Lernressource zu, beschrieben unter [Kurseinstellungen - Tab Freigabe](../../manual_user/learningresources/Course_Settings_Share/index.de.md#section_share). Für mehrere Lernressourcen gleichzeitig gibt es die [Sammelaktion im Autorenbereich](../../manual_user/area_modules/Authoring_BulkActions.de.md#bulk_administrative_access).
 
@@ -126,7 +130,7 @@ Im Tab "Lernressourcen" sehen Sie, welche Kurse der Organisation direkt zugeordn
 
     OpenOlat prüft beim Entfernen nicht, ob der Kurs danach noch einer anderen Organisation zugeordnet ist. Wollen Sie einen Kurs in eine andere Organisation verschieben, klicken Sie deshalb zuerst in der neuen Organisation auf "Kurse hinzufügen". Erst danach entfernen Sie den Kurs in der bisherigen Organisation mit "Entfernen".
 
-Bildungsprodukte ordnen Sie einer Organisation im Course Planner in der jeweiligen Durchführung zu.
+Bildungsprodukte ordnen Sie einer Organisation im Course Planner in der jeweiligen [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md) zu.
 
 
 ### Linienvorgesetzte [:octicons-tag-16:{ title="ab Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
@@ -246,7 +250,9 @@ Die Liste zeigt die Zuordnungen aller Organisationen. Die Spalte "Unter-Domänen
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.de.md)<br>
 [REST API >](REST_API.de.md)<br>
+[LDAP >](Login_LDAP.de.md)<br>
 [Rollen zuweisen >](../usermanagement/Assign_roles.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../../manual_user/learningresources/Course_Settings_Share/index.de.md)<br>
 [Autorenbereich - Sammelaktionen >](../../manual_user/area_modules/Authoring_BulkActions.de.md)<br>

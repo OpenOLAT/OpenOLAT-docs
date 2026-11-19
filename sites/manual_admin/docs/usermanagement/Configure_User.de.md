@@ -86,7 +86,7 @@ Hier hinterlegen Sie das Datum, an dem OpenOlat das Konto deaktivieren soll. Das
 
 #### Tage bis Ablauf {: #days_until_expiry }
 
-Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "In 14 Tage". Liegt das Datum in der Vergangenheit, erscheint in Rot die Anzahl überfälliger Tage mit dem Hinweis, dass OpenOlat das Konto beim nächsten Durchlauf deaktiviert. Ohne Ablaufdatum entfällt das Feld.
+Ist ein Ablaufdatum gesetzt, zeigt dieses Feld die verbleibende Zeit im Format "In 14 Tagen". Liegt das Datum in der Vergangenheit, erscheint in Rot die Anzahl überfälliger Tage mit dem Hinweis, dass OpenOlat das Konto beim nächsten Durchlauf deaktiviert. Ohne Ablaufdatum entfällt das Feld.
 
 #### Automatischer Kontolebenszyklus {: #automatic_user_lifecycle }
 
@@ -100,22 +100,24 @@ Dieser Abschnitt zeigt, wie der systemweite automatische Kontolebenszyklus auf d
 
 Beide Fristen nennen neben der Anzahl Tage auch das Datum, an dem der Schritt fällig wird.
 
+"Letzter Login", "Reaktivierungsdatum" und "Inaktivierungsdatum" stehen auch weiter oben im Reiter, dort mit Uhrzeit. Dieser Abschnitt nennt sie nur mit Datum.
+
 "Tage bis Inaktivierung" erscheint nur bei aktivem Schalter "Konten nach Inaktivität deaktivieren", "Tage bis Löschung" nur bei aktivem Schalter "Inaktive Konten löschen". Beide Schalter finden Systemadministrator:innen in der System-Administration unter:<br>
 `Administration > Lebenszyklen > Konto`
 
 Sind die Schalter aus, greift kein automatischer Prozess, und die Fristen entfallen.
 
-Ein aktives Konto mit hinterlegtem Ablaufdatum führt beide Fristen nebeneinander: "Tage bis Ablauf" zählt bis zum Ablaufdatum, "Tage bis Inaktivierung" bis zum Ende der Frist seit dem letzten Login. Liegt das Ablaufdatum früher, nennt auch "Tage bis Inaktivierung" das Ablaufdatum.
+Ein aktives Konto mit hinterlegtem Ablaufdatum führt zwei Fristen nebeneinander: "Tage bis Ablauf" zählt bis zum Ablaufdatum, "Tage bis Inaktivierung" bis zum Ende der Frist seit dem letzten Login. Liegt das Ablaufdatum vor dem Ende dieser Frist, nennt auch "Tage bis Inaktivierung" das Ablaufdatum.
 
-!["Tage bis Ablauf" zeigt "In 831 Tage" zum Kontoablauf 31.12.2028, "Tage bis Inaktivierung" zeigt "In 704 Tage"](assets/user_management_account_tab_active_v2_de.png){ class="shadow lightbox" title="Reiter Konto eines aktiven Kontos" }
+!["Tage bis Ablauf" und "Tage bis Inaktivierung" zählen gleich viele Tage, die Inaktivierung fällt auf den Kontoablauf](assets/user_management_account_tab_active_v3_de.png){ class="shadow lightbox" title="Reiter Konto eines aktiven Kontos mit Kontoablauf · 2026.11.19" }
 
-Nach einer Reaktivierung kommt das Reaktivierungsdatum dazu, und die Frist trägt den Zusatz "(Karenzfrist)".
+Während der Karenzfrist nach einer Reaktivierung kommt das Reaktivierungsdatum dazu, und die Frist trägt den Zusatz "(Karenzfrist)".
 
-![Reaktivierungsdatum 16.09.2026 und die Frist "In 710 Tage, am 26.08.2028 (Karenzfrist)"](assets/user_management_account_tab_reactivated_v1_de.png){ class="shadow lightbox" title="Reiter Konto eines reaktivierten Kontos" }
+![Abschnitt "Automatischer Kontolebenszyklus" mit Reaktivierungsdatum und "Tage bis Inaktivierung" mit dem Zusatz "(Karenzfrist)"](assets/user_management_account_tab_reactivated_v2_de.png){ class="shadow lightbox" title="Reiter Konto eines reaktivierten Kontos · 2026.11.19" }
 
 Bei einem inaktiven Konto treten Inaktivierungsdatum und "Tage bis Löschung" an die Stelle der Inaktivierungsfrist.
 
-![Inaktivierungsdatum 16.09.2026 und die Frist "In 1101 Tage, am 21.09.2029"](assets/user_management_account_tab_inactive_v1_de.png){ class="shadow lightbox" title="Reiter Konto eines inaktiven Kontos" }
+![Abschnitt "Automatischer Kontolebenszyklus" mit Inaktivierungsdatum und "Tage bis Löschung" samt Datum der Löschung](assets/user_management_account_tab_inactive_v2_de.png){ class="shadow lightbox" title="Reiter Konto eines inaktiven Kontos · 2026.11.19" }
 
 [zum Seitenanfang ^](#user_configuration)
 

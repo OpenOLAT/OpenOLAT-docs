@@ -100,22 +100,24 @@ This section shows how the system-wide automatic user lifecycle affects this acc
 
 Besides the number of days, both periods also name the date on which the step falls due.
 
+"Last login", "Reactivation date" and "Inactivation date" also appear further up in the tab, there with the time. This section gives them with the date only.
+
 "Days until inactivation" only appears when the toggle "Deactivate user after inactivity" is active, "Days until deletion" only when the toggle "Delete inactive user" is active. System administrators find both toggles in the system administration under:<br>
 `Administration > Life cycles > User`
 
 If the toggles are off, no automatic process takes effect and the periods are omitted.
 
-An active account with a stored expiry date carries both periods next to each other: "Days until expiry" counts down to the expiry date, "Days until inactivation" to the end of the period since the last login. If the expiry date comes first, "Days until inactivation" also names the expiry date.
+An active account with a stored expiry date carries two periods next to each other: "Days until expiry" counts down to the expiry date, "Days until inactivation" to the end of the period since the last login. If the expiry date comes before the end of this period, "Days until inactivation" also names the expiry date.
 
-!["Days until expiry" shows "In 776 days" for the account expiration 12/31/2028, "Days until inactivation" ends on the same date](assets/user_management_account_tab_active_v2_en.png){ class="shadow lightbox" title="Account tab of an active account · 2026.11.16" }
+!["Days until expiry" and "Days until inactivation" count the same number of days, the inactivation falls on the account expiration](assets/user_management_account_tab_active_v3_en.png){ class="shadow lightbox" title="Account tab of an active account with account expiration · 2026.11.19" }
 
-After a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
+During the grace period after a reactivation the reactivation date is added, and the period carries the addition "(grace period)".
 
-![Reactivation date 9/16/2026 and the period "In 710 days, on 8/26/2028 (grace period)"](assets/user_management_account_tab_reactivated_v1_en.png){ class="shadow lightbox" title="Account tab of a reactivated account" }
+![Section "Automatic user lifecycle" with the reactivation date and "Days until inactivation" with the addition "(grace period)"](assets/user_management_account_tab_reactivated_v2_en.png){ class="shadow lightbox" title="Account tab of a reactivated account · 2026.11.19" }
 
 For an inactive account the inactivation date and "Days until deletion" take the place of the inactivation period.
 
-![Inactivation date 9/16/2026 and the period "In 1101 days, on 9/21/2029"](assets/user_management_account_tab_inactive_v1_en.png){ class="shadow lightbox" title="Account tab of an inactive account" }
+![Section "Automatic user lifecycle" with the inactivation date and "Days until deletion" including the date of the deletion](assets/user_management_account_tab_inactive_v2_en.png){ class="shadow lightbox" title="Account tab of an inactive account · 2026.11.19" }
 
 [To the top of the page ^](#user_configuration)
 

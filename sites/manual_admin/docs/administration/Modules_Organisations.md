@@ -82,9 +82,13 @@ You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Metadata"`
 ![Marked field Identifier with the greyed-out value default-org, below it the field Name with the value OpenOlat](assets/organisations_edit_tab_metadata_v1_en.png){ class="shadow lightbox" title="Metadata tab of the default organisation · 2026.10.02" }
 
-In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, you enter a location and a description. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID and the External ID; they cannot be changed here. In addition, you assign the organisation type here, as defined in the [Organisations types](#tab_types) tab. Which types are available depends on the type of the parent organisation. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
+In the "Metadata" tab, you maintain the details by which an organisation is recognized in OpenOlat. In addition to the identifier and the name, you enter a location and a description. If the [customer number](#customer_number) is switched on, the additional field "Customer number" appears between location and description. OpenOlat only displays the ID, a number that OpenOlat assigns itself, and the External ID; they cannot be changed here. In addition, you assign the organisation type here, as defined in the [Organisations types](#tab_types) tab. Which types are available depends on the type of the parent organisation. An organisation that belongs to several higher-level organisations at the same time cannot be represented.
 
-For organisations that system administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
+People see the name in the tree structure and in every list in which an organisation can be selected. The identifier is the short code by which other systems find the organisation, for example the [import in the Course Planner](../../manual_user/area_modules/Course_Planner_Import_Export/index.md) or the [REST API](REST_API.md); in the list of the "Organisations structures" tab, it appears in the "Org. ID" column. Assign each identifier only once, otherwise the import in the Course Planner does not find the organisation.
+
+The External ID is the key under which the system your organisation structure comes from keeps the organisation. This system sets it via the REST API and finds the organisation again by it, even if the name or identifier changes. If your OpenOlat synchronizes the organisations with [LDAP](Login_LDAP.md) groups, the synchronization enters the name of the group for an organisation without an External ID.
+
+For organisations that system administrators created themselves, the identifier and name can be changed at any time. The two fields are only locked, and therefore greyed out, if an external system manages the organisation. Via the [REST API](REST_API.md), such a system can also set the customer number of an organisation and lock the field in doing so.
 
 The default organisation, shown in the image, is different: its identifier is always locked, its name is not. On its first start, OpenOlat creates the default organisation with the name "OpenOLAT" and the identifier "default-org" and locks the "Identifier" field. OpenOlat recognizes the default organisation by this identifier, so the field remains locked later on as well. System administrators can change the name in the "Metadata" tab at any time, for example to the name of their own organisation. In the image, it bears the changed name "OpenOlat". Courses, learning resources and roles remain assigned unchanged when you rename it. The default organisation cannot be moved or deleted.
 
@@ -110,7 +114,7 @@ You find the tab in the system administration under:<br>
 `Administration > Modules > Organisations > Tab "Organisations structures" > "Organisation name" > Tab "Learning resources"`
 ![List of the courses directly assigned to the organisation, above it the "Add courses" button](assets/organisations_edit_tab_learning_resources_v2_en.png){ class="shadow lightbox" title="Learning resources tab of an organisation · 2026.11.18" }
 
-In the "Learning resources" tab, you see which courses are directly assigned to the organisation, and you adjust this assignment. With "Add courses", you search in a dialog for further own and available courses and assign them to the organisation. To remove courses again, select the rows in the list and click "Remove". OpenOlat asks for confirmation in the dialog "Remove learning resources" before it removes the assignment.
+In the "Learning resources" tab, you see which learning resources are directly assigned to the organisation, and you adjust this assignment. Directly assigned means: assigned to exactly this organisation; what is assigned to a sub-organisation only appears in its own "Learning resources" tab. With "Add courses", you open a dialog that starts with the "My entries" tab, the courses of which you are an owner; "All entries" also lists the courses of the organisations in which you are an administrator, "Search" and "Admin. search" open a search form for further courses. Select the courses and assign them to the organisation with "Add courses". To remove learning resources again, select the rows in the list and click "Remove". OpenOlat asks for confirmation in the dialog "Remove learning resources" before it removes the assignment.
 
 "Add courses" only finds courses. You assign tests, videos and other learning resources to an organisation in the Administrative access of the learning resource, described under [Course settings - Tab Share](../../manual_user/learningresources/Course_Settings_Share/index.md#section_share). For several learning resources at once, use the [bulk action in Authoring](../../manual_user/area_modules/Authoring_BulkActions.md#bulk_administrative_access).
 
@@ -118,7 +122,7 @@ In the "Learning resources" tab, you see which courses are directly assigned to 
 
     When you remove a course, OpenOlat does not check whether the course is still assigned to another organisation afterwards. If you want to move a course to another organisation, first click "Add courses" in the new organisation. Only then remove the course from the previous organisation with "Remove".
 
-You assign educational products to an organisation in the Course Planner, at the respective implementation.
+You assign educational products to an organisation in the Course Planner, at the respective [implementation](../../manual_user/area_modules/Course_Planner_Implementations.md).
 
 ### Line managers [:octicons-tag-16:{ title="from Release 15.3 (OO-4915)" }](https://track.frentix.com/issue/OO-4915){:target="_blank"} {: #edit_linemanager}
 
@@ -233,7 +237,9 @@ The list shows the mappings of all organisations. The "Subdomain allowed" column
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[Course Planner: Import / Export >](../../manual_user/area_modules/Course_Planner_Import_Export/index.md)<br>
 [REST API >](REST_API.md)<br>
+[LDAP >](Login_LDAP.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)<br>
 [Course settings - Tab Share >](../../manual_user/learningresources/Course_Settings_Share/index.md)<br>
 [Authoring - Bulk Actions >](../../manual_user/area_modules/Authoring_BulkActions.md)<br>
