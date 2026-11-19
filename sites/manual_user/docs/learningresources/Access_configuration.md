@@ -99,7 +99,7 @@ Select this option if no further restrictions apply. All OpenOlat users can book
 
 ![Icon PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
-With "PayPal Checkout", the booking is subject to a fee. You define an amount that the booking person pays with a PayPal account or a credit card (Visa/Mastercard). The option only appears if system administrators have [set it up](../../manual_admin/administration/Payment_PayPal.md) in the system administration. Only persons with the role author, learning resource manager or administrator can create an offer with "PayPal Checkout". Owners without one of these roles do not see the option.
+With "PayPal Checkout", the booking is subject to a fee. You define an amount that the booking person pays with a PayPal account or a credit card (Visa/Mastercard). The option only appears if system administrators have [set it up](../../manual_admin/administration/Payment_PayPal.md) in the system administration. Which role you need for an offer "PayPal Checkout" is described under [Offer concepts: PayPal](../basic_concepts/Offer_Concepts.md#offer_payed_paypal).
 
 ![Icon Without booking](assets/notBooking.jpg){ class="size24" } **Without booking**
 
@@ -180,6 +180,7 @@ Under `Course > Administration > Delete` or via the action menu ![Icon action me
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [PayPal Configuration >](../../manual_admin/administration/Payment_PayPal.md)<br>
+[Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
 [Roles and Rights: Guest access >](../basic_concepts/guest_access.md)<br>
 [Course Settings - Tab Options >](Course_Settings_Options.md)

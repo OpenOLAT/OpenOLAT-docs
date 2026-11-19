@@ -62,7 +62,7 @@ With "Copy to clipboard", you take the link into an e-mail. With "Show QR code",
 
 **Further reading**<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
-[Offer types >](../learningresources/Offer_Types.md)<br>
+[Offer concepts >](Offer_Concepts.md)<br>
 [Roles and Rights: User Types >](User_Types.md)<br>
 [Login Page >](../login_registration/Login_Page.md)
 

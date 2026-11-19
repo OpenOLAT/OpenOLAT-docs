@@ -190,7 +190,6 @@ stations:
       de: Zugangskonfiguration
       en: Access configuration
     further:
-      - manual_user/docs/learningresources/Offer_Types
       - reference_glossary/docs/glossary
 
   - id: pruefen

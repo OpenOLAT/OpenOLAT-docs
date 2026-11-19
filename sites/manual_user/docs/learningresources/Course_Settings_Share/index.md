@@ -166,7 +166,7 @@ For a new offer, the path therefore leads to the button under the lower heading:
 
 You can find more information about offers and the catalog here:<br>
 [Catalog >](../../area_modules/catalog2.0/index.md)<br>
-[Offer types >](../Offer_Types.md)<br>
+[Offer types >](../../basic_concepts/Offer_Concepts.md#offer_types)<br>
 [Create offers >](../../area_modules/catalog2.0_angebote.md)<br>
 [Offering implementations in the catalog >](../../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
@@ -214,7 +214,6 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [Module OAI-PMH >](../../../manual_admin/administration/Modules_OAI.md)<br>
 [Catalog 2.0 - Sorting/order >](../../area_modules/catalog2.0_sort_offers.md)<br>
 [Catalog 2.0: Overview >](../../area_modules/catalog2.0/index.md)<br>
-[Offer types >](../Offer_Types.md)<br>
 [Catalog 2.0 - Offers >](../../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../../area_modules/Course_Planner_Implementations.md)<br>
 [Course Settings - Tab Share: Configure LTI access to a course >](../LTI_Share_courses.md)

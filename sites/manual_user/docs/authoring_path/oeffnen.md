@@ -224,7 +224,6 @@ The first course is running. Now the things that did not matter at the start pay
 [Group Administration >](../groups/Group_Administration/index.md)
 
 **Further reading**<br>
-[Offer types >](../learningresources/Offer_Types.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 
 [To the top of the page ^](#oeffnen)

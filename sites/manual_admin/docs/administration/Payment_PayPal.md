@@ -60,7 +60,6 @@ Two further fields in the form "Configure PayPal Checkout" are optional. With th
 
 **Further reading**<br>
 [Payment modules: Overview >](Payment_modules/index.md)<br>
-[Offer types >](../../manual_user/learningresources/Offer_Types.md)<br>
 [Offer concepts >](../../manual_user/basic_concepts/Offer_Concepts.md)
 
 [To the top of the page ^](#PayPal)

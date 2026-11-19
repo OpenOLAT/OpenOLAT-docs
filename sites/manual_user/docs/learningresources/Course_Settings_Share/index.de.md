@@ -167,7 +167,7 @@ Für ein neues Angebot führt der Weg deshalb zum Button unter der unteren Über
 
 Mehr über Angebote und den Katalog finden Sie hier:<br>
 [Katalog >](../../area_modules/catalog2.0/index.de.md)<br>
-[Angebotsarten >](../Offer_Types.de.md)<br>
+[Angebotsarten >](../../basic_concepts/Offer_Concepts.de.md#offer_types)<br>
 [Angebote erstellen >](../../area_modules/catalog2.0_angebote.de.md)<br>
 [Anbieten von Durchführungen im Katalog >](../../area_modules/Course_Planner_Implementations.de.md#tab_catalog)
 
@@ -216,7 +216,6 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Modul OAI PMH >](../../../manual_admin/administration/Modules_OAI.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Katalog 2.0: Übersicht >](../../area_modules/catalog2.0/index.de.md)<br>
-[Angebotsarten >](../Offer_Types.de.md)<br>
 [Katalog 2.0 - Angebote >](../../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../../area_modules/Course_Planner_Implementations.de.md)<br>
 [Kurseinstellungen - Tab Freigabe: LTI Zugang zu einem Kurs konfigurieren >](../LTI_Share_courses.de.md)

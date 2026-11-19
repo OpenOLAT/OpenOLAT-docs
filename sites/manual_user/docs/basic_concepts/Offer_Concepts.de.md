@@ -6,7 +6,7 @@ Sind Kurse und andere Lerninhalte in OpenOlat erstellt, bestimmen Sie, welche Be
 
 * **Privat:** Tragen Sie registrierte OpenOlat-Benutzer:innen in der Mitgliederverwaltung der Kurs-Administration ein, werden sie Mitglieder des Kurses oder der Lernressource und greifen darauf zu.
 
-* **Buchbare und offene Angebote:** Besitzer:innen (Autor:innen) fügen dem Kurs ein Angebot hinzu. Benutzer:innen finden das Angebot im Katalog und werden Mitglied, indem sie es buchen.<br>
+* **Buchbare und offene Angebote:** Besitzer:innen fügen dem Kurs ein Angebot hinzu. Benutzer:innen finden das Angebot im Katalog und werden Mitglied, indem sie es buchen.<br>
 Für denselben Kurs erstellen Sie auch mehrere Angebote für verschiedene Zielgruppen.<br>
 So bieten Sie einen Kurs zum Beispiel internen Benutzer:innen kostenlos an und mit einem zweiten Angebot Externen kostenpflichtig.
 Ein Angebot erscheint im Katalog nur für bestimmte Organisationseinheiten oder für alle. Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft.
@@ -95,10 +95,10 @@ Der Abschnitt "Angebot" trägt zwei Überschriften "Angebot": Die obere zeigt in
 
 !!! tip "Tipp"
 
-    Erstellte Angebote sehen Sie auch unter:<br>
+    Wer Ihren Kurs über welches Angebot gebucht hat, sehen Sie unter:<br>
     `Kurs > Administration > Angebotsarten`<br>
-    Der Eintrag erscheint, sobald für den Kurs ein buchbares Angebot konfiguriert ist. Angebote konfigurieren Sie unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"` (siehe oben).<br>
-    [Details zur Angebotskonfiguration >](../../manual_user/learningresources/Access_configuration.de.md#offer)
+    Der Menüpunkt zeigt trotz seines Namens die Buchungsaufträge des Kurses, siehe [Angebotsarten](../learningresources/Offer_Types.de.md).<br>
+    [Details zur Angebotskonfiguration >](../learningresources/Access_configuration.de.md#offer)
 
 
 ### Angebotserstellung im Course Planner [:octicons-tag-16:{ title="ab Release 20.0 (OO-8301)" }](https://track.frentix.com/issue/OO-8301){:target="_blank"} {: #create_offers_implementation}
@@ -115,21 +115,38 @@ Um eine Durchführung im Katalog anzubieten, öffnen Sie die Durchführung im Co
 
 ## Die Angebotsarten {: #offer_types}
 
-Diese Angebotsarten stehen zur Wahl:
+Die Angebotsart legt fest, wie Personen Zugang zu einem Kurs oder einer Durchführung erhalten: ohne Buchung, als Gast, mit einer freien Buchung, mit einem Zugangscode oder kostenpflichtig. Welche Angebotsarten zur Wahl stehen, hängt davon ab, ob Sie einen Kurs oder eine Durchführung anbieten:
 
 |                       | Mitgliedstatus  |                                 | verfügbar in |
 | --------------------- | --------------- |-------------------------------- | --- |
 | <b>Ohne Buchung</b>    | ohne  |Mit diesem Angebot ist die Ressource ohne eine Mitgliedschaft für Benutzer:innen zugänglich. | Eigenständiger Kurs |
+| <b>Gastzugang</b>    | ohne  | Mit diesem Angebot ist die Ressource für Gäste ohne Registrierung zugänglich. | Eigenständiger herkömmlicher Kurs, kein Lernpfadkurs |
 | <b>Frei verfügbar</b>  | Mitgliedschaft | Mit diesem Angebot ist die Ressource buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs und Durchführung |
 | <b>Zugangscode</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit einem Zugangscode buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs und Durchführung |
-| <b>PayPal Checkout</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit PayPal kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. Das Angebot erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in, siehe [PayPal](#offer_payed_paypal). | Eigenständiger Kurs und Durchführung |
+| <b>PayPal Checkout</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit PayPal kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. Wer dieses Angebot erstellt, steht unter [PayPal](#offer_payed_paypal). | Eigenständiger Kurs und Durchführung |
 | <b>Rechnung</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource per Rechnung kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Durchführung |
 
-Beim Erstellen wählen Sie die Angebotsart über den Button "Angebot hinzufügen".
+Die Angebotsart wählen Sie beim Erstellen eines Angebots im Menü neben "Angebot hinzufügen" oder im Dialog, den ein Klick auf "Angebot hinzufügen" öffnet. Der Dialog gruppiert die Angebotsarten nach Mitgliedschaft. Hat der Kurs oder die Durchführung noch kein Angebot, stehen dieselben Angebotsarten unter "Noch kein Angebot erstellt" auch als Buttons bereit.
 
-![Aufgeklapptes Menü "Angebot hinzufügen" mit den Angebotsarten Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout](assets/offer_concepts_add_offer_types_v1_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung" }
+[Mehr über die Angebotsarten >](../learningresources/Access_configuration.de.md#angebotsoptionen)
 
-[Mehr über die Angebotsarten >](../../manual_user/learningresources/Access_configuration.de.md#angebotsoptionen)
+### Angebotsarten für Kurse {: #offer_types_courses}
+
+Ein Kurs mit dem Verwendungszweck "Eigenständig", in der Tabelle oben "Eigenständiger Kurs", bietet "Ohne Buchung", "Frei verfügbar", "Zugangscode" und "PayPal Checkout" zur Wahl. Voraussetzung ist, dass im Tab "Freigabe" der "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" steht. Den Weg zum Button "Angebot hinzufügen" zeigt [Angebotserstellung im Kurs](#create_offers_course). Ob "PayPal Checkout" zur Wahl steht, hängt vom eingerichteten Bezahlungsmodul und von Ihrer Rolle ab, siehe [PayPal](#offer_payed_paypal).
+
+In einem herkömmlichen Kurs, also keinem [Lernpfadkurs](../learningresources/Learning_path_course/index.de.md), steht zusätzlich die Angebotsart "Gastzugang" zur Wahl. Damit öffnen Sie den Kurs für Gäste ohne Registrierung, siehe [Rollen und Rechte: Gastzugang](guest_access.de.md).
+
+![Menü neben Angebot hinzufügen mit Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout, dieselben Angebotsarten als Buttons unter Noch kein Angebot erstellt](../learningresources/assets/offer_types_course1_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe eines Kurses · 2026.11.18" }
+
+![Ohne Buchung unter Ohne Mitgliedschaft, Frei verfügbar und Zugangscode unter Mit Mitgliedschaft, PayPal Checkout unter Mit Mitgliedschaft - Kostenpflichtig](../learningresources/assets/offer_types_course2_v2_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen eines Kurses · 2026.11.18" }
+
+### Angebotsarten für Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8236)" }](https://track.frentix.com/issue/OO-8236){:target="_blank"} {: #offer_types_implementations}
+
+Eine Durchführung im Course Planner bietet "Frei verfügbar", "Zugangscode", "Rechnung" und "PayPal Checkout" zur Wahl. Den Weg zu den Angeboten der Durchführung zeigt [Angebotserstellung im Course Planner](#create_offers_implementation). Ob "Rechnung" und "PayPal Checkout" dort zur Wahl stehen, hängt von den eingerichteten Bezahlungsmodulen ab, bei "PayPal Checkout" zusätzlich von Ihrer Rolle, siehe [PayPal](#offer_payed_paypal) und [Rechnung](#offer_payed_invoice).
+
+![Menü neben Angebot hinzufügen mit Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout, dieselben Angebotsarten als Buttons unter Noch kein Angebot erstellt](../learningresources/assets/offer_types_course_planner1_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Katalog einer Durchführung · 2026.11.18" }
+
+![Frei verfügbar und Zugangscode unter Mit Mitgliedschaft, Rechnung und PayPal Checkout unter Mit Mitgliedschaft - Kostenpflichtig](../learningresources/assets/offer_types_course_planner2_v2_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen einer Durchführung · 2026.11.18" }
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -149,11 +166,7 @@ Angebote im Katalog gibt es für
 
 Angebote zu einem Kurs erstellen Sie unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`<br>
-Wählen Sie vorher bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote".
-
-![Im Tab Freigabe wählen Sie zuerst "Buchbare und offene Angebote", danach zeigt das Menü "Angebot hinzufügen" die Angebotsarten eines Kurses](assets/offer_concepts_types_course1_v2_de.png){ class="shadow lightbox" title="Tab Freigabe der Kurseinstellungen · 2026.11.09" }
-
-![Auswahl der Angebotsart Ohne Buchung, Frei verfügbar, Zugangscode oder PayPal Checkout, gruppiert nach Mitgliedschaft und Kostenpflicht](assets/offer_concepts_types_course2_v1_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen eines Kurses" }
+Wählen Sie vorher bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote". Welche Angebotsarten ein Kurs bietet, zeigt [Angebotsarten für Kurse](#offer_types_courses).
 
 Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie hier >](../../manual_user/area_modules/catalog2.0_angebote.de.md)
 
@@ -181,11 +194,8 @@ Braucht eine Durchführung beim Buchen weitere Angaben, etwa Essenswünsche oder
 Mit Formularen wird die Buchung zu einem Assistenten, und der Buchungsauftrag entsteht erst im letzten Schritt. [Buchung mit Formularen als Assistent >](../area_modules/catalog2.0_angebote.de.md#offer_booking_wizard) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
 Angebote für Durchführungen erstellen Sie im Course Planner unter:<br>
-`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`
-
-![Über Durchführungen und den Tab Katalog erreichen Sie das Menü "Angebot hinzufügen" mit Frei verfügbar, Zugangscode, Rechnung und PayPal Checkout](assets/offer_concepts_types_course_planner1_v2_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung im Course Planner · 2026.11.09" }
-
-![Auswahl der Angebotsart Frei verfügbar, Zugangscode, Rechnung oder PayPal Checkout ohne die Angebotsart Ohne Buchung](assets/offer_concepts_types_course_planner2_v1_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen einer Durchführung" }
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`<br>
+Welche Angebotsarten eine Durchführung bietet, zeigt [Angebotsarten für Durchführungen](#offer_types_implementations).
 
 [Mehr über das Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog)
 
@@ -215,7 +225,7 @@ Mit dem Bezahlungsmodul PayPal bieten Autor:innen Lerninhalte gegen Bezahlung an
 
 Ist das PayPal Modul konfiguriert, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
 
-Ein Angebot "PayPal Checkout" erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Kursplaner:innen brauchen dafür zusätzlich eine dieser Rollen; ohne sie zeigt "Angebot hinzufügen" bei einer Durchführung "Frei verfügbar", "Zugangscode" und "Rechnung".
+Ein Angebot "PayPal Checkout" erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Besitzer:innen eines Kurses und Kursplaner:innen brauchen dafür zusätzlich eine dieser Rollen; ohne sie bietet "Angebot hinzufügen" nur die übrigen Angebotsarten an.
 
 [Einrichtung des Bezahlungsmoduls PayPal (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
@@ -362,7 +372,10 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
+[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Rollen und Rechte: Gastzugang >](guest_access.de.md)<br>
+[Lernpfadkurs - Überblick >](../learningresources/Learning_path_course/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>

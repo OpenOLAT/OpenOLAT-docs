@@ -62,7 +62,6 @@ Zwei weitere Felder im Formular "PayPal Checkout konfigurieren" sind optional. M
 
 **Weiterführend**<br>
 [Bezahlungsmodule: Übersicht >](Payment_modules/index.de.md)<br>
-[Angebotsarten >](../../manual_user/learningresources/Offer_Types.de.md)<br>
 [Angebotskonzepte >](../../manual_user/basic_concepts/Offer_Concepts.de.md)
 
 [Zum Seitenanfang ^](#PayPal)

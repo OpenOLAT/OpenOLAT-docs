@@ -6,7 +6,7 @@ Once courses and other learning content have been created in OpenOlat, you deter
 
 * **Private:** If you enter registered OpenOlat users in the member management of the course administration, they become members of the course or learning resource and access it.
 
-* **Bookable and open offers:** Owners (authors) add an offer to the course. Users find the offer in the catalog and become members by booking it.<br>
+* **Bookable and open offers:** Owners add an offer to the course. Users find the offer in the catalog and become members by booking it.<br>
 For the same course, you also create several offers for different target groups.<br>
 For example, you offer a course free of charge to internal users and, with a second offer, for a fee to external users.
 An offer appears in the catalog only for specific organisational units or for everyone. With the offer type "Without booking", not even a membership is required.
@@ -95,9 +95,9 @@ The "Offer" section carries two headings "Offer": the upper one shows in the ove
 
 !!! tip "Tip"
 
-    You also see the offers you created under:<br>
+    You see who booked your course through which offer under:<br>
     `Course > Administration > Offer types`<br>
-    The entry appears as soon as a bookable offer has been configured for the course. You configure offers under `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"` (see above).<br>
+    Despite its name, the menu item shows the booking orders of the course, see [Offer types](../learningresources/Offer_Types.md).<br>
     [Details on the offer configuration >](../learningresources/Access_configuration.md#offer)
 
 
@@ -115,21 +115,38 @@ To offer an implementation in the catalog, open the implementation in the Course
 
 ## Offer types {: #offer_types}
 
-These offer types are available:
+The offer type determines how persons get access to a course or an implementation: without booking, as a guest, with a free booking, with an access code or for a fee. Which offer types are available depends on whether you offer a course or an implementation:
 
 |                       | Member status  |                                 | available in |
 | --------------------- | --------------- |-------------------------------- | --- |
 | <b>Without booking</b>    | without  |With this offer, the resource is accessible to users without a membership. | Standalone course |
+| <b>Guest</b>    | without  | With this offer, the resource is accessible to guests without registration. | Standalone conventional course, not a learning path course |
 | <b>Freely available</b>  | Membership | This offer allows the resource to be booked. Users receive a corresponding membership that gives them access to the resource. | Standalone course and implementation |
 | <b>Access code</b> | Membership | With this offer, the resource can be booked with an access code. Users receive a corresponding membership that allows them to access the resource. | Standalone course and implementation |
-| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. The offer is created by persons with the role author, learning resource manager or administrator, see [PayPal](#offer_payed_paypal). | Standalone course and implementation |
+| <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. Who creates this offer is described under [PayPal](#offer_payed_paypal). | Standalone course and implementation |
 | <b>Invoice</b> | Membership | With this offer, the resource can be booked for a fee via invoice. Users receive a corresponding membership that gives them access to the resource. | Implementation |
 
-When creating an offer, you select the offer type via the button "Add offer".
-
-![Expanded menu "Add offer" with the offer types Freely available, Access code, Invoice and PayPal Checkout](assets/offer_concepts_add_offer_types_v1_en.png){ class="shadow lightbox" title="Tab Catalog of an implementation" }
+When creating an offer, you choose the offer type in the menu next to "Add offer" or in the dialog that a click on "Add offer" opens. The dialog groups the offer types by membership. If the course or the implementation does not have an offer yet, the same offer types are also available as buttons under "No offer created yet".
 
 [More about offer types >](../learningresources/Access_configuration.md#offer-options)
+
+### Offer types for courses {: #offer_types_courses}
+
+A course with the usage "Standalone", in the table above "Standalone course", offers "Without booking", "Freely available", "Access code" and "PayPal Checkout". The prerequisite is that "Access for participants" in the tab "Share" is set to "Bookable and open offers". The way to the button "Add offer" is shown in [Create offers in courses](#create_offers_course). Whether "PayPal Checkout" is available depends on the configured payment module and on your role, see [PayPal](#offer_payed_paypal).
+
+In a conventional course, that is not a [learning path course](../learningresources/Learning_path_course/index.md), the offer type "Guest" is also available. With it, you open the course to guests without registration, see [Roles and Rights: Guest access](guest_access.md).
+
+![Menu next to Add offer with Without booking, Freely available, Access code and PayPal Checkout, the same offer types as buttons under No offer created yet](../learningresources/assets/offer_types_course1_v2_en.png){ class="shadow lightbox" title="Offer section in the Share tab of a course · 2026.11.18" }
+
+![Without booking under Without membership, Freely available and Access code under With membership, PayPal Checkout under With membership - Chargeable](../learningresources/assets/offer_types_course2_v2_en.png){ class="shadow lightbox" title="Add offer dialog of a course · 2026.11.18" }
+
+### Offer types for implementations [:octicons-tag-16:{ title="from Release 20.0 (OO-8236)" }](https://track.frentix.com/issue/OO-8236){:target="_blank"} {: #offer_types_implementations}
+
+An implementation in the Course Planner offers "Freely available", "Access code", "Invoice" and "PayPal Checkout". The way to the offers of the implementation is shown in [Create offers in the Course Planner](#create_offers_implementation). Whether "Invoice" and "PayPal Checkout" are available there depends on the configured payment modules, for "PayPal Checkout" also on your role, see [PayPal](#offer_payed_paypal) and [Invoice](#offer_payed_invoice).
+
+![Menu next to Add offer with Freely available, Access code, Invoice and PayPal Checkout, the same offer types as buttons under No offer created yet](../learningresources/assets/offer_types_course_planner1_v2_en.png){ class="shadow lightbox" title="Offer section in the Catalog tab of an implementation · 2026.11.18" }
+
+![Freely available and Access code under With membership, Invoice and PayPal Checkout under With membership - Chargeable](../learningresources/assets/offer_types_course_planner2_v2_en.png){ class="shadow lightbox" title="Add offer dialog of an implementation · 2026.11.18" }
 
 [To the top of the page ^](#offer_concepts)
 
@@ -149,11 +166,7 @@ Offers in the catalog exist for
 
 You create offers for a course under:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`<br>
-First select the option "Bookable and open offers" under "Access for participants".
-
-![In the Share tab you first select "Bookable and open offers", then the menu "Add offer" shows the offer types of a course](assets/offer_concepts_types_course1_v1_en.png){ class="shadow lightbox" title="Share tab of the course settings · 2026.11.09" }
-
-![Selection of the offer type Without booking, Freely available, Access code or PayPal Checkout, grouped by membership and fee](assets/offer_concepts_types_course2_v1_en.png){ class="shadow lightbox" title="Dialog Add offer of a course · 2026.11.09" }
+First select the option "Bookable and open offers" under "Access for participants". Which offer types a course offers is shown in [Offer types for courses](#offer_types_courses).
 
 Detailed information about [offering courses in the catalog can be found here >](../area_modules/catalog2.0_angebote.md)
 
@@ -181,11 +194,8 @@ If an implementation needs further details at booking, for example dietary requi
 With forms, the booking becomes a wizard, and the booking order is only created in the last step. [Booking with forms as a wizard >](../area_modules/catalog2.0_angebote.md#offer_booking_wizard) [:octicons-tag-16:{ title="from Release 21.1 (OO-9742)" }](https://track.frentix.com/issue/OO-9742){:target="_blank"}
 
 You create offers for implementations in the Course Planner under:<br>
-`Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`
-
-![Via Implementations and the Catalog tab you reach the menu "Add offer" with Freely available, Access code, Invoice and PayPal Checkout](assets/offer_concepts_types_course_planner1_v1_en.png){ class="shadow lightbox" title="Catalog tab of an implementation in the Course Planner · 2026.11.09" }
-
-![Selection of the offer type Freely available, Access code, Invoice or PayPal Checkout without the offer type Without booking](assets/offer_concepts_types_course_planner2_v1_en.png){ class="shadow lightbox" title="Dialog Add offer of an implementation · 2026.11.09" }
+`Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`<br>
+Which offer types an implementation offers is shown in [Offer types for implementations](#offer_types_implementations).
 
 [More about offering implementations in the catalog >](../area_modules/Course_Planner_Implementations.md#tab_catalog)
 
@@ -215,7 +225,7 @@ With the PayPal payment module, authors offer learning content for payment. Syst
 
 Once the PayPal module is configured, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
 
-An offer "PayPal Checkout" is created by persons with the role author, learning resource manager or administrator. Course planners additionally need one of these roles; without it, "Add offer" shows "Freely available", "Access code" and "Invoice" for an implementation.
+An offer "PayPal Checkout" is created by persons with the role author, learning resource manager or administrator. Course owners and course planners additionally need one of these roles; without it, "Add offer" only offers the other offer types.
 
 [Setting up the PayPal payment module (Administration manual) >](../../manual_admin/administration/Payment_PayPal.md)
 
@@ -362,7 +372,10 @@ With auto-booking, OpenOlat does not show the offer description, and users only 
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Catalog 2.0 - Sorting/order >](../area_modules/catalog2.0_sort_offers.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
+[Offer types >](../learningresources/Offer_Types.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
+[Roles and Rights: Guest access >](guest_access.md)<br>
+[Learning path course - Overview >](../learningresources/Learning_path_course/index.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>
 [Group Administration >](../groups/Group_Administration/index.md)<br>

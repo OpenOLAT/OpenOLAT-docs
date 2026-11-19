@@ -224,7 +224,6 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)
 
 **Weiterführend**<br>
-[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 
 [Zum Seitenanfang ^](#oeffnen)

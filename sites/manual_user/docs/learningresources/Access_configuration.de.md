@@ -99,7 +99,7 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle Open
 
 ![Symbol PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
-Mit "PayPal Checkout" ist die Buchung kostenpflichtig. Sie legen einen Betrag fest, den die buchende Person mit einem PayPal-Konto oder einer Kreditkarte (Visa/Mastercard) bezahlt. Die Option erscheint nur, wenn Systemadministrator:innen sie in der System-Administration [eingerichtet](../../manual_admin/administration/Payment_PayPal.de.md) haben. Ein Angebot mit "PayPal Checkout" erstellen können nur Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Besitzer:innen ohne eine dieser Rollen sehen die Option nicht.
+Mit "PayPal Checkout" ist die Buchung kostenpflichtig. Sie legen einen Betrag fest, den die buchende Person mit einem PayPal-Konto oder einer Kreditkarte (Visa/Mastercard) bezahlt. Die Option erscheint nur, wenn Systemadministrator:innen sie in der System-Administration [eingerichtet](../../manual_admin/administration/Payment_PayPal.de.md) haben. Welche Rolle Sie für ein Angebot "PayPal Checkout" brauchen, steht unter [Angebotskonzepte: PayPal](../basic_concepts/Offer_Concepts.de.md#offer_payed_paypal).
 
 ![Symbol Ohne Buchung](assets/notBooking.jpg){ class="size24" } **Ohne Buchung**
 
@@ -180,6 +180,7 @@ Unter `Kurs > Administration > Löschen` bzw. über das 3-Punkte-Menü ![Symbol 
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [PayPal Konfiguration >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
+[Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](Course_Settings_Options.de.md)

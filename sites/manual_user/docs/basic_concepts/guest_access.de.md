@@ -62,7 +62,7 @@ Mit "In Zwischenablage kopieren" übernehmen Sie den Link in eine E-Mail. Mit "Q
 
 **Weiterführend**<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
-[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
+[Angebotskonzepte >](Offer_Concepts.de.md)<br>
 [Rollen und Rechte: Benutzertypen >](User_Types.de.md)<br>
 [Login-Seite >](../login_registration/Login_Page.de.md)
 
