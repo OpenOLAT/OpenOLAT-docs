@@ -90,19 +90,23 @@ For more information, see the pages [Access configuration](../Access_configurati
 
 ---
 
-## Role change {: #role_change}
+## Role change [:octicons-tag-16:{ title="from Release 15.0 (OO-4285)" }](https://track.frentix.com/issue/OO-4285) {: #role_change}
 
-With the role change, you check for yourself how participants experience your course: you see the course from their point of view, for example the flow of the course elements "Task", "Group task", "Check list" or "Participant folder". The "Role" menu in the toolbar shows the role in which you are currently viewing the course. If you created the course, this is the "Owner" role. In the same menu, you switch under "Switch to" to the "Participant view", as long as you are not a participant in the course yourself. In this view, you are not entered as participant. With the button "Leave participant view" below the toolbar, you return to your previous role.
+With the role change, you check for yourself how participants experience your course: you see the course from their point of view, for example the flow of the course elements "Task", "Group task", "Check list" or "Participant folder". The "Role" menu in the toolbar shows the role in which you are currently viewing the course. If you created the course, this is the "Owner" role. As owner, coach or CPL master coach, you switch in the same menu under "Switch to" to the "Participant view", as long as you are not a participant in the course yourself. In this view, you are not entered as participant. With the button "Leave participant view" below the toolbar, you return to your previous role.
 
 ![Role Owner, opened with the entry Participant view below Switch to](../assets/course_role_switch_v1_en.png){ class="shadow lightbox" title="Role menu in the course toolbar · 2026.11.18" }
 
 If you have other roles in the course, they are also in the menu, and you switch to the corresponding view.
 
-The menu does not distinguish between coaches and group coaches or between participants and group participants. It combines the options in the roles "Coach" and "Participant".
+The menu shows one entry "Coach" and one entry "Participant", regardless of whether you are entered directly in the course, via a group or via an implementation in the Course Planner.
 
 ### Initial role when opening a course [:octicons-tag-16:{ title="from Release 19.1 (OO-8231)" }](https://track.frentix.com/issue/OO-8231) {: #initial_role}
 
-Users with administrative roles, for example administrator or learning resource manager, open courses even if they are not members. If they are also entered as participant in a course, OpenOlat opens the course in the "Participant" role. This way they experience the course as it is intended for them as participant. Via the "Role" menu they switch to another role as usual.
+If you have an administrative role, for example administrator or learning resource manager, you open courses even if you are not a member. If you are also entered as participant in a course and have no other member role there, OpenOlat opens the course in the "Participant" role. This way you experience the course as it is intended for you as participant.
+
+If you are not a member of the course, OpenOlat opens it in your administrative role. If you have several of them, the first of your roles in this fixed order applies: "Principal", "Course planner", "Learning resource manager", "CPL master coach", "Administrator". For example, if you are learning resource manager and administrator, you see the course in the role "Learning resource manager". In the roles "Principal", "Course planner" and "CPL master coach", you see the course read-only. You switch to another of your roles via the "Role" menu. What the individual roles may do is described on the page [Roles](../../basic_concepts/Roles/index.md).
+
+The "Role" menu offers the "Participant view" to owners, coaches and CPL master coaches, as long as they are not participants in the course. If you want to see a course as participants see it, enter yourself as owner or coach in the members management. You do this in the role "Administrator" or "Learning resource manager": `Course > Administration > Members management`. As soon as you leave the members management, the "Participant view" is available in the "Role" menu. The next time you open the course, OpenOlat shows it in this member role. If you no longer need the membership, remove yourself again in the members management.
 
 Member roles always take precedence over administrative roles. Among the member roles, the default setting is: owner before coach before participant. Anyone who owns or coaches a course therefore sees it in this role immediately when opening it and switches to the participant view if necessary. Administrators define the order of the member roles in the system administration in the [module Learning resource](../../../manual_admin/administration/Modules_Learning_Resource.md), section "Default role priority":<br>
 `Administration > Modules > Learning resource > Tab "Settings"`

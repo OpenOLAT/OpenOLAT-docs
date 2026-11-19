@@ -102,19 +102,23 @@ Mehr dazu finden Sie auf den Seiten [Zugangskonfiguration / Freigabe](../Access_
 
 ---
 
-## Rollenwechsel {: #role_change}
+## Rollenwechsel [:octicons-tag-16:{ title="ab Release 15.0 (OO-4285)" }](https://track.frentix.com/issue/OO-4285) {: #role_change}
 
-Wie Teilnehmende Ihren Kurs erleben, prüfen Sie mit dem Rollenwechsel selbst: Sie sehen den Kurs aus ihrer Sicht, etwa den Ablauf der Kursbausteine "Aufgabe", "Gruppenaufgabe", "Checkliste" oder "Teilnehmer:innen Ordner". Das Menü "Rolle" in der Toolbar zeigt, in welcher Rolle Sie den Kurs gerade sehen. Haben Sie den Kurs erstellt, ist das die Rolle "Besitzer:in". Im selben Menü wechseln Sie unter "Wechseln zu" in die "Teilnehmer:innenansicht", solange Sie im Kurs nicht selbst Teilnehmer:in sind. In dieser Ansicht sind Sie nicht als Teilnehmer:in eingetragen. Mit dem Button "Teilnehmer:innenansicht verlassen" unter der Toolbar kehren Sie in Ihre vorherige Rolle zurück.
+Wie Teilnehmende Ihren Kurs erleben, prüfen Sie mit dem Rollenwechsel selbst: Sie sehen den Kurs aus ihrer Sicht, etwa den Ablauf der Kursbausteine "Aufgabe", "Gruppenaufgabe", "Checkliste" oder "Teilnehmer:innen Ordner". Das Menü "Rolle" in der Toolbar zeigt, in welcher Rolle Sie den Kurs gerade sehen. Haben Sie den Kurs erstellt, ist das die Rolle "Besitzer:in". Als Besitzer:in, Betreuer:in oder CPL Klassenlehrer:in wechseln Sie im selben Menü unter "Wechseln zu" in die "Teilnehmer:innenansicht", solange Sie im Kurs nicht selbst Teilnehmer:in sind. In dieser Ansicht sind Sie nicht als Teilnehmer:in eingetragen. Mit dem Button "Teilnehmer:innenansicht verlassen" unter der Toolbar kehren Sie in Ihre vorherige Rolle zurück.
 
 ![Rolle Besitzer:in, aufgeklappt mit dem Eintrag Teilnehmer:innenansicht unter Wechseln zu](../assets/course_role_switch_v1_de.png){ class="shadow lightbox" title="Menü Rolle in der Kurs-Toolbar · 2026.11.18" }
 
 Haben Sie im Kurs weitere Rollen, stehen sie ebenfalls im Menü, und Sie wechseln in die entsprechende Ansicht.
 
-Das Menü unterscheidet nicht zwischen Betreuer:innen und Gruppenbetreuer:innen oder zwischen Teilnehmer:innen und Gruppenteilnehmer:innen. Es fasst die Möglichkeiten in den Rollen "Betreuer:in" und "Teilnehmer:in" zusammen.
+Das Menü zeigt je einen Eintrag "Betreuer:in" und "Teilnehmer:in", gleich ob Sie direkt im Kurs, über eine Gruppe oder über eine Durchführung im Course Planner eingetragen sind.
 
 ### Initiale Rolle bei Kursaufruf [:octicons-tag-16:{ title="ab Release 19.1 (OO-8231)" }](https://track.frentix.com/issue/OO-8231) {: #initial_role}
 
-Benutzer:innen mit administrativen Rollen, etwa Administrator:in oder Lernressourcenverwalter:in, öffnen Kurse auch dann, wenn sie nicht Mitglied sind. Sind sie in einem Kurs zusätzlich als Teilnehmer:in eingetragen, öffnet OpenOlat den Kurs in der Rolle "Teilnehmer:in". So erleben sie den Kurs, wie er für sie als Teilnehmer:in gedacht ist. Über das Menü "Rolle" wechseln sie wie gewohnt in eine andere Rolle.
+Haben Sie eine administrative Rolle, etwa Administrator:in oder Lernressourcenverwalter:in, öffnen Sie Kurse auch dann, wenn Sie nicht Mitglied sind. Sind Sie in einem Kurs zusätzlich als Teilnehmer:in eingetragen und haben dort keine andere Mitgliedsrolle, öffnet OpenOlat den Kurs in der Rolle "Teilnehmer:in". So erleben Sie den Kurs, wie er für Sie als Teilnehmer:in gedacht ist.
+
+Sind Sie nicht Mitglied des Kurses, öffnet OpenOlat ihn in Ihrer administrativen Rolle. Haben Sie mehrere davon, gilt die erste Ihrer Rollen in dieser festen Reihenfolge: "Principal", "Kursplaner:in", "Lernressourcenverwalter:in", "CPL Klassenlehrer:in", "Administrator:in". Sind Sie zum Beispiel Lernressourcenverwalter:in und Administrator:in, sehen Sie den Kurs in der Rolle "Lernressourcenverwalter:in". In den Rollen "Principal", "Kursplaner:in" und "CPL Klassenlehrer:in" sehen Sie den Kurs nur lesend. In eine andere Ihrer Rollen wechseln Sie über das Menü "Rolle". Was die einzelnen Rollen dürfen, beschreibt die Seite [Rollen](../../basic_concepts/Roles/index.de.md).
+
+Die "Teilnehmer:innenansicht" bietet das Menü "Rolle" Besitzer:innen, Betreuer:innen und CPL Klassenlehrer:innen an, solange sie im Kurs nicht Teilnehmer:in sind. Möchten Sie einen Kurs sehen, wie Teilnehmende ihn sehen, tragen Sie sich in der Mitgliederverwaltung als Besitzer:in oder Betreuer:in ein. Das geht in der Rolle "Administrator:in" oder "Lernressourcenverwalter:in": `Kurs > Administration > Mitgliederverwaltung`. Sobald Sie die Mitgliederverwaltung verlassen, steht die "Teilnehmer:innenansicht" im Menü "Rolle". Beim nächsten Öffnen zeigt OpenOlat den Kurs in dieser Mitgliedsrolle. Brauchen Sie die Mitgliedschaft nicht mehr, entfernen Sie sich in der Mitgliederverwaltung wieder.
 
 Die Rollen als Mitglied gehen den administrativen Rollen immer vor. Unter den Mitgliedsrollen gilt in der Grundeinstellung: Besitzer:in vor Betreuer:in vor Teilnehmer:in. Wer einen Kurs besitzt oder betreut, sieht ihn beim Öffnen deshalb sofort in dieser Rolle und stellt bei Bedarf auf die Teilnehmer:innenansicht um. Die Reihenfolge der Mitgliedsrollen legen Administrator:innen in der System-Administration im [Modul Lernressource](../../../manual_admin/administration/Modules_Learning_Resource.de.md) fest, Abschnitt "Standard-Rollenpriorität":<br>
 `Administration > Module > Lernressource > Tab "Einstellungen"`
