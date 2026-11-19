@@ -12,14 +12,14 @@ Ihre Organisation kann weitere Möglichkeiten einrichten, etwa die Anmeldung üb
 
 ![Feld Anmeldename und Button Anmelden, darunter Identitätsanbieter, Gastzugang, Entdecken Sie unsere Angebote, Hier registrieren und Passwort vergessen?](assets/login_v2_de.png){ class="shadow lightbox" title="Beispiel einer Login-Seite mit weiteren Möglichkeiten" }
 
-Sieht Ihre Login-Seite anders aus als die Login-Seite ganz oben, hat Ihre Organisation sie eingerichtet. Helfen Ihnen die folgenden Erklärungen dann nicht weiter, kann nur Ihre Organisation Ihnen beim Login helfen, nicht frentix. Wie Sie sie erreichen, steht unter [Nichts davon hilft](#contact_support).
+Sieht Ihre Login-Seite anders aus als die Login-Seite ganz oben, hat Ihre Organisation sie eingerichtet. Helfen Ihnen die folgenden Erklärungen dann nicht weiter, kann nur Ihre Organisation Ihnen beim Login helfen, nicht frentix. Wo Sie nach ihren Kontaktangaben suchen können, steht unter [Nichts davon hilft](#contact_support).
 
 ## So melden Sie sich an {: #how_to_login}
 
 Welchen Weg Sie nehmen, hängt davon ab, wo Ihr Konto liegt. Es gibt drei Möglichkeiten, und Ihre Organisation entscheidet, welche davon auf Ihrer Login-Seite angeboten werden.
 
 * **Mit dem Konto Ihrer Organisation.** Die Buttons unter "Bitte wählen Sie Ihren Identitätsanbieter." führen zu einem externen Dienst, zum Beispiel "Microsoft Azure AD". Sie melden sich dort mit den Zugangsdaten an, die Sie auch für die übrigen Dienste Ihrer Organisation verwenden. OpenOlat speichert dieses Passwort nicht. Haben Sie sich bei Ihrer Organisation bereits angemeldet, gelangen Sie unter Umständen ohne weitere Eingabe direkt in OpenOlat (Single Sign On).
-* **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort sind hier in OpenOlat gespeichert. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Button "Mit OpenOlat Konto anmelden". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) Sie geben zuerst den Anmeldenamen ein und klicken auf "Anmelden". Danach fragt OpenOlat nach dem Passwort oder, wenn Sie einen Passkey eingerichtet haben, nach dem Passkey.
+* **Mit einem lokalen OpenOlat-Konto.** Anmeldename und Passwort geben Sie in OpenOlat selbst ein, nicht bei einem externen Dienst. Bei manchen Organisationen ist es dasselbe Passwort wie für ihre übrigen Dienste. Wo Sie beides eingeben, legt Ihre Organisation fest: Entweder steht die Eingabe direkt auf der Login-Seite, eingeleitet mit "Bitte melden Sie sich mit Ihrem persönlichen Anmeldenamen und Passwort an.", oder sie liegt hinter dem Button "Mit OpenOlat Konto anmelden". [:octicons-tag-16:{ title="ab Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) Sie geben zuerst den Anmeldenamen ein und klicken auf "Anmelden". Danach fragt OpenOlat nach dem Passwort oder, wenn Sie einen Passkey eingerichtet haben, nach dem Passkey.
 * **Ohne Konto.** "Gastzugang" und "Entdecken Sie unsere Angebote" geben Einblick ohne Anmeldung, "Hier registrieren" legt ein eigenes Konto an, sofern Ihre Organisation die Selbstregistrierung erlaubt.
 
 Sehen Sie mehrere Anmeldewege, hat Ihre Organisation sie für verschiedene Personengruppen eingerichtet, zum Beispiel "Microsoft Azure AD" für Mitarbeitende und das OpenOlat-Konto für externe Personen. Sie wählen den Weg, über den Ihre Organisation Ihnen Ihre Zugangsdaten gegeben hat. Mehr dazu unter [Mehrere Login-Verfahren kombinieren](Login_Concept.de.md#combined_login_methods).
@@ -36,7 +36,7 @@ Zeigt die Login-Seite "Sie wurden abgemeldet", ist kein Anmeldeproblem die Ursac
 
 ### Ich habe mein Passwort vergessen {: #forgot_password}
 
-Ein neues Passwort setzen Sie sich selbst, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Der Link "Passwort vergessen?" steht unterhalb der Anmeldung im Bereich "Brauchen Sie Hilfe?", zusammen mit dem Link "Häufig gestellte Fragen". Sehen Sie den Bereich nicht, klicken Sie zuerst auf "Mit OpenOlat Konto anmelden". Der Link startet den Assistenten "Zugangsdaten setzen", der Sie über einen Validierungscode ausweist und danach ein neues Passwort setzen lässt. Die Schritte beschreibt die Seite [Passwort](Password.de.md#reset_password).
+Ein neues Passwort setzen Sie sich selbst, sofern Ihre Organisation das erlaubt und an Ihrem Konto eine E-Mail-Adresse hinterlegt ist. Der Link "Passwort vergessen?" steht unterhalb der Anmeldung im Bereich "Brauchen Sie Hilfe?", zusammen mit dem Link "Häufig gestellte Fragen". Bei manchen Organisationen zeigt die Login-Seite statt des Felds "Anmeldename" zuerst den Button "Mit OpenOlat Konto anmelden". Klicken Sie dann auf diesen Button. Die Anmeldebox zeigt danach das Feld "Anmeldename" und darunter den Link "Passwort vergessen?". Der Link startet den Assistenten "Zugangsdaten setzen", der Sie über einen Validierungscode ausweist und danach ein neues Passwort setzen lässt. Erlaubt Ihre Organisation das nicht oder fehlt die E-Mail-Adresse, zeigt der Assistent stattdessen den Schritt "Support kontaktieren" mit dem Hinweis, sich an die Supportstelle zu wenden. Diese Stelle ist [Ihre Organisation](#contact_support). Die Schritte beschreibt die Seite [Passwort](Password.de.md#reset_password).
 
 ![Gastzugang, Katalog und Hier registrieren, darunter markiert der Bereich Brauchen Sie Hilfe? mit den Links Passwort vergessen? und Häufig gestellte Fragen](assets/login_help_area_v1_de.png){ class="shadow lightbox" title="Unterer Teil der Anmeldebox auf der Login-Seite" }
 
@@ -57,7 +57,7 @@ Verwenden Sie für Ihr Konto einen Passkey, trägt die E-Mail den Betreff "Schl�
 
 ### Ich habe von meiner Institution keine Zugangsdaten erhalten {: #no_account}
 
-OpenOlat legt keine Konten von sich aus an. Entweder legt Ihre Organisation das Konto für Sie an und teilt Ihnen den Anmeldenamen mit, oder sie erlaubt die Selbstregistrierung. Erhalten Sie nichts und zeigt die Login-Seite keinen Link "Hier registrieren", hat OpenOlat keinen Weg, Ihnen zu helfen: wenden Sie sich an [Ihre Organisation](#contact_support).
+Ein Konto entsteht auf einem von drei Wegen, je nachdem, was Ihre Organisation eingerichtet hat: Ihre Organisation legt es für Sie an und teilt Ihnen den Anmeldenamen mit, OpenOlat legt es bei Ihrer ersten Anmeldung mit dem Konto Ihrer Organisation an, oder Sie registrieren sich selbst. Erhalten Sie keinen Anmeldenamen, klappt die Anmeldung mit dem Konto Ihrer Organisation nicht und zeigt die Login-Seite keinen Link "Hier registrieren", kann nur [Ihre Organisation](#contact_support) Ihnen helfen.
 
 Zeigt die Login-Seite den Link "Hier registrieren", können Sie sich selbst ein Konto anlegen. Meldet OpenOlat dabei "Die Domäne Ihrer E-Mail Adresse ist nicht für die Selbstregistration freigeschaltet. Bitte verwenden Sie die E-Mail Adresse Ihrer Institution.", sind nur bestimmte E-Mail-Domänen für die Selbstregistrierung freigegeben. Welche das sind, weiss Ihre Organisation.
 
@@ -76,7 +76,7 @@ Wirft Sie der Identitätsanbieter Ihrer Organisation zurück, sagt Ihnen die Mel
 | "Ein technisches Problem ist aufgetreten (token_rejected). Bitte versuchen Sie es später noch einmal." | Der Austausch zwischen OpenOlat und dem Identitätsanbieter ist fehlgeschlagen. | Später erneut versuchen, sonst an Ihre Organisation wenden. |
 | "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal." | Ein Fehler ohne nähere Angabe. | Später erneut versuchen, sonst an Ihre Organisation wenden. |
 
-Die Meldungen bitten Sie, "die Systemadministration" zu kontaktieren. Gemeint ist damit die Stelle, die Ihnen den Zugang gegeben hat, nicht frentix. Wer das ist, steht unter [Nichts davon hilft](#contact_support).
+Die Meldungen bitten Sie, "die Systemadministration" zu kontaktieren. Gemeint ist damit die Stelle, die Ihnen den Zugang gegeben hat, nicht frentix. Woran Sie diese Stelle erkennen, steht unter [Nichts davon hilft](#contact_support).
 
 Unter der Meldung kann eine E-Mail-Adresse stehen, eingeleitet mit "Bei wiederkehrenden Problemen wenden Sie sich bitte an den Support unter:". Diese Adresse hat Ihre Organisation hinterlegt, sie ist nicht zwingend die Stelle, die Ihr Konto verwaltet. Mit dem Button "Zur Loginseite" kommen Sie zurück zur Anmeldung.
 
@@ -88,19 +88,27 @@ Diese beiden Meldungen betreffen den Zustand Ihres Kontos, nicht Ihre Eingabe. O
 
 Prüfen Sie zuerst den Anmeldenamen, denn er ist nicht zwingend Ihre E-Mail-Adresse. Welche Angabe gilt, legt Ihre Organisation fest. Die Meldung lautet "Anmeldename oder Passwort falsch. Bitte versuchen Sie es erneut oder nutzen Sie die Funktion «Passwort vergessen?»".
 
-Nach zu vielen Fehlversuchen sperrt OpenOlat die Anmeldung für diesen Anmeldenamen vorübergehend und meldet "Anmeldung ist für diesen Anmeldenamen gesperrt.". Warten Sie die in der Meldung genannte Zeit ab und melden Sie sich danach erneut an. Kennen Sie Ihren Anmeldenamen nicht, hilft nur [Ihre Organisation](#contact_support).
+Kennen Sie Ihren Anmeldenamen nicht, hilft Ihnen der Link "Passwort vergessen?" auch dafür: Der Assistent nimmt Ihre E-Mail-Adresse an, und die E-Mail mit dem Validierungscode nennt Ihren Anmeldenamen. Voraussetzungen und Schritte stehen unter [Ich habe mein Passwort vergessen](#forgot_password).
+
+Haben Sie alle Anmeldenamen ausprobiert, die Sie kennen, und erscheint die Meldung weiterhin, schauen Sie, ob Ihre Login-Seite weitere Buttons zur Anmeldung zeigt, wie im Bild gerahmt. Die Beschriftung kann bei Ihnen anders lauten. Melden Sie sich dann dort an, mit denselben Zugangsdaten wie für die übrigen Dienste Ihrer Organisation.
+
+![Der gerahmte Hinweis Bitte wählen Sie Ihren Identitätsanbieter. mit den Buttons darunter: hier finden Sie den Anmeldeweg Ihrer Organisation](assets/login_page_identity_providers_v1_de.png){ class="shadow lightbox" title="Login-Seite mit Identitätsanbietern · 2026.11.19" }
+
+Nach zu vielen Fehlversuchen sperrt OpenOlat die Anmeldung für diesen Anmeldenamen vorübergehend und meldet "Anmeldung ist für diesen Anmeldenamen gesperrt.". Warten Sie die Minuten ab, die die Meldung nennt, und melden Sie sich danach erneut an.
+
+Hilft nichts davon, probieren Sie nicht weiter. Welches Konto Sie haben und wie Ihr Anmeldename lautet, weiss nur Ihre Organisation. Vielleicht helfen Ihnen die allgemeinen Hinweise im nächsten Abschnitt, sie zu erreichen. Danke für Ihre Geduld.
 
 ## Nichts davon hilft {: #contact_support}
 
-Bringt Sie keiner der Wege oben weiter, brauchen Sie eine Person, die Ihr Konto verwalten darf. Diese Stelle ist immer dieselbe, unabhängig davon, woran die Anmeldung gescheitert ist.
+Bringt Sie keiner der Wege oben weiter, brauchen Sie eine Stelle, die Ihr Konto verwalten darf. Diese Stelle ist immer dieselbe, unabhängig davon, woran die Anmeldung gescheitert ist.
 
 !!! tip "Das ist Ihr Support"
 
-    Der richtige Support ist immer die Stelle, die Ihnen den Zugang zu OpenOlat gegeben hat: Ihre Schule, Ihre Hochschule, Ihre Unternehmung, Ihre Verwaltung, Ihr Weiterbildungsanbieter oder deren IT- und Studienadministration. Solange Sie nicht hineinkommen, kann nur diese Stelle Ihnen ein Konto einrichten, es entsperren oder Ihre E-Mail-Adresse ändern. frentix entwickelt OpenOlat und beantwortet keine Fragen zu einzelnen Konten. Wie Sie Ihre Organisation erreichen, weiss nur sie selbst. Prüfen Sie den Bereich "Brauchen Sie Hilfe?" und den Seitenfuss der Login-Seite: dort kann Ihre Organisation ihre Kontaktangaben hinterlegen. Sonst fragen Sie die Person, von der Sie den Kurs oder den Zugang erhalten haben.
+    Der richtige Support ist immer die Stelle, die Ihnen den Zugang zu OpenOlat gegeben hat: Ihre Schule, Ihre Hochschule, Ihre Unternehmung, Ihre Verwaltung, Ihr Weiterbildungsanbieter oder deren IT- und Studienadministration. Haben Sie sich selbst registriert, ist es die Organisation, deren Login-Seite Sie vor sich haben. Solange Sie nicht hineinkommen, kann nur diese Stelle Ihnen ein Konto einrichten, es entsperren, Ihnen Ihren Anmeldenamen nennen oder Ihre E-Mail-Adresse ändern. frentix entwickelt OpenOlat und beantwortet keine Fragen zu einzelnen Konten. Prüfen Sie den Bereich "Brauchen Sie Hilfe?" und den Seitenfuss der Login-Seite: dort kann Ihre Organisation ihre Kontaktangaben hinterlegen. Sonst fragen Sie die Person, von der Sie den Kurs oder den Zugang erhalten haben. Nennen Sie in Ihrer Anfrage die Adresse der Login-Seite, die Anmeldenamen, die Sie probiert haben, und die Meldung, die OpenOlat zeigt.
 
 ## Gastzugang {: #guest}
 
-Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie sich bei OpenOlat registrieren. Mehr zum Gastzugang steht auf der Seite [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
+Alternativ bietet Ihre Organisation auch einen Gastzugang an. Vermutlich sehen Sie dort aber die Angebote nicht, welche Ihrem Konto zugewiesen wurden. Der Gastzugang gewährt Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, brauchen Sie ein aktives Konto. Mehr zum Gastzugang steht auf der Seite [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
 
 ## Browser {: #browsercheck}
 
@@ -120,7 +128,7 @@ Grundsätzlich muss Ihr Browser Session Cookies akzeptieren und Javascript muss 
 Nach dem Login gelangen Sie entweder
 
 * auf Ihre persönliche Startseite in OpenOlat,
-* auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält,
+* auf eine Infoseite, eine Seite, die in der Regel generelle Informationen zu verschiedenen Themen enthält,
 * auf das [OpenOlat Portal](../basic_concepts/Portal_configuration.de.md) oder
 * auf eine von Ihnen selbst festgelegte Startseite.
 
@@ -132,6 +140,7 @@ Beim Aufruf des Katalogs auf der Login-Seite wird der [Web-Katalog](../area_modu
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Login-Konzept >](Login_Concept.de.md)<br>
 [Passkey >](Passkey.de.md)<br>
 [One Time Code >](One_Time_Code.de.md)<br>
 [Session-Timeout und Logout >](../basic_concepts/Session_Timeout_and_Logout.de.md)<br>
@@ -145,8 +154,9 @@ Beim Aufruf des Katalogs auf der Login-Seite wird der [Web-Katalog](../area_modu
 [Extern verfügbarer Katalog >](../area_modules/catalog2.0_web.de.md)
 
 **Weiterführend**<br>
+[Login und Registrierung >](index.de.md)<br>
 [Sicherheitsstufen >](Security_levels.de.md)<br>
-[Login-Konzept >](Login_Concept.de.md)
+[Probleme und Fehlermeldungen im Kurs >](../help/Course_Problems_and_Error_Messages.de.md)
 
 **youtube**<br>
 [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>)

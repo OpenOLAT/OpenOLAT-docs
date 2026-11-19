@@ -12,14 +12,14 @@ Your organisation can set up further options, for example login through an ident
 
 ![Field Username and button Login, below identity providers, Guest access, Explore our offers, Register here and Forgot password?](assets/login_v2_en.png){ class="shadow lightbox" title="Example of a login page with further options · 2026.10.31" }
 
-If your login page looks different from the login page at the top, your organisation has set it up. If the following explanations do not help you in that case, only your organisation can help you log in, not frentix. The section [None of this helps](#contact_support) explains how to reach it.
+If your login page looks different from the login page at the top, your organisation has set it up. If the following explanations do not help you in that case, only your organisation can help you log in, not frentix. The section [None of this helps](#contact_support) explains where you can look for its contact details.
 
 ## How to log in {: #how_to_login}
 
 Which way you take depends on where your account is stored. There are three possibilities, and your organisation decides which of them are offered on your login page.
 
 * **With the account of your organisation.** The buttons below "Please select your identity provider." lead to an external service, for example "Microsoft Azure AD". You log in there with the credentials that you also use for the other services of your organisation. OpenOlat does not store this password. If you have already logged in at your organisation, you may reach OpenOlat directly without any further entry (single sign on).
-* **With a local OpenOlat account.** Username and password are stored in OpenOlat here. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the button "Login with an OpenOlat account". [:octicons-tag-16:{ title="from Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) You first enter your username and click "Login". OpenOlat then asks for your password or, if you have set up a passkey, for the passkey.
+* **With a local OpenOlat account.** You enter username and password in OpenOlat itself, not at an external service. At some organisations it is the same password as for their other services. Your organisation determines where you enter them: either the entry stands directly on the login page, introduced with "Please log in with your personal username and password.", or it is behind the button "Login with an OpenOlat account". [:octicons-tag-16:{ title="from Release 18.1 (OO-7394)" }](https://track.frentix.com/issue/OO-7394) You first enter your username and click "Login". OpenOlat then asks for your password or, if you have set up a passkey, for the passkey.
 * **Without an account.** "Guest access" and "Explore our offers" provide an insight without logging in, "Register here" creates your own account, provided that your organisation allows self-registration.
 
 If you see several ways to log in, your organisation has set them up for different groups of people, for example "Microsoft Azure AD" for employees and the OpenOlat account for external people. Choose the way for which your organisation gave you your access data. More on this under [Combining several login procedures](Login_Concept.md#combined_login_methods).
@@ -36,7 +36,7 @@ If the login page shows "You have been logged out", the cause is not a login pro
 
 ### I have forgotten my password {: #forgot_password}
 
-You set a new password yourself, provided that your organisation allows this and an e-mail address is stored on your account. The link "Forgot password?" is below the login in the area "Do you need help?", together with the link "Frequently asked questions". If you do not see the area, click "Login with an OpenOlat account" first. The link starts the wizard "Set login credentials", which identifies you by a validation code and then lets you set a new password. The page [Password](Password.md#reset_password) describes the steps.
+You set a new password yourself, provided that your organisation allows this and an e-mail address is stored on your account. The link "Forgot password?" is below the login in the area "Do you need help?", together with the link "Frequently asked questions". At some organisations the login page first shows the button "Login with an OpenOlat account" instead of the field "Username". Then click this button. The login box then shows the field "Username" and below it the link "Forgot password?". The link starts the wizard "Set login credentials", which identifies you by a validation code and then lets you set a new password. If your organisation does not allow this or the e-mail address is missing, the wizard shows the step "Contact support" instead, with the note to contact the support team. This support is [your organisation](#contact_support). The page [Password](Password.md#reset_password) describes the steps.
 
 ![Guest access, Catalog and Register here, below it the highlighted area Do you need help? with the links Forgot password? and Frequently asked questions](assets/login_help_area_v1_en.png){ class="shadow lightbox" title="Lower part of the login box on the login page" }
 
@@ -57,7 +57,7 @@ If you use a passkey for your account, the e-mail has the subject "Key for new O
 
 ### I have not received any credentials from my institution {: #no_account}
 
-OpenOlat does not create accounts on its own. Either your organisation creates the account for you and tells you the username, or it allows self-registration. If you receive nothing and the login page shows no link "Register here", OpenOlat has no way to help you: contact [your organisation](#contact_support).
+An account comes into being in one of three ways, depending on what your organisation has set up: your organisation creates it for you and tells you the username, OpenOlat creates it at your first login with the account of your organisation, or you register yourself. If you receive no username, the login with the account of your organisation does not work and the login page shows no link "Register here", only [your organisation](#contact_support) can help you.
 
 If the login page shows the link "Register here", you can create an account yourself. If OpenOlat reports "Your e-mail address doesn't match our list. Please use your institutional e-mail address." while you do so, only certain e-mail domains are released for self-registration. Your organisation knows which ones.
 
@@ -76,7 +76,7 @@ If the identity provider of your organisation throws you back, the message on th
 | "A technical problem occurred (token_rejected). Please try it again later." | The exchange between OpenOlat and the identity provider failed. | Try again later, otherwise contact your organisation. |
 | "An unexpected error occurred. Please try it again later." | An error without further detail. | Try again later, otherwise contact your organisation. |
 
-The messages ask you to contact "the system administrator". This means the body that gave you the access, not frentix. Who this is, is described under [None of this helps](#contact_support).
+The messages ask you to contact "the system administrator". This means the body that gave you the access, not frentix. How to recognise this body is described under [None of this helps](#contact_support).
 
 An e-mail address can appear below the message, introduced with "If the problems can not be resolved, please contact support using the following address:". Your organisation has stored this address, it is not necessarily the body that manages your account. The button "Go to login page" brings you back to the login.
 
@@ -88,19 +88,27 @@ These two messages concern the state of your account, not your entry. After you 
 
 Check the username first, because it is not necessarily your e-mail address. Your organisation determines which entry applies. The message reads "Username or password wrong. Please try again or use the function «Forgot password?»".
 
-After too many failed attempts, OpenOlat temporarily blocks the login for this username and reports "Login blocked for this username.". Wait for the time named in the message and log in again afterwards. If you do not know your username, only [your organisation](#contact_support) can help.
+If you do not know your username, the link "Forgot password?" helps you with that as well: the wizard accepts your e-mail address, and the e-mail with the validation code names your username. The prerequisites and steps are under [I have forgotten my password](#forgot_password).
+
+If you have tried all usernames you know and the message still appears, check whether your login page shows further buttons for logging in, as framed in the image. The label may read differently at your organisation. Then log in there, with the same credentials as for the other services of your organisation.
+
+![The framed note Please select your identity provider. with the buttons below: this is where you find the login of your organisation](assets/login_page_identity_providers_v1_en.png){ class="shadow lightbox" title="Login page with identity providers · 2026.11.19" }
+
+After too many failed attempts, OpenOlat temporarily blocks the login for this username and reports "Login blocked for this username.". Wait for the number of minutes stated in the message and log in again afterwards.
+
+If none of this helps, stop trying. Only your organisation knows which account you have and what your username is. The general notes in the next section may help you to reach it. Thank you for your patience.
 
 ## None of this helps {: #contact_support}
 
-If none of the ways above gets you any further, you need a person who is allowed to manage your account. This body is always the same, no matter why the login failed.
+If none of the ways above gets you any further, you need a body that is allowed to manage your account. This body is always the same, no matter why the login failed.
 
 !!! tip "This is your support"
 
-    The right support is always the body that gave you the access to OpenOlat: your school, university, company, public administration or training provider, or their IT and student administration. As long as you cannot get in, only this body can set up an account for you, unblock it or change your e-mail address. frentix develops OpenOlat and does not answer questions about individual accounts. Only your organisation itself knows how to reach it. Check the area "Do you need help?" and the page footer of the login page: your organisation can store its contact details there. Otherwise ask the person from whom you received the course or the access.
+    The right support is always the body that gave you the access to OpenOlat: your school, university, company, public administration or training provider, or their IT and student administration. If you registered yourself, it is the organisation whose login page you see. As long as you cannot get in, only this body can set up an account for you, unblock it, tell you your username or change your e-mail address. frentix develops OpenOlat and does not answer questions about individual accounts. Check the area "Do you need help?" and the page footer of the login page: your organisation can store its contact details there. Otherwise ask the person from whom you received the course or the access. In your request, name the address of the login page, the usernames you have tried and the message that OpenOlat shows.
 
 ## Guest Access {: #guest}
 
-Alternatively, you can also visit OpenOlat as a guest. The guest access provides an insight into OpenOlat with limited functionality: you only have access to learning content that is explicitly released for guests. In order to have access to other learning materials and activities, you have to register with OpenOlat. More on the guest access is on the page [Roles and Rights: Guest access](../basic_concepts/guest_access.md).
+Alternatively, your organisation also offers guest access. There, however, you will probably not see the offers that were assigned to your account. The guest access provides an insight into OpenOlat with limited functionality: you only have access to learning content that is explicitly released for guests. In order to have access to other learning materials and activities, you need an active account. More on the guest access is on the page [Roles and Rights: Guest access](../basic_concepts/guest_access.md).
 
 ## Browser {: #browsercheck}
 
@@ -132,6 +140,7 @@ When you call up the catalog on the login page, the [web catalog](../area_module
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Login Concept >](Login_Concept.md)<br>
 [Passkey >](Passkey.md)<br>
 [One Time Code >](One_Time_Code.md)<br>
 [Session Timeout and Logout >](../basic_concepts/Session_Timeout_and_Logout.md)<br>
@@ -145,8 +154,9 @@ When you call up the catalog on the login page, the [web catalog](../area_module
 [Externally available catalog >](../area_modules/catalog2.0_web.md)
 
 **Further reading**<br>
+[Login and Registration >](index.md)<br>
 [Security Levels >](Security_levels.md)<br>
-[Login Concept >](Login_Concept.md)
+[Course Problems and Error Messages >](../help/Course_Problems_and_Error_Messages.md)
 
 **youtube**<br>
 [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>)
