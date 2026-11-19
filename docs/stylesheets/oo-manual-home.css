@@ -20,9 +20,20 @@
   --oo-mh-muted: var(--md-default-fg-color--light);
   --oo-mh-ink: var(--md-typeset-a-color);
   --oo-mh-tint: rgba(18, 99, 101, 0.08);
+  /* station tiles: sea tint at rest, sea filled on hover */
+  --oo-mh-station-bg: rgba(18, 99, 101, 0.10);
+  --oo-mh-station-line: rgba(18, 99, 101, 0.45);
+  --oo-mh-station-muted: rgba(0, 0, 0, 0.60);
+  --oo-mh-station-on: #FFFFFF;
+  --oo-mh-station-on-muted: rgba(255, 255, 255, 0.82);
 }
 [data-md-color-scheme=slate] .md-typeset {
   --oo-mh-tint: rgba(111, 194, 196, 0.10);
+  --oo-mh-station-bg: rgba(111, 194, 196, 0.10);
+  --oo-mh-station-line: rgba(111, 194, 196, 0.45);
+  --oo-mh-station-muted: rgba(226, 228, 233, 0.62);
+  --oo-mh-station-on: #12151A;
+  --oo-mh-station-on-muted: rgba(18, 21, 26, 0.75);
 }
 
 /* ---- head ---------------------------------------------------------------- */
@@ -141,9 +152,12 @@
   display: block;
   height: 100%;
   padding: 0.5em 0.3em;
-  border: 1px solid var(--oo-mh-line);
+  /* the tint marks the tiles as links before the pointer reaches them;
+     sea on the tint is 6.0:1 light and 6.4:1 dark */
+  border: 1px solid var(--oo-mh-station-line);
   border-radius: var(--oo-radius-sm);
-  color: var(--md-typeset-color);
+  background: var(--oo-mh-station-bg);
+  color: var(--oo-mh-ink);
   font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.25;
@@ -163,15 +177,21 @@
 .md-typeset .oo-mh-stations > ol > li > a:hover,
 .md-typeset .oo-mh-stations > ol > li > a:focus-visible {
   border-color: var(--oo-mh-ink);
-  background: var(--oo-mh-tint);
-  color: var(--oo-mh-ink);
+  background: var(--oo-mh-ink);
+  color: var(--oo-mh-station-on);
 }
+/* the usual muted grey falls to 4.4:1 on the tint, so the small line is
+   slightly darker: 5.5:1 light, 5.0:1 dark */
 .md-typeset .oo-mh-stations small {
   display: block;
   margin-top: 0.2em;
-  color: var(--oo-mh-muted);
+  color: var(--oo-mh-station-muted);
   font-weight: 400;
   font-size: 0.6rem;
+}
+.md-typeset .oo-mh-stations > ol > li > a:hover small,
+.md-typeset .oo-mh-stations > ol > li > a:focus-visible small {
+  color: var(--oo-mh-station-on-muted);
 }
 /* on the path index the tiles have the whole width */
 .md-typeset > .oo-mh-stations > ol > li > a {
