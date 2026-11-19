@@ -470,7 +470,7 @@ Administrators and group managers create groups. Authors and users with no addit
 **Tools in OpenOlat:**
 
 * question bank
-* 16 different [question types](../../manual_user/learningresources/Test_question_types.md)
+* 16 different [question types](../../manual_user/learningresources/Test_question_types/index.md)
 * special exam courses
 * assessment mode
 * use of the Safe Exam Browser
@@ -507,7 +507,7 @@ Administrators and group managers create groups. Authors and users with no addit
 
 [Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Create Groups >](../../manual_user/groups/Create_Groups.md)<br>
-[Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+[Question types >](../../manual_user/learningresources/Test_question_types/index.md)<br>
 [Groups >](../../manual_user/groups/index.md)<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>
 [Course Element "Enrolment" >](../../manual_user/learningresources/Course_Element_Enrolment.md)

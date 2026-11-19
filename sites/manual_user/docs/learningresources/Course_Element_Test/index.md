@@ -14,7 +14,7 @@ Specialty / Note |
 
 
 
-With the course element "Test" you integrate an OpenOlat learning resource "Test" into your course. In a course, a test serves to assess performance or as a quiz and includes various [question types](../Test_question_types.md).
+With the course element "Test" you integrate an OpenOlat learning resource "Test" into your course. In a course, a test serves to assess performance or as a quiz and includes various [question types](../Test_question_types/index.md).
 
 Depending on the question type, participants tick one or more answers, move elements by drag and drop, enter texts or numbers, add files or create markers and simple drawings. Depending on the question type, OpenOlat evaluates the answers automatically, or coaches correct them manually.
 
@@ -61,7 +61,7 @@ Attribute | :o_icon_o_iqtest_icon: Test | :o_icon_o_iqself_icon: Self-test
 ------|------|------
  Purpose of use | Assessment test, test with assessment option by the teacher, standard test | Exercise, self-assessment, no insight by teacher
  Fabrication with | [Test editor](../Test_editor_QTI_2.1/index.md) | [Test editor](../Test_editor_QTI_2.1/index.md)
- Question types QTI 2.1 | All [Question types](../Test_question_types.md) possible | All [Question types](../Test_question_types.md) possible, but only automatically assessable question types can be used for points.
+ Question types QTI 2.1 | All [Question types](../Test_question_types/index.md) possible | All [Question types](../Test_question_types/index.md) possible, but only automatically assessable question types can be used for points.
  Integration with course element | Test | Self-test
  Number of views by course participants | configurable | unlimited
  Results | appear in the [Assessment tool](../Assessment_tool_overview/index.md) as well as in the [test statistics](../Statistics_Test.md) and can be viewed by coaches | do _not_ appear in the [Assessment tool](../Assessment_tool_overview/index.md) and in the [test statistics](../Statistics_Test.md) and are not personalized for coaches and owners to view
@@ -150,7 +150,7 @@ If you have more attempts available to process the test, you can run through the
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Test question types >](../Test_question_types.md)<br>
+[Question types >](../Test_question_types/index.md)<br>
 [Set up a test >](Test_Setup.md)<br>
 [Evaluate and manage tests >](Test_Results.md)<br>
 [Course Element "Self-test" >](../Course_Element_Self_Test.md)<br>

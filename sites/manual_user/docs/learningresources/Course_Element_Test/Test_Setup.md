@@ -68,7 +68,7 @@ Under "Correction" you define who corrects the test runs and when the participan
 
 #### Correction {: #correction_mode}
 
-The correction is either automatic or manual. As soon as the test contains a [question type](../Test_question_types.md) to be evaluated manually, for example free text, a manual correction is mandatory. With automatic correction, OpenOlat corrects all questions directly, the result is visible to the participants immediately.
+The correction is either automatic or manual. As soon as the test contains a [question type](../Test_question_types/index.md) to be evaluated manually, for example Essay, a manual correction is mandatory. With automatic correction, OpenOlat corrects all questions directly, the result is visible to the participants immediately.
 
 In case of manual correction, the visibility of the result is limited and the coach or corrector has to complete the correction manually. Questions to be edited manually include free text, upload file and draw. However, manual correction can also be set if required when the test consists only of automatically evaluable question types.
 
@@ -218,7 +218,7 @@ If owners of the course have activated the awarding of badges under `Course > Ad
 [How do I prepare an online exam? >](../../../manual_how-to/exam_preparation/exam_preparation.md)<br>
 [Learning path course - Overview >](../Learning_path_course/index.md)<br>
 [Course Settings - Tab Assessment >](../Course_Settings_Assessment/index.md)<br>
-[Test question types >](../Test_question_types.md)<br>
+[Question types >](../Test_question_types/index.md)<br>
 [Coaching - Assessment Orders >](../../area_modules/Coaching_Assessment_Orders.md)<br>
 [Test: Correction workflow >](../Test_correction_workflow.md)<br>
 [Configure tests >](../Configure_tests.md)<br>

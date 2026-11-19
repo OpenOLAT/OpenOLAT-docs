@@ -168,11 +168,11 @@ nav:
       - Bulk actions: "area_modules/Authoring_BulkActions.md"
     - Question bank:
       - "area_modules/Question_Bank/index.md"
-      - Questions:
-        - Create: "area_modules/Question_Bank_Create_Questions.md"
-        - Import: "area_modules/Question_Bank_Import_Questions.md"
-        - Details and metadata: "area_modules/Item_Detailed_View.md"
-        - Use: "area_modules/Question_bank_possible_operations.md"
+      - Question types: "area_modules/Question_Bank_Question_Types/index.md"
+      - Create: "area_modules/Question_Bank_Create_Questions.md"
+      - Import: "area_modules/Question_Bank_Import_Questions.md"
+      - Details and metadata: "area_modules/Item_Detailed_View.md"
+      - Use: "area_modules/Question_bank_possible_operations.md"
       - Search: "area_modules/Question_Pool_Search.md"
       - Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
@@ -399,14 +399,30 @@ nav:
       - Selection: "learningresources/Course_Element_Selection.md"
     - Test:
       - learningresources/Test/index.md
+      - Question types:
+        - learningresources/Test_question_types/index.md
+        - Configuration: "learningresources/Configure_test_questions.md"
+        - Single choice: "learningresources/Test_question_types/Single_choice.md"
+        - Multiple choice: "learningresources/Test_question_types/Multiple_choice.md"
+        - Kprim: "learningresources/Test_question_types/Kprim.md"
+        - Match: "learningresources/Test_question_types/Match.md"
+        - Drag and Drop: "learningresources/Test_question_types/Drag_and_drop.md"
+        - True/false: "learningresources/Test_question_types/True_false.md"
+        - Gap FIB text: "learningresources/Test_question_types/Gap_text.md"
+        - Gap FIB numerical: "learningresources/Test_question_types/Gap_numerical.md"
+        - Gap with dropdown: "learningresources/Test_question_types/Gap_dropdown.md"
+        - Gap mixed: "learningresources/Test_question_types/Gap_mixed.md"
+        - Hottext: "learningresources/Test_question_types/Hottext.md"
+        - Hotspot: "learningresources/Test_question_types/Hotspot.md"
+        - Order: "learningresources/Test_question_types/Order.md"
+        - Essay: "learningresources/Test_question_types/Essay.md"
+        - Upload file: "learningresources/Test_question_types/Upload_file.md"
+        - Drawing: "learningresources/Test_question_types/Drawing.md"
       - Administration:
         - learningresources/Test_administration/index.md
         - Settings: "learningresources/Test_settings.md"
         - Test editor:
           - learningresources/Test_editor_QTI_2.1/index.md
-          - Questions:
-            - Types: "learningresources/Test_question_types.md"
-            - Configuration: "learningresources/Configure_test_questions.md"
           - Test configuration: "learningresources/Configure_tests.md"
         - Correction workflow: "learningresources/Test_correction_workflow.md"
         - Export handwritten exams: "learningresources/Test_handwritten_exams.md"

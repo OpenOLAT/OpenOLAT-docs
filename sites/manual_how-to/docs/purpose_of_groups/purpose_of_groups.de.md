@@ -467,7 +467,7 @@ Gruppen erstellen Administrator:innen und Gruppenverwalter:innen. Autor:innen un
 **Werkzeuge in OpenOlat:**
 
 * Fragenpool
-* 16 verschiedene [Fragetypen](../../manual_user/learningresources/Test_question_types.de.md)
+* 16 verschiedene [Fragetypen](../../manual_user/learningresources/Test_question_types/index.de.md)
 * spezielle Prüfungskurse
 * Prüfungsmodus
 * Verwendung des Safe Exam Browsers
@@ -504,7 +504,7 @@ Gruppen erstellen Administrator:innen und Gruppenverwalter:innen. Autor:innen un
 
 [Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Gruppen erstellen >](../../manual_user/groups/Create_Groups.de.md)<br>
-[Test Fragetypen >](../../manual_user/learningresources/Test_question_types.de.md)<br>
+[Fragetypen >](../../manual_user/learningresources/Test_question_types/index.de.md)<br>
 [Gruppen >](../../manual_user/groups/index.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
 [Kursbaustein "Einschreibung" >](../../manual_user/learningresources/Course_Element_Enrolment.de.md)

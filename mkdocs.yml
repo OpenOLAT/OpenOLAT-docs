@@ -291,6 +291,7 @@ plugins:
           Details and metadata : Detailansicht und Metadaten
           Developer cookbook: Developer Cookbook
           Document : Dokument
+          Drawing : Zeichnen
           e-Assessment Administration : e-Assessment Administration
           E-Mail : E-Mail
           E-mail : E-Mail
@@ -301,6 +302,7 @@ plugins:
           Elements : Elemente
           Embedding courses and course templates : Kurse und Kurstemplates einbinden
           ePortfolio : ePortfolio
+          Essay : Freitext
           Edit a project : Projekt bearbeiten
           Edit content : Inhalt editieren
           Editor : Editor
@@ -346,6 +348,10 @@ plugins:
           Four Steps to Your Wiki : Vier Schritte zu Ihrem Wiki
           Full-Text Search : Volltextsuche
           Function concept : Funktionskonzept
+          Gap FIB numerical : Lückentext numerisch
+          Gap FIB text : Lückentext
+          Gap mixed : Lückentext gemischt
+          Gap with dropdown : Lückentext mit Dropdown
           General Configuration of Course Elements : Allgemeine Konfiguration von Kursbausteinen
           General functions : Allgemeine Funktionen
           General Information : Allgemeines
@@ -452,6 +458,7 @@ plugins:
           Managing members : Mitglieder verwalten
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
           Master coach : Klassenlehrer:in
+          Match : Matrix
           Math formula : Mathematische Formel
           Media Center : Media Center
           Media items : Einzelmedien
@@ -487,6 +494,7 @@ plugins:
           Module Time Period : Modul Zeitabschnitte
           Module To-do : Modul To-do
           Module Video : Modul Video
+          Multiple choice : Multiple Choice
           Multiple use of entries : Mehrfachverwendung von Einträgen
           My course : Mein Kurs
           My entries : Meine Einträge
@@ -505,6 +513,7 @@ plugins:
           OpenMeetings : OpenMeetings
           Options : Optionen
           Other users : Personensuche
+          Order : Reihenfolge
           Orders : Aufträge
           Order management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
@@ -553,7 +562,7 @@ plugins:
           Quality management : Qualitätsmanagement
           Question bank : Fragenpool
           Question rules : Frageregeln
-          Questions : Fragen
+          Question types : Fragetypen
           Quiz and AI feedback : Quiz und KI-Feedback
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
           Recording : Aufnehmen
@@ -601,6 +610,7 @@ plugins:
           SharePoint / OneDrive : SharePoint / OneDrive
           Sharing Options : Freigabemöglichkeiten
           Shibboleth : Shibboleth
+          Single choice : Single Choice
           Single Page : Einzelne Seite
           Sorting/order : Sortierung/Reihenfolge
           Start: Start
@@ -646,9 +656,9 @@ plugins:
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Toolbar : Toolbar
           Tools : Werkzeuge
-          Types : Typen
           Types of Course Element : Kursbausteine
           Upload : Hochladen
+          Upload file : Datei hochladen
           Usage : Verwendung
           Use : Verwenden
           User management : Benutzerverwaltung

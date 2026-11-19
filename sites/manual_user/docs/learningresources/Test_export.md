@@ -227,7 +227,7 @@ If the test does not belong to a course, for example in the test statistics of a
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Test editor >](Test_editor_QTI_2.1/index.md)<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question types >](Test_question_types/index.md)<br>
 [Configure test questions >](Configure_test_questions.md)<br>
 [Configure tests >](Configure_tests.md)<br>
 [Test: Settings >](Test_settings.md)

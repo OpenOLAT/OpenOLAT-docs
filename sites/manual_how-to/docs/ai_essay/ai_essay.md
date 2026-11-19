@@ -254,7 +254,7 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 [Question bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 
 **Further reading**<br>
-[Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+[Question type Essay >](../../manual_user/learningresources/Test_question_types/Essay.md)<br>
 [AI features: Application map >](../../manual_user/area_modules/AI_Features_Map.md)<br>
 [Question Bank Review Process >](../../manual_user/area_modules/Question_Bank_Review_Process.md)
 

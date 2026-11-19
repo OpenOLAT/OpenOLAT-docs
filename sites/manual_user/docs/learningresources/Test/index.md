@@ -28,7 +28,7 @@ Formative tests capture interim learning progress. With automatic or manual feed
 
 Summative tests come at the end of a learning process or course. They check whether the planned learning objectives have been achieved. Examples of this are "live" exams or online exams.
 
-You create tests with the [OpenOlat test editor](../Test_editor_QTI_2.1/index.md) as tests in the QTI 2.1 format. You specify the length of the test, the [question types](../Test_question_types.md) and further settings.
+You create tests with the [OpenOlat test editor](../Test_editor_QTI_2.1/index.md) as tests in the QTI 2.1 format. You specify the length of the test, the [question types](../Test_question_types/index.md) and further settings.
 
 OpenOlat sends the answers to the server and assesses them only there. The solutions are therefore not in the source code of the test or self-test that participants see in the browser.
 
@@ -80,7 +80,7 @@ If you have a test as a file in IMS QTI format from another LMS, import it as a 
 [Changing from QTI 1.2 to QTI 2.1 >](../Changing_from_QTI_1.2_to_QTI_2.1.md)<br>
 [How do I proceed when I create a test? >](../../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Test editor >](../Test_editor_QTI_2.1/index.md)<br>
-[Test question types >](../Test_question_types.md)<br>
+[Question types >](../Test_question_types/index.md)<br>
 [Configure test questions >](../Configure_test_questions.md)<br>
 [Configure tests >](../Configure_tests.md)<br>
 [Test: Administration >](../Test_administration/index.md)<br>

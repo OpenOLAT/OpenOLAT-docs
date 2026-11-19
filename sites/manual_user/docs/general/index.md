@@ -188,7 +188,7 @@ The new features of release 21.0 are in the [release notes 21.0](../../release_n
 - [Sites and modules](../area_modules/index.md)
 - [Learning resources](../learningresources/index.md)
 - [Course elements](../learningresources/Course_Elements/index.md)
-- [Test question types](../learningresources/Test_question_types.md)
+- [Question types](../learningresources/Test_question_types/index.md)
 - [Course administration](../learningresources/Administration/index.md)
 - [Roles and rights](../basic_concepts/Roles_Rights/index.md)
 - [Groups](../groups/index.md)

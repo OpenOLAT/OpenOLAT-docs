@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test dient im Kurs der Leistungsüberprüfung oder als Quiz und umfasst verschiedene [Fragetypen](../Test_question_types.de.md).
+Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test dient im Kurs der Leistungsüberprüfung oder als Quiz und umfasst verschiedene [Fragetypen](../Test_question_types/index.de.md).
 
 Je nach Fragetyp kreuzen Teilnehmende eine oder mehrere Antworten an, verschieben Elemente per Drag-and-drop, geben Texte oder Zahlen ein, fügen Dateien hinzu oder erstellen Markierungen und einfache Zeichnungen. Je nach Fragetyp wertet OpenOlat die Antworten automatisch aus, oder Betreuer:innen korrigieren sie manuell.
 
@@ -61,7 +61,7 @@ Merkmal | :o_icon_o_iqtest_icon: Test | :o_icon_o_iqself_icon: Selbsttest
 ------|------|------
  Einsatzzweck | Prüfungstest, Test mit Einblick für die Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
  Herstellung mit | [Testeditor](../Test_editor_QTI_2.1/index.de.md) | [Testeditor](../Test_editor_QTI_2.1/index.de.md)
- Fragetypen QTI 2.1 | Alle [Fragetypen](../Test_question_types.de.md) möglich | Alle [Fragetypen](../Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
+ Fragetypen QTI 2.1 | Alle [Fragetypen](../Test_question_types/index.de.md) möglich | Alle [Fragetypen](../Test_question_types/index.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Teilnehmende | konfigurierbar | unlimitiert
  Ergebnisse | erscheinen im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md) sowie in den [Teststatistiken](../Statistics_Test.de.md) und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md) und in den [Teststatistiken](../Statistics_Test.de.md) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
@@ -150,7 +150,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, kö
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Test Fragetypen >](../Test_question_types.de.md)<br>
+[Fragetypen >](../Test_question_types/index.de.md)<br>
 [Test einrichten >](Test_Setup.de.md)<br>
 [Tests auswerten und verwalten >](Test_Results.de.md)<br>
 [Kursbaustein "Selbsttest" >](../Course_Element_Self_Test.de.md)<br>

@@ -78,6 +78,6 @@ Produkte, Durchführungen und Mitgliedschaften im Course Planner | `Course Plann
 **Weiterführend**<br>
 [Course Planner: Import/Export - Referenz >](../area_modules/Course_Planner_Import_Export_Reference.de.md)<br>
 [Course Planner: Produkte >](../area_modules/Course_Planner_Products.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)
+[Fragetypen >](../learningresources/Test_question_types/index.de.md)
 
 [Zum Seitenanfang ^](#import_templates)

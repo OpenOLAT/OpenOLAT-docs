@@ -254,7 +254,7 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 
 **Weiterführend**<br>
-[Test Fragetypen >](../../manual_user/learningresources/Test_question_types.de.md)<br>
+[Fragetyp Freitext >](../../manual_user/learningresources/Test_question_types/Essay.de.md)<br>
 [KI-Funktionen: Anwendungsmap >](../../manual_user/area_modules/AI_Features_Map.de.md)<br>
 [Fragenpool: Beurteilungsprozess >](../../manual_user/area_modules/Question_Bank_Review_Process.de.md)
 

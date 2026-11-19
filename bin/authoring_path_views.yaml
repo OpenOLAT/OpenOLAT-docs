@@ -225,7 +225,7 @@ stations:
       en: Course element Test
     further:
       - manual_user/docs/learningresources/Course_Settings_Assessment/index
-      - manual_user/docs/learningresources/Test_question_types
+      - manual_user/docs/learningresources/Test_question_types/index
       - reference_glossary/docs/glossary
 
   - id: auswerten

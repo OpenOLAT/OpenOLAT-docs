@@ -78,6 +78,6 @@ Products, implementations and memberships in the Course Planner | `Course Planne
 **Further reading**<br>
 [Course Planner: Import/Export - Reference >](../area_modules/Course_Planner_Import_Export_Reference.md)<br>
 [Course Planner: Products >](../area_modules/Course_Planner_Products.md)<br>
-[Test question types >](../learningresources/Test_question_types.md)
+[Question types >](../learningresources/Test_question_types/index.md)
 
 [To the top of the page ^](#import_templates)

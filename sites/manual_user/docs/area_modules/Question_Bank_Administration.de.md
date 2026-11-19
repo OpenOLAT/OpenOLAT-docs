@@ -78,7 +78,7 @@ Pools erstellen nur Administrator:innen und Poolverwalter:innen mit dem Recht f�
 
 ### Fragetyp {: #type}
 
-Der Fragetyp gibt an, wie eine Frage aufgebaut ist und wie Teilnehmende sie beantworten, zum Beispiel Single Choice, Lückentext oder Hotspot. Welche Fragetypen OpenOlat bietet, beschreibt die Seite [Test Fragetypen](../learningresources/Test_question_types.de.md).
+Der Fragetyp gibt an, wie eine Frage aufgebaut ist und wie Teilnehmende sie beantworten, zum Beispiel Single Choice, Lückentext oder Hotspot. Welche Fragetypen OpenOlat bietet, beschreibt die Seite [Fragetypen](../learningresources/Test_question_types/index.de.md).
 
 Beim Erstellen einer Frage wählen Sie ihren Fragetyp. Beim Bearbeiten und beim Import bestimmt OpenOlat ihn selbst aus dem Aufbau der Frage. Ändern lässt er sich nicht. Die [Detailansicht](Item_Detailed_View.de.md#metadata_item_analysis) einer Frage zeigt ihn im Metadatum "Typ" im Bereich "Itemanalyse". In den Fragenlisten finden Sie die Fragen eines Typs mit dem Filter "Typ".
 
@@ -129,7 +129,7 @@ Neue Stufen erstellen Sie mit dem Button "Stufe erstellen" rechts oben.
 [Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [e-Assessment Administration: Fragenpool >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
 [Modul Taxonomie >](../../manual_admin/administration/Modules_Taxonomy.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Fragetypen >](../learningresources/Test_question_types/index.de.md)<br>
 [Fragenpool: Detailansicht einer Frage und Metadaten >](Item_Detailed_View.de.md)<br>
 [Fragenpool: Fragen importieren >](Question_Bank_Import_Questions.de.md)
 

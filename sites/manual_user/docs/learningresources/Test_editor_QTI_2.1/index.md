@@ -32,7 +32,7 @@ How to create, search and share questions in the question bank is described in t
 
 Which question types the test editor offers and how to set up questions and the test is explained on these pages:
 
-* [Test question types](../Test_question_types.md)
+* [Question types](../Test_question_types/index.md)
 * [Configure test questions](../Configure_test_questions.md)
 * [Configure tests](../Configure_tests.md)
 

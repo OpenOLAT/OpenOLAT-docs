@@ -78,7 +78,7 @@ Only administrators and question bank managers with the right for the pool admin
 
 ### Type {: #type}
 
-The question type indicates how a question is built and how participants answer it, for example Single Choice, Gap text or Hotspot. The page [Test question types](../learningresources/Test_question_types.md) describes which question types OpenOlat offers.
+The question type indicates how a question is built and how participants answer it, for example Single Choice, Gap text or Hotspot. The page [Question types](../learningresources/Test_question_types/index.md) describes which question types OpenOlat offers.
 
 When you create a question, you choose its question type. When you edit or import the question, OpenOlat determines the question type itself from the way the question is built. You cannot change it. The [detailed view](Item_Detailed_View.md#metadata_item_analysis) of a question shows it in the metadata "Type" in the section "Item analysis". In the question lists, you find the questions of a type with the filter "Type".
 
@@ -129,7 +129,7 @@ Translate each level into each language that is enabled in your OpenOlat instanc
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [e-Assessment Administration: Question bank >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question types >](../learningresources/Test_question_types/index.md)<br>
 [Question bank: Details of a question and metadata >](Item_Detailed_View.md)<br>
 [Question Bank: Import Questions >](Question_Bank_Import_Questions.md)
 

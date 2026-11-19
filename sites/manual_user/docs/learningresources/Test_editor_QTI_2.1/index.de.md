@@ -32,8 +32,8 @@ Wie Sie im Fragenpool Fragen erstellen, suchen und freigeben, beschreibt die Üb
 
 Welche Fragetypen der Testeditor anbietet und wie Sie Fragen und Test einstellen, erfahren Sie auf diesen Seiten:
 
-* [Test Fragetypen](../Test_question_types.de.md)
-* [Test Fragen konfigurieren](../Configure_test_questions.de.md)
+* [Fragetypen](../Test_question_types/index.de.md)
+* [Testfragen konfigurieren](../Configure_test_questions.de.md)
 * [Test konfigurieren](../Configure_tests.de.md)
 
 

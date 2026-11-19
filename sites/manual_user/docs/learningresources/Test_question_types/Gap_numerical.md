@@ -1,0 +1,36 @@
+# :o_icon_o_mi_qtinumerical: Gap FIB numerical {: #numeric_input}
+
+With a gap FIB numerical you check calculation results and other numbers in a text. It works like the [gap text](Gap_text.md), but you enter numbers as the solution. You insert gaps with the icon with the calculator ("Gap FIB numerical").
+
+In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap FIB numerical`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
+
+For each gap you define the following settings:
+
+* "Solution": Enter the correct number here.
+* <a id="tolerance"></a>"Tolerance": If the toggle is switched off, the answer must exactly match the solution. If it is switched on, the gap accepts answers between a lower and an upper bound. For this you choose one of two modes under "Tolerance mode":
+    * "Absolute": You enter "Lower bound" and "Upper bound" as absolute numbers.
+
+		_Example:_ Solution 20, lower bound 18, upper bound 20.8 → all solutions between 18 and 20.8 are correct.
+
+    * "Relative": You enter "Lower bound" and "Upper bound" as relative numbers in percent.
+
+		_Example:_ Solution 20, lower bound 10, upper bound 10 → all solutions between 18 and 22 are correct, as the lower bound means minus 10% (20-2) and the upper bound plus 10% (20+2).
+
+* "Display":
+    * "Placeholder": Here you enter, if needed, a text that the participants see in the empty gap.
+    * "Gap size": Here you enter a length for the gap field, for example for formatting. It does not limit the length of the entry.
+    * "Preview": Shows directly in the dialog, using an example sentence, how the gap appears.
+
+![Tolerance switched on in the Absolute mode with the fields Lower bound and Upper bound](../assets/Lueckentext_numerisch_Toleranz_en.png){ class="shadow lightbox" title="Dialog Edit gap in gap FIB numerical" }
+
+![Question with a number gap in which the answer 42.0 is entered](../assets/Lueckentext_numerisch_Beispiel_en.png){ class="shadow lightbox" title="Gap FIB numerical as seen by participants" }
+
+## Further information {: #further_information}
+
+[Gap FIB text >](Gap_text.md)<br>
+[Question Bank: Create Questions >](../../area_modules/Question_Bank_Create_Questions.md)<br>
+[Question types >](index.md)<br>
+[Configure test questions >](../Configure_test_questions.md)<br>
+[Test editor >](../Test_editor_QTI_2.1/index.md)
+
+[To the top of the page ^](#numeric_input)

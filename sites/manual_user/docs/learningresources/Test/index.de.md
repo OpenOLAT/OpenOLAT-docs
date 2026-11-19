@@ -29,7 +29,7 @@ Formative Tests erfassen einen Lernzwischenstand. Mit automatischem oder manuell
 
 Summative Tests stehen am Ende eines Lernprozesses oder einer Veranstaltung. Sie prüfen, ob die geplanten Lernziele erreicht sind. Ein Beispiel dafür sind scharfe Prüfungen oder Online-Klausuren.
 
-Tests erstellen Sie mit dem [OpenOlat-Testeditor](../Test_editor_QTI_2.1/index.de.md) als Test im Format QTI 2.1. Dabei bestimmen Sie die Länge des Tests, die [Fragetypen](../Test_question_types.de.md) und weitere Einstellungen.
+Tests erstellen Sie mit dem [OpenOlat-Testeditor](../Test_editor_QTI_2.1/index.de.md) als Test im Format QTI 2.1. Dabei bestimmen Sie die Länge des Tests, die [Fragetypen](../Test_question_types/index.de.md) und weitere Einstellungen.
 
 OpenOlat schickt die Antworten an den Server und wertet sie erst dort aus. Die Lösungen stehen deshalb nicht im Quellcode des Tests oder Selbsttests, den Teilnehmende im Browser sehen.
 
@@ -81,7 +81,7 @@ Liegt Ihnen ein Test als Datei im Format IMS QTI aus einem anderen LMS vor, impo
 [Von QTI 1.2 zu QTI 2.1 >](../Changing_from_QTI_1.2_to_QTI_2.1.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Testeditor >](../Test_editor_QTI_2.1/index.de.md)<br>
-[Test Fragetypen >](../Test_question_types.de.md)<br>
+[Fragetypen >](../Test_question_types/index.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
 [Test: Administration >](../Test_administration/index.de.md)<br>

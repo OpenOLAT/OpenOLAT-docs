@@ -275,7 +275,7 @@ Der erste Kurs läuft. Jetzt lohnt sich, was am Anfang noch nicht wichtig war: D
 
 **Weiterführend**<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Fragetypen >](../learningresources/Test_question_types/index.de.md)<br>
 [Glossar >](../../reference_glossary/glossary.de.md)
 
 [Zum Seitenanfang ^](#pruefen)

@@ -188,7 +188,7 @@ Die Neuerungen von Release 21.0 stehen in den [Release Notes 21.0](../../release
 - [Bereiche und Module](../area_modules/index.de.md)
 - [Lernressourcen](../learningresources/index.de.md)
 - [Kursbausteine](../learningresources/Course_Elements/index.de.md)
-- [Test Fragetypen](../learningresources/Test_question_types.de.md)
+- [Fragetypen](../learningresources/Test_question_types/index.de.md)
 - [Kurs-Administration](../learningresources/Administration/index.de.md)
 - [Rollen und Rechte](../basic_concepts/Roles_Rights/index.de.md)
 - [Gruppen](../groups/index.de.md)

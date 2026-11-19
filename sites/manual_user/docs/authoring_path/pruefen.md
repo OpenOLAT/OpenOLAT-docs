@@ -273,7 +273,7 @@ The first course is running. Now the things that did not matter at the start pay
 
 **Further reading**<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question types >](../learningresources/Test_question_types/index.md)<br>
 [Glossary >](../../reference_glossary/glossary.md)
 
 [To the top of the page ^](#pruefen)

@@ -286,7 +286,7 @@ You create a comment in the "Comments" tab with "Add", as "Text" or as a video. 
 
 With quiz questions, you stop the video at a point and encourage participants to reflect on what they have seen. You create a quiz question on the "Quiz" tab with "Add". There are 12 question types to choose from. After you select the question type, the editor of the quiz question opens: enter the question and the answers there and save.
 
-Which tabs the editor shows depends on the question type. For more information on the different question types, see the page [Test Question Types](../learningresources/Test_question_types.md).
+Which tabs the editor shows depends on the question type. For more information on the different question types, see the page [Question types](Test_question_types/index.md).
 
 You take over a question from the question bank with "Import questions from pool" in the menu behind the icon with the three dots next to "Add"; you then configure it like a newly created quiz question.
 
@@ -339,7 +339,7 @@ If a quiz question is at 00:00 and both options are switched off, no button appe
 [WebVTT: The Web Video Text Tracks Format >](https://w3c.github.io/webvtt/)<br>
 [WebVTT (Wikipedia) >](https://en.wikipedia.org/wiki/WebVTT)<br>
 [Untertitel (Wikipedia) >](https://de.wikipedia.org/wiki/Untertitel)<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question types >](Test_question_types/index.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)
 
 **Further reading**<br>

@@ -291,7 +291,7 @@ Einen Kommentar legen Sie im Tab "Kommentare" mit "Hinzufügen" an, als "Text" o
 
 Mit Quizfragen halten Sie das Video an einer Stelle an und regen die Teilnehmenden zum Nachdenken über das Gesehene an. Sie legen eine Quizfrage im Tab "Quiz" mit "Hinzufügen" an. Zur Wahl stehen 12 Fragetypen. Nach der Wahl des Fragetyps öffnet sich der Editor der Quizfrage: Geben Sie dort die Frage und die Antworten ein und speichern Sie.
 
-Welche Tabs der Editor zeigt, hängt vom Fragetyp ab. Weitere Informationen zu den unterschiedlichen Fragetypen finden Sie auf der Seite [Test Fragetypen](../learningresources/Test_question_types.de.md).
+Welche Tabs der Editor zeigt, hängt vom Fragetyp ab. Weitere Informationen zu den unterschiedlichen Fragetypen finden Sie auf der Seite [Fragetypen](Test_question_types/index.de.md).
 
 Eine Frage aus dem Fragenpool übernehmen Sie mit "Fragen aus Pool importieren" im Menü hinter dem Symbol mit den drei Punkten neben "Hinzufügen"; danach konfigurieren Sie sie wie eine neu erstellte Quizfrage.
 
@@ -343,7 +343,7 @@ Liegt eine Quizfrage bei 00:00 und sind beide Optionen ausgeschaltet, erscheint 
 [WebVTT: The Web Video Text Tracks Format >](https://w3c.github.io/webvtt/)<br>
 [WebVTT (Wikipedia) >](https://en.wikipedia.org/wiki/WebVTT)<br>
 [Untertitel (Wikipedia) >](https://de.wikipedia.org/wiki/Untertitel)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Fragetypen >](Test_question_types/index.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)
 
 **Weiterführend**<br>

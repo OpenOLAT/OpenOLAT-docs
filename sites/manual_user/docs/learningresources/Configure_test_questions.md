@@ -1,6 +1,12 @@
 # Configure test questions {: #configure_test_questions}
 
-In the test editor, you set up each test question in several tabs: you write the question and the answers, define the score, add feedback and check the result in the preview. Each [question type](Test_question_types.md) has the tabs "Choice" (or the name of the question type), "Score", "Feedback", "Preview", "Preview solution" and "Metadata".
+In the test editor, you set up each test question in several tabs: you write the question and the answers, define the score, add feedback and check the result in the preview. Each [question type](Test_question_types/index.md) has the tabs "Choice" (or the name of the question type), "Score", "Feedback", "Preview", "Preview solution" and "Metadata".
+
+Owners of the test, administrators and learning resource managers open the test editor under `Test > Administration > Test editor`. You assess the question types marked with an * in the list of [question types](Test_question_types/index.md) manually: Essay, Upload file and Drawing.
+
+!!! tip "Import questions"
+
+    Besides creating questions directly, you can also import questions from the [question bank](../area_modules/Question_Bank/index.md) or via the [Excel import](../area_modules/Question_Bank_Import_Questions.md#excelimport) from a table in Excel. Questions from the question bank come into the test as a copy, see [Using questions from the question bank](Test_editor_QTI_2.1/index.md#questions_from_pool).
 
 ![Tabs Choice, Score, Feedback, Preview, Preview solution and Metadata of a single choice question](assets/question_editor_tabs.png){ class="shadow lightbox" title="Tabs of a test question in the test editor" }
 
@@ -102,11 +108,15 @@ The "Technical" section shows further information.
 
 ## Further information {: #further_information}
 
-[Test question types >](Test_question_types.md)<br>
-[Configure tests >](Configure_tests.md)<br>
-[Question bank: Details of a question and metadata >](../area_modules/Item_Detailed_View.md)<br>
+**Mentioned on this page**<br>
+[Question types >](Test_question_types/index.md)<br>
 [Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
+[Question Bank: Import Questions >](../area_modules/Question_Bank_Import_Questions.md)<br>
 [Test editor >](Test_editor_QTI_2.1/index.md)<br>
+[Configure tests >](Configure_tests.md)<br>
+[Question bank: Details of a question and metadata >](../area_modules/Item_Detailed_View.md)
+
+**Further reading**<br>
 [Creating Tests >](Test/index.md)<br>
 [Course Element "Self-test" >](Course_Element_Self_Test.md)
 

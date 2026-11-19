@@ -68,7 +68,7 @@ In the tab Pools, you create, edit and delete pools. Pools as well as groups all
 
 ## Tab Question types
 
-The tab Question types lists the [question types](../../manual_user/learningresources/Test_question_types.md) of OpenOlat. The way a question is built sets its question type. You cannot change it. For more information, also on the question type in the import, see [Question Bank: Administration](../../manual_user/area_modules/Question_Bank_Administration.md#type).
+The tab Question types lists the [question types](../../manual_user/learningresources/Test_question_types/index.md) of OpenOlat. The way a question is built sets its question type. You cannot change it. For more information, also on the question type in the import, see [Question Bank: Administration](../../manual_user/area_modules/Question_Bank_Administration.md#type).
 
 ## Tab Levels
 
@@ -79,7 +79,7 @@ In the tab Levels, you use "Create level" to create the levels that are availabl
 [Question Bank: Administration >](../../manual_user/area_modules/Question_Bank_Administration.md)<br>
 [Question Bank Review Process >](../../manual_user/area_modules/Question_Bank_Review_Process.md)<br>
 [Module Taxonomy >](Modules_Taxonomy.md)<br>
-[Test question types >](../../manual_user/learningresources/Test_question_types.md)<br>
+[Question types >](../../manual_user/learningresources/Test_question_types/index.md)<br>
 [Question Bank: Overview >](../../manual_user/area_modules/Question_Bank/index.md)<br>
 [Roles and Rights: Overview >](../../manual_user/basic_concepts/Roles_Rights/index.md)<br>
 [Assign roles >](../usermanagement/Assign_roles.md)

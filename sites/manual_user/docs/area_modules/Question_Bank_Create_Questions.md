@@ -10,7 +10,7 @@ You can mark particularly relevant questions as favorites and find them again qu
 
 You can create or import questions in the "My questions" area, in a list or in a group share. OpenOlat stores each question item under "My questions" and references it at the respective location.
 
-An overview of the question types that can be created and imported can be found in the chapter ["Test question types"](../learningresources/Test_question_types.md).
+An overview of the question types that can be created and imported can be found on the page [Question types](../learningresources/Test_question_types/index.md).
 
 [To the top of the page ^](#create_questions)
 
@@ -106,7 +106,7 @@ If you are developing questions together, for example, you can create a workgrou
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Test question types >](../learningresources/Test_question_types.md)<br>
+[Question types >](../learningresources/Test_question_types/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
 [Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>

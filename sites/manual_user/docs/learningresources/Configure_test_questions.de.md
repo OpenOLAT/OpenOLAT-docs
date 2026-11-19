@@ -1,6 +1,12 @@
 # Testfragen konfigurieren {: #configure_test_questions}
 
-Im Testeditor richten Sie jede Testfrage in mehreren Tabs ein: Sie formulieren Frage und Antworten, legen die Punkte fest, ergänzen Feedback und prüfen das Ergebnis in der Vorschau. Zu jedem [Fragetyp](Test_question_types.de.md) gibt es die Tabs "Auswahl" (oder den Namen des Fragetyps), "Punkte", "Feedback", "Vorschau", "Vorschau Lösung" und "Metadaten".
+Im Testeditor richten Sie jede Testfrage in mehreren Tabs ein: Sie formulieren Frage und Antworten, legen die Punkte fest, ergänzen Feedback und prüfen das Ergebnis in der Vorschau. Zu jedem [Fragetyp](Test_question_types/index.de.md) gibt es die Tabs "Auswahl" (oder den Namen des Fragetyps), "Punkte", "Feedback", "Vorschau", "Vorschau Lösung" und "Metadaten".
+
+Den Testeditor öffnen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen unter `Test > Administration > Testeditor`. Fragetypen, die in der Liste der [Fragetypen](Test_question_types/index.de.md) mit einem * markiert sind, bewerten Sie manuell: Freitext, Datei hochladen und Zeichnen.
+
+!!! tip "Import von Fragen"
+
+    Neben dem direkten Erstellen können Sie Fragen auch aus dem [Fragenpool](../area_modules/Question_Bank/index.de.md) oder über den [Excelimport](../area_modules/Question_Bank_Import_Questions.de.md#excelimport) aus einer Tabelle in Excel importieren. Fragen aus dem Fragenpool kommen als Kopie in den Test, siehe [Fragen aus dem Fragenpool verwenden](Test_editor_QTI_2.1/index.de.md#questions_from_pool).
 
 ![Tabs Auswahl, Punkte, Feedback, Vorschau, Vorschau Lösung und Metadaten einer Single-Choice-Frage](assets/question_editor_tabs_18_de.png){ class="shadow lightbox" title="Tabs einer Testfrage im Testeditor" }
 
@@ -102,11 +108,15 @@ Der Bereich "Technik" zeigt weitere Informationen an.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Test Fragetypen >](Test_question_types.de.md)<br>
-[Test konfigurieren >](Configure_tests.de.md)<br>
-[Fragenpool: Detailansicht einer Frage und Metadaten >](../area_modules/Item_Detailed_View.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Fragetypen >](Test_question_types/index.de.md)<br>
 [Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
+[Fragenpool: Fragen importieren >](../area_modules/Question_Bank_Import_Questions.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
+[Test konfigurieren >](Configure_tests.de.md)<br>
+[Fragenpool: Detailansicht einer Frage und Metadaten >](../area_modules/Item_Detailed_View.de.md)
+
+**Weiterführend**<br>
 [Tests erstellen >](Test/index.de.md)<br>
 [Kursbaustein "Selbsttest" >](Course_Element_Self_Test.de.md)
 

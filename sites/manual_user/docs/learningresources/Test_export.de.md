@@ -228,7 +228,7 @@ Gehört der Test zu keinem Kurs, zum Beispiel in den Teststatistiken einer eigen
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
-[Test Fragetypen >](../learningresources/Test_question_types.de.md)<br>
+[Fragetypen >](Test_question_types/index.de.md)<br>
 [Testfragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test konfigurieren >](Configure_tests.de.md)<br>
 [Test: Einstellungen >](Test_settings.de.md)

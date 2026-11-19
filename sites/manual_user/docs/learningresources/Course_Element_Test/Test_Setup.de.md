@@ -68,7 +68,7 @@ Unter "Korrektur" legen Sie fest, wer die Testläufe korrigiert und wann die Tei
 
 #### Korrektur {: #correction_mode}
 
-Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen manuell auszuwertenden [Fragetyp](../Test_question_types.de.md) enthält, zum Beispiel Freitext, ist eine manuelle Korrektur zwingend. Bei der automatischen Korrektur korrigiert OpenOlat alle Fragen direkt, das Resultat ist sofort für die Teilnehmenden sichtbar.
+Die Korrektur läuft entweder automatisch oder manuell. Sobald der Test einen manuell auszuwertenden [Fragetyp](../Test_question_types/index.de.md) enthält, zum Beispiel Freitext, ist eine manuelle Korrektur zwingend. Bei der automatischen Korrektur korrigiert OpenOlat alle Fragen direkt, das Resultat ist sofort für die Teilnehmenden sichtbar.
 
 Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt, und die Betreuer:in oder Korrektor:in ergänzt die Korrektur manuell. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur stellen Sie bei Bedarf auch ein, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
@@ -218,7 +218,7 @@ Haben Besitzer:innen des Kurses unter `Kurs > Administration > Einstellungen > T
 [Wie bereite ich eine Online-Prüfung vor? >](../../../manual_how-to/exam_preparation/exam_preparation.de.md)<br>
 [Lernpfadkurs - Überblick >](../Learning_path_course/index.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../Course_Settings_Assessment/index.de.md)<br>
-[Test Fragetypen >](../Test_question_types.de.md)<br>
+[Fragetypen >](../Test_question_types/index.de.md)<br>
 [Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Test: Korrektur-Workflow >](../Test_correction_workflow.de.md)<br>
 [Test konfigurieren >](../Configure_tests.de.md)<br>
