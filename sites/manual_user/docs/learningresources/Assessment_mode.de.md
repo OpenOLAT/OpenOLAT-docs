@@ -47,17 +47,17 @@ Ein Prüfungsmodus kann gelten
 Dadurch ist es möglich, zeitgleich unterschiedlich konfigurierte Prüfungen für verschiedene Nutzergruppen desselben Kurses abzuhalten.
 
 Neben der Benutzergruppe können Sie festlegen, ob und auf welche Kursbausteine der Zugriff eingeschränkt werden soll, und ob ein Kursbaustein davon als Startbaustein verwendet wird.<br>
-Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränkt, oder die Nutzung des [Safe Exam Browsers](http://www.safeexambrowser.org) vorausgesetzt werden.
+Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränkt oder die Nutzung des [Safe Exam Browsers](http://www.safeexambrowser.org) vorausgesetzt werden.
 
 !!! tip "Tipp"
 
     Für den Prüfungsmodus wird bevorzugt ein herkömmlicher Kurs empfohlen. Wenn Sie einen Lernpfadkurs verwenden, müssen Sie sicherstellen, dass die betroffenen Kursbausteine zugänglich sind.
 
-    Im herkömmlichen Kurs haben Sie ausserdem die Möglichkeit, beim Editieren eines Kursbausteins unter den Tabs "Sichtbarkeit" und "Zugang" die Option **"Nur im Prüfungsmodus"** zu wählen. Diese Option steht in Lernpfadkursen nicht zur Verfügung.
+    Im herkömmlichen Kurs haben Sie ausserdem die Möglichkeit, beim Editieren eines Kursbausteins unter den Tabs "Sichtbarkeit" und "Zugang" die Option "Nur im Prüfungsmodus" zu wählen. Diese Option steht in Lernpfadkursen nicht zur Verfügung.
 
 !!! info "Vor- und Nachlaufzeit auf 0 setzen"
 
-    Beim Erstellen eines neuen Prüfungsmodus sind Vor- und Nachlaufzeit mit je 10 Minuten vorbelegt. Beide Felder sind Pflichtfelder. Dieser Vorschlagswert lässt sich pro Prüfungsmodus frei überschreiben: auch auf **0**, wenn OpenOlat vor bzw. nach der Prüfung nicht gesperrt werden soll. Ein globaler Standardwert ist nicht konfigurierbar; die 0 muss also in jeder Prüfungskonfiguration einzeln eingetragen werden.
+    Beim Erstellen eines neuen Prüfungsmodus sind Vor- und Nachlaufzeit mit je 10 Minuten vorbelegt. Beide Felder sind Pflichtfelder. Dieser Vorschlagswert lässt sich pro Prüfungsmodus frei überschreiben: auch auf 0, wenn OpenOlat vor bzw. nach der Prüfung nicht gesperrt werden soll. Ein globaler Standardwert ist nicht konfigurierbar; die 0 muss also in jeder Prüfungskonfiguration einzeln eingetragen werden.
 
 ---
 
@@ -66,15 +66,15 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
 ![Felder Titel, Beschreibung, Beginn, Vorlaufzeit, Ende, Nachlaufzeit und Art des Beginns/Endes](assets/assessment_management_create_exam_setting_tab_general_v1_de.png){ class="shadow lightbox" title="Tab Allgemein einer Prüfung" }
 
-Titel und Beschreibung sehen die Teilnehmenden in der Benachrichtigung zur Prüfung. Daneben legen Sie in diesem Tab fest:
+Titel und Beschreibung sehen die Teilnehmenden im Fenster "Aktuelle Prüfung", das sie über die Prüfung informiert. Daneben legen Sie in diesem Tab fest:
 
 **Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest.
 
-Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
+**Vorlaufzeit**: Die Vorlaufzeit in Minuten sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
 
 **Ende**: Legen Sie hier Datum und Uhrzeit für das Ende der Prüfung fest.
 
-Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
+**Nachlaufzeit**: Geben Sie eine Nachlaufzeit in Minuten an, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
 
 Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie lange der Test dauert. Wie Prüfungsmodus, Testzeitraum, Zeitbeschränkung und Verlängerung zusammenwirken, zeigt [Wie hängen die Zeiten einer Prüfung zusammen?](../../manual_how-to/exam_preparation/exam_preparation.de.md#exam_times)
 
@@ -107,7 +107,7 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 * "Nur CPL Teilnehmende", sofern das Modul Course Planner eingeschaltet ist
 * "Teilnehmer:innen des Kurses und der ausgewählten Gruppen", bei eingeschaltetem Course Planner "Teilnehmer:innen des Kurses und der ausgewählten Gruppen oder Produkten"
 
-Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereiche auswählen" die betroffenen Gruppen auswählen. Gilt die Prüfung für Teilnehmende des Course Planner, wählen Sie die Produkte über die Schaltfläche "Produkt auswählen" aus.
+Ist eine Option mit Gruppen ausgewählt, wählen Sie über die Schaltflächen "Gruppen auswählen" oder "Lernbereiche auswählen" die betroffenen Gruppen aus. Diese Auswahl ist Pflicht. Gilt die Prüfung für Teilnehmende des Course Planner, wählen Sie die Produkte über die Schaltfläche "Produkt auswählen" aus.
 
 **Prüfungskonfiguration auch bei Betreuenden anwenden**:
 Ist diese Option gewählt, gilt der Prüfungsmodus auch für die Betreuer:innen der gewählten Teilnehmenden. Wie die Teilnehmenden erreichen sie während der Prüfung in OpenOlat nur noch die Prüfung. Soll eine Betreuer:in als Aufsicht die Prüfung manuell starten, lassen Sie die Option ausgeschaltet.
@@ -123,7 +123,7 @@ Ist diese Option gewählt, gilt der Prüfungsmodus auch für die Betreuer:innen 
 
 ![Ausgeschalteter Schalter "Safe Exam Browser verwenden", weitere Felder erscheinen erst nach dem Einschalten](assets/assessment_management_create_exam_setting_tab_seb_v1_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser einer Prüfung" }
 
-**Safe Exam Browser verwenden**: Die Verwendung des [Safe Exam Browsers](http://www.safeexambrowser.org) erlaubt die sichere Ausführung von Online-Prüfungen, in dem der Computer in den sogenannten Kioskmodus versetzt wird. Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. Teilnehmende werden darüber benachrichtigt, dass der SEB für die Prüfung Voraussetzung ist. Erst wenn OpenOlat im Safe Exam Browser gestartet wurde kann die Prüfung durchgeführt werden.
+**Safe Exam Browser verwenden**: Der [Safe Exam Browser](http://www.safeexambrowser.org) sichert Online-Prüfungen ab, indem er den Computer in den sogenannten Kioskmodus versetzt. So können Teilnehmende während der Prüfung keine unerlaubten Quellen nutzen. OpenOlat teilt den Teilnehmenden mit, dass der SEB für die Prüfung Voraussetzung ist. Erst wenn OpenOlat im Safe Exam Browser geöffnet ist, können sie die Prüfung ablegen.
 
 ![Markierte Auswahl SEB-Konfiguration mit Aus Vorlage (empfohlen), Benutzerdefiniert und Mit manuellen Keys, darunter Vorlage, Vorlage Typ und Prüfungsmodus-spezifische Konfiguration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_de.png){ class="shadow lightbox" title="Tab Safe Exam Browser einer Prüfung · 2026.10.02" }
 
@@ -163,7 +163,7 @@ Unter der Legende **Konfiguration anhand der Vorlage** stehen bei einem Formular
 ![Aus der Vorlage übernommene SEB-Detaileinstellungen wie Browser-Ansichtsmodus, Taskleiste und Konfigurationsschlüssel, schreibgeschützt](assets/assessment_management_create_exam_setting_tab_seb_config_v1_de.png){ class="shadow lightbox" title="Legende Konfiguration anhand der Vorlage" }
 
 !!! tip "Voraussetzung"
-    Die Vorlagenauswahl "System" steht nur zur Verfügung, wenn in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt wurde.
+    Die Vorlagenauswahl "System" steht nur zur Verfügung, wenn in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung > Tab "Safe Exam Browser Konfiguration"` mindestens eine aktive Vorlage angelegt ist.
 
 !!! note "Weitere Informationen"
     [Safe Exam Browser (SEB) konfigurieren >](../../manual_how-to/SEB/SEB.de.md)
@@ -202,19 +202,40 @@ Eine Prüfung aus einem Termin erscheint auch in der Prüfungsverwaltung des Kur
 
 ## Prüfung durchführen
 
-Teilnehmende, die einer Prüfung zugeteilt wurden, werden zu Beginn der Prüfung bzw. zu Beginn der Vorlaufzeit über den Start der Prüfung informiert. Sollte OpenOlat durch eine Nachlaufzeit am Ende der Prüfung noch gesperrt sein, werden sie ebenfalls darüber informiert.
+Teilnehmende, die einer Prüfung zugeteilt sind, werden zu Beginn der Prüfung bzw. zu Beginn der Vorlaufzeit über den Start der Prüfung informiert: OpenOlat zeigt ihnen das Fenster "Aktuelle Prüfung". Sollte OpenOlat durch eine Nachlaufzeit am Ende der Prüfung noch gesperrt sein, werden sie ebenfalls darüber informiert.
 
-![Benachrichtigung "Aktuelle Prüfung" mit Kurs, Zeitraum, Sperrhinweisen und Countdown bis zum Prüfungsbeginn](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" title="Benachrichtigung für Teilnehmende" }
+![Fenster "Aktuelle Prüfung" mit Kurs, Zeitraum, Sperrhinweisen und Countdown bis zum Prüfungsbeginn](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" title="Fenster Aktuelle Prüfung für Teilnehmende" }
 
-Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview/index.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Das Bewertungswerkzeug öffnen Sie unter: `Kurs > Administration > Bewertungswerkzeug`. Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit.
+Ist bei "Art des Beginns/Endes" die Option "Manuell" gewählt, startet eine Person die Prüfung selbst, zum Beispiel die Aufsicht im Prüfungsraum, sobald alle bereit sind. Dafür zeigt die Übersicht des [Bewertungswerkzeugs](Assessment_tool_overview/index.de.md) im Bereich "Prüfungsmodus" bei der Prüfung den Button "Prüfung starten". Das Bewertungswerkzeug öffnen Sie unter: `Kurs > Administration > Bewertungswerkzeug`. Der Button erscheint ab dem Tag, an dem die Prüfung beginnt, und nicht erst zur konfigurierten Uhrzeit. Wer ihn sieht, beschreibt der Abschnitt [Wer eine Prüfung manuell starten und beenden kann](#start_stop_rights).
 
-![Menü Administration des Kurses mit Eintrag Bewertungswerkzeug und Bereich Prüfungsmodus mit einer geplanten Prüfung und dem Button "Prüfung starten" markiert](assets/assessment_management_exam_coach_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
+![Bewertungswerkzeug und Bereich Prüfungsmodus markiert, darin die Zeile "0 von maximal 1 Teilnehmer:innen warten auf Prüfungsstart." über dem Button "Prüfung starten"](assets/assessment_management_exam_coach_v2_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.10.22" }
 
 Startet die Prüfung später als geplant, bleibt die Vorlaufzeit so, wie sie konfiguriert ist. Das Ende der Prüfung verschiebt sich um dieselbe Zeit nach hinten, die konfigurierte Prüfungsdauer bleibt also gleich.
 
 Während der Prüfung verfolgen Betreuer:innen den Prüfungsmodus in der Übersicht des Bewertungswerkzeugs.
 
 Im Bewertungswerkzeug bewerten sie auch Aufgaben und Freitextfragen von Tests direkt und geben die Bewertung für die Teilnehmenden frei. So lässt sich eine Prüfung gleich im Anschluss besprechen.
+
+
+### Wie viele Teilnehmende schon da sind [:octicons-tag-16:{ title="ab Release 15.2 (OO-4766)" }](https://track.frentix.com/issue/OO-4766) {: #participant_count}
+
+Vor und während einer Prüfung wollen Sie wissen, ob alle Teilnehmenden da sind. Dafür zeigt der Bereich "Prüfungsmodus" des Bewertungswerkzeugs bei der Prüfung eine Zeile wie "3 von maximal 20 Teilnehmer:innen warten auf Prüfungsstart." Im Bild der Übersicht des Bewertungswerkzeugs oben steht sie direkt über dem Button "Prüfung starten", dort mit "0 von maximal 1".
+
+* Die zweite Zahl, nach "maximal", zählt alle Personen, für die die Prüfung gilt: die Teilnehmenden, die Sie im Tab "Zugang" unter "Teilnehmende" festgelegt haben. Bei einer Prüfung aus einem Termin sind es die Teilnehmenden des Termins.
+* Die erste Zahl zählt, wie viele davon schon in OpenOlat sind. Mitgezählt wird, wer gerade in OpenOlat eingeloggt ist, auch ausserhalb des Kurses, wer im Fenster "Aktuelle Prüfung" auf den Start wartet und wer die Prüfung mit dem Button "Zur Prüfung" in diesem Fenster schon geöffnet hat.
+
+Stimmen beide Zahlen überein, sind alle Personen da, für die die Prüfung gilt. Zählt die Zeile mehr Personen, als Ihre Gruppe hat, gilt die Prüfung auch für weitere Teilnehmende des Kurses oder weiterer Gruppen, oder die Betreuer:innen zählen mit (nächster Absatz). Die Zeile aktualisiert sich von selbst, solange die Seite offen ist.
+
+Ist im Tab "Zugang" die Option "Prüfungskonfiguration auch bei Betreuenden anwenden" eingeschaltet, zählen beide Zahlen auch die Betreuer:innen mit, obwohl die Zeile "Teilnehmer:innen" sagt. Besitzer:innen zählen nicht mit.
+
+Nach dem Start lautet die Zeile zum Beispiel "18 von maximal 20 Teilnehmer:innen nehmen aktuell an der Prüfung teil." Die erste Zahl zählt weiterhin alle, die da sind: auch wer die Prüfung noch nicht mit "Zur Prüfung" geöffnet hat und wer sie schon abgegeben hat. Die Zeile sagt also, wer da ist, nicht wer gerade schreibt.
+
+Bei manuellem Start erscheint die Zeile ab dem Prüfungstag zusammen mit dem Button "Prüfung starten" und nach dem Start mit "Prüfung beenden". Bei automatischem Start, und für Personen ohne das Recht zum Starten, erscheint sie ab der Vorlaufzeit, ohne Vorlaufzeit ab dem Beginn, bis zum Ende der Nachlaufzeit.
+
+Dieselbe Zeile zeigen auch:
+
+* der Tab "Prüfungsmodus" im [Kursbaustein "Test"](Course_Element_Test/Test_Results.de.md#assess), für Besitzer:innen und Betreuer:innen
+* das Info-Symbol im Banner der Prüfung: Personen mit Zugriff auf das Bewertungswerkzeug sehen dieses Banner oben im Kurs, solange die Prüfung läuft oder in der Vor- oder Nachlaufzeit ist. Es nennt den Status und den Titel der Prüfung, das Info-Symbol steht neben dem Titel.
 
 
 ### Wer eine Prüfung manuell starten und beenden kann {: #start_stop_rights}
@@ -266,6 +287,7 @@ Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder g
 [Toolbar: Termine >](../learningresources/Toolbar_Events.de.md)<br>
 [Modul Termine und Absenzen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
+[Tests auswerten und verwalten >](Course_Element_Test/Test_Results.de.md)<br>
 [Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
 [Mitgliederverwaltung >](Members_management.de.md)
 

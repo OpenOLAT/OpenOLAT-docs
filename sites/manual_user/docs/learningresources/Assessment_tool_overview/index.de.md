@@ -34,11 +34,11 @@ Ist für den ganzen Kurs ein "Bestehen" konfiguriert, zeigt der Bereich, wie vie
 
 ### Prüfungsmodus (Übersicht)
 
-Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an.
+Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn der Prüfungsmodus in der System-Administration eingeschaltet ist: `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
 
 ![Laufende Prüfung mit dem Button "Prüfung beenden" im Banner und im Bereich, darunter zwei geplante Prüfungen mit Beginn und Ende](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Bereich Prüfungsmodus" }
 
-Hier sehen Sie auch, wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
+Ab dem Prüfungstag oder ab der Vorlaufzeit zeigt bei der Prüfung eine Zeile, wie viele der Personen, für die die Prüfung gilt, schon in OpenOlat sind, zum Beispiel "1 von maximal 2 Teilnehmer:innen warten auf Prüfungsstart." Was die beiden Zahlen zählen und wann die Zeile erscheint, beschreibt der Abschnitt [Wie viele Teilnehmende schon da sind](../Assessment_mode.de.md#participant_count).
 
 Hat die Prüfung einen manuellen Start, zeigt der Bereich ab dem Prüfungstag den Button "Prüfung starten" und nach dem Start den Button "Prüfung beenden". Betreuer:innen sehen diese Buttons nur mit einem zusätzlichen Recht. Wer die Buttons sieht, beschreibt der Abschnitt [Wer eine Prüfung manuell starten und beenden kann](../Assessment_mode.de.md#start_stop_rights).
 

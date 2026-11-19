@@ -52,11 +52,11 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
     A conventional course is preferably recommended for the assessment mode. If you use a learning path course, you must ensure that the relevant course elements are accessible.
 
-    In conventional courses, you also have the option of selecting the option **"Only in assessment mode"** under the "Visibility" and "Access" tabs when editing a course element. This option is not available in learning path courses.
+    In conventional courses, you also have the option of selecting the option "Only in assessment mode" under the "Visibility" and "Access" tabs when editing a course element. This option is not available in learning path courses.
 
 !!! info "Set Pre- and Post-Exam Time to 0"
 
-    When creating a new exam mode, the pre- and post-exam times are preset to 10 minutes each. Both fields are mandatory. This default value can be freely overridden for each exam mode: including to **0**, if OpenOlat is not to be locked before or after the exam. A global default value cannot be configured; therefore, the value 0 must be entered individually in each exam configuration.
+    When creating a new exam mode, the pre- and post-exam times are preset to 10 minutes each. Both fields are mandatory. This default value can be freely overridden for each exam mode: including to 0, if OpenOlat is not to be locked before or after the exam. A global default value cannot be configured; therefore, the value 0 must be entered individually in each exam configuration.
 
 ---
 
@@ -65,15 +65,15 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
 ![Fields Title, Description, Start, Prep time, End, Follow-up and Start / End mode](assets/assessment_management_create_exam_setting_tab_general_v1_en.png){ class="shadow lightbox" title="Tab General of an exam setting" }
 
-Participants see the title and description in the exam notification. In addition, you define in this tab:
+Participants see the title and description in the dialog "Scheduled exam", which informs them about the exam. In addition, you define in this tab:
 
 **Start**: Specify the date and time for the start of the exam here.
 
-The **prep time**, which you specify in minutes, locks OpenOlat for the specified duration before the exam starts.
+**Prep time**: The prep time in minutes locks OpenOlat for the specified duration before the exam starts.
 
 **End**: Specify the date and time for the end of the exam here.
 
-If a **follow-up time** is specified in minutes, OpenOlat remains locked for this duration after the exam.
+**Follow-up**: If you specify a follow-up time in minutes, OpenOlat remains locked for this duration after the exam.
 
 Prep time and follow-up time control how long OpenOlat is locked, not how long the test lasts. How assessment mode, test period, time limit and extension work together is shown in [How do the times of an exam fit together?](../../manual_how-to/exam_preparation/exam_preparation.md#exam_times)
 
@@ -106,7 +106,7 @@ Prep time and follow-up time control how long OpenOlat is locked, not how long t
 * "CPL participants only", if the Course Planner module is enabled
 * "Participants of courses and selected groups", with the Course Planner enabled "Participants from course and selected groups or products"
 
-As soon as an option with groups has been selected, you must always select the relevant groups using the "Select groups" or "Select learning areas" buttons. If the exam applies to participants of the Course Planner, select the products with the "Select product" button.
+If an option with groups is selected, select the relevant groups with the buttons "Select groups" or "Select learning areas". This selection is mandatory. If the exam applies to participants of the Course Planner, select the products with the "Select product" button.
 
 **Apply exam setting for coach**:
 If this option is selected, the assessment mode also applies to the coaches of the selected participants. Like the participants, they only reach the exam in OpenOlat during the exam. If a coach is to start the exam manually as supervisor, leave the option switched off.
@@ -122,7 +122,7 @@ If this option is selected, the assessment mode also applies to the coaches of t
 
 ![Switched-off toggle "Use Safe Exam Browser", further fields only appear after switching it on](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser of an exam setting" }
 
-**Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Participants are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
+**Use Safe Exam Browser**: The [Safe Exam Browser](http://www.safeexambrowser.org) secures online exams by putting the computer into the so-called kiosk mode. This way, participants cannot use unauthorized sources during the exam. OpenOlat tells the participants that the SEB is a prerequisite for the exam. Only once OpenOlat is open in the Safe Exam Browser can they take the exam.
 
 ![Marked choice SEB configuration with From template (recommended), Customised and With manual keys, below it Template, Template type and assessment mode-specific configuration](assets/assessment_management_create_exam_setting_tab_seb_fields_v2_en.png){ class="shadow lightbox" title="Tab Safe Exam Browser of an exam setting · 2026.10.02" }
 
@@ -162,7 +162,7 @@ Under the legend **Configuration from the template**, a form and "Customised" sh
 ![Detailed SEB settings taken from the template, such as browser view mode, task bar and config key, read-only](assets/assessment_management_create_exam_setting_tab_seb_config_v1_en.png){ class="shadow lightbox" title="Legend Configuration from the template" }
 
 !!! tip "Prerequisite"
-    The template selection "System" is only available if at least one active template has been created in the System Administration under `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser configuration"`.
+    The template selection "System" is only available if at least one active template exists in the System Administration under `Administration > e-Assessment > Assessment management > Tab "Safe Exam Browser configuration"`.
 
 !!! note "Further information"
     [Configure Safe Exam Browser (SEB) >](../../manual_how-to/SEB/SEB.md)
@@ -201,19 +201,40 @@ An exam from an event also appears in the assessment management of the course an
 
 ## Perform Exam
 
-Participants who have been assigned to an exam are informed about the start of the exam at the beginning of the exam or at the beginning of the prep time. If OpenOlat is still blocked at the end of the exam due to a follow-up time, they are also informed of this.
+Participants who are assigned to an exam are informed about the start of the exam at the beginning of the exam or at the beginning of the prep time: OpenOlat shows them the dialog "Scheduled exam". If OpenOlat is still blocked at the end of the exam due to a follow-up time, they are also informed of this.
 
-![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" title="Notification for participants" }
+![Dialog "Scheduled exam" with course, time period, lock notices and the request to use the Safe Exam Browser](assets/assessment_management_exam_info1_v1_en.png){ class="shadow lightbox" title="Dialog Scheduled exam for participants" }
 
-If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". You open the assessment tool under: `Course > Administration > Assessment tool`. The button appears from the day on which the exam begins, not only at the configured time.
+If the option "Manual" is selected under "Start / End mode", a person starts the exam themselves, for example the supervisor in the exam room as soon as everyone is ready. For this, the overview of the [assessment tool](Assessment_tool_overview/index.md) shows the button "Start exam" next to the exam in the area "Assessment mode". You open the assessment tool under: `Course > Administration > Assessment tool`. The button appears from the day on which the exam begins, not only at the configured time. Who sees it is described in the section [Who can start and finish an exam manually](#start_stop_rights).
 
-![Menu "Administration" of the course with the entry "Assessment tool", next to it the area "Assessment mode" with a scheduled exam and the button "Start exam"](assets/assessment_management_exam_coach_v2_en.png){ class="shadow lightbox" title="Overview of the assessment tool · 2026.11.18" }
+![Assessment tool and area Assessment mode marked, in it the line "0 of at most 1 participants are waiting for assessment start." above the button "Start exam"](assets/assessment_management_exam_coach_v2_en.png){ class="shadow lightbox" title="Overview of the assessment tool · 2026.11.18" }
 
 If the exam starts later than planned, the prep time remains as configured. The end of the exam is postponed by the same time, so the configured exam duration remains the same.
 
 During the exam, coaches follow the assessment mode in the overview of the assessment tool.
 
 In the assessment tool, they also assess tasks and essay questions of tests directly and release the assessment for the participants. This allows the exam to be discussed right afterwards.
+
+
+### How many participants are already there [:octicons-tag-16:{ title="from Release 15.2 (OO-4766)" }](https://track.frentix.com/issue/OO-4766) {: #participant_count}
+
+Before and during an exam, you want to know whether all participants are there. For this, the area "Assessment mode" of the assessment tool shows a line such as "3 of at most 20 participants are waiting for assessment start." next to the exam. In the image of the assessment tool overview above, it is directly above the button "Start exam", there with "0 of at most 1".
+
+* The second number, after "at most", counts all persons the exam applies to: the participants you defined in the tab "Access" under "Participants". For an exam from an event, these are the participants of the event.
+* The first number counts how many of them are already in OpenOlat. It includes everyone who is currently logged in to OpenOlat, also outside the course, who waits for the start in the dialog "Scheduled exam" and who has already opened the exam with the button "Go to exam" in this dialog.
+
+If both numbers match, all persons the exam applies to are there. If the line counts more persons than your group has, the exam also applies to further participants of the course or of further groups, or the coaches are counted (next paragraph). The line updates itself while the page is open.
+
+If the option "Apply exam setting for coach" is switched on in the tab "Access", both numbers also count the coaches, although the line says "participants". Owners are not counted.
+
+After the start, the line reads, for example, "18 of at most 20 participants are currently taking the exam." The first number still counts everyone who is there: also those who have not yet opened the exam with "Go to exam" and those who have already submitted it. So the line says who is there, not who is currently writing.
+
+With manual start, the line appears from the day of the exam together with the button "Start exam" and, after the start, with "Finish exam". With automatic start, and for persons without the right to start, it appears from the prep time, without prep time from the start, until the end of the follow-up time.
+
+The same line is also shown in:
+
+* the tab "Assessment mode" of the [course element "Test"](Course_Element_Test/Test_Results.md#assess), for owners and coaches
+* the info icon in the banner of the exam: persons with access to the assessment tool see this banner at the top of the course while the exam is running or in the prep or follow-up time. It shows the status and the title of the exam, the info icon is next to the title.
 
 
 ### Who can start and finish an exam manually {: #start_stop_rights}
@@ -266,6 +287,7 @@ The assessment mode is also ended when the corresponding course is ended or dele
 [Toolbar: Events >](../learningresources/Toolbar_Events.md)<br>
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
+[Evaluate and manage tests >](Course_Element_Test/Test_Results.md)<br>
 [Course Element "Test" >](Course_Element_Test/index.md)<br>
 [Members management >](Members_management.md)
 

@@ -34,11 +34,11 @@ If "passed" is configured for the entire course, the area shows how many course 
 
 ### Assessment mode (Overview)
 
-If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area.
+If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if the assessment mode is enabled in the system administration: `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`, switch "Enable assessment mode".
 
 ![Running exam with the button "Prüfung beenden" in the banner and in the area, below two scheduled exams with start and end](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Area Assessment mode" }
 
-Here you also see how many people are already logged in and waiting for the exam to start.
+From the day of the exam or from the prep time, a line next to the exam shows how many of the persons the exam applies to are already in OpenOlat, for example "1 of at most 2 participants are waiting for assessment start." What the two numbers count and when the line appears is described in the section [How many participants are already there](../Assessment_mode.md#participant_count).
 
 If the exam has a manual start, the area shows the button "Start exam" from the day of the exam and, after the start, the button "Finish exam". Coaches only see these buttons with an additional right. Who sees the buttons is described in the section [Who can start and finish an exam manually](../Assessment_mode.md#start_stop_rights).
 

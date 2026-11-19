@@ -43,9 +43,12 @@ After the replacement, the link "Show history" also appears next to the "Replace
 
 ## View and assess tests {: #assess}
 
-Anyone who wants to correct and assess completed tests finds all test runs of the course in the [assessment tool](../Assessment_tool_overview/index.md). Coaches and owners of the course have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
+Anyone who wants to correct and assess completed tests finds all test runs of the course in the [assessment tool](../Assessment_tool_overview/index.md). Coaches and owners of the course as well as members with the right "Assessment tool" have access to it: `Course > Administration > Assessment tool`. Navigate to the desired course element "Test". The "Participants" tab shows all participants with their processing status for this course element, and in the "Status" column you see whether an assessment is required. The overview already shows open assessments under "Open reviews".
 
 Alternatively, you view and manage the results of a specific test in the course with the course editor closed, directly at the respective course element "Test". To do this, switch to the "Participants" tab. As an owner of the course, you have access to further tabs there, such as "Preview", "Communication", "Reminders" and "Badges". Coaches also see "Preview" and "Communication", but not the "Reminders" tab, and the "Badges" tab only if the course allows coaches to award badges.
+
+If the course has an exam in [assessment mode](../Assessment_mode.md) that has not yet ended, the course element also shows owners and coaches the tab "Assessment mode", regardless of which test the exam releases. There you see all exams of the course as in the area "Assessment mode" of the assessment tool, with the line showing how many participants are already there: [How many participants are already there](../Assessment_mode.md#participant_count)<br>
+Who can start and finish the exam in this tab is described in the section [Who can start and finish an exam manually](../Assessment_mode.md#start_stop_rights)
 
 ![Participants with attempts, score and status as well as an open row menu with the assessment actions](../assets/course_element_test_run_participants_v1_en.png){ class="shadow lightbox" title="Participants tab of the course element Test · 2026.10.01" }
 
@@ -121,6 +124,7 @@ You can also download the raw data of tests via the [test statistics](../Statist
 [Course Element "Test" >](index.md)<br>
 [Set up a test >](Test_Setup.md)<br>
 [Assessment tool - overview >](../Assessment_tool_overview/index.md)<br>
+[Assessment management: Assessment mode >](../Assessment_mode.md)<br>
 [Coaching - Overview >](../../area_modules/Coaching/index.md)<br>
 [Course Administration: Archiving & Reports >](../Course_Archiving/index.md)<br>
 [Export tests >](../Test_export.md)<br>
