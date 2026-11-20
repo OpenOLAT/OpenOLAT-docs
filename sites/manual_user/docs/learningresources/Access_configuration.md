@@ -91,11 +91,11 @@ Click "Add offer" and choose the type of offer.
 
 ![Icon Access code](assets/key.png){ class="size24" } **Access code**
 
-With "Access code", you restrict the booking to a specific group of persons. Only those who know the code can book the learning resource. The owners distribute the code outside OpenOlat, for example in advance by e-mail or on the board at blended learning events. The booking person enters the code once, before opening the course for the first time.
+With "Access code", you restrict the booking to a specific group of persons. Only those who know the code can book the learning resource. You enter the code in the offer in the field "Access code". The owners distribute the code outside OpenOlat, for example in advance by e-mail or on the board at blended learning events. The booking person enters the code once, before opening the course for the first time.
 
 ![Icon Freely available](assets/gift.png){ class="size24" } **Freely available**
 
-Select this option if no further restrictions apply. All OpenOlat users can book and use the learning resource. The booking person becomes a participant of the learning resource. If "Auto-booking" is switched on, OpenOlat takes the person directly into the course without them booking explicitly in the booking dialog. Unlike with "Without booking", the owners see who has booked the course.
+Select this option if no further restrictions apply. All OpenOlat users for whom the offer is released can book and use the learning resource. The booking person becomes a participant of the learning resource. If "Auto-booking" is switched on in the offer, OpenOlat takes the person directly into the course without them booking explicitly in the booking dialog. Unlike with "Without booking", the owners see who has booked the course, under `Course > Administration > Offer types`, see [Offer types](Offer_Types.md).
 
 ![Icon PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
@@ -103,11 +103,11 @@ With "PayPal Checkout", the booking is subject to a fee. You define an amount th
 
 ![Icon Without booking](assets/notBooking.jpg){ class="size24" } **Without booking**
 
-With this offer, you publish a course that all OpenOlat users can access without appearing in the members management.
+With this offer, you publish a course that all OpenOlat users for whom the offer is released can access without appearing in the members management.
 
 ![Icon Guest](assets/guest.jpg){ class="size24" } **Guest**
 
-In the conventional course, you can create an offer for guests only. It then only applies to guests and cannot be restricted to sub-organisations. This way you release learning resources also to persons completely without an OpenOlat account.
+Among courses, an offer "Guest" is only available in the conventional course. It only applies to guests and cannot be restricted to sub-organisations. This way you release the course also to persons completely without an OpenOlat account.
 
 The offer for guests shows the link you pass on to guests in the field "External link - Guest". With "Copy to clipboard", you take it into an e-mail, with "Show QR code", you show it as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). How guests reach the course with it is described in [Roles and Rights: Guest access](../basic_concepts/guest_access.md#course_level). [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
@@ -179,6 +179,7 @@ Under `Course > Administration > Delete` or via the action menu ![Icon action me
 [Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
 [Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
+[Offer types >](Offer_Types.md)<br>
 [PayPal Configuration >](../../manual_admin/administration/Payment_PayPal.md)<br>
 [Offer concepts >](../basic_concepts/Offer_Concepts.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>

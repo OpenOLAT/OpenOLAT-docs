@@ -91,11 +91,11 @@ Klicken Sie auf "Angebot hinzufügen" und wählen Sie die Angebotsart.
 
 ![Symbol Zugangscode](assets/key.png){ class="size24" } **Zugangscode**
 
-Mit "Zugangscode" beschränken Sie die Buchung auf einen bestimmten Personenkreis. Nur wer den Code kennt, kann die Lernressource buchen. Die Besitzer:innen verteilen den Code ausserhalb von OpenOlat, etwa vorab per E-Mail oder bei Blended-Learning-Veranstaltungen an der Tafel. Die buchende Person gibt den Code einmal ein, vor dem ersten Öffnen des Kurses.
+Mit "Zugangscode" beschränken Sie die Buchung auf einen bestimmten Personenkreis. Nur wer den Code kennt, kann die Lernressource buchen. Den Code tragen Sie im Angebot im Feld "Zugangscode" ein. Die Besitzer:innen verteilen den Code ausserhalb von OpenOlat, etwa vorab per E-Mail oder bei Blended-Learning-Veranstaltungen an der Tafel. Die buchende Person gibt den Code einmal ein, vor dem ersten Öffnen des Kurses.
 
 ![Symbol Frei verfügbar](assets/gift.png){ class="size24" } **Frei verfügbar**
 
-Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle OpenOlat-Benutzer:innen können die Lernressource buchen und nutzen. Die buchende Person wird Teilnehmer:in der Lernressource. Ist "Automatisches Buchen" eingeschaltet, leitet OpenOlat die Person direkt in den Kurs, ohne dass sie im Buchungsdialog noch ausdrücklich bucht. Im Unterschied zu "Ohne Buchung" sehen die Besitzer:innen, wer den Kurs gebucht hat.
+Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle OpenOlat-Benutzer:innen, für die das Angebot freigegeben ist, können die Lernressource buchen und nutzen. Die buchende Person wird Teilnehmer:in der Lernressource. Ist im Angebot "Automatisches Buchen" eingeschaltet, leitet OpenOlat die Person direkt in den Kurs, ohne dass sie im Buchungsdialog noch ausdrücklich bucht. Im Unterschied zu "Ohne Buchung" sehen die Besitzer:innen, wer den Kurs gebucht hat, unter `Kurs > Administration > Angebotsarten`, siehe [Angebotsarten](Offer_Types.de.md).
 
 ![Symbol PayPal Checkout](assets/cc-paypal.png){ class="size24" } **PayPal Checkout**
 
@@ -103,11 +103,11 @@ Mit "PayPal Checkout" ist die Buchung kostenpflichtig. Sie legen einen Betrag fe
 
 ![Symbol Ohne Buchung](assets/notBooking.jpg){ class="size24" } **Ohne Buchung**
 
-Mit diesem Angebot veröffentlichen Sie einen Kurs, auf den alle OpenOlat-Benutzer:innen zugreifen können, ohne dass sie in der Mitgliederverwaltung erscheinen.
+Mit diesem Angebot veröffentlichen Sie einen Kurs, auf den alle OpenOlat-Benutzer:innen zugreifen können, für die das Angebot freigegeben ist, ohne dass sie in der Mitgliederverwaltung erscheinen.
 
 ![Symbol Gastzugang](assets/guest.jpg){ class="size24" } **Gastzugang**
 
-Im herkömmlichen Kurs können Sie ein Angebot nur für Gäste erstellen. Es gilt dann nur für Gäste und lässt sich nicht auf Unterorganisationen einschränken. So geben Sie Lernressourcen auch Personen ganz ohne OpenOlat-Konto frei.
+Ein Angebot "Gastzugang" gibt es bei Kursen nur im herkömmlichen Kurs. Es gilt nur für Gäste und lässt sich nicht auf Unterorganisationen einschränken. So geben Sie den Kurs auch Personen ganz ohne OpenOlat-Konto frei.
 
 Das Angebot für Gäste zeigt im Feld "Externer Link - Gast" den Link, den Sie an Gäste weitergeben. Mit "In Zwischenablage kopieren" übernehmen Sie ihn in eine E-Mail, mit "QR-Code anzeigen" zeigen Sie ihn als QR-Code, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). Wie Gäste damit in den Kurs gelangen, beschreibt [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md#course_level). [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9982)" }](https://track.frentix.com/issue/OO-9982){:target="_blank"}
 
@@ -179,6 +179,7 @@ Unter `Kurs > Administration > Löschen` bzw. über das 3-Punkte-Menü ![Symbol 
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
 [Modul Lernressource >](../../manual_admin/administration/Modules_Learning_Resource.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Angebotsarten >](Offer_Types.de.md)<br>
 [PayPal Konfiguration >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
 [Angebotskonzepte >](../basic_concepts/Offer_Concepts.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>

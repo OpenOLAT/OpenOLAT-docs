@@ -9,7 +9,7 @@ Sind Kurse und andere Lerninhalte in OpenOlat erstellt, bestimmen Sie, welche Be
 * **Buchbare und offene Angebote:** Besitzer:innen fügen dem Kurs ein Angebot hinzu. Benutzer:innen finden das Angebot im Katalog und werden Mitglied, indem sie es buchen.<br>
 Für denselben Kurs erstellen Sie auch mehrere Angebote für verschiedene Zielgruppen.<br>
 So bieten Sie einen Kurs zum Beispiel internen Benutzer:innen kostenlos an und mit einem zweiten Angebot Externen kostenpflichtig.
-Ein Angebot erscheint im Katalog nur für bestimmte Organisationseinheiten oder für alle. Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft.
+Ob ein Angebot im Katalog für alle oder nur für bestimmte Organisationseinheiten erscheint, legen Sie im Angebot fest, siehe [Wo können Angebote gezeigt werden?](#show_offers). Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft.
 
 **Beispiel für Kursangebote im Katalog:**
 ![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
@@ -97,7 +97,7 @@ Der Abschnitt "Angebot" trägt zwei Überschriften "Angebot": Die obere zeigt in
 
     Wer Ihren Kurs über welches Angebot gebucht hat, sehen Sie unter:<br>
     `Kurs > Administration > Angebotsarten`<br>
-    Der Menüpunkt zeigt trotz seines Namens die Buchungsaufträge des Kurses, siehe [Angebotsarten](../learningresources/Offer_Types.de.md).<br>
+    Der Menüpunkt zeigt trotz seines Namens die Buchungsaufträge des Kurses. Er erscheint erst, wenn der Kurs ein Angebot mit Buchung hat, siehe [Angebotsarten: Wann erscheint der Menüpunkt?](../learningresources/Offer_Types.de.md#menu_visibility).<br>
     [Details zur Angebotskonfiguration >](../learningresources/Access_configuration.de.md#offer)
 
 
@@ -128,17 +128,17 @@ Die Angebotsart legt fest, wie Personen Zugang zu einem Kurs oder einer Durchfü
 
 Die Angebotsart wählen Sie beim Erstellen eines Angebots im Menü neben "Angebot hinzufügen" oder im Dialog, den ein Klick auf "Angebot hinzufügen" öffnet. Der Dialog gruppiert die Angebotsarten nach Mitgliedschaft. Hat der Kurs oder die Durchführung noch kein Angebot, stehen dieselben Angebotsarten unter "Noch kein Angebot erstellt" auch als Buttons bereit.
 
-[Mehr über die Angebotsarten >](../learningresources/Access_configuration.de.md#angebotsoptionen)
+[Angebotsarten eines Kurses im Detail >](../learningresources/Access_configuration.de.md#angebotsoptionen)
 
 ### Angebotsarten für Kurse {: #offer_types_courses}
 
 Ein Kurs mit dem Verwendungszweck "Eigenständig", in der Tabelle oben "Eigenständiger Kurs", bietet "Ohne Buchung", "Frei verfügbar", "Zugangscode" und "PayPal Checkout" zur Wahl. Voraussetzung ist, dass im Tab "Freigabe" der "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" steht. Den Weg zum Button "Angebot hinzufügen" zeigt [Angebotserstellung im Kurs](#create_offers_course). Ob "PayPal Checkout" zur Wahl steht, hängt vom eingerichteten Bezahlungsmodul und von Ihrer Rolle ab, siehe [PayPal](#offer_payed_paypal).
 
-In einem herkömmlichen Kurs, also keinem [Lernpfadkurs](../learningresources/Learning_path_course/index.de.md), steht zusätzlich die Angebotsart "Gastzugang" zur Wahl. Damit öffnen Sie den Kurs für Gäste ohne Registrierung, siehe [Rollen und Rechte: Gastzugang](guest_access.de.md).
-
 ![Menü neben Angebot hinzufügen mit Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout, dieselben Angebotsarten als Buttons unter Noch kein Angebot erstellt](../learningresources/assets/offer_types_course1_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe eines Kurses · 2026.11.18" }
 
 ![Ohne Buchung unter Ohne Mitgliedschaft, Frei verfügbar und Zugangscode unter Mit Mitgliedschaft, PayPal Checkout unter Mit Mitgliedschaft - Kostenpflichtig](../learningresources/assets/offer_types_course2_v2_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen eines Kurses · 2026.11.18" }
+
+In einem herkömmlichen Kurs, also keinem [Lernpfadkurs](../learningresources/Learning_path_course/index.de.md), steht zusätzlich die Angebotsart "Gastzugang" zur Wahl. Damit öffnen Sie den Kurs für Gäste ohne Registrierung, siehe [Rollen und Rechte: Gastzugang](guest_access.de.md).
 
 ### Angebotsarten für Durchführungen [:octicons-tag-16:{ title="ab Release 20.0 (OO-8236)" }](https://track.frentix.com/issue/OO-8236){:target="_blank"} {: #offer_types_implementations}
 
@@ -166,7 +166,7 @@ Angebote im Katalog gibt es für
 
 Angebote zu einem Kurs erstellen Sie unter:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`<br>
-Wählen Sie vorher bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote". Welche Angebotsarten ein Kurs bietet, zeigt [Angebotsarten für Kurse](#offer_types_courses).
+Wählen Sie vorher bei "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" und klicken Sie auf "Speichern". Danach erscheint der Abschnitt "Angebot", und OpenOlat öffnet gleich den Dialog "Angebot hinzufügen" für das erste Angebot. Welche Angebotsarten ein Kurs bietet, zeigt [Angebotsarten für Kurse](#offer_types_courses).
 
 Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie hier >](../../manual_user/area_modules/catalog2.0_angebote.de.md)
 
@@ -223,9 +223,9 @@ Passen Sie Metadaten und Beschreibung dieses Kurses an die enthaltene Lernressou
 
 Mit dem Bezahlungsmodul PayPal bieten Autor:innen Lerninhalte gegen Bezahlung an. Systemadministrator:innen richten das Modul vorher in der System-Administration ein und schalten es ein.
 
-Ist das PayPal Modul konfiguriert, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
+Ist das Bezahlungsmodul PayPal eingerichtet und eingeschaltet, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
 
-Ein Angebot "PayPal Checkout" erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Besitzer:innen eines Kurses und Kursplaner:innen brauchen dafür zusätzlich eine dieser Rollen; ohne sie bietet "Angebot hinzufügen" nur die übrigen Angebotsarten an.
+Ein Angebot "PayPal Checkout" erstellen nur Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in. Besitzer:innen eines Kurses und Kursplaner:innen ohne eine dieser drei Rollen sehen unter "Angebot hinzufügen" die übrigen Angebotsarten. Die Rolle Administrator:in ist nicht dieselbe wie die Rolle Systemadministrator:in, die das Bezahlungsmodul einrichtet, siehe [Rollen und Rechte](Roles/index.de.md).
 
 [Einrichtung des Bezahlungsmoduls PayPal (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
@@ -379,6 +379,7 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](Roles/index.de.md)<br>
 [PayPal Konfiguration (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
 [Bezahlungsmodule: Rechnung (Administrationshandbuch) >](../../manual_admin/administration/Payment_Invoice.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
