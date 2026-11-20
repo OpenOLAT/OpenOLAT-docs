@@ -209,7 +209,7 @@ Teilnehmer:innen öffnen den Kurs und bearbeiten die Kursbausteine und Inhalte, 
 
 ### Rolle wechseln {: #role_switch}
 
-Eine Person kann mehrere Kursrollen haben, zum Beispiel Besitzer:in und Betreuer:in. Im Menü "Rolle" in der Toolbar des Kurses wechselt sie unter "Rollen" zu einer anderen ihrer Rollen und sieht den Kurs so, wie diese Rolle ihn sieht. Besitzer:innen und Betreuer:innen, die nicht zugleich Teilnehmer:in sind, wählen unter "Wechseln zu" die "Teilnehmer:innenansicht".
+Eine Person kann mehrere Kursrollen haben, zum Beispiel Besitzer:in und Betreuer:in. Im Menü "Rolle" in der Toolbar des Kurses wechselt sie unter "Rollen" zu einer anderen ihrer Rollen und sieht den Kurs so, wie diese Rolle ihn sieht. Besitzer:innen, Betreuer:innen und CPL Klassenlehrer:innen, die nicht zugleich Teilnehmer:in sind, wählen unter "Wechseln zu" die "Teilnehmer:innenansicht".
 
 ![Das Menü Rolle zeigt unter Rollen die weiteren Rollen der Person und unter Wechseln zu die Teilnehmer:innenansicht](../assets/roles_course_role_switch_v1_de.png){ class="shadow lightbox" title="Menü Rolle in der Toolbar des Kurses · 2026.10.21" }
 

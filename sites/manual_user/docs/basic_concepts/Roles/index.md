@@ -209,7 +209,7 @@ Participants open the course and work on the course elements and contents that a
 
 ### Switch role {: #role_switch}
 
-A person can have several course roles, for example Owner and Coach. In the "Role" menu in the toolbar of the course, they switch under "Roles" to another of their roles and see the course the way this role sees it. Owners and coaches who are not also participants choose "Participant view" under "Switch to".
+A person can have several course roles, for example Owner and Coach. In the "Role" menu in the toolbar of the course, they switch under "Roles" to another of their roles and see the course the way this role sees it. Owners, coaches and CPL master coaches who are not also participants choose "Participant view" under "Switch to".
 
 ![The Role menu shows the person's other roles under Roles and the participant view under Switch to](../assets/roles_course_role_switch_v1_en.png){ class="shadow lightbox" title="Role menu in the toolbar of the course · 2026.10.21" }
 

@@ -104,24 +104,41 @@ Mehr dazu finden Sie auf den Seiten [Zugangskonfiguration / Freigabe](../Access_
 
 ## Rollenwechsel [:octicons-tag-16:{ title="ab Release 15.0 (OO-4285)" }](https://track.frentix.com/issue/OO-4285) {: #role_change}
 
-Wie Teilnehmende Ihren Kurs erleben, prüfen Sie mit dem Rollenwechsel selbst: Sie sehen den Kurs aus ihrer Sicht, etwa den Ablauf der Kursbausteine "Aufgabe", "Gruppenaufgabe", "Checkliste" oder "Teilnehmer:innen Ordner". Das Menü "Rolle" in der Toolbar zeigt, in welcher Rolle Sie den Kurs gerade sehen. Haben Sie den Kurs erstellt, ist das die Rolle "Besitzer:in". Als Besitzer:in, Betreuer:in oder CPL Klassenlehrer:in wechseln Sie im selben Menü unter "Wechseln zu" in die "Teilnehmer:innenansicht", solange Sie im Kurs nicht selbst Teilnehmer:in sind. In dieser Ansicht sind Sie nicht als Teilnehmer:in eingetragen. Mit dem Button "Teilnehmer:innenansicht verlassen" unter der Toolbar kehren Sie in Ihre vorherige Rolle zurück.
+Wie Teilnehmende Ihren Kurs erleben, prüfen Sie mit dem Rollenwechsel selbst: Sie sehen den Kurs aus ihrer Sicht, etwa den Ablauf der Kursbausteine "Aufgabe", "Gruppenaufgabe", "Checkliste" oder "Teilnehmer:innen Ordner". Das Menü "Rolle" rechts in der Toolbar, der Leiste über dem Kursinhalt, zeigt, in welcher Rolle Sie den Kurs gerade sehen. Haben Sie den Kurs erstellt, ist das die Rolle "Besitzer:in". Als Besitzer:in, Betreuer:in oder CPL Klassenlehrer:in, also als Klassenlehrer:in einer Durchführung im Course Planner, wechseln Sie im selben Menü unter "Wechseln zu" in die "Teilnehmer:innenansicht", solange Sie im Kurs nicht selbst Teilnehmer:in sind. Sind Sie zugleich Teilnehmer:in, wählen Sie stattdessen unter "Rollen" die Rolle "Teilnehmer:in". Mit dem Button "Teilnehmer:innenansicht verlassen" unter der Toolbar kehren Sie in Ihre vorherige Rolle zurück.
 
 ![Rolle Besitzer:in, aufgeklappt mit dem Eintrag Teilnehmer:innenansicht unter Wechseln zu](../assets/course_role_switch_v1_de.png){ class="shadow lightbox" title="Menü Rolle in der Kurs-Toolbar · 2026.11.18" }
 
-Haben Sie im Kurs weitere Rollen, stehen sie ebenfalls im Menü, und Sie wechseln in die entsprechende Ansicht.
+In der Teilnehmer:innenansicht sind Sie nicht als Teilnehmer:in eingetragen. Was Sie in den Kursbausteinen bearbeiten, etwa einen Test, speichert OpenOlat trotzdem unter Ihrem Namen. Im Bewertungswerkzeug erscheinen diese Einträge, wenn Sie unter "Teilnehmer:innen" den Schalter "Aus Teilnehmer:innenansicht" einschalten. Betreuer:innen sehen dort nur ihre eigenen Einträge. Tragen Sie sich später aus dem Kurs aus, bleiben die Einträge erhalten und stehen unter dem Schalter "Nichtmitglied".
 
-Das Menü zeigt je einen Eintrag "Betreuer:in" und "Teilnehmer:in", gleich ob Sie direkt im Kurs, über eine Gruppe oder über eine Durchführung im Course Planner eingetragen sind.
+Haben Sie im Kurs weitere Rollen, als Mitglied oder als administrative Rolle wie Administrator:in, stehen sie im selben Menü unter "Rollen", und Sie wechseln in die entsprechende Ansicht.
+
+Mitglied eines Kurses sind Sie als Besitzer:in, Betreuer:in oder Teilnehmer:in. Eingetragen werden Sie direkt im Kurs oder über eine Durchführung im [Course Planner](../../area_modules/Course_Planner/index.de.md), als Betreuer:in oder Teilnehmer:in auch über eine Gruppe. Eine Durchführung ist der konkrete Durchgang eines Bildungsangebots mit Zeitraum, Mitgliedern und Kursen. Das Menü zeigt je einen Eintrag "Betreuer:in" und "Teilnehmer:in", gleich auf welchem dieser Wege Sie eingetragen sind.
 
 ### Initiale Rolle bei Kursaufruf [:octicons-tag-16:{ title="ab Release 19.1 (OO-8231)" }](https://track.frentix.com/issue/OO-8231) {: #initial_role}
 
-Haben Sie eine administrative Rolle, etwa Administrator:in oder Lernressourcenverwalter:in, öffnen Sie Kurse auch dann, wenn Sie nicht Mitglied sind. Sind Sie in einem Kurs zusätzlich als Teilnehmer:in eingetragen und haben dort keine andere Mitgliedsrolle, öffnet OpenOlat den Kurs in der Rolle "Teilnehmer:in". So erleben Sie den Kurs, wie er für Sie als Teilnehmer:in gedacht ist.
+Beim Öffnen eines Kurses wählt OpenOlat Ihre Rolle selbst. Ihre Rollen als Mitglied gehen dabei allen anderen Rollen vor, in der Grundeinstellung in der Reihenfolge Besitzer:in, Betreuer:in, Teilnehmer:in. Wer einen Kurs besitzt oder betreut, sieht ihn beim Öffnen deshalb in dieser Rolle und stellt bei Bedarf auf die Teilnehmer:innenansicht um. Sind Sie im Kurs nur als Teilnehmer:in eingetragen, öffnet OpenOlat ihn in der Rolle "Teilnehmer:in", auch wenn Sie zusätzlich eine administrative Rolle haben. So erleben Sie den Kurs, wie er für Sie als Teilnehmer:in gedacht ist.
 
-Sind Sie nicht Mitglied des Kurses, öffnet OpenOlat ihn in Ihrer administrativen Rolle. Haben Sie mehrere davon, gilt die erste Ihrer Rollen in dieser festen Reihenfolge: "Principal", "Kursplaner:in", "Lernressourcenverwalter:in", "CPL Klassenlehrer:in", "Administrator:in". Sind Sie zum Beispiel Lernressourcenverwalter:in und Administrator:in, sehen Sie den Kurs in der Rolle "Lernressourcenverwalter:in". In den Rollen "Principal", "Kursplaner:in" und "CPL Klassenlehrer:in" sehen Sie den Kurs nur lesend. In eine andere Ihrer Rollen wechseln Sie über das Menü "Rolle". Was die einzelnen Rollen dürfen, beschreibt die Seite [Rollen](../../basic_concepts/Roles/index.de.md).
-
-Die "Teilnehmer:innenansicht" bietet das Menü "Rolle" Besitzer:innen, Betreuer:innen und CPL Klassenlehrer:innen an, solange sie im Kurs nicht Teilnehmer:in sind. Möchten Sie einen Kurs sehen, wie Teilnehmende ihn sehen, tragen Sie sich in der Mitgliederverwaltung als Besitzer:in oder Betreuer:in ein. Das geht in der Rolle "Administrator:in" oder "Lernressourcenverwalter:in": `Kurs > Administration > Mitgliederverwaltung`. Sobald Sie die Mitgliederverwaltung verlassen, steht die "Teilnehmer:innenansicht" im Menü "Rolle". Beim nächsten Öffnen zeigt OpenOlat den Kurs in dieser Mitgliedsrolle. Brauchen Sie die Mitgliedschaft nicht mehr, entfernen Sie sich in der Mitgliederverwaltung wieder.
-
-Die Rollen als Mitglied gehen den administrativen Rollen immer vor. Unter den Mitgliedsrollen gilt in der Grundeinstellung: Besitzer:in vor Betreuer:in vor Teilnehmer:in. Wer einen Kurs besitzt oder betreut, sieht ihn beim Öffnen deshalb sofort in dieser Rolle und stellt bei Bedarf auf die Teilnehmer:innenansicht um. Die Reihenfolge der Mitgliedsrollen legen Administrator:innen in der System-Administration im [Modul Lernressource](../../../manual_admin/administration/Modules_Learning_Resource.de.md) fest, Abschnitt "Standard-Rollenpriorität":<br>
+Die Reihenfolge der drei Mitgliedsrollen legen Administrator:innen für alle Kurse fest, in der System-Administration im [Modul Lernressource](../../../manual_admin/administration/Modules_Learning_Resource.de.md), Abschnitt "Standard-Rollenpriorität":<br>
 `Administration > Module > Lernressource > Tab "Einstellungen"`
+
+Ohne Mitgliedschaft öffnen Sie einen Kurs, wenn Sie eine der folgenden Rollen für ihn haben. Die Organisationsrollen gelten für die Kurse der Organisation, in der Sie die Rolle haben. Haben Sie mehrere dieser Rollen, wählt OpenOlat die erste in dieser Reihenfolge. Diese Reihenfolge ist fest, die "Standard-Rollenpriorität" ordnet nur die Mitgliedsrollen.
+
+1. **Principal**: Organisationsrolle mit Lesezugriff auf die Objekte der Organisation.
+2. **Kursplaner:in**: Organisationsrolle für den Course Planner, das Werkzeug, mit dem eine Organisation ihr Bildungsangebot in Produkten und Durchführungen plant. Dieselbe Rolle zeigt der Kurs Produktbesitzer:innen und Elementbesitzer:innen des Course Planner, wenn der Kurs zu ihrem Produkt oder Element gehört.
+3. **Lernressourcenverwalter:in**: Organisationsrolle für die Verwaltung der Kurse und Lernressourcen der Organisation.
+4. **CPL Klassenlehrer:in**: Klassenlehrer:innen betreuen eine ganze Durchführung im Course Planner (CPL), über alle Kurse der Durchführung hinweg. Sie öffnen den Kurs ab dem Status "Freigabe Betreuer:innen".
+5. **Administrator:in**: Organisationsrolle mit Zugriff auf alle Bereiche der Organisation.
+
+Sind Sie zum Beispiel Lernressourcenverwalter:in und Administrator:in, öffnet OpenOlat den Kurs in der Rolle "Lernressourcenverwalter:in". Im Kurs haben beide Rollen dieselben Rechte wie Besitzer:innen. In den Rollen "Principal", "Kursplaner:in" und "CPL Klassenlehrer:in" sehen Sie Inhalte und Mitglieder des Kurses, ändern aber nichts. Einstellungen und Kurseditor öffnen Besitzer:innen, Lernressourcenverwalter:innen und Administrator:innen. In eine andere Ihrer Rollen wechseln Sie über das Menü "Rolle". Was die einzelnen Rollen dürfen, beschreiben die Seiten [Rollen](../../basic_concepts/Roles/index.de.md#org) und [Course Planner](../../area_modules/Course_Planner/index.de.md#roles_rights).
+
+Die "Teilnehmer:innenansicht" bietet das Menü "Rolle" nur Besitzer:innen, Betreuer:innen und CPL Klassenlehrer:innen an. Öffnen Sie einen Kurs als Administrator:in oder Lernressourcenverwalter:in ohne Mitgliedschaft, steht sie deshalb nicht im Menü. Um einen solchen Kurs zu sehen, wie Teilnehmende ihn sehen, tragen Sie sich als Besitzer:in oder Betreuer:in ein:
+
+1. Zeigt das Menü "Rolle" eine Rolle, die nur lesend öffnet, etwa "Principal", wechseln Sie dort zuerst in die Rolle "Administrator:in" oder "Lernressourcenverwalter:in". Von Ihren administrativen Rollen fügen nur diese beiden Mitglieder hinzu.
+2. Tragen Sie sich in der Mitgliederverwaltung als Besitzer:in oder Betreuer:in ein: `Kurs > Administration > Mitgliederverwaltung`<br>
+   Im letzten Schritt des Assistenten ist die "E-Mail-Benachrichtigung" eingeschaltet, die Mail geht an Sie selbst. Brauchen Sie sie nicht, schalten Sie sie aus. Als Betreuer:in sehen Teilnehmende Sie im Kursbaustein "Liste der Teilnehmer:innen" unter "Betreuer:innen". Besitzer:innen zeigt der Kursbaustein unter "Kursadministrator:innen", wenn das in seiner Konfiguration eingeschaltet ist.
+3. Schliessen Sie den Kurs und öffnen Sie ihn neu. OpenOlat zeigt ihn jetzt in Ihrer neuen Mitgliedsrolle, und das Menü "Rolle" bietet unter "Wechseln zu" die "Teilnehmer:innenansicht" an.
+
+Brauchen Sie die Mitgliedschaft nicht mehr, entfernen Sie sich in der Mitgliederverwaltung wieder. Auch dabei ist die Benachrichtigung "Mitglied benachrichtigen" vorausgewählt. Sind Sie die einzige Besitzer:in, lässt OpenOlat das Entfernen nicht zu, denn jeder Kurs braucht mindestens eine Besitzer:in.
 
 
 <details>
@@ -129,15 +146,15 @@ Die Rollen als Mitglied gehen den administrativen Rollen immer vor. Unter den Mi
 
     <b>Situation:</b> <br>
     - Ihr Kurs enthält den Kursbaustein "Einschreibung". Als Besitzer:in wechseln Sie über das Menü "Rolle" in die Teilnehmer:innenansicht. Unter der Toolbar erscheint dann der Hinweis "Sie befinden sich in der Teilnehmer:innenansicht. Aktivitäten in den Kursbausteinen werden gespeichert." mit dem Button "Teilnehmer:innenansicht verlassen".<br>
-    - Sie schreiben sich im Kursbaustein "Einschreibung" in eine Gruppe ein.<br>
+    - Sie schreiben sich im Kursbaustein "Einschreibung" in eine Gruppe ein und belegen damit einen Platz in der Gruppe.<br>
     <b>-></b> OpenOlat wechselt sofort in die Rolle "Besitzer:in", und der Hinweis verschwindet (Erklärung unten). Im Menü "Rolle" steht anstelle der Teilnehmer:innenansicht jetzt die Rolle "Teilnehmer:in". Wechseln Sie in diese Rolle, erscheint kein Hinweis, denn Sie sind nun tatsächlich Teilnehmer:in des Kurses.<br>
     - Rufen Sie den Kurs erneut auf, bleibt es dabei: OpenOlat öffnet ihn in der Rolle "Besitzer:in", und die Teilnehmer:innenansicht fehlt im Menü "Rolle".<br>
-    - Die Teilnehmer:innenansicht steht erst wieder zur Verfügung, wenn Sie nicht mehr Mitglied der Gruppe sind und den Kurs erneut aufrufen. Aus der Gruppe tragen Sie sich im Kursbaustein "Einschreibung" mit "Austragen" aus, sofern in der Konfiguration des Kursbausteins das Kontrollkästchen "Austragen erlaubt" gesetzt ist. Andernfalls entfernen Sie Ihre Mitgliedschaft in der Gruppe in der Mitgliederverwaltung des Kurses: <code>Kurs > Administration > Mitgliederverwaltung</code>
+    - Die Teilnehmer:innenansicht steht erst wieder zur Verfügung, wenn Sie nicht mehr Mitglied der Gruppe sind und den Kurs erneut aufrufen. Aus der Gruppe tragen Sie sich im Kursbaustein "Einschreibung" mit "Austragen" aus, sofern das Kontrollkästchen "Austragen erlaubt" gesetzt ist: <code>Kurs > Administration > Kurseditor > Kursbaustein "Einschreibung" > Tab "Konfiguration"</code><br>
+    Andernfalls entfernen Sie Ihre Mitgliedschaft in der Gruppe in der Mitgliederverwaltung des Kurses: <code>Kurs > Administration > Mitgliederverwaltung</code><br>
+    Ob danach jemand von der Warteliste nachrückt, legt die Gruppe selbst fest, mit den Optionen "Warteliste" und "Automatisches Nachrücken": <code>Gruppe > Administration > Beschreibung</code>
     <br><br>
     <b>Erklärung:</b> <br>
-    In der Teilnehmer:innenansicht sehen Sie den Kurs wie Teilnehmende, ohne in der Mitgliederverwaltung als Teilnehmer:in eingetragen zu sein. Das gleicht der Angebotsart "Ohne Buchung": Mit diesem Angebot öffnen Benutzer:innen den Kurs ohne Mitgliedschaft. Die Angebotsarten eines Kurses finden Sie unter:<br>
-    <code>Kurs > Administration > Einstellungen > Tab "Freigabe"</code><br>
-    Mit der Einschreibung werden Sie Gruppenteilnehmer:in und stehen damit in der Mitgliederverwaltung des Kurses. Die Teilnehmer:innenansicht gibt es aber nur, solange Sie im Kurs nicht Teilnehmer:in sind, weder direkt noch über eine Gruppe oder eine Durchführung im Course Planner. Deshalb wechselt OpenOlat nach der Einschreibung in die Rolle, in der Sie den Kurs auch beim Öffnen sehen, in der Grundeinstellung "Besitzer:in" (siehe Abschnitt <a href="#initial_role">Initiale Rolle bei Kursaufruf</a>).<br><br>
+    In der Teilnehmer:innenansicht sehen Sie den Kurs wie Teilnehmende, ohne in der Mitgliederverwaltung als Teilnehmer:in eingetragen zu sein. Mit der Einschreibung werden Sie Teilnehmer:in der Gruppe und stehen damit in der Mitgliederverwaltung des Kurses. Die Teilnehmer:innenansicht gibt es aber nur, solange Sie im Kurs nicht Teilnehmer:in sind, weder direkt noch über eine Gruppe oder eine Durchführung im Course Planner. Deshalb wechselt OpenOlat nach der Einschreibung in die Rolle, in der Sie den Kurs auch beim Öffnen sehen, in der Grundeinstellung "Besitzer:in" (siehe Abschnitt <a href="#initial_role">Initiale Rolle bei Kursaufruf</a>).<br><br>
 
 </details>
 
@@ -146,6 +163,7 @@ Die Rollen als Mitglied gehen den administrativen Rollen immer vor. Unter den Mi
 **Weiterführend**<br>
 [Lernpfadkurs - Überblick >](../Learning_path_course/index.de.md)<br>
 [Mitgliederverwaltung >](../Members_management.de.md)<br>
+[Kursbaustein "Einschreibung" >](../Course_Element_Enrolment.de.md)<br>
 [Kurs-Administration: Übersicht >](../Administration/index.de.md)
 
 [Zum Seitenanfang ^](#general_information)
