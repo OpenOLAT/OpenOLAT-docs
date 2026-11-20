@@ -110,9 +110,9 @@ You cancel a booking in the box below: "My educational product" or "My course", 
 If you cannot take part in a booked implementation after all, you cancel the booking yourself if the offer allows it. You cancel on the info page of the implementation, which you reach via the catalog:<br>
 `Catalog > "Your implementation" > Learn more > Box "My educational product" > Cancel booking` [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
 
-If the implementation is offered like a single course, the box is called "My course".
+If the implementation is of the type Single course, the box is called "My course".
 
-You can cancel a booking yourself if it was made via an offer of an implementation in the Course Planner. You leave a booked individual course with [Leave course](#leave_course) instead.
+You can cancel a booking yourself if it was made via an offer of an implementation in the Course Planner. You leave a course that you booked directly with [Leave course](#leave_course) instead.
 
 ![As a participant you find the button "Cancel booking" in its own box "My educational product" below "Get started"](assets/general_functions_infopage_my_product_v1_en.png){ class="shadow lightbox" title="Info page of an implementation as a participant · 2026.11.09" }
 
@@ -128,8 +128,8 @@ The button only appears if the offer allows cancellation and your booking fits. 
 
 - **The offer does not allow cancellation:** The offer you booked does not let participants cancel themselves. With payment via "PayPal Checkout", this is always the case.
 - **The start has been reached:** With many offers, you can only cancel until the day before the start of the implementation. From the begin date on, the button is missing. If the implementation has no begin date, it is missing completely with these offers.
-- **You were enrolled without a booking order:** The button needs a booking order with the status "New", "In payment process" or "Paid". You have one if you booked in the catalog or were enrolled with an offer. You can see whether a booking order exists under [Booking orders](../personal_menu/Bookings.md).
-- **You have another role:** Only participants of the implementation and persons whose booking is still pending see the button.
+- **You were enrolled without a booking order:** The button needs a booking order with the status "Done", "Open" or "Paid", see [Offer types: Status of booking orders](Offer_Types.md#order_status). You have one if you booked in the catalog or were enrolled with an offer. You can see whether a booking order exists under [Booking orders](../personal_menu/Bookings.md).
+- **You have another role:** Only participants of the implementation and persons whose membership is still waiting for confirmation after booking see the button.
 
 In these cases, contact your coaches or the person who enrolled you. Whoever manages the members of the implementation cancels your booking regardless of the setting of the offer. If there is no booking order, this person removes you from the implementation.
 
@@ -287,6 +287,7 @@ The details on usage, for example in which courses the learning resource is embe
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+[Offer types >](Offer_Types.md)<br>
 [User tools: Booking orders >](../personal_menu/Bookings.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>
 [Course Planner: Implementations >](../area_modules/Course_Planner_Implementations.md)<br>

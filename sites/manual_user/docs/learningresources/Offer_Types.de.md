@@ -38,7 +38,7 @@ Sehen Sie in einer Liste mit Buchungsaufträgen einen Status, erfahren Sie hier,
 
 Die Spalte "Was tun" richtet sich an die Personen, die Buchungen verwalten. Als Teilnehmer:in lesen Sie in der Spalte "Bedeutung", wie weit Ihre eigene Buchung ist.
 
-![Drei Angebotsarten mit ihren Status: Frei verfügbar und Zugangscode führen zu Erledigt, Rechnung zu Offen, PayPal Checkout zu In Verarbeitung](assets/offer_types_order_status_v1_de.svg){ class="shadow lightbox" title="Status eines Buchungsauftrags je Angebotsart" }
+![Drei Angebotsarten mit ihren Status: Frei verfügbar und Zugangscode führen zu Erledigt, Rechnung zu Offen, PayPal Checkout zu In Verarbeitung](assets/offer_types_order_status_v1_de.svg){ class="shadow lightbox" title="Status eines Buchungsauftrags je Angebotsart · 2026.11.20" }
 
 | Status | Bedeutung | Was tun |
 |---|---|---|

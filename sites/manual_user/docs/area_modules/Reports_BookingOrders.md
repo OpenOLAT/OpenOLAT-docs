@@ -20,7 +20,7 @@ The Booking orders report lists the following columns for each booking order. It
 | Execution to               | Implementation         | End date of the execution period of the implementation            |                                                                 |
 | Location	                 | Implementation         | Location of the implementation                                    |                                                                 |
 | Booking number	         | Booking order          | Number of the booking order                                       |                                                                 |
-| Booking status	         | Booking order          | Status of the booking order                                       |                                                                 |
+| Booking status	         | Booking order          | Status of the booking order, with the same words as in the lists of booking orders, see [Offer types: Status of booking orders](../learningresources/Offer_Types.md#order_status) |                                                                 |
 | Offer	                     | Booking order          | Label of the booked offer                                         |                                                                 |
 | Offer type	                 | Booking order          | Type of the booked offer                                          |                                                                 |
 | Cost center	             | Booking order          | Cost center of the booked offer                                   | :material-cancel: Not available                                 |
@@ -66,6 +66,7 @@ The Booking orders report lists the following columns for each booking order. It
 ## Further information {: #further_information}
 
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
+[Offer types >](../learningresources/Offer_Types.md)<br>
 [Course Planner: Reports >](Course_Planner_Reports/index.md)<br>
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Payment modules: Invoice >](../../manual_admin/administration/Payment_Invoice.md)

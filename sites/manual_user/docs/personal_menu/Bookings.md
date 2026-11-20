@@ -4,9 +4,9 @@
 
 ![Booking orders icon](assets/icon_bookings.png)
 
-If you want to check what you have booked and which status a booking has, open the booking orders: `Personal menu > User tools > Booking orders`. The overview shows all courses and learning resources that are linked to an [offer type](../learningresources/Access_configuration.md), for example "Access code", and for which a booking order exists for you. This also applies if another person made the booking for you. "Booking" stands for enrolling, registering and purchasing.
+If you want to check what you have booked and which status a booking has, open the booking orders: `Personal menu > User tools > Booking orders`. The overview shows all courses and learning resources that are linked to an [offer type](../learningresources/Access_configuration.md), for example "Access code", and for which a booking order exists for you. This also applies if another person made the booking for you. "Booking" stands for enrolling, registering and purchasing. What a status means, for example "Open" or "Done", is described in [Offer types: Status of booking orders](../learningresources/Offer_Types.md#order_status).
 
-Learning resources in which owners enter you directly or which you join via a group are missing from this list, because no booking order is created in that case.
+Learning resources in which owners enter you directly or which you join via a group are missing from this list, because no booking order is created in that case. If you booked a group yourself through an offer, this booking is in the list.
 
 ![Table My booking orders with booking number, status, offer type, content and order date per booking, above it the tabs Booking orders and Billing addresses](assets/pers_menu_booking_orders2_v1_en.png){ class="shadow lightbox" title="Booking orders in the User tools" }
 
@@ -26,6 +26,7 @@ You book in the [catalog](../area_modules/catalog2.0_angebote.md#offers_create) 
 ## Further information {: #further_information}
 
 [Access configuration >](../learningresources/Access_configuration.md)<br>
+[Offer types >](../learningresources/Offer_Types.md)<br>
 [General Functions: Info Page >](../learningresources/General_Functions_Infopage.md)<br>
 [Module Organisations >](../../manual_admin/administration/Modules_Organisations.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>

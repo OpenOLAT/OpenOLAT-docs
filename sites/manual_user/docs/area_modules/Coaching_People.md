@@ -144,7 +144,7 @@ The prerequisites are the activated [credit points module](../../manual_admin/ad
 
 #### Bookings {: #tab_bookings}
 
-Here you see when and via which offer the person got into a course or an implementation. The list shows per booking the "Order date", the "Offer", the "Content" and the "Status". The prerequisites are the activated [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md) and the right "View bookings". If you additionally hold the right "Pending course booking orders" and the Course Planner module and the offer type "Invoice" are switched on, the switch "Pending memberships" appears next to "Booking orders", see [Confirm pending memberships](#linemanager_educationmanager_confirm_membership).
+Under the switch "Booking orders" you see when and via which offer the person booked a course or an implementation and how far each booking has got, also for canceled bookings. The list shows per booking the "Order date", the "Offer", the "Content" and the "Status". What the statuses mean is described in [Offer types: Status of booking orders](../learningresources/Offer_Types.md#order_status). The prerequisites are the activated [Module Catalog](../../manual_admin/administration/Modules_Catalog_2.0.md) and the right "View bookings". If you additionally hold the right "Pending course booking orders" and the Course Planner module and the offer type "Invoice" are switched on, the switch "Pending memberships" appears next to "Booking orders", see [Confirm pending memberships](#linemanager_educationmanager_confirm_membership).
 
 #### Groups {: #tab_groups}
 
@@ -324,6 +324,7 @@ Open a person and switch to "Educational products". The list shows the implement
 [Events and absences >](../learningresources/Events_and_absences.md)<br>
 [Personal achievements/successes: Credit points >](../personal_menu/Credit_Points.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
+[Offer types >](../learningresources/Offer_Types.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Core functions: Overview >](../../manual_admin/administration/Core_functions/index.md)<br>
 [Catalog 2.0 - Offers >](../area_modules/catalog2.0_angebote.md)<br>

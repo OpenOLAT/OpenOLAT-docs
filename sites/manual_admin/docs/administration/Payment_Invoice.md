@@ -17,9 +17,9 @@ Users can book these courses by registering from the catalog (if they are alread
 
 If an offer has been made in the catalog from the Course Planner that can be booked with an invoice, interested parties are guided through the registration process to enter their billing address, etc. A booking number is also created during this process.
 
-The booking request can then be confirmed. 
+The booking order then has the status "Open". After the payment has been received, the person who manages the implementation in the Course Planner sets it to "Paid" with «Set as "Paid"». This person writes off a claim that is no longer collected with "Write off booking order"; the participant's membership remains. What the statuses mean is described in [Offer types: Status of booking orders](../../manual_user/learningresources/Offer_Types.md#order_status).
 
-If the planned course actually takes place, a corresponding OpenOlat course may only be created then.
+You can also wait to create the corresponding OpenOlat course until it is certain that the implementation takes place.
 
 In the Course Planner under:<br>
 `Course Planner > Implementations > "your implementation" > Tab Catalog`<br>
@@ -34,6 +34,7 @@ If the [customer number](Modules_Organisations.md#customer_number) is switched o
 
 ## Further information {: #further_information}
 
+[Offer types >](../../manual_user/learningresources/Offer_Types.md)<br>
 [Module Organisations >](Modules_Organisations.md)<br>
 [Reports: Booking orders >](../../manual_user/area_modules/Reports_BookingOrders.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner/index.md)<br>

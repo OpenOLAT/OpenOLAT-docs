@@ -99,7 +99,10 @@ The course element "External page" can transmit data about the current account t
 
 ## Bookings {: #booking_orders}
 
-Here you can display all booking orders for a specific booking number in a specific period.
+Here you see the booking orders of all learning resources and groups of the instance in one place, with the same tabs and filters as in a course:<br>
+`Administration > Modules > Bookings`
+
+The list is read-only. What the statuses of the booking orders mean is described in [Offer types: Status of booking orders](../../../manual_user/learningresources/Offer_Types.md#order_status).
 
 [To the top of the page ^](#modules)
 

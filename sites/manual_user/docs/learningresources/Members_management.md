@@ -150,9 +150,9 @@ If a course is linked to the [Course Planner](../area_modules/Course_Planner/ind
 
 ## Booking Orders {: #section_booking_orders}
 
-If [offers](../learningresources/Access_configuration.md) have been set up for a course, all booking orders for this course are displayed under "Booking orders", sorted by status.
+If a course has [offers](../learningresources/Access_configuration.md) with booking, that is "Freely available", "Access code" or "PayPal Checkout", the area "Booking orders" shows all booking orders of this course, each with its status. The tabs above the list narrow them down by status. What the statuses mean and which tab shows which statuses is described in [Offer types: Status of booking orders](Offer_Types.md#order_status). Whether you can change a status here is described in [Change the status manually](Offer_Types.md#order_status_change).
 
-A booking order displayed here means that the course is self-contained and bookable, and therefore contains an offer, for example via an access code.
+Booking orders exist only for a course with the usage "Standalone" that has such an offer. The members management shows the area only if access control is switched on.
 
 ![Booking Orders area with status tabs and a table of the bookings including offer type and price](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" title="Booking Orders area of the members management" }
 
@@ -273,6 +273,7 @@ If course-related terms of use or the course-related privacy policy are [activat
 [Toolbar >](Course_Settings_Toolbar.md)<br>
 [Roles and Rights: Overview >](../basic_concepts/Roles_Rights/index.md)<br>
 [Access configuration >](../learningresources/Access_configuration.md)<br>
+[Offer types >](Offer_Types.md)<br>
 [Module Groups >](../../manual_admin/administration/Modules_Groups.md)<br>
 [Course Element "Topic Assignment" >](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Groups >](../groups/index.md)<br>

@@ -413,15 +413,15 @@ There are two ways to take a form out of booking. They differ in what happens to
 
 #### Tab Catalog > Booking orders [:octicons-tag-16:{ title="from Release 20.0 (OO-8318)" }](https://track.frentix.com/issue/OO-8318){:target="_blank"} {: #tab_catalog_booking_orders}
 
-If the implementation has offers with booking, you find the booking orders and their details in the "Catalog" tab in the "Booking orders" subsection.
+If the implementation has offers, you find the booking orders and their details in the "Catalog" tab in the "Booking orders" subsection.
 
-The tabs "All", "Open", "Done", "Paid", "Cancelled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. "Export booking orders" gives you the booking orders of the implementation as an Excel file. It contains the same columns as the [Booking orders report](Reports_BookingOrders.md), so with the customer number switched on also the three customer number columns.
+The tabs "All", "Open", "Done", "Paid", "Canceled" and "Error" as well as the filters "Status", "Offer type" and "Offer" narrow down the list. If the offer type Invoice is available, the tabs "Adjusted amount" and "Address proposal" are added. "Adjusted amount" shows the orders whose price or cancellation fee differs from the offer, for example after "Change price". "Address proposal" shows the orders whose billing address the person entered themselves when booking, instead of choosing a stored address of an organisation or their own. What the statuses mean, which tab shows which statuses and what to do with which status is described in [Offer types: Status of booking orders](../learningresources/Offer_Types.md#order_status). "Export booking orders" gives you the booking orders of the implementation as an Excel file. It contains the same columns as the [Booking orders report](Reports_BookingOrders.md), so with the [customer number](../../manual_admin/administration/Modules_Organisations.md#customer_number) switched on also the three customer number columns.
 
-The menu at the end of a row offers different actions depending on the status of the order. For an open order with a price these are «Set as "Paid"» and "Change price", for a paid one «Set as "Open"». If there is a billing address or an address proposal, you change the address of an open order with "Change billing address". "Write off booking order" is available for every open order, "Change cancellation fee" for a cancelled order with a cancellation fee.
+The menu at the end of a row is available for orders via "Invoice" and offers different actions depending on the status of the order. For an order with the status "Open" and a price these are «Set as "Paid"» and "Change price", for an order with the status "Paid" «Set as "Open"». If the order has no price, these actions are missing. If there is a billing address or an address proposal, you change the address of an order with the status "Open" with "Change billing address". "Write off booking order" is available for every order with the status "Open", "Change cancellation fee" for a canceled order with a cancellation fee. If you select several orders, you set the orders via "Invoice" among them at once with the buttons «Set as "Paid"» or «Set as "Open"».
 
 ![The Export booking orders button, tabs and filters by Status, Offer type and Offer, plus a note icon for the participant's comment](assets/course_planner_implementations_tab_catalog2_v2_en.png){ class="shadow lightbox" title="Booking orders subsection of the Catalog tab · 2026.09.30" }
 
-If the booked offer requires forms, the detail view of a booking order shows the section "Booking order forms" with title, reference, step name, status and submission date. There, the forms can be viewed and, as long as they are open or completed, edited.
+If the booked offer requires forms, the detail view of a booking order shows the section "Booking order forms" with title, reference, step name, status and submission date. There, the forms can be viewed and, as long as their status is "Open" or "Completed", edited.
 
 If a booking order has a billing address with a recorded customer number, its detail view shows the number as the first line of the billing address.
 
@@ -697,6 +697,7 @@ If you have already opened an implementation, you will also find the option to d
 [Navigation >](../basic_concepts/Navigation.md)<br>
 [Catalog 2.0 - Sorting/order >](catalog2.0_sort_offers.md)<br>
 [Forms - Overview >](../learningresources/Form/index.md)<br>
+[Offer types >](../learningresources/Offer_Types.md)<br>
 [Reports: Booking orders >](Reports_BookingOrders.md)<br>
 [Course Settings - Tab Info >](../learningresources/Course_Settings_Info.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

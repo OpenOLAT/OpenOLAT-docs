@@ -46,7 +46,7 @@ For OpenOlat to process payments to your account, you first set up the connectio
 
 Two further fields in the form "Configure PayPal Checkout" are optional. With them you define when buyers get access and for which country PayPal shows the payment:
 
-* **Pending transactions**: PayPal reports some payments as pending at first, for example because PayPal is still checking them. With the checkbox "Accept per default (booking to course will be completed)", buyers get access to the course or group already in this state. Without the checkbox, they get access only when PayPal completes the payment. If a payment is cancelled in PayPal later, OpenOlat does not end the membership by itself.
+* **Pending transactions**: PayPal reports some payments as pending at first, for example because PayPal is still checking them. With the checkbox "Accept per default (booking to course will be completed)", buyers get access to the course or group already in this state. Without the checkbox, they get access only when PayPal completes the payment. Until PayPal completes the payment, the booking order shows the status "Accepted but pending" with the checkbox and "Pending" without it, see [Offer types: Status of booking orders](../../manual_user/learningresources/Offer_Types.md#order_status). If a payment is cancelled in PayPal later, OpenOlat does not end the membership by itself.
 * **Preselected countries**: With "PayPal Smart Buttons", PayPal shows the payment for one language and one country. If the language setting of buyers contains no country, OpenOlat selects the first country from this list that matches the language. If no country is selected, OpenOlat derives the country from the language setting. [:octicons-tag-16:{ title="from Release 15.3.8 (OO-5200)" }](https://track.frentix.com/issue/OO-5200)
 
 [To the top of the page ^](#PayPal)
@@ -56,7 +56,8 @@ Two further fields in the form "Configure PayPal Checkout" are optional. With th
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Access configuration >](../../manual_user/learningresources/Access_configuration.md)
+[Access configuration >](../../manual_user/learningresources/Access_configuration.md)<br>
+[Offer types >](../../manual_user/learningresources/Offer_Types.md)
 
 **Further reading**<br>
 [Payment modules: Overview >](Payment_modules/index.md)<br>

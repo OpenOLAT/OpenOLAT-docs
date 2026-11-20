@@ -36,7 +36,7 @@
   <rect x="720" y="280" width="190" height="36" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
   <text x="815" y="303" font-size="14" font-weight="700" text-anchor="middle" fill="#126365">Ausgebucht</text>
   <rect x="720" y="338" width="190" height="36" rx="8" fill="#FFFFFF" stroke="#8F1F40" stroke-width="1.5"/>
-  <text x="815" y="361" font-size="14" font-weight="700" text-anchor="middle" fill="#8F1F40">Storniert (mit Gebühr)</text>
+  <text x="815" y="361" font-size="14" font-weight="700" text-anchor="middle" fill="#8F1F40">Storniert mit Gebühr</text>
   <line x1="360" y1="298" x2="436" y2="298" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
   <path d="M590,288 C640,288 660,236 716,236" fill="none" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
   <line x1="590" y1="308" x2="716" y2="300" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
