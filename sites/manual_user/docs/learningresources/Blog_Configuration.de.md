@@ -1,8 +1,8 @@
 # Blog im Kursbaustein konfigurieren {: #blog_configuration}
 
-Einen Blog konfigurieren Sie an zwei Orten: im Kursbaustein und in der Lernressource. Im Kursbaustein legen Sie fest, welcher Blog im Kurs erscheint und wer darin moderiert und Beiträge erstellt. Diese Seite beschreibt den Kursbaustein. Was für den Blog in allen Kursen gilt, legen Sie in der Lernressource fest, siehe [Blog: Administration](Blog_Administration.de.md).
+Einen Blog konfigurieren Sie an zwei Orten: im Kursbaustein und in der Lernressource. Im Kursbaustein legen Sie fest, welcher Blog im Kurs erscheint und wer darin moderiert und Einträge (Blogbeiträge) erstellt. Diese Seite beschreibt den Kursbaustein. Was für den Blog in allen Kursen gilt, legen Sie in der Lernressource fest, siehe [Blog: Administration](Blog_Administration.de.md).
 
-Gilt ein Blog für den ganzen Kurs, binden Sie ihn statt als Kursbaustein über die Toolbar des Kurses ein. Unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` schalten Sie dazu die Checkbox "Blog" ein und wählen mit "Auswählen" eine vorhandene Blog-Lernressource, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). In diesem Blog erstellen und moderieren Besitzer:innen und Betreuer:innen des Kurses die Beiträge. Teilnehmer:innen lesen sie und kommentieren und bewerten sie, wenn die Lernressource das erlaubt. Sollen Teilnehmer:innen selbst Beiträge schreiben, binden Sie den Blog als Kursbaustein ein.
+Soll ein Blog überall im Kurs über ein Symbol in der Toolbar erreichbar sein statt als Punkt im Kursmenü, binden Sie ihn über die Toolbar des Kurses ein. Als [Besitzer:in](../basic_concepts/Roles/index.de.md#owner) des Kurses schalten Sie dazu unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` die Checkbox "Blog" ein und wählen mit "Auswählen" eine Blog-Lernressource. Gibt es noch keine, erstellen Sie im selben Dialog eine neue, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). In diesem Blog erstellen und moderieren Besitzer:innen und [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) des Kurses die Einträge. Teilnehmer:innen lesen sie und kommentieren und bewerten sie, wenn die Lernressource das erlaubt. Sollen Teilnehmer:innen selbst Einträge schreiben, binden Sie den Blog als Kursbaustein ein.
 
 ## Konfiguration im Kursbaustein "Blog" {: #blog_configuration_course_element}
 
@@ -10,7 +10,7 @@ Nachdem Sie im Kurseditor einen Kursbaustein "Blog" eingefügt haben, finden Sie
 
 Die Darstellung des Kursbausteins legen Sie im Tab "Layout" fest. Wer den Kursbaustein wann sieht und öffnen kann, steuern Sie je nach Kurstyp in den Tabs "Sichtbarkeit" und "Zugang" (herkömmliche Kurse) bzw. im Tab "Lernpfad" (Lernpfadkurse).
 
-![Standardwerte eines neuen Kursbausteins: keine Angaben der Lernressource eingeblendet, Betreuer:innen moderieren, Betreuer:innen und Teilnehmer:innen erstellen Beiträge](assets/blog_configuration_tab_content_v2_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.11.06" }
+![Standardwerte eines neuen Kursbausteins: keine Angaben der Lernressource eingeblendet, Betreuer:innen moderieren, Betreuer:innen und Teilnehmer:innen erstellen Einträge](assets/blog_configuration_tab_content_v2_de.png){ class="shadow lightbox" title="Tab Blog-Lerninhalt im Kurseditor · 2026.11.06" }
 
 
 
@@ -34,9 +34,9 @@ Der Kasten des zugewiesenen Blogs zeigt die Anzahl Einträge, bei einem externen
 
 !!! info "Wichtig"
 
-    Einen externen Blog binden Sie ein, wenn Sie bereits unabhängig von OpenOlat einen Blog führen oder einen bekannten Blog als Inhalt oder Diskussionsgrundlage in Ihren Kurs holen wollen. Die Beiträge entstehen dann im externen Blog. In OpenOlat bewerten Sie sie mit Sternen und kommentieren sie.
+    Einen externen Blog binden Sie ein, wenn Sie bereits unabhängig von OpenOlat einen Blog führen oder einen bekannten Blog als Inhalt oder Diskussionsgrundlage in Ihren Kurs holen wollen. Die Einträge entstehen dann im externen Blog. In OpenOlat bewerten Sie sie mit Sternen und kommentieren sie.
 
-    Eine Blog-Lernressource enthält entweder eigene Beiträge oder einen externen Blog. Die Art legen Sie beim Erstellen der Lernressource fest und ändern sie danach nicht mehr. Für einen Wechsel ersetzen Sie im Kursbaustein die Lernressource mit "Ersetzen".
+    Eine Blog-Lernressource enthält entweder eigene Einträge oder einen externen Blog. Die Art legen Sie beim Erstellen der Lernressource fest und ändern sie danach nicht mehr. Für einen Wechsel ersetzen Sie im Kursbaustein die Lernressource mit "Ersetzen".
 
 
 ### Metadaten-Konfiguration
@@ -46,31 +46,31 @@ Mit "Beschreibung anzeigen", "Titel anzeigen" und "Bild anzeigen" legen Sie fest
 
 ### Berechtigungen [:octicons-tag-16:{ title="ab Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417) {: #blog_configuration_permissions}
 
-Im Bereich "Berechtigungen" legen Sie fest, wer den Blog moderiert und wer Beiträge erstellt. So nutzen Sie den Blog, um die Teilnehmenden zu informieren, oder Sie öffnen ihn als gemeinsamen Blog, in dem die Teilnehmenden selbst schreiben. Besitzer:innen des Kurses haben im Blog immer alle Rechte. Gäste lesen den Blog nur.
+Im Bereich "Berechtigungen" legen Sie fest, wer den Blog moderiert und wer Einträge erstellt. So nutzen Sie den Blog, um die Teilnehmenden zu informieren, oder Sie öffnen ihn als gemeinsamen Blog, in dem die Teilnehmenden selbst schreiben. Besitzer:innen des Kurses haben im Blog immer alle Rechte. Gäste lesen den Blog nur.
 
 Weil dieselbe Blog-Lernressource in mehreren Kursen und Kursbausteinen eingebunden sein kann, gelten die Berechtigungen je Kursbaustein. Im einen Kurs moderieren so zum Beispiel die Betreuer:innen, im anderen nicht.
 
 #### Moderator {: #moderator}
 
-Moderator:innen bearbeiten und löschen alle Beiträge des Blogs und erstellen selbst Beiträge, siehe [Bloggen](../learningresources/Blog_Blogging.de.md#blog_blogging_moderate). Ihre eigenen Beiträge bearbeiten und löschen alle Autor:innen selbst.
+Moderator:innen bearbeiten und löschen alle Einträge des Blogs und erstellen selbst Einträge, siehe [Bloggen](../learningresources/Blog_Blogging.de.md#blog_blogging_moderate). Ihre eigenen Einträge bearbeiten und löschen alle Autor:innen selbst.
 
 Mit der Checkbox "Betreuer:innen" übertragen Sie das Recht den Betreuer:innen des Kurses. Bei einem neuen Kursbaustein ist die Checkbox eingeschaltet. Besitzer:innen des Kurses moderieren immer, unabhängig von der Checkbox.
 
-Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht gezielt. Mit "Rollen hinzufügen", "Benutzer:innen hinzufügen" und "Gruppen hinzufügen" nehmen Sie eine Rolle, einzelne Personen unabhängig von ihrer Rolle oder Gruppen des Kurses auf. Mit "Beginn" und "Ende" begrenzen Sie das Recht je Eintrag auf einen Zeitraum, mit "Löschen" entfernen Sie einen Eintrag. "Gruppen hinzufügen" erscheint, sobald der Kurs Gruppen hat.
+Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht gezielt. Mit "Rollen hinzufügen", "Benutzer:innen hinzufügen" und "Gruppen hinzufügen" nehmen Sie eine Rolle, einzelne Personen unabhängig von ihrer Rolle oder Gruppen des Kurses auf. Mit "Beginn" und "Ende" begrenzen Sie das Recht je Zeile auf einen Zeitraum, mit "Löschen" entfernen Sie eine Zeile. "Gruppen hinzufügen" erscheint, sobald der Kurs Gruppen hat.
 
 ![Erweiterte Konfiguration des Moderators mit den Buttons Rollen hinzufügen und Benutzer:innen hinzufügen, darunter die Rolle Betreuer:innen mit leeren Feldern Beginn und Ende](assets/blog_configuration_tab_content_moderator_v1_de.png){ class="shadow lightbox" title="Bereich Berechtigungen im Tab Blog-Lerninhalt" }
 
 #### Beiträge erstellen {: #create_entries}
 
-Wer im Blog Beiträge erstellt, legen Sie mit den Checkboxen "Betreuer:innen" und "Teilnehmer:innen" fest. Bei einem neuen Kursbaustein sind beide eingeschaltet. Besitzer:innen des Kurses und Moderator:innen erstellen immer Beiträge.
+Wer im Blog Einträge erstellt, legen Sie mit den Checkboxen "Betreuer:innen" und "Teilnehmer:innen" fest. Bei einem neuen Kursbaustein sind beide eingeschaltet. Besitzer:innen des Kurses und Moderator:innen erstellen immer Einträge.
 
 "Beiträge erstellen" erscheint, sobald dem Kursbaustein ein Blog zugewiesen ist.
 
 !!! info "Wichtig"
 
-    Wird ein externer Blog eingebunden, entstehen seine Beiträge ausserhalb von OpenOlat. "Beiträge erstellen" erscheint deshalb in diesem Fall nicht.
+    Wird ein externer Blog eingebunden, entstehen seine Einträge ausserhalb von OpenOlat. "Beiträge erstellen" erscheint deshalb in diesem Fall nicht.
 
-Mit "Erweiterte Konfiguration anzeigen" nehmen Sie auch hier Rollen, einzelne Personen oder Gruppen auf und begrenzen das Recht je Eintrag mit "Beginn" und "Ende" auf einen Zeitraum.
+Mit "Erweiterte Konfiguration anzeigen" nehmen Sie auch hier Rollen, einzelne Personen oder Gruppen auf und begrenzen das Recht je Zeile mit "Beginn" und "Ende" auf einen Zeitraum.
 
 ![Erweiterte Konfiguration für Beiträge erstellen mit den Rollen Betreuer:innen und Teilnehmer:innen, je mit Feldern für Beginn und Ende](assets/blog_configuration_tab_content_rights_v1_de.png){ class="shadow lightbox" title="Bereich Berechtigungen im Tab Blog-Lerninhalt" }
 
@@ -81,13 +81,14 @@ Mit "Erweiterte Konfiguration anzeigen" nehmen Sie auch hier Rollen, einzelne Pe
 
 ## Einstellungen der Blog-Lernressource {: #learningresource_settings}
 
-Ob Beiträge bewertet und kommentiert werden können und wer bei neuen Kommentaren eine E-Mail erhält, legen Sie in der Lernressource unter `Blog > Administration > Einstellungen` fest. Diese Einstellungen gelten in allen Kursen, die den Blog einbinden. Die Tabs beschreibt die Seite [Blog: Administration](Blog_Administration.de.md).
+Ob Einträge bewertet und kommentiert werden können und ob die Besitzer:innen zu jedem neuen Kommentar eine E-Mail erhalten, legen Sie in der Lernressource unter `Blog > Administration > Einstellungen` fest. Diese Einstellungen gelten in allen Kursen, die den Blog einbinden. Die Tabs beschreibt die Seite [Blog: Administration](Blog_Administration.de.md).
 
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Blog: Administration >](Blog_Administration.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
 [Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Bloggen >](../learningresources/Blog_Blogging.de.md)

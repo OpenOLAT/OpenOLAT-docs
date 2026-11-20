@@ -1,6 +1,6 @@
 # How do I create a blog? {: #how_do_i_create_a_blog}
 
-With this guide, you add a blog to your course in a short time, define who may write in it, and create the first entry.
+With this guide, you add a blog to your course in a short time, define who may write in it, and create the first entry (blog post).
 
 ## What kind of blog should it be?
 
@@ -70,7 +70,7 @@ b) Click "Create".
 
 c) In the "Create blog" dialog, enter a title for your blog learning resource and confirm with "Create".
 
-A new blog learning resource is now created and connected with the course element. The tab now shows the blog with the number of its posts and the settings "Posts are rateable" and "Posts are commentable". With "Preview" you look at the blog, with "Replace" you connect the course element with another blog.
+A new blog learning resource is now created and connected with the course element. The tab now shows the blog with the number of its entries and the settings "Posts are rateable" and "Posts are commentable". With "Preview" you look at the blog, with "Replace" you connect the course element with another blog.
 
 !!! tip "Tip"
 
@@ -104,7 +104,7 @@ You write entries directly in the learning resource or in the course.
 
 a) In the learning resource: Open the course editor again and click "Edit learning resource" in the tab "Blog learning content".
 
-![The selected blog with its number of posts, the Edit learning resource button opens it](assets/blog_edit_resource_v1_en.png){ class="shadow lightbox" title="Tab Blog learning content with a selected blog · 2026.10.20" }
+![The selected blog with its number of entries, the Edit learning resource button opens it](assets/blog_edit_resource_v1_en.png){ class="shadow lightbox" title="Tab Blog learning content with a selected blog · 2026.10.20" }
 
 b) In the course: With the course editor closed, open the Blog course element. As long as the blog has no entries, it shows the message "No entries were found that can be displayed." here, as in the learning resource.
 

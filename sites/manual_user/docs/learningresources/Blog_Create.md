@@ -10,23 +10,23 @@ Please differentiate:
     You can integrate external blogs as well as create and use a new OpenOlat learning resource "Blog".
     <br><br> 
 
-* **Create blog entry** (= add a post to an existing blog)
+* **Create entry** (= add an entry, that is a blog post, to an existing blog)
 
     Course owners/coaches should at least initially create the initial questions or texts. Readers can then comment on and evaluate them.
 
-    It is also possible to give participants the right to write a blog so that they can run a course blog together. To create blog entries, click on the "Add entry" button and then write the blog entry.
+    It is also possible to give participants the right to write a blog so that they can run a course blog together. To create entries, click on the "Add entry" button and then write the entry.
     <br><br> 
 
-* **Comment on blog entry** (= comment on existing blog entries)
+* **Comment on entry** (= comment on existing entries)
 
-    All **course members** can comment on posts. To post a comment or read existing comments, click on the "Comments" link. You can also see the comments of other blog readers.<br>
-    See [Blogging, comment on posts](../learningresources/Blog_Blogging.md#blog_blogging_comment_posts)
+    All **course members** can comment on entries. To post a comment or read existing comments, click on the "Comments" link. You can also see the comments of other blog readers.<br>
+    See [Blogging, Comment on entries](../learningresources/Blog_Blogging.md#blog_blogging_comment_posts)
     <br><br> 
 
-* **Rating a blog entry** (= rate existing blog entries with stars)
+* **Rating an entry** (= rate existing entries with stars)
 
-    All **course members** can rate posts with 1-5 stars. To give a rating, click on the stars displayed. You can also see the ratings of other blog readers.<br>
-    See [Blogging, assess posts](../learningresources/Blog_Blogging.md#blog_blogging_assess_posts)
+    All **course members** can rate entries with 1-5 stars. To give a rating, click on the stars displayed. You can also see the ratings of other blog readers.<br>
+    See [Blogging, Rate entries](../learningresources/Blog_Blogging.md#blog_blogging_assess_posts)
     <br><br>  
 
 

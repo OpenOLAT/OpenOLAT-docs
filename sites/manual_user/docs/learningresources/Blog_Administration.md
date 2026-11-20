@@ -1,6 +1,6 @@
 # Blog: Administration {: #blog_configuration_learningresource}
 
-Whether the posts of a blog can be rated and commented on and who receives an e-mail for new comments, you define once in the blog learning resource. These settings apply in all courses and course elements in which you embed the blog learning resource. Who moderates and creates posts in a single course, on the other hand, you define in the course element, see [Configure a blog in the course element](Blog_Configuration.md).
+Whether the entries (blog posts) of a blog can be rated and commented on and who receives an e-mail for new comments, you define once in the blog learning resource. These settings apply in all courses and course elements in which you embed the blog learning resource. Who moderates and creates entries in a single course, on the other hand, you define in the course element, see [Configure a blog in the course element](Blog_Configuration.md).
 
 You open the blog learning resource in two ways:
 
@@ -40,7 +40,7 @@ Only administrators, system administrators, learning resource managers, user man
 
 ### Options [:octicons-tag-16:{ title="from Release 19.0 (OO-7728)" }](https://track.frentix.com/issue/OO-7728) {: #tab_options}
 
-In the section "User feedback" you define with "Posts are rateable" and "Posts are commentable" whether the posts of the blog can be rated with stars and commented on. The course element shows both settings in the "Blog learning content" tab.
+In the section "User feedback" you define with "Posts are rateable" and "Posts are commentable" whether the entries of the blog can be rated with stars and commented on. The course element shows both settings in the "Blog learning content" tab.
 
 With "Push E-mail by comments" the owners of the blog and of the courses that embed it receive an e-mail for each new comment. [:octicons-tag-16:{ title="from Release 20.1 (OO-7731)" }](https://track.frentix.com/issue/OO-7731)
 

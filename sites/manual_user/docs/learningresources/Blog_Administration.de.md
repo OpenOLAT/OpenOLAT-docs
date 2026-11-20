@@ -1,6 +1,6 @@
 # Blog: Administration {: #blog_configuration_learningresource}
 
-Ob die Beiträge eines Blogs bewertet und kommentiert werden können und wer bei neuen Kommentaren eine E-Mail erhält, legen Sie einmal in der Blog-Lernressource fest. Diese Einstellungen gelten in allen Kursen und Kursbausteinen, in denen Sie die Blog-Lernressource einbinden. Wer im einzelnen Kurs moderiert und Beiträge erstellt, legen Sie dagegen im Kursbaustein fest, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md).
+Ob die Einträge (Blogbeiträge) eines Blogs bewertet und kommentiert werden können und wer bei neuen Kommentaren eine E-Mail erhält, legen Sie einmal in der Blog-Lernressource fest. Diese Einstellungen gelten in allen Kursen und Kursbausteinen, in denen Sie die Blog-Lernressource einbinden. Wer im einzelnen Kurs moderiert und Einträge erstellt, legen Sie dagegen im Kursbaustein fest, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md).
 
 Die Blog-Lernressource öffnen Sie auf zwei Wegen:
 
@@ -40,7 +40,7 @@ Den Tab "Quota" sehen nur Administrator:innen, Systemadministrator:innen, Lernre
 
 ### Optionen [:octicons-tag-16:{ title="ab Release 19.0 (OO-7728)" }](https://track.frentix.com/issue/OO-7728) {: #tab_options}
 
-Im Bereich "Benutzerfeedback" legen Sie mit "Beiträge bewerten" und "Beiträge kommentieren" fest, ob die Beiträge des Blogs mit Sternen bewertet und kommentiert werden können. Der Kursbaustein zeigt beide Einstellungen im Tab "Blog-Lerninhalt" an.
+Im Bereich "Benutzerfeedback" legen Sie mit "Beiträge bewerten" und "Beiträge kommentieren" fest, ob die Einträge des Blogs mit Sternen bewertet und kommentiert werden können. Der Kursbaustein zeigt beide Einstellungen im Tab "Blog-Lerninhalt" an.
 
 Mit "Push-Email bei Kommentaren" erhalten die Besitzer:innen des Blogs und der Kurse, die ihn einbinden, zu jedem neuen Kommentar eine E-Mail. [:octicons-tag-16:{ title="ab Release 20.1 (OO-7731)" }](https://track.frentix.com/issue/OO-7731)
 

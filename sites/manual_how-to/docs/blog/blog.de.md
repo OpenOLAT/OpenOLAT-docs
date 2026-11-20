@@ -1,6 +1,6 @@
 # Wie erstelle ich einen Blog? {: #how_do_i_create_a_blog}
 
-Mit dieser Anleitung fügen Sie Ihrem Kurs in kurzer Zeit einen Blog hinzu, legen fest, wer darin schreiben darf, und erstellen den ersten Eintrag.
+Mit dieser Anleitung fügen Sie Ihrem Kurs in kurzer Zeit einen Blog hinzu, legen fest, wer darin schreiben darf, und erstellen den ersten Eintrag (Blogbeitrag).
 
 ## Welche Art Blog soll es sein?
 
@@ -86,7 +86,7 @@ Damit ist eine neue Blog-Lernressource angelegt und mit dem Kursbaustein verbund
 
 a) Im Tab "Blog-Lerninhalt" legen Sie unter "Berechtigungen" fest, wer Einträge schreiben und wer den Blog moderieren darf. Für "Moderator" und "Beiträge erstellen" wählen Sie je die Rollen, zum Beispiel Betreuer:innen oder Teilnehmer:innen. Mit "Erweiterte Konfiguration anzeigen" vergeben Sie ein Recht zusätzlich an einzelne Benutzer:innen oder Gruppen, auch mit Beginn und Ende.
 
-![Unter Berechtigungen legen Sie fest, wer den Blog moderiert und wer Beiträge erstellt](assets/blog_user_rights_v2_de.png){ class="shadow lightbox" title="Abschnitt Berechtigungen im Tab Blog-Lerninhalt · 2026.10.20" }
+![Unter Berechtigungen legen Sie fest, wer den Blog moderiert und wer Einträge erstellt](assets/blog_user_rights_v2_de.png){ class="shadow lightbox" title="Abschnitt Berechtigungen im Tab Blog-Lerninhalt · 2026.10.20" }
 
 Die Berechtigung "Beiträge erstellen" erscheint nur bei einem OpenOlat-Blog, denn in einen externen Blog schreibt niemand in OpenOlat. Darüber legen Sie unter "Metadaten-Konfiguration" fest, ob der Kursbaustein Titel, Beschreibung und Bild des Blogs anzeigt.
 
@@ -108,7 +108,7 @@ a) In der Lernressource: Öffnen Sie den Kurseditor erneut und klicken Sie im Ta
 
 b) Im Kurs: Öffnen Sie bei geschlossenem Kurseditor den Kursbaustein Blog. Solange der Blog keine Einträge hat, zeigt er hier wie in der Lernressource die Meldung "Es wurden keine Einträge gefunden, die angezeigt werden können."
 
-![Ein neuer Blog ohne Einträge, mit dem Button Eintrag hinzufügen erstellen Sie den ersten Beitrag](assets/blog_add_entry_v1_de.png){ class="shadow lightbox" title="Kursbaustein Blog im Kurs · 2026.10.20" }
+![Ein neuer Blog ohne Einträge, mit dem Button Eintrag hinzufügen erstellen Sie den ersten Eintrag](assets/blog_add_entry_v1_de.png){ class="shadow lightbox" title="Kursbaustein Blog im Kurs · 2026.10.20" }
 
 Klicken Sie auf "Eintrag hinzufügen". Sie finden den Button in der leeren Liste und oben rechts.
 

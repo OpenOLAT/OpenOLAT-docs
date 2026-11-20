@@ -1,8 +1,8 @@
 # Configure a blog in the course element {: #blog_configuration}
 
-You configure a blog in two places: in the course element and in the learning resource. In the course element you define which blog appears in the course and who moderates it and creates posts. This page describes the course element. What applies to the blog in all courses, you define in the learning resource, see [Blog: Administration](Blog_Administration.md).
+You configure a blog in two places: in the course element and in the learning resource. In the course element you define which blog appears in the course and who moderates it and creates entries (blog posts). This page describes the course element. What applies to the blog in all courses, you define in the learning resource, see [Blog: Administration](Blog_Administration.md).
 
-If a blog applies to the whole course, you embed it via the course toolbar instead of as a course element. To do so, switch on the checkbox "Blog" under `Course > Administration > Settings > Tab "Toolbar"` and select an existing blog learning resource with "Select", see [Toolbar](Course_Settings_Toolbar.md#blog). In this blog, owners and coaches of the course create and moderate the posts. Participants read them and comment on and rate them if the learning resource allows this. If participants are to write posts themselves, embed the blog as a course element.
+If a blog is to be reachable everywhere in the course via an icon in the toolbar instead of as an item in the course menu, you embed it via the course toolbar. As an [owner](../basic_concepts/Roles/index.md#owner) of the course, switch on the checkbox "Blog" under `Course > Administration > Settings > Tab "Toolbar"` and select a blog learning resource with "Select". If there is none yet, create a new one in the same dialog, see [Toolbar](Course_Settings_Toolbar.md#blog). In this blog, owners and [coaches](../basic_concepts/Roles/index.md#coach) of the course create and moderate the entries. Participants read them and comment on and rate them if the learning resource allows this. If participants are to write entries themselves, embed the blog as a course element.
 
 ## Configuration in the "Blog" course element {: #blog_configuration_course_element}
 
@@ -10,7 +10,7 @@ After you have inserted a course element "Blog" in the course editor, you will f
 
 You define the display of the course element in the tab "Layout". Who sees and can open the course element when is controlled, depending on the course type, in the tabs "Visibility" and "Access" (conventional courses) or in the tab "Learning path" (learning path courses).
 
-![Default values of a new course element: no information of the learning resource shown, coaches moderate, coaches and participants create posts](assets/blog_configuration_tab_content_v2_en.png){ class="shadow lightbox" title="Blog learning content tab in the course editor · 2026.11.06" }
+![Default values of a new course element: no information of the learning resource shown, coaches moderate, coaches and participants create entries](assets/blog_configuration_tab_content_v2_en.png){ class="shadow lightbox" title="Blog learning content tab in the course editor · 2026.11.06" }
 
 
 
@@ -27,16 +27,16 @@ You embed an external blog with "Embed via URL" through the address of its feed.
 
 Once a blog is assigned, you exchange it for another blog learning resource with "Replace". With "Preview" you look at the blog, with "Edit learning resource" you open the blog learning resource directly. With the arrow next to "Replace" you put a newly created, imported or via URL embedded blog in place of the blog.
 
-The box of the assigned blog shows the number of posts, for an external blog the URL, and whether "Posts are rateable" and "Posts are commentable" are switched on. You define these options in the learning resource in the tab "Options", see [Blog: Administration](Blog_Administration.md#tab_options).
+The box of the assigned blog shows the number of entries, for an external blog the URL, and whether "Posts are rateable" and "Posts are commentable" are switched on. You define these options in the learning resource in the tab "Options", see [Blog: Administration](Blog_Administration.md#tab_options).
 
-![Assigned blog with posts and options, buttons Preview and Replace, menu with Create, Import and Embed via URL, link Edit learning resource](assets/blog_configuration_replace_v1_en.png){ class="shadow lightbox" title="Select blog section in the Blog learning content tab · 2026.11.06" }
+![Assigned blog with entries and options, buttons Preview and Replace, menu with Create, Import and Embed via URL, link Edit learning resource](assets/blog_configuration_replace_v1_en.png){ class="shadow lightbox" title="Select blog section in the Blog learning content tab · 2026.11.06" }
 
 
 !!! info "Important"
 
-    You embed an external blog if you already run a blog independently of OpenOlat or if you want to bring a well-known blog into your course as content or a basis for discussion. The posts are then created in the external blog. In OpenOlat you rate them with stars and comment on them.
+    You embed an external blog if you already run a blog independently of OpenOlat or if you want to bring a well-known blog into your course as content or a basis for discussion. The entries are then created in the external blog. In OpenOlat you rate them with stars and comment on them.
 
-    A blog learning resource contains either its own posts or an external blog. You set the type when you create the learning resource and cannot change it afterwards. To switch, replace the learning resource in the course element with "Replace".
+    A blog learning resource contains either its own entries or an external blog. You set the type when you create the learning resource and cannot change it afterwards. To switch, replace the learning resource in the course element with "Replace".
 
 
 ### Metadata configuration
@@ -46,31 +46,31 @@ With "Show description", "Show title" and "Show image" you define which informat
 
 ### User rights [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417) {: #blog_configuration_permissions}
 
-In the section "User rights" you define who moderates the blog and who creates posts. This way you use the blog to inform the participants, or you open it as a shared blog in which the participants write themselves. Owners of the course always have all rights in the blog. Guests only read the blog.
+In the section "User rights" you define who moderates the blog and who creates entries. This way you use the blog to inform the participants, or you open it as a shared blog in which the participants write themselves. Owners of the course always have all rights in the blog. Guests only read the blog.
 
 Because the same blog learning resource can be embedded in several courses and course elements, the user rights apply per course element. In one course, for example, the coaches moderate, in the other they do not.
 
 #### Moderator {: #moderator}
 
-Moderators edit and delete all posts of the blog and create posts themselves, see [Blogging](../learningresources/Blog_Blogging.md#blog_blogging_moderate). All authors edit and delete their own posts themselves.
+Moderators edit and delete all entries of the blog and create entries themselves, see [Blogging](../learningresources/Blog_Blogging.md#blog_blogging_moderate). All authors edit and delete their own entries themselves.
 
 With the checkbox "Coach" you grant the right to the coaches of the course. For a new course element the checkbox is switched on. Owners of the course always moderate, regardless of the checkbox.
 
-With "Show advanced configuration" you grant the right specifically. With "Add roles", "Add users" and "Add groups" you add a role, individual persons regardless of their role, or groups of the course. With "Start date" and "End date" you limit the right per entry to a period, with "Delete" you remove an entry. "Add groups" appears as soon as the course has groups.
+With "Show advanced configuration" you grant the right specifically. With "Add roles", "Add users" and "Add groups" you add a role, individual persons regardless of their role, or groups of the course. With "Start date" and "End date" you limit the right per row to a period, with "Delete" you remove a row. "Add groups" appears as soon as the course has groups.
 
 ![Advanced configuration of the moderator with the buttons Add roles and Add users, below it the role Coach with empty fields Start date and End date](assets/blog_configuration_tab_content_moderator_v1_en.png){ class="shadow lightbox" title="User rights section in the Blog learning content tab · 2026.11.06" }
 
 #### Create items {: #create_entries}
 
-You define who creates posts in the blog with the checkboxes "Coach" and "Participant". For a new course element both are switched on. Owners of the course and moderators always create posts.
+You define who creates entries in the blog with the checkboxes "Coach" and "Participant". For a new course element both are switched on. Owners of the course and moderators always create entries.
 
 "Create items" appears as soon as a blog is assigned to the course element.
 
 !!! info "Important"
 
-    If an external blog is embedded, its posts are created outside of OpenOlat. "Create items" is therefore not displayed in this case.
+    If an external blog is embedded, its entries are created outside of OpenOlat. "Create items" is therefore not displayed in this case.
 
-With "Show advanced configuration" you also add roles, individual persons or groups here and limit the right per entry with "Start date" and "End date" to a period.
+With "Show advanced configuration" you also add roles, individual persons or groups here and limit the right per row with "Start date" and "End date" to a period.
 
 ![Advanced configuration for Create items with the roles Coach and Participant, each with fields for Start date and End date](assets/blog_configuration_tab_content_rights_v1_en.png){ class="shadow lightbox" title="User rights section in the Blog learning content tab · 2026.11.06" }
 
@@ -81,13 +81,14 @@ With "Show advanced configuration" you also add roles, individual persons or gro
 
 ## Settings of the blog learning resource {: #learningresource_settings}
 
-Whether posts can be rated and commented on and who receives an e-mail for new comments, you define in the learning resource under `Blog > Administration > Settings`. These settings apply in all courses that embed the blog. The tabs are described on the page [Blog: Administration](Blog_Administration.md).
+Whether entries can be rated and commented on and whether the owners receive an e-mail for every new comment, you define in the learning resource under `Blog > Administration > Settings`. These settings apply in all courses that embed the blog. The tabs are described on the page [Blog: Administration](Blog_Administration.md).
 
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Blog: Administration >](Blog_Administration.md)<br>
+[Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [Toolbar >](Course_Settings_Toolbar.md)<br>
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Blogging >](../learningresources/Blog_Blogging.md)

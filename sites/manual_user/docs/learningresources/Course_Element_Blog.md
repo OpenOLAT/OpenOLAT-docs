@@ -13,7 +13,7 @@ Specialty / Note |
 
 
 
-With the course element "Blog" you keep the participants of your course up to date on current topics, similar to a podcast. In addition to text, posts contain images or videos, and files can be attached to comments.
+With the course element "Blog" you keep the participants of your course up to date on current topics, similar to a podcast. In addition to text, entries (blog posts) contain images or videos, and files can be attached to comments.
 
 As an owner or coach of a course, you can, for example, keep a blog on the topic of the course and inform the participants about new aspects.
 
@@ -28,7 +28,7 @@ A course element "Blog" always shows a blog learning resource. After inserting t
 
 ![The four buttons Select, Create, Import and Embed via URL show the ways to assign a blog to the course element](assets/course_element_blog_content_v2_en.png){ class="shadow lightbox" title="Tab Blog learning content in the course editor · 2026.11.03" }
 
-You define who moderates the blog and who creates posts in the same tab in the section "User rights". This way you use the blog to inform the participants, or you open it as a shared blog in which the participants write themselves. For a new course element the coaches moderate, and coaches as well as participants create posts. You can find more about this under [Configure a blog in the course element](../learningresources/Blog_Configuration.md#blog_configuration_permissions). [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
+You define who moderates the blog and who creates entries in the same tab in the section "User rights". This way you use the blog to inform the participants, or you open it as a shared blog in which the participants write themselves. For a new course element the coaches moderate, and coaches as well as participants create entries. You can find more about this under [Configure a blog in the course element](../learningresources/Blog_Configuration.md#blog_configuration_permissions). [:octicons-tag-16:{ title="from Release 15.0 (OO-4417)" }](https://track.frentix.com/issue/OO-4417)
 
 !!! tip "Tip"
 

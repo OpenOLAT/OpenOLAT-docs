@@ -10,23 +10,23 @@ Bitte unterscheiden Sie:
     Sie können sowohl externe Blogs einbinden, als auch eine neue OpenOlat Lernressource "Blog" erstellen und verwenden.
     <br><br> 
 
-* **Blogeintrag erstellen** (= in einem vorhandenen Blog einen Beitrag ergänzen)
+* **Eintrag erstellen** (= in einem vorhandenen Blog einen Eintrag ergänzen, also einen Blogbeitrag)
 
     Durch Kursbesitzer:innen/Betreuer:innen sollten mindestens initial die Ausgangsfragen oder Texte erstellt werden. Anschliessend können die Leser:innen diese kommentieren und bewerten.
 
-    Es ist möglich, auch den Teilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können. Zum Erstellen von Blogeinträgen klicken Sie auf den Button "Eintrag hinzufügen" und verfassen dann den Blogeintrag.
+    Es ist möglich, auch den Teilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können. Zum Erstellen von Einträgen klicken Sie auf den Button "Eintrag hinzufügen" und verfassen dann den Eintrag.
     <br><br> 
 
-* **Blogeintrag kommentieren** (= bestehende Blogeinträge kommentieren)
+* **Eintrag kommentieren** (= bestehende Einträge kommentieren)
 
-    Alle **Kursmitglieder** können Beiträge kommentieren. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare". Sie sehen zudem die Kommentare der anderen Blogleser:innen.<br>
-    Siehe [Bloggen, Beiträge kommentieren](../learningresources/Blog_Blogging.de.md#blog_blogging_comment_posts)
+    Alle **Kursmitglieder** können Einträge kommentieren. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare". Sie sehen zudem die Kommentare der anderen Blogleser:innen.<br>
+    Siehe [Bloggen, Einträge kommentieren](../learningresources/Blog_Blogging.de.md#blog_blogging_comment_posts)
     <br><br> 
 
-* **Blogeintrag bewerten** (= bestehende Blogeinträge mit Sternen bewerten)
+* **Eintrag bewerten** (= bestehende Einträge mit Sternen bewerten)
 
-    Alle **Kursmitglieder** können Beiträge mit 1-5 Sternen bewerten. Um eine Bewertung abzugeben, klicken Sie auf die angezeigten Sterne. Sie sehen zudem die Bewertungen der anderen Blogleser:innen.<br>
-    Siehe [Bloggen, Beiträge bewerten](../learningresources/Blog_Blogging.de.md#blog_blogging_assess_posts)
+    Alle **Kursmitglieder** können Einträge mit 1-5 Sternen bewerten. Um eine Bewertung abzugeben, klicken Sie auf die angezeigten Sterne. Sie sehen zudem die Bewertungen der anderen Blogleser:innen.<br>
+    Siehe [Bloggen, Einträge bewerten](../learningresources/Blog_Blogging.de.md#blog_blogging_assess_posts)
     <br><br>  
 
 
