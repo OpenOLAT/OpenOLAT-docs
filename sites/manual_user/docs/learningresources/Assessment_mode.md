@@ -8,7 +8,7 @@
 
 An assessment mode is an assessment configuration with which participants take tests and exams during a specified time in a protected mode (so-called kiosk mode).
 
-During this time, access is only permitted to previously defined course elements in the affected course. All other functions in OpenOlat, such as other courses, groups, notes, etc., are hidden during the duration of the assessment mode. Only a logout is possible during the test.
+During this time, participants can only reach the course of the exam in OpenOlat. If the toggle "Restrict access to single course elements" is switched on in the tab "Element restriction", they only see the course elements selected there. If it is switched off, they see the whole course. All other functions in OpenOlat, such as other courses, groups, notes, etc., are hidden during the duration of the assessment mode. Only a logout is possible during the test.
 
 ---
 
@@ -88,7 +88,7 @@ Prep time and follow-up time control how long OpenOlat is locked, not how long t
 
 **Restrict access to single course elements**: To restrict the exam to selected course elements of the relevant course, switch on the toggle here and then click on the "Select course element" button. A list of all course elements of the course opens. Select the course elements that you want to be displayed to the participants during the exam. All other course elements are hidden for the duration of the exam.
 
-**First element shown**: If you want a specific course element to be displayed to the participants directly at the start, click on "Select course element" and select one of the available course elements. Only the course elements that were selected for display in the previous step are displayed.
+**First element shown**: If you want a specific course element to be displayed to the participants directly at the start, click on "Select course element" and select a course element. If "Restrict access to single course elements" is switched on, only the course elements you selected there are available. If the toggle is switched off, you can choose any course element of the course.
 
 ---
 

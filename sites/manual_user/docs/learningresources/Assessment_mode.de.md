@@ -9,7 +9,7 @@
 
 Ein Prüfungsmodus ist eine Prüfungskonfiguration, mit der Teilnehmende Tests und Prüfungen während einer festgelegten Zeit in einem geschützten Modus ablegen (sogenannter Kioskmodus).
 
-Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im betroffenen Kurs gestattet. Alle weiteren Funktionen in OpenOlat, wie andere Kurse, Gruppen, Notizen etc., werden während der Prüfungsdauer (Laufzeit des Prüfungsmodus) ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
+Während dieser Zeit erreichen die Teilnehmenden in OpenOlat nur den Kurs der Prüfung. Ist im Tab "Einschränkungen Kursbaustein" der Schalter "Zugriff auf Kursbaustein einschränken" eingeschaltet, sehen sie darin nur die dort ausgewählten Kursbausteine. Ist er ausgeschaltet, sehen sie den ganzen Kurs. Alle weiteren Funktionen in OpenOlat, wie andere Kurse, Gruppen, Notizen etc., werden während der Prüfungsdauer (Laufzeit des Prüfungsmodus) ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
 
 ---
 
@@ -89,7 +89,7 @@ Vorlaufzeit und Nachlaufzeit regeln, wie lange OpenOlat gesperrt ist, nicht wie 
 
 **Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, schalten Sie hier den Schalter ein, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses. Wählen Sie die Kursbausteine aus, die den Teilnehmenden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
 
-**Startbaustein**: Soll den Teilnehmenden ein bestimmter Kursbaustein direkt beim Start angezeigt werden, klicken Sie auf "Kursbaustein auswählen" und wählen einen der verfügbaren Kursbausteine aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
+**Startbaustein**: Soll den Teilnehmenden ein bestimmter Kursbaustein direkt beim Start angezeigt werden, klicken Sie auf "Kursbaustein auswählen" und wählen einen Kursbaustein aus. Ist "Zugriff auf Kursbaustein einschränken" eingeschaltet, stehen nur die Kursbausteine zur Wahl, die Sie dort ausgewählt haben. Ist der Schalter ausgeschaltet, ist jeder Kursbaustein des Kurses wählbar.
 
 ---
 
