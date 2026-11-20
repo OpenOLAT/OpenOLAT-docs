@@ -43,16 +43,16 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 
 ## Tests einsehen und bewerten {: #assess}
 
-Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses sowie Mitglieder mit dem Recht "Bewertungs-Werkzeug": `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht unter "Offene Bewertungen".
+Wer bearbeitete Tests korrigieren und bewerten will, findet alle Testläufe des Kurses im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Zugriff darauf haben Betreuer:innen und Besitzer:innen des Kurses sowie Mitglieder mit dem Recht "Bewertungs-Werkzeug": `Kurs > Administration > Bewertungswerkzeug`. Navigieren Sie zum gewünschten Kursbaustein "Test". Der Tab "Teilnehmer:innen" zeigt alle Teilnehmenden mit ihrem Bearbeitungsstand zu diesem Kursbaustein, und in der Spalte "Status" erkennen Sie, ob eine Bewertung erforderlich ist. Offene Bewertungen zeigt bereits die Übersicht des Bewertungswerkzeugs im Bereich "Offene Bewertungen".
 
-Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im Kurs bei geschlossenem Kurseditor direkt beim jeweiligen Kursbaustein "Test". Wechseln Sie dafür in den Tab "Teilnehmer:innen". Als Besitzer:in des Kurses stehen Ihnen dort weitere Tabs wie "Vorschau", "Kommunikation", "Erinnerungen" und "Badges" zur Verfügung. Betreuer:innen sehen ebenfalls "Vorschau" und "Kommunikation", den Tab "Erinnerungen" nicht und den Tab "Badges" nur, wenn der Kurs Betreuer:innen die Vergabe von Badges erlaubt.
+Alternativ sehen und verwalten Sie die Ergebnisse eines bestimmten Tests auch im Kurs selbst, ausserhalb des Kurseditors, direkt beim jeweiligen Kursbaustein "Test". Wechseln Sie dafür in den Tab "Teilnehmer:innen". Als Besitzer:in des Kurses stehen Ihnen dort weitere Tabs wie "Vorschau", "Kommunikation", "Erinnerungen" und "Badges" zur Verfügung. Betreuer:innen sehen ebenfalls "Vorschau" und "Kommunikation", den Tab "Erinnerungen" nicht und den Tab "Badges" nur, wenn der Kurs Betreuer:innen die Vergabe von Badges erlaubt.
 
-Hat der Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md), die noch nicht beendet ist, zeigt der Kursbaustein Besitzer:innen und Betreuer:innen zusätzlich den Tab "Prüfungsmodus", gleich welchen Test die Prüfung freigibt. Dort sehen Sie alle Prüfungen des Kurses wie im Bereich "Prüfungsmodus" des Bewertungswerkzeugs, mit der Zeile, wie viele Teilnehmende schon da sind: [Wie viele Teilnehmende schon da sind](../Assessment_mode.de.md#participant_count)<br>
+Hat der Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md), die noch nicht beendet ist, zeigt jeder Kursbaustein "Test" des Kurses Besitzer:innen und Betreuer:innen zusätzlich den Tab "Prüfungsmodus", auch ein Test, den die Prüfung nicht freigibt. Dort sehen Sie alle Prüfungen des Kurses wie im Bereich "Prüfungsmodus" des Bewertungswerkzeugs, mit der Zeile, wie viele Teilnehmende schon da sind: [Wie viele Teilnehmende schon da sind](../Assessment_mode.de.md#participant_count)<br>
 Wer die Prüfung in diesem Tab starten und beenden kann, beschreibt der Abschnitt [Wer eine Prüfung manuell starten und beenden kann](../Assessment_mode.de.md#start_stop_rights)
 
 ![Teilnehmende mit Versuchen, Punkten und Status sowie geöffnetem Zeilenmenü mit den Aktionen zur Bewertung](../assets/course_element_test_run_participants_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test · 2026.11.02" }
 
-Sind für einen Test Korrektor:innen eingetragen, bewerten diese die Testläufe kursübergreifend im [Coaching](../../area_modules/Coaching/index.de.md) unter "Bewertungsaufträge".
+Ist im Kursbaustein bei "Korrektur" die Option "Manuell durch Korrektor:innen" gewählt, bewerten Korrektor:innen die Testläufe, auch ohne Mitglied des Kurses zu sein: [Korrektur](Test_Setup.de.md#correction_mode). Sie finden ihre Aufträge kursübergreifend im [Coaching](../../area_modules/Coaching/index.de.md) unter "Bewertungsaufträge" im Tab ["Korrekturaufträge"](../../area_modules/Coaching_Assessment_Orders.de.md#tab_grading_assignments).
 
 
 [Zum Seitenanfang ^](#test_results)
@@ -126,12 +126,12 @@ Die Rohdaten von Tests können Sie zudem über die [Teststatistiken](../Statisti
 [Bewertungswerkzeug - Übersicht >](../Assessment_tool_overview/index.de.md)<br>
 [Prüfungsverwaltung: Prüfungsmodus >](../Assessment_mode.de.md)<br>
 [Coaching - Übersicht >](../../area_modules/Coaching/index.de.md)<br>
+[Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Kurs-Administration: Archivierung & Reports >](../Course_Archiving/index.de.md)<br>
 [Tests exportieren >](../Test_export.de.md)<br>
 [Teststatistiken >](../Statistics_Test.de.md)
 
 **Weiterführend**<br>
-[Tests bewerten >](../Assessing_tests.de.md)<br>
-[Coaching - Bewertungsaufträge >](../../area_modules/Coaching_Assessment_Orders.de.md)
+[Tests bewerten >](../Assessing_tests.de.md)
 
 [Zum Seitenanfang ^](#test_results)

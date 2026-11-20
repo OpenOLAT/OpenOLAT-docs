@@ -34,7 +34,7 @@ Ist für den ganzen Kurs ein "Bestehen" konfiguriert, zeigt der Bereich, wie vie
 
 ### Prüfungsmodus (Übersicht)
 
-Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn der Prüfungsmodus in der System-Administration eingeschaltet ist: `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
+Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn Administrator:innen den Prüfungsmodus in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
 
 ![Laufende Prüfung mit dem Button "Prüfung beenden" im Banner und im Bereich, darunter zwei geplante Prüfungen mit Beginn und Ende](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Bereich Prüfungsmodus" }
 

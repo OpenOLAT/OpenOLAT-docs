@@ -34,7 +34,7 @@ If "passed" is configured for the entire course, the area shows how many course 
 
 ### Assessment mode (Overview)
 
-If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if the assessment mode is enabled in the system administration: `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`, switch "Enable assessment mode".
+If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if administrators have enabled the assessment mode in the system administration: `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`, switch "Enable assessment mode".
 
 ![Running exam with the button "Prüfung beenden" in the banner and in the area, below two scheduled exams with start and end](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Area Assessment mode" }
 
