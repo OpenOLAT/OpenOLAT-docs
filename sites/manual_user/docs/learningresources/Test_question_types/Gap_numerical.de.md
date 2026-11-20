@@ -6,11 +6,11 @@ Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernresso
 
 Für jede Lücke legen Sie folgende Einstellungen fest:
 
-* "Lösung": Tragen Sie hier die richtige Zahl ein.
+* "Lösung": Tragen Sie die richtige Zahl ein. Dezimalzahlen schreiben Sie mit Punkt, zum Beispiel 20.8. Das gilt auch für die Grenzen unter "Toleranz".
 * <a id="tolerance"></a>"Toleranz": Ist der Schalter ausgeschaltet, muss die Antwort genau der Lösung entsprechen. Ist er eingeschaltet, akzeptiert die Lücke Antworten zwischen einer unteren und einer oberen Grenze. Dafür wählen Sie unter "Toleranz" einen von zwei Modi:
     * "Absolut": Sie tragen "Untere Grenze" und "Obere Grenze" als absolute Zahlen ein.
 
-		_Beispiel:_ Lösung 20, untere Grenze 18, obere Grenze 20,8 → Alle Lösungen zwischen 18 und 20,8 sind korrekt.
+		_Beispiel:_ Lösung 20, untere Grenze 18, obere Grenze 20.8 → Alle Lösungen zwischen 18 und 20.8 sind korrekt.
 
     * "Relativ": Sie tragen "Untere Grenze" und "Obere Grenze" als relative Zahlen in Prozent ein.
 

@@ -52,7 +52,7 @@ Value | Der Wert oder Text der Zeile.
 Extra | Zusatzangaben einzelner Fragetypen, zum Beispiel die Lückenlänge beim Lückentext oder die Toleranz beim Lückentext numerisch.
 Erklärung | Erläuterungen zur Zeile, zum Beispiel, ob eine Angabe optional ist.
 
-Die Vorlage enthält Beispiele für die folgenden Fragetypen. Vor der Klammer steht der Wert, den Sie in der Zeile "Type" eintragen, in der Klammer der Name des Fragetyps in OpenOlat. Mehr zu den Fragetypen selbst finden Sie unter [Fragetypen](../learningresources/Test_question_types/index.de.md).
+Die Vorlage enthält Beispiele für die folgenden Fragetypen. Vor der Klammer steht der Wert, den Sie in der Zeile "Type" eintragen, in der Klammer der Name des Fragetyps in OpenOlat. Mehr zu den Fragetypen selbst finden Sie unter [Fragetypen](Question_Bank_Question_Types/index.de.md).
 
   * [MC (Multiple Choice)](#template_mc)
   * [SC (Single Choice)](#template_sc)
@@ -250,7 +250,7 @@ Die Antwort mit mehr als 0 Punkten gilt als richtig.
 **Auf dieser Seite erwähnt**<br>
 [Tests erstellen >](../learningresources/Test/index.de.md)<br>
 [Testeditor >](../learningresources/Test_editor_QTI_2.1/index.de.md)<br>
-[Fragetypen >](../learningresources/Test_question_types/index.de.md)
+[Fragetypen >](Question_Bank_Question_Types/index.de.md)
 
 **Weiterführend**<br>
 [Fragenpool: Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>

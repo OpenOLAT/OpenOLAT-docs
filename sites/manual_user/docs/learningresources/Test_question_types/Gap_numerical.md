@@ -6,7 +6,7 @@ In the test editor, owners of the test, administrators and learning resource man
 
 For each gap you define the following settings:
 
-* "Solution": Enter the correct number here.
+* "Solution": Enter the correct number. Write decimal numbers with a point, for example 20.8. This also applies to the bounds under "Tolerance".
 * <a id="tolerance"></a>"Tolerance": If the toggle is switched off, the answer must exactly match the solution. If it is switched on, the gap accepts answers between a lower and an upper bound. For this you choose one of two modes under "Tolerance mode":
     * "Absolute": You enter "Lower bound" and "Upper bound" as absolute numbers.
 

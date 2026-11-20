@@ -32,7 +32,7 @@ The following settings are available:
     * **No**: The number of attempts for the question is unlimited. Participants save and correct their answers as often as they like. Independently of this, the number of attempts for a section or the whole test may be limited.
     * **Inherit**: The number of attempts is taken from the level above (section).
 
-* **Min. score:** For question types whose values can become negative, namely hotspot, single choice, multiple choice, drag and drop and matrix, you define the minimum score yourself. This way, you set the result to 0 even for a negative total score and avoid a negative value. For other question types, OpenOlat sets the value to 0 automatically.
+* **Min. score:** the lower limit for the result of the question. If the assessment results in less, OpenOlat sets the result to this value. New questions start with 0. You can define the lower limit yourself, also as a negative value, for Single choice, Multiple choice, Match, Drag and Drop, True/false, Hottext, Hotspot and Order. It matters when the method of assessment (below) deducts points: with 0, the result of the question does not become negative even then. For Kprim, Gap FIB text, Gap FIB numerical, Gap with dropdown, Gap mixed, Essay, Upload file and Drawing, the value is fixed at 0 and cannot be changed.
 
 * **Max. score:** the highest score that can be reached in this question.
 

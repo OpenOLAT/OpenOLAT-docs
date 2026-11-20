@@ -23,7 +23,7 @@ How you use the button "Change metadata" to adjust the metadata of the selected 
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Question Bank: Import Questions >](Question_Bank_Import_Questions.md)<br>
 [Question bank: Use questions >](Question_bank_possible_operations.md)<br>
-[Question types >](../learningresources/Test_question_types/index.md)<br>
+[Question types >](Question_Bank_Question_Types/index.md)<br>
 [How do I proceed when I create a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [Question bank: Details of a question and metadata >](Item_Detailed_View.md)
 

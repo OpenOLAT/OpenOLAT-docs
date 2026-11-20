@@ -87,6 +87,6 @@ Im Bereich "Administration" richten Administrator:innen und [Poolverwalter:innen
 ## Weiterführende Informationen {: #further_information}
 
 [Tests erstellen >](../../learningresources/Test/index.de.md)<br>
-[Fragetypen >](../../learningresources/Test_question_types/index.de.md)
+[Fragetypen >](../Question_Bank_Question_Types/index.de.md)
 
 [Zum Seitenanfang ^](#question_bank)

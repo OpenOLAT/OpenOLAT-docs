@@ -87,6 +87,6 @@ In the "Administration" area, administrators and [question bank managers](../Que
 ## Further information {: #further_information}
 
 [Creating Tests >](../../learningresources/Test/index.md)<br>
-[Question types >](../../learningresources/Test_question_types/index.md)
+[Question types >](../Question_Bank_Question_Types/index.md)
 
 [To the top of the page ^](#question_bank)

@@ -32,7 +32,7 @@ Folgende Einstellungen stehen zur Verfügung:
     * **Nein**: Die Lösungsversuche für die Frage sind unbeschränkt. Teilnehmende speichern und korrigieren ihre Antworten beliebig oft. Unabhängig davon kann die Anzahl der Bearbeitungen einer Sektion oder des gesamten Tests eingeschränkt sein.
     * **Vererbt**: Die Anzahl Lösungsversuche wird von der oberen Ebene (Sektion) übernommen.
 
-* **Minimal erreichbare Punktzahl:** Für Fragetypen, bei denen die Werte ins Negative gehen können, also Hotspot, Single Choice, Multiple Choice, Drag and Drop und Matrix, legen Sie die minimal erreichbare Punktzahl selbst fest. So setzen Sie das Ergebnis auch bei einer negativen Gesamtpunktzahl auf 0 und vermeiden einen negativen Wert. Bei anderen Fragetypen setzt OpenOlat den Wert automatisch auf 0.
+* **Minimal erreichbare Punktzahl:** die Untergrenze für das Ergebnis der Frage. Ergibt die Bewertung weniger, setzt OpenOlat das Ergebnis auf diesen Wert. Neue Fragen starten mit 0. Selbst festlegen, auch als negativen Wert, lässt sich die Untergrenze bei Single Choice, Multiple Choice, Matrix, Drag and Drop, True/false, Hottext, Hotspot und Reihenfolge. Wichtig ist sie, wenn die Bewertungsmethode (unten) Punkte abzieht: Mit 0 wird das Ergebnis der Frage auch dann nicht negativ. Bei Kprim, Lückentext, Lückentext numerisch, Lückentext mit Dropdown, Lückentext gemischt, Freitext, Datei hochladen und Zeichnen steht der Wert fest auf 0 und lässt sich nicht ändern.
 
 * **Maximal erreichbare Punktzahl:** die höchste Punktzahl, die in dieser Frage erreichbar ist.
 

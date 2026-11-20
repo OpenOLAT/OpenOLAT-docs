@@ -10,7 +10,7 @@ Besonders relevante Fragen können Sie als Favorit markieren und so schnell wied
 
 Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei legt OpenOlat jedes Frageitem unter "Meine Fragen" ab und referenziert es am jeweiligen Ort.
 
-Eine Übersicht der Fragetypen, die erstellt und importiert werden können, finden Sie auf der Seite [Fragetypen](../learningresources/Test_question_types/index.de.md).
+Eine Übersicht der Fragetypen, die erstellt und importiert werden können, finden Sie auf der Seite [Fragetypen](Question_Bank_Question_Types/index.de.md).
 
 [Zum Seitenanfang ^](#create_questions)
 
@@ -106,7 +106,7 @@ Wenn Sie z.B. Fragen gemeinsam entwickeln, können Sie vorab eine Arbeitsgruppe 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Fragetypen >](../learningresources/Test_question_types/index.de.md)<br>
+[Fragetypen >](Question_Bank_Question_Types/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Content Editor: Importieren >](../basic_concepts/Content_Editor/Editor_Import.de.md)<br>
 [Content Editor: Quiz und KI-Feedback >](../basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>

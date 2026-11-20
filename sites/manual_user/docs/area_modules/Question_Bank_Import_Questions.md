@@ -52,7 +52,7 @@ Value | The value or text of the row.
 Extra | Additional information for individual question types, for example the gap size for a gap text or the tolerance for a numerical gap text.
 Erklärung | Explanations of the row, for example whether an entry is optional.
 
-The template contains examples for the following question types. Before the parentheses is the value you enter in the "Type" row, in the parentheses the name of the question type in OpenOlat. You find more about the question types themselves under [Question types](../learningresources/Test_question_types/index.md).
+The template contains examples for the following question types. Before the parentheses is the value you enter in the "Type" row, in the parentheses the name of the question type in OpenOlat. You find more about the question types themselves under [Question types](Question_Bank_Question_Types/index.md).
 
   * [MC (Multiple choice)](#template_mc)
   * [SC (Single choice)](#template_sc)
@@ -250,7 +250,7 @@ The answer with more than 0 points counts as correct.
 **Mentioned on this page**<br>
 [Creating Tests >](../learningresources/Test/index.md)<br>
 [Test editor >](../learningresources/Test_editor_QTI_2.1/index.md)<br>
-[Question types >](../learningresources/Test_question_types/index.md)
+[Question types >](Question_Bank_Question_Types/index.md)
 
 **Further reading**<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
