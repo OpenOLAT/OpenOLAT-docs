@@ -10,13 +10,16 @@ Then define whether the answers appear in random order ("Shuffle answers"), whet
 
 Then enter the answer texts. With the button :o_icon_o_icon_add: you add an answer, with the button :o_icon_o_icon_delete: you remove one.
 
-Mark the correct answer in the "Correct" column. Use the arrows to change the order of the answers.
+Mark the correct answer in the "Correct" column. Use the arrows to change the order of the answers. The participants see them in this order if "Shuffle answers" is set to "No".
+
+Finally, define the score in the [Score tab](../Configure_test_questions.md#score). For single choice, "All correct answers" and "Score per answer" are available under "Method of assessment". With "All correct answers" the participants receive the full score for the correct answer and 0 points for any other. With "Score per answer" you award separate points for each answer, also negative ones. The method "Partial score" is offered by [multiple choice](Multiple_choice.md), because several answers can be correct there.
 
 ![Single-choice question with three answer options and a radio button in front of each](../assets/Single_choice_Beispiel.gif){ class="shadow lightbox" title="Single choice as seen by participants" }
 
 ## Further information {: #further_information}
 
 [Question Bank: Create Questions >](../../area_modules/Question_Bank_Create_Questions.md)<br>
+[Multiple choice >](Multiple_choice.md)<br>
 [Question types >](index.md)<br>
 [Configure test questions >](../Configure_test_questions.md)<br>
 [Test editor >](../Test_editor_QTI_2.1/index.md)

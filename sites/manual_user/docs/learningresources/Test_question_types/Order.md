@@ -6,7 +6,9 @@ In the test editor, owners of the test, administrators and learning resource man
 
 First enter the title under "Title" and the question under "Question".
 
-Then enter the answers in the correct order. Under "Alignment of answers" you define whether they appear vertically or horizontally.
+Then enter the answers in the correct order. The participants see the elements shuffled. Under "Alignment of answers" you define whether they appear vertically or horizontally.
+
+Finally, define the "Min. score" and the "Max. score" in the [Score tab](../Configure_test_questions.md#score). The assessment is fixed for this question type: if all elements are in the correct order, the participants receive the maximum score. Any other order, including a partly correct one, results in 0 points or the "Min. score" if it is above 0.
 
 ![Order question in the Preview tab of the test editor with five numbered elements on the left and an empty sorting area on the right](../assets/Reihenfolge_Beispiel.png){ class="shadow lightbox" title="Order, preview in the test editor" }
 

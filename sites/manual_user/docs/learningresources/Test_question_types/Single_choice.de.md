@@ -10,13 +10,16 @@ Legen Sie danach fest, ob die Antworten in zufälliger Reihenfolge erscheinen ("
 
 Erfassen Sie dann die Antworttexte. Mit der Schaltfläche :o_icon_o_icon_add: fügen Sie eine Antwort hinzu, mit der Schaltfläche :o_icon_o_icon_delete: entfernen Sie eine.
 
-Markieren Sie in der Spalte "Korrekt" die richtige Antwort. Mit den Pfeilen ändern Sie die Reihenfolge der Antworten.
+Markieren Sie in der Spalte "Korrekt" die richtige Antwort. Mit den Pfeilen ändern Sie die Reihenfolge der Antworten. In dieser Reihenfolge sehen die Teilnehmenden sie, wenn "Zufällige Reihenfolge" auf "Nein" steht.
+
+Legen Sie zum Schluss im [Tab Punkte](../Configure_test_questions.de.md#score) die Punktzahl fest. Unter "Bewertungsmethode" stehen für Single Choice "Alle korrekten Antworten" und "Punkte pro Antwort" zur Wahl. Mit "Alle korrekten Antworten" erhalten die Teilnehmenden für die richtige Antwort die volle Punktzahl, für jede andere 0 Punkte. Mit "Punkte pro Antwort" vergeben Sie für jede Antwort eigene Punkte, auch negative. Die Methode "Teilpunkte" bietet [Multiple Choice](Multiple_choice.de.md), weil dort mehrere Antworten richtig sein können.
 
 ![Single-Choice-Frage mit fünf Antwortoptionen und je einem Radiobutton davor](../assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" title="Single Choice aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 
 [Fragenpool: Fragen erstellen >](../../area_modules/Question_Bank_Create_Questions.de.md)<br>
+[Multiple Choice >](Multiple_choice.de.md)<br>
 [Fragetypen >](index.de.md)<br>
 [Testfragen konfigurieren >](../Configure_test_questions.de.md)<br>
 [Testeditor >](../Test_editor_QTI_2.1/index.de.md)
