@@ -151,9 +151,9 @@ Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner/index.de
 
 ## Bereich "Buchungsaufträge" {: #section_booking_orders}
 
-Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.md) eingerichtet wurden, werden unter "Buchungsaufträge" alle Buchungsaufträge für diesen Kurs nach Status sortiert angezeigt.
+Hat ein Kurs [Angebote](../learningresources/Access_configuration.de.md) mit Buchung, also "Frei verfügbar", "Zugangscode" oder "PayPal Checkout", zeigt der Bereich "Buchungsaufträge" alle Buchungsaufträge dieses Kurses, jeden mit seinem Status. Die Reiter über der Liste grenzen sie nach Status ein. Was die Status bedeuten und welcher Reiter welche Status zeigt, beschreibt [Angebotsarten: Status der Buchungsaufträge](Offer_Types.de.md#order_status). Ob Sie hier einen Status ändern können, beschreibt [Status von Hand ändern](Offer_Types.de.md#order_status_change).
 
-Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot (zum Beispiel über einen Zugangscode) enthält.
+Buchungsaufträge gibt es nur bei einem Kurs mit dem Verwendungszweck "Eigenständig", der ein solches Angebot hat. Den Bereich zeigt die Mitgliederverwaltung nur, wenn die Zugangskontrolle eingeschaltet ist.
 
 ![Bereich Buchungsaufträge mit Status-Reitern und Tabelle der Buchungen inklusive Angebotstyp und Preis](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" title="Bereich Buchungsaufträge der Mitgliederverwaltung" }
 
@@ -275,6 +275,7 @@ Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklär
 [Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Rollen und Rechte: Übersicht >](../basic_concepts/Roles_Rights/index.de.md)<br>
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Angebotsarten >](Offer_Types.de.md)<br>
 [Modul Gruppen >](../../manual_admin/administration/Modules_Groups.de.md)<br>
 [Kursbaustein "Themenvergabe" >](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Gruppen >](../groups/index.de.md)<br>

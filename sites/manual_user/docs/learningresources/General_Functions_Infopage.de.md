@@ -110,13 +110,13 @@ Eine Buchung stornieren Sie im Kasten darunter: "Mein Bildungsprodukt" oder "Mei
 Können Sie an einer gebuchten Durchführung doch nicht teilnehmen, stornieren Sie die Buchung selbst, wenn das Angebot es erlaubt. Sie stornieren auf der Infoseite der Durchführung, die Sie über den Katalog erreichen:<br>
 `Katalog > "Ihre Durchführung" > Mehr erfahren > Kasten "Mein Bildungsprodukt" > Buchung stornieren` [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
 
-Wird die Durchführung wie ein einzelner Kurs angeboten, heisst der Kasten "Mein Kurs".
+Ist die Durchführung vom Typ Einzelkurs, heisst der Kasten "Mein Kurs".
 
-Selbst stornieren lässt sich eine Buchung, die über ein Angebot einer Durchführung im Course Planner entstanden ist. Einen gebuchten einzelnen Kurs verlassen Sie stattdessen mit [Kurs verlassen](#leave_course).
+Selbst stornieren lässt sich eine Buchung, die über ein Angebot einer Durchführung im Course Planner entstanden ist. Einen Kurs, den Sie direkt gebucht haben, verlassen Sie stattdessen mit [Kurs verlassen](#leave_course).
 
 ![Als Teilnehmer:in finden Sie die Schaltfläche "Buchung stornieren" im eigenen Kasten "Mein Bildungsprodukt" unter "Los geht's"](assets/general_functions_infopage_my_product_v1_de.png){ class="shadow lightbox" title="Infoseite einer Durchführung als Teilnehmer:in · 2026.11.09" }
 
-Bestätigen Sie im Dialog mit "Buchung stornieren". Fällt eine Stornierungsgebühr an, heisst die Schaltfläche "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail, deren Betreff mit "Bestätigung Ihrer Stornierung" endet.
+Bestätigen Sie im Dialog mit "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Schaltfläche "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt die Gebühr. Nach der Stornierung erhalten Sie eine E-Mail, deren Betreff mit "Bestätigung Ihrer Stornierung" endet.
 
 Haben Systemadministrator:innen in der System-Administration unter `Administration > Module > Lernressource` den Bereich "In Vorbereitung" unter "Kurse" eingeschaltet, erreichen Sie dieselbe Infoseite auch unter `Kurse > In Vorbereitung > Mehr erfahren`. Dort steht eine Durchführung nur, solange sie noch nicht läuft. Die Einstellung beschreibt das Administrationshandbuch unter [Modul Lernressource](../../manual_admin/administration/Modules_Learning_Resource.de.md).
 
@@ -128,8 +128,8 @@ Die Schaltfläche erscheint nur, wenn das Angebot die Stornierung erlaubt und Ih
 
 - **Das Angebot erlaubt keine Stornierung:** Das Angebot, über das Sie gebucht haben, lässt Teilnehmende nicht selbst stornieren. Bei Zahlung mit "PayPal Checkout" ist das immer so.
 - **Der Beginn ist erreicht:** Bei vielen Angeboten stornieren Sie nur bis zum Tag vor dem Beginn der Durchführung. Ab dem Beginndatum fehlt die Schaltfläche. Hat die Durchführung kein Beginndatum, fehlt sie bei diesen Angeboten ganz.
-- **Sie wurden ohne Buchungsauftrag eingetragen:** Die Schaltfläche braucht einen Buchungsauftrag im Status "Neu", "In Zahlungsprozess" oder "Bezahlt". Ihn haben Sie, wenn Sie im Katalog gebucht haben oder mit einem Angebot eingetragen wurden. Ob ein Buchungsauftrag besteht, sehen Sie unter [Buchungsaufträge](../personal_menu/Bookings.de.md).
-- **Sie haben eine andere Rolle:** Die Schaltfläche sehen nur Teilnehmer:innen der Durchführung und Personen, deren Buchung noch aussteht.
+- **Sie wurden ohne Buchungsauftrag eingetragen:** Die Schaltfläche braucht einen Buchungsauftrag im Status "Erledigt", "Offen" oder "Bezahlt", siehe [Angebotsarten: Status der Buchungsaufträge](Offer_Types.de.md#order_status). Ihn haben Sie, wenn Sie im Katalog gebucht haben oder mit einem Angebot eingetragen wurden. Ob ein Buchungsauftrag besteht, sehen Sie unter [Buchungsaufträge](../personal_menu/Bookings.de.md).
+- **Sie haben eine andere Rolle:** Die Schaltfläche sehen nur Teilnehmer:innen der Durchführung und Personen, deren Mitgliedschaft nach der Buchung noch auf Bestätigung wartet.
 
 In diesen Fällen wenden Sie sich an Ihre Betreuer:innen oder an die Person, die Sie eingetragen hat. Wer die Mitglieder der Durchführung verwaltet, storniert Ihre Buchung unabhängig von der Einstellung des Angebots. Besteht kein Buchungsauftrag, trägt diese Person Sie aus der Durchführung aus.
 
@@ -287,6 +287,7 @@ Die Angaben zur Verwendung, etwa in welchen Kursen die Lernressource eingebunden
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Über diesen Kurs: Technische Informationen und Verwendung >](../learningresources/Technical_Information_on_Resources_and_Usage.de.md)<br>
 [Modul Course Planner >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
+[Angebotsarten >](Offer_Types.de.md)<br>
 [Persönliche Werkzeuge: Buchungsaufträge >](../personal_menu/Bookings.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>

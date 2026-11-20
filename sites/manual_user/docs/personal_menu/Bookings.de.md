@@ -4,9 +4,9 @@
 
 ![Symbol Buchungsaufträge](assets/icon_bookings.png)
 
-Wollen Sie nachsehen, was Sie gebucht haben und in welchem Status eine Buchung steht, öffnen Sie die Buchungsaufträge: `Persönliches Menü > Persönliche Werkzeuge > Buchungsaufträge`. Die Übersicht zeigt alle Kurse und Lernressourcen, die mit einer [Angebotsart](../learningresources/Access_configuration.de.md) verknüpft sind, zum Beispiel "Zugangscode", und für die ein Buchungsauftrag für Sie besteht. Das gilt auch, wenn eine andere Person die Buchung für Sie vorgenommen hat. "Buchen" steht dabei für Belegen, Einschreiben und Einkaufen.
+Wollen Sie nachsehen, was Sie gebucht haben und in welchem Status eine Buchung steht, öffnen Sie die Buchungsaufträge: `Persönliches Menü > Persönliche Werkzeuge > Buchungsaufträge`. Die Übersicht zeigt alle Kurse und Lernressourcen, die mit einer [Angebotsart](../learningresources/Access_configuration.de.md) verknüpft sind, zum Beispiel "Zugangscode", und für die ein Buchungsauftrag für Sie besteht. Das gilt auch, wenn eine andere Person die Buchung für Sie vorgenommen hat. "Buchen" steht dabei für Belegen, Einschreiben und Einkaufen. Was ein Status bedeutet, etwa "Offen" oder "Erledigt", beschreibt [Angebotsarten: Status der Buchungsaufträge](../learningresources/Offer_Types.de.md#order_status).
 
-Lernressourcen, in die Besitzer:innen Sie direkt eintragen oder in die Sie über eine Gruppe kommen, fehlen in dieser Liste, weil dabei kein Buchungsauftrag entsteht.
+Lernressourcen, in die Besitzer:innen Sie direkt eintragen oder in die Sie über eine Gruppe kommen, fehlen in dieser Liste, weil dabei kein Buchungsauftrag entsteht. Haben Sie eine Gruppe selbst über ein Angebot gebucht, steht diese Buchung in der Liste.
 
 ![Tabelle Meine Buchungsaufträge mit Buchungsnummer, Status, Angebotstyp, Inhalt und Auftragsdatum je Buchung, darüber die Tabs Buchungsaufträge und Rechnungsadressen](assets/pers_menu_booking_orders2_v1_de.png){ class="shadow lightbox" title="Buchungsaufträge in den Persönlichen Werkzeugen" }
 
@@ -26,6 +26,7 @@ Buchen können Sie im [Katalog](../area_modules/catalog2.0_angebote.de.md#offers
 ## Weiterführende Informationen {: #further_information}
 
 [Zugangskonfiguration / Freigabe >](../learningresources/Access_configuration.de.md)<br>
+[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

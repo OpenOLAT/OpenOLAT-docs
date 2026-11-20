@@ -99,7 +99,10 @@ Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktue
 
 ## Buchungen {: #booking_orders}
 
-Hier können Sie für eine bestimmte Buchungsnummer alle Buchungsaufträge in einem bestimmten Zeitraum anzeigen lassen.
+Hier sehen Sie die Buchungsaufträge aller Lernressourcen und Gruppen der Instanz an einer Stelle, mit denselben Reitern und Filtern wie in einem Kurs:<br>
+`Administration > Module > Buchungen`
+
+Die Liste ist nur zum Lesen. Was die Status der Buchungsaufträge bedeuten, beschreibt [Angebotsarten: Status der Buchungsaufträge](../../../manual_user/learningresources/Offer_Types.de.md#order_status).
 
 [Zum Seitenanfang ^](#modules)
 

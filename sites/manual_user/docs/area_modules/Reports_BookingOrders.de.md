@@ -20,7 +20,7 @@ Der Report Buchungsaufträge führt je Buchungsauftrag die folgenden Spalten. Di
 | Durchführung bis            | Durchführung           | Ende des Durchführungszeitraums der Durchführung                         |                                                                          |
 | Durchführungsort	          | Durchführung           | Ort der Durchführung                                                     |                                                                          |
 | Buchungsnummer	          | Buchungsauftrag        | Nummer des Buchungsauftrags                                              |                                                                          |
-| Buchungsstatus	          | Buchungsauftrag        | Status des Buchungsauftrags                                              |                                                                          |
+| Buchungsstatus	          | Buchungsauftrag        | Status des Buchungsauftrags, mit denselben Wörtern wie in den Listen der Buchungsaufträge, siehe [Angebotsarten: Status der Buchungsaufträge](../learningresources/Offer_Types.de.md#order_status) |                                                                          |
 | Angebot	                  | Buchungsauftrag        | Label des gebuchten Angebots                                              |                                                                          |
 | Angebotstyp	              | Buchungsauftrag        | Typ des gebuchten Angebots                                               |                                                                          |
 | Kostenstelle	              | Buchungsauftrag        | Kostenstelle des gebuchten Angebots                                      | :material-cancel: Nicht verfügbar                                        |
@@ -66,6 +66,7 @@ Der Report Buchungsaufträge führt je Buchungsauftrag die folgenden Spalten. Di
 ## Weiterführende Informationen {: #further_information}
 
 [Modul Organisationen >](../../manual_admin/administration/Modules_Organisations.de.md)<br>
+[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Course Planner: Reports >](Course_Planner_Reports/index.de.md)<br>
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Bezahlungsmodule: Rechnung >](../../manual_admin/administration/Payment_Invoice.de.md)

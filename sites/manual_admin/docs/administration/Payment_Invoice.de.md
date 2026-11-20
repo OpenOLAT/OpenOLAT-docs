@@ -18,9 +18,9 @@ Benutzer:innen können diese Kurse buchen, indem sie sich aus dem Katalog heraus
 
 Wenn aus dem Course Planner heraus ein Angebot im Katalog gemacht wurde, das mit Rechnung gebucht werden kann, werden die Interessent:innen beim Anmeldevorgang zur Angabe der Rechnungsadresse usw. geführt. Es wird dabei auch eine Buchungsnummer erstellt.
 
-Der Buchungsauftrag kann anschliessend bestätigt werden. 
+Der Buchungsauftrag steht danach auf "Offen". Nach dem Zahlungseingang setzt ihn, wer im Course Planner die Durchführung verwaltet, mit «Auf "Bezahlt" setzen» auf "Bezahlt". Eine Forderung, die nicht mehr eingefordert wird, schreibt diese Person mit "Buchungsauftrag ausbuchen" ab; die Mitgliedschaft der Person bleibt dabei bestehen. Was die Status bedeuten, beschreibt [Angebotsarten: Status der Buchungsaufträge](../../manual_user/learningresources/Offer_Types.de.md#order_status).
 
-Wenn der geplante Kurs tatsächlich stattfindet, wird evtl. erst dann ein dazugehöriger OpenOlat Kurs erstellt.
+Den zugehörigen OpenOlat-Kurs können Sie auch erst erstellen, wenn feststeht, dass die Durchführung stattfindet.
 
 Im Course Planner unter:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog`<br>
@@ -35,6 +35,7 @@ Ist die [Debitorennummer](Modules_Organisations.de.md#customer_number) im Modul 
 
 ## Weiterführende Informationen {: #further_information}
 
+[Angebotsarten >](../../manual_user/learningresources/Offer_Types.de.md)<br>
 [Modul Organisationen >](Modules_Organisations.de.md)<br>
 [Reports: Buchungsaufträge >](../../manual_user/area_modules/Reports_BookingOrders.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner/index.de.md)<br>

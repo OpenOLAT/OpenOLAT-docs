@@ -424,15 +424,15 @@ Ein Formular lässt sich auf zwei Arten aus dem Buchen nehmen. Sie unterscheiden
 
 #### Tab Katalog > Buchungsaufträge [:octicons-tag-16:{ title="ab Release 20.0 (OO-8318)" }](https://track.frentix.com/issue/OO-8318){:target="_blank"} {: #tab_catalog_booking_orders}
 
-Hat die Durchführung Angebote mit Buchung, finden Sie die Buchungsaufträge und ihre Details im Tab "Katalog" im Teilbereich "Buchungsaufträge".
+Hat die Durchführung Angebote, finden Sie die Buchungsaufträge und ihre Details im Tab "Katalog" im Teilbereich "Buchungsaufträge".
 
-Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. Mit "Buchungsaufträge herunterladen" erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei. Sie enthält dieselben Spalten wie der [Report Buchungsaufträge](Reports_BookingOrders.de.md), bei eingeschalteter Debitorennummer also auch die drei Spalten zur Debitorennummer.
+Die Tabs "Alle", "Offen", "Erledigt", "Bezahlt", "Storniert" und "Fehler" sowie die Filter "Status", "Angebotstyp" und "Angebot" grenzen die Liste ein. Ist die Angebotsart Rechnung verfügbar, kommen die Tabs "Angepasster Preis" und "Adressvorschlag" dazu. "Angepasster Preis" zeigt die Aufträge, deren Preis oder Stornogebühr vom Angebot abweicht, etwa nach "Preis ändern". "Adressvorschlag" zeigt die Aufträge, deren Rechnungsadresse die Person beim Buchen selbst eingegeben hat, statt eine hinterlegte Adresse einer Organisation oder ihre eigene zu wählen. Was die Status bedeuten, welcher Tab welche Status zeigt und was bei welchem Status zu tun ist, beschreibt [Angebotsarten: Status der Buchungsaufträge](../learningresources/Offer_Types.de.md#order_status). Mit "Buchungsaufträge herunterladen" erhalten Sie die Buchungsaufträge der Durchführung als Excel-Datei. Sie enthält dieselben Spalten wie der [Report Buchungsaufträge](Reports_BookingOrders.de.md), bei eingeschalteter [Debitorennummer](../../manual_admin/administration/Modules_Organisations.de.md#customer_number) also auch die drei Spalten zur Debitorennummer.
 
-Das Menü am Ende einer Zeile bietet je nach Status des Auftrags andere Aktionen. Bei einem offenen Auftrag mit Preis sind das «Auf "Bezahlt" setzen» und "Preis ändern", bei einem bezahlten «Auf "Offen" setzen». Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem offenen Auftrag mit "Rechnungsadresse ändern" die Adresse. "Buchungsauftrag ausbuchen" steht bei jedem offenen Auftrag zur Verfügung, "Stornogebühr ändern" bei einem stornierten Auftrag mit Stornogebühr.
+Das Menü am Ende einer Zeile steht bei Aufträgen über "Rechnung" und bietet je nach Status des Auftrags andere Aktionen. Bei einem Auftrag im Status "Offen" mit Preis sind das «Auf "Bezahlt" setzen» und "Preis ändern", bei einem Auftrag im Status "Bezahlt" «Auf "Offen" setzen». Hat der Auftrag keinen Preis, fehlen diese Aktionen. Liegt eine Rechnungsadresse oder ein Adressvorschlag vor, ändern Sie bei einem Auftrag im Status "Offen" mit "Rechnungsadresse ändern" die Adresse. "Buchungsauftrag ausbuchen" steht bei jedem Auftrag im Status "Offen" zur Verfügung, "Stornogebühr ändern" bei einem stornierten Auftrag mit Stornogebühr. Markieren Sie mehrere Aufträge, setzen Sie die Aufträge über "Rechnung" darunter mit den Buttons «Auf "Bezahlt" setzen» oder «Auf "Offen" setzen» auf einmal um.
 
 ![Der Button Buchungsaufträge herunterladen, Tabs und Filter nach Status, Angebotstyp und Angebot, dazu ein Notiz-Symbol für den Kommentar der Teilnehmer:in](assets/course_planner_implementations_tab_catalog2_v2_de.png){ class="shadow lightbox" title="Teilbereich Buchungsaufträge im Tab Katalog · 2026.09.30" }
 
-Verlangt das gebuchte Angebot Formulare, führt die Detailansicht eines Buchungsauftrags den Abschnitt "Formulare für Buchungsaufträge" mit Titel, Kennzeichen, Schrittname, Status und Abgabedatum. Dort lassen sich die Formulare ansehen und, solange sie offen oder abgeschlossen sind, bearbeiten.
+Verlangt das gebuchte Angebot Formulare, führt die Detailansicht eines Buchungsauftrags den Abschnitt "Formulare für Buchungsaufträge" mit Titel, Kennzeichen, Schrittname, Status und Abgabedatum. Dort lassen sich die Formulare ansehen und, solange ihr Status "Offen" oder "Abgeschlossen" ist, bearbeiten.
 
 Hat ein Buchungsauftrag eine Rechnungsadresse mit erfasster Debitorennummer, zeigt seine Detailansicht die Nummer als erste Zeile der Rechnungsadresse.
 
@@ -714,6 +714,7 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](catalog2.0_sort_offers.de.md)<br>
 [Formulare - Übersicht >](../learningresources/Form/index.de.md)<br>
+[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Reports: Buchungsaufträge >](Reports_BookingOrders.de.md)<br>
 [Kurseinstellungen - Tab Info >](../learningresources/Course_Settings_Info.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

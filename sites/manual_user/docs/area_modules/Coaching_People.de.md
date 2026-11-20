@@ -144,7 +144,7 @@ Voraussetzung sind das eingeschaltete [Modul Kreditpunkte](../../manual_admin/ad
 
 #### Buchungen {: #tab_bookings}
 
-Hier sehen Sie, wann und über welches Angebot die Person in einen Kurs oder eine Durchführung gekommen ist. Die Liste nennt je Buchung das "Auftragsdatum", das "Angebot", den "Inhalt" und den "Status". Voraussetzung sind das eingeschaltete [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) und das Recht "Buchungen anzeigen". Tragen Sie zusätzlich das Recht "Ausstehende Kursbuchungen" und sind das Modul Course Planner und die Angebotsart "Rechnung" eingeschaltet, steht neben "Buchungsaufträge" der Umschalter "Ausstehende Mitgliedschaften", siehe [Ausstehende Mitgliedschaften genehmigen](#linemanager_educationmanager_confirm_membership).
+Unter dem Umschalter "Buchungsaufträge" sehen Sie, wann und über welches Angebot die Person einen Kurs oder eine Durchführung gebucht hat und wie weit jede Buchung ist, auch bei stornierten Buchungen. Die Liste nennt je Buchung das "Auftragsdatum", das "Angebot", den "Inhalt" und den "Status". Was die Status bedeuten, beschreibt [Angebotsarten: Status der Buchungsaufträge](../learningresources/Offer_Types.de.md#order_status). Voraussetzung sind das eingeschaltete [Modul Katalog](../../manual_admin/administration/Modules_Catalog_2.0.de.md) und das Recht "Buchungen anzeigen". Tragen Sie zusätzlich das Recht "Ausstehende Kursbuchungen" und sind das Modul Course Planner und die Angebotsart "Rechnung" eingeschaltet, steht neben "Buchungsaufträge" der Umschalter "Ausstehende Mitgliedschaften", siehe [Ausstehende Mitgliedschaften genehmigen](#linemanager_educationmanager_confirm_membership).
 
 #### Gruppen {: #tab_groups}
 
@@ -324,6 +324,7 @@ Was jedes dieser Rechte bewirkt, beschreibt das Administrationshandbuch unter [M
 [Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
 [Persönliche Erfolge/Leistungen: Kreditpunkte >](../personal_menu/Credit_Points.de.md)<br>
 [e-Assessment Administration: Kreditpunkte >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Core-Konfiguration: Übersicht >](../../manual_admin/administration/Core_functions/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>

@@ -48,7 +48,7 @@ e) Wählen Sie die "Währung" und geben Sie anschliessend die "Client ID" sowie 
 
 Zwei weitere Felder im Formular "PayPal Checkout konfigurieren" sind optional. Mit ihnen legen Sie fest, wann Käufer:innen den Zugang erhalten und für welches Land PayPal die Bezahlung anzeigt:
 
-* **Ausstehende Transaktionen**: Manche Zahlungen meldet PayPal zuerst als ausstehend, zum Beispiel weil PayPal sie noch prüft. Mit dem Häkchen "Defaultmässig akzeptieren (Buchung zum Kurs wird durchgeführt)" erhalten Käufer:innen den Zugang zum Kurs oder zur Gruppe bereits in diesem Zustand. Ohne Häkchen erhalten sie den Zugang erst, wenn PayPal die Zahlung abschliesst. Wird eine Zahlung später in PayPal storniert, beendet OpenOlat die Mitgliedschaft nicht von selbst.
+* **Ausstehende Transaktionen**: Manche Zahlungen meldet PayPal zuerst als ausstehend, zum Beispiel weil PayPal sie noch prüft. Mit dem Häkchen "Defaultmässig akzeptieren (Buchung zum Kurs wird durchgeführt)" erhalten Käufer:innen den Zugang zum Kurs oder zur Gruppe bereits in diesem Zustand. Ohne Häkchen erhalten sie den Zugang erst, wenn PayPal die Zahlung abschliesst. Bis PayPal die Zahlung abschliesst, zeigt der Buchungsauftrag mit Häkchen den Status "Akzeptiert aber ausstehend", ohne Häkchen "Ausstehend", siehe [Angebotsarten: Status der Buchungsaufträge](../../manual_user/learningresources/Offer_Types.de.md#order_status). Wird eine Zahlung später in PayPal storniert, beendet OpenOlat die Mitgliedschaft nicht von selbst.
 * **Vorselektierte Länder**: Mit "PayPal Smart Buttons" zeigt PayPal die Bezahlung für eine Sprache und ein Land an. Enthält die Spracheinstellung von Käufer:innen kein Land, wählt OpenOlat das erste Land aus dieser Liste, das zur Sprache passt. Ist kein Land gewählt, leitet OpenOlat das Land aus der Spracheinstellung ab. [:octicons-tag-16:{ title="ab Release 15.3.8 (OO-5200)" }](https://track.frentix.com/issue/OO-5200)
 
 [Zum Seitenanfang ^](#PayPal)
@@ -58,7 +58,8 @@ Zwei weitere Felder im Formular "PayPal Checkout konfigurieren" sind optional. M
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)
+[Zugangskonfiguration / Freigabe >](../../manual_user/learningresources/Access_configuration.de.md)<br>
+[Angebotsarten >](../../manual_user/learningresources/Offer_Types.de.md)
 
 **Weiterführend**<br>
 [Bezahlungsmodule: Übersicht >](Payment_modules/index.de.md)<br>
