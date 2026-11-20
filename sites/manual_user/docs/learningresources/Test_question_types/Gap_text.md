@@ -4,6 +4,8 @@ With a gap text question you check whether the participants type in missing term
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap FIB text`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
+![Gap text with three empty gaps in a running text about question types](../assets/Lueckentext_Beispiel_en.png){ class="shadow lightbox" title="Gap FIB text as seen by participants" }
+
 You insert gaps in the editor of the question with the icon with the three dots ("Gap FIB text"). Click a gap to edit it. The "Create gap" or "Edit gap" dialog shows the type of the gap at the top under "Input method" and under "Preview" how the gap appears in the test.
 
 For each gap you define the following settings:
@@ -24,8 +26,6 @@ For each gap you define the following settings:
 You define the points freely. You can also award points for alternatives.
 
 If at least two gaps contain an identical answer option, the option "Allow twice the same input" is available in the "Score" tab. With it you allow or prevent the participants from entering the same answer in several gaps.
-
-![Gap text with three empty gaps in a running text about question types](../assets/Lueckentext_Beispiel_en.png){ class="shadow lightbox" title="Gap FIB text as seen by participants" }
 
 ## Further information {: #further_information}
 

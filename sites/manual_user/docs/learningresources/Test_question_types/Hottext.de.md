@@ -4,13 +4,13 @@ Mit einer Hottext-Frage prüfen Sie, ob die Teilnehmenden die passenden Begriffe
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Hottext` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Hottext-Frage mit sieben markierbaren Begriffen im Fliesstext](../assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" title="Hottext aus Sicht der Teilnehmenden" }
+
 Geben Sie zuerst unter "Titel" einen kurzen Titel ein.
 
 Schreiben Sie danach unter "Frage" den Text. Markieren Sie darin einen Auswahlbegriff und klicken Sie in der Werkzeugleiste des Editors auf das Icon "Hottext". Vor jedem Hottext erscheint im Text ein Kästchen: Kreuzen Sie es bei den korrekten Antworten an.
 
 Legen Sie zum Schluss im [Tab Punkte](../Configure_test_questions.de.md#score) die Punktzahl fest. Unter "Bewertungsmethode" stehen wie bei Multiple Choice "Alle korrekten Antworten", "Punkte pro Antwort" und "Teilpunkte" zur Wahl. Mit "Min. Anzahl möglicher Antworten" und "Max. Anzahl möglicher Antworten" legen Sie fest, wie viele Begriffe die Teilnehmenden mindestens und höchstens auswählen.
-
-![Hottext-Frage mit sieben markierbaren Begriffen im Fliesstext](../assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" title="Hottext aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 

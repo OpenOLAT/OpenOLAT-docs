@@ -4,13 +4,13 @@ Mit einer Reihenfolge-Frage prüfen Sie, ob die Teilnehmenden Abläufe oder Rang
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Reihenfolge` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Reihenfolge-Frage mit vier ungeordneten Elementen und einem leeren Sortierbereich](../assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" title="Reihenfolge aus Sicht der Teilnehmenden" }
+
 Geben Sie zuerst unter "Titel" den Titel und unter "Frage" die Frage ein.
 
 Erfassen Sie dann die Antworten in der richtigen Reihenfolge. Die Teilnehmenden sehen die Elemente gemischt. Unter "Ausrichtung der Antworten" legen Sie fest, ob sie vertikal oder horizontal erscheinen.
 
 Legen Sie zum Schluss im [Tab Punkte](../Configure_test_questions.de.md#score) die "Minimal erreichbare Punktzahl" und die "Maximal erreichbare Punktzahl" fest. Die Bewertung ist bei diesem Fragetyp fest: Stehen alle Elemente in der richtigen Reihenfolge, erhalten die Teilnehmenden die maximale Punktzahl. Jede andere Reihenfolge, auch eine teilweise richtige, ergibt 0 Punkte oder die "Minimal erreichbare Punktzahl", wenn diese über 0 liegt.
-
-![Reihenfolge-Frage mit vier ungeordneten Elementen und einem leeren Sortierbereich](../assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" title="Reihenfolge aus Sicht der Teilnehmenden" }
 
 !!! info "Hinweis: Einschränkung auf mobile Geräte"
 

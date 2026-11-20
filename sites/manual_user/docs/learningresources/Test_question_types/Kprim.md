@@ -4,6 +4,8 @@ With a Kprim question you check whether the participants assess four statements 
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Kprim`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
+![Kprim question with four statements about Switzerland and one box each in the columns True and False](../assets/test_question_types_kprim_preview_v1_en.png){ class="shadow lightbox" title="Kprim, preview in the test editor · 2026.11.10" }
+
 First enter a short title under "Title" and the question under "Question".
 
 Then define whether the answers appear in random order ("Shuffle answers") and whether the selection fields are on the left or on the right ("Check-box alignment").
@@ -15,8 +17,6 @@ The scoring scheme for Kprim questions is fixed:
 All correct answers = 100% score<br>
 3 correct answers = 50% score<br>
 2, 1 or 0 correct answers = 0% score
-
-![Kprim question with four statements about Switzerland and one box each in the columns True and False](../assets/test_question_types_kprim_preview_v1_en.png){ class="shadow lightbox" title="Kprim, preview in the test editor · 2026.11.10" }
 
 ## Further information {: #further_information}
 

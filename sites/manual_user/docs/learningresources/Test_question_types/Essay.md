@@ -4,6 +4,8 @@ With an essay question you let the participants formulate an answer freely, for 
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Essay`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
+![Essay question with a tab-formatted price list in the answer field](../assets/Essay_Beispiel.png){ class="shadow lightbox" title="Essay as seen by participants" }
+
 First enter a short title under "Title" and the question under "Question".
 
 Then the following options are available:
@@ -18,8 +20,6 @@ Then the following options are available:
 In the "Standard" mode, the answer field uses a font with fixed character width and supports the tab key. The participants can thus format their answers clearly and, for example, display columns.
 
 Coaches and owners of the course correct the answers in the course element Test with the [correction tool](../Assessing_tests.md#correction_tool), correctors via the [correction workflow](../Test_correction_workflow.md). Who corrects and when the participants see their assessment is defined in the course element Test with the setting [Correction](../Course_Element_Test/Test_Setup.md#section_correction). You define the highest score to be awarded in the correction in the [Score tab](../Configure_test_questions.md#score) under "Max. score".
-
-![Essay question with a tab-formatted price list in the answer field](../assets/Essay_Beispiel.png){ class="shadow lightbox" title="Essay as seen by participants" }
 
 !!! info "Autosave"
 

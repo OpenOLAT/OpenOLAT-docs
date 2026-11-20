@@ -4,13 +4,13 @@ With a hottext question you check whether the participants recognise the matchin
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Hottext`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
+![Hottext question with seven selectable terms in a running text](../assets/Hottext_Beispiel.png){ class="shadow lightbox" title="Hottext as seen by participants" }
+
 First enter a short title under "Title".
 
 Then write the text under "Question". Mark a selectable term in it and click the "Hottext" icon in the toolbar of the editor. A box appears in the text in front of each hottext: tick it for the correct answers.
 
 Finally, define the score in the [Score tab](../Configure_test_questions.md#score). As with multiple choice, "All correct answers", "Score per answer" and "Partial score" are available under "Method of assessment". With "Min. number of possible answers" and "Max. number of possible answers" you define how many terms the participants select at least and at most.
-
-![Hottext question with seven selectable terms in a running text](../assets/Hottext_Beispiel.png){ class="shadow lightbox" title="Hottext as seen by participants" }
 
 ## Further information {: #further_information}
 

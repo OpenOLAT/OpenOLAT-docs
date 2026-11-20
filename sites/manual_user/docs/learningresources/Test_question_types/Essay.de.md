@@ -4,6 +4,8 @@ Mit einer Freitext-Frage lassen Sie die Teilnehmenden eine Antwort frei formulie
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Freitext` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Freitext-Frage mit einer per Tabulator formatierten Preisliste im Antwortfeld](../assets/Essay_Beispiel_DE.png){ class="shadow lightbox" title="Freitext aus Sicht der Teilnehmenden" }
+
 Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.
 
 Danach stehen folgende Optionen zur Wahl:
@@ -18,8 +20,6 @@ Danach stehen folgende Optionen zur Wahl:
 Im Modus "Standard" verwendet das Antwortfeld eine Schrift mit fester Zeichenbreite und unterstützt die Tabulatortaste. So formatieren die Teilnehmenden ihre Antworten übersichtlich und bilden zum Beispiel Spalten ab.
 
 Die Antworten korrigieren Betreuer:innen und Besitzer:innen des Kurses im Kursbaustein Test mit dem [Korrekturwerkzeug](../Assessing_tests.de.md#correction_tool), Korrektor:innen über den [Korrektur-Workflow](../Test_correction_workflow.de.md). Wer korrigiert und wann die Teilnehmenden ihre Bewertung sehen, legen Sie im Kursbaustein Test mit der Einstellung [Korrektur](../Course_Element_Test/Test_Setup.de.md#section_correction) fest. Die höchste Punktzahl, die bei der Korrektur zu vergeben ist, legen Sie im [Tab Punkte](../Configure_test_questions.de.md#score) unter "Maximal erreichbare Punktzahl" fest.
-
-![Freitext-Frage mit einer per Tabulator formatierten Preisliste im Antwortfeld](../assets/Essay_Beispiel_DE.png){ class="shadow lightbox" title="Freitext aus Sicht der Teilnehmenden" }
 
 !!! info "Autosave"
 

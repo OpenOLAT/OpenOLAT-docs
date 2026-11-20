@@ -4,6 +4,8 @@ Mit einer Single-Choice-Frage prüfen Sie, ob die Teilnehmenden unter mehreren A
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Single Choice` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Single-Choice-Frage mit fünf Antwortoptionen und je einem Radiobutton davor](../assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" title="Single Choice aus Sicht der Teilnehmenden" }
+
 Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.
 
 Legen Sie danach fest, ob die Antworten in zufälliger Reihenfolge erscheinen ("Zufällige Reihenfolge"), ob sie vertikal oder horizontal angeordnet sind ("Ausrichtung der Antworten") und ob die Auswahlfelder links oder rechts stehen ("Check-box Ausrichtung").
@@ -13,8 +15,6 @@ Erfassen Sie dann die Antworttexte. Mit der Schaltfläche :o_icon_o_icon_add: f�
 Markieren Sie in der Spalte "Korrekt" die richtige Antwort. Mit den Pfeilen ändern Sie die Reihenfolge der Antworten. In dieser Reihenfolge sehen die Teilnehmenden sie, wenn "Zufällige Reihenfolge" auf "Nein" steht.
 
 Legen Sie zum Schluss im [Tab Punkte](../Configure_test_questions.de.md#score) die Punktzahl fest. Unter "Bewertungsmethode" stehen für Single Choice "Alle korrekten Antworten" und "Punkte pro Antwort" zur Wahl. Mit "Alle korrekten Antworten" erhalten die Teilnehmenden für die richtige Antwort die volle Punktzahl, für jede andere 0 Punkte. Mit "Punkte pro Antwort" vergeben Sie für jede Antwort eigene Punkte, auch negative. Die Methode "Teilpunkte" bietet [Multiple Choice](Multiple_choice.de.md), weil dort mehrere Antworten richtig sein können.
-
-![Single-Choice-Frage mit fünf Antwortoptionen und je einem Radiobutton davor](../assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" title="Single Choice aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 

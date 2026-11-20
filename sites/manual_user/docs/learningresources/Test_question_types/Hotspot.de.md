@@ -4,6 +4,8 @@ Mit einer Hotspot-Frage prüfen Sie, ob die Teilnehmenden auf einem Bild die ric
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Hotspot` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Hotspot-Frage mit drei runden Auswahlbereichen auf einem Bild, einer davon ausgewählt](../assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" title="Hotspot aus Sicht der Teilnehmenden" }
+
 ## Vorgehen {: #procedure}
 
 * Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.
@@ -11,8 +13,6 @@ Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernresso
 * Platzieren Sie dann mit "Kreis" oder "Viereck" Hotspots auf dem Bild. Über "Erweiterte Bearbeitung" öffnen Sie den Dialog "Hotspots bearbeiten": Dort duplizieren Sie Hotspots, richten sie aneinander aus und legen Position und Grösse mit den Feldern X, Y, W und H fest.
 * Wählen Sie unter "Korrekte Spots" die richtigen Antworten.
 * Legen Sie zum Schluss im [Tab Punkte](../Configure_test_questions.de.md#score) die Punktzahl fest. Unter "Bewertungsmethode" stehen "Alle korrekten Antworten" und "Punkte pro Antwort" zur Wahl. Mit "Punkte pro Antwort" erscheint darunter eine Tabelle, in der Sie in der Spalte "Punkte" für jeden Hotspot eigene Punkte eintragen, auch negative. Steht "Typ" auf "Multiple choice", kommt die Methode "Teilpunkte" dazu.
-
-![Hotspot-Frage mit drei runden Auswahlbereichen auf einem Bild, einer davon ausgewählt](../assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" title="Hotspot aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 

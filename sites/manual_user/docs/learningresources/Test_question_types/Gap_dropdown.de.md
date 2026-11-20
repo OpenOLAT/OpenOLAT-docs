@@ -4,11 +4,11 @@ Mit einem Lückentext mit Dropdown prüfen Sie Begriffe im Zusammenhang eines Te
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Lückentext mit Dropdown` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
+![Lückentext mit Dropdown, eine Liste mit drei Antworten geöffnet](../assets/Lueckentext_dropdown_Beispiel_de.png){ class="shadow lightbox" title="Lückentext mit Dropdown aus Sicht der Teilnehmenden" }
+
 Wie beim Lückentext bauen Sie Lücken in einen Fliesstext ein, hier mit dem Icon mit dem Dreieck ("Lückentext mit Dropdown"). Jeder Lücke ordnen Sie unter "Antwortmöglichkeiten" mehrere Antworten zu. Weitere Antworten ergänzen Sie mit "Antwort hinzufügen". Die richtige Antwort markieren Sie unter "Lösung".
 
 ![Hervorgehobenes Icon mit dem Dreieck zum Einfügen einer Dropdown-Lücke](../assets/Lueckentext_dropdown_Button_de.png){ class="shadow lightbox" title="Lückentext mit Dropdown, Werkzeugleiste im Testeditor" }
-
-![Lückentext mit Dropdown, eine Liste mit drei Antworten geöffnet](../assets/Lueckentext_dropdown_Beispiel_de.png){ class="shadow lightbox" title="Lückentext mit Dropdown aus Sicht der Teilnehmenden" }
 
 Unter "Anzeige" legen Sie mit "Reihenfolge der Antwortoptionen" fest, ob die Teilnehmenden die Antworten in zufälliger Reihenfolge ("Zufällige Reihenfolge") oder in der von Ihnen erfassten Reihenfolge ("Vorgegebene Reihenfolge") sehen.
 

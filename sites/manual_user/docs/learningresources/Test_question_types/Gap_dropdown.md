@@ -4,11 +4,11 @@ With a gap with dropdown you check terms in the context of a text, and the parti
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap with dropdown`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
+![Gap with dropdown, a list with three answers opened](../assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow lightbox" title="Gap with dropdown as seen by participants" }
+
 As with the gap text, you build gaps into a running text, here with the icon with the triangle ("Gap with dropdown"). To each gap you assign several answers under "Answer options". You add further answers with "Add answer". You mark the correct answer under "Solution".
 
 ![Highlighted icon with the triangle for inserting a dropdown gap](../assets/Lueckentext_dropdown_Button_en.png){ class="shadow lightbox" title="Gap with dropdown, toolbar in the test editor" }
-
-![Gap with dropdown, a list with three answers opened](../assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow lightbox" title="Gap with dropdown as seen by participants" }
 
 Under "Display", you define with "Order of answer options" whether the participants see the answers in random order ("Shuffle") or in the order you entered ("Preset order").
 

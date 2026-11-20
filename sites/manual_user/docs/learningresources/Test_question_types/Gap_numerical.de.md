@@ -2,9 +2,11 @@
 
 Mit einem Lückentext numerisch prüfen Sie Rechenergebnisse und andere Zahlen in einem Text. Aufgebaut ist er wie der [Lückentext](Gap_text.de.md): Sie schreiben einen Text und setzen darin Lücken, als Lösung tragen Sie aber eine Zahl ein. Lücken fügen Sie im Editor der Frage mit dem Icon mit dem Taschenrechner ("Lückentext numerisch") ein. Mit einem Klick auf eine Lücke öffnen Sie den Dialog "Lücke bearbeiten".
 
-Der Dialog einer Zahlenlücke zeigt "Lösung", "Toleranz" und "Anzeige". Für Abweichungen von der Lösung ist die "Toleranz" da: Mit ihr lassen Sie einen Bereich um die Lösung als korrekt gelten. Die Felder "Alternative Antworten" und "Korrektur" finden Sie im Dialog des [Lückentexts](Gap_text.de.md), ebenso gilt die Option "Doppelte Eingaben erlauben" im Tab "Punkte" nur für dessen Text-Lücken. Text- und Zahlenlücken in einer Frage kombiniert der Fragetyp [Lückentext gemischt](Gap_mixed.de.md).
-
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Lückentext numerisch` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
+
+![Frage mit einer Zahlenlücke, in welche die Antwort 42.0 eingetragen ist](../assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow lightbox" title="Lückentext numerisch aus Sicht der Teilnehmenden" }
+
+Der Dialog einer Zahlenlücke zeigt "Lösung", "Toleranz" und "Anzeige". Für Abweichungen von der Lösung ist die "Toleranz" da: Mit ihr lassen Sie einen Bereich um die Lösung als korrekt gelten. Die Felder "Alternative Antworten" und "Korrektur" finden Sie im Dialog des [Lückentexts](Gap_text.de.md), ebenso gilt die Option "Doppelte Eingaben erlauben" im Tab "Punkte" nur für dessen Text-Lücken. Text- und Zahlenlücken in einer Frage kombiniert der Fragetyp [Lückentext gemischt](Gap_mixed.de.md).
 
 Für jede Lücke legen Sie folgende Einstellungen fest:
 
@@ -28,8 +30,6 @@ Die Teilnehmenden schreiben Dezimalzahlen mit Punkt oder mit Komma. OpenOlat bew
 Die Punkte vergeben Sie im [Tab Punkte](../Configure_test_questions.de.md#score). Unter "Bewertungsmethode" stehen "Alle korrekten Antworten", "Punkte pro Antwort" und "Teilpunkte" zur Wahl. Mit "Punkte pro Antwort" erhält jede Lücke eigene Punkte.
 
 ![Eingeschaltete Toleranz im Modus Absolut mit den Feldern Untere Grenze und Obere Grenze](../assets/Lueckentext_numerisch_Toleranz_de.png){ class="shadow lightbox" title="Dialog Lücke bearbeiten bei Lückentext numerisch" }
-
-![Frage mit einer Zahlenlücke, in welche die Antwort 42.0 eingetragen ist](../assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow lightbox" title="Lückentext numerisch aus Sicht der Teilnehmenden" }
 
 ## Weiterführende Informationen {: #further_information}
 
