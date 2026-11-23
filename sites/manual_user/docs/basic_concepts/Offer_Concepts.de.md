@@ -11,6 +11,8 @@ Für denselben Kurs erstellen Sie auch mehrere Angebote für verschiedene Zielgr
 So bieten Sie einen Kurs zum Beispiel internen Benutzer:innen kostenlos an und mit einem zweiten Angebot Externen kostenpflichtig.
 Ob ein Angebot im Katalog für alle oder nur für bestimmte Organisationseinheiten erscheint, legen Sie im Angebot fest, siehe [Wo können Angebote gezeigt werden?](#show_offers). Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft.
 
+Auch Gruppen haben Angebote. Eine buchbare Gruppe finden Benutzer:innen nicht im Katalog, sondern im Bereich Gruppen im Tab "Veröffentlichte Gruppen", siehe [Gruppen anbieten](#what_is_offered_groups).
+
 **Beispiel für Kursangebote im Katalog:**
 ![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
 
@@ -51,6 +53,8 @@ Welche Angaben eine Karte zeigt, legen Systemadministrator:innen für alle Karte
 
 OpenOlat hat einen internen und einen externen Katalog. Sie bestimmen, ob ein Angebot in einem oder in beiden Katalogen erscheint.
 
+Im Katalog erscheinen Angebote von Kursen und von Durchführungen. Eine Durchführung ist der konkrete Durchgang eines Bildungsangebots mit Zeitraum, Ort und Mitgliedern, etwa ein Kurs, der im Frühling und noch einmal im Herbst stattfindet. Durchführungen planen Sie im [Course Planner](../area_modules/Course_Planner/index.de.md), dem Modul, mit dem eine Organisation ihr Bildungsangebot plant.
+
 Der Katalog ist in Abschnitte gegliedert, die Launcher. Als Besitzer:in eines Kurses oder einer Durchführung bestimmen Sie, in welchem Launcher Ihr Angebot erscheint. Der Katalog (V2) stellt die Angebote dynamisch zusammen und ordnet sie den Launchern zu. Taxonomie-Launcher zeigen zudem Ordner, die bestimmten Taxonomie-Leveln entsprechen. So erscheinen die Kurse und Lernressourcen nach Taxonomiebegriffen sortiert.
 
 Ein Angebot erscheint auch in mehreren Launchern des Katalogs (V2), zum Beispiel in einem Launcher "Beliebte Kurse" und in einem Launcher, der Kurse anhand einer bestimmten Taxonomie thematisch zusammenstellt.
@@ -79,10 +83,13 @@ Durchführung: `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Ka
 
 ## Wo werden Angebote erstellt? {: #create_offers}
 
-Angebote erstellen Sie
+Angebote erstellen Sie an drei Orten:
 
-* im Kurs <br>oder
-* in einer Durchführung (innerhalb des Course Planners)
+* im Kurs
+* in einer Durchführung im Course Planner
+* in einer Gruppe unter `Gruppe > Administration > Tab "Freigabe"`, siehe [Gruppenadministration: Tab Freigabe](../groups/Group_Administration/index.de.md#booking)
+
+Die beiden Unterabschnitte zeigen die Wege für Kurs und Durchführung. Für Gruppen beschreibt die Gruppenadministration den Tab "Freigabe" vollständig.
 
 ### Angebotserstellung im Kurs [:octicons-tag-16:{ title="ab Release 17.0.0 (OO-6141)" }](https://track.frentix.com/issue/OO-6141){:target="_blank"} {: #create_offers_course}
 
@@ -115,24 +122,28 @@ Um eine Durchführung im Katalog anzubieten, öffnen Sie die Durchführung im Co
 
 ## Die Angebotsarten {: #offer_types}
 
-Die Angebotsart legt fest, wie Personen Zugang zu einem Kurs oder einer Durchführung erhalten: ohne Buchung, als Gast, mit einer freien Buchung, mit einem Zugangscode oder kostenpflichtig. Welche Angebotsarten zur Wahl stehen, hängt davon ab, ob Sie einen Kurs oder eine Durchführung anbieten:
+Die Angebotsart legt fest, wie Personen Zugang zu einem Kurs, einer Durchführung oder einer Gruppe erhalten: ohne Buchung, als Gast, mit einer freien Buchung, mit einem Zugangscode oder kostenpflichtig. Welche Angebotsarten zur Wahl stehen, hängt davon ab, ob Sie einen Kurs, eine Durchführung oder eine Gruppe anbieten:
 
 |                       | Mitgliedstatus  |                                 | verfügbar in |
 | --------------------- | --------------- |-------------------------------- | --- |
 | <b>Ohne Buchung</b>    | ohne  |Mit diesem Angebot ist die Ressource ohne eine Mitgliedschaft für Benutzer:innen zugänglich. | Eigenständiger Kurs |
 | <b>Gastzugang</b>    | ohne  | Mit diesem Angebot ist die Ressource für Gäste ohne Registrierung zugänglich. | Eigenständiger herkömmlicher Kurs, kein Lernpfadkurs |
-| <b>Frei verfügbar</b>  | Mitgliedschaft | Mit diesem Angebot ist die Ressource buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs und Durchführung |
-| <b>Zugangscode</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit einem Zugangscode buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs und Durchführung |
-| <b>PayPal Checkout</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit PayPal kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. Wer dieses Angebot erstellt, steht unter [PayPal](#offer_payed_paypal). | Eigenständiger Kurs und Durchführung |
+| <b>Frei verfügbar</b>  | Mitgliedschaft | Mit diesem Angebot ist die Ressource buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs, Durchführung und Gruppe |
+| <b>Zugangscode</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit einem Zugangscode buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Eigenständiger Kurs, Durchführung und Gruppe |
+| <b>PayPal Checkout</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource mit PayPal kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. Wer dieses Angebot erstellt, steht unter [PayPal](#offer_payed_paypal). | Eigenständiger Kurs, Durchführung und Gruppe ohne Warteliste |
 | <b>Rechnung</b> | Mitgliedschaft | Mit diesem Angebot ist die Ressource per Rechnung kostenpflichtig buchbar. Die Benutzer:innen erhalten eine entsprechende Mitgliedschaft, die ihnen den Zugang zur Ressource ermöglicht. | Durchführung |
 
-Die Angebotsart wählen Sie beim Erstellen eines Angebots im Menü neben "Angebot hinzufügen" oder im Dialog, den ein Klick auf "Angebot hinzufügen" öffnet. Der Dialog gruppiert die Angebotsarten nach Mitgliedschaft. Hat der Kurs oder die Durchführung noch kein Angebot, stehen dieselben Angebotsarten unter "Noch kein Angebot erstellt" auch als Buttons bereit.
+Die Angebotsart wählen Sie beim Erstellen eines Angebots im Menü neben "Angebot hinzufügen" oder im Dialog, den ein Klick auf "Angebot hinzufügen" öffnet. Der Dialog gruppiert die Angebotsarten nach Mitgliedschaft. Hat der Kurs oder die Durchführung noch kein Angebot, stehen dieselben Angebotsarten unter "Noch kein Angebot erstellt" auch als Buttons bereit. Im Tab "Freigabe" einer Gruppe erstellen Sie Angebote auf dieselbe Weise.
 
 [Angebotsarten eines Kurses im Detail >](../learningresources/Access_configuration.de.md#angebotsoptionen)
 
 ### Angebotsarten für Kurse {: #offer_types_courses}
 
-Ein Kurs mit dem Verwendungszweck "Eigenständig", in der Tabelle oben "Eigenständiger Kurs", bietet "Ohne Buchung", "Frei verfügbar", "Zugangscode" und "PayPal Checkout" zur Wahl. Voraussetzung ist, dass im Tab "Freigabe" der "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" steht. Den Weg zum Button "Angebot hinzufügen" zeigt [Angebotserstellung im Kurs](#create_offers_course). Ob "PayPal Checkout" zur Wahl steht, hängt vom eingerichteten Bezahlungsmodul und von Ihrer Rolle ab, siehe [PayPal](#offer_payed_paypal).
+Ein Kurs mit dem Verwendungszweck "Eigenständig", in der Tabelle oben "Eigenständiger Kurs", bietet "Ohne Buchung", "Frei verfügbar", "Zugangscode" und "PayPal Checkout" zur Wahl. Den Verwendungszweck wählen Sie beim Erstellen des Kurses im Feld "Verwendungszweck". Später sehen und ändern Sie ihn unter:<br>
+`Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Link "Ändern"`<br>
+Steht "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote", sperrt der Dialog "Verwendungszweck ändern" den Wechsel zu "Verwendung im Course Planner" und zu "Template", siehe [Abschnitt Verwendung](../learningresources/Course_Settings_Share/index.de.md#section_usage).
+
+Voraussetzung für Angebote im Kurs ist, dass im Tab "Freigabe" der "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" steht. Den Weg zum Button "Angebot hinzufügen" zeigt [Angebotserstellung im Kurs](#create_offers_course). Ob "PayPal Checkout" zur Wahl steht, hängt vom eingerichteten Bezahlungsmodul und von Ihrer Rolle ab, siehe [PayPal](#offer_payed_paypal).
 
 ![Menü neben Angebot hinzufügen mit Ohne Buchung, Frei verfügbar, Zugangscode und PayPal Checkout, dieselben Angebotsarten als Buttons unter Noch kein Angebot erstellt](../learningresources/assets/offer_types_course1_v2_de.png){ class="shadow lightbox" title="Abschnitt Angebot im Tab Freigabe eines Kurses · 2026.11.18" }
 
@@ -148,6 +159,16 @@ Eine Durchführung im Course Planner bietet "Frei verfügbar", "Zugangscode", "R
 
 ![Frei verfügbar und Zugangscode unter Mit Mitgliedschaft, Rechnung und PayPal Checkout unter Mit Mitgliedschaft - Kostenpflichtig](../learningresources/assets/offer_types_course_planner2_v2_de.png){ class="shadow lightbox" title="Dialog Angebot hinzufügen einer Durchführung · 2026.11.18" }
 
+### Angebotsarten für Gruppen {: #offer_types_groups}
+
+Eine Gruppe bietet "Frei verfügbar", "Zugangscode" und "PayPal Checkout" zur Wahl. Die Angebote erstellen Betreuer:innen der Gruppe unter `Gruppe > Administration > Tab "Freigabe"`. "PayPal Checkout" steht nur zur Wahl, solange im Tab "Beschreibung" der Gruppe die Warteliste ausgeschaltet ist. Dazu kommen dieselben Voraussetzungen wie bei Kursen: das eingeschaltete Bezahlungsmodul und Ihre Rolle, siehe [PayPal](#offer_payed_paypal).
+
+Den Tab "Freigabe" zeigt eine Gruppe, wenn die Zugangskontrolle eingeschaltet ist. Das legen Systemadministrator:innen in der System-Administration mit der Option "Ressourcen Zugangskontrolle einschalten" fest:<br>
+`Administration > Core-Konfiguration > Zugangskontrolle`<br>
+Wer nur über eine Einladung Zugang zu OpenOlat hat, sieht den Tab nicht. Er fehlt auch bei einer Gruppe, die in einem Kurs mit dem Verwendungszweck "Verwendung im Course Planner" eingebunden ist, weil dort der Course Planner die Mitgliedschaften vergibt.
+
+[Angebotsarten einer Gruppe im Detail >](../groups/Group_Administration/index.de.md#booking)
+
 [zum Seitenanfang ^](#offer_concepts)
 
 ---
@@ -155,11 +176,14 @@ Eine Durchführung im Course Planner bietet "Frei verfügbar", "Zugangscode", "R
 
 ## Was kann angeboten werden? {: #what_is_offered}
 
-Angebote im Katalog gibt es für
+Angebote gibt es für
 
 - Kurse
 - Durchführungen
+- Gruppen
 - sonstige Lernressourcen
+
+Kurse und Durchführungen erscheinen mit ihrem Angebot im Katalog. Eine sonstige Lernressource bieten Sie als Kurs an, siehe [Sonstige Lernressourcen anbieten](#what_is_offered_other). Gruppen erscheinen im Tab "Veröffentlichte Gruppen".
 
 
 ### Kurse anbieten {: #what_is_offered_courses}
@@ -179,13 +203,20 @@ Ausführliche Informationen über das [Anbieten von Kursen im Katalog finden Sie
 
 Bieten Sie denselben Kurs mehrmals zu verschiedenen Terminen an, verwenden Sie Durchführungen im Course Planner.
 
-Eine Durchführung schreiben Sie im Katalog auch aus, wenn noch unklar ist, ob sie stattfindet, etwa weil das von der Zahl der Buchungen abhängt. Das Angebot für eine Durchführung erstellen Sie deshalb immer in der Durchführung im Course Planner, nicht in einem Kurs, der für diese Durchführung vorgesehen ist. Kurse lassen sich dafür speziell für Durchführungen vorsehen und haben dann keine eigene Mitgliederverwaltung.
+Eine Durchführung schreiben Sie im Katalog auch aus, wenn noch unklar ist, ob sie stattfindet, etwa weil das von der Zahl der Buchungen abhängt. Das Angebot für eine Durchführung erstellen Sie deshalb immer in der Durchführung im Course Planner, nicht in einem Kurs, der für diese Durchführung vorgesehen ist. Kurse lassen sich dafür mit dem Verwendungszweck "Verwendung im Course Planner" speziell für Durchführungen vorsehen und haben dann keine eigene Mitgliederverwaltung, siehe [Angebotsarten für Kurse](#offer_types_courses).
 
 Benutzer:innen buchen eine Durchführung, indem sie sich aus dem Katalog heraus anmelden (wenn sie schon OpenOlat-Benutzer:in sind) oder sich neu registrieren (wenn sie eine passende Durchführung im externen Katalog gefunden haben, den sie ohne Registrierung ansehen können).
 
 Bei einem Angebot "Rechnung" geben die Interessent:innen beim Buchen ihre Rechnungsadresse und weitere Angaben an. OpenOlat erstellt dabei eine Buchungsnummer. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen im Course Planner.
 
-Der Buchungsauftrag entsteht erst, wenn die Person die Buchung abschliesst, und kann anschliessend bestätigt werden.
+Der Buchungsauftrag entsteht erst, wenn die Person die Buchung abschliesst. Wählen Sie im Angebot unter "Mitgliedschaft" die Option "Mit Bestätigung", ist die Mitgliedschaft der buchenden Person danach ausstehend, bis jemand sie akzeptiert oder ablehnt. Das tun zwei Stellen:
+
+* **Im Course Planner:** Wer die Mitglieder der Durchführung verwaltet, wählt über der Mitgliederliste "Ausstehend" und entscheidet mit "Akzeptieren" oder "Ablehnen", für alle Personen auf einmal mit "Alle akzeptieren":<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Mitglieder`<br>
+Siehe [Tab Mitglieder](../area_modules/Course_Planner_Implementations.de.md#tab_members).
+* **Im Coaching:** Linienvorgesetzte und Ausbildungsverantwortliche mit den Rechten "Buchungen anzeigen" und "Ausstehende Kursbuchungen" entscheiden im Tab "Buchungen" der Person, siehe [Ausstehende Mitgliedschaften genehmigen](../area_modules/Coaching_People.de.md#linemanager_educationmanager_confirm_membership).
+
+Mit der Option "Standard" ist die Mitgliedschaft gleich nach der Buchung aktiv.
 
 Ob Teilnehmende eine gebuchte Durchführung selbst stornieren dürfen, legen Sie im Angebot fest, siehe [Stornierung](#offer_cancellation).
 
@@ -198,6 +229,19 @@ Angebote für Durchführungen erstellen Sie im Course Planner unter:<br>
 Welche Angebotsarten eine Durchführung bietet, zeigt [Angebotsarten für Durchführungen](#offer_types_implementations).
 
 [Mehr über das Anbieten von Durchführungen im Katalog >](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog)
+
+[zum Seitenanfang ^](#offer_concepts)
+
+---
+
+
+### Gruppen anbieten {: #what_is_offered_groups}
+
+Soll sich jemand selbst in eine Gruppe eintragen, etwa in eine Lerngruppe oder eine kursunabhängige Schulung, bieten Sie die Gruppe an. Das Angebot erstellen Sie unter `Gruppe > Administration > Tab "Freigabe"`, welche Angebotsarten zur Wahl stehen, zeigt [Angebotsarten für Gruppen](#offer_types_groups).
+
+Sobald ein Angebot besteht, erscheint die Gruppe im Bereich Gruppen im Tab "Veröffentlichte Gruppen". Dort buchen Benutzer:innen sie mit "Beitreten", siehe [Gruppenmitglied werden](../groups/Group_Membership.de.md). Im Katalog erscheinen Gruppen nicht.
+
+[Mehr über Angebote einer Gruppe >](../groups/Group_Administration/index.de.md#booking)
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -237,10 +281,10 @@ Die Bezahlung per Rechnung gibt es nur bei Durchführungen im Course Planner.
 Bei einem Angebot mit Rechnung ist
 
 * die Mitgliedschaft sofort aktiv oder
-* die Mitgliedschaft ist zunächst ausstehend, bis eine administrative Rolle die Reservierung bestätigt.
+* die Mitgliedschaft ist zunächst ausstehend, bis sie jemand akzeptiert. Wer das tut, steht unter [Durchführungen anbieten](#what_is_offered_implementations).
 
 
-![Bei der Mitgliedschaft wählen Sie "Standard", dann ist die Mitgliedschaft sofort aktiv, oder "Mit Bestätigung", dann bleibt sie ausstehend, bis eine administrative Rolle die Reservierung bestätigt](assets/offer_concepts_invoice_membership_v2_de.png){ class="shadow lightbox" title="Abschnitt Mitgliedschaft im Dialog Rechnung einer Durchführung · 2026.11.09" }
+![Bei der Mitgliedschaft wählen Sie "Standard", dann ist die Mitgliedschaft sofort aktiv, oder "Mit Bestätigung", dann bleibt sie ausstehend, bis sie jemand akzeptiert](assets/offer_concepts_invoice_membership_v2_de.png){ class="shadow lightbox" title="Abschnitt Mitgliedschaft im Dialog Rechnung einer Durchführung · 2026.11.09" }
 
 
 !!! tip "Tipp"
@@ -251,20 +295,6 @@ Bei einem Angebot mit Rechnung ist
 
 
 [Einrichtung des Bezahlungsmoduls Rechnung (Administrationshandbuch) >](../../manual_admin/administration/Payment_Invoice.de.md)
-
-
-### Kreditpunkte [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
-
-Mit einem Kreditpunktesystem sammeln Teilnehmende Kreditpunkte über verschiedene Lernangebote hinweg, zum Beispiel ECTS oder LearnCoins. Eigene Kreditpunktesysteme definieren Sie global über das Modul "Kreditpunkte". Für einen erfolgreich abgeschlossenen Kurs erhalten Teilnehmende Kreditpunkte, wenn der Kurs sie vergibt.
-
-Zertifikatsprogramme setzen Kreditpunkte zum Beispiel für Rezertifizierungen ein.
-
-Organisationen definieren und benennen eigene Kreditpunktesysteme und schränken sie bei Bedarf ein, etwa nach Rollen oder organisatorischen Bereichen. Nach dem erfolgreichen Abschluss eines Lernangebots weisen Sie Kreditpunkte gezielt zu.
-
-
-[Kreditpunkte systemweit aktivieren (Administrationshandbuch) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-[Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
-[Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -346,7 +376,7 @@ Das Angebot ist nur in den gewählten Status verfügbar und zusätzlich auf eine
 Die Mitgliedschaft ist sofort nach der Buchung des Angebots aktiv.
 
 * **Mitgliedschaft mit Bestätigung:**<br>
-Die Mitgliedschaft ist zunächst ausstehend, bis eine administrative Rolle die Reservierung bestätigt.
+Die Mitgliedschaft ist zunächst ausstehend, bis sie jemand akzeptiert. Wer das tut, steht unter [Durchführungen anbieten](#what_is_offered_implementations). Die Option "Mit Bestätigung" gibt es nur bei Angeboten von Durchführungen, nicht bei Angeboten von Kursen und Gruppen.
 
 * **Buchungsbeleg:**<br>
 Mit der Option "E-Mail an Teilnehmer:in senden" erhält die buchende Person nach der Buchung den Buchungsbeleg per E-Mail.
@@ -365,11 +395,25 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 
 ---
 
+## Kreditpunkte im Katalog [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
+
+Kreditpunkte sind keine Angebotsart und keine Bezahlart. Ein Kurs vergibt sie, wenn Teilnehmende ihn erfolgreich abschliessen. Wie viele Punkte ein Kurs vergibt, zeigt seine Karte im Katalog mit der Angabe "Kreditpunkte", siehe [Was kann in Angeboten gezeigt werden?](#offers_card).
+Mit einem Kreditpunktesystem sammeln Teilnehmende Kreditpunkte über verschiedene Lernangebote hinweg, zum Beispiel ECTS oder LearnCoins. Organisationen definieren und benennen eigene Kreditpunktesysteme über das Modul "Kreditpunkte" und schränken sie bei Bedarf ein, etwa nach Rollen oder organisatorischen Bereichen. Zertifikatsprogramme setzen Kreditpunkte zum Beispiel für Rezertifizierungen ein.
+
+[Kreditpunkte systemweit aktivieren (Administrationshandbuch) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
+[Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
+[Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)
+
+[zum Seitenanfang ^](#offer_concepts)
+
+---
+
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
+[Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
@@ -378,6 +422,8 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 [Lernpfadkurs - Überblick >](../learningresources/Learning_path_course/index.de.md)<br>
 [Katalog 2.0 - Angebote >](../area_modules/catalog2.0_angebote.de.md)<br>
 [Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
+[Coaching - Personen >](../area_modules/Coaching_People.de.md)<br>
+[Gruppenmitglied werden >](../groups/Group_Membership.de.md)<br>
 [Gruppenadministration >](../groups/Group_Administration/index.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](Roles/index.de.md)<br>
 [PayPal Konfiguration (Administrationshandbuch) >](../../manual_admin/administration/Payment_PayPal.de.md)<br>
