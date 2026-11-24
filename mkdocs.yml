@@ -561,6 +561,7 @@ plugins:
           Projects : Projekte
           Quality management : Qualitätsmanagement
           Question bank : Fragenpool
+          Question configuration : Fragenkonfiguration
           Question rules : Frageregeln
           Question types : Fragetypen
           Quiz and AI feedback : Quiz und KI-Feedback
@@ -638,7 +639,7 @@ plugins:
           Test : Test
           Tests : Tests
           Tests and Assessments : Tests und Prüfungen
-          Test configuration : Test Konfiguration
+          Test configuration : Testkonfiguration
           Test editor : Testeditor
           Test statistics : Teststatistiken
           The Idea of Open-Source Software : Der Open-Source-Gedanke

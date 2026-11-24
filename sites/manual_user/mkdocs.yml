@@ -401,7 +401,6 @@ nav:
       - learningresources/Test/index.md
       - Question types:
         - learningresources/Test_question_types/index.md
-        - Configuration: "learningresources/Configure_test_questions.md"
         - Single choice: "learningresources/Test_question_types/Single_choice.md"
         - Multiple choice: "learningresources/Test_question_types/Multiple_choice.md"
         - Kprim: "learningresources/Test_question_types/Kprim.md"
@@ -424,6 +423,7 @@ nav:
         - Test editor:
           - learningresources/Test_editor_QTI_2.1/index.md
           - Test configuration: "learningresources/Configure_tests.md"
+          - Question configuration: "learningresources/Configure_test_questions.md"
         - Correction workflow: "learningresources/Test_correction_workflow.md"
         - Export handwritten exams: "learningresources/Test_handwritten_exams.md"
       - In courses: "learningresources/Tests_at_course_level.md"
