@@ -55,7 +55,7 @@ OpenOlat has an internal and an external catalog. You determine whether an offer
 
 The catalog shows offers of courses and of implementations. An implementation is the concrete run of an educational offer with a period, a place and members, for example a course that takes place in spring and once more in autumn. You plan implementations in the [Course Planner](../area_modules/Course_Planner/index.md), the module with which an organisation plans its educational offering.
 
-The catalog is divided into sections, the launchers. As the owner of a course or implementation, you determine in which launcher your offer appears. The catalog (V2) compiles the offers dynamically and assigns them to the launchers. Taxonomy launchers also show folders that correspond to specific taxonomy levels. This way, courses and learning resources appear sorted by taxonomy terms.
+The catalog is divided into sections, the launchers. Which launchers exist and by which rules they show offers is defined by system administrators, see [Tab Launch page (Administration manual)](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page). The catalog (V2) then compiles the offers dynamically and assigns them to the launchers. You do not choose a launcher in the offer itself. As the owner of a course, you influence the assignment through the subjects in the metadata of the course: taxonomy launchers show folders that correspond to specific taxonomy levels, and in them the courses and learning resources assigned to that level.
 
 An offer also appears in several launchers of the catalog (V2), for example in a launcher "Popular courses" and in a launcher that compiles courses thematically based on a specific taxonomy.
 
