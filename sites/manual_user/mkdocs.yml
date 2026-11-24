@@ -399,6 +399,17 @@ nav:
       - Selection: "learningresources/Course_Element_Selection.md"
     - Test:
       - learningresources/Test/index.md
+      - Administration:
+        - learningresources/Test_administration/index.md
+        - Settings: "learningresources/Test_settings.md"
+        - Test editor:
+          - learningresources/Test_editor_QTI_2.1/index.md
+          - Test configuration: "learningresources/Configure_tests.md"
+        - Correction workflow: "learningresources/Test_correction_workflow.md"
+        - Export handwritten exams: "learningresources/Test_handwritten_exams.md"
+      - In courses: "learningresources/Tests_at_course_level.md"
+      - Export: "learningresources/Test_export.md"
+    - Test questions (QTI):
       - Question types:
         - learningresources/Test_question_types/index.md
         - Single choice: "learningresources/Test_question_types/Single_choice.md"
@@ -417,17 +428,7 @@ nav:
         - Essay: "learningresources/Test_question_types/Essay.md"
         - Upload file: "learningresources/Test_question_types/Upload_file.md"
         - Drawing: "learningresources/Test_question_types/Drawing.md"
-      - Administration:
-        - learningresources/Test_administration/index.md
-        - Settings: "learningresources/Test_settings.md"
-        - Test editor:
-          - learningresources/Test_editor_QTI_2.1/index.md
-          - Test configuration: "learningresources/Configure_tests.md"
-          - Question configuration: "learningresources/Configure_test_questions.md"
-        - Correction workflow: "learningresources/Test_correction_workflow.md"
-        - Export handwritten exams: "learningresources/Test_handwritten_exams.md"
-      - In courses: "learningresources/Tests_at_course_level.md"
-      - Export: "learningresources/Test_export.md"
+      - Question configuration: "learningresources/Configure_test_questions.md"
     - CP learning content:
       - Administration:
         - learningresources/CP_Administration/index.md

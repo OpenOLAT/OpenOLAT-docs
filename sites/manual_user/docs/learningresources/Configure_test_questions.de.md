@@ -1,6 +1,6 @@
 # Testfragen konfigurieren {: #configure_test_questions}
 
-Im Testeditor richten Sie jede Testfrage in mehreren Tabs ein: Sie formulieren Frage und Antworten, legen die Punkte fest, ergänzen Feedback und prüfen das Ergebnis in der Vorschau. Zu jedem [Fragetyp](Test_question_types/index.de.md) gibt es die Tabs "Auswahl" (oder den Namen des Fragetyps), "Punkte", "Feedback", "Vorschau", "Vorschau Lösung" und "Metadaten".
+Im Testeditor richten Sie jede Testfrage in mehreren Tabs ein: Sie formulieren Frage und Antworten, legen die Punkte fest, ergänzen Feedback und prüfen das Ergebnis in der Vorschau. Zu jedem [Fragetyp](Test_question_types/index.de.md) gibt es die Tabs "Auswahl" (oder den Namen des Fragetyps), "Punkte", "Feedback", "Vorschau", "Vorschau Lösung" und "Metadaten". Im Fragenpool bearbeiten Sie eine Frage in ihrer [Detailansicht](../area_modules/Item_Detailed_View.de.md) mit denselben Tabs, nur ohne "Metadaten": Die Metadaten stehen dort rechts neben dem Editor.
 
 Den Testeditor öffnen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen unter `Test > Administration > Testeditor`. Fragetypen, die in der Liste der [Fragetypen](Test_question_types/index.de.md) mit einem * markiert sind, bewerten Sie manuell: Freitext, Datei hochladen und Zeichnen.
 

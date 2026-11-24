@@ -1,6 +1,6 @@
 # Configure test questions {: #configure_test_questions}
 
-In the test editor, you set up each test question in several tabs: you write the question and the answers, define the score, add feedback and check the result in the preview. Each [question type](Test_question_types/index.md) has the tabs "Choice" (or the name of the question type), "Score", "Feedback", "Preview", "Preview solution" and "Metadata".
+In the test editor, you set up each test question in several tabs: you write the question and the answers, define the score, add feedback and check the result in the preview. Each [question type](Test_question_types/index.md) has the tabs "Choice" (or the name of the question type), "Score", "Feedback", "Preview", "Preview solution" and "Metadata". In the question bank, you edit a question in its [detailed view](../area_modules/Item_Detailed_View.md) with the same tabs, only without "Metadata": there the metadata are to the right of the editor.
 
 Owners of the test, administrators and learning resource managers open the test editor under `Test > Administration > Test editor`. You assess the question types marked with an * in the list of [question types](Test_question_types/index.md) manually: Essay, Upload file and Drawing.
 
