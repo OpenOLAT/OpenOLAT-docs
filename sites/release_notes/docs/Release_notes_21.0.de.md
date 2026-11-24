@@ -104,7 +104,7 @@ Eine **zentrale Übersicht** fasst alle To-dos über sämtliche Produkte hinweg 
 * **[Durchführungen](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#tab_settings_assessment){:target="_blank"}:** Direkte Verknüpfung mit einem Zertifikatsprogramm
 * **[Termine](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Events/#event_elements){:target="_blank"}:** Optimierte Anzeige bei modularisierten Kursen mit Teilnehmenden aus mehreren Durchführungen/Klassen
 * **[Produktübersicht](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Products/#product_overview){:target="_blank"}:** Optimierte Sortierung und Filter
-* **[Mitglieder-Widget](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Dashboard/#widget_members){:target="_blank"}:** Optimierte Anzeige und direkter Absprung zum Mitgliederbereich der Durchführung
+* **[Mitglieder-Widget](https://docs.openolat.org/de/manual_user/area_modules/Course_Planner_Implementations/#widget_members){:target="_blank"}:** Optimierte Anzeige und direkter Absprung zum Mitgliederbereich der Durchführung
 * **[Angebot «Rechnung»](https://docs.openolat.org/de/manual_user/basic_concepts/Offer_Concepts/#offer_invoice_cancellation){:target="_blank"}:** Optimierte Konfiguration der Stornierungsbedingungen
 
 * * *

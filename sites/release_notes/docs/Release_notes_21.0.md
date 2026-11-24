@@ -104,7 +104,7 @@ A **central overview** consolidates all to-dos across all products, and on the d
 * **[Implementations](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#tab_settings_assessment){:target="_blank"}:** Direct link to a certification program
 * **[Events](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Events/#event_elements){:target="_blank"}:** Optimized display for modularized courses with participants from several implementations/classes
 * **[Product overview](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Products/#product_overview){:target="_blank"}:** Optimized sorting and filters
-* **[Member widget](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Dashboard/#widget_members){:target="_blank"}:** Optimized display and direct jump to the members area of the implementation
+* **[Member widget](https://docs.openolat.org/en/manual_user/area_modules/Course_Planner_Implementations/#widget_members){:target="_blank"}:** Optimized display and direct jump to the members area of the implementation
 * **[Offer «Invoice»](https://docs.openolat.org/en/manual_user/basic_concepts/Offer_Concepts/#offer_invoice_cancellation){:target="_blank"}:** Optimized configuration of the cancellation conditions
 
 * * *
