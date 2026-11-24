@@ -4,7 +4,7 @@ Mit dem Fragetyp Zeichnen lassen Sie die Teilnehmenden ein vorgegebenes Bild mit
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Zeichnen` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Werkzeugleiste mit Formen, Text, Pinsel, Radiergummi und Farben, dazu die Regler Pinselgrösse und Deckkraft, darunter die Zeichenfläche mit einem Haus ohne Dach als Hintergrundbild](../assets/test_question_types_drawing_example_v1_de.png){ class="shadow lightbox" title="Zeichnen aus Sicht der Teilnehmenden · 2026.11.23" }
+![Zeichnen-Frage mit dem Auftrag, den Firmensitz von frentix zu umkreisen, darunter die Werkzeugleiste mit Formen, Pinsel und Farben und ein Luftbild von Zürich als Zeichenfläche](../assets/test_question_types_drawing_example_v2_de.png){ class="shadow lightbox" title="Zeichnen aus Sicht der Teilnehmenden, Luftbild Google Maps · 2026.11.24" }
 
 Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage oder die Bearbeitungsanweisung ein. Laden Sie danach unter "Hintergrund" das Bild hoch, das die Teilnehmenden bearbeiten. Titel und Hintergrund sind Pflichtfelder. Eine richtige Antwort legen Sie nicht fest.
 

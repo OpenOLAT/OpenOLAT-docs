@@ -4,7 +4,7 @@ With the question type Drawing you let the participants edit a given picture wit
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Drawing`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Toolbar with shapes, text, brush, eraser and colours, together with the sliders Brush size and Opacity, below it the drawing area with a house without a roof as background picture](../assets/test_question_types_drawing_example_v1_en.png){ class="shadow lightbox" title="Drawing as seen by participants · 2026.11.23" }
+![Drawing question asking to circle the headquarters of frentix, below it the toolbar with shapes, brush and colours and an aerial view of Zurich as the drawing area](../assets/test_question_types_drawing_example_v2_en.png){ class="shadow lightbox" title="Drawing as seen by participants, aerial view Google Maps · 2026.11.24" }
 
 First enter a short title under "Title" and the question or the editing instruction under "Question". Then upload the picture that the participants edit under "Background". Title and background are mandatory fields. You do not define a correct answer.
 
