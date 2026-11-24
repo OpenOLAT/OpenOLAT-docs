@@ -4,7 +4,7 @@ With an order question you check whether the participants know sequences or rank
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Order`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Order question in the Preview tab of the test editor with five numbered elements on the left and an empty sorting area on the right](../assets/Reihenfolge_Beispiel.png){ class="shadow lightbox" title="Order, preview in the test editor" }
+![Order question with five unordered planets in the Source area and an empty Target area](../assets/test_question_types_order_example_v1_en.png){ class="shadow lightbox" title="Order as seen by participants · 2026.11.23" }
 
 First enter the title under "Title" and the question under "Question".
 

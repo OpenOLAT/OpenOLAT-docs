@@ -4,7 +4,7 @@ With a single-choice question you check whether the participants recognise the o
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Single choice`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Single-choice question with three answer options and a radio button in front of each](../assets/Single_choice_Beispiel.gif){ class="shadow lightbox" title="Single choice as seen by participants" }
+![Single-choice question about the federal city of Switzerland with the five answers Bern, Zurich, Geneva, Basel and Lausanne, each with a radio button in front, none selected yet](../assets/test_question_types_single_choice_example_v1_en.png){ class="shadow lightbox" title="Single choice as seen by participants · 2026.11.23" }
 
 First enter a short title under "Title" and the question under "Question".
 

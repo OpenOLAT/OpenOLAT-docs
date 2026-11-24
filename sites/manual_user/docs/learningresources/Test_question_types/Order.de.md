@@ -4,7 +4,7 @@ Mit einer Reihenfolge-Frage prüfen Sie, ob die Teilnehmenden Abläufe oder Rang
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Reihenfolge` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Reihenfolge-Frage mit vier ungeordneten Elementen und einem leeren Sortierbereich](../assets/Reihenfolge_Beispiel_DE.png){ class="shadow lightbox" title="Reihenfolge aus Sicht der Teilnehmenden" }
+![Reihenfolge-Frage mit fünf ungeordneten Planeten im Bereich Quelle und einem leeren Zielbereich](../assets/test_question_types_order_example_v1_de.png){ class="shadow lightbox" title="Reihenfolge aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Geben Sie zuerst unter "Titel" den Titel und unter "Frage" die Frage ein.
 

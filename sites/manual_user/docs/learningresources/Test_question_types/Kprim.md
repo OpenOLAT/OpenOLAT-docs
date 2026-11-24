@@ -4,7 +4,7 @@ With a Kprim question you check whether the participants assess four statements 
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Kprim`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Kprim question with four statements about Switzerland and one box each in the columns True and False](../assets/test_question_types_kprim_preview_v1_en.png){ class="shadow lightbox" title="Kprim, preview in the test editor · 2026.11.10" }
+![Kprim question with four statements about Switzerland and an empty box each in the columns True and False](../assets/test_question_types_kprim_example_v1_en.png){ class="shadow lightbox" title="Kprim as seen by participants · 2026.11.23" }
 
 First enter a short title under "Title" and the question under "Question".
 

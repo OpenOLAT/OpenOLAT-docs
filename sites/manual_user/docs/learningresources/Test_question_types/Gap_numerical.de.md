@@ -4,7 +4,7 @@ Mit einem Lückentext numerisch prüfen Sie Rechenergebnisse und andere Zahlen i
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Lückentext numerisch` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Frage mit einer Zahlenlücke, in welche die Antwort 42.0 eingetragen ist](../assets/Lueckentext_numerisch_Beispiel_de.png){ class="shadow lightbox" title="Lückentext numerisch aus Sicht der Teilnehmenden" }
+![Frage mit der Rechnung 4 × 5 und einer leeren Zahlenlücke für das Ergebnis](../assets/test_question_types_gap_numerical_example_v1_de.png){ class="shadow lightbox" title="Lückentext numerisch aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Der Dialog einer Zahlenlücke zeigt "Lösung", "Toleranz" und "Anzeige". Für Abweichungen von der Lösung ist die "Toleranz" da: Mit ihr lassen Sie einen Bereich um die Lösung als korrekt gelten. Die Felder "Alternative Antworten" und "Korrektur" finden Sie im Dialog des [Lückentexts](Gap_text.de.md), ebenso gilt die Option "Doppelte Eingaben erlauben" im Tab "Punkte" nur für dessen Text-Lücken. Text- und Zahlenlücken in einer Frage kombiniert der Fragetyp [Lückentext gemischt](Gap_mixed.de.md).
 
@@ -29,7 +29,7 @@ Die Teilnehmenden schreiben Dezimalzahlen mit Punkt oder mit Komma. OpenOlat bew
 
 Die Punkte vergeben Sie im [Tab Punkte](../Configure_test_questions.de.md#score). Unter "Bewertungsmethode" stehen "Alle korrekten Antworten", "Punkte pro Antwort" und "Teilpunkte" zur Wahl. Mit "Punkte pro Antwort" erhält jede Lücke eigene Punkte.
 
-![Eingeschaltete Toleranz im Modus Absolut mit den Feldern Untere Grenze und Obere Grenze](../assets/Lueckentext_numerisch_Toleranz_de.png){ class="shadow lightbox" title="Dialog Lücke bearbeiten bei Lückentext numerisch" }
+![Eingeschaltete Toleranz im Modus Absolut zur Lösung 20.0, mit Untere Grenze 18.0 und Obere Grenze 20.8](../assets/test_question_types_gap_numerical_tolerance_v1_de.png){ class="shadow lightbox" title="Dialog Lücke bearbeiten bei Lückentext numerisch · 2026.11.23" }
 
 ## Weiterführende Informationen {: #further_information}
 

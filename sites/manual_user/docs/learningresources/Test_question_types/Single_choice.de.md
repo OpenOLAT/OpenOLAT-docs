@@ -4,7 +4,7 @@ Mit einer Single-Choice-Frage prüfen Sie, ob die Teilnehmenden unter mehreren A
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Single Choice` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Single-Choice-Frage mit fünf Antwortoptionen und je einem Radiobutton davor](../assets/Single_choice_Beispiel_DE.jpg){ class="shadow lightbox" title="Single Choice aus Sicht der Teilnehmenden" }
+![Single-Choice-Frage nach der Bundesstadt der Schweiz mit den fünf Antworten Bern, Zürich, Genf, Basel und Lausanne, je mit einem Radiobutton davor, noch keine gewählt](../assets/test_question_types_single_choice_example_v1_de.png){ class="shadow lightbox" title="Single Choice aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.
 

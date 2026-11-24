@@ -4,7 +4,7 @@ With a gap FIB numerical you check calculation results and other numbers in a te
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap FIB numerical`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Question with a number gap in which the answer 42.0 is entered](../assets/Lueckentext_numerisch_Beispiel_en.png){ class="shadow lightbox" title="Gap FIB numerical as seen by participants" }
+![Question with the calculation 4 × 5 and an empty number gap for the result](../assets/test_question_types_gap_numerical_example_v1_en.png){ class="shadow lightbox" title="Gap FIB numerical as seen by participants · 2026.11.23" }
 
 The dialog of a number gap shows "Solution", "Tolerance" and "Display". For deviations from the solution there is the "Tolerance": with it you let a range around the solution count as correct. The fields "Alternative answers" and "Correction" are in the dialog of the [gap text](Gap_text.md), and the option "Allow twice the same input" in the "Score" tab likewise applies only to its text gaps. The question type [Gap mixed](Gap_mixed.md) combines text and number gaps in one question.
 
@@ -29,7 +29,7 @@ The participants write decimal numbers with a point or with a comma. OpenOlat as
 
 You award the points in the [Score tab](../Configure_test_questions.md#score). Under "Method of assessment", "All correct answers", "Score per answer" and "Partial score" are available. With "Score per answer" each gap receives its own points.
 
-![Tolerance switched on in the Absolute mode with the fields Lower bound and Upper bound](../assets/Lueckentext_numerisch_Toleranz_en.png){ class="shadow lightbox" title="Dialog Edit gap in gap FIB numerical" }
+![Tolerance switched on in the Absolute mode for the solution 20.0, with Lower bound 18.0 and Upper bound 20.8](../assets/test_question_types_gap_numerical_tolerance_v1_en.png){ class="shadow lightbox" title="Dialog Edit gap in gap FIB numerical · 2026.11.23" }
 
 ## Further information {: #further_information}
 

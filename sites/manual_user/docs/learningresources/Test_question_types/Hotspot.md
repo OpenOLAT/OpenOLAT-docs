@@ -4,7 +4,7 @@ With a hotspot question you check whether the participants recognise the right p
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Hotspot`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Hotspot question with three round selection areas on an image, one of them selected](../assets/Hotspot_Beispiel.jpg){ class="shadow lightbox" title="Hotspot as seen by participants" }
+![Hotspot question asking for the square, the image shows a circle, a square and a triangle as shaded areas, none selected yet](../assets/test_question_types_hotspot_example_v1_en.png){ class="shadow lightbox" title="Hotspot as seen by participants · 2026.11.23" }
 
 ## Approach {: #procedure}
 

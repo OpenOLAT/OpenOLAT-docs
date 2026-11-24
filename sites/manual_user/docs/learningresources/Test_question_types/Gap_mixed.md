@@ -4,11 +4,11 @@ With a gap mixed question you check text, numbers and selection in a single ques
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap mixed`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Gap mixed with a text gap (Bern), a numerical gap (1902) and a dropdown gap in the same running text](../assets/test_question_types_gap_mixed_example_v1_en.png){ class="shadow lightbox" title="Gap mixed as seen by participants · 2026.11.10" }
+![Gap mixed with an empty numerical gap, a closed dropdown gap and an empty text gap in the same sentence about Switzerland](../assets/test_question_types_gap_mixed_example_v2_en.png){ class="shadow lightbox" title="Gap mixed as seen by participants · 2026.11.23" }
 
 When inserting a gap, you choose the input method with the matching icon in the toolbar: three dots for "Gap FIB text", calculator for "Gap FIB numerical", triangle for "Gap with dropdown". You then configure each gap in the same dialog as for the respective individual question type: [Gap FIB text](Gap_text.md), [Gap FIB numerical](Gap_numerical.md) or [Gap with dropdown](Gap_dropdown.md). At the top of the dialog, "Input method" shows the type of the gap.
 
-![Toolbar with the three highlighted icons for text gap, numerical gap and dropdown gap](../assets/Lueckentext_Editor_Buttons_en.png){ class="shadow lightbox" title="Gap mixed, toolbar in the test editor" }
+![The three icons Gap FIB text, Gap FIB numerical and Gap with dropdown framed in the toolbar of the question, in the question text one gap of each kind](../assets/test_question_types_gap_mixed_toolbar_v1_en.png){ class="shadow lightbox" title="Gap mixed, toolbar in the test editor · 2026.11.23" }
 
 If the question contains gaps with dropdown, you can also define global answer options (see [Gap with dropdown](Gap_dropdown.md)).
 

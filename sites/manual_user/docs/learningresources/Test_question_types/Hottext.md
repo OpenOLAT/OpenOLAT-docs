@@ -4,7 +4,7 @@ With a hottext question you check whether the participants recognise the matchin
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Hottext`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Hottext question with seven selectable terms in a running text](../assets/Hottext_Beispiel.png){ class="shadow lightbox" title="Hottext as seen by participants" }
+![Hottext question on the ingredients of a pound cake with seven selectable terms from flour to baking powder in the sentence, none selected yet](../assets/test_question_types_hottext_example_v1_en.png){ class="shadow lightbox" title="Hottext as seen by participants · 2026.11.23" }
 
 First enter a short title under "Title".
 

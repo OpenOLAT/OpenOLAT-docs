@@ -4,19 +4,19 @@ With a gap with dropdown you check terms in the context of a text, and the parti
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap with dropdown`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Gap with dropdown, a list with three answers opened](../assets/Lueckentext_dropdown_Beispiel_en.png){ class="shadow lightbox" title="Gap with dropdown as seen by participants" }
+![Gap with dropdown in a sentence about the federal city of Switzerland, the list still closed with the entry Select...](../assets/test_question_types_gap_dropdown_example_v1_en.png){ class="shadow lightbox" title="Gap with dropdown as seen by participants · 2026.11.23" }
 
 As with the gap text, you build gaps into a running text, here with the icon with the triangle ("Gap with dropdown"). To each gap you assign several answers under "Answer options". You add further answers with "Add answer". You mark the correct answer under "Solution".
 
-![Highlighted icon with the triangle for inserting a dropdown gap](../assets/Lueckentext_dropdown_Button_en.png){ class="shadow lightbox" title="Gap with dropdown, toolbar in the test editor" }
+![Icon Gap with dropdown, a triangle, framed in the toolbar of the question, in the question text a gap with the solution Bern](../assets/test_question_types_gap_dropdown_toolbar_v1_en.png){ class="shadow lightbox" title="Gap with dropdown, toolbar in the test editor · 2026.11.23" }
 
 Under "Display", you define with "Order of answer options" whether the participants see the answers in random order ("Shuffle") or in the order you entered ("Preset order").
 
-![Option Order of answer options with the values shuffle and preset order](../assets/Lueckentext_dropdown_Reihenfolge_en.png){ class="shadow lightbox" title="Dialog Create gap in gap with dropdown" }
+![Dialog Create gap with the answers Bern, Zurich and Geneva, the option Order of answer options framed](../assets/test_question_types_dropdown_order_v1_en.png){ class="shadow lightbox" title="Dialog Create gap in gap with dropdown · 2026.11.23" }
 
 For all gaps of a question you can use global answer options. To do so, switch on "Global answers for 'Gap with Dropdown'". Then enter the answers once per question. You add further global answers with the button :o_icon_o_icon_add: ("Add global answer"). OpenOlat shows the global answers in each gap of the question, and the participants select the answer that fits the respective gap.
 
-![Switched-on toggle for global answers with the two answers yes and not](../assets/Lueckentext_dropdown_Global_en.png){ class="shadow lightbox" title="Global answers in the test editor" }
+![Switched-on toggle Global answers with the answers true and false, in the question text three gaps with true or false](../assets/test_question_types_gap_dropdown_global_answers_v1_en.png){ class="shadow lightbox" title="Global answers in the test editor · 2026.11.23" }
 
 You award the points either as a whole for all gaps or individually for each answer of a gap.
 

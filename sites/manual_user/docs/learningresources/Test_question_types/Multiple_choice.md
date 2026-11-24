@@ -4,7 +4,7 @@ With a multiple-choice question you check whether the participants recognise all
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Multiple choice`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Multiple-choice question with the five answer options Bern, Lyon, Basel, Milan and Geneva, each with a checkbox in front](../assets/test_question_types_multiple_choice_example_v1_en.png){ class="shadow lightbox" title="Multiple choice as seen by participants · 2026.11.10" }
+![Multiple-choice question asking which cities are in Switzerland, with the five answers Bern, Lyon, Basel, Milan and Geneva, each with a checkbox in front, none selected yet](../assets/test_question_types_multiple_choice_example_v2_en.png){ class="shadow lightbox" title="Multiple choice as seen by participants · 2026.11.23" }
 
 **Tab "Choice"**<br>
 In the "Choice" tab, first enter a short title under "Title" and the question under "Question".

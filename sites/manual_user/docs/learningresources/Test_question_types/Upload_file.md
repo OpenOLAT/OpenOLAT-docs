@@ -4,7 +4,7 @@ With an upload file question you let the participants hand in a piece of work as
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Upload file`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Upload file question with an upload field for the answer](../assets/Fileupload_Beispiel.png){ class="shadow lightbox" title="Upload file as seen by participants" }
+![Upload file question for a travel report with the File field, into which the participants drag and drop the file or upload it with the Choose file button](../assets/test_question_types_upload_file_example_v1_en.png){ class="shadow lightbox" title="Upload file as seen by participants · 2026.11.23" }
 
 Enter a short title under "Title" and the question under "Question". Under "Number of upload fields" you define how many files the participants upload at most. You can choose from 1 to 10 upload fields.
 

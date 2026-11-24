@@ -4,7 +4,7 @@ With a match question you check several assignments at once in a table. Per row,
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Match`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Match question with four rows and two columns with a checkbox in each cell](../assets/Matrix_Beispiel.png){ class="shadow lightbox" title="Match as seen by participants" }
+![Match question with four cantons as rows, the four national languages from German to Romansh as columns and an empty checkbox in each cell](../assets/test_question_types_match_example_v1_en.png){ class="shadow lightbox" title="Match as seen by participants · 2026.11.23" }
 
 **Tab "Match"**<br>
 Here, too, first enter the title under "Title" and the question under "Question".

@@ -4,7 +4,7 @@ With a true/false question, the participants assess any number of statements as 
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > True/false`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![True/false question with four rows and the columns Unanswered, Right and Wrong](../assets/True_false_Beispiel.png){ class="shadow lightbox" title="True/false as seen by participants" }
+![True/false question with four statements on the geography of Switzerland and the columns Unanswered, Right and Wrong, Unanswered is ticked in every row](../assets/test_question_types_true_false_example_v1_en.png){ class="shadow lightbox" title="True/false as seen by participants · 2026.11.23" }
 
 Per row, the participants choose one of three answer options: "Unanswered", "Right" or "Wrong". At the start, "Unanswered" is always selected. The three columns are fixed. In the editor you add further rows with "Add row".
 

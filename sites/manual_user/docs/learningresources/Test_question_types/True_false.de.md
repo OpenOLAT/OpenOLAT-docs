@@ -4,7 +4,7 @@ Mit einer True/false-Frage lassen Sie die Teilnehmenden beliebig viele Aussagen 
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > True/false` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![True/false-Frage mit vier Zeilen und den Spalten Unbeantwortet, Richtig und Falsch](../assets/True_false_Beispiel_DE.png){ class="shadow lightbox" title="True/false aus Sicht der Teilnehmenden" }
+![True/false-Frage mit vier Aussagen zur Geografie der Schweiz und den Spalten Unbeantwortet, Richtig und Falsch, in jeder Zeile ist Unbeantwortet angehakt](../assets/test_question_types_true_false_example_v1_de.png){ class="shadow lightbox" title="True/false aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Die Teilnehmenden wählen je Zeile eine von drei Antwortoptionen: "Unbeantwortet", "Richtig" oder "Falsch". Zu Beginn ist immer "Unbeantwortet" ausgewählt. Die drei Spalten sind fest. Im Editor ergänzen Sie weitere Zeilen mit "Zeile hinzufügen".
 

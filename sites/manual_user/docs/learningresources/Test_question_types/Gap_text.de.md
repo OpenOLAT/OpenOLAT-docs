@@ -4,7 +4,7 @@ Mit einer Lückentext-Frage prüfen Sie, ob die Teilnehmenden fehlende Begriffe 
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Lückentext` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Lückentext mit drei leeren Lücken in einem Fliesstext über Fragetypen](../assets/Lueckentext_Beispiel_de.png){ class="shadow lightbox" title="Lückentext aus Sicht der Teilnehmenden" }
+![Lückentext zu den Hauptorten der Kantone Tessin, Wallis und Graubünden mit drei leeren Lücken im Satz](../assets/test_question_types_gap_text_example_v1_de.png){ class="shadow lightbox" title="Lückentext aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Lücken fügen Sie im Editor der Frage mit dem Icon mit den drei Punkten ("Lückentext") ein. Mit einem Klick auf eine Lücke bearbeiten Sie sie. Der Dialog "Lücke erstellen" bzw. "Lücke bearbeiten" zeigt oben unter "Eingabemethode" die Art der Lücke und unter "Vorschau", wie die Lücke im Test erscheint.
 

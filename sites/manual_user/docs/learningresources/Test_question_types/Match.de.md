@@ -4,7 +4,7 @@ Mit einer Matrix-Frage prüfen Sie mehrere Zuordnungen auf einmal in einer Tabel
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Matrix` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Matrix-Frage mit vier Zeilen und fünf Spalten mit je einer Checkbox](../assets/Matrix_Beispiel_DE.jpg){ class="shadow lightbox" title="Matrix aus Sicht der Teilnehmenden" }
+![Matrix-Frage mit vier Kantonen als Zeilen, den vier Landessprachen von Deutsch bis Rätoromanisch als Spalten und einer leeren Checkbox in jeder Zelle](../assets/test_question_types_match_example_v1_de.png){ class="shadow lightbox" title="Matrix aus Sicht der Teilnehmenden · 2026.11.23" }
 
 **Tab "Matrix"**<br>
 Geben Sie auch hier zuerst unter "Titel" den Titel und unter "Frage" die Frage ein.

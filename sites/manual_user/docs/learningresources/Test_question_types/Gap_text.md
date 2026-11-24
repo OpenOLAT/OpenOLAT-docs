@@ -4,7 +4,7 @@ With a gap text question you check whether the participants type in missing term
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Gap FIB text`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Gap text with three empty gaps in a running text about question types](../assets/Lueckentext_Beispiel_en.png){ class="shadow lightbox" title="Gap FIB text as seen by participants" }
+![Gap text on the capitals of the cantons of Ticino, Valais and Graubünden with three empty gaps in the sentence](../assets/test_question_types_gap_text_example_v1_en.png){ class="shadow lightbox" title="Gap FIB text as seen by participants · 2026.11.23" }
 
 You insert gaps in the editor of the question with the icon with the three dots ("Gap FIB text"). Click a gap to edit it. The "Create gap" or "Edit gap" dialog shows the type of the gap at the top under "Input method" and under "Preview" how the gap appears in the test.
 

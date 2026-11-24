@@ -4,7 +4,7 @@ With an essay question you let the participants formulate an answer freely, for 
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Essay`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Essay question with a tab-formatted price list in the answer field](../assets/Essay_Beispiel.png){ class="shadow lightbox" title="Essay as seen by participants" }
+![Essay question asking for three Swiss cities and their cantons with an empty answer field and the display 0 word below](../assets/test_question_types_essay_example_v1_en.png){ class="shadow lightbox" title="Essay as seen by participants · 2026.11.23" }
 
 First enter a short title under "Title" and the question under "Question".
 
@@ -17,7 +17,11 @@ Then the following options are available:
 * "Max. words": The participants may write at most this number of words to be able to submit the answer. With it you limit the length of the answer.
 * "Allow copy/paste": Here you define whether the participants may insert content via copy and paste or via drag and drop from an external source. They can move text within the same field in any case. [:octicons-tag-16:{ title="from Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
+While the participants write, OpenOlat counts the words: on the right below the text field, they see the current number and, if a minimum or maximum is set, these limits as well.
+
 In the "Standard" mode, the answer field uses a font with fixed character width and supports the tab key. The participants can thus format their answers clearly and, for example, display columns.
+
+![Framed answer field with the two columns City and Canton aligned with the tab key in a font with fixed character width](../assets/test_question_types_essay_tab_columns_v1_en.png){ class="shadow lightbox" title="Answer field of an essay question as seen by participants · 2026.11.23" }
 
 Coaches and owners of the course correct the answers in the course element Test with the [correction tool](../Assessing_tests.md#correction_tool), correctors via the [correction workflow](../Test_correction_workflow.md). Who corrects and when the participants see their assessment is defined in the course element Test with the setting [Correction](../Course_Element_Test/Test_Setup.md#section_correction). You define the highest score to be awarded in the correction in the [Score tab](../Configure_test_questions.md#score) under "Max. score".
 

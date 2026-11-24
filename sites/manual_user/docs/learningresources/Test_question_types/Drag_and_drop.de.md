@@ -4,7 +4,7 @@ Mit einer Drag-and-Drop-Frage prüfen Sie Zuordnungen wie mit einer [Matrix-Frag
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Drag and Drop` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Drag-and-Drop-Frage mit zwei Kategorien links und vier zuzuordnenden Begriffen rechts](../assets/DragDrop_Beispiel_DE.png){ class="shadow lightbox" title="Drag and Drop aus Sicht der Teilnehmenden" }
+![Drag-and-Drop-Frage mit den vier Begriffen Apfel, Karotte, Birne und Lauch links und den leeren Kategorien Obst und Gemüse rechts](../assets/test_question_types_drag_and_drop_example_v1_de.png){ class="shadow lightbox" title="Drag and Drop aus Sicht der Teilnehmenden · 2026.11.23" }
 
 **Tab "Drag and drop"**<br>
 Geben Sie zuerst unter "Titel" den Titel und unter "Frage" die Frage ein.

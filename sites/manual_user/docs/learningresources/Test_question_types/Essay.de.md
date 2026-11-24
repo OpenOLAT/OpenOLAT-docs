@@ -4,7 +4,7 @@ Mit einer Freitext-Frage lassen Sie die Teilnehmenden eine Antwort frei formulie
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Freitext` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Freitext-Frage mit einer per Tabulator formatierten Preisliste im Antwortfeld](../assets/Essay_Beispiel_DE.png){ class="shadow lightbox" title="Freitext aus Sicht der Teilnehmenden" }
+![Freitext-Frage nach drei Schweizer Städten und ihren Kantonen mit leerem Antwortfeld und der Anzeige 0 Wort darunter](../assets/test_question_types_essay_example_v1_de.png){ class="shadow lightbox" title="Freitext aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Geben Sie zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.
 
@@ -17,7 +17,11 @@ Danach stehen folgende Optionen zur Wahl:
 * "Max Anzahl Wörter": So viele Wörter dürfen die Teilnehmenden höchstens schreiben, damit sie die Antwort abgeben können. Damit begrenzen Sie die Länge der Antwort.
 * "Copy/paste erlauben": Hier legen Sie fest, ob die Teilnehmenden Inhalte per Copy and Paste oder per Drag and Drop aus einer externen Quelle einfügen dürfen. Text innerhalb desselben Felds verschieben sie in jedem Fall. [:octicons-tag-16:{ title="ab Release 20.3.2 (OO-9472)" }](https://track.frentix.com/issue/OO-9472)
 
+Während des Schreibens zählt OpenOlat die Wörter mit: Rechts unter dem Textfeld sehen die Teilnehmenden die aktuelle Zahl, bei gesetzter Mindest- oder Höchstzahl auch diese Grenzen.
+
 Im Modus "Standard" verwendet das Antwortfeld eine Schrift mit fester Zeichenbreite und unterstützt die Tabulatortaste. So formatieren die Teilnehmenden ihre Antworten übersichtlich und bilden zum Beispiel Spalten ab.
+
+![Gerahmtes Antwortfeld mit den zwei per Tabulator ausgerichteten Spalten Stadt und Kanton in einer Schrift mit fester Zeichenbreite](../assets/test_question_types_essay_tab_columns_v1_de.png){ class="shadow lightbox" title="Antwortfeld einer Freitext-Frage aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Die Antworten korrigieren Betreuer:innen und Besitzer:innen des Kurses im Kursbaustein Test mit dem [Korrekturwerkzeug](../Assessing_tests.de.md#correction_tool), Korrektor:innen über den [Korrektur-Workflow](../Test_correction_workflow.de.md). Wer korrigiert und wann die Teilnehmenden ihre Bewertung sehen, legen Sie im Kursbaustein Test mit der Einstellung [Korrektur](../Course_Element_Test/Test_Setup.de.md#section_correction) fest. Die höchste Punktzahl, die bei der Korrektur zu vergeben ist, legen Sie im [Tab Punkte](../Configure_test_questions.de.md#score) unter "Maximal erreichbare Punktzahl" fest.
 

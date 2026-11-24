@@ -4,7 +4,7 @@ Mit einer Hotspot-Frage prüfen Sie, ob die Teilnehmenden auf einem Bild die ric
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Hotspot` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Hotspot-Frage mit drei runden Auswahlbereichen auf einem Bild, einer davon ausgewählt](../assets/Hotspot_Beispiel_DE.png){ class="shadow lightbox" title="Hotspot aus Sicht der Teilnehmenden" }
+![Hotspot-Frage nach dem Quadrat, auf dem Bild liegen ein Kreis, ein Quadrat und ein Dreieck als schattierte Bereiche, noch keiner gewählt](../assets/test_question_types_hotspot_example_v1_de.png){ class="shadow lightbox" title="Hotspot aus Sicht der Teilnehmenden · 2026.11.23" }
 
 ## Vorgehen {: #procedure}
 

@@ -4,7 +4,7 @@ Mit einer Multiple-Choice-Frage prüfen Sie, ob die Teilnehmenden alle zutreffen
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Multiple Choice` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Multiple-Choice-Frage mit den fünf Antwortoptionen Bern, Lyon, Basel, Mailand und Genf, je mit einer Checkbox davor](../assets/test_question_types_multiple_choice_example_v1_de.png){ class="shadow lightbox" title="Multiple Choice aus Sicht der Teilnehmenden · 2026.11.10" }
+![Multiple-Choice-Frage, welche Städte in der Schweiz liegen, mit den fünf Antworten Bern, Lyon, Basel, Mailand und Genf, je mit einer Checkbox davor, noch keine gewählt](../assets/test_question_types_multiple_choice_example_v2_de.png){ class="shadow lightbox" title="Multiple Choice aus Sicht der Teilnehmenden · 2026.11.23" }
 
 **Tab "Auswahl"**<br>
 Geben Sie im Tab "Auswahl" zuerst unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein.

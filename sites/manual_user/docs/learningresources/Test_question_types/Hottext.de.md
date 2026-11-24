@@ -4,7 +4,7 @@ Mit einer Hottext-Frage prüfen Sie, ob die Teilnehmenden die passenden Begriffe
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Hottext` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Hottext-Frage mit sieben markierbaren Begriffen im Fliesstext](../assets/Hottext_Beispiel_DE.png){ class="shadow lightbox" title="Hottext aus Sicht der Teilnehmenden" }
+![Hottext-Frage zu den Zutaten eines Rührkuchens mit sieben markierbaren Begriffen von Mehl bis Backpulver im Satz, noch keiner gewählt](../assets/test_question_types_hottext_example_v1_de.png){ class="shadow lightbox" title="Hottext aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Geben Sie zuerst unter "Titel" einen kurzen Titel ein.
 

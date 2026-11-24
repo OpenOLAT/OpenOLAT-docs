@@ -4,7 +4,7 @@ With a drag and drop question you check assignments as with a [match question](M
 
 In the test editor, owners of the test, administrators and learning resource managers add the question under `Test > Administration > Test editor > Add elements > Drag and Drop`. In the [question bank](../../area_modules/Question_Bank_Create_Questions.md) you choose the type under `Question bank > My questions > Create question` in the "Type" field.
 
-![Drag and drop question with two categories on the left and four items to assign on the right](../assets/DragDrop_Beispiel.png){ class="shadow lightbox" title="Drag and Drop as seen by participants" }
+![Drag and drop question with the four terms Apple, Carrot, Pear and Leek on the left and the empty categories Fruit and Vegetables on the right](../assets/test_question_types_drag_and_drop_example_v1_en.png){ class="shadow lightbox" title="Drag and Drop as seen by participants · 2026.11.23" }
 
 **Tab "Drag and drop"**<br>
 First enter the title under "Title" and the question under "Question".

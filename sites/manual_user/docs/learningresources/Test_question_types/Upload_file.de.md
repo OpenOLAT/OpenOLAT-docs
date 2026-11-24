@@ -4,7 +4,7 @@ Mit einer Frage vom Typ Datei hochladen lassen Sie die Teilnehmenden eine Arbeit
 
 Im Testeditor fügen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen die Frage unter `Test > Administration > Testeditor > Elemente hinzufügen > Datei hochladen` hinzu. Im [Fragenpool](../../area_modules/Question_Bank_Create_Questions.de.md) wählen Sie den Typ unter `Fragenpool > Meine Fragen > Frage erstellen` im Feld "Fragetyp".
 
-![Datei-hochladen-Frage mit einem Upload-Feld für die Antwort](../assets/Fileupload_Beispiel_DE.png){ class="shadow lightbox" title="Datei hochladen aus Sicht der Teilnehmenden" }
+![Datei-hochladen-Frage zum Reisebericht mit dem Feld Datei, in das die Teilnehmenden die Datei ziehen und loslassen oder über den Knopf Datei auswählen hochladen](../assets/test_question_types_upload_file_example_v1_de.png){ class="shadow lightbox" title="Datei hochladen aus Sicht der Teilnehmenden · 2026.11.23" }
 
 Geben Sie unter "Titel" einen kurzen Titel und unter "Frage" die Frage ein. Unter "Anzahl Upload Felder" legen Sie fest, wie viele Dateien die Teilnehmenden höchstens hochladen. Zur Wahl stehen 1 bis 10 Upload-Felder.
 
