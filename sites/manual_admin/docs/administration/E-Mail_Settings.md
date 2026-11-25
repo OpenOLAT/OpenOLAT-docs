@@ -62,7 +62,7 @@ The email template applies to all emails and controls only their appearance, not
 The following variables have to be in the template:
 
   *  **$content**: Is replaced with the actual content of the email. The content is usually adapted to the language of the recipient.
-  *  **$footer**: Is replaced with the footer. The footer is adapted to the language of the recipient and can be changed for each language with the language adaptation tool (variables `footer.no.userdata` and `footer.with.userdata` in the package `org.olat.core.util.mail`).
+  *  **$footer**: Is replaced with the footer. The footer is adapted to the language of the recipient and can be changed for each language with the language adaptation tool (translation keys `footer.no.userdata` and `footer.with.userdata` in the package `org.olat.core.util.mail`).
 
 ### Texts of individual emails {: #mail_texts}
 
@@ -81,14 +81,14 @@ Several functions of OpenOlat come with their own mail text. You adapt this text
 
 ### Texts of the system mail templates {: #system_mails}
 
-Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. A system mail template sets the text of these emails. For these templates there is no text field in the system administration. Their text is stored as a variable in the language package of the respective function.
+Many emails are created without any action by a person: the validation code for the registration, the message before an account expires or the confirmation when joining a group. A system mail template sets the text of these emails. For these templates there is no text field in the system administration. Their text is stored under a translation key in the package of the respective function.
 
 You adapt the text with the language adaptation tool in the system administration under:<br>
 `Administration > Customizing > Language adaptation tool`
 
-The guide [How do I use the language adaptation tool?](../../manual_how-to/language_adaption_tool/language_adaption_tool.md) shows step by step how to find the variable for a text and how to change its value.
+The guide [How do I use the language adaptation tool?](../../manual_how-to/language_adaption_tool/language_adaption_tool.md) shows step by step how to find the translation key for a text and how to change its value.
 
-The obstacle is not the tool, but finding the variable: the mail texts are spread over the language packages of all functions that send emails. If you do not find the matching variable, contact the support of your OpenOlat instance. There you learn in which package the variable is located and what it is called.
+The obstacle is not the tool, but finding the translation key: the mail texts are spread over the packages of all functions that send emails. If you do not find the matching translation key, contact the support of your OpenOlat instance. There you find out in which package the translation key is located and what it is called.
 
 ## E-Mail signature [:octicons-tag-16:{ title="from Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 

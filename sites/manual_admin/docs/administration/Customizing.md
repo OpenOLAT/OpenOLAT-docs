@@ -27,6 +27,8 @@ Here you define how the whole instance looks: you choose one of the installed th
 
 You cannot create a new theme in the system administration. The "System layout" list only shows the themes that are installed on the server of your instance. The background image of the login page is also part of the theme. For a new or individual theme, contact the provider of your hosted instance. If you run OpenOlat yourself, place the theme as a folder in the directory for custom themes on the server.
 
+The preview image of the web catalog is also part of the theme. It appears when someone shares a link to the start page, to the search or to a microsite without its own image, for example on LinkedIn or in Teams. A [microsite](../../manual_user/area_modules/catalog2.0/index.md#catalog_views) is the own page of a subject in the catalog: a click on a tile in a launcher of type "Taxonomy level" opens it, and it lists the courses and learning resources of this subject. If the theme has no preview image, these links appear without an image. The standard themes are part of the program files of OpenOlat and do not include one; a preview image therefore requires your own theme. For hosted instances, the provider places the image in the theme. If you run OpenOlat yourself, place it as `meta/socialpreview.jpg` or `meta/socialpreview.png` in the folder of the theme; 1200 x 630 pixels are recommended. If both files are present, OpenOlat uses the JPG. OpenOlat reads the image at startup and when the system layout changes; an image placed later therefore appears after the next restart of OpenOlat. What else the preview shows is described under [Page titles and link preview in the web catalog](Modules_OAI.md#web_catalog_preview). [:octicons-tag-16:{ title="from Release 21.1.3 (OO-10078)" }](https://track.frentix.com/issue/OO-10078)
+
 If a theme that is already loaded has been changed on the server, browsers often still show the old version from their cache. With the "Force reload of all static resources" button, all browsers load the files of the theme again. [:octicons-tag-16:{ title="from Release 12.3 (OO-3235)" }](https://track.frentix.com/issue/OO-3235)
 
 ### Company or Institution Logo Section [:octicons-tag-16:{ title="from Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
@@ -224,6 +226,8 @@ With the "iFrame" checkbox, OpenOlat shows the page embedded in the site. When y
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Catalog 2.0: Overview >](../../manual_user/area_modules/catalog2.0/index.md)<br>
+[Module OAI-PMH >](Modules_OAI.md)<br>
 [Portal configuration >](../../manual_user/basic_concepts/Portal_configuration.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Catalog >](Modules_Catalog_2.0.md)<br>

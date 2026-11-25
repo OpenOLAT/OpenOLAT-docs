@@ -71,6 +71,8 @@ Next to each link, you copy it with "Copy to clipboard" or show it as a QR code 
 
 In the wizards, for example when publishing a course, the dialog "Links" only shows "Copy to clipboard". You show the QR code of an offer after the wizard in the same dialog in the overview of the offers: for a course under `Course > Administration > Settings > Tab "Share"`, for an implementation under `Course Planner > Implementations > "Your implementation" > Tab Catalog`.
 
+If you share the link to the external catalog on LinkedIn, in Teams or another network, the preview shows the title of the offer, the teaser or the description with execution period and subjects, and the image of the course or the implementation. If the offer has no image of its own, the preview appears without an image. In the administration manual, the external catalog is called web catalog; it describes how page titles and preview come about under [Page titles and link preview in the web catalog](../../manual_admin/administration/Modules_OAI.md#web_catalog_preview). [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9306)" }](https://track.frentix.com/issue/OO-9306)
+
 **Example: Links to the offer of an implementation**
 
 ![Row Access with the link Links highlighted, above it the dialog Links with one link each for the external and the internal catalog and the highlighted buttons for copying and for the QR code](assets/catalog20_webcatalog_offer_link_v2_en.png){ class="shadow lightbox" title="Catalog tab of an implementation · 2026.11.09" }
@@ -85,6 +87,7 @@ In the wizards, for example when publishing a course, the dialog "Links" only sh
 
 [Course Planner: Implementations >](Course_Planner_Implementations.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>
+[Module OAI-PMH >](../../manual_admin/administration/Modules_OAI.md)<br>
 [Module Catalog >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Catalog 2.0: Overview >](catalog2.0/index.md)<br>
 [Catalog 2.0 - Offers >](catalog2.0_angebote.md)<br>

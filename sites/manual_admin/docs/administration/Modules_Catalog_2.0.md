@@ -206,6 +206,8 @@ You switch on the web catalog in the "Settings" tab with the switch "Web catalog
 
 With the switch "Web catalog temporarily disabled" you switch off the web catalog temporarily. Visitors then see the message "Catalog temporarily not available" instead of the offers.
 
+You enter the name of your organisation for the page titles of the web catalog in the module OAI-PMH. Which page titles, descriptions and preview images the web catalog passes on to search engines and shows when a link is shared is described under [Module OAI-PMH: Page titles and link preview in the web catalog](Modules_OAI.md#web_catalog_preview). [:octicons-tag-16:{ title="from Release 21.1.3 (OO-10078)" }](https://track.frentix.com/issue/OO-10078)
+
 ![With Catalog V2 selected, highlighted: the switches Web catalog, Web catalog temporarily disabled and Link on login site](assets/modules_catalog_web-catalog_v2_en.png){ class="shadow lightbox" title="Web catalog in the Settings tab · 2026.11.03" }
 
 [To the top of the page ^](#modul_catalog)
@@ -218,7 +220,8 @@ With the switch "Web catalog temporarily disabled" you switch off the web catalo
 [Module Taxonomy](Modules_Taxonomy.md)<br>
 [Catalog 2.0: Sorting/order](../../manual_user/area_modules/catalog2.0_sort_offers.md)<br>
 [Sites and modules](../../manual_user/area_modules/index.md)<br>
-[Roles and Rights: Which roles are available?](../../manual_user/basic_concepts/Roles/index.md)
+[Roles and Rights: Which roles are available?](../../manual_user/basic_concepts/Roles/index.md)<br>
+[Module OAI-PMH](Modules_OAI.md)
 
 **Further reading**<br>
 [Catalog 2.0: Overview](../../manual_user/area_modules/catalog2.0/index.md)<br>

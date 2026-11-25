@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="560" viewBox="0 0 940 560" role="img" aria-label="Where page title, description and preview image in the web catalog come from, each for start page and search, microsite and offer">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0F5456"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="940" height="560" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="20" y="34" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#342C24">Page title, description and preview image in the web catalog</text>
+
+  <!-- Condition organisation name -->
+  <rect x="20" y="50" width="900" height="66" rx="10" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="36" y="74" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#126365">Organisation name</text>
+  <text x="170" y="74" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">appears only if "Search Engine publish" is switched on and "Organisation name" is filled in.</text>
+  <text x="170" y="98" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Otherwise "| Organisation" is omitted, and OpenOlat uses the text variant without organisation name.</text>
+
+  <!-- Column headers -->
+  <rect x="180" y="130" width="240" height="38" rx="8" fill="#126365"/>
+  <text x="300" y="154" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Start page and search</text>
+  <rect x="430" y="130" width="240" height="38" rx="8" fill="#126365"/>
+  <text x="550" y="154" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Microsite (taxonomy level)</text>
+  <rect x="680" y="130" width="240" height="38" rx="8" fill="#126365"/>
+  <text x="800" y="154" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Offer</text>
+
+  <!-- Row page title -->
+  <text x="24" y="203" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Page title</text>
+  <rect x="192" y="182" width="216" height="32" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="300" y="203" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Catalog | Organisation</text>
+  <rect x="442" y="182" width="216" height="32" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="550" y="203" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Level - Catalog | Organisation</text>
+  <rect x="692" y="182" width="216" height="32" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="800" y="203" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Offer - Catalog | Organisation</text>
+
+  <line x1="20" y1="228" x2="920" y2="228" stroke="rgba(18, 99, 101, 0.25)" stroke-width="1"/>
+
+  <!-- Row description -->
+  <text x="24" y="266" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Description</text>
+
+  <rect x="192" y="244" width="216" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="300" y="261" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Text "Discover the</text>
+  <text x="300" y="277" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">offers of ..."</text>
+  <text x="300" y="306" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12" fill="#126365">changeable with the</text>
+  <text x="300" y="322" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12" fill="#126365">language adaptation tool</text>
+
+  <rect x="442" y="244" width="216" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="550" y="269" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Description of the taxonomy level</text>
+  <line x1="550" y1="286" x2="550" y2="304" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="560" y="300" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="442" y="310" width="216" height="32" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="550" y="331" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Text of the start page</text>
+
+  <rect x="692" y="244" width="216" height="40" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="800" y="261" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Teaser or description,</text>
+  <text x="800" y="277" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">execution period, subjects</text>
+  <line x1="800" y1="286" x2="800" y2="304" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="810" y="300" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="692" y="310" width="216" height="32" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="800" y="331" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Text "Offer: an offer of ..."</text>
+
+  <line x1="20" y1="356" x2="920" y2="356" stroke="rgba(18, 99, 101, 0.25)" stroke-width="1"/>
+
+  <!-- Row preview image -->
+  <text x="24" y="391" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#342C24">Preview image</text>
+
+  <rect x="192" y="372" width="216" height="30" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="300" y="392" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Preview image of the theme</text>
+  <line x1="300" y1="404" x2="300" y2="420" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="310" y="417" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="192" y="426" width="216" height="30" rx="8" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="300" y="446" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">no image</text>
+
+  <rect x="442" y="372" width="216" height="30" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="550" y="392" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Teaser image of the taxonomy level</text>
+  <line x1="550" y1="404" x2="550" y2="420" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="560" y="417" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="442" y="426" width="216" height="30" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="550" y="446" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Preview image of the theme</text>
+  <line x1="550" y1="458" x2="550" y2="474" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="560" y="471" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="442" y="480" width="216" height="30" rx="8" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="550" y="500" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">no image</text>
+
+  <rect x="692" y="372" width="216" height="30" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="1.5"/>
+  <text x="800" y="392" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Image of the offer</text>
+  <line x1="800" y1="404" x2="800" y2="420" stroke="#0F5456" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="810" y="417" font-family="'Roboto', sans-serif" font-size="11" fill="#0F5456">otherwise</text>
+  <rect x="692" y="426" width="216" height="30" rx="8" fill="rgba(18, 99, 101, 0.12)"/>
+  <text x="800" y="446" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">no image</text>
+
+  <!-- Footer -->
+  <text x="20" y="544" font-family="'Roboto', sans-serif" font-size="12" fill="#2D2926">Applies only in the web catalog. The catalog after login keeps the titles "Catalog", "Catalog - Level" and "Catalog - Offer".</text>
+</svg>

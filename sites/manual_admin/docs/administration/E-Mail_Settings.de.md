@@ -62,7 +62,7 @@ Die E-Mail Vorlage gilt für alle E-Mails und steuert nur deren Aussehen, nicht 
 Die folgenden Variablen müssen in der Vorlage vorkommen:
 
   *  **$content**: Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache der Empfänger:in angepasst.
-  *  **$footer**: Wird ersetzt mit der Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und lässt sich mit dem Sprachanpassungswerkzeug für jede Sprache ändern (Variablen `footer.no.userdata` und `footer.with.userdata` im Paket `org.olat.core.util.mail`).
+  *  **$footer**: Wird ersetzt mit der Fusszeile. Die Fusszeile ist an die Sprache der Empfänger:in angepasst und lässt sich mit dem Sprachanpassungswerkzeug für jede Sprache ändern (Übersetzungsschlüssel `footer.no.userdata` und `footer.with.userdata` im Paket `org.olat.core.util.mail`).
 
 ### Texte einzelner E-Mails {: #mail_texts}
 
@@ -81,14 +81,14 @@ Mehrere Funktionen von OpenOlat bringen einen eigenen Mailtext mit. Diesen Text 
 
 ### Texte der System-E-Mail-Vorlagen {: #system_mails}
 
-Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Den Text dieser E-Mails legt eine System-E-Mail-Vorlage fest. Für diese Vorlagen gibt es kein Textfeld in der System-Administration. Ihr Text ist als Variable im Sprachpaket der jeweiligen Funktion abgelegt.
+Viele E-Mails entstehen ohne Zutun einer Person: der Validierungscode bei der Registrierung, die Meldung vor dem Ablauf eines Kontos oder die Bestätigung beim Eintritt in eine Gruppe. Den Text dieser E-Mails legt eine System-E-Mail-Vorlage fest. Für diese Vorlagen gibt es kein Textfeld in der System-Administration. Ihr Text ist unter einem Übersetzungsschlüssel im Paket der jeweiligen Funktion abgelegt.
 
 Anpassen lässt sich der Text mit dem Sprachanpassungswerkzeug in der System-Administration unter:<br>
 `Administration > Customizing > Sprachanpassungswerkzeug`
 
-Die Anleitung [Wie verwende ich das Sprachanpassungswerkzeug?](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md) zeigt Schritt für Schritt, wie Sie die Variable zu einem Text finden und ihren Wert ändern.
+Die Anleitung [Wie verwende ich das Sprachanpassungswerkzeug?](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md) zeigt Schritt für Schritt, wie Sie den Übersetzungsschlüssel zu einem Text finden und seinen Wert ändern.
 
-Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden der Variable: Die Mailtexte verteilen sich über die Sprachpakete aller Funktionen, die E-Mails versenden. Wenn Sie die passende Variable nicht finden, wenden Sie sich an den Support Ihrer OpenOlat-Instanz. Dort erfahren Sie, in welchem Paket die Variable liegt und wie sie heisst.
+Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden des Übersetzungsschlüssels: Die Mailtexte verteilen sich über die Pakete aller Funktionen, die E-Mails versenden. Wenn Sie den passenden Übersetzungsschlüssel nicht finden, wenden Sie sich an den Support Ihrer OpenOlat-Instanz. Dort erfahren Sie, in welchem Paket der Übersetzungsschlüssel liegt und wie er heisst.
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
