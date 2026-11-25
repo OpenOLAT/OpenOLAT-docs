@@ -27,6 +27,8 @@ Hier legen Sie fest, wie die ganze Instanz aussieht: Sie wählen in der Liste "S
 
 Ein neues Theme lässt sich nicht in der System-Administration erstellen. Die Liste "Systemlayout" zeigt nur die Themes, die auf dem Server Ihrer Instanz installiert sind. Zum Theme gehört auch das Hintergrundbild der Anmeldeseite. Für ein neues oder individuelles Theme wenden Sie sich bei gehosteten Instanzen an den Betreiber. Betreiben Sie OpenOlat selbst, legen Sie das Theme als Ordner im Verzeichnis für eigene Themes auf dem Server ab.
 
+Zum Theme gehört auch das Vorschaubild des Web-Katalogs. Es erscheint, wenn jemand einen Link zur Startseite, zur Suche oder zu einer Microsite ohne eigenes Bild teilt, etwa auf LinkedIn oder in Teams. Eine [Microsite](../../manual_user/area_modules/catalog2.0/index.de.md#catalog_views) ist die eigene Seite eines Fachbereichs im Katalog: Ein Klick auf eine Kachel in einem Launcher vom Typ "Taxonomieebene" öffnet sie, und sie listet die Kurse und Lernressourcen dieses Fachbereichs. Fehlt das Vorschaubild im Theme, erscheinen diese Links ohne Bild. Die Standard-Themes gehören zu den Programmdateien von OpenOlat und bringen keines mit; ein Vorschaubild setzt deshalb ein eigenes Theme voraus. Bei gehosteten Instanzen legt der Betreiber das Bild ins Theme. Betreiben Sie OpenOlat selbst, legen Sie es als `meta/socialpreview.jpg` oder `meta/socialpreview.png` in den Ordner des Themes, empfohlen sind 1200 x 630 Pixel. Liegen beide Dateien vor, verwendet OpenOlat das JPG. OpenOlat liest das Bild beim Start und beim Wechsel des Systemlayouts; ein später abgelegtes Bild erscheint deshalb nach dem nächsten Neustart von OpenOlat. Was die Vorschau sonst zeigt, steht unter [Seitentitel und Link-Vorschau im Web-Katalog](Modules_OAI.de.md#web_catalog_preview). [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10078)" }](https://track.frentix.com/issue/OO-10078)
+
 Wurde ein bereits geladenes Theme auf dem Server geändert, zeigen Browser oft noch die alte Fassung aus ihrem Zwischenspeicher. Mit dem Button "Neuladen aller statischen Ressourcen erzwingen" laden alle Browser die Dateien des Themes neu. [:octicons-tag-16:{ title="ab Release 12.3 (OO-3235)" }](https://track.frentix.com/issue/OO-3235)
 
 ### Abschnitt Firmen- oder Institutionslogo [:octicons-tag-16:{ title="ab Release 10.0 (OO-1167)" }](https://track.frentix.com/issue/OO-1167){:target="_blank"}
@@ -230,6 +232,8 @@ Mit der Checkbox "iFrame" zeigt OpenOlat die Seite eingebettet im Bereich an. Be
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Katalog 2.0: Übersicht >](../../manual_user/area_modules/catalog2.0/index.de.md)<br>
+[Modul OAI PMH >](Modules_OAI.de.md)<br>
 [Portal konfigurieren >](../../manual_user/basic_concepts/Portal_configuration.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Katalog >](Modules_Catalog_2.0.de.md)<br>

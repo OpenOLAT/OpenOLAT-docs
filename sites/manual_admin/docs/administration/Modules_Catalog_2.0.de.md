@@ -213,6 +213,8 @@ Sie schalten den Web-Katalog im Tab "Einstellungen" mit dem Schalter "Web-Katalo
 
 Mit dem Schalter "Web-Katalog vorübergehend deaktiviert" schalten Sie den Web-Katalog vorübergehend ab. Besucher:innen sehen dann statt der Angebote die Meldung "Katalog temporär nicht verfügbar".
 
+Den Namen Ihrer Organisation in den Seitentiteln des Web-Katalogs tragen Sie im Modul OAI PMH ein. Welche Seitentitel, Beschreibungen und Vorschaubilder der Web-Katalog an Suchmaschinen weitergibt und beim Teilen eines Links zeigt, steht unter [Modul OAI PMH: Seitentitel und Link-Vorschau im Web-Katalog](Modules_OAI.de.md#web_catalog_preview). [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10078)" }](https://track.frentix.com/issue/OO-10078)
+
 ![Bei gewähltem Katalog V2 markiert: die Schalter Web-Katalog, Web-Katalog vorübergehend deaktiviert und Link auf Login-Seite](assets/modules_catalog_web-catalog_v2_de.png){ class="shadow lightbox" title="Web-Katalog im Tab Einstellungen · 2026.11.03" }
 
 [Zum Seitenanfang ^](#modul_catalog)
@@ -226,7 +228,8 @@ Mit dem Schalter "Web-Katalog vorübergehend deaktiviert" schalten Sie den Web-K
 [Modul Taxonomie](Modules_Taxonomy.de.md)<br>
 [Katalog 2.0: Sortierung/Reihenfolge](../../manual_user/area_modules/catalog2.0_sort_offers.de.md)<br>
 [Bereiche und Module](../../manual_user/area_modules/index.de.md)<br>
-[Rollen und Rechte: Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles/index.de.md)
+[Rollen und Rechte: Welche Rollen gibt es?](../../manual_user/basic_concepts/Roles/index.de.md)<br>
+[Modul OAI PMH](Modules_OAI.de.md)
 
 **Weiterführend**<br>
 [Katalog 2.0: Übersicht](../../manual_user/area_modules/catalog2.0/index.de.md)<br>

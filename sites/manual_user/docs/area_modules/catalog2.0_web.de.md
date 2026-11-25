@@ -71,6 +71,8 @@ Neben jedem Link kopieren Sie ihn mit "In Zwischenablage kopieren" oder zeigen i
 
 In den Assistenten, etwa beim Publizieren eines Kurses, zeigt der Dialog "Links" nur "In Zwischenablage kopieren". Den QR-Code eines Angebots zeigen Sie nach dem Assistenten im selben Dialog in der Übersicht der Angebote: für einen Kurs unter `Kurs > Administration > Einstellungen > Tab "Freigabe"`, für eine Durchführung unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog`.
 
+Teilen Sie den Link zum externen Katalog auf LinkedIn, in Teams oder einem anderen Netzwerk, zeigt die Vorschau den Titel des Angebots, den Teaser oder die Beschreibung mit Durchführungszeitraum und Fachbereichen sowie das Bild des Kurses oder der Durchführung. Hat das Angebot kein eigenes Bild, erscheint die Vorschau ohne Bild. Im Administrationshandbuch heisst der externe Katalog Web-Katalog; wie Seitentitel und Vorschau entstehen, beschreibt es unter [Seitentitel und Link-Vorschau im Web-Katalog](../../manual_admin/administration/Modules_OAI.de.md#web_catalog_preview). [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9306)" }](https://track.frentix.com/issue/OO-9306)
+
 **Beispiel: Links zum Angebot einer Durchführung**
 
 ![Zeile Zugang mit dem Link Links markiert, darüber der Dialog Links mit je einem Link für den externen und den internen Katalog und den markierten Schaltflächen zum Kopieren und für den QR-Code](assets/catalog20_webcatalog_offer_link_v2_de.png){ class="shadow lightbox" title="Tab Katalog einer Durchführung · 2026.11.09" }
@@ -85,6 +87,7 @@ In den Assistenten, etwa beim Publizieren eines Kurses, zeigt der Dialog "Links"
 
 [Course Planner: Durchführungen >](Course_Planner_Implementations.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>
+[Modul OAI PMH >](../../manual_admin/administration/Modules_OAI.de.md)<br>
 [Modul Katalog >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Katalog 2.0: Übersicht >](catalog2.0/index.de.md)<br>
 [Katalog 2.0 - Angebote >](catalog2.0_angebote.de.md)<br>
