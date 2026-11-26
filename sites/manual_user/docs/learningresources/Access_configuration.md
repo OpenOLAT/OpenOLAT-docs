@@ -53,9 +53,9 @@ If participants may leave the course, they select the entry "Leave course" in th
 
 ### Administrative access {: #administrative-release}
 
-In the field "Administrative access", you assign the course to one or more organisations. This determines which persons with an administrative role can access the course and find it in Authoring. What the individual roles may do and which organisations are available for selection is described on the page [Course settings - Tab Share](Course_Settings_Share/index.md#section_share_admin_access).
+In the tab "Share", you assign the course to one or more organisations in the field "Administrative access". This determines who in these organisations besides the members can access the course, for example the learning resource managers. What the individual roles may do and which organisations are available for selection is described on the page [Course settings - Tab Share](Course_Settings_Share/index.md#section_share_admin_access).
 
-The authors of the organisations to which the course is assigned additionally receive the rights that you define in the tab "Share" under "Authors can". With these rights, they see the learning resource as soon as it is no longer in the status "Preparation".
+The authors of these organisations receive the rights that you define in the tab "Share" under "Authors can". With at least one of these rights, they find the learning resource in Authoring from the status "Review".
 
 Authors can | Description
 :-----|:------------------
@@ -65,7 +65,7 @@ export content | The authors can download the learning resource and import it ba
 
 !!! warning "Attention"
 
-    The options "embed" and "copy" are suitable if you want to provide a learning resource to other authors as a template or good example. For courses, "embed in groups" is rarely useful, so avoid it there.
+    The options "embed" and "copy" are suitable if you want to provide a learning resource to other authors as a template or good example. For courses, "embed in groups" is rarely useful: other authors can then embed the course in their groups, and the members of these groups become members of the course. Therefore avoid it there.
 
     Each of these rights applies to all authors of the organisations to which the course is assigned. Therefore check beforehand whether you really want this.
 
@@ -151,9 +151,9 @@ This way an offer becomes bookable shortly before the course starts, for example
 
 ## Share overview
 
-Whether the sharing works as intended, you check at the end of the tab "Share". The share overview shows at a glance who has access to the course and which groups or curricula are linked to it.
+Whether the sharing works as intended, you check at the end of the tab "Share". The share overview shows at a glance who has access to the course and which groups or Course Planner products are linked to it. What the individual blocks show is described on [Course settings - Tab Share](Course_Settings_Share/index.md#section_share_overview).
 
-![Share overview with the number of owners, coaches and participants, the linked groups, the administrative roles with their rights and the curricula](assets/share-overview.jpg){ class="shadow lightbox" title="Share overview in the Share tab" }
+![Number of members per role, the assigned groups and the product, plus the number of persons per administrative role with their right](assets/course_settings_share_overview_v1_en.png){ class="shadow lightbox" title="Share overview in the Share tab" }
 
 ## Lifecycle: Finish and delete
 

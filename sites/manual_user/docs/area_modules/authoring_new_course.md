@@ -12,7 +12,7 @@ The "Create" and "Import file" buttons are shown to authors, learning resource m
 
 When you select an entry, OpenOlat opens a dialog for creating it. Mandatory fields are "Title" and, if the Organisations module is switched on, "Administrative access".
 
-Under "Administrative access", you select one or more organisations to which the learning resource is assigned. This determines which persons with an administrative role in these organisations can access the learning resource and find it in Authoring. You can select the organisations in which you have the role author, learning resource manager or administrator. If you have these roles in only one organisation, the field cannot be changed. More on this under [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access).
+Under "Administrative access", you select one or more organisations to which the learning resource is assigned. This determines who in these organisations besides you can access the learning resource and find it in Authoring, for example the learning resource managers. You can select the organisations in which you have the role author, learning resource manager or administrator. Each of these roles also applies to the sub-organisations of the organisation, so you can select these as well. If only one organisation is available for selection, the field is locked and shows this organisation. More on this under [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access).
 
 The specific creation process is described on the following pages:
 
@@ -65,11 +65,11 @@ The specific creation process is described on the following pages:
 ![Dialog with the formats that can be imported, the field for uploading the file and the mandatory field Administrative access](assets/authoring_new_course_import_file_v1_en.png){ class="shadow lightbox" title="Dialog Import file · 2026.10.09" }
 
 ### Import file
-Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. You can import learning resources exported from OpenOlat, videos in MP4 format, the standard formats IMS Content Packaging, IMS QTI 2.1 assessment and SCORM 1.2, as well as any files.
+Learning resources created outside OpenOlat or exported from another OpenOlat system can be imported into OpenOlat, provided they are in a compatible format. You can import learning resources exported from OpenOlat, videos in MP4 format, the standard formats IMS Content Packaging, IMS QTI 2.1 assessment and SCORM 1.2, as well as any files, for example PDF files or images. Which learning resource such a file becomes is described under [Further learning resources](../learningresources/index.md#further_learningresources).
 
-In the "Import file" dialog, you upload the file in the "File" field and select under "Administrative access" one or more organisations to which the learning resource is assigned. After the upload, the dialog shows the detected type and the field "Title of learning resource" with the title from the file, which you can adjust.
+In the "Import file" dialog, you upload the file in the "File" field. If the Organisations module is switched on, you select under "Administrative access" one or more organisations to which the learning resource is assigned. After the upload, the dialog shows the detected type and the field "Title of learning resource" with the title from the file, which you can adjust.
 
-If the imported learning resource uses other learning resources, for example a course with a wiki or a test, the dialog also shows "Referenced resources". The option "import and link" is preselected: OpenOlat also imports the learning resources used and links them. After importing a course, publish it in the course editor so that its content is visible to you and other OpenOlat users.
+If the imported learning resource uses other learning resources, for example a course with a wiki or a test, the dialog also shows "Referenced resources". The checkbox "import and link" is ticked: OpenOlat also imports the learning resources used and links them. If you remove the tick, OpenOlat imports only the learning resource from the file, without the learning resources it uses. After importing a course, publish it in the course editor so that its content is visible to you and other OpenOlat users.
 
 At the end of the import, OpenOlat opens the settings of the learning resource on the ["Metadata" tab](../learningresources/Course_Settings_Metadata.md). There you check the title and reference and define further settings, for example the license.
 
@@ -99,7 +99,7 @@ The dialog contains the following fields:
 | **Type** | The detected resource type. If several types match the URL, select the desired one here. |
 | **Title of learning resource** | Mandatory field. Name of the new learning resource. For videos, the title is prefilled from the source and can be adjusted. |
 | **Reference** | Optional external identifier, displayed on the course overview page, see [Reference](../learningresources/Course_Settings_Metadata.md#externalref). |
-| **Administrative access** | Mandatory field. One or more organisations to which the learning resource is assigned, see [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access). |
+| **Administrative access** | Mandatory field, only shown if the Organisations module is switched on. One or more organisations to which the learning resource is assigned, see [Administrative access](../learningresources/Course_Settings_Share/index.md#section_share_admin_access). |
 
 Click "Embed" to create the learning resource.
 

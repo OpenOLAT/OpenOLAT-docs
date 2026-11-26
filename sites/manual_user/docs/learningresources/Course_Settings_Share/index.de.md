@@ -115,7 +115,7 @@ Mit "In Zwischenablage kopieren" übernehmen Sie den Direktlink in eine E-Mail o
 
 #### Administrative Freigabe {: #section_share_admin_access}
 
-Mit der Administrativen Freigabe ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, wer ausser den Mitgliedern auf den Kurs zugreift: Personen, die in diesen Organisationen eine administrative Rolle haben. Weil es diese Rollen pro Organisation gibt, etwa Lernressourcenverwalter:in einer Abteilung, bestimmen Sie hier, welche Organisationen administrativen Zugriff auf Ihren Kurs erhalten. Je Rolle gilt:
+Mit der Administrativen Freigabe ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, wer ausser den Mitgliedern (Besitzer:innen, Betreuer:innen und Teilnehmer:innen) auf den Kurs zugreift: Personen, die in diesen Organisationen eine der folgenden Rollen haben. Weil es diese Rollen pro Organisation gibt, etwa Lernressourcenverwalter:in einer Abteilung, bestimmen Sie hier, welche Organisationen administrativen Zugriff auf Ihren Kurs erhalten. Je Rolle gilt:
 
 - **Administrator:innen und Lernressourcenverwalter:innen** haben Vollzugriff und finden den Kurs im Autorenbereich.
 - **Principals** lesen Inhalt und Bewertungsdaten und finden den Kurs ebenfalls im Autorenbereich.

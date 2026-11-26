@@ -12,7 +12,7 @@ Die Buttons "Erstellen" und "Datei importieren" sehen Autor:innen, Lernressource
 
 Wählen Sie einen Eintrag, öffnet OpenOlat einen Dialog zum Erstellen. Pflichtfelder sind "Titel" und, wenn das Modul Organisationen eingeschaltet ist, "Administrative Freigabe".
 
-Unter "Administrative Freigabe" wählen Sie eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Davon hängt ab, welche Personen mit einer administrativen Rolle in diesen Organisationen auf die Lernressource zugreifen und sie im Autorenbereich finden. Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Haben Sie diese Rollen nur in einer Organisation, lässt sich das Feld nicht ändern. Mehr dazu unter [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access).
+Unter "Administrative Freigabe" wählen Sie eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Davon hängt ab, wer in diesen Organisationen ausser Ihnen auf die Lernressource zugreift und sie im Autorenbereich findet, etwa die Lernressourcenverwalter:innen. Zur Auswahl stehen die Organisationen, in denen Sie die Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in haben. Eine dieser Rollen gilt auch für die Unterorganisationen der Organisation, deshalb stehen diese ebenfalls zur Auswahl. Steht nur eine Organisation zur Auswahl, ist das Feld gesperrt und zeigt diese Organisation. Mehr dazu unter [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access).
 
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
@@ -65,11 +65,11 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 ![Dialog mit den importierbaren Formaten, dem Feld zum Hochladen der Datei und dem Pflichtfeld Administrative Freigabe](assets/authoring_new_course_import_file_v1_de.png){ class="shadow lightbox" title="Dialog Datei importieren · 2026.10.09" }
 
 ### Datei importieren
-Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Importieren lassen sich aus OpenOlat exportierte Lernressourcen, Videos im Format MP4, die Standardformate IMS Content Packaging, IMS QTI 2.1 Test und SCORM 1.2 sowie beliebige Dateien.
+Lernressourcen, die ausserhalb von OpenOlat erstellt oder aus einem anderen OpenOlat-System exportiert wurden, können in OpenOlat importiert werden: vorausgesetzt, sie liegen in einem kompatiblen Format vor. Importieren lassen sich aus OpenOlat exportierte Lernressourcen, Videos im Format MP4, die Standardformate IMS Content Packaging, IMS QTI 2.1 Test und SCORM 1.2 sowie beliebige Dateien, etwa PDF-Dateien oder Bilder. Welche Lernressource aus einer solchen Datei entsteht, steht unter [Weitere Lernressourcen](../learningresources/index.de.md#further_learningresources).
 
-Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch und wählen unter "Administrative Freigabe" eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Nach dem Hochladen zeigt der Dialog den erkannten Typ und das Feld "Titel der Lernressource" mit dem Titel aus der Datei, den Sie anpassen können.
+Im Dialog "Datei importieren" laden Sie die Datei im Feld "Datei" hoch. Ist das Modul Organisationen eingeschaltet, wählen Sie unter "Administrative Freigabe" eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird. Nach dem Hochladen zeigt der Dialog den erkannten Typ und das Feld "Titel der Lernressource" mit dem Titel aus der Datei, den Sie anpassen können.
 
-Verwendet die importierte Lernressource weitere Lernressourcen, zum Beispiel ein Kurs mit einem Wiki oder einem Test, zeigt der Dialog zusätzlich "Referenzierte Ressourcen". Die Option "importieren und verknüpfen" ist vorausgewählt: OpenOlat importiert die verwendeten Lernressourcen mit und verknüpft sie. Nach dem Import eines Kurses publizieren Sie ihn im Kurseditor, damit seine Inhalte für Sie und andere OpenOlat-Benutzer:innen sichtbar sind.
+Verwendet die importierte Lernressource weitere Lernressourcen, zum Beispiel ein Kurs mit einem Wiki oder einem Test, zeigt der Dialog zusätzlich "Referenzierte Ressourcen". Das Häkchen "importieren und verknüpfen" ist gesetzt: OpenOlat importiert die verwendeten Lernressourcen mit und verknüpft sie. Entfernen Sie das Häkchen, importiert OpenOlat nur die Lernressource aus der Datei, ohne die verwendeten Lernressourcen. Nach dem Import eines Kurses publizieren Sie ihn im Kurseditor, damit seine Inhalte für Sie und andere OpenOlat-Benutzer:innen sichtbar sind.
 
 Am Ende des Imports öffnet OpenOlat die Einstellungen der Lernressource auf dem [Tab "Metadaten"](../learningresources/Course_Settings_Metadata.de.md). Dort prüfen Sie Titel und Kennzeichen und legen weitere Einstellungen fest, etwa die Lizenz.
 
@@ -99,7 +99,7 @@ Der Dialog enthält folgende Felder:
 | **Typ** | Der erkannte Ressourcentyp. Passen mehrere Typen zur URL, wählen Sie hier den gewünschten aus. |
 | **Titel der Lernressource** | Pflichtfeld. Name der neuen Lernressource. Bei Videos wird der Titel aus der Quelle vorausgefüllt und kann angepasst werden. |
 | **Kennzeichen** | Optionale externe Kennung, die in der Kursübersicht angezeigt wird, siehe [Kennzeichen](../learningresources/Course_Settings_Metadata.de.md#externalref). |
-| **Administrative Freigabe** | Pflichtfeld. Eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird, siehe [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access). |
+| **Administrative Freigabe** | Pflichtfeld, erscheint nur bei eingeschaltetem Modul Organisationen. Eine oder mehrere Organisationen, denen die Lernressource zugeordnet wird, siehe [Administrative Freigabe](../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access). |
 
 Mit "Einbinden" erstellen Sie die Lernressource.
 

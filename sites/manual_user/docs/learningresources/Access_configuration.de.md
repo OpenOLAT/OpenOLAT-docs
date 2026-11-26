@@ -53,9 +53,9 @@ Dürfen Teilnehmende den Kurs verlassen, wählen sie in der Kurs-Toolbar im Men�
 
 ### Administrative Freigabe {: #administrative-release}
 
-Im Feld "Administrative Freigabe" ordnen Sie den Kurs einer oder mehreren Organisationen zu. Davon hängt ab, welche Personen mit einer administrativen Rolle auf den Kurs zugreifen und ihn im Autorenbereich finden. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_share_admin_access).
+Im Tab "Freigabe" ordnen Sie den Kurs im Feld "Administrative Freigabe" einer oder mehreren Organisationen zu. Davon hängt ab, wer in diesen Organisationen ausser den Mitgliedern auf den Kurs zugreift, etwa die Lernressourcenverwalter:innen. Was die einzelnen Rollen dürfen und welche Organisationen zur Auswahl stehen, beschreibt die Seite [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_share_admin_access).
 
-Die Autor:innen der Organisationen, denen der Kurs zugeordnet ist, erhalten zusätzlich die Rechte, die Sie im Tab "Freigabe" unter "Autor:innen können" festlegen. Mit diesen Rechten sehen sie die Lernressource, sobald sie nicht mehr im Status "Vorbereitung" ist.
+Die Autor:innen dieser Organisationen erhalten die Rechte, die Sie im Tab "Freigabe" unter "Autor:innen können" festlegen. Mit mindestens einem dieser Rechte finden sie die Lernressource ab dem Status "Review" im Autorenbereich.
 
 Autor:innen können | Erklärung
 :-----|:------------------
@@ -65,7 +65,7 @@ Inhalt exportieren | Die Autor:innen können die Lernressource herunterladen und
 
 !!! warning "Achtung"
 
-    Die Optionen "einbinden" und "kopieren" eignen sich, wenn Sie eine Lernressource anderen Autor:innen als Vorlage oder gutes Beispiel bereitstellen möchten. Bei Kursen ist "in Gruppen einbinden" selten sinnvoll, vermeiden Sie es dort.
+    Die Optionen "einbinden" und "kopieren" eignen sich, wenn Sie eine Lernressource anderen Autor:innen als Vorlage oder gutes Beispiel bereitstellen möchten. Bei Kursen ist "in Gruppen einbinden" selten sinnvoll: Andere Autor:innen können den Kurs dann in ihre Gruppen einbinden, und die Mitglieder dieser Gruppen werden Mitglieder des Kurses. Vermeiden Sie es deshalb dort.
 
     Jedes dieser Rechte gilt für alle Autor:innen der Organisationen, denen der Kurs zugeordnet ist. Prüfen Sie deshalb vorher, ob Sie das wirklich wollen.
 
@@ -151,9 +151,9 @@ So wird ein Angebot beispielsweise erst kurz vor Kursbeginn buchbar oder schlies
 
 ## Freigabeübersicht
 
-Ob die Freigabe so wirkt wie gewollt, prüfen Sie am Ende des Tabs "Freigabe". Die Freigabeübersicht zeigt auf einen Blick, wer auf den Kurs Zugriff hat und welche Gruppen oder Curricula mit ihm verknüpft sind.
+Ob die Freigabe so wirkt wie gewollt, prüfen Sie am Ende des Tabs "Freigabe". Die Freigabeübersicht zeigt auf einen Blick, wer auf den Kurs Zugriff hat und mit welchen Gruppen oder Produkten des Course Planner er verknüpft ist. Was die einzelnen Blöcke zeigen, beschreibt [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_share_overview).
 
-![Freigabeübersicht mit der Anzahl Besitzer:innen, Betreuer:innen und Teilnehmenden, den verknüpften Gruppen, den administrativen Rollen mit ihren Rechten und den Curricula](assets/share-overview.de.jpg){ class="shadow lightbox" title="Freigabeübersicht im Tab Freigabe" }
+![Anzahl Mitglieder je Rolle, die zugeordneten Gruppen und das Produkt, dazu je administrative Rolle die Zahl der Personen mit ihrem Recht](assets/course_settings_share_overview_v2_de.png){ class="shadow lightbox" title="Freigabeübersicht im Tab Freigabe" }
 
 ## Kurszyklus: Beenden und löschen
 

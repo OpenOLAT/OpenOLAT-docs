@@ -114,7 +114,7 @@ With "Copy to clipboard", you take the direct link into an e-mail or onto a web 
 
 #### Administrative access {: #section_share_admin_access}
 
-With the administrative access, you assign the course to one or more organisations. This determines who besides the members can access the course: persons who have an administrative role in these organisations. Because these roles exist per organisation, for example learning resource manager of a department, you determine here which organisations have administrative access to your course. Per role:
+With the administrative access, you assign the course to one or more organisations. This determines who besides the members (owners, coaches and participants) can access the course: persons who have one of the following roles in these organisations. Because these roles exist per organisation, for example learning resource manager of a department, you determine here which organisations have administrative access to your course. Per role:
 
 - **Administrators and learning resource managers** have full access and find the course in Authoring.
 - **Principals** read content and assessment data and also find the course in Authoring.
