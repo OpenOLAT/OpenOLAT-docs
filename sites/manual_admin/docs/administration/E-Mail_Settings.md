@@ -1,16 +1,19 @@
 # Email Settings {: #email_settings}
 
-The email settings are located in the system administration under: `Administration > Core functions > E-mail`. The page has two segments: "Settings" with the specifications for the email address and the OpenOlat inbox, and "E-mail template" with the appearance of the emails sent.
+In the email settings you define whether every account needs a unique email address, where OpenOlat delivers emails and what the emails look like. They are located in the system administration under:<br>
+`Administration > Core functions > E-mail`
+
+The page has two segments: "Settings" with the specifications for the email address and the OpenOlat inbox, and "E-mail template" with the appearance of the emails sent.
 
 ## User email address [:octicons-tag-16:{ title="from Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
 In the section "User email address" you define which limitations apply to the email address of the users. Below each of the two options, a link states the number of accounts without an email address or without a unique one. The link opens the list of these accounts in the user management. If the email address or its uniqueness is optional, several OpenOlat features are not available, for example self registration, Vitero and WebDAV.
 
-![Mandatory and Unique switched off, one link each counts the affected accounts: section User email address](assets/email_EN.png){ class="shadow lightbox" title="Section User email address" }
+![Below Mandatory and Unique, one link each counts the affected accounts and opens their list](assets/e-mail_settings_email_address_v1_en.png){ class="shadow lightbox" title="Section User email address in the segment Settings · 2026.11.26" }
 
 ### Mandatory
 
-If this option is *not* activated, it means that the email address is optional for an account. However, this will lead to limitations, as OpenOlat is set up for every person having an email address. The following limitations occur (list is not exhaustive):
+If this option is *not* activated, it means that the email address is optional for an account. However, this will lead to limitations, as OpenOlat is set up for every person having an email address. For accounts without an email address, the following limitations occur (list is not exhaustive):
 
   * No real emails are sent.
   * No notifications are sent.
@@ -26,36 +29,36 @@ If this option is not activated, it means that several accounts can have the sam
 
 !!! warning "Attention"
 
-    In both cases either no emails or no unique emails can be sent. Therefore we strongly recommend activating the internal OpenOlat inbox! Otherwise unexpected errors may occur!
+    If the email address is optional or not unique, an email does not reach every person via their email address. Therefore activate the internal [OpenOlat inbox](#e-mail-inbox-and-outbox): there every person receives their emails even without an email address of their own.
 
 ## E-mail inbox and outbox {: #e-mail-inbox-and-outbox}
 
 OpenOlat has an internal inbox that lists all emails sent and received in OpenOlat in the personal inbox of each person: [User tools: E-Mail](../../manual_user/personal_menu/E-Mail.md). The OpenOlat inbox is an optional component.
 
-### Enable the OpenOlat inbox
+### Enable your OpenOlat e-mail inbox
 
   * If the OpenOlat inbox is switched off, all emails created in OpenOlat are sent exclusively to the personal email address. The OpenOlat inbox is not visible in the user tools.
   * If the OpenOlat inbox is switched on, all received and sent emails are listed in the personal inbox of each person.
 
-Under "Standard settings for e-mail sending" you define the default behaviour as a system administrator:
+Under "Standard settings for e-mail sending" you define the default behaviour as a system administrator. You can change the selection when "Enable your OpenOlat e-mail inbox" is selected. The options are:
 
-  * "Send e-mails to the internal OLAT inbox"
-  * "Send e-Mails to the internal OLAT inbox and the personal e-mail address"
+  * "Send e-mails to the internal OpenOlat inbox"
+  * "Send e-mails to the internal OpenOlat inbox and the personal e-mail address"
 
-In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
+In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails: `Personal menu > System settings > Tab "System"`. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
 
 Independently of both settings, every person forwards single messages from the inbox to their own address: [User tools: E-Mail](../../manual_user/personal_menu/E-Mail.md#forward).
 
 ### Inbox and outbox [:octicons-tag-16:{ title="from Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
 
-For the inbox and the outbox you define separately what a person sees about the other recipients of an email. The same two switches are available in both areas:
+For the inbox and the outbox you define separately what a person sees about the other recipients of an email. The same two checkboxes are available in both areas:
 
   * "Show the name of the recipient"
   * "Show e-mail address"
 
 ## E-mail template {: #template}
 
-OpenOlat sends emails for various events. To make the emails look more attractive, they are sent as HTML emails including formatting. Using the email template you modify the general appearance of the emails.
+OpenOlat sends emails for various events, as HTML emails with formatting. With the email template you adapt the general appearance of these emails, for example to the corporate design of your organisation.
 
 The email template applies to all emails and controls only their appearance, not their text. You define the text of an individual email where the email originates: [Texts of individual emails](#mail_texts).
 
@@ -88,7 +91,7 @@ You adapt the text with the language adaptation tool in the system administratio
 
 The guide [How do I use the language adaptation tool?](../../manual_how-to/language_adaption_tool/language_adaption_tool.md) shows step by step how to find the translation key for a text and how to change its value.
 
-The obstacle is not the tool, but finding the translation key: the mail texts are spread over the packages of all functions that send emails. If you do not find the matching translation key, contact the support of your OpenOlat instance. There you find out in which package the translation key is located and what it is called.
+The obstacle is not the tool, but finding the translation key: the mail texts are spread over the packages of all functions that send emails. The quickest way is the [search of the language adaptation tool](../../manual_how-to/language_adaption_tool/language_adaption_tool.md#search_in_key_or_translation): enter a word from the mail text as "Search term", select the options "Translation" (searches the text instead of the key) and "Language" (searches all texts, including those not yet adapted) under "search in", and the entry "All packages" in the list of packages.
 
 ## E-Mail signature [:octicons-tag-16:{ title="from Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
@@ -113,16 +116,16 @@ What a property and a context are is explained in the section [User properties](
 	<img src="../assets/e-mail_settings_activate2_v2_en.png" alt="Link Edit in the row org.olat.user.ProfileFormController opens the property list of this context" class="shadow lightbox" title="Tab Contexts on the page User Properties · 2026.10.20" />
 </details>
 
-In the dialog "edit Context", switch on the switch in the column "include" in the row "emailSignature". Only then is the field available in the profile.
+In the dialog "Edit context", switch on the switch in the column "Include" in the row "emailSignature". Only then is the field available in the profile.
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/e-mail_settings_activate3_v2_en.png" alt="Switched-on include switch in the row emailSignature releases the field for the personal profile" class="shadow lightbox" title="Dialog edit Context · 2026.10.20" />
+	<img src="../assets/e-mail_settings_activate3_v2_en.png" alt="Switched-on Include switch in the row emailSignature releases the field for the personal profile" class="shadow lightbox" title="Dialog Edit context · 2026.10.20" />
 </details>
 
-We recommend switching on only "include" in this row. "Mandatory", "Admin only" and "User: readonly" stay off: this way every person enters their signature voluntarily and changes it themselves. This setting corresponds to the system configuration.
+We recommend switching on only "Include" in this row. "Mandatory", "Admin only" and "User: readonly" stay off: this way every person enters their signature voluntarily and changes it themselves. This setting corresponds to the system configuration.
 
-![Only include switched on, Mandatory, Admin only and User: readonly switched off in the row emailSignature](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog edit Context" }
+![Only Include switched on, Mandatory, Admin only and User: readonly switched off in the row emailSignature](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" title="Dialog Edit context" }
 
 ## Further information {: #further_information}
 
@@ -132,7 +135,7 @@ We recommend switching on only "include" in this row. "Mandatory", "Admin only" 
 [Course Reminders >](../../manual_user/learningresources/Course_Reminders.md)<br>
 [Course Element "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.md)<br>
 [Set up a test >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.md)<br>
-[Course Element "Task" >](../../manual_user/learningresources/Course_Element_Task/index.md)<br>
+[Set up a task >](../../manual_user/learningresources/Course_Element_Task/Task_Setup.md)<br>
 [Test: Correction workflow >](../../manual_user/learningresources/Test_correction_workflow.md)<br>
 [Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Members management >](../../manual_user/learningresources/Members_management.md)<br>
@@ -140,7 +143,12 @@ We recommend switching on only "include" in this row. "Mandatory", "Admin only" 
 [Life cycles - Overview >](Life_cycles_-_Administration/index.md)<br>
 [Automatic Group Life Cycle >](Automatic_Group_Lifecycle.md)<br>
 [How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
-[Profile >](../../manual_user/personal_menu/Profile/index.md)<br>
+[Personal Configuration: Profile >](../../manual_user/personal_menu/Profile/index.md)<br>
 [Customizing: Overview >](Customizing.md)
+
+**Further reading**<br>
+[Core functions: Overview >](Core_functions/index.md)<br>
+[Self-registration >](Login_Self-Registration.md)<br>
+[WebDAV >](WebDAV.md)
 
 [To the top of the page ^](#email_settings)

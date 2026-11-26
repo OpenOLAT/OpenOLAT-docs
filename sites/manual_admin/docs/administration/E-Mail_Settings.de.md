@@ -1,16 +1,19 @@
 # E-Mail Einstellungen {: #email_settings}
 
-Die E-Mail Einstellungen liegen in der System-Administration unter: `Administration > Core-Konfiguration > E-Mail`. Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
+In den E-Mail Einstellungen legen Sie fest, ob jedes Konto eine eindeutige E-Mail-Adresse braucht, wohin OpenOlat E-Mails zustellt und wie die E-Mails aussehen. Sie liegen in der System-Administration unter:<br>
+`Administration > Core-Konfiguration > E-Mail`
+
+Die Seite hat zwei Segmente: "Einstellungen" mit den Vorgaben zur E-Mail-Adresse und zum OpenOlat Postfach, und "E-Mail Vorlage" mit dem Aussehen der versendeten E-Mails.
 
 ## E-Mail Adresse [:octicons-tag-16:{ title="ab Release 12.2 (OO-2981)" }](https://track.frentix.com/issue/OO-2981) {: #email_address}
 
 Im Abschnitt "E-Mail Adresse" definieren Sie, welche Einschränkungen für die E-Mail-Adresse der Benutzer:innen gelten. Unter jeder der beiden Optionen nennt ein Link die Anzahl der Konten ohne E-Mail-Adresse bzw. ohne eindeutige E-Mail-Adresse. Der Link öffnet die Liste dieser Konten in der Benutzerverwaltung. Sind die E-Mail-Adresse oder ihre Eindeutigkeit optional, stehen einige Funktionen von OpenOlat nicht zur Verfügung, zum Beispiel die Selbstregistrierung, Vitero und WebDAV.
 
-![Obligatorisch und Eindeutig ausgeschaltet, je ein Link zählt die betroffenen Konten: Abschnitt E-Mail Adresse](assets/Email_DE.png){ class="shadow lightbox" title="Abschnitt E-Mail Adresse" }
+![Unter Obligatorisch und Eindeutig zählt je ein Link die betroffenen Konten und öffnet ihre Liste](assets/e-mail_settings_email_address_v1_de.png){ class="shadow lightbox" title="Abschnitt E-Mail Adresse im Segment Einstellungen · 2026.11.26" }
 
 ### Obligatorisch
 
-Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass die E-Mail-Adresse für ein Konto optional ist. Dies führt jedoch zu Einschränkungen, da OpenOlat darauf ausgelegt ist, dass jede Person eine E-Mail-Adresse hinterlegt hat. Folgende Einschränkungen treten auf (Liste nicht abschliessend):
+Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass die E-Mail-Adresse für ein Konto optional ist. Dies führt jedoch zu Einschränkungen, da OpenOlat darauf ausgelegt ist, dass jede Person eine E-Mail-Adresse hinterlegt hat. Für Konten ohne E-Mail-Adresse treten folgende Einschränkungen auf (Liste nicht abschliessend):
 
   * Es werden keine realen E-Mails versendet.
   * Es werden keine Benachrichtigungen versendet.
@@ -26,7 +29,7 @@ Wenn diese Option nicht aktiviert ist, bedeutet dies, dass mehrere Konten diesel
 
 !!! warning "Achtung"
 
-    In beiden Fällen können entweder keine oder keine eindeutigen E-Mails verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
+    Ist die E-Mail-Adresse optional oder nicht eindeutig, erreicht eine E-Mail nicht jede Person über ihre E-Mail-Adresse. Aktivieren Sie deshalb das interne [OpenOlat Postfach](#e-mail-inbox-and-outbox): Dort erhält jede Person ihre E-Mails auch ohne eigene E-Mail-Adresse.
 
 ## E-Mail-Postfach und Versand {: #e-mail-inbox-and-outbox}
 
@@ -37,25 +40,25 @@ OpenOlat verfügt über ein internes Postfach, das alle in OpenOlat gesendeten u
   * Ist das OpenOlat Postfach ausgeschaltet, so werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse versandt. Das OpenOlat Postfach ist in den persönlichen Werkzeugen nicht sichtbar.
   * Ist das OpenOlat Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im persönlichen Postfach jeder Person aufgelistet.
 
-Unter "Standardeinstellung für E-Mail Versand" legen Sie als Systemadministrator:in das Standardverhalten fest:
+Unter "Standardeinstellung für E-Mail Versand" legen Sie als Systemadministrator:in das Standardverhalten fest. Die Auswahl lässt sich ändern, wenn "OpenOlat Postfach aktivieren" gewählt ist. Zur Wahl stehen:
 
   * "E-Mails an das interne OpenOlat Postfach zustellen"
   * "E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail Adresse zustellen"
 
-Jede Person kann zudem in ihren persönlichen [Einstellungen](../../manual_user/personal_menu/Settings.de.md#mail_delivery) unter "E-Mail Versand" selbst festlegen, wohin OpenOlat ihre E-Mails zustellt. Diese eigene Wahl überschreibt Ihre Standardeinstellung. Die Standardeinstellung gilt nur für die Personen, die selbst noch keine Wahl getroffen haben. Ohne gültige E-Mail-Adresse im Profil findet in keinem Fall eine Zustellung nach aussen statt.
+Jede Person kann zudem in ihren persönlichen [Einstellungen](../../manual_user/personal_menu/Settings.de.md#mail_delivery) unter "E-Mail Versand" selbst festlegen, wohin OpenOlat ihre E-Mails zustellt: `Persönliches Menü > Einstellungen > Tab "System"`. Diese eigene Wahl überschreibt Ihre Standardeinstellung. Die Standardeinstellung gilt nur für die Personen, die selbst noch keine Wahl getroffen haben. Ohne gültige E-Mail-Adresse im Profil findet in keinem Fall eine Zustellung nach aussen statt.
 
 Unabhängig von beiden Einstellungen leitet jede Person einzelne Nachrichten aus dem Postfach an ihre eigene Adresse weiter: [Persönliche Werkzeuge: E-Mail](../../manual_user/personal_menu/E-Mail.de.md#forward).
 
 ### Posteingang und Postausgang [:octicons-tag-16:{ title="ab Release 12.2 (OO-2982)" }](https://track.frentix.com/issue/OO-2982)
 
-Für den Posteingang und den Postausgang legen Sie getrennt fest, was eine Person über die weiteren Empfänger:innen einer E-Mail sieht. In beiden Bereichen stehen dieselben zwei Schalter zur Verfügung:
+Für den Posteingang und den Postausgang legen Sie getrennt fest, was eine Person über die weiteren Empfänger:innen einer E-Mail sieht. In beiden Bereichen stehen dieselben zwei Kontrollkästchen zur Verfügung:
 
   * "Namen der Empfänger anzeigen"
   * "E-Mail Adressen anzeigen"
 
 ## E-Mail Vorlage {: #template}
 
-OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails attraktiver zu gestalten, werden diese als HTML-Mails inklusive Formatierung versendet. Mit der E-Mail Vorlage passen Sie das allgemeine Aussehen der E-Mails an.
+OpenOlat versendet für verschiedene Ereignisse E-Mails, und zwar als HTML-Mails mit Formatierung. Mit der E-Mail Vorlage passen Sie das allgemeine Aussehen dieser E-Mails an, etwa an das Erscheinungsbild Ihrer Organisation.
 
 Die E-Mail Vorlage gilt für alle E-Mails und steuert nur deren Aussehen, nicht deren Text. Den Text einer einzelnen E-Mail legen Sie dort fest, wo die E-Mail entsteht: [Texte einzelner E-Mails](#mail_texts).
 
@@ -88,7 +91,7 @@ Anpassen lässt sich der Text mit dem Sprachanpassungswerkzeug in der System-Adm
 
 Die Anleitung [Wie verwende ich das Sprachanpassungswerkzeug?](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md) zeigt Schritt für Schritt, wie Sie den Übersetzungsschlüssel zu einem Text finden und seinen Wert ändern.
 
-Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden des Übersetzungsschlüssels: Die Mailtexte verteilen sich über die Pakete aller Funktionen, die E-Mails versenden. Wenn Sie den passenden Übersetzungsschlüssel nicht finden, wenden Sie sich an den Support Ihrer OpenOlat-Instanz. Dort erfahren Sie, in welchem Paket der Übersetzungsschlüssel liegt und wie er heisst.
+Die Hürde liegt dabei nicht im Werkzeug, sondern im Auffinden des Übersetzungsschlüssels: Die Mailtexte verteilen sich über die Pakete aller Funktionen, die E-Mails versenden. Am schnellsten führt die [Suche des Sprachanpassungswerkzeugs](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md#search_in_key_or_translation) zum Ziel: Geben Sie ein Wort aus dem Mailtext als "Suchbegriff" ein, wählen Sie bei "suchen in" die Optionen "Übersetzung" (durchsucht den Text statt des Schlüssels) und "Sprache" (durchsucht alle Texte, auch noch nicht angepasste) und in der Liste der Pakete den Eintrag "Alle Pakete".
 
 ## E-Mail Signatur [:octicons-tag-16:{ title="ab Release 18.0 (OO-6616)" }](https://track.frentix.com/issue/OO-6616) {: #signature}
 
@@ -132,7 +135,7 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Erinnerungen >](../../manual_user/learningresources/Course_Reminders.de.md)<br>
 [Kursbaustein "E-Mail" >](../../manual_user/learningresources/Course_Element_EMail.de.md)<br>
 [Test einrichten >](../../manual_user/learningresources/Course_Element_Test/Test_Setup.de.md)<br>
-[Kursbaustein "Aufgabe" >](../../manual_user/learningresources/Course_Element_Task/index.de.md)<br>
+[Aufgabe einrichten >](../../manual_user/learningresources/Course_Element_Task/Task_Setup.de.md)<br>
 [Test: Korrektur-Workflow >](../../manual_user/learningresources/Test_correction_workflow.de.md)<br>
 [Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Mitgliederverwaltung >](../../manual_user/learningresources/Members_management.de.md)<br>
@@ -142,5 +145,10 @@ Empfohlen ist, in dieser Zeile nur "Verwenden" einzuschalten. "Zwingend", "Nur A
 [Wie verwende ich das Sprachanpassungswerkzeug? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.de.md)<br>
 [Persönliche Konfiguration: Profil >](../../manual_user/personal_menu/Profile/index.de.md)<br>
 [Customizing: Übersicht >](Customizing.de.md)
+
+**Weiterführend**<br>
+[Core-Konfiguration: Übersicht >](Core_functions/index.de.md)<br>
+[Selbstregistration >](Login_Self-Registration.de.md)<br>
+[WebDAV >](WebDAV.de.md)
 
 [Zum Seitenanfang ^](#email_settings)
