@@ -13,7 +13,7 @@ Specialty / Note |
 
 
 
-Using the course element "Form" you can add the learning resource form to a course. The form works similar to the [course element "Survey"](../learningresources/Course_Element_Survey.md) and can also be filled out only once. However, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
+Using the course element "Form" you can add the learning resource form to a course. The form works similarly to the [course element "Survey"](../learningresources/Course_Element_Survey.md) and is filled out once by default (see [Filling out the form multiple times](#multiple_execution)). Unlike with the survey, OpenOlat assigns the answers to the name of the person.
 
 In the tab "Form" you can set a deadline for filling out the form. A [Course Reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants can receive a confirmation e-mail with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form, if the [confirmation e-mail](#confirmation_email) is switched on for them.
 

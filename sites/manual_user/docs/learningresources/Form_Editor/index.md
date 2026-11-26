@@ -33,7 +33,7 @@ In a course, you integrate a form learning resource via the course element "Form
 
 ![Course element Form still without a form, highlighted are the element in the course menu, the tab Form and the button Choose, create or import](../assets/form_open_editor3_v2_en.png){ class="shadow lightbox" title="Tab Form of a course element in the course editor · 2026.10.21" }
 
-Once a form is integrated, the button "Edit" in the tab "Form" opens the form editor. You open the form editor from other course elements in the same way, for example from the [course element "Survey"](../Course_Element_Survey.md).
+Once a form is integrated, the button "Edit learning resource" in the tab "Form" opens the form learning resource in the view for filling it out, not yet the form editor. There, select the entry "Form editor" in the menu "Administration": `Administration > Form editor`. For the [course element "Survey"](../Course_Element_Survey.md), you find the button in the tab "Survey".
 
 You recognise the open form editor by the hatched header, the toolbar with "Administration" and "Question rules" below the bread-crumb navigation. The hatching shows that you are editing the form and not seeing the view in which it is filled out. The course editor, the test editor and the editor of a CP learning content carry the same marking. [:octicons-tag-16:{ title="from Release 21.1 (OO-9789)" }](https://track.frentix.com/issue/OO-9789){:target="_blank"}
 

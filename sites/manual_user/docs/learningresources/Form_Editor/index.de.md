@@ -33,7 +33,7 @@ Im Kurs binden Sie eine Formular-Lernressource über den Kursbaustein "Formular"
 
 ![Kursbaustein Formular noch ohne Formular, markiert sind der Baustein im Kursmenü, der Tab Formular und der Button Wählen, erstellen oder importieren](../assets/form_open_editor3_v2_de.png){ class="shadow lightbox" title="Tab Formular eines Kursbausteins im Kurseditor · 2026.10.21" }
 
-Ist ein Formular eingebunden, öffnet der Button "Bearbeiten" im Tab "Formular" den Formulareditor. Ebenso öffnen Sie den Formulareditor aus anderen Kursbausteinen, etwa aus dem [Kursbaustein "Umfrage"](../Course_Element_Survey.de.md).
+Ist ein Formular eingebunden, öffnet der Button "Lernressource bearbeiten" im Tab "Formular" die Formular-Lernressource in der Ansicht zum Ausfüllen, noch nicht den Formulareditor. Dort wählen Sie im Menü "Administration" den Eintrag "Formulareditor": `Administration > Formulareditor`. Beim [Kursbaustein "Umfrage"](../Course_Element_Survey.de.md) finden Sie den Button im Tab "Umfrage".
 
 Den geöffneten Formulareditor erkennen Sie an der schraffierten Kopfzeile, der Werkzeugleiste mit "Administration" und "Frageregeln" unter der Krümelnavigation. Die Schraffur zeigt, dass Sie das Formular bearbeiten und nicht die Ansicht sehen, in der es ausgefüllt wird. Dieselbe Kennzeichnung tragen der Kurseditor, der Testeditor und der Editor eines CP-Lerninhalts. [:octicons-tag-16:{ title="ab Release 21.1 (OO-9789)" }](https://track.frentix.com/issue/OO-9789){:target="_blank"}
 

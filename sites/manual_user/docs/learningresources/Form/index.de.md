@@ -4,7 +4,7 @@ Mit einem Formular sammeln Sie in OpenOlat Angaben, Meinungen und Bewertungen, z
 
 * als klassische Formulare (mit Auswahlfeldern oder Freitexteingaben)
 * für Online-Umfragen
-* als Rubrik-Bewertung
+* als Rubrik-Bewertung, die Leistungen nach festen Kriterien in Stufen bewertet
 * zur Selbsteinschätzung
 * oder beim Buchen von Angeboten im Course Planner
 
@@ -15,25 +15,29 @@ Name | Formular
 Icon | :o_icon_o_FileResource-FORM_icon:
 Verfügbar seit | Release 11.2 (OO-2329)
 Zweck | Angaben, Meinungen und Bewertungen sammeln
-Im Kurs | Kursbausteine "Formular" und "Umfrage", als Rubrik auch in "Bewertung", "Aufgabe" und "Gruppenaufgabe"
+Im Kurs | Kursbausteine "Formular" und "Umfrage", als Rubrik auch in "Bewertung" und "Aufgabe"
 
 ## Aufbau und Einsatz {: #structure}
 
-Ein Formular ist in OpenOlat eine eigene Lernressource, die Sie im Autorenbereich anlegen und danach an verschiedenen Orten einsetzen. Den [Formulareditor](../Form_Editor/index.de.md) öffnen Sie im Autorenbereich oder mit dem Button "Bearbeiten" direkt aus einem Kursbaustein, der das Formular einbindet. Im Editor bauen Sie das Formular aus Layouts auf, die Spalten und Zeilen der Seite festlegen. In die Layouts fügen Sie [Elemente](../Form_Elements/index.de.md) ein, etwa Texte und Fragen, mit [Frageregeln](../Form_Question_Rules.de.md) verzweigen Sie das Formular.
+Ein Formular ist in OpenOlat eine eigene Lernressource, also ein Inhaltsobjekt, das Sie im Autorenbereich verwalten und an verschiedenen Orten einsetzen. Als Autor:in legen Sie es im Autorenbereich an: `Autorenbereich > Erstellen > Formular`. Wer ein Formular anlegt, ist Besitzer:in der Formular-Lernressource. Bearbeiten können es Besitzer:innen, Lernressourcenverwalter:innen und Administrator:innen.
+
+Den [Formulareditor](../Form_Editor/index.de.md) öffnen Sie im Autorenbereich oder aus einem Kurs, in dem ein Kursbaustein das Formular einbindet. Im Kurs öffnen Sie dazu den Kurseditor: `Kurs > Administration > Kurseditor`. Im Tab "Formular" des Kursbausteins "Formular" klicken Sie auf "Lernressource bearbeiten", beim Kursbaustein "Umfrage" im Tab "Umfrage". Der Button öffnet die Formular-Lernressource. Dort wählen Sie im Menü "Administration" den Eintrag "Formulareditor": `Formular > Administration > Formulareditor`.
+
+Im Editor bauen Sie das Formular aus Layouts auf, die Spalten und Zeilen der Seite festlegen. In die Layouts fügen Sie [Elemente](../Form_Elements/index.de.md) ein, etwa Texte und Fragen. Mit [Frageregeln](../Form_Question_Rules.de.md) legen Sie fest, dass ein Bereich des Formulars erst erscheint, wenn die ausfüllende Person eine bestimmte Antwort gewählt hat.
 
 !!! info "Wichtig"
 
-    Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Das Konzept dahinter erklärt die Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md).
+    Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Wie beide zusammenspielen, erklärt die Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md#step2) im Abschnitt "Kursbaustein und Lernressource".
 
-Antworten sammelt ein Formular dort, wo Sie es einsetzen: in einem Kurs, in einer Portfolio 2.0 Vorlage oder beim Buchen im Course Planner (siehe [Einsatzorte](#usage)). Öffnen Sie die Formular-Lernressource direkt, etwa mit einem Klick auf ihren Titel im Autorenbereich, können Sie das Formular ansehen und zum Ausprobieren ausfüllen. Speichern und einreichen lässt es sich dort nicht. Wer Antworten sammeln will, setzt das Formular an einem dieser Orte ein, meist in einem Kurs, siehe [Formulare in Kursen](../Forms_in_Courses.de.md).
+Antworten sammelt ein Formular dort, wo Sie es einsetzen: in einem Kurs, in einer Portfolio 2.0 Vorlage oder beim Buchen im Course Planner (siehe [Einsatzorte](#usage)). Beim Buchen im Course Planner holt das Formular die Angaben direkt beim Buchen eines Angebots ein, ganz ohne Kurs. Öffnen Sie die Formular-Lernressource direkt, etwa mit einem Klick auf ihren Titel im Autorenbereich, sehen Sie das Formular und können es zum Ausprobieren ausfüllen. Ihre Antworten speichert OpenOlat dort nicht, und einreichen lässt sich das Formular nicht. Wer Antworten sammeln will, setzt das Formular an einem der Einsatzorte ein, meist in einem Kurs, siehe [Formulare in Kursen](../Forms_in_Courses.de.md).
 
 ## Seiten zur Formular-Lernressource {: #pages}
 
 Diese Seiten beschreiben die Formular-Lernressource selbst, in der Reihenfolge der Navigation:
 
-Seite | Wozu
+Thema | Wozu
 ---------|----------
-[Formulareditor](../Form_Editor/index.de.md) | Die drei Wege in den Editor, auch aus einem Kursbaustein, und der Aufbau eines Formulars aus Layouts und Elementen.
+[Formulareditor](../Form_Editor/index.de.md) | Wie Sie den Editor öffnen, auch aus einem Kursbaustein, und wie Sie ein Formular aus Layouts und Elementen aufbauen.
 [Elemente](../Form_Elements/index.de.md) | Alle Inhaltselemente und Fragetypen, die Sie in ein Layout einfügen, mit ihren Einstellungen.
 [Rubrik](../Form_Element_Rubric.de.md) | Mehrere Fragen auf derselben Bewertungsskala beantworten oder bewerten lassen.
 [Frageregeln](../Form_Question_Rules.de.md) | Einen Bereich des Formulars nur anzeigen, wenn er zur gewählten Antwort passt.
@@ -45,11 +49,11 @@ An diesen Orten setzen Sie ein Formular ein. Beschrieben sind sie im Handbuch be
 
 Einsatzort | Wozu
 ---------|----------
-[Kursbaustein "Formular"](../Course_Element_Form.de.md) | Teilnehmende füllen ein Formular einmal aus, standardmässig mit ihrem Namen, etwa als Bestätigung vor einem Laborpraktikum.
-[Kursbaustein "Umfrage"](../Course_Element_Survey.de.md) | Die Mitglieder eines Kurses beantworten einen Online-Fragebogen, etwa zur Zufriedenheit; die Resultate speichert OpenOlat standardmässig anonymisiert.
+[Kursbaustein "Formular"](../Course_Element_Form.de.md) | Teilnehmende füllen ein Formular standardmässig einmal aus, etwa als Bestätigung vor einem Laborpraktikum; OpenOlat ordnet die Antworten ihrem Namen zu.
+[Kursbaustein "Umfrage"](../Course_Element_Survey.de.md) | Die Mitglieder eines Kurses beantworten einen Online-Fragebogen, etwa zur Zufriedenheit; die Resultate speichert OpenOlat anonymisiert.
 [Rubrik-Bewertung](../Forms_in_Rubric_Scoring.de.md) | Betreuer:innen und Kursbesitzer:innen bewerten im Kursbaustein "Bewertung" Leistungen nach festen Kriterien mit einer Rubrik.
 [Peer-Review in der Aufgabe](../Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric) | Teilnehmende einer Aufgabe beurteilen ihre Abgaben gegenseitig mit einem Rubrik-Formular.
-[Portfolio 2.0 Vorlage](../Forms_in_the_ePortfolio_template.de.md) | Teilnehmende reflektieren in einer Portfolio-Aufgabe ihre Arbeit oder schätzen ihre Leistung ein.
+[Portfolio 2.0 Vorlage](../Forms_in_the_ePortfolio_template.de.md) | Teilnehmende reflektieren in einer Aufgabe der Vorlage ihre Arbeit oder schätzen ihre Leistung ein.
 [Buchungsaufträge im Course Planner](../../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} | Beim Buchen eines Angebots holt ein Formular zusätzliche Angaben ein, etwa Essenswünsche oder Vorkenntnisse.
 
 

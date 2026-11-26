@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md) und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standardeinstellung).
+Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md) und wird standardmässig einmal ausgefüllt (siehe [Mehrfaches Ausfüllen des Formulars](#multiple_execution)). Anders als bei der Umfrage ordnet OpenOlat die Antworten dem Namen der Person zu.
 
 Im Tab "Formular" legen Sie bei Bedarf einen Abgabetermin für das Ausfüllen fest. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein können die Teilnehmenden bei Abgabe des ausgefüllten Formulars eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang erhalten, wenn die [E-Mail Bestätigung](#confirmation_email) für sie eingeschaltet ist.
 
