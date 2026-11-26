@@ -53,7 +53,7 @@ If assessments already exist for the course element, OpenOlat displays the setti
 
 #### SCORM {: #scorm }
 
-Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package from your entries. You import SCORM packages not only in the course editor but also in the authoring area. If you haven't yet selected a ZIP file as SCORM learning content, the message _No SCORM 1.2 selected_ will appear next to the field "SCORM".
+Select or import SCORM content. Click "Select or import" to upload a new SCORM package, or select an existing SCORM package, for example under "My SCORM packages". You import SCORM packages not only in the course editor but also in the authoring area. If you haven't yet selected a SCORM package (a ZIP file), the message "No SCORM 1.2 selected" will appear next to the field "SCORM".
 
 !!! note "Import"
     How to import learning resources in the authoring area is described in the section [Actions in Authoring > Import](../area_modules/authoring_new_course.md#import-learning-resources).
@@ -141,7 +141,7 @@ In the drop-down menu, you define how many attempts are allowed for this SCORM c
 
 In the "Display content" tab, you determine how OpenOlat presents the SCORM content in the course. In the display mode "Standard", the fields "Embed Javascript library", "Embed glossary terms" and "Adapt layout" cannot be selected; they only take effect in the mode "Optimized for OpenOlat".
 
-If a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up, OpenOlat delivers the content through it. Scripts in the content therefore have no access to the OpenOlat session. The SCORM package runs with full JavaScript. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+If a [content domain](../basic_concepts/Content_Domain.md) (separate address for content) is set up in the server configuration, OpenOlat delivers the content through it, in both display modes. You do not set anything for this in this tab. Scripts in the content therefore have no access to the OpenOlat session, that is the login of the person who opens the content. The SCORM package works with all its scripts. [:octicons-tag-16:{ title="from Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
 
 ![Display mode Standard selected, Javascript, glossary and layout therefore not selectable, display height and content character set set to automatic](assets/course_element_scorm_tab_display_content_v3_en.png){ class="shadow lightbox" title="Tab Display content in the course editor · 2026.10.08" }
 
@@ -173,7 +173,7 @@ Select this option so that OpenOlat can highlight glossary terms in the content 
 
 #### Display height {: #display_height }
 
-In this drop-down menu, you set the height of the content display area: "Automatic" adjusts it to the current window height, or you select a fixed value. The setting "Automatic" works better when Javascript is embedded.
+In this drop-down menu, you set the height of the content display area: "Automatic" adjusts it to the current window height, or you select a fixed value. The setting "Automatic" works better when JavaScript is embedded.
 
 #### Adapt layout {: #adapt_layout }
 

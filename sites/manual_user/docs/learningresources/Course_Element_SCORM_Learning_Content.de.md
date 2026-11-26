@@ -52,7 +52,7 @@ Sind für den Kursbaustein bereits Bewertungen vorhanden, zeigt OpenOlat die Ein
 
 #### SCORM {: #scorm }
 
-Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete importieren Sie nicht nur im Kurseditor, sondern auch im Autorenbereich. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Feld "SCORM" die Meldung _Kein SCORM 1.2 ausgewählt_.
+Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Auswählen oder importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus, zum Beispiel unter "Meine SCORM-Pakete". SCORM-Pakete importieren Sie nicht nur im Kurseditor, sondern auch im Autorenbereich. Wenn Sie noch kein SCORM-Paket (eine ZIP-Datei) ausgewählt haben, erscheint beim Feld "SCORM" die Meldung "Kein SCORM 1.2 ausgewählt".
 
 !!! note "Importieren"
     Wie Sie Lernressourcen im Autorenbereich importieren, beschreibt der Abschnitt [Aktionen im Autorenbereich > Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren).
@@ -94,7 +94,7 @@ Besteht ein SCORM-Lerninhalt aus mehreren SCO, zeigt OpenOlat mit dieser Option 
 
 Mit dieser Option startet der SCORM-Inhalt sofort, sobald Teilnehmende den Kursbaustein im Kursmenü wählen. Ohne diese Option zeigt OpenOlat zuerst eine Startseite.
 
-#### Modul automatisch schliessen wenn beendet {: #close_module_on_finish }
+#### Modul automatisch schliessen, wenn beendet {: #close_module_on_finish }
 
 OpenOlat schliesst den SCORM-Lerninhalt automatisch, sobald er beendet ist, und die Benutzer:innen kehren in die Kursansicht zurück.
 
@@ -140,7 +140,7 @@ Im Drop-down-Menü legen Sie fest, wie viele Lösungsversuche für diesen SCORM-
 
 Im Tab "Anzeige Inhalt" bestimmen Sie, wie OpenOlat den SCORM-Inhalt im Kurs darstellt. Im Anzeigemodus "Standard" sind die Felder "JavaScript hinzufügen", "Glossarbegriffe einbinden" und "Layout anpassen" nicht wählbar, sie greifen erst im Modus "Optimiert für OpenOlat".
 
-Ist eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet, liefert OpenOlat den Inhalt darüber aus. Skripte im Inhalt erhalten so keinen Zugriff auf die OpenOlat-Sitzung. Das SCORM-Paket läuft dabei mit vollem JavaScript. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
+Ist in der Serverkonfiguration eine [Inhaltsdomäne](../basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) eingerichtet, liefert OpenOlat den Inhalt darüber aus, in beiden Anzeigemodi. In diesem Tab stellen Sie dafür nichts ein. Skripte im Inhalt erhalten so keinen Zugriff auf die OpenOlat-Sitzung, also auf die Anmeldung der Person, die den Inhalt öffnet. Das SCORM-Paket funktioniert dabei mit allen seinen Skripten. [:octicons-tag-16:{ title="ab Release 21.0 (OO-7612)" }](https://track.frentix.com/issue/OO-7612){:target="_blank"}
 
 ![Anzeigemodus Standard gewählt, JavaScript, Glossar und Layout dadurch nicht wählbar, Höhe und Zeichensatz Inhalt auf Automatisch](assets/course_element_scorm_tab_display_content_v3_de.png){ class="shadow lightbox" title="Tab Anzeige Inhalt im Kurseditor · 2026.10.08" }
 
@@ -184,7 +184,7 @@ OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Führt die Option "A
 
 #### Zeichensatz Javascript {: #javascript_character_set }
 
-Hier wählen Sie einen vordefinierten Zeichensatz für den Javascript-Code. Standardmässig gilt derselbe Zeichensatz wie für den Inhalt.
+Hier wählen Sie einen vordefinierten Zeichensatz für den JavaScript-Code. Standardmässig gilt derselbe Zeichensatz wie für den Inhalt.
 
 !!! note "Hinweis"
 

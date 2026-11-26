@@ -109,7 +109,7 @@ The document pool is also displayed in the File Hub as a folder in which differe
 [To the top of the page ^](#folders)
 
 
-## View {: #view}
+## View [:octicons-tag-16:{ title="from Release 19.0 (OO-7490)" }](https://track.frentix.com/issue/OO-7490){:target="_blank"} {: #view}
 
 Use the buttons "Folder" and "Files" above the list to switch between the hierarchical view with folders and the pure file view. In the file view, the filter tabs "From me" and "For me" are also available.
 
@@ -137,7 +137,7 @@ The search function in folders searches for
 in the current folder and its subfolders. It is not a full-text search, i.e. no search within Word files, for example.
 
 
-## File status {: #status}
+## File status [:octicons-tag-16:{ title="from Release 19.0 (OO-7492)" }](https://track.frentix.com/issue/OO-7492){:target="_blank"} {: #status}
 
 Whether someone is currently editing a file or whether it is locked, you see in the column "File status". If the column is not visible, show it using the gear icon.
 
@@ -158,7 +158,7 @@ To move, copy, download, pack (zip) or delete files, open the menu under the thr
 
 You also drag files with the mouse onto a highlighted target field using Drag & Drop.
 
-### Multi-file upload
+### Multi-file upload [:octicons-tag-16:{ title="from Release 19.0 (OO-7578)" }](https://track.frentix.com/issue/OO-7578){:target="_blank"}
 
 You can also select several files and drag them together onto the target field.
 
@@ -204,7 +204,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
-[Personal menu and general components >](../personal_menu/index.md)<br>
+[Personal menu >](../personal_menu/index.md)<br>
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Resource folder >](../learningresources/Resource_Folder.md)<br>
@@ -212,6 +212,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Element "Participant folder" >](../learningresources/Course_Element_Participant_Folder.md)<br>
 [Course Element "Task" >](../learningresources/Course_Element_Task/index.md)<br>
 [Course Element "Group Task" >](../learningresources/Course_Element_Grouptask.md)<br>
+[Set up a task >](../learningresources/Course_Element_Task/Task_Setup.md)<br>
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Course Settings - Tab Options >](../learningresources/Course_Settings_Options.md)<br>
 [Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>

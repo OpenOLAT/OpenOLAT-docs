@@ -109,7 +109,7 @@ Auch der Dokumentenpool ist im File Hub als Ordner angezeigt, in dem unterschied
 [Zum Seitenanfang ^](#folders)
 
 
-## Ansicht {: #view}
+## Ansicht [:octicons-tag-16:{ title="ab Release 19.0 (OO-7490)" }](https://track.frentix.com/issue/OO-7490){:target="_blank"} {: #view}
 
 Mit den Buttons "Ordner" und "Dateien" über der Liste schalten Sie um zwischen der hierarchischen Ansicht mit Ordnern und der reinen Dateiansicht. In der Dateiansicht stehen zusätzlich die Filter-Tabs "Von mir" und "Für mich" zur Verfügung.
 
@@ -137,7 +137,7 @@ Die Suchfunktion in Ordnern sucht nach
 im aktuellen Ordner mit seinen Unterordnern. Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
 
-## Dateistatus {: #status}
+## Dateistatus [:octicons-tag-16:{ title="ab Release 19.0 (OO-7492)" }](https://track.frentix.com/issue/OO-7492){:target="_blank"} {: #status}
 
 Ob jemand eine Datei gerade bearbeitet oder ob sie gesperrt ist, sehen Sie in der Spalte "Dateistatus". Ist die Spalte nicht sichtbar, blenden Sie sie über das Zahnrad-Icon ein.
 
@@ -158,7 +158,7 @@ Um Dateien zu verschieben, zu kopieren, herunterzuladen, zu packen (zippen) oder
 
 Dateien ziehen Sie auch per Drag & Drop mit der Maus auf ein markiertes Zielfeld.
 
-### Multi-File-Upload
+### Multi-File-Upload [:octicons-tag-16:{ title="ab Release 19.0 (OO-7578)" }](https://track.frentix.com/issue/OO-7578){:target="_blank"}
 
 Sie können auch mehrere Dateien auswählen und gemeinsam auf das Zielfeld ziehen.
 
@@ -212,6 +212,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kursbaustein "Teilnehmer:innen Ordner" >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Aufgabe einrichten >](../learningresources/Course_Element_Task/Task_Setup.de.md)<br>
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Kurseinstellungen - Tab Optionen >](../learningresources/Course_Settings_Options.de.md)<br>
 [Kurs-Administration: Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>

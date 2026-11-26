@@ -7,28 +7,28 @@ Die Inhaltsdomäne ist eine separate Adresse für Inhalte, also eine zweite Weba
 
 Eine HTML-Seite oder ein SCORM-Paket kann JavaScript enthalten. Liefert OpenOlat diesen Inhalt unter der eigenen Adresse aus, läuft das Skript mit denselben Rechten wie OpenOlat. Es könnte die OpenOlat-Sitzung der Person lesen, die den Inhalt öffnet, und in ihrem Namen handeln. Öffnet eine Person mit Administrationsrechten einen solchen Inhalt, stünde dem Skript das ganze System offen.
 
-Die Inhaltsdomäne verhindert das mit einer Regel, die jeder Browser durchsetzt, der Same-Origin-Policy: Eine Seite darf nur auf Daten derselben Adresse zugreifen. Ein Inhalt von der Inhaltsdomäne erreicht deshalb weder das Sitzungs-Cookie von OpenOlat noch die OpenOlat-Seite, in die er eingebettet ist. Das gilt auch, wenn OpenOlat den Inhalt in einem Rahmen (iframe) direkt auf der Kursseite zeigt.
+Die Inhaltsdomäne verhindert das mit einer Regel, die jeder Browser durchsetzt, der Same-Origin-Policy: Eine Seite darf nur auf Daten derselben Adresse zugreifen. Ein Inhalt von der Inhaltsdomäne erreicht deshalb weder das Sitzungs-Cookie von OpenOlat, mit dem Ihr Browser Ihre Anmeldung ausweist, noch die OpenOlat-Seite, in die er eingebettet ist. Das gilt auch, wenn OpenOlat den Inhalt in einem Rahmen (iframe) direkt auf der Kursseite zeigt.
 
 ![Skript im Rahmen der Inhaltsdomäne erreicht das Sitzungs-Cookie von OpenOlat nicht, nur eine geprüfte Nachricht](assets/content_domain_iframe_v1_de.svg){ class="shadow lightbox" title="Rahmen von der Inhaltsdomäne · 2026.11.13" }
 
 Ein schmaler Kanal bleibt offen: Der Inhalt kann OpenOlat eine Nachricht schicken, zum Beispiel "Öffne diesen Kursbaustein". OpenOlat prüft jede Nachricht, bevor es sie ausführt. So funktionieren Links aus einer HTML-Seite auf andere Teile des Kurses.
 
 ??? note "Warum genügt kein abgeschotteter Rahmen?"
-    Browser können einen Rahmen mit dem Attribut `sandbox` abschotten. Für Lerninhalte reicht das nicht. SCORM-Pakete brauchen volles JavaScript, eingebettete Videos von YouTube oder Vimeo greifen auf die umgebende Seite zu. Erlaubt der Rahmen Skripte und zugleich den Zugriff auf die Adresse der umgebenden Seite (denselben Ursprung), hebt sich die Abschottung auf. Öffnet jemand den Rahmen in einem neuen Tab, wirkt sie gar nicht mehr. Eine eigene Adresse schützt in allen diesen Fällen.
+    Browser können einen Rahmen mit dem Attribut `sandbox` abschotten. Für Lerninhalte reicht das nicht. SCORM-Pakete brauchen volles JavaScript, eingebettete Videos von YouTube oder Vimeo greifen auf die umgebende Seite zu. Erlaubt der Rahmen Skripte und behandelt der Browser ihn zugleich wie die umgebende Seite (denselben Ursprung), hebt sich die Abschottung auf. Öffnet jemand den Rahmen in einem neuen Tab, wirkt sie gar nicht mehr. Eine eigene Adresse schützt in allen diesen Fällen.
 
 [Zum Seitenanfang ^](#content_domain)
 
 
 ## Was Sie davon bemerken {: #what_you_notice}
 
-Im Alltag ändert sich für Sie nichts: Der Inhalt erscheint wie gewohnt auf der Kursseite oder in einer Lightbox, etwa eine abgegebene HTML-Datei im Kursbaustein "Aufgabe". Die Adresszeile Ihres Browsers zeigt weiterhin die OpenOlat-Adresse, denn der Inhalt läuft in einem Rahmen innerhalb der OpenOlat-Seite.
+Im Alltag bemerken Sie davon nichts: Der Inhalt erscheint wie gewohnt auf der Kursseite oder in einer Lightbox, einem Fenster über der aktuellen Seite, etwa eine abgegebene HTML-Datei im Kursbaustein "Aufgabe". Die Adresszeile Ihres Browsers zeigt weiterhin die OpenOlat-Adresse, denn der Inhalt läuft in einem Rahmen innerhalb der OpenOlat-Seite.
 
 Die Inhaltsdomäne sehen Sie nur in diesen Fällen:
 
 - Sie öffnen den Inhalt selbst oder eine darin eingebettete Datei in einem neuen Tab.
 - Sie sehen sich die Seite mit den Entwicklerwerkzeugen des Browsers an.
 
-Die abweichende Adresse ist gewollt und kein Zeichen für einen Angriff. Die Inhaltsdomäne fragt nie nach Benutzername und Passwort. Ob Ihre Instanz eine Inhaltsdomäne verwendet, erkennen Sie an genau dieser abweichenden Adresse. Im neuen Tab und nach einem Neuladen der Seite erscheint der Inhalt vollständig, mit Bildern, Formatierung und Kurslayout.
+Die abweichende Adresse ist gewollt und kein Zeichen für einen Angriff. Die Inhaltsdomäne fragt nie nach Benutzername und Passwort. Ob Ihr OpenOlat eine Inhaltsdomäne verwendet, erkennen Sie an genau dieser abweichenden Adresse. Auch im neuen Tab und nach einem Neuladen der Seite erscheint der Inhalt mit Bildern, Formatierung und Kurslayout.
 
 [Zum Seitenanfang ^](#content_domain)
 
@@ -37,26 +37,25 @@ Die abweichende Adresse ist gewollt und kein Zeichen für einen Angriff. Die Inh
 
 Viele Organisationen prüfen mit einem Webfilter, etwa in der Firewall, welche Adressen die Browser in ihrem Netz aufrufen dürfen. Blockiert der Webfilter die Inhaltsdomäne, laden alle [Inhalte, die darüber kommen](#affected_content), nicht. Meist fällt das zuerst bei einem Kursbaustein "HTML-Seite" auf, bei einer HTML-Seite als Übersicht eines Kursbausteins "Struktur" und bei Links aus solchen Seiten auf OpenOlat-Seiten.
 
-Die Informatik Ihrer Organisation gibt die Inhaltsdomäne im Webfilter frei. Welche Adresse Ihre Instanz verwendet, sehen Sie, wenn Sie einen Inhalt in einem neuen Tab öffnen. Für Instanzen, die frentix betreibt, steht die Adresse im Abschnitt [Einrichtung](#setup).
+Die Informatik Ihrer Organisation gibt die Inhaltsdomäne im Webfilter frei. Welche Adresse Ihr OpenOlat verwendet, sehen Sie, wenn Sie einen Inhalt in einem neuen Tab öffnen. Für Instanzen, die frentix betreibt, steht die Adresse im Abschnitt [Einrichtung](#setup).
 
 [Zum Seitenanfang ^](#content_domain)
 
 
 ## Welche Inhalte über die Inhaltsdomäne kommen {: #affected_content}
 
-Ist eine Inhaltsdomäne eingerichtet, liefert OpenOlat diese Inhalte darüber aus:
+Ist eine Inhaltsdomäne eingerichtet, liefert OpenOlat unter anderem diese Inhalte darüber aus:
 
 - Kursbaustein [HTML-Seite](../learningresources/Course_Element_HTML_Page.de.md), auch in der Vorschau, die ein Kursbaustein "Struktur" mit der Übersicht "Automatische Übersicht mit Vorschau" zeigt
 - Kursbaustein [CP-Lerninhalt](../learningresources/Course_Element_CP_Learning_Content.de.md)
 - Kursbaustein [SCORM 1.2](../learningresources/Course_Element_SCORM_Learning_Content.de.md)
 - Kursbaustein [Struktur](../learningresources/Course_Element_Structure.de.md) mit einer eigenen HTML-Seite als Übersicht
 - Kursbausteine [Aufgabe](../learningresources/Course_Element_Task/index.de.md) und [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md): Aufgabenstellung, abgegebene Dokumente und Musterlösung
-- Kursbaustein [Dokument](../learningresources/Course_Element_Document.de.md) mit einer HTML-Datei
 - Vorschau einer HTML-Datei, die Sie im Kurseditor auswählen, in den Kursbausteinen "HTML-Seite", "Struktur" und [Test](../learningresources/Course_Element_Test/index.de.md)
 - HTML-Dateien in [Ordnern](Folder_Concept.de.md#open_html) und in [Projekten](../area_modules/Project_Files.de.md), wenn Sie die Datei nur lesen dürfen
 - Vorschau von Zertifikaten
 - Infoseiten im Dokumentenpool und im Fragenpool
-- Impressum
+- Impressum, Nutzungsbedingungen und Datenschutzerklärung, die die Administration als HTML-Seiten hinterlegt
 
 [Zum Seitenanfang ^](#content_domain)
 
@@ -65,7 +64,7 @@ Ist eine Inhaltsdomäne eingerichtet, liefert OpenOlat diese Inhalte darüber au
 
 Kursinterne Links in HTML-Seiten, zum Beispiel auf einen anderen Kursbaustein, funktionieren auch über die Inhaltsdomäne. OpenOlat nimmt den Link als geprüfte Nachricht entgegen und öffnet das Ziel. Bestehende Seiten müssen Sie nicht anpassen.
 
-Links auf OpenOlat-Seiten, die in diesen Inhalten oder in einer im Kurs angezeigten PDF-Datei stehen, öffnen das Ziel im OpenOlat-Fenster selbst, nicht im Rahmen des Inhalts. Mit Ctrl-Klick, Cmd-Klick oder der mittleren Maustaste öffnet sich das Ziel in einem neuen Tab unter der OpenOlat-Adresse. Lesezeichen auf eine Adresse der Inhaltsdomäne und weitergegebene Adressen der Inhaltsdomäne führen zur OpenOlat-Adresse. [:octicons-tag-16:{ title="ab Release 21.1 (OO-10045)" }](https://track.frentix.com/issue/OO-10045){:target="_blank"}
+Links auf OpenOlat-Seiten, die in diesen Inhalten oder in einer im Kurs angezeigten PDF-Datei stehen, öffnen das Ziel im OpenOlat-Fenster selbst, nicht im Rahmen des Inhalts. Mit Ctrl-Klick, Cmd-Klick oder der mittleren Maustaste öffnet sich das Ziel in einem neuen Tab unter der OpenOlat-Adresse. Lesezeichen auf eine Adresse der Inhaltsdomäne und weitergegebene Adressen der Inhaltsdomäne führen zur Startseite unter der OpenOlat-Adresse. [:octicons-tag-16:{ title="ab Release 21.1 (OO-10045)" }](https://track.frentix.com/issue/OO-10045){:target="_blank"}
 
 [Zum Seitenanfang ^](#content_domain)
 
@@ -83,7 +82,7 @@ Für Systemadministrator:innen gilt:
 - Die Inhaltsdomäne braucht eine eigene Domain, die keine Cookies mit der OpenOlat-Adresse teilt. Eine Subdomain der OpenOlat-Adresse, etwa `content.learn.example.com` zu `learn.example.com`, genügt nicht, weil sie Cookies mit der OpenOlat-Adresse teilen kann.
 - Beide Adressen zeigen auf denselben OpenOlat-Server, zum Beispiel über einen zusätzlichen virtuellen Host im Reverse Proxy.
 - Ohne Inhaltsdomäne liefert OpenOlat die Inhalte über die eigene Adresse aus, ohne diesen Schutz. An einigen Stellen entfernt OpenOlat deshalb die Skripte aus HTML-Dateien, etwa aus der zugewiesenen Aufgabenstellung im Kursbaustein "Aufgabe". HTML-Dateien in Ordnern mit reinem Leserecht öffnen sich in einem neuen Browserfenster statt in der Lightbox.
-- In der System-Administration erscheinen Zugriffe über die Inhaltsdomäne unter [Aktive Sitzungen](../../manual_admin/administration/System.de.md#active_sessions) mit dem Modus "Content": `Administration > System > Aktive Sitzungen`. Eine solche Sitzung dient nur der Auslieferung des Inhalts und wird nie zu einer vollständigen OpenOlat-Sitzung.
+- Zugriffe über die Inhaltsdomäne erhalten eine eigene Sitzung. Sie dient nur der Auslieferung des Inhalts und wird nie zu einer vollständigen OpenOlat-Sitzung. Die Liste der [aktiven Sitzungen](../../manual_admin/administration/System.de.md#active_sessions) in der System-Administration führt solche Sitzungen nicht auf: `Administration > System > Aktive Sitzungen`.
 
 ![OpenOlat-Adresse und Inhaltsdomäne zeigen über den Reverse Proxy auf denselben Server, eine Subdomain ist ungeeignet](assets/content_domain_server_v1_de.svg){ class="shadow lightbox" title="Ein Server mit zwei Adressen · 2026.11.13" }
 
@@ -112,7 +111,6 @@ OpenOlat folgt mit der Inhaltsdomäne einem Verfahren, das grosse Plattformen se
 [Kursbaustein "Struktur" >](../learningresources/Course_Element_Structure.de.md)<br>
 [Kursbaustein "Aufgabe" >](../learningresources/Course_Element_Task/index.de.md)<br>
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
-[Kursbaustein "Dokument" >](../learningresources/Course_Element_Document.de.md)<br>
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Ordnerkonzept >](Folder_Concept.de.md)<br>
 [Projekte: Dateien >](../area_modules/Project_Files.de.md)<br>

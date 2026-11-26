@@ -2,19 +2,20 @@
 
 ![Menü System in der System-Administration mit zehn Bereichen, darunter Info messages, Errors, Caches und Scheduler, für Systeminformationen, Wartung und Diagnose](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Bereich "System" der OpenOlat-Administration erhalten Systemadministrator:innen allgemeine Informationen zur Runtime, wie genutzter Speicher, aktuelle Klickzahlen oder Verzeichnisse.
+Im Bereich "System" der System-Administration erhalten Systemadministrator:innen allgemeine Informationen zum laufenden OpenOlat, etwa zum genutzten Speicher, zu den aktuellen Klickzahlen oder zu den Verzeichnissen. Sie öffnen den Bereich unter `Administration > System`.
 
-Die Systemadministrator:innen haben hier Zugriff auf das nebenstehende Menü.
+Das nebenstehende Bild zeigt die Einträge des Menüs. Jeder Eintrag hat auf dieser Seite einen eigenen Abschnitt.
 
 ---
 
 ## Info messages {: #info_message}
 
-Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint.
+Mit einer Meldung informieren Systemadministrator:innen alle Personen, die OpenOlat aufrufen, zum Beispiel über Wartungsarbeiten. Zwei Meldungen stehen zur Wahl:
 
-Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im OpenOlat-Editor erstellt werden.
+- "Info Meldung": erscheint auf der Login-Seite neben dem Anmeldebereich.
+- "Wartungsmeldung": erscheint auf allen OpenOlat-Seiten.
 
-Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. Hierfür steht ein "Static Ordner" zur Verfügung.
+Beide Meldungen schreiben Sie im HTML-Editor von OpenOlat. Weitere Dokumente, etwa eine PDF-Datei, legen Sie im "Static Ordner" ab, der auf derselben Seite unter den Meldungen steht, und verlinken sie in der Meldung.
 
 [Zum Seitenanfang ^](#system)
 
@@ -22,7 +23,9 @@ Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. 
 
 ## Aktive Sitzungen {: #active_sessions}
 
-Hier sehen Sie die Sitzungen der aktuell angemeldeten Personen. Die Spalte "Modus" zeigt, über welchen Zugang eine Sitzung entstanden ist, zum Beispiel "WebDAV", "REST" oder "Content". Der Wert "Content" steht für einen Zugriff über die [Inhaltsdomäne](../../manual_user/basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte). Eine solche Sitzung liefert nur Inhalte aus und erhält keine OpenOlat-Oberfläche. Deshalb kann dieselbe Person zweimal in der Liste stehen: einmal mit ihrer Sitzung in OpenOlat und einmal mit dem Modus "Content".
+Hier sehen Systemadministrator:innen, wer gerade in OpenOlat angemeldet ist und über welchen Zugang. Der Tab "Sitzungen von Benutzer:innen" listet die Sitzungen der angemeldeten Personen: `Administration > System > Aktive Sitzungen > Tab "Sitzungen von Benutzer:innen"`. Die Spalte "Modus" zeigt, über welchen Zugang eine Sitzung entstanden ist: "web 2.0" für die Weboberfläche, "WebDAV" oder "REST". Dieselbe Person kann deshalb mehrmals in der Liste stehen, etwa mit einer Sitzung in der Weboberfläche und einer WebDAV-Sitzung.
+
+Öffnet eine Person einen Inhalt, den OpenOlat über die [Inhaltsdomäne](../../manual_user/basic_concepts/Content_Domain.de.md) (separate Adresse für Inhalte) ausliefert, erhält dieser Zugriff eine eigene Sitzung. Sie liefert nur den Inhalt aus und erhält keine OpenOlat-Oberfläche. Die Liste führt solche Sitzungen nicht auf.
 
 [Zum Seitenanfang ^](#system)
 
