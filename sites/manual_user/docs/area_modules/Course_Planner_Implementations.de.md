@@ -255,9 +255,11 @@ Wird ein Termin einem Kurs zugeordnet, schaltet OpenOlat im Kurs die Termin- und
 
 ![Ein Notiz-Symbol in der Mitgliederliste zeigt, bei welcher Teilnehmer:in ein Kommentar zur Buchung vorliegt](assets/course_planner_implementations_tab_members_v2_de.png){ class="shadow lightbox" title="Tab Mitglieder · 2026.09.30" }
 
-An jeder Durchführung eines Produkts nehmen andere Teilnehmer:innen teil. Deshalb werden Teilnehmer:innen Mitglieder einer bestimmten Durchführung, nicht einzelner Kurse und nicht des Produkts. Sie bestimmen, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereichs werden.
+An jeder Durchführung eines Produkts nehmen andere Teilnehmer:innen teil. Deshalb werden Teilnehmer:innen Mitglieder einer bestimmten Durchführung, nicht einzelner Kurse und nicht des Produkts. Sie bestimmen, ob sie Mitglieder der gesamten Durchführung oder nur eines Elements darunter werden, siehe [Tab Struktur](#tab_structure).
 
 Über der Mitgliederliste wählen Sie, welche Personen die Liste zeigt. "Aktiv" zeigt die heutigen Mitglieder, "Ausstehend" die Personen mit einer ausstehenden Mitgliedschaft und "Mitglieder-Historie" jede Änderung einer Mitgliedschaft mit Datum. "Nichtmitglieder" zeigt Personen, deren Mitgliedschaft in dieser Durchführung beendet ist, zum Beispiel weil sie entfernt wurden oder ihre Mitgliedschaft abgelehnt oder storniert wurde. Wer eine ausstehende Mitgliedschaft hat, steht nicht dort, sondern unter "Ausstehend".
+
+Kann eine Person doch nicht teilnehmen, stornieren Sie ihre Buchung mit "Buchung stornieren" unter den 3 Punkten am Ende ihrer Zeile. Die Aktion erscheint, wenn die Person einen Buchungsauftrag hat, und wirkt unabhängig davon, ob das Angebot Teilnehmenden das Stornieren erlaubt, siehe [Angebotskonzepte: Stornieren durch die Verwaltung](../basic_concepts/Offer_Concepts.de.md#offer_cancellation_management).
 
 In der Mitgliederliste zeigt ein Notiz-Symbol in der Spalte "Teilnehmer:inkommentar", ob zur Buchung ein Kommentar der Teilnehmer:in vorliegt; auch der Spaltenkopf zeigt nur das Symbol. Ein Klick darauf öffnet den Kommentar. Dieselbe Angabe führt die Tabelle der Buchungsaufträge im Tab Katalog in der Spalte "Kommentar Teilnehmer:in" [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 

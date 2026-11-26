@@ -10,7 +10,7 @@ Es gibt Gruppen, in denen eine Mitgliedschaft freiwillig sein soll, z.B. in Inte
 
 Ob den Gruppenmitgliedern das selbstständige Verlassen einer Gruppe möglich ist, können Gruppenbetreuer:innen vorab festlegen. Wählen Sie die Gruppe. Unter **Administration** im **Tab "Mitglieder"** finden Sie die Option, mit der Sie Teilnehmer:innen ein Verlassen der Gruppe aus Eigeninitiative ermöglichen können. 
 
-![Option "Teilnehmer:innen können Gruppe verlassen" im Tab "Mitglieder" der Gruppenadministration](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" }
+![Checkbox "Teilnehmer:innen können Gruppe verlassen"](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder der Gruppenadministration" }
 
 
 [Zum Seitenanfang ^](#leave_group)
@@ -25,7 +25,7 @@ Um eine **einzelne Person** aus der Gruppe zu entfernen, können Sie auf die 3 P
 
 Möchten Sie **mehrere Gruppenmitglieder** gleichzeitig aus der Gruppe entfernen, können Sie die betreffenden Zeilen in der ersten Spalte markieren. Über der Liste erscheint dann u.a. der Button "Entfernen".
 
-![Button "Entfernen" und Option "Entfernen" im Zeilenmenü im Tab "Mitglieder" der Gruppenadministration](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" }
+![Button "Entfernen" über der Liste und Option "Entfernen" im Zeilenmenü](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" title="Tab Mitglieder der Gruppenadministration" }
 
 [Zum Seitenanfang ^](#leave_group)
 
@@ -39,7 +39,7 @@ Um die Person **aus einer einzelnen Gruppe** zu entfernen, klicken Sie am Ende e
 
 Möchten Sie die Person gleichzeitig **aus mehreren Gruppen entfernen**, können Sie die betreffenden Zeilen in der ersten Spalte markieren. Über der Liste erscheint dann der Button "Verlassen".
 
-![Button "Verlassen" und Link "Verlassen" im Tab "Gruppen" der Benutzerverwaltung](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" }
+![Button "Verlassen" über der Liste und Link "Verlassen" am Ende einer Zeile](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" title="Tab Gruppen in der Benutzerverwaltung" }
 
 [Zum Seitenanfang ^](#leave_group)
 

@@ -38,7 +38,7 @@ Under "My course", you find what concerns you personally in the current course. 
 * [**My badges**](#my_badges): your badges from this course.
 * [**Awarded badges**](#issued_badges): the badges awarded in the course, for course owners and authorized coaches.
 * [**Notes**](#notes): your notes on the course, which only you read.
-* [**Bookmark**](#bookmark): With a bookmark, the course appears in the "Courses" menu in the "Favorites" tab.
+* [**Bookmark**](#bookmark): With a bookmark, the course appears under `Courses > Favourites`.
 * [**Consent**](#terms_of_use): If you have agreed to terms of use or a privacy policy of the course, you read them here and revoke your consent if needed.
 * [**Groups**](#groups): the groups of the course in which you are a member or on the waiting list.
 * [**Leave course**](#leave_course): you remove yourself from the course.
@@ -116,7 +116,7 @@ In every course, you keep your own notes. Under "Notes", you see, edit and print
 
 ### Bookmark {: #bookmark}
 
-With a bookmark, you find the course again faster: it then appears in the "Courses" menu in the "Favorites" tab.
+With a bookmark, you find the course again faster: it then appears under `Courses > Favourites`.
 
 [To the top of the page ^](#my_course)
 
@@ -142,7 +142,7 @@ If you are in the course via a group, as a group participant or group coach, the
 
 ### Leave course [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
-If you no longer need a course, you remove yourself with "Leave course". OpenOlat immediately ends your course or group membership, depending on how you are in the course. After that, you no longer have access to the course. For renewed access, contact the coaches of the course or the group.
+If you no longer need a course, you remove yourself with "Leave course". OpenOlat immediately ends your course or group membership, depending on how you are in the course. After that, you no longer have access to the course. If the course has an open offer, book it again on its [info page](General_Functions_Infopage.md). For renewed access without an open offer, contact the coaches of the course or the group.
 
 Only participants can leave, not coaches or owners. The owners of the course allow leaving with the setting "Participants can leave": `Course > Administration > Settings > Tab "Share"`.
 
@@ -152,18 +152,20 @@ Only participants can leave, not coaches or owners. The owners of the course all
 
 "Leave course" only appears if the following conditions are met:
 
-- The active role is "Participant". When switching roles, the option only appears while the participant role is active.
-- The course has the usage "Standalone" (see [Course settings - Tab Share](Course_Settings_Share/index.md#section_usage)). If the Course Planner manages the course instead (usage "Use in Course Planner"), "Leave course" is not available. If you have booked an implementation, you cancel the booking on the info page of the implementation if the offer allows it, see [Info page: Cancel booking](General_Functions_Infopage.md#cancel_booking). [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397) If the implementation is of type Single course, the link "Info page" in the toolbar opens this info page directly, and "Cancel booking" appears there in the box "My course". [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977)
+- The active role is "Participant". If you have several roles in the course, select this role in the toolbar under ["Role"](../basic_concepts/Roles/index.md#role_switch).
+- The course has the usage "Standalone" (see [Course settings - Tab Share](Course_Settings_Share/index.md#section_usage)). If the Course Planner manages the course instead (usage "Use in Course Planner"), "Leave course" is not available.
 - Under [Course settings - Tab Share > "Participants can leave"](Course_Settings_Share/index.md#section_share_leave), an option other than "Never" is selected.
-- No assessment mode is currently running in the course.
+- No [assessment mode](Assessment_mode.md) is currently running in the course.
 
 If the option "After course end date or status "Finished"" is selected, "Leave course" already appears but is greyed out until the execution period has ended or the course has the status "Finished".
+
+If you are in the course through a booked implementation in the Course Planner, you cancel the booking instead on the info page of the implementation if the offer allows it. The button "Cancel booking" is there, depending on the implementation, in the box "My educational product" or, for an implementation of type Single course, in the box "My course" of the info page, see [Info page: Cancel booking](General_Functions_Infopage.md#cancel_booking). [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397) An implementation of type Single course consists of exactly one course. For it, the link "Info page" in the toolbar opens the info page of the implementation directly. [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977)
 
 **Additional conditions for a group membership**
 
 If you are in the course through a group, the group additionally decides whether "Leave course" appears. All three of the following conditions must be met:
 
-- In the settings of the group, "Participants can leave group" is allowed.
+- In the group, the option "Participants can leave the group" is ticked under `Group > Administration > Tab "Members"`.
 - The group is linked to this one course only. A group that serves several courses cannot be left through an individual course.
 - If the group is used by an [Enrolment course element](Course_Element_Enrolment.md), "Delisting permitted" is set there.
 
@@ -197,6 +199,7 @@ The dialog names the course concerned under "Course". To complete the withdrawal
 [User tools: Notes >](../personal_menu/Notes.md)<br>
 [Terms of Use >](../basic_concepts/Terms_Of_Use.md)<br>
 [Course settings - Tab Share >](Course_Settings_Share/index.md)<br>
+[Assessment management: Assessment mode >](Assessment_mode.md)<br>
 [General Functions: Info Page >](General_Functions_Infopage.md)<br>
 [Course Element "Enrolment" >](Course_Element_Enrolment.md)
 

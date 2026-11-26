@@ -31,7 +31,7 @@ The Share tab does not look the same for every course. What matters is the usage
 | LTI 1.3 access configuration | yes | no | no |
 | Share overview | yes | yes | yes |
 
-For a course in the Course Planner, only the administrative access therefore remains in the Share section. Membership, booking and leaving are handled in the implementation in the Course Planner. The share overview is shorter too: it counts only the owners, because the course itself manages no coaches and no participants.
+For a course in the Course Planner, only the administrative access therefore remains in the Share section. Membership, booking and cancellation are handled in the implementation in the Course Planner. The share overview is shorter too: it counts only the owners, because the course itself manages no coaches and no participants.
 
 ![With Use in Course Planner only the administrative access remains in the Share section, and the share overview counts only the owners as members](../assets/course_settings_share_cpl_v3_en.png){ class="shadow lightbox" title="Share tab of a course in the Course Planner · 2026.10.09" }
 
@@ -56,10 +56,10 @@ Standalone learning resources have their own member management. To add new membe
 Participants get access via "Private", for example when course owners enter them as members, or via "Bookable and open offers", for instance with an access code or via an offer in the catalog.
 
 **Use in Course Planner**<br>
-If the course is integrated into a product of the Course Planner, the Course Planner assigns and manages the memberships. The course then does not require a second, standalone member management.
+If the course is integrated into a product of the Course Planner, the Course Planner assigns and manages the memberships. The course is then offered via an implementation of the product: the concrete run with period, members and one or more courses. The course then does not require a second, standalone member management.
 
 **Template**<br>
-The Course Planner also manages these courses, they have no standalone member management. Unlike with "Use in Course Planner", the course serves for instantiation: OpenOlat creates the course of an implementation from this template only at a specific point in time (instantiated).
+The Course Planner also manages these courses, they have no standalone member management. Unlike with "Use in Course Planner", the course is a template: from it, OpenOlat creates the course of an implementation only at a specific point in time (instantiation).
 
 **Embedding**<br>
 This usage exists only for learning resources that are not courses, for example a test or a form. The learning resource is reusable and has no standalone member management: it is embedded elsewhere, for instance in a course element, and the members come from there. More on this under [Provide for the usage of a learning resource](../General_Functions_Concept.md#usage).
@@ -71,7 +71,7 @@ Except for "Standalone", a course does not manage its members itself. OpenOlat t
 - **No members except owners:** The course has coaches or participants. Blocks the switch to "Use in Course Planner" and to "Template".
 - **No groups that are also referenced by other courses:** A group of the course is also embedded in another course. Blocks the switch to "Use in Course Planner" and to "Template".
 - **"Access for participants" must be set to "Private":** In the Share section, "Bookable and open offers" is selected. Blocks the switch to "Use in Course Planner" and to "Template".
-- **Not used by the Course Planner:** The course or the template is assigned to an implementation. Blocks every switch except the one from "Standalone" to "Use in Course Planner".
+- **Not used by the Course Planner:** The course or the template is assigned to an implementation. Blocks every switch except the one from "Standalone" to "Use in Course Planner". A standalone course that is assigned to an implementation comes from an older setup.
 
 ![Above the selection the dialog states why a switch is blocked, here because the course has coaches and participants; both usages therefore cannot be selected](../assets/course_settings_share_usage2_v3_en.png){ class="shadow lightbox" title="Change usage dialog for a course with members · 2026.10.09" }
 
@@ -110,7 +110,7 @@ With "Copy to clipboard", you take the direct link into an e-mail or onto a web 
 
 !!! info "Important"
 
-    This setting exists only for courses with the usage "Standalone". If the Course Planner manages the course instead (usage "Use in Course Planner"), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation, they cancel the booking themselves: They open the info page of the implementation in the catalog and select the action "Cancel booking" there. If a cancellation fee applies, the action is called "Cancel booking for a fee", and the confirmation dialog states the amount. The action appears only if the offer allows cancellation; whether only until the day before the start or at any time depends on the offer type and its setting (see [Cancellation](../../basic_concepts/Offer_Concepts.md#offer_cancellation)). Otherwise, the administration of your organisation can help. [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+    This setting exists only for courses with the usage "Standalone". If the Course Planner manages the course instead (usage "Use in Course Planner"), it does not appear in the Share tab, and the "Leave course" function is not available to the participants. If participants have booked an implementation in the Course Planner, they cancel the booking themselves with the button "Cancel booking" on the info page of the implementation, depending on the implementation in the box "My educational product" or, for an implementation of type Single course (an implementation with exactly one course), in the box "My course", see [Cancel booking](../General_Functions_Infopage.md#cancel_booking). If a cancellation fee applies, the button is called "Cancel booking for a fee", and the confirmation dialog states the amount. The button appears only if the offer allows cancellation; whether only until the day before the start of the implementation or at any time depends on the offer type and its setting, see [Cancellation](../../basic_concepts/Offer_Concepts.md#offer_cancellation). Otherwise, the administration of the implementation cancels the booking, that is course planners, administrators and product owners, see [Cancellation by the administration](../../basic_concepts/Offer_Concepts.md#offer_cancellation_management). [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 #### Administrative access {: #section_share_admin_access}
 
@@ -164,6 +164,8 @@ Here you create a new offer with the button "Add offer". With the arrow next to 
 For a new offer, the path therefore leads to the button under the lower heading:<br>
 `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`
 
+Participants end a booking via an offer of the course by leaving the course. Whether and when they may do so, you define further up under [Participants can leave](#section_share_leave). A booking can only be cancelled for an offer of an implementation in the Course Planner, see [Cancellation](../../basic_concepts/Offer_Concepts.md#offer_cancellation).
+
 You can find more information about offers and the catalog here:<br>
 [Catalog >](../../area_modules/catalog2.0/index.md)<br>
 [Offer types >](../../basic_concepts/Offer_Concepts.md#offer_types)<br>
@@ -208,6 +210,7 @@ If the course is assigned to a product in the Course Planner, the "Product" bloc
 [How do I plan and run a course in several implementations with the Course Planner? >](../../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [Navigation >](../../basic_concepts/Navigation.md)<br>
 [Course Settings - Tab Execution >](../Course_Settings_Execution.md)<br>
+[General Functions: Info Page >](../General_Functions_Infopage.md)<br>
 [Offer concepts >](../../basic_concepts/Offer_Concepts.md)<br>
 [Roles and Rights: Which roles are available? >](../../basic_concepts/Roles/index.md)<br>
 [How can I have my courses found by search engines? >](../../../manual_how-to/oai_pmh/oai_pmh.md)<br>

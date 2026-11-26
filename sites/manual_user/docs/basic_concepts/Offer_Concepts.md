@@ -4,14 +4,14 @@
 
 Once courses and other learning content have been created in OpenOlat, you determine which users access them and when. You grant access (release) in two ways:
 
-* **Private:** If you enter registered OpenOlat users in the member management of the course administration, they become members of the course or learning resource and access it.
+* **Private:** If you enter registered OpenOlat users under `Course > Administration > Members management`, they become members of the course or learning resource and access it.
 
 * **Bookable and open offers:** Owners add an offer to the course. Users find the offer in the catalog and become members by booking it.<br>
 For the same course, you also create several offers for different target groups.<br>
-For example, you offer a course free of charge to internal users and, with a second offer, for a fee to external users.
-Whether an offer appears in the catalog for everyone or only for specific organisational units is set in the offer, see [Where can offers be displayed?](#show_offers). With the offer type "Without booking", not even a membership is required.
+For example, you offer a course free of charge to internal users and, with a second offer, for a fee to external users.<br>
+Whether an offer appears in the catalog for everyone or only for specific organisational units is set in the offer, see [Where can offers be displayed?](#show_offers). With the offer type "Without booking", not even a membership is required, see [Offer types](#offer_types).
 
-Groups have offers too. Users do not find a bookable group in the catalog but in the Groups area in the tab "Published groups", see [Offer groups](#what_is_offered_groups).
+Groups have offers too. Users do not find a bookable group in the catalog but under `Groups > Published groups`, see [Offer groups](#what_is_offered_groups).
 
 **Example of courses offered in the catalog:**
 ![Below the search field, the catalog shows its sections and a launcher with course cards, each card with format, reference, type and title](assets/offer_concepts_example_v1_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.11.09" }
@@ -55,11 +55,11 @@ OpenOlat has an internal and an external catalog. You determine whether an offer
 
 The catalog shows offers of courses and of implementations. An implementation is the concrete run of an educational offer with a period, a place and members, for example a course that takes place in spring and once more in autumn. You plan implementations in the [Course Planner](../area_modules/Course_Planner/index.md), the module with which an organisation plans its educational offering.
 
-The catalog is divided into sections, the launchers. Which launchers exist and by which rules they show offers is defined by system administrators, see [Tab Launch page (Administration manual)](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page). The catalog (V2) then compiles the offers dynamically and assigns them to the launchers. You do not choose a launcher in the offer itself. As the owner of a course, you influence the assignment through the subjects in the metadata of the course: taxonomy launchers show folders that correspond to specific taxonomy levels, and in them the courses and learning resources assigned to that level.
+The catalog is divided into sections, the launchers. Which launchers exist and by which rules they show offers is defined by system administrators, see [Tab Launch page (Administration manual)](../../manual_admin/administration/Modules_Catalog_2.0.md#tab_start_page). The catalog then compiles the offers dynamically and assigns them to the launchers. You do not choose a launcher in the offer itself. As the owner of a course, you influence the assignment through the subjects in the metadata of the course: taxonomy launchers show folders that correspond to specific taxonomy levels, and in them the courses and learning resources assigned to that level.
 
-An offer also appears in several launchers of the catalog (V2), for example in a launcher "Popular courses" and in a launcher that compiles courses thematically based on a specific taxonomy.
+An offer also appears in several launchers of the catalog, for example in a launcher "Popular courses" and in a launcher that compiles courses thematically based on a specific taxonomy.
 
-Offers also appear in launchers that only members of certain organisational units see. This requires that the "Organisations" module is activated.
+Offers also appear in launchers that only members of certain organisational units see. This requires that system administrators have switched on the module "Organisations" in the system administration under `Administration > Modules > Organisations`.
 
 You set the release directly in the offer:<br>
 Course: `Course > Administration > Settings > Tab "Share" > Section "Offer" > Link "Edit offer"`<br>
@@ -69,7 +69,7 @@ Implementation: `Course Planner > Implementations > "your implementation" > Tab 
 
 !!! info "Important"
 
-    An offer can be booked in the catalog as soon as the course has the status "Published". For an implementation, the status "Provisional" or "Confirmed" is sufficient by default.
+    An offer can be booked in the catalog as soon as the course has the status "Published". For an implementation, the status "Provisional" or "Confirmed" is sufficient by default. You set other conditions in the offer, see [Further conditions for offers](#further_boundary_conditions).
 
 !!! tip "Tip"
 
@@ -183,7 +183,7 @@ Offers exist for
 - Groups
 - other learning resources
 
-Courses and implementations appear with their offer in the catalog. You offer another learning resource as a course, see [Offer other learning resources](#what_is_offered_other). Groups appear in the tab "Published groups".
+Courses and implementations appear with their offer in the catalog. You offer another learning resource as a course, see [Offer other learning resources](#what_is_offered_other). Groups appear under `Groups > Published groups`.
 
 
 ### Offer courses {: #what_is_offered_courses}
@@ -209,7 +209,7 @@ Users book an implementation by logging in from the catalog (if they are already
 
 With an offer "Invoice", interested parties enter their billing address and further details when booking. OpenOlat creates a booking number in the process. The offer type "Invoice" exists only for implementations in the Course Planner.
 
-The booking order is only created when the person completes the booking. If you select the option "With confirmation" under "Membership" in the offer, the membership of the booking person is then pending until someone accepts or declines it. This happens in two places:
+OpenOlat records every booking through an offer as a booking order. The booking order is only created when the person completes the booking. If you select the option "With confirmation" under "Membership" in the offer, the membership of the booking person is then pending until someone accepts or declines it. This happens in two places:
 
 * **In the Course Planner:** Whoever manages the members of the implementation selects "Pending" above the member list and decides with "Accept" or "Decline", for all persons at once with "Accept all":<br>
 `Course Planner > Implementations > "your implementation" > Tab Members`<br>
@@ -239,7 +239,7 @@ Which offer types an implementation offers is shown in [Offer types for implemen
 
 If people are to sign up for a group themselves, for example for a study group or a course-independent training, you offer the group. You create the offer under `Group > Administration > Tab "Share"`, which offer types are available is shown in [Offer types for groups](#offer_types_groups).
 
-As soon as an offer exists, the group appears in the Groups area in the tab "Published groups". There users book it with "Join", see [Become a group member](../groups/Group_Membership.md). Groups do not appear in the catalog.
+As soon as an offer exists, the group appears under `Groups > Published groups`. There users book it with "Join", see [Become a group member](../groups/Group_Membership.md). Groups do not appear in the catalog.
 
 [More about offers of a group >](../groups/Group_Administration/index.md#booking)
 
@@ -265,7 +265,7 @@ Adapt the metadata and description of this course to the learning resource it co
 
 ### PayPal [:octicons-tag-16:{ title="from Release 14.1 (OO-4203)" }](https://track.frentix.com/issue/OO-4203){:target="_blank"} {: #offer_payed_paypal}
 
-With the PayPal payment module, authors offer learning content for payment. System administrators set up the module beforehand in the system administration and switch it on.
+With the PayPal payment module, authors offer learning content for payment. System administrators set up the module beforehand in the system administration under `Administration > Payment modules > PayPal` and switch it on.
 
 Once the PayPal payment module is set up and switched on, the offer type "PayPal Checkout" is available when creating an offer: for courses under `Course > Administration > Settings > Tab "Share" > Section "Offer" > Button "Add offer"`, for implementations in the Course Planner and for groups in the [group administration](../groups/Group_Administration/index.md#booking).
 
@@ -306,28 +306,31 @@ If a person cannot attend a booked implementation after all, they cancel their b
 
 | Offer in | What participants do | Who allows it | Where participants find it |
 |---|---|---|---|
-| Implementation in the Course Planner | Cancel booking | Course planners, product owners and element owners in the offer of the implementation, see the sections below | Info page of the implementation, box "My educational product", for an implementation of type Single course box "My course", see [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking) |
+| Implementation in the Course Planner | Cancel booking | Course planners, product owners and element owners in the offer of the implementation, see the sections below | Info page of the implementation, depending on the implementation box "My educational product" or, for an implementation of type Single course, box "My course", see [Cancel booking](../learningresources/General_Functions_Infopage.md#cancel_booking) |
 | Course | Leave course | Course owners with "Participants can leave" under `Course > Administration > Settings > Tab "Share"` | Info page of the course, box "My course", see [Leave course](../learningresources/General_Functions_Infopage.md#leave_course) |
-| Group | Leave group | Group coaches with "Members can leave the group" under `Group > Administration > Tab "Members"` | Column "Leave" in the list under `Groups`, see [Leave a group](../groups/Leave_a_Group.md) |
+| Group | Leave group | Group coaches with "Participants can leave the group" under `Group > Administration > Tab "Members"` | Column "Leave" in the list under `Groups`, see [Leave a group](../groups/Leave_a_Group.md) |
 
-The following sections address course planners, product owners and element owners. Whether and until when participants can cancel depends on the offer type and its setting. The graphic shows the cases on a timeline:
+The following sections address course planners, product owners and element owners, the roles of the Course Planner, see [Roles and rights in the Course Planner](../area_modules/Course_Planner/index.md#roles_rights). Whether and until when participants can cancel depends on the offer type and its setting. The graphic shows the cases on a timeline:
 
 ![Timeline: how long participants can cancel their booking, by offer type and setting](assets/offer_concepts_cancellation_timeline_v1_en.svg){ class="shadow lightbox" title="Cancellation by offer type and setting · 2026.11.11" }
 
 ### Freely available and Access code [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"} {: #offer_cancellation_free_token}
 
-With the toggle "Cancelable", you decide for the offers "Freely available" and "Access code" of an implementation whether participants may withdraw their booking themselves. If the toggle is off (default), only the administration of the implementation cancels a booking. The toggle is located in the offer directly below "Offer description".
+With the toggle "Cancelable", you decide for the offers "Freely available" and "Access code" of an implementation whether participants may withdraw their booking themselves. If the toggle is off (default), only the administration of the implementation cancels a booking. The toggle is located in the offer directly below "Offer description":<br>
+`Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers > Link "Edit offer"`
 
 If it is switched on, you choose under "Participants can cancel":
 
 * **At any time:** Participants also cancel after the start and for an implementation without a begin date, for example for an ongoing self-study offer. This option is preselected.
-* **Until begin date:** Participants cancel until the day before the start. This way, the number of participants is fixed from the start. If the execution period has no begin date, the offer shows the warning "Participants can only cancel if a begin date is specified in the execution period!", and participants do not cancel themselves.
+* **Until begin date:** Participants cancel until the day before the begin date, no longer on the day of the start. This way, the number of participants is fixed from the start. If the execution period has no begin date, the offer shows the warning "Participants can only cancel if a begin date is specified in the execution period!", and participants do not cancel themselves.
 
 ![If "Cancelable" is switched on, you define whether participants can cancel at any time or only until the begin date; without a begin date in the execution period, OpenOlat warns at "Until begin date"](assets/offer_concepts_cancellation_v1_en.png){ class="shadow lightbox" title="Dialog Freely available of an implementation · 2026.11.09" }
 
 The execution period has a similar option, "Anytime", which means something else: the implementation is not bound to a period and therefore has no begin date, see [Execution in the settings](../area_modules/Course_Planner_Implementations.md#tab_settings_execution). For such an implementation, participants only cancel with the option "At any time" in the offer.
 
 The current setting of the offer always applies, also to earlier bookings. If you switch "Cancelable" off, participants who have already booked no longer see the button "Cancel booking" either. With the update to Release 21.1.2, OpenOlat switches "Cancelable" off for all existing offers except "Invoice". If participants are to cancel an existing offer "Freely available" or "Access code" themselves, switch "Cancelable" on there.
+
+You see which offers are cancelable in the list of offers under `Course Planner > Implementations > "your implementation" > Tab Catalog > Button Offers`. A cancelable offer shows the row "Cancelable" with the selected option, "At any time" or "Until begin date". If the row is missing, "Cancelable" is switched off.
 
 !!! tip "Tip"
 
@@ -341,20 +344,24 @@ For the offer "Invoice", you define whether participants may cancel their bookin
 
 * **Cost center:** Above the cancellation options, you can assign a cost center to the offer if required.
 * **Cancelable:** This toggle determines whether participants may cancel their booking. It is switched on by default.
-* **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" (default) and "With fee".
-* **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. In order for the deadline to be taken into account, a start date must be specified in the execution period.
+* **Cancellation Policy:** If the offer is cancelable, choose between "Free of charge" and "With fee".
+* **Cancellation fee:** If "With fee" is selected, you enter the amount of the fee. With "Cancellable free of charge until \<number\> days before start" you additionally define a period during which cancellation is free of charge. After that, participants cancel with a fee until the day before the begin date. For the deadline to count, the execution period needs a "Start date"; if it is missing, the offer warns: "In order for the deadline to be taken into account, a start date must be specified in the execution period!"
 
-Participants cancel until the day before the start of the implementation. For this, the execution period needs a start date. A booking is subject to the conditions that applied at the time of booking; a later change to the offer only affects new bookings.
+For a new offer, OpenOlat takes the defaults of the payment module Invoice. If system administrators have entered a "Cancellation fee", that is a default cancellation fee, for the currency that the field "Currency" proposes in the new offer in the system administration under `Administration > Payment modules > Invoice > Configuration`, "With fee" is preselected with this amount, otherwise "Free of charge". OpenOlat also prefills the number of days for "Cancellable free of charge until" from the defaults.
 
-With "With fee", the catalog shows with the offer until when cancellation is free of charge, and the booking dialog states the cancellation fee.
+Participants cancel until the day before the begin date of the implementation. Without a begin date in the execution period, they do not cancel themselves. For a booking, the toggle "Cancelable" and the cancellation policy apply as they were set at the time of booking; a later change to the offer only affects new bookings.
+
+With "With fee", the catalog shows with the offer "Cancellation free of charge up to \<number\> days before start." or, without a deadline, "Not cancelable free of charge.", and the booking dialog states the cancellation fee. In the list of offers, the row "Cancelable" shows "Free of charge" or "With fee" for a cancelable offer.
 
 ### PayPal Checkout {: #offer_cancellation_paypal}
 
-A booking with "PayPal Checkout" is cancelled by the administration of the implementation. The offer has no toggle "Cancelable", so a cancellation by participants cannot be set.
+A booking with "PayPal Checkout" is cancelled by the administration of the implementation. The offer has no toggle "Cancelable", so a cancellation by participants cannot be set. How the administration cancels is described under [Cancellation by the administration](#offer_cancellation_management).
 
-Whoever manages the members of the implementation cancels a booking in the tab "Members" with "Cancel booking" in the menu of the member row:<br>
+### Cancellation by the administration {: #offer_cancellation_management}
+
+Whoever manages the members of the implementation, that is course planners, administrators and product owners, cancels a booking in the tab "Members" with "Cancel booking" in the menu of the member row:<br>
 `Course Planner > Implementations > "your implementation" > Tab Members`<br>
-This works for every offer type, also for "PayPal Checkout", and regardless of the toggle "Cancelable". It requires a booking order of the person, see [Tab Members](../area_modules/Course_Planner_Implementations.md#tab_members).
+This works for every offer type, also for "PayPal Checkout", and regardless of the toggle "Cancelable". It requires a booking order of the person, see [Tab Members](../area_modules/Course_Planner_Implementations.md#tab_members). If the person has none, for example because they were entered directly, "Cancel booking" is missing from the menu; you then take the person out of the implementation with "Remove".
 
 [To the top of the page ^](#offer_concepts)
 
@@ -382,8 +389,7 @@ The membership is initially pending until someone accepts it. Who does this is d
 With the option "Send e-mail to participant", the booking person receives the booking receipt by e-mail after booking.
 
 * **Auto-booking:**<br>
-OpenOlat creates the membership automatically when the person opens the course.
-With auto-booking, OpenOlat does not show the offer description, and users only see the action "Open". Therefore, do not use this option together with other offers.
+OpenOlat creates the membership automatically when the person opens the course. With auto-booking, OpenOlat does not show the offer description, and users only see the action "Open". Therefore, do not use this option together with other offers.
 
 * Even with immediately active membership (implementations, offer with invoice), bookers usually first accept the privacy policy and further terms of use. In the terms of use, you define additional conditions if required.
 
@@ -398,7 +404,8 @@ With auto-booking, OpenOlat does not show the offer description, and users only 
 ## Credit points in the catalog [:octicons-tag-16:{ title="from Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
 
 Credit points are neither an offer type nor a payment method. A course awards them when participants complete it successfully. How many points a course awards is shown on its card in the catalog with the detail "Credit points", see [What can be shown in offers?](#offers_card).
-With a credit point system, participants collect credit points across different learning opportunities, for example ECTS or LearnCoins. Organisations define and name their own credit point systems with the "Credit points" module and restrict them as needed, for example by role or organisational area. Certification programs use credit points, for example, for recertification.
+
+With a credit point system, participants collect credit points across different learning opportunities, for example ECTS or LearnCoins. Organisations define and name their own credit point systems in the system administration under `Administration > e-Assessment > Credit points` and restrict them as needed, for example by role or organisational area. Certification programs use credit points, for example, for recertification.
 
 [Activate credit points system-wide (Administration manual) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [Awarding credit points in courses >](../learningresources/Course_Settings_Assessment/index.md#section_credit_points)<br>
@@ -414,6 +421,7 @@ With a credit point system, participants collect credit points across different 
 **Mentioned on this page**<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
+[Module Catalog (Administration manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
 [Catalog 2.0 - Sorting/order >](../area_modules/catalog2.0_sort_offers.md)<br>
 [Course settings - Tab Share >](../learningresources/Course_Settings_Share/index.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>

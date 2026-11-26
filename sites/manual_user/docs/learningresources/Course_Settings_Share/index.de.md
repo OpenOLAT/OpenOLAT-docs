@@ -31,7 +31,7 @@ Der Tab Freigabe sieht nicht bei jedem Kurs gleich aus. Ausschlaggebend ist der 
 | LTI 1.3 Zugangskonfiguration | ja | nein | nein |
 | Freigabeübersicht | ja | ja | ja |
 
-Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Administrative Freigabe stehen. Mitgliedschaft, Buchung und Austritt regeln Sie dort in der Durchführung des Course Planner. Auch die Freigabeübersicht fällt kürzer aus: Sie zählt nur die Besitzer:innen, weil der Kurs selbst keine Betreuer:innen und Teilnehmer:innen verwaltet.
+Bei einem Kurs im Course Planner bleibt im Abschnitt Freigabe deshalb nur die Administrative Freigabe stehen. Mitgliedschaft, Buchung und Stornierung regeln Sie dort in der Durchführung des Course Planner. Auch die Freigabeübersicht fällt kürzer aus: Sie zählt nur die Besitzer:innen, weil der Kurs selbst keine Betreuer:innen und Teilnehmer:innen verwaltet.
 
 ![Bei Verwendung im Course Planner bleibt im Abschnitt Freigabe nur die Administrative Freigabe, und die Freigabeübersicht zählt bei den Mitgliedern allein die Besitzer:innen](../assets/course_settings_share_cpl_v3_de.png){ class="shadow lightbox" title="Tab Freigabe eines Kurses im Course Planner · 2026.10.09" }
 
@@ -56,10 +56,10 @@ Eigenständige Lernressourcen besitzen eine eigene Mitgliederverwaltung. Zum Hin
 Teilnehmende erhalten Zugang über "Privat", indem zum Beispiel Kursbesitzer:innen sie als Mitglied eintragen, oder über "Buchbare und offene Angebote", etwa mit einem Zugangscode oder über ein Angebot im Katalog.
 
 **Verwendung im Course Planner**<br>
-Wird der Kurs in ein Produkt des Course Planner eingebunden, vergibt und verwaltet der Course Planner die Mitgliedschaften. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
+Wird der Kurs in ein Produkt des Course Planner eingebunden, vergibt und verwaltet der Course Planner die Mitgliedschaften. Angeboten wird der Kurs dann über eine Durchführung des Produkts: den konkreten Durchgang mit Zeitraum, Mitgliedern und einem oder mehreren Kursen. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
 **Template**<br>
-Auch diese Kurse verwaltet der Course Planner, sie haben keine eigenständige Mitgliederverwaltung. Anders als bei "Verwendung im Course Planner" dient der Kurs zur Instanzierung: Den Kurs einer Durchführung erstellt OpenOlat erst zu einem bestimmten Zeitpunkt aus diesem Template (instanziert).
+Auch diese Kurse verwaltet der Course Planner, sie haben keine eigenständige Mitgliederverwaltung. Anders als bei "Verwendung im Course Planner" ist der Kurs eine Vorlage: Aus diesem Template erstellt OpenOlat den Kurs einer Durchführung erst zu einem bestimmten Zeitpunkt (Instanziierung).
 
 **Einbindung**<br>
 Diesen Verwendungszweck gibt es nur bei Lernressourcen, die keine Kurse sind, zum Beispiel bei einem Test oder einem Formular. Die Lernressource ist wiederverwendbar und hat keine eigenständige Mitgliederverwaltung: Sie wird an anderer Stelle eingebunden, etwa in einen Kursbaustein, und die Mitglieder kommen von dort. Mehr dazu finden Sie unter [Verwendungszweck einer Lernressource vorsehen](../General_Functions_Concept.de.md#usage).
@@ -71,7 +71,7 @@ Ausser bei "Eigenständig" verwaltet ein Kurs seine Mitglieder nicht selbst. Des
 - **Keine Mitglieder mit Ausnahme der Besitzer:innen:** Der Kurs hat Betreuer:innen oder Teilnehmer:innen. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **Keine Gruppen, die auch in anderen Kursen eingebunden sind:** Eine Gruppe des Kurses ist zugleich in einem anderen Kurs eingebunden. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
 - **"Zugang für Teilnehmer:innen" muss auf "Privat" gesetzt sein:** Im Abschnitt Freigabe ist "Buchbare und offene Angebote" gewählt. Sperrt den Wechsel zu "Verwendung im Course Planner" und zu "Template".
-- **Keine Verwendung durch Course Planner:** Der Kurs oder das Template ist einer Durchführung zugeordnet. Sperrt jeden Wechsel ausser dem von "Eigenständig" zu "Verwendung im Course Planner".
+- **Keine Verwendung durch Course Planner:** Der Kurs oder das Template ist einer Durchführung zugeordnet. Sperrt jeden Wechsel ausser dem von "Eigenständig" zu "Verwendung im Course Planner". Ein eigenständiger Kurs, der einer Durchführung zugeordnet ist, stammt aus einer älteren Einrichtung.
 
 ![Über der Auswahl nennt der Dialog, warum ein Wechsel gesperrt ist, hier wegen Betreuer:innen und Teilnehmer:innen im Kurs; beide Verwendungszwecke sind deshalb nicht anwählbar](../assets/course_settings_share_usage2_v3_de.png){ class="shadow lightbox" title="Dialog Verwendungszweck ändern bei einem Kurs mit Mitgliedern · 2026.10.09" }
 
@@ -111,7 +111,7 @@ Mit "In Zwischenablage kopieren" übernehmen Sie den Direktlink in eine E-Mail o
 
 !!! info "Wichtig"
 
-    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck "Eigenständig". Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck "Verwendung im Course Planner"), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung gebucht, stornieren sie die Buchung selbst: Sie öffnen im Katalog die Infoseite der Durchführung und wählen dort die Aktion "Buchung stornieren". Fällt eine Stornogebühr an, heisst die Aktion "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Aktion erscheint nur, wenn das Angebot die Stornierung erlaubt; ob nur bis zum Tag vor dem Beginn oder jederzeit, hängt von der Angebotsart und ihrer Einstellung ab (siehe [Stornierung](../../basic_concepts/Offer_Concepts.de.md#offer_cancellation)). Sonst hilft die Verwaltung Ihrer Organisation weiter. [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
+    Diese Einstellung gibt es nur bei Kursen mit dem Verwendungszweck "Eigenständig". Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck "Verwendung im Course Planner"), erscheint sie im Tab Freigabe nicht, und den Teilnehmenden steht die Funktion "Kurs verlassen" nicht zur Verfügung. Haben Teilnehmende eine Durchführung im Course Planner gebucht, stornieren sie die Buchung selbst mit der Schaltfläche "Buchung stornieren" auf der Infoseite der Durchführung, je nach Durchführung im Kasten "Mein Bildungsprodukt" oder, bei einer Durchführung vom Typ Einzelkurs (eine Durchführung mit genau einem Kurs), im Kasten "Mein Kurs", siehe [Buchung stornieren](../General_Functions_Infopage.de.md#cancel_booking). Fällt eine Stornogebühr an, heisst die Schaltfläche "Buchung kostenpflichtig stornieren", und der Bestätigungsdialog nennt den Betrag. Die Schaltfläche erscheint nur, wenn das Angebot die Stornierung erlaubt; ob nur bis zum Tag vor dem Beginn der Durchführung oder jederzeit, hängt von der Angebotsart und ihrer Einstellung ab, siehe [Stornierung](../../basic_concepts/Offer_Concepts.de.md#offer_cancellation). Sonst storniert die Verwaltung der Durchführung die Buchung, also Kursplaner:innen, Administrator:innen und Produktbesitzer:innen, siehe [Stornieren durch die Verwaltung](../../basic_concepts/Offer_Concepts.de.md#offer_cancellation_management). [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397)
 
 #### Administrative Freigabe {: #section_share_admin_access}
 
@@ -165,6 +165,8 @@ Hier erstellen Sie mit dem Button "Angebot hinzufügen" ein neues Angebot. Über
 Für ein neues Angebot führt der Weg deshalb zum Button unter der unteren Überschrift:<br>
 `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`
 
+Eine Buchung über ein Angebot des Kurses beenden Teilnehmende, indem sie den Kurs verlassen. Ob und wann sie das dürfen, legen Sie weiter oben unter [Teilnehmer:innen können austreten](#section_share_leave) fest. Stornieren lässt sich eine Buchung nur bei einem Angebot einer Durchführung im Course Planner, siehe [Stornierung](../../basic_concepts/Offer_Concepts.de.md#offer_cancellation).
+
 Mehr über Angebote und den Katalog finden Sie hier:<br>
 [Katalog >](../../area_modules/catalog2.0/index.de.md)<br>
 [Angebotsarten >](../../basic_concepts/Offer_Concepts.de.md#offer_types)<br>
@@ -210,6 +212,7 @@ Ist der Kurs im Course Planner einem Produkt zugeordnet, zeigt der Block "Produk
 [Wie kann ich mit dem Course Planner einen Kurs in mehreren Durchführungen planen und durchführen? >](../../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Navigation >](../../basic_concepts/Navigation.de.md)<br>
 [Kurseinstellungen - Tab Durchführung >](../Course_Settings_Execution.de.md)<br>
+[Allgemeine Funktionen: Infoseite >](../General_Functions_Infopage.de.md)<br>
 [Angebotskonzepte >](../../basic_concepts/Offer_Concepts.de.md)<br>
 [Rollen und Rechte: Welche Rollen gibt es? >](../../basic_concepts/Roles/index.de.md)<br>
 [Wie kann ich meine Kurse durch Suchmaschinen finden lassen? >](../../../manual_how-to/oai_pmh/oai_pmh.de.md)<br>

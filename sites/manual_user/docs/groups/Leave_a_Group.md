@@ -9,7 +9,7 @@ There are groups in which membership should be voluntary, e.g. interest groups. 
 
 Group coaches can determine in advance whether group members can leave a group independently. Select the group. Under **Administration** in **Tab "Members"** you will find the option with which you can allow participants to leave the group on their own initiative.
 
-![Option "Members can leave the group" in the "Members" tab of the group administration](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" }
+![Checkbox "Participants can leave the group" in the section "Membership configuration"](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" title="Tab Members of the group administration" }
 
 
 [To the top of the page ^](#leave_group)
@@ -25,7 +25,7 @@ To remove an **individual person** from the group, you can click on the 3 dots a
 
 If you want to remove **several group members** from the group at the same time, you can select the relevant rows in the first column. The “Remove” button will then appear above the list.
 
-![Button "Remove" and option "Remove" in the row menu, in the "Members" tab of the group administration](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" }
+![Button "Remove" above the list and option "Remove" in the row menu](assets/leave_group_removed_by_group_coach_v1_de.png){ class="shadow lightbox" title="Tab Members of the group administration" }
 
 
 [To the top of the page ^](#leave_group)
@@ -41,7 +41,7 @@ To remove the person **from a single group**, click on the "Leave" link at the e
 
 If you want to **remove the person from several groups** at the same time, you can select the relevant rows in the first column. The “Exit” button will then appear above the list.
 
-![Button "Leave" and link "Leave" in the "Groups" tab of the user management](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" }
+![Button "Leave" above the list and link "Leave" at the end of a row](assets/leave_group_removed_by_user_manager_v1_de.png){ class="shadow lightbox" title="Tab Groups in the user management" }
 
 
 [To the top of the page ^](#leave_group)

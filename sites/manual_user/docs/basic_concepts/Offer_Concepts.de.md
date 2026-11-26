@@ -4,14 +4,14 @@
 
 Sind Kurse und andere Lerninhalte in OpenOlat erstellt, bestimmen Sie, welche Benutzer:innen wann darauf zugreifen. Den Zugriff (Freigabe) gewähren Sie auf zwei Arten:
 
-* **Privat:** Tragen Sie registrierte OpenOlat-Benutzer:innen in der Mitgliederverwaltung der Kurs-Administration ein, werden sie Mitglieder des Kurses oder der Lernressource und greifen darauf zu.
+* **Privat:** Tragen Sie registrierte OpenOlat-Benutzer:innen unter `Kurs > Administration > Mitgliederverwaltung` ein, werden sie Mitglieder des Kurses oder der Lernressource und greifen darauf zu.
 
 * **Buchbare und offene Angebote:** Besitzer:innen fügen dem Kurs ein Angebot hinzu. Benutzer:innen finden das Angebot im Katalog und werden Mitglied, indem sie es buchen.<br>
 Für denselben Kurs erstellen Sie auch mehrere Angebote für verschiedene Zielgruppen.<br>
-So bieten Sie einen Kurs zum Beispiel internen Benutzer:innen kostenlos an und mit einem zweiten Angebot Externen kostenpflichtig.
-Ob ein Angebot im Katalog für alle oder nur für bestimmte Organisationseinheiten erscheint, legen Sie im Angebot fest, siehe [Wo können Angebote gezeigt werden?](#show_offers). Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft.
+So bieten Sie einen Kurs zum Beispiel internen Benutzer:innen kostenlos an und mit einem zweiten Angebot Externen kostenpflichtig.<br>
+Ob ein Angebot im Katalog für alle oder nur für bestimmte Organisationseinheiten erscheint, legen Sie im Angebot fest, siehe [Wo können Angebote gezeigt werden?](#show_offers). Mit der Angebotsart "Ohne Buchung" braucht es nicht einmal eine Mitgliedschaft, siehe [Die Angebotsarten](#offer_types).
 
-Auch Gruppen haben Angebote. Eine buchbare Gruppe finden Benutzer:innen nicht im Katalog, sondern im Bereich Gruppen im Tab "Veröffentlichte Gruppen", siehe [Gruppen anbieten](#what_is_offered_groups).
+Auch Gruppen haben Angebote. Eine buchbare Gruppe finden Benutzer:innen nicht im Katalog, sondern unter `Gruppen > Veröffentlichte Gruppen`, siehe [Gruppen anbieten](#what_is_offered_groups).
 
 **Beispiel für Kursangebote im Katalog:**
 ![Vier Kurskarten im Launcher "Ausgewählte Lernressourcen" mit Typ, Titel und Fachbereich, darüber das Suchfeld](assets/offer_concepts_example_v1_de.png){ class="shadow lightbox" title="Startseite des Katalogs" }
@@ -55,11 +55,11 @@ OpenOlat hat einen internen und einen externen Katalog. Sie bestimmen, ob ein An
 
 Im Katalog erscheinen Angebote von Kursen und von Durchführungen. Eine Durchführung ist der konkrete Durchgang eines Bildungsangebots mit Zeitraum, Ort und Mitgliedern, etwa ein Kurs, der im Frühling und noch einmal im Herbst stattfindet. Durchführungen planen Sie im [Course Planner](../area_modules/Course_Planner/index.de.md), dem Modul, mit dem eine Organisation ihr Bildungsangebot plant.
 
-Der Katalog ist in Abschnitte gegliedert, die Launcher. Welche Launcher es gibt und nach welchen Regeln sie Angebote zeigen, legen Systemadministrator:innen fest, siehe [Tab Startseite (Administrationshandbuch)](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page). Der Katalog (V2) stellt die Angebote danach dynamisch zusammen und ordnet sie den Launchern zu. Im Angebot selbst wählen Sie keinen Launcher. Als Besitzer:in eines Kurses beeinflussen Sie die Zuordnung über die Fachbereiche in den Metadaten des Kurses: Taxonomie-Launcher zeigen Ordner, die bestimmten Taxonomieebenen entsprechen, und darin die Kurse und Lernressourcen, die dieser Ebene zugeordnet sind.
+Der Katalog ist in Abschnitte gegliedert, die Launcher. Welche Launcher es gibt und nach welchen Regeln sie Angebote zeigen, legen Systemadministrator:innen fest, siehe [Tab Startseite (Administrationshandbuch)](../../manual_admin/administration/Modules_Catalog_2.0.de.md#tab_start_page). Der Katalog stellt die Angebote danach dynamisch zusammen und ordnet sie den Launchern zu. Im Angebot selbst wählen Sie keinen Launcher. Als Besitzer:in eines Kurses beeinflussen Sie die Zuordnung über die Fachbereiche in den Metadaten des Kurses: Taxonomie-Launcher zeigen Ordner, die bestimmten Taxonomieebenen entsprechen, und darin die Kurse und Lernressourcen, die dieser Ebene zugeordnet sind.
 
-Ein Angebot erscheint auch in mehreren Launchern des Katalogs (V2), zum Beispiel in einem Launcher "Beliebte Kurse" und in einem Launcher, der Kurse anhand einer bestimmten Taxonomie thematisch zusammenstellt.
+Ein Angebot erscheint auch in mehreren Launchern des Katalogs, zum Beispiel in einem Launcher "Beliebte Kurse" und in einem Launcher, der Kurse anhand einer bestimmten Taxonomie thematisch zusammenstellt.
 
-Angebote erscheinen auch in Launchern, die nur Mitglieder bestimmter Organisationseinheiten sehen. Voraussetzung ist, dass das Modul "Organisationen" aktiviert ist.
+Angebote erscheinen auch in Launchern, die nur Mitglieder bestimmter Organisationseinheiten sehen. Voraussetzung ist, dass Systemadministrator:innen das Modul "Organisationen" in der System-Administration unter `Administration > Module > Organisationen` eingeschaltet haben.
 
 Die Freigabe stellen Sie direkt im Angebot ein:<br>
 Kurs: `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Link "Angebot editieren"`<br>
@@ -69,7 +69,7 @@ Durchführung: `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Ka
 
 !!! info "Wichtig"
 
-    Ein Angebot ist im Katalog buchbar, sobald der Kurs den Status "Veröffentlicht" hat. Bei einer Durchführung genügt standardmässig der Status "Provisorisch" oder "Bestätigt".
+    Ein Angebot ist im Katalog buchbar, sobald der Kurs den Status "Veröffentlicht" hat. Bei einer Durchführung genügt standardmässig der Status "Provisorisch" oder "Bestätigt". Andere Bedingungen legen Sie im Angebot fest, siehe [Weitere Randbedingungen für Angebote](#further_boundary_conditions).
 
 !!! tip "Tipp"
 
@@ -183,7 +183,7 @@ Angebote gibt es für
 - Gruppen
 - sonstige Lernressourcen
 
-Kurse und Durchführungen erscheinen mit ihrem Angebot im Katalog. Eine sonstige Lernressource bieten Sie als Kurs an, siehe [Sonstige Lernressourcen anbieten](#what_is_offered_other). Gruppen erscheinen im Tab "Veröffentlichte Gruppen".
+Kurse und Durchführungen erscheinen mit ihrem Angebot im Katalog. Eine sonstige Lernressource bieten Sie als Kurs an, siehe [Sonstige Lernressourcen anbieten](#what_is_offered_other). Gruppen erscheinen unter `Gruppen > Veröffentlichte Gruppen`.
 
 
 ### Kurse anbieten {: #what_is_offered_courses}
@@ -209,7 +209,7 @@ Benutzer:innen buchen eine Durchführung, indem sie sich aus dem Katalog heraus 
 
 Bei einem Angebot "Rechnung" geben die Interessent:innen beim Buchen ihre Rechnungsadresse und weitere Angaben an. OpenOlat erstellt dabei eine Buchungsnummer. Die Angebotsart "Rechnung" gibt es nur bei Durchführungen im Course Planner.
 
-Der Buchungsauftrag entsteht erst, wenn die Person die Buchung abschliesst. Wählen Sie im Angebot unter "Mitgliedschaft" die Option "Mit Bestätigung", ist die Mitgliedschaft der buchenden Person danach ausstehend, bis jemand sie akzeptiert oder ablehnt. Das tun zwei Stellen:
+Jede Buchung über ein Angebot hält OpenOlat als Buchungsauftrag fest. Der Buchungsauftrag entsteht erst, wenn die Person die Buchung abschliesst. Wählen Sie im Angebot unter "Mitgliedschaft" die Option "Mit Bestätigung", ist die Mitgliedschaft der buchenden Person danach ausstehend, bis jemand sie akzeptiert oder ablehnt. Das tun zwei Stellen:
 
 * **Im Course Planner:** Wer die Mitglieder der Durchführung verwaltet, wählt über der Mitgliederliste "Ausstehend" und entscheidet mit "Akzeptieren" oder "Ablehnen", für alle Personen auf einmal mit "Alle akzeptieren":<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Mitglieder`<br>
@@ -239,7 +239,7 @@ Welche Angebotsarten eine Durchführung bietet, zeigt [Angebotsarten für Durchf
 
 Soll sich jemand selbst in eine Gruppe eintragen, etwa in eine Lerngruppe oder eine kursunabhängige Schulung, bieten Sie die Gruppe an. Das Angebot erstellen Sie unter `Gruppe > Administration > Tab "Freigabe"`, welche Angebotsarten zur Wahl stehen, zeigt [Angebotsarten für Gruppen](#offer_types_groups).
 
-Sobald ein Angebot besteht, erscheint die Gruppe im Bereich Gruppen im Tab "Veröffentlichte Gruppen". Dort buchen Benutzer:innen sie mit "Beitreten", siehe [Gruppenmitglied werden](../groups/Group_Membership.de.md). Im Katalog erscheinen Gruppen nicht.
+Sobald ein Angebot besteht, erscheint die Gruppe unter `Gruppen > Veröffentlichte Gruppen`. Dort buchen Benutzer:innen sie mit "Beitreten", siehe [Gruppenmitglied werden](../groups/Group_Membership.de.md). Im Katalog erscheinen Gruppen nicht.
 
 [Mehr über Angebote einer Gruppe >](../groups/Group_Administration/index.de.md#booking)
 
@@ -265,7 +265,7 @@ Passen Sie Metadaten und Beschreibung dieses Kurses an die enthaltene Lernressou
 
 ### PayPal [:octicons-tag-16:{ title="ab Release 14.1 (OO-4203)" }](https://track.frentix.com/issue/OO-4203){:target="_blank"} {: #offer_payed_paypal}
 
-Mit dem Bezahlungsmodul PayPal bieten Autor:innen Lerninhalte gegen Bezahlung an. Systemadministrator:innen richten das Modul vorher in der System-Administration ein und schalten es ein.
+Mit dem Bezahlungsmodul PayPal bieten Autor:innen Lerninhalte gegen Bezahlung an. Systemadministrator:innen richten das Modul vorher in der System-Administration unter `Administration > Bezahlungsmodule > PayPal` ein und schalten es ein.
 
 Ist das Bezahlungsmodul PayPal eingerichtet und eingeschaltet, steht die Angebotsart "PayPal Checkout" beim Erstellen eines Angebots zur Verfügung: für Kurse unter `Kurs > Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Angebot" > Button "Angebot hinzufügen"`, für Durchführungen im Course Planner und für Gruppen in der [Gruppenadministration](../groups/Group_Administration/index.de.md#booking).
 
@@ -306,28 +306,31 @@ Kann eine Person an einer gebuchten Durchführung doch nicht teilnehmen, stornie
 
 | Angebot in | Was Teilnehmende tun | Wer es erlaubt | Wo Teilnehmende es finden |
 |---|---|---|---|
-| Durchführung im Course Planner | Buchung stornieren | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen im Angebot der Durchführung, siehe die Abschnitte unten | Infoseite der Durchführung, Kasten "Mein Bildungsprodukt", bei einer Durchführung vom Typ Einzelkurs Kasten "Mein Kurs", siehe [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking) |
+| Durchführung im Course Planner | Buchung stornieren | Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen im Angebot der Durchführung, siehe die Abschnitte unten | Infoseite der Durchführung, je nach Durchführung Kasten "Mein Bildungsprodukt" oder, bei einer Durchführung vom Typ Einzelkurs, Kasten "Mein Kurs", siehe [Buchung stornieren](../learningresources/General_Functions_Infopage.de.md#cancel_booking) |
 | Kurs | Kurs verlassen | Besitzer:innen des Kurses mit "Teilnehmer:innen können austreten" unter `Kurs > Administration > Einstellungen > Tab "Freigabe"` | Infoseite des Kurses, Kasten "Mein Kurs", siehe [Kurs verlassen](../learningresources/General_Functions_Infopage.de.md#leave_course) |
 | Gruppe | Gruppe verlassen | Betreuer:innen der Gruppe mit "Teilnehmer:innen können Gruppe verlassen" unter `Gruppe > Administration > Tab "Mitglieder"` | Spalte "Verlassen" in der Liste unter `Gruppen`, siehe [Gruppe verlassen](../groups/Leave_a_Group.de.md) |
 
-Die folgenden Abschnitte richten sich an Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen. Ob und bis wann Teilnehmende stornieren, hängt von der Angebotsart und ihrer Einstellung ab. Die Grafik zeigt die Fälle auf einer Zeitachse:
+Die folgenden Abschnitte richten sich an Kursplaner:innen, Produktbesitzer:innen und Elementbesitzer:innen, die Rollen des Course Planners, siehe [Rollen und Rechte im Course Planner](../area_modules/Course_Planner/index.de.md#roles_rights). Ob und bis wann Teilnehmende stornieren, hängt von der Angebotsart und ihrer Einstellung ab. Die Grafik zeigt die Fälle auf einer Zeitachse:
 
 ![Zeitachse: wie lange Teilnehmende ihre Buchung je Angebotsart und Einstellung stornieren](assets/offer_concepts_cancellation_timeline_v1_de.svg){ class="shadow lightbox" title="Stornierung je Angebotsart und Einstellung · 2026.11.11" }
 
 ### Frei verfügbar und Zugangscode [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"} {: #offer_cancellation_free_token}
 
-Mit dem Schalter "Stornierbar" entscheiden Sie bei den Angeboten "Frei verfügbar" und "Zugangscode" einer Durchführung, ob Teilnehmende ihre Buchung selbst zurückziehen dürfen. Ist der Schalter aus (Vorgabe), storniert nur die Verwaltung der Durchführung eine Buchung. Der Schalter steht im Angebot direkt unter "Angebotsbeschreibung".
+Mit dem Schalter "Stornierbar" entscheiden Sie bei den Angeboten "Frei verfügbar" und "Zugangscode" einer Durchführung, ob Teilnehmende ihre Buchung selbst zurückziehen dürfen. Ist der Schalter aus (Vorgabe), storniert nur die Verwaltung der Durchführung eine Buchung. Der Schalter steht im Angebot direkt unter "Angebotsbeschreibung":<br>
+`Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote > Link "Angebot editieren"`
 
 Ist er eingeschaltet, wählen Sie unter "Teilnehmende können stornieren":
 
 * **Jederzeit:** Teilnehmende stornieren auch nach dem Beginn und bei einer Durchführung ohne Beginndatum, etwa bei einem laufenden Selbstlernangebot. Diese Option ist vorausgewählt.
-* **Bis zum Beginndatum:** Teilnehmende stornieren bis zum Tag vor dem Beginn. So steht die Zahl der Teilnehmenden ab dem Start fest. Hat der Durchführungszeitraum kein Beginndatum, zeigt das Angebot die Warnung "Teilnehmende können nur stornieren, wenn beim Durchführungszeitraum ein Beginndatum angegeben ist!", und Teilnehmende stornieren nicht selbst.
+* **Bis zum Beginndatum:** Teilnehmende stornieren bis zum Tag vor dem Beginndatum, am Tag des Beginns nicht mehr. So steht die Zahl der Teilnehmenden ab dem Start fest. Hat der Durchführungszeitraum kein Beginndatum, zeigt das Angebot die Warnung "Teilnehmende können nur stornieren, wenn beim Durchführungszeitraum ein Beginndatum angegeben ist!", und Teilnehmende stornieren nicht selbst.
 
 ![Bei eingeschaltetem "Stornierbar" wählen Sie "Jederzeit" oder "Bis zum Beginndatum"; ohne Beginndatum im Durchführungszeitraum erscheint eine Warnung](assets/offer_concepts_cancellation_v1_de.png){ class="shadow lightbox" title="Dialog Frei verfügbar einer Durchführung · 2026.11.09" }
 
 "Jederzeit" gibt es auch beim Durchführungszeitraum und meint dort etwas anderes: Die Durchführung ist an keinen Zeitraum gebunden und hat damit kein Beginndatum, siehe [Durchführung in den Einstellungen](../area_modules/Course_Planner_Implementations.de.md#tab_settings_execution). Bei einer solchen Durchführung stornieren Teilnehmende nur mit der Option "Jederzeit" im Angebot.
 
 Es gilt immer die aktuelle Einstellung des Angebots, auch für Buchungen von früher. Schalten Sie "Stornierbar" aus, sehen auch Teilnehmende, die schon gebucht haben, die Schaltfläche "Buchung stornieren" nicht mehr. Beim Update auf Release 21.1.2 schaltet OpenOlat "Stornierbar" bei allen bestehenden Angeboten ausser "Rechnung" aus. Sollen Teilnehmende bei einem bestehenden Angebot "Frei verfügbar" oder "Zugangscode" selbst stornieren, schalten Sie "Stornierbar" dort ein.
+
+Welche Angebote stornierbar sind, sehen Sie in der Liste der Angebote unter `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Katalog > Button Angebote`. Ein stornierbares Angebot zeigt die Zeile "Stornierbar" mit der gewählten Option, "Jederzeit" oder "Bis zum Beginndatum". Fehlt die Zeile, ist "Stornierbar" ausgeschaltet.
 
 !!! tip "Tipp"
 
@@ -341,20 +344,24 @@ Beim Angebot "Rechnung" legen Sie fest, ob Teilnehmende ihre Buchung stornieren 
 
 * **Kostenstelle:** Oberhalb der Stornierungsoptionen ordnen Sie dem Angebot bei Bedarf eine Kostenstelle zu.
 * **Stornierbar:** Mit diesem Schalter bestimmen Sie, ob Teilnehmende ihre Buchung stornieren dürfen. Standardmässig ist er eingeschaltet.
-* **Stornierungsbedingungen:** Ist das Angebot stornierbar, wählen Sie zwischen "Kostenlos" (Standard) und "Mit Gebühr".
-* **Stornierungsgebühr:** Bei der Auswahl "Mit Gebühr" geben Sie die Höhe der Gebühr an. Mit "Kostenlos stornierbar bis \<Anzahl\> Tage vor Start" definieren Sie zusätzlich eine Frist, bis zu der ohne Gebühr storniert werden kann. Damit die Frist berücksichtigt wird, muss beim Durchführungszeitraum ein Anfangsdatum angegeben sein.
+* **Stornierungsbedingungen:** Ist das Angebot stornierbar, wählen Sie zwischen "Kostenlos" und "Mit Gebühr".
+* **Stornierungsgebühr:** Bei der Auswahl "Mit Gebühr" geben Sie die Höhe der Gebühr an. Mit "Kostenlos stornierbar bis \<Anzahl\> Tage vor Start" definieren Sie zusätzlich eine Frist, bis zu der ohne Gebühr storniert werden kann. Danach stornieren Teilnehmende bis zum Tag vor dem Beginndatum mit Gebühr. Damit die Frist zählt, braucht der Durchführungszeitraum ein "Beginndatum"; fehlt es, warnt das Angebot: "Damit die Frist berücksichtigt werden kann, muss beim Durchführungszeitraum ein Anfangsdatum angegeben werden!"
 
-Teilnehmende stornieren bis zum Tag vor dem Beginn der Durchführung. Dafür braucht der Durchführungszeitraum ein Anfangsdatum. Für eine Buchung gelten die Bedingungen, die bei der Buchung galten; eine spätere Änderung am Angebot betrifft nur neue Buchungen.
+Bei einem neuen Angebot übernimmt OpenOlat die Vorgaben des Bezahlungsmoduls Rechnung. Haben Systemadministrator:innen in der System-Administration unter `Administration > Bezahlungsmodule > Rechnung > Konfiguration` eine "Annullierungsgebühr", also eine vorgegebene Stornierungsgebühr, für die Währung hinterlegt, die das Feld "Währung" im neuen Angebot vorschlägt, ist "Mit Gebühr" mit diesem Betrag vorausgewählt, sonst "Kostenlos". Die Zahl der Tage bei "Kostenlos stornierbar bis" füllt OpenOlat ebenfalls aus den Vorgaben vor.
 
-Bei "Mit Gebühr" zeigt der Katalog beim Angebot, bis wann die Stornierung kostenlos ist, und der Dialog der Buchung nennt die Stornierungsgebühr.
+Teilnehmende stornieren bis zum Tag vor dem Beginndatum der Durchführung. Ohne Beginndatum im Durchführungszeitraum stornieren sie nicht selbst. Für eine Buchung gelten der Schalter "Stornierbar" und die Stornierungsbedingungen so, wie sie bei der Buchung eingestellt waren; eine spätere Änderung am Angebot betrifft nur neue Buchungen.
+
+Bei "Mit Gebühr" zeigt der Katalog beim Angebot "Kostenlose Stornierung bis zu \<Anzahl\> Tage vor Beginn." oder, ohne Frist, "Nicht kostenlos stornierbar.", und der Dialog der Buchung nennt die Stornierungsgebühr. In der Liste der Angebote zeigt die Zeile "Stornierbar" bei einem stornierbaren Angebot "Kostenlos" oder "Mit Gebühr".
 
 ### PayPal Checkout {: #offer_cancellation_paypal}
 
-Eine Buchung mit "PayPal Checkout" storniert die Verwaltung der Durchführung. Das Angebot hat keinen Schalter "Stornierbar", eine Stornierung durch Teilnehmende lässt sich deshalb nicht einstellen.
+Eine Buchung mit "PayPal Checkout" storniert die Verwaltung der Durchführung. Das Angebot hat keinen Schalter "Stornierbar", eine Stornierung durch Teilnehmende lässt sich deshalb nicht einstellen. Wie die Verwaltung storniert, steht unter [Stornieren durch die Verwaltung](#offer_cancellation_management).
 
-Wer die Mitglieder der Durchführung verwaltet, storniert eine Buchung im Tab "Mitglieder" mit "Buchung stornieren" im Menü der Mitgliederzeile:<br>
+### Stornieren durch die Verwaltung {: #offer_cancellation_management}
+
+Wer die Mitglieder der Durchführung verwaltet, also Kursplaner:innen, Administrator:innen und Produktbesitzer:innen, storniert eine Buchung im Tab "Mitglieder" mit "Buchung stornieren" im Menü der Mitgliederzeile:<br>
 `Course Planner > Durchführungen > "Ihre Durchführung" > Tab Mitglieder`<br>
-Das geht bei jeder Angebotsart, auch bei "PayPal Checkout", und unabhängig vom Schalter "Stornierbar". Voraussetzung ist ein Buchungsauftrag der Person, siehe [Tab Mitglieder](../area_modules/Course_Planner_Implementations.de.md#tab_members).
+Das geht bei jeder Angebotsart, auch bei "PayPal Checkout", und unabhängig vom Schalter "Stornierbar". Voraussetzung ist ein Buchungsauftrag der Person, siehe [Tab Mitglieder](../area_modules/Course_Planner_Implementations.de.md#tab_members). Hat die Person keinen, etwa weil sie direkt eingetragen wurde, fehlt "Buchung stornieren" im Menü; Sie nehmen sie dann mit "Entfernen" aus der Durchführung.
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -382,8 +389,7 @@ Die Mitgliedschaft ist zunächst ausstehend, bis sie jemand akzeptiert. Wer das 
 Mit der Option "E-Mail an Teilnehmer:in senden" erhält die buchende Person nach der Buchung den Buchungsbeleg per E-Mail.
 
 * **Automatisches Buchen:**<br>
-OpenOlat erstellt die Mitgliedschaft automatisch, wenn die Person den Kurs öffnet.
-Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Benutzer:innen sehen nur die Aktion "Öffnen". Verwenden Sie diese Option deshalb nicht zusammen mit anderen Angeboten.
+OpenOlat erstellt die Mitgliedschaft automatisch, wenn die Person den Kurs öffnet. Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Benutzer:innen sehen nur die Aktion "Öffnen". Verwenden Sie diese Option deshalb nicht zusammen mit anderen Angeboten.
 
 * Auch bei sofort aktiver Mitgliedschaft (Durchführungen, Angebot mit Rechnung) akzeptieren Buchende in der Regel zuerst die Datenschutzbestimmungen und weitere Nutzungsbedingungen. In den Nutzungsbedingungen legen Sie bei Bedarf weitere Rahmenbedingungen fest.
 
@@ -398,7 +404,8 @@ Beim automatischen Buchen zeigt OpenOlat die Angebotsbeschreibung nicht, und Ben
 ## Kreditpunkte im Katalog [:octicons-tag-16:{ title="ab Release 20.1.1 (OO-8558)" }](https://track.frentix.com/issue/OO-8558){:target="_blank"} {: #offer_payed_credit_points}
 
 Kreditpunkte sind keine Angebotsart und keine Bezahlart. Ein Kurs vergibt sie, wenn Teilnehmende ihn erfolgreich abschliessen. Wie viele Punkte ein Kurs vergibt, zeigt seine Karte im Katalog mit der Angabe "Kreditpunkte", siehe [Was kann in Angeboten gezeigt werden?](#offers_card).
-Mit einem Kreditpunktesystem sammeln Teilnehmende Kreditpunkte über verschiedene Lernangebote hinweg, zum Beispiel ECTS oder LearnCoins. Organisationen definieren und benennen eigene Kreditpunktesysteme über das Modul "Kreditpunkte" und schränken sie bei Bedarf ein, etwa nach Rollen oder organisatorischen Bereichen. Zertifikatsprogramme setzen Kreditpunkte zum Beispiel für Rezertifizierungen ein.
+
+Mit einem Kreditpunktesystem sammeln Teilnehmende Kreditpunkte über verschiedene Lernangebote hinweg, zum Beispiel ECTS oder LearnCoins. Organisationen definieren und benennen eigene Kreditpunktesysteme in der System-Administration unter `Administration > e-Assessment > Kreditpunkte` und schränken sie bei Bedarf ein, etwa nach Rollen oder organisatorischen Bereichen. Zertifikatsprogramme setzen Kreditpunkte zum Beispiel für Rezertifizierungen ein.
 
 [Kreditpunkte systemweit aktivieren (Administrationshandbuch) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 [Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment/index.de.md#section_credit_points)<br>
@@ -414,6 +421,7 @@ Mit einem Kreditpunktesystem sammeln Teilnehmende Kreditpunkte über verschieden
 **Auf dieser Seite erwähnt**<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Course Planner: Übersicht >](../area_modules/Course_Planner/index.de.md)<br>
+[Modul Katalog (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
 [Katalog 2.0 - Sortierung/Reihenfolge >](../area_modules/catalog2.0_sort_offers.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](../learningresources/Course_Settings_Share/index.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>

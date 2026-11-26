@@ -40,7 +40,7 @@ Unter "Mein Kurs" finden Sie, was Sie im aktuellen Kurs persönlich betrifft. We
 * [**Meine Badges**](#my_badges): Ihre Badges aus diesem Kurs.
 * [**Vergebene Badges**](#issued_badges): die im Kurs vergebenen Badges, für Kursbesitzer:innen und berechtigte Betreuer:innen.
 * [**Notizen**](#notes): Ihre Notizen zum Kurs, die nur Sie lesen.
-* [**Bookmark**](#bookmark): Mit einem Bookmark erscheint der Kurs im Menü "Kurse" im Tab "Favoriten".
+* [**Bookmark**](#bookmark): Mit einem Bookmark erscheint der Kurs unter `Kurse > Favoriten`.
 * [**Einwilligung**](#terms_of_use): Haben Sie Nutzungsbedingungen oder einer Datenschutzerklärung des Kurses zugestimmt, lesen Sie sie hier nach und widerrufen bei Bedarf Ihre Einwilligung.
 * [**Gruppen**](#groups): die Gruppen des Kurses, in denen Sie Mitglied sind oder auf der Warteliste stehen.
 * [**Kurs verlassen**](#leave_course): Sie tragen sich selbst aus dem Kurs aus.
@@ -122,7 +122,7 @@ In jedem Kurs halten Sie eigene Notizen fest. Unter "Notizen" sehen, bearbeiten 
 
 ### Bookmark {: #bookmark}
 
-Mit einem Bookmark finden Sie den Kurs schneller wieder: Er steht dann im Menü "Kurse" im Tab "Favoriten".
+Mit einem Bookmark finden Sie den Kurs schneller wieder: Er steht dann unter `Kurse > Favoriten`.
 
 [Zum Seitenanfang ^](#my_course)
 
@@ -151,7 +151,7 @@ Sind Sie über eine Gruppe im Kurs, als Gruppenteilnehmer:in oder Gruppenbetreue
 
 ### Kurs verlassen [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9272)" }](https://track.frentix.com/issue/OO-9272) {: #leave_course}
 
-Brauchen Sie einen Kurs nicht mehr, tragen Sie sich mit "Kurs verlassen" selbst aus. OpenOlat beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, je nachdem, worüber Sie im Kurs sind. Danach haben Sie keinen Zugriff mehr auf den Kurs. Für einen erneuten Zugriff wenden Sie sich an die Betreuer:innen des Kurses oder der Gruppe.
+Brauchen Sie einen Kurs nicht mehr, tragen Sie sich mit "Kurs verlassen" selbst aus. OpenOlat beendet sofort Ihre Kurs- oder Gruppenmitgliedschaft, je nachdem, worüber Sie im Kurs sind. Danach haben Sie keinen Zugriff mehr auf den Kurs. Hat der Kurs ein offenes Angebot, buchen Sie ihn auf seiner [Infoseite](General_Functions_Infopage.de.md) erneut. Für einen erneuten Zugriff ohne offenes Angebot wenden Sie sich an die Betreuer:innen des Kurses oder der Gruppe.
 
 Austreten können nur Teilnehmende, nicht Betreuer:innen oder Besitzer:innen. Die Besitzer:innen des Kurses lassen das Austreten mit der Einstellung "Teilnehmer:innen können austreten" zu: `Kurs > Administration > Einstellungen > Tab "Freigabe"`.
 
@@ -161,18 +161,20 @@ Austreten können nur Teilnehmende, nicht Betreuer:innen oder Besitzer:innen. Di
 
 "Kurs verlassen" erscheint nur, wenn folgende Bedingungen erfüllt sind:
 
-- Die aktive Rolle ist "Teilnehmer:in". Beim Rollenwechsel erscheint die Option nur bei aktiver Teilnehmer:innen-Rolle.
-- Der Kurs hat den Verwendungszweck "Eigenständig" (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck "Verwendung im Course Planner"), steht "Kurs verlassen" nicht zur Verfügung. Haben Sie eine Durchführung gebucht, stornieren Sie die Buchung auf der Infoseite der Durchführung, wenn das Angebot es erlaubt, siehe [Infoseite: Buchung stornieren](General_Functions_Infopage.de.md#cancel_booking). [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397) Ist die Durchführung vom Typ Einzelkurs, öffnet der Link "Infoseite" in der Toolbar diese Infoseite direkt, und "Buchung stornieren" steht dort im Kasten "Mein Kurs". [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977)
+- Die aktive Rolle ist "Teilnehmer:in". Haben Sie im Kurs mehrere Rollen, wählen Sie diese Rolle in der Toolbar unter ["Rolle"](../basic_concepts/Roles/index.de.md#role_switch).
+- Der Kurs hat den Verwendungszweck "Eigenständig" (siehe [Kurseinstellungen - Tab Freigabe](Course_Settings_Share/index.de.md#section_usage)). Verwaltet stattdessen der Course Planner den Kurs (Verwendungszweck "Verwendung im Course Planner"), steht "Kurs verlassen" nicht zur Verfügung.
 - Unter [Kurseinstellungen - Tab Freigabe > "Teilnehmer:innen können austreten"](Course_Settings_Share/index.de.md#section_share_leave) ist eine andere Option als "Nie" gewählt.
-- Im Kurs läuft gerade kein Prüfungsmodus.
+- Im Kurs läuft gerade kein [Prüfungsmodus](Assessment_mode.de.md).
 
 Ist die Option "Nach Kursenddatum oder Status "Beendet"" gewählt, erscheint "Kurs verlassen" schon, ist aber ausgegraut, bis der Durchführungszeitraum abgelaufen ist oder der Kurs den Status "Beendet" hat.
+
+Sind Sie über eine gebuchte Durchführung im Course Planner im Kurs, stornieren Sie stattdessen die Buchung auf der Infoseite der Durchführung, wenn das Angebot es erlaubt. Die Schaltfläche "Buchung stornieren" steht dort je nach Durchführung im Kasten "Mein Bildungsprodukt" oder, bei einer Durchführung vom Typ Einzelkurs, im Kasten "Mein Kurs" der Infoseite, siehe [Infoseite: Buchung stornieren](General_Functions_Infopage.de.md#cancel_booking). [:octicons-tag-16:{ title="ab Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397) Eine Durchführung vom Typ Einzelkurs besteht aus genau einem Kurs. Bei ihr öffnet der Link "Infoseite" in der Toolbar die Infoseite der Durchführung direkt. [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977)
 
 **Zusätzliche Bedingungen bei einer Gruppenmitgliedschaft**
 
 Sind Sie über eine Gruppe im Kurs, entscheidet zusätzlich die Gruppe darüber, ob "Kurs verlassen" erscheint. Alle drei folgenden Bedingungen müssen erfüllt sein:
 
-- In den Einstellungen der Gruppe ist "Teilnehmer:innen können Gruppe verlassen" erlaubt.
+- In der Gruppe ist unter `Gruppe > Administration > Tab "Mitglieder"` die Option "Teilnehmer:innen können Gruppe verlassen" angekreuzt.
 - Die Gruppe ist nur mit diesem einen Kurs verbunden. Eine Gruppe, die mehrere Kurse bedient, lässt sich nicht über einen einzelnen Kurs verlassen.
 - Wird die Gruppe von einem [Kursbaustein Einschreibung](Course_Element_Enrolment.de.md) verwendet, ist dort "Austragen erlaubt" gesetzt.
 
@@ -206,6 +208,7 @@ Der Dialog nennt unter "Kurs" den betroffenen Kurs. Um den Austritt abzuschliess
 [Persönliche Werkzeuge: Notizen >](../personal_menu/Notes.de.md)<br>
 [Nutzungsbedingungen >](../basic_concepts/Terms_Of_Use.de.md)<br>
 [Kurseinstellungen - Tab Freigabe >](Course_Settings_Share/index.de.md)<br>
+[Prüfungsverwaltung: Prüfungsmodus >](Assessment_mode.de.md)<br>
 [Allgemeine Funktionen: Infoseite >](General_Functions_Infopage.de.md)<br>
 [Kursbaustein "Einschreibung" >](Course_Element_Enrolment.de.md)
 

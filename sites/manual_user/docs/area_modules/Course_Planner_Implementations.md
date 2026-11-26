@@ -245,9 +245,11 @@ If an event is assigned to a course, OpenOlat switches on the Event & absence ma
 
 ![A note icon in the member list shows which participant has left a comment on the booking](assets/course_planner_implementations_tab_members_v2_en.png){ class="shadow lightbox" title="Members tab · 2026.09.30" }
 
-Different participants take part in each implementation of a product. Participants therefore become members of a specific implementation, not of individual courses and not of the product. You determine whether they become members of the entire implementation or only of a sub-area.
+Different participants take part in each implementation of a product. Participants therefore become members of a specific implementation, not of individual courses and not of the product. You determine whether they become members of the entire implementation or only of an element below it, see [Tab Structure](#tab_structure).
 
 Above the member list you choose which people the list shows. "Active" shows the current members, "Pending" the people with a pending membership and "Members' history" every change to a membership with its date. "Non-members" shows people whose membership in this implementation has ended, for example because they were removed or their membership was declined or canceled. People with a pending membership are not listed there but under "Pending".
+
+If a person cannot take part after all, you cancel their booking with "Cancel booking" under the 3 dots at the end of their row. The action appears if the person has a booking order, and it works regardless of whether the offer allows participants to cancel, see [Offer concepts: Cancellation by the administration](../basic_concepts/Offer_Concepts.md#offer_cancellation_management).
 
 In the member list, a note icon in the "Participant comment" column shows whether the participant has attached a comment to the booking; the column header also shows only the icon. A click on it opens the comment. The booking orders table in the Catalog tab lists the same information in the "Participant comment" column [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9484)" }](https://track.frentix.com/issue/OO-9484){:target="_blank"}.
 

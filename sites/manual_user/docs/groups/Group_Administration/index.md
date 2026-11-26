@@ -75,7 +75,7 @@ With "Members can download the list of members" you allow the members to downloa
 
 ### Membership configuration {: #membership_configuration}
 
-If "Members can leave the group" is switched on, participants remove themselves from the group: [Leave a group](../Leave_a_Group.md). Otherwise they ask a coach of the group to remove them.
+If "Participants can leave the group" is switched on, participants remove themselves from the group: [Leave a group](../Leave_a_Group.md). Otherwise they ask a coach of the group to remove them.
 
 ### Members {: #member_list}
 

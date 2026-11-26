@@ -90,7 +90,7 @@ You also leave again on the info page. The right column shows one of two boxes, 
 | "My course" | "Leave course", for other learning resources for example "Leave wiki", see [Leave course](#leave_course). If you booked an implementation that is offered like a single course, "Cancel booking" or "Cancel booking for a fee" appears here, see [Cancel booking](#cancel_booking). | If you booked the course as part of an implementation, open its info page: in the catalog or under `Courses > Educational products` via "Learn more". You see what you booked in your [Booking orders](../personal_menu/Bookings.md). The other reasons are listed under [Leave course](#leave_course); if in doubt, ask your coaches. |
 | "My educational product" | "Cancel booking" or "Cancel booking for a fee", see [Cancel booking](#cancel_booking). | The box only exists if you can cancel. If it is missing, ask your coaches. |
 
-An implementation is the concrete run of an educational offer, with period, location, members and one or more courses. Under `Courses`, the scope with your implementations is called "Educational products". Whether a button appears is defined by the owners of the course, for an implementation by the course planners and product owners. The scope "Educational products" under `Courses` only exists if system administrators have switched it on, see [Products in "Courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses).
+An implementation is the concrete run of an educational offer, with period, location, members and one or more courses. An implementation of type Single course consists of exactly one course and is offered like a single course. Under `Courses`, the scope with your implementations is called "Educational products". Whether "Leave course" appears is defined by the owners of the course. Whether "Cancel booking" appears is defined for an implementation by the course planners, product owners and element owners in the offer; these roles are described in [Roles and rights in the Course Planner](../area_modules/Course_Planner/index.md#roles_rights). The scope "Educational products" under `Courses` only exists if system administrators have switched it on, see [Products in "Courses"](../../manual_admin/administration/Modules_Course_Planner.md#product_in_my_courses).
 
 ### Get started {: #get_started}
 
@@ -101,18 +101,20 @@ The box "Get started" shows the action that suits your situation:
 - **With an administrative role:** If you are not a member but an administrator, learning resource manager, principal or course planner, you open the course with "Open with administrative role".
 - **Without login:** Anyone who opens the info page via a link without being logged in to OpenOlat sees "Show in Catalog" if the course can be booked in the catalog, otherwise "To login".
 
-If a course is finished and participants no longer have access in the status "Finished", the box reports "Course finished".
+If the course has the status "Finished" and participants no longer have access in this status, the box reports "Course finished".
 
-You cancel a booking in the box below: "My educational product" or "My course", see [Cancel booking](#cancel_booking).
+You cancel a booking in the box below, depending on the implementation "My educational product" or, for an implementation of type Single course, "My course", see [Cancel booking](#cancel_booking).
 
 ### Cancel booking [:octicons-tag-16:{ title="from Release 20.0 (OO-8397)" }](https://track.frentix.com/issue/OO-8397){:target="_blank"} {: #cancel_booking}
 
 If you cannot take part in a booked implementation after all, you cancel the booking yourself if the offer allows it. You cancel on the info page of the implementation, which you reach via the catalog:<br>
 `Catalog > "Your implementation" > Learn more > Box "My educational product" > Cancel booking` [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9977)" }](https://track.frentix.com/issue/OO-9977){:target="_blank"}
 
-If the implementation is of the type Single course, the box is called "My course".
+Depending on the implementation, the box is called "My educational product" or, for an implementation of type Single course, "My course". An implementation of type Single course consists of exactly one course.
 
-You can cancel a booking yourself if it was made via an offer of an implementation in the Course Planner. You leave a course that you booked directly with [Leave course](#leave_course) instead.
+The catalog shows the implementation as long as its offer is valid. If the offer has expired, open the info page under `Courses` via "Learn more": for an implementation of type Single course under `Courses > Active`, otherwise under `Courses > Educational products`.
+
+You can cancel a booking yourself if it was made via an offer of an implementation in the Course Planner. You leave a course that you booked directly with [Leave course](#leave_course) instead. Which case applies is shown by the button in the box "My course": "Leave course" or "Cancel booking".
 
 ![As a participant you find the button "Cancel booking" in its own box "My educational product" below "Get started"](assets/general_functions_infopage_my_product_v1_en.png){ class="shadow lightbox" title="Info page of an implementation as a participant · 2026.11.09" }
 
@@ -124,14 +126,14 @@ If system administrators have switched on the scope "In preparation" under "Cour
 
     If you booked an implementation and the button is missing on the info page of one of its courses, open the info page of the implementation: in the catalog or under `Courses > Educational products` via "Learn more". The [Booking orders](../personal_menu/Bookings.md) do not show the button.
 
-The button only appears if the offer allows cancellation and your booking fits. As a participant, you do not see the settings of the offer. If the button is missing, one of these reasons applies:
+The button only appears if the offer allows cancellation and your booking meets the conditions below. Without the button, the box "My educational product" is missing completely, the box "My course" remains. As a participant, you do not see the settings of the offer. If the button is missing, one of these reasons applies:
 
 - **The offer does not allow cancellation:** The offer you booked does not let participants cancel themselves. With payment via "PayPal Checkout", this is always the case.
-- **The start has been reached:** With many offers, you can only cancel until the day before the start of the implementation. From the begin date on, the button is missing. If the implementation has no begin date, it is missing completely with these offers.
-- **You were enrolled without a booking order:** The button needs a booking order with the status "Done", "Open" or "Paid", see [Offer types: Status of booking orders](Offer_Types.md#order_status). You have one if you booked in the catalog or were enrolled with an offer. You can see whether a booking order exists under [Booking orders](../personal_menu/Bookings.md).
+- **The start has been reached:** With "Invoice" and with offers that can only be cancelled until the begin date, you can cancel until the day before the start of the implementation. From the begin date on, the button is missing. If the implementation has no begin date, it is missing completely with these offers. If the offer allows cancelling at any time, you can also cancel after the start.
+- **You were enrolled without a booking order:** The button needs a booking order with the status "Done", "Open" or "Paid", see [Offer types: Status of booking orders](Offer_Types.md#order_status). You have one if you booked in the catalog or if the administration of the implementation enrolled you with an offer. You can see whether a booking order exists under [Booking orders](../personal_menu/Bookings.md).
 - **You have another role:** Only participants of the implementation and persons whose membership is still waiting for confirmation after booking see the button.
 
-In these cases, contact your coaches or the person who enrolled you. Whoever manages the members of the implementation cancels your booking regardless of the setting of the offer. If there is no booking order, this person removes you from the implementation.
+In these cases, contact your coaches or the person who enrolled you. Whoever manages the members of the implementation cancels your booking regardless of the setting of the offer, see [Offer concepts: Cancellation by the administration](../basic_concepts/Offer_Concepts.md#offer_cancellation_management). If there is no booking order, this person removes you from the implementation.
 
 The settings of the offer and how long each offer type can be cancelled are described in [Offer concepts: Cancellation](../basic_concepts/Offer_Concepts.md#offer_cancellation).
 
@@ -207,7 +209,7 @@ Anyone booking an implementation in the catalog first sees the same info page as
 Some elements differ:
 
 - **Missing** are license, rating and comments.
-- **Instead of "My course"**, participants see the box "My educational product" with [Cancel booking](#cancel_booking). An implementation of type Single course shows the box "My course".
+- **On the right**, participants see depending on the implementation the box "My educational product" or, for an implementation of type Single course, "My course". It contains [Cancel booking](#cancel_booking) if the offer allows it; without this button, the box "My educational product" is missing completely.
 - **Added** are the section "Outline" and the fact "Participants" with the number of places.
 - **In the header**, the element type of the implementation appears next to the reference.
 
@@ -286,6 +288,7 @@ The details on usage, for example in which courses the learning resource is embe
 [Module Events and Absences >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
 [e-Assessment Administration: Credit points >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 [About this course: Technical information and usage >](../learningresources/Technical_Information_on_Resources_and_Usage.md)<br>
+[Course Planner: Overview >](../area_modules/Course_Planner/index.md)<br>
 [Module Course Planner >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
 [Offer types >](Offer_Types.md)<br>
 [User tools: Booking orders >](../personal_menu/Bookings.md)<br>
