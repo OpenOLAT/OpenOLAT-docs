@@ -43,7 +43,7 @@ Ist "Attribute Access Control aktivieren" eingeschaltet, erscheinen Felder für 
 
 Mit "Speichern" übernehmen Sie die Angaben. Eine Person erhält Zugang, wenn eines der beiden Attribute einen der zugelassenen Werte trägt. OpenOlat vergleicht dabei den ganzen Wert, den die Anbindung für das Attribut übergibt, mit jedem zugelassenen Wert. Allen anderen zeigt OpenOlat die Meldung "Sie dürfen nicht auf OpenOlat einloggen." OpenOlat prüft die Attribute bei jeder Anmeldung über Shibboleth, auch bei Personen, die schon ein Konto haben.
 
-Welche Attribute eine Hochschule liefern kann, legt die Föderation fest. Bei SWITCH heisst die Föderation "Switch edu-ID Federation", ihre Attribute beschreibt die "Switch edu-ID Attribute Specification". Für eine Zugangsbeschränkung eignen sich zum Beispiel diese zwei Attribute:
+Welche Attribute eine Hochschule liefern kann, legt die Föderation fest. Bei SWITCH heisst die Föderation "Switch edu-ID Federation", die Anmeldung über Shibboleth läuft aber auch dort mit dem Konto der Hochschule, siehe [Shibboleth und Switch edu-ID](#switch_eduid). Die Attribute der Föderation beschreibt SWITCH in der [Switch edu-ID Attribute Specification](https://help.switch.ch/aai/attributes/). Für eine Zugangsbeschränkung eignen sich zum Beispiel diese zwei Attribute:
 
 - **swissEduPersonHomeOrganization:** die Domain der Heimorganisation der Person, etwa ethz.ch. Damit lassen Sie nur Angehörige bestimmter Hochschulen hinein.
 - **eduPersonAffiliation:** die Art der Zugehörigkeit, etwa student, staff oder faculty. Damit lassen Sie zum Beispiel nur Personen mit dem Wert student hinein.
@@ -72,6 +72,7 @@ Switch edu-ID ist ein persönliches Konto bei SWITCH, das einer Person auch nach
 **Auf dieser Seite erwähnt**<br>
 [Lebenszyklen: Übersicht >](Life_cycles_-_Administration/index.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
+[Switch edu-ID Attribute Specification >](https://help.switch.ch/aai/attributes/)<br>
 [Cloud-Login >](Login_Cloud_Login.de.md)
 
 **Weiterführend**<br>

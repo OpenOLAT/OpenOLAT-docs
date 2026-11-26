@@ -43,7 +43,7 @@ If "Activate attribute access control" is switched on, fields for up to two attr
 
 With "Save", you apply the details. A person gets access if one of the two attributes carries one of the allowed values. OpenOlat compares the whole value that the integration passes for the attribute with each allowed value. To everyone else, OpenOlat shows the message "You are not authorized to log in to OpenOlat." OpenOlat checks the attributes at every login via Shibboleth, also for people who already have an account.
 
-Which attributes a university can deliver is defined by the federation. At SWITCH, the federation is called "Switch edu-ID Federation", and the "Switch edu-ID Attribute Specification" describes its attributes. For an access restriction, these two attributes are suitable, for example:
+Which attributes a university can deliver is defined by the federation. At SWITCH, the federation is called "Switch edu-ID Federation", but the login via Shibboleth runs with the account of the university there as well, see [Shibboleth and Switch edu-ID](#switch_eduid). SWITCH describes the attributes of the federation in the [Switch edu-ID Attribute Specification](https://help.switch.ch/aai/attributes/). For an access restriction, these two attributes are suitable, for example:
 
 - **swissEduPersonHomeOrganization:** the domain of the home organisation of the person, for example ethz.ch. With it, you only let in members of certain universities.
 - **eduPersonAffiliation:** the type of affiliation, for example student, staff or faculty. With it, you let in, for example, only people with the value student.
@@ -72,6 +72,7 @@ Switch edu-ID is a personal account at SWITCH that stays with a person even afte
 **Mentioned on this page**<br>
 [Life cycles - Overview >](Life_cycles_-_Administration/index.md)<br>
 [Manage user settings >](../usermanagement/Configure_User.md)<br>
+[Switch edu-ID Attribute Specification >](https://help.switch.ch/aai/attributes/)<br>
 [Cloud login >](Login_Cloud_Login.md)
 
 **Further reading**<br>
