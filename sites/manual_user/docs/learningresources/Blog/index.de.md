@@ -19,17 +19,16 @@ Der Begriff "Blog" ist die Kurzform von "Weblog", zusammengesetzt aus "Web" für
 
 Diese Seiten beschreiben den Blog, in der Reihenfolge der Navigation:
 
-Seite | Wozu
+Thema | Wozu
 ---------|----------
-[Erstellen](../Blog_Create.de.md) | Unterscheidet, ob Sie einen Blog erstellen oder in einem Blog einen Eintrag schreiben, kommentieren oder bewerten. Die Schritt-für-Schritt-Anleitung zum Erstellen steht unter [Wie erstelle ich einen Blog?](../../../manual_how-to/blog/blog.de.md)
-[Administration](../Blog_Administration.de.md) | Die Einstellungen unter `Blog > Administration` in der Blog-Lernressource selbst, die in allen Kursen gelten, etwa ob Einträge bewertet und kommentiert werden und ob die Besitzer:innen zu jedem neuen Kommentar eine E-Mail erhalten.
-[Kursbaustein](../Blog_Configuration.de.md) | Festlegen, welcher Blog im Kurs erscheint, wer ihn moderiert, also alle Einträge bearbeitet und löscht, und wer Einträge erstellt. Dazu der Weg über die Toolbar, wenn alle Kursmitglieder den Blog über das Blog-Symbol oben im Kurs öffnen sollen.
+[Erstellen](../Blog_Create.de.md) | Unterscheidet, ob Sie einen Blog erstellen oder in einem Blog einen Eintrag schreiben, kommentieren oder bewerten. Die Schritt-für-Schritt-Anleitung zum Erstellen steht unter [Wie erstelle ich einen Blog?](../../../manual_how-to/blog/blog.de.md).
+[Administration](../Blog_Administration.de.md) | Die Einstellungen unter `Blog > Administration` in der Blog-Lernressource selbst, die in allen Kursen gelten, etwa ob Einträge bewertet und kommentiert werden und ob die Besitzer:innen des Blogs und der Kurse, die ihn einbinden, zu jedem neuen Kommentar eine E-Mail erhalten.
+[Kursbaustein](../Blog_Configuration.de.md) | Festlegen, welcher Blog im Kurs erscheint, wer ihn moderiert, also alle Einträge bearbeitet und löscht, und wer Einträge erstellt. Dazu als Alternative zum Kursbaustein der Weg über die Toolbar, wenn alle Kursmitglieder den Blog über das Blog-Symbol oben im Kurs öffnen sollen.
 [Bloggen](../Blog_Blogging.de.md) | Einträge lesen, hinzufügen, kommentieren, bewerten, moderieren und abonnieren.
 
-Den Kursbaustein "Blog" stellt zusätzlich die Seite [Kursbaustein "Blog"](../Course_Element_Blog.de.md) im Kapitel der Kursbausteine mit seinem Steckbrief vor.
+Den Kursbaustein "Blog" stellt zusätzlich die Seite [Kursbaustein "Blog"](../Course_Element_Blog.de.md) im Kapitel der Kursbausteine mit seinem Steckbrief vor. Wie Sie ihn konfigurieren, beschreibt die Seite "Kursbaustein" aus der Tabelle.
 
 Für Diskussionen im Kurs ist der Kursbaustein [Forum](../Course_Element_Forum.de.md) eine Alternative zum Blog. Wie ein Blog funktioniert die Lernressource [Podcast](../Podcast/index.de.md), deren Episoden Audio- oder Videodateien sind.
-
 
 ## Weiterführende Informationen {: #further_information}
 

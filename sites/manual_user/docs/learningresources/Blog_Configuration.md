@@ -2,7 +2,7 @@
 
 You configure a blog in two places: in the course element and in the learning resource. In the course element you define which blog appears in the course and who moderates it and creates entries (blog posts). This page describes the course element. What applies to the blog in all courses, you define in the learning resource, see [Blog: Administration](Blog_Administration.md).
 
-If a blog is to be reachable everywhere in the course via an icon in the toolbar instead of as an item in the course menu, you embed it via the course toolbar. As an [owner](../basic_concepts/Roles/index.md#owner) of the course, switch on the checkbox "Blog" under `Course > Administration > Settings > Tab "Toolbar"` and select a blog learning resource with "Select". If there is none yet, create a new one in the same dialog, see [Toolbar](Course_Settings_Toolbar.md#blog). In this blog, owners and [coaches](../basic_concepts/Roles/index.md#coach) of the course create and moderate the entries. Participants read them and comment on and rate them if the learning resource allows this. If participants are to write entries themselves, embed the blog as a course element.
+If a blog is to be reachable everywhere in the course via an icon in the toolbar instead of as an item in the course menu, you embed it via the course toolbar. As an [owner](../basic_concepts/Roles/index.md#owner) of the course, switch on the checkbox "Blog" under `Course > Administration > Settings > Tab "Toolbar"` and select a blog learning resource with "Select". If there is none yet, create a new one in the same dialog, see [Toolbar](Course_Settings_Toolbar.md#blog). In this blog, owners and [coaches](../basic_concepts/Roles/index.md#coach) of the course create and moderate the entries. Participants read the entries, comment on them if the option "Posts are commentable" is switched on in the learning resource, and rate them if the option "Posts are rateable" is switched on. If participants are to write entries themselves, embed the blog as a course element. A course can have both: a blog in the toolbar and additionally "Blog" course elements.
 
 ## Configuration in the "Blog" course element {: #blog_configuration_course_element}
 
@@ -81,7 +81,7 @@ With "Show advanced configuration" you also add roles, individual persons or gro
 
 ## Settings of the blog learning resource {: #learningresource_settings}
 
-Whether entries can be rated and commented on and whether the owners receive an e-mail for every new comment, you define in the learning resource under `Blog > Administration > Settings`. These settings apply in all courses that embed the blog. The tabs are described on the page [Blog: Administration](Blog_Administration.md).
+Whether entries can be rated and commented on and whether the owners of the blog and of the courses that embed it receive an e-mail for every new comment, you define in the learning resource under `Blog > Administration > Settings`. These settings apply in all courses that embed the blog. The tabs are described on the page [Blog: Administration](Blog_Administration.md).
 
 
 ## Further information {: #further_information}
@@ -93,7 +93,7 @@ Whether entries can be rated and commented on and whether the owners receive an 
 [Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Blogging >](../learningresources/Blog_Blogging.md)
 
-**Further**<br>
+**Further reading**<br>
 [Create a blog >](../learningresources/Blog_Create.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
 [Course Element "Blog" >](../learningresources/Course_Element_Blog.md)<br>

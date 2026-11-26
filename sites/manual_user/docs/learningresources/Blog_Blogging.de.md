@@ -2,7 +2,7 @@
 
 Ist ein Blog in einen Kurs eingebunden, den die Teilnehmer:innen öffnen können, also einen Kurs mit dem Status ["Veröffentlicht"](Access_configuration.de.md), arbeiten Teilnehmer:innen und [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) damit: Sie lesen Einträge (Blogbeiträge), schreiben eigene, kommentieren und bewerten sie. Das heisst bloggen. Die Oberfläche spricht teils von Beiträgen, etwa bei der Berechtigung "Beiträge erstellen". Gemeint sind immer die Einträge.
 
-Was Teilnehmer:innen und Betreuer:innen im Blog tun dürfen, legen die [Besitzer:innen](../basic_concepts/Roles/index.de.md#owner) des Kurses im Kursbaustein "Blog" fest, dem Punkt des Blogs im Kursmenü. Die Berechtigung "Beiträge erstellen" bestimmt, wer eigene Einträge schreibt, die Berechtigung "Moderator", wer alle Einträge bearbeitet und löscht, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md#blog_configuration_permissions). Begrenzt ein Zeitraum ("Beginn", "Ende") die Berechtigung, gilt sie nur in dieser Zeit. Den Button "Eintrag hinzufügen" sehen deshalb nur Personen, die eine dieser Berechtigungen gerade haben, und die Besitzer:innen des Kurses. Einen Blog, den der Kurs über die [Toolbar](Course_Settings_Toolbar.de.md#blog) oben im Kurs anbietet, steuert kein Kursbaustein: Dort erstellen und moderieren Besitzer:innen und Betreuer:innen des Kurses die Einträge.
+Was Teilnehmer:innen und Betreuer:innen im Blog tun dürfen, legen die [Besitzer:innen](../basic_concepts/Roles/index.de.md#owner) des Kurses im Kursbaustein "Blog" fest, dem Punkt des Blogs im Kursmenü. Die Berechtigung "Beiträge erstellen" bestimmt, wer eigene Einträge schreibt, die Berechtigung "Moderator", wer alle Einträge bearbeitet und löscht, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md#blog_configuration_permissions). Bei einem neuen Kursbaustein haben Betreuer:innen und Teilnehmer:innen die Berechtigung "Beiträge erstellen" bereits, Betreuer:innen zusätzlich die Berechtigung "Moderator". Begrenzt ein Zeitraum ("Beginn", "Ende") die Berechtigung, gilt sie nur in dieser Zeit. Den Button "Eintrag hinzufügen" sehen deshalb nur Personen, die eine dieser Berechtigungen gerade haben, und die Besitzer:innen des Kurses. Einen Blog, den der Kurs über die [Toolbar](Course_Settings_Toolbar.de.md#blog) oben im Kurs anbietet, steuert kein Kursbaustein: Dort erstellen und moderieren Besitzer:innen und Betreuer:innen des Kurses die Einträge.
 
 !!! note "Quick Links"
 
@@ -97,9 +97,11 @@ In der Tabellenansicht löschen Sie mit einer Massenaktion mehrere Einträge auf
 
 ## Einträge kommentieren {: #blog_blogging_comment_posts}
 
-Ist in der Blog-Lernressource unter `Blog > Administration > Einstellungen > Tab "Optionen"` die Option "Beiträge kommentieren" eingeschaltet, kommentieren alle Personen ausser Gästen die Einträge mit einem Text und hängen Dateien an, siehe [Blog: Administration](Blog_Administration.de.md#tab_options). Diese Option legen die Besitzer:innen der Blog-Lernressource fest.
+Ob Einträge kommentiert werden, legt die Blog-Lernressource fest, also der Blog selbst, der die Einträge enthält und den der Kursbaustein im Kurs zeigt. Ist dort unter `Blog > Administration > Einstellungen > Tab "Optionen"` die Option "Beiträge kommentieren" eingeschaltet, kommentieren alle Personen, die den Blog öffnen, ausser [Gästen](../basic_concepts/guest_access.de.md) die Einträge mit einem Text und hängen Dateien an, siehe [Blog: Administration](Blog_Administration.de.md#tab_options). Diese Option legen die Besitzer:innen der Blog-Lernressource fest, das heisst, wer sie erstellt hat oder später als Besitzer:in eingetragen wurde. Als Besitzer:in öffnen Sie die Lernressource zum Beispiel im Kurseditor im Kursbaustein "Blog" mit "Lernressource bearbeiten", siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md#blog_configuration_course_element).
 
-Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie in die Kommentarzeile. Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
+Die Kommentare stehen unter dem Eintrag, sobald Sie ihn mit einem Klick auf seinen Titel öffnen. In der Liste der Einträge zeigt ein Sprechblasen-Symbol unter dem Titel die Anzahl Kommentare. Ein Klick darauf öffnet den Eintrag direkt bei seinen Kommentaren.
+
+Für einen neuen Kommentar klicken Sie unter dem Eintrag in das Feld "Schreiben Sie einen Kommentar...". Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
 
 ![Geöffneter Texteditor mit einem Kommentar und den Buttons Kommentieren, Abbrechen und Datei anhängen hervorgehoben](assets/blog_blogging_comment_v3_de.png){ class="shadow lightbox" title="Kommentare unter einem Eintrag · 2026.10.08" }
 
@@ -112,10 +114,10 @@ Mit "Datei anhängen" hängen Sie Ihrem Kommentar eine Datei an. Im Dialog "Date
 
 ## Einträge bewerten {: #blog_blogging_assess_posts}
 
-Ist in der Blog-Lernressource die Option "Beiträge bewerten" eingeschaltet, bewerten alle Personen ausser Gästen die Einträge mit 1 bis 5 Sternen.<br>
-Die Sterne zeigen zuerst die Bewertungen der anderen. Fahren Sie mit der Maus über die Sterne und klicken Sie auf den Stern Ihrer eigenen Bewertung.
+Ist in der Blog-Lernressource die Option "Beiträge bewerten" eingeschaltet, bewerten alle Personen, die den Blog öffnen, ausser Gästen die Einträge mit 1 bis 5 Sternen.<br>
+In der Liste der Einträge zeigen die Sterne unter dem Titel den Durchschnitt der Bewertungen. Ihre eigene Bewertung geben Sie im Eintrag ab, den Sie mit einem Klick auf seinen Titel öffnen. Dort zeigen die Sterne unter "Bewertung der anderen" den Durchschnitt und die Anzahl der Bewertungen. Fahren Sie mit der Maus über die Sterne, wechselt die Anzeige zu "Ihre Bewertung". Klicken Sie dann auf den Stern Ihrer eigenen Bewertung.
 
-![Bewertung der anderen mit vier von fünf Sternen, Durchschnitt 4.0 / 5 und Anzahl Bewertungen hervorgehoben](assets/blog_blogging_assess_v2_de.png){ class="shadow lightbox" title="Eintrag in der Kursansicht · 2026.10.08" }
+![Unter dem Titel des Eintrags zeigt die Bewertung der anderen den Durchschnitt von 4.0 / 5 und die Anzahl der Bewertungen](assets/blog_blogging_assess_v3_de.png){ class="shadow lightbox" title="Eintrag in der Kursansicht · 2026.11.26" }
 
 [Zum Seitenanfang ^](#blog_blogging)
 
@@ -164,6 +166,7 @@ Ihre eigenen Einträge legen Sie auch im [Media Center](../basic_concepts/Media_
 [Funktionskonzept Kurse und Lernressourcen >](General_Functions_Concept.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)<br>
 [Blog: Administration >](Blog_Administration.de.md)<br>
 [Konzept des File Hub >](../basic_concepts/File_Hub_Concept.de.md)<br>
 [Media Center: Konzept >](../basic_concepts/Media_Center_Concept/index.de.md)<br>

@@ -1,46 +1,31 @@
 # Blog erstellen {: #blog_create}
 
+Für einen Blog im Kurs gibt es zwei Arten, etwas zu erstellen: Sie legen einen neuen Blog an und binden ihn in den Kurs ein, oder Sie schreiben in einem bestehenden Blog einen Eintrag (Blogbeitrag). Die Liste trennt die beiden und die zwei Handlungen, die auf einen Eintrag folgen. Zu jeder steht, wer sie ausführt und welche Seite die Schritte beschreibt.
 
-Bitte unterscheiden Sie:
+* **Blog erstellen:** Ein Blog im Kurs besteht aus zwei Teilen. Die Lernressource "Blog" enthält die Einträge, der Kursbaustein "Blog" zeigt sie als Punkt im Kursmenü. Als [Besitzer:in](../basic_concepts/Roles/index.de.md#owner) des Kurses fügen Sie im Kurseditor den Kursbaustein ein und wählen dort eine vorhandene Blog-Lernressource aus oder erstellen eine neue. Eine Blog-Lernressource enthält entweder eigene Einträge, oder sie bindet mit "Per URL einbinden" einen externen Blog über die Adresse seines Feeds ein, also die Adresse, unter der der externe Blog seine Einträge bereitstellt. Die Einträge eines externen Blogs entstehen dort, nicht in OpenOlat. Soll der ganze Kurs den Blog über ein Symbol in der Toolbar erreichen, der Werkzeugleiste oben im Kurs, wählen Sie die Blog-Lernressource stattdessen in den Einstellungen der Toolbar aus, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). Die Schritte zeigt die Anleitung [Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md), die Einstellungen im Kurs die Seite [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md).
 
-* **Blog erstellen** (= Kursbaustein/Lernressource Blog erstellen und in den Kurs einfügen)
+* **Eintrag erstellen:** In einem bestehenden Blog schreiben Sie mit dem Button "Eintrag hinzufügen" einen Eintrag. Wer das darf, legt die Berechtigung "Beiträge erstellen" im Kursbaustein fest, siehe [Blog im Kursbaustein konfigurieren](Blog_Configuration.de.md#create_entries). Bei einem neuen Kursbaustein ist sie für [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) und Teilnehmer:innen eingeschaltet, Besitzer:innen des Kurses und Moderator:innen schreiben immer. So führen die Teilnehmer:innen den Blog gemeinsam. Damit die anderen etwas zum Kommentieren haben, schreiben Sie als Besitzer:in oder Betreuer:in am besten die ersten Einträge selbst, etwa Ausgangsfragen. Im Blog der Toolbar schreiben immer nur Besitzer:innen und Betreuer:innen des Kurses, die übrigen Kursmitglieder lesen die Einträge und kommentieren und bewerten sie, wenn die Lernressource das erlaubt. Siehe [Bloggen, Einträge hinzufügen und bearbeiten](Blog_Blogging.de.md#blog_blogging_add_posts).
 
-    Wie Sie als Kursbesitzer:in einen neuen Blog [erstellen](../../manual_how-to/blog/blog.de.md) und [konfigurieren](../learningresources/Blog_Configuration.de.md), erfahren Sie auf separaten Seiten.
-    Dabei ist zu unterscheiden zwischen dem **Kursbaustein** "Blog" und der **Lernressource** "Blog".
-    Sie können sowohl externe Blogs einbinden, als auch eine neue OpenOlat Lernressource "Blog" erstellen und verwenden.
-    <br><br> 
+* **Eintrag kommentieren:** Ist in der Blog-Lernressource unter `Blog > Administration > Einstellungen > Tab "Optionen"` die Option "Beiträge kommentieren" eingeschaltet, kommentieren alle Personen, die den Blog öffnen, ausser [Gästen](../basic_concepts/guest_access.de.md) die Einträge und lesen die Kommentare der anderen. Diese Option legen die Besitzer:innen der Blog-Lernressource fest, siehe [Blog: Administration](Blog_Administration.de.md#tab_options). Wie das geht, zeigt [Bloggen, Einträge kommentieren](Blog_Blogging.de.md#blog_blogging_comment_posts).
 
-* **Eintrag erstellen** (= in einem vorhandenen Blog einen Eintrag ergänzen, also einen Blogbeitrag)
-
-    Durch Kursbesitzer:innen/Betreuer:innen sollten mindestens initial die Ausgangsfragen oder Texte erstellt werden. Anschliessend können die Leser:innen diese kommentieren und bewerten.
-
-    Es ist möglich, auch den Teilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können. Zum Erstellen von Einträgen klicken Sie auf den Button "Eintrag hinzufügen" und verfassen dann den Eintrag.
-    <br><br> 
-
-* **Eintrag kommentieren** (= bestehende Einträge kommentieren)
-
-    Alle **Kursmitglieder** können Einträge kommentieren. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare". Sie sehen zudem die Kommentare der anderen Blogleser:innen.<br>
-    Siehe [Bloggen, Einträge kommentieren](../learningresources/Blog_Blogging.de.md#blog_blogging_comment_posts)
-    <br><br> 
-
-* **Eintrag bewerten** (= bestehende Einträge mit Sternen bewerten)
-
-    Alle **Kursmitglieder** können Einträge mit 1-5 Sternen bewerten. Um eine Bewertung abzugeben, klicken Sie auf die angezeigten Sterne. Sie sehen zudem die Bewertungen der anderen Blogleser:innen.<br>
-    Siehe [Bloggen, Einträge bewerten](../learningresources/Blog_Blogging.de.md#blog_blogging_assess_posts)
-    <br><br>  
+* **Eintrag bewerten:** Ist im selben Tab die Option "Beiträge bewerten" eingeschaltet, bewerten alle Personen, die den Blog öffnen, ausser Gästen die Einträge mit 1 bis 5 Sternen und sehen die Bewertungen der anderen, siehe [Bloggen, Einträge bewerten](Blog_Blogging.de.md#blog_blogging_assess_posts).
 
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
-[Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
-[Blog im Kursbaustein konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
-[Bloggen](../learningresources/Blog_Blogging.de.md)<br>
-[Kursbaustein "Blog"](../learningresources/Course_Element_Blog.de.md)
+[Rollen und Rechte: Welche Rollen gibt es? >](../basic_concepts/Roles/index.de.md)<br>
+[Toolbar >](Course_Settings_Toolbar.de.md)<br>
+[Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
+[Blog im Kursbaustein konfigurieren >](Blog_Configuration.de.md)<br>
+[Bloggen >](Blog_Blogging.de.md)<br>
+[Rollen und Rechte: Gastzugang >](../basic_concepts/guest_access.de.md)<br>
+[Blog: Administration >](Blog_Administration.de.md)
 
 **Weiterführend**<br>
-[Wiki](../learningresources/Wiki.de.md)<br>
-[Podcast: Übersicht](Podcast/index.de.md)
+[Blog: Übersicht >](Blog/index.de.md)<br>
+[Kursbaustein "Blog" >](Course_Element_Blog.de.md)<br>
+[Wiki >](Wiki.de.md)<br>
+[Podcast: Übersicht >](Podcast/index.de.md)
 
-[zum Seitenanfang ^](#blog_create)
-
+[Zum Seitenanfang ^](#blog_create)

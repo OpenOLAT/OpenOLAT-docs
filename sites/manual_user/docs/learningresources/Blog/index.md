@@ -19,17 +19,16 @@ The term "Blog" is short for "Weblog", composed of "Web" for the World Wide Web 
 
 These pages describe the blog, in the order of the navigation:
 
-Page | Purpose
+Topic | Purpose
 ---------|----------
-[Create](../Blog_Create.md) | Distinguishes between creating a blog and writing, commenting on or rating an entry in a blog. The step-by-step guide to creating a blog is at [How do I create a blog?](../../../manual_how-to/blog/blog.md)
-[Administration](../Blog_Administration.md) | The settings under `Blog > Administration` in the blog learning resource itself that apply in all courses, for example whether entries are rated and commented on and whether the owners receive an e-mail for every new comment.
-[Course element](../Blog_Configuration.md) | Define which blog appears in the course, who moderates it, that is edits and deletes all entries, and who creates entries. Plus the way via the toolbar if all course members are to open the blog via the blog icon at the top of the course.
+[Create](../Blog_Create.md) | Distinguishes between creating a blog and writing, commenting on or rating an entry in a blog. The step-by-step guide to creating a blog is at [How do I create a blog?](../../../manual_how-to/blog/blog.md).
+[Administration](../Blog_Administration.md) | The settings under `Blog > Administration` in the blog learning resource itself that apply in all courses, for example whether entries are rated and commented on and whether the owners of the blog and of the courses that embed it receive an e-mail for every new comment.
+[Course element](../Blog_Configuration.md) | Define which blog appears in the course, who moderates it, that is edits and deletes all entries, and who creates entries. Plus, as an alternative to the course element, the way via the toolbar if all course members are to open the blog via the blog icon at the top of the course.
 [Blogging](../Blog_Blogging.md) | Read, add, comment on, rate, moderate and subscribe to entries.
 
-The course element "Blog" with its profile is also presented on the page [Course Element "Blog"](../Course_Element_Blog.md) in the chapter on course elements.
+The course element "Blog" with its profile is also presented on the page [Course Element "Blog"](../Course_Element_Blog.md) in the chapter on course elements. How to configure it is described on the page "Course element" in the table.
 
 For discussions in the course, the ["Forum" course element](../Course_Element_Forum.md) is an alternative to the blog. The [Podcast](../Podcast/index.md) learning resource works like a blog; its episodes are audio or video files.
-
 
 ## Further information {: #further_information}
 

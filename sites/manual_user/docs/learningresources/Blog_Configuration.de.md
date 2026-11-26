@@ -2,7 +2,7 @@
 
 Einen Blog konfigurieren Sie an zwei Orten: im Kursbaustein und in der Lernressource. Im Kursbaustein legen Sie fest, welcher Blog im Kurs erscheint und wer darin moderiert und Einträge (Blogbeiträge) erstellt. Diese Seite beschreibt den Kursbaustein. Was für den Blog in allen Kursen gilt, legen Sie in der Lernressource fest, siehe [Blog: Administration](Blog_Administration.de.md).
 
-Soll ein Blog überall im Kurs über ein Symbol in der Toolbar erreichbar sein statt als Punkt im Kursmenü, binden Sie ihn über die Toolbar des Kurses ein. Als [Besitzer:in](../basic_concepts/Roles/index.de.md#owner) des Kurses schalten Sie dazu unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` die Checkbox "Blog" ein und wählen mit "Auswählen" eine Blog-Lernressource. Gibt es noch keine, erstellen Sie im selben Dialog eine neue, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). In diesem Blog erstellen und moderieren Besitzer:innen und [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) des Kurses die Einträge. Teilnehmer:innen lesen sie und kommentieren und bewerten sie, wenn die Lernressource das erlaubt. Sollen Teilnehmer:innen selbst Einträge schreiben, binden Sie den Blog als Kursbaustein ein.
+Soll ein Blog überall im Kurs über ein Symbol in der Toolbar erreichbar sein statt als Punkt im Kursmenü, binden Sie ihn über die Toolbar des Kurses ein. Als [Besitzer:in](../basic_concepts/Roles/index.de.md#owner) des Kurses schalten Sie dazu unter `Kurs > Administration > Einstellungen > Tab "Toolbar"` die Checkbox "Blog" ein und wählen mit "Auswählen" eine Blog-Lernressource. Gibt es noch keine, erstellen Sie im selben Dialog eine neue, siehe [Toolbar](Course_Settings_Toolbar.de.md#blog). In diesem Blog erstellen und moderieren Besitzer:innen und [Betreuer:innen](../basic_concepts/Roles/index.de.md#coach) des Kurses die Einträge. Teilnehmer:innen lesen die Einträge, kommentieren sie, wenn in der Lernressource die Option "Beiträge kommentieren" eingeschaltet ist, und bewerten sie, wenn die Option "Beiträge bewerten" eingeschaltet ist. Sollen Teilnehmer:innen selbst Einträge schreiben, binden Sie den Blog als Kursbaustein ein. Ein Kurs kann beides haben: einen Blog in der Toolbar und zusätzlich Kursbausteine "Blog".
 
 ## Konfiguration im Kursbaustein "Blog" {: #blog_configuration_course_element}
 
@@ -81,7 +81,7 @@ Mit "Erweiterte Konfiguration anzeigen" nehmen Sie auch hier Rollen, einzelne Pe
 
 ## Einstellungen der Blog-Lernressource {: #learningresource_settings}
 
-Ob Einträge bewertet und kommentiert werden können und ob die Besitzer:innen zu jedem neuen Kommentar eine E-Mail erhalten, legen Sie in der Lernressource unter `Blog > Administration > Einstellungen` fest. Diese Einstellungen gelten in allen Kursen, die den Blog einbinden. Die Tabs beschreibt die Seite [Blog: Administration](Blog_Administration.de.md).
+Ob Einträge bewertet und kommentiert werden können und ob die Besitzer:innen des Blogs und der Kurse, die ihn einbinden, zu jedem neuen Kommentar eine E-Mail erhalten, legen Sie in der Lernressource unter `Blog > Administration > Einstellungen` fest. Diese Einstellungen gelten in allen Kursen, die den Blog einbinden. Die Tabs beschreibt die Seite [Blog: Administration](Blog_Administration.de.md).
 
 
 ## Weiterführende Informationen {: #further_information}

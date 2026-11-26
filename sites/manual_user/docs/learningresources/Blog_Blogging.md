@@ -2,7 +2,7 @@
 
 If a blog is embedded in a course that the participants can open, that is a course with the status ["Published"](Access_configuration.md), participants and [coaches](../basic_concepts/Roles/index.md#coach) work with it: they read entries (blog posts), write their own, comment on them and rate them. This is called blogging. The user interface sometimes speaks of posts or items, for example with the user right "Create items". This always means the entries.
 
-What participants and coaches may do in the blog is defined by the [owners](../basic_concepts/Roles/index.md#owner) of the course in the course element "Blog", the item of the blog in the course menu. The user right "Create items" determines who writes their own entries, the user right "Moderator" who edits and deletes all entries, see [Configure a blog in the course element](Blog_Configuration.md#blog_configuration_permissions). If a period ("Start date", "End date") limits the user right, it only applies during this time. The "Add entry" button is therefore only visible to persons who currently have one of these user rights and to the owners of the course. A blog that the course offers via the [toolbar](Course_Settings_Toolbar.md#blog) at the top of the course is not controlled by a course element: there, owners and coaches of the course create and moderate the entries.
+What participants and coaches may do in the blog is defined by the [owners](../basic_concepts/Roles/index.md#owner) of the course in the course element "Blog", the item of the blog in the course menu. The user right "Create items" determines who writes their own entries, the user right "Moderator" who edits and deletes all entries, see [Configure a blog in the course element](Blog_Configuration.md#blog_configuration_permissions). In a new course element, coaches and participants already have the user right "Create items", and coaches also have the user right "Moderator". If a period ("Start date", "End date") limits the user right, it only applies during this time. The "Add entry" button is therefore only visible to persons who currently have one of these user rights and to the owners of the course. A blog that the course offers via the [toolbar](Course_Settings_Toolbar.md#blog) at the top of the course is not controlled by a course element: there, owners and coaches of the course create and moderate the entries.
 
 !!! note "Quick Links"
 
@@ -97,9 +97,11 @@ In the table view, you delete several entries at once with a mass action. To do 
 
 ## Comment on entries {: #blog_blogging_comment_posts}
 
-If the option "Posts are commentable" is switched on in the blog learning resource under `Blog > Administration > Settings > Tab "Options"`, all persons except guests comment on the entries with a text and attach files, see [Blog: Administration](Blog_Administration.md#tab_options). This option is set by the owners of the blog learning resource.
+Whether entries can be commented on is defined by the blog learning resource, that is the blog itself, which contains the entries and which the course element shows in the course. If the option "Posts are commentable" is switched on there under `Blog > Administration > Settings > Tab "Options"`, all persons who open the blog, except [guests](../basic_concepts/guest_access.md), comment on the entries with a text and attach files, see [Blog: Administration](Blog_Administration.md#tab_options). This option is set by the owners of the blog learning resource, that is whoever created it or was later entered as an owner. As an owner, you open the learning resource, for example, in the course editor in the course element "Blog" with "Edit learning resource", see [Configure a blog in the course element](Blog_Configuration.md#blog_configuration_course_element).
 
-To write a comment or read existing comments, click in the comment line. A small text editor opens. Click the "Comment" button to send the comment.
+The comments are shown below the entry as soon as you open it with a click on its title. In the list of entries, a speech bubble icon below the title shows the number of comments. A click on it opens the entry directly at its comments.
+
+For a new comment, click in the field "Leave a comment..." below the entry. A small text editor opens. Click the "Comment" button to send the comment.
 
 ![Open text editor with a comment and the Comment, Cancel and Attach file buttons highlighted](assets/blog_blogging_comment_v3_en.png){ class="shadow lightbox" title="Comments below an entry · 2026.10.08" }
 
@@ -112,10 +114,10 @@ With "Attach file" you attach a file to your comment. In the "Add files" dialog,
 
 ## Rate entries {: #blog_blogging_assess_posts}
 
-If the option "Posts are rateable" is switched on in the blog learning resource, all persons except guests rate the entries with 1 to 5 stars.<br>
-The stars first show the ratings of the others. Move your mouse over the stars and click the star of your own rating.
+If the option "Posts are rateable" is switched on in the blog learning resource, all persons who open the blog, except guests, rate the entries with 1 to 5 stars.<br>
+In the list of entries, the stars below the title show the average of the ratings. You give your own rating in the entry, which you open with a click on its title. There, the stars under "Assessment of others" show the average and the number of ratings. When you move your mouse over the stars, the display changes to "Your assessment". Then click the star of your own rating.
 
-![Assessment of others with four of five stars, average 4.0 / 5 and number of assessments highlighted](assets/blog_blogging_assess_v2_en.png){ class="shadow lightbox" title="Entry in the course view · 2026.10.08" }
+![Below the title of the entry, the assessment of others shows the average of 4.0 / 5 and the number of assessments](assets/blog_blogging_assess_v3_en.png){ class="shadow lightbox" title="Entry in the course view · 2026.11.26" }
 
 [To the top of the page ^](#blog_blogging)
 
@@ -164,6 +166,7 @@ You can also store your own entries in the [Media Center](../basic_concepts/Medi
 [Function concept courses and learning resources >](General_Functions_Concept.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
+[Roles and Rights: Guest access >](../basic_concepts/guest_access.md)<br>
 [Blog: Administration >](Blog_Administration.md)<br>
 [File Hub Concept >](../basic_concepts/File_Hub_Concept.md)<br>
 [Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
