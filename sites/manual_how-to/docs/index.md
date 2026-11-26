@@ -11,7 +11,7 @@ hide:
 
 ## Start here {: #start}
 
-Each card names, for one role, the guides to start with.
+Each card names, for one role, the guides to start with. You can read every guide without logging in. The role on the card shows who carries out the steps in OpenOlat.
 
 <div class="oo-mh-focus" markdown>
 
@@ -21,7 +21,7 @@ Each card names, for one role, the guides to start with.
 
 <div class="oo-mh-pcard__body" markdown>
 
-Ten steps from the Author role to the published course. Sophia helps along the way.
+Ten steps, from getting the Author role to the published course. Along the way, Sophia, the AI chat of the manual, answers your questions.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> How do I create my first OpenOlat course?](my_first_course/my_first_course.md){ .oo-mh-pcard__go }
 
@@ -89,7 +89,7 @@ Course planners plan single courses, products with several courses and certifica
 
 <div class="oo-mh-pcard__body" markdown>
 
-Clean up data, adapt the terms of the interface, save storage.
+Administrators and system administrators clean up data and save storage. System administrators adapt the terms of the interface.
 
 - [How do I manage lifecycles of groups, courses or user accounts?](lifecycle/lifecycle.md)
 - [How do I use the language adaptation tool?](language_adaption_tool/language_adaption_tool.md)
@@ -101,9 +101,9 @@ Clean up data, adapt the terms of the interface, save storage.
 
 </div>
 
-## Guides by role {: #by_role}
+## All guides by role {: #by_role}
 
-If the guide you need is not above, find it here by role. Each card collects the tasks that this role normally does.
+Here you find all guides sorted by role, including those from the cards above. Each card collects the tasks that this role normally does. The [Glossary](../reference_glossary/glossary.md) explains the terms that a guide assumes.
 
 <div class="oo-mh-tasks" markdown>
 
@@ -111,13 +111,14 @@ If the guide you need is not above, find it here by role. Each card collects the
 
 <div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h3 id="for_authors">For authors: build courses and content</h3></div>
 
-<p class="oo-mh-role__text">Build courses, create learning resources and provide files in the course.</p>
+<p class="oo-mh-role__text">Build courses, create learning resources, provide files in the course, clarify legal questions about the course and export your own courses as an Excel list.</p>
 
 - [How do I create my first OpenOlat course?](my_first_course/my_first_course.md)
 - [How do I use the course element Selection?](course_element_selection/course_element_selection.md)
 - [How do I award badges in my course?](badges/badges.md)
 - [How can I use the same files in several courses?](multiple_use/multiple_use.md)
 - [Which folders can I use to provide documents?](folders/folders.md)
+- [How can I transfer files using WebDAV?](webdav/webdav.md)
 - [How do I set up document submission options?](document_upload/document_upload.md)
 - [How do I create a blog?](blog/blog.md)
 - [How do I create a content package?](content_package/content_package.md)
@@ -127,6 +128,8 @@ If the guide you need is not above, find it here by role. Each card collects the
 - [How do I give learners AI feedback on free-text answers in a quiz?](ai_essay/ai_essay.md)
 - [How do I prepare the creation of personal portfolios by participants?](portfolio/portfolio.md)
 - [How can I run a survey at the end of a course?](survey/survey.md)
+- [How do I comply with legal consent requirements?](legal_consents/legal_consents.md)
+- [How do I create an Excel list of all available courses?](course_list/course_list.md)
 
 <p class="oo-mh-role__foot" markdown>The terms behind it: [Introduction for authors](../manual_user/authoring_path/index.md) in the user manual</p>
 

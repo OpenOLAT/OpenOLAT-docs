@@ -11,7 +11,7 @@ hide:
 
 ## Hier beginnen {: #start}
 
-Jede Karte nennt für eine Rolle die Anleitungen, mit denen Sie beginnen.
+Jede Karte nennt für eine Rolle die Anleitungen, mit denen Sie beginnen. Lesen können Sie jede Anleitung ohne Anmeldung. Die Rolle auf der Karte zeigt, wer die Schritte in OpenOlat ausführt.
 
 <div class="oo-mh-focus" markdown>
 
@@ -21,7 +21,7 @@ Jede Karte nennt für eine Rolle die Anleitungen, mit denen Sie beginnen.
 
 <div class="oo-mh-pcard__body" markdown>
 
-Zehn Schritte von der Rolle Autor:in bis zum veröffentlichten Kurs. Sophia hilft unterwegs.
+Zehn Schritte, vom Beschaffen der Rolle Autor:in bis zum veröffentlichten Kurs. Unterwegs beantwortet Sophia, der KI-Chat des Handbuchs, Ihre Fragen.
 
 [<i class="o_icon o_icon_start" aria-hidden="true"></i> Wie erstelle ich meinen ersten OpenOlat-Kurs?](my_first_course/my_first_course.de.md){ .oo-mh-pcard__go }
 
@@ -89,7 +89,7 @@ Kursplaner:innen planen Einzelkurse, Produkte mit mehreren Kursen und Zertifikat
 
 <div class="oo-mh-pcard__body" markdown>
 
-Daten aufräumen, Begriffe der Oberfläche anpassen, Speicher sparen.
+Administrator:innen und Systemadministrator:innen räumen Daten auf und sparen Speicher. Die Begriffe der Oberfläche passen Systemadministrator:innen an.
 
 - [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](lifecycle/lifecycle.de.md)
 - [Wie verwende ich das Sprachanpassungswerkzeug?](language_adaption_tool/language_adaption_tool.de.md)
@@ -101,9 +101,9 @@ Daten aufräumen, Begriffe der Oberfläche anpassen, Speicher sparen.
 
 </div>
 
-## Weitere Anleitungen nach Rolle {: #by_role}
+## Alle Anleitungen nach Rolle {: #by_role}
 
-Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle. Jede Karte sammelt die Aufgaben, die diese Rolle üblicherweise erledigt.
+Hier stehen alle Anleitungen nach Rolle geordnet, auch die aus den Karten oben. Jede Karte sammelt die Aufgaben, die diese Rolle üblicherweise erledigt. Begriffe, die eine Anleitung voraussetzt, erklärt das [Glossar](../reference_glossary/glossary.de.md).
 
 <div class="oo-mh-tasks" markdown>
 
@@ -111,13 +111,14 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 
 <div class="oo-mh-role__head"><span class="oo-mh-tile"><i class="o_icon o_icon_authoring size24" aria-hidden="true"></i></span><h3 id="for_authors">Für Autor:innen: Kurse und Inhalte erstellen</h3></div>
 
-<p class="oo-mh-role__text">Kurse bauen, Lernressourcen erstellen und Dateien im Kurs bereitstellen.</p>
+<p class="oo-mh-role__text">Kurse bauen, Lernressourcen erstellen, Dateien im Kurs bereitstellen, rechtliche Fragen zum Kurs klären und die eigenen Kurse als Excel-Liste exportieren.</p>
 
 - [Wie erstelle ich meinen ersten OpenOlat-Kurs?](my_first_course/my_first_course.de.md)
 - [Wie verwende ich den Kursbaustein Auswahl?](course_element_selection/course_element_selection.de.md)
 - [Wie vergebe ich in meinem Kurs Badges?](badges/badges.de.md)
 - [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](multiple_use/multiple_use.de.md)
 - [Mit welchen Ordnern kann ich Dokumente anbieten?](folders/folders.de.md)
+- [Wie kann ich mittels WebDAV Dateien übertragen?](webdav/webdav.de.md)
 - [Wie kann ich Abgabemöglichkeiten für Dokumente einrichten?](document_upload/document_upload.de.md)
 - [Wie erstelle ich einen Blog?](blog/blog.de.md)
 - [Wie erstelle ich ein Content Package?](content_package/content_package.de.md)
@@ -127,6 +128,8 @@ Wer eine Anleitung sucht, die oben nicht steht, findet sie hier über die Rolle.
 - [Wie gebe ich Lernenden KI-Feedback auf Freitextantworten im Quiz?](ai_essay/ai_essay.de.md)
 - [Wie bereite ich die Erstellung persönlicher Portfolios durch Teilnehmer:innen vor?](portfolio/portfolio.de.md)
 - [Wie kann ich am Ende eines Kurses eine Umfrage durchführen?](survey/survey.de.md)
+- [Wie setze ich rechtliche Zustimmungspflichten um?](legal_consents/legal_consents.de.md)
+- [Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?](course_list/course_list.de.md)
 
 <p class="oo-mh-role__foot" markdown>Die Begriffe dazu: [Einführung für Autor:innen](../manual_user/authoring_path/index.de.md) im Benutzerhandbuch</p>
 
