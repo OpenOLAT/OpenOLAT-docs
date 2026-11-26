@@ -14,11 +14,19 @@ The section [Prerequisites](#prerequisites) describes the prerequisites for the 
 
 ## Prerequisites {: #prerequisites}
 
-Before you switch on the module, your organisation needs a Microsoft 365 tenant (Microsoft Entra ID or Azure) with the required Microsoft Teams licenses. The access data for the tenant ("Application (client) ID", "Client secret", "Tenant GUID") is stored at server level in the OpenOlat configuration.
+Before you switch on the module, your organisation needs a tenant at Microsoft with the required Microsoft Teams licenses. The tenant is the Microsoft 365 environment of your organisation in Microsoft Entra ID, formerly Azure Active Directory.
 
-So that persons can open online meetings, they log in to OpenOlat with the Microsoft account of their organisation (login via "Microsoft Azure AD"). OpenOlat creates the online meetings via the programming interface of Microsoft (Microsoft Graph API) on behalf of the logged-in person.
+Microsoft Teams uses the same app at Microsoft as the login with the Microsoft account. The app is the registration of OpenOlat in the Microsoft Entra admin center, often called the Azure app. You set it up for the cloud login: in the system administration under `Administration > Login > Cloud login`, this connection is called "Microsoft Azure Active Directory", on the login page the entry is called "Microsoft Azure AD", see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure). OpenOlat needs no separate access data for Microsoft Teams, even if the tab "Configuration" shows such fields, see [Application (client) ID, Client secret, Tenant GUID](#tenant_credentials).
 
-If the module is switched on, OpenOlat additionally requests from Microsoft at the login via "Microsoft Azure AD" the permission to create online meetings (`OnlineMeetings.ReadWrite`). With the function "Meeting recording", the permission to read recordings is added (`OnlineMeetingRecording.Read.All`). In the Azure app, the permission for recordings needs the consent of an administrator of the Microsoft tenant. If it is missing, the login fails for persons without administrator rights in the tenant, see [Function "Meeting recording"](#recording_enabled). [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+So that persons can open online meetings, they log in to OpenOlat with the Microsoft account of their organisation (login via "Microsoft Azure AD"). OpenOlat creates the online meetings via the programming interface of Microsoft (Microsoft Graph API) on behalf of the logged-in person. Anyone who logs in another way, for example with OpenOlat username and password, sees a notice at the online meeting that opening it requires the login with the Microsoft account.
+
+Which permissions OpenOlat requests from Microsoft at this login depends on the module and on meeting recording:
+
+- **Always:** the basic permissions of every login, that is profile, e-mail address and reading the own account.
+- **Module "Microsoft Teams" switched on:** additionally the permission to create online meetings (`OnlineMeetings.ReadWrite`). According to [Microsoft](https://learn.microsoft.com/en-us/graph/permissions-reference), this permission does not need admin consent.
+- **Function "Meeting recording" switched on as well:** in addition the permission to read recordings (`OnlineMeetingRecording.Read.All`). According to [Microsoft](https://learn.microsoft.com/en-us/graph/permissions-reference), it needs the consent of the administration of your tenant. If it is missing, the login fails for persons without administrator rights in the tenant, see [Function "Meeting recording"](#recording_enabled).
+
+If the module stays switched off because your organisation does not use Microsoft Teams in OpenOlat, the login only requests the basic permissions.
 
 [To the top of the page ^](#teams_module)
 
@@ -40,11 +48,11 @@ Switches Microsoft Teams on or off for the whole instance. If the module is swit
 
 #### Activate for {: #activate_for}
 
-Enables Microsoft Teams individually for the places where online meetings are created: Course element "Microsoft Teams", Course events, Course element "Appointment scheduling", Groups and Supervisor chat.
+Enables Microsoft Teams individually for the places where online meetings are created: Course element "Microsoft Teams", "Course events", Course element "Appointment scheduling", "Groups" and "Supervisor chat".
 
 #### Online-Meetings without date/permanent [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666) {: #permanent_meetings}
 
-Determines whether permanent reservations may be created in courses and groups. A permanent reservation is an online meeting without a start and an end. The room is permanently open, but it does not appear in any calendar.
+Determines whether permanent reservations may be created in courses and groups. A permanent reservation is an online meeting without a start and an end. It is permanently open, but it does not appear in any calendar.
 
 With "On" (default), the selection "Add online-meeting" offers the variant "Add permanent meeting room". With "Off", this variant is missing in the course element "Microsoft Teams", in the group tool "Microsoft Teams" and in the course tool "Teams". Every new online meeting then needs a start and an end and appears in the calendar. This helps organisations that want to plan all online meetings and keep track of them in the calendar.
 
@@ -54,12 +62,12 @@ The BigBlueButton module has the same setting under the name "Online-Meetings wi
 
 #### Application (client) ID, Client secret, Tenant GUID {: #tenant_credentials}
 
-If access data for the Microsoft 365 tenant is stored in the server configuration, the tab shows it in these three fields for viewing. It can only be changed in the server configuration.
+The tab only shows these three fields if access data for a tenant is stored in the server configuration. OpenOlat only displays them: online meetings are created via the login of the person with their Microsoft account and the app from the cloud login, see [Prerequisites](#prerequisites). The app from the cloud login is decisive, even if these fields show a different application ID. The fields can only be changed in the server configuration.
 
 ### Meeting recording [:octicons-tag-16:{ title="from Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
 
 !!! info "frentix customers"
-    For frentix customers, their customer advisor at frentix takes care of switching the function on and off. The administration of your Microsoft tenant grants the permission and the consent in Azure.
+    For frentix customers, their customer advisor at frentix takes care of switching the function on and off. The administration of your tenant at Microsoft grants the permission and the consent in Azure.
 
 If recordings of online meetings are to be available in OpenOlat and deleted again according to plan, switch on meeting recording here. OpenOlat then fetches the finished recordings from Microsoft Teams, stores them with the online meeting and shows them to the selected roles. Without the function, a recording stays in Microsoft Teams. What owners and coaches set for each online meeting is described in the user manual in the section [Meeting recording](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#meeting_recording).
 
@@ -69,17 +77,23 @@ The section only appears when the module is switched on. The four settings after
 
 #### Function "Meeting recording" {: #recording_enabled}
 
-Switches meeting recording on or off for the whole instance. If it is switched off, the recording settings are missing in every online meeting, and OpenOlat does not fetch any recording, also for online meetings that were saved earlier with meeting recording switched on. By default, the function is switched off. [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9953)" }](https://track.frentix.com/issue/OO-9953)
+Switches meeting recording on or off for the whole instance. If it is switched off, the recording settings are missing in every online meeting, and OpenOlat does not fetch any recording, also for online meetings that were saved earlier with meeting recording switched on. Recordings that were already fetched stay stored, but the online meetings do not show them, and the automatic deletion pauses until the function is switched on again. By default, the function is switched off. [:octicons-tag-16:{ title="from Release 21.1.2 (OO-9953)" }](https://track.frentix.com/issue/OO-9953)
 
 To switch it on, OpenOlat needs a key which protects the access tokens in the server configuration. If the key is missing, the section shows a warning, the switch cannot be switched on, and OpenOlat does not download any recordings.
 
-The function changes the login via "Microsoft Azure AD". If the module "Microsoft Teams" and the function "Meeting recording" are switched on, OpenOlat additionally requests from Microsoft at every such login the permission to read recordings of online meetings. You add this permission in Microsoft Azure in the app registration through which OpenOlat logs in to Microsoft (Azure app). It is the app whose "Client ID" is entered in the system administration under `Administration > Login > Cloud login` for "Microsoft Azure Active Directory", see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure). In this app registration, add the delegated permission `OnlineMeetingRecording.Read.All` in the API permissions: with it, OpenOlat reads the recordings on behalf of the logged-in person. It only takes effect once an administrator of your Microsoft tenant grants consent to it, that is the administration on the Microsoft side. The tenant is the Microsoft 365 environment of your organisation in Microsoft Entra ID, formerly Azure AD. If the consent is missing, Microsoft asks for the approval of an administrator at login, and the login via "Microsoft Azure AD" fails for persons without administrator rights in the tenant. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+The function changes the login via "Microsoft Azure AD". If the module "Microsoft Teams" and the function "Meeting recording" are switched on, OpenOlat additionally requests from Microsoft at every such login the permission to read recordings of online meetings. The administration of your tenant at Microsoft adds this permission in the app through which OpenOlat logs in to Microsoft (Azure app). It is the app whose "Client ID" is entered in the system administration under `Administration > Login > Cloud login` for "Microsoft Azure Active Directory", see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure).
+
+According to [Microsoft](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-configure-app-access-web-apis), the permission is found in the Microsoft Entra admin center under:<br>
+`Entra ID > App registrations > "Your app" > API permissions > Add a permission > Microsoft Graph > Delegated permissions`<br>
+There, `OnlineMeetingRecording.Read.All` is selected and confirmed with "Add permissions". With this delegated permission, OpenOlat reads the recordings on behalf of the logged-in person.
+
+The permission only takes effect once the administration of your tenant at Microsoft grants consent to it. According to [Microsoft](https://learn.microsoft.com/en-us/graph/permissions-reference), `OnlineMeetingRecording.Read.All` needs this admin consent. According to [Microsoft](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent), a person with the role "Cloud Application Administrator" or "Application Administrator" at Microsoft may grant it, in the same app under "API permissions" with the button for admin consent. If the consent is missing, Microsoft asks for the approval of an administrator at login, and the login via "Microsoft Azure AD" fails for persons without administrator rights in the tenant. [:octicons-tag-16:{ title="from Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
 ![Three levels of permissions at the login via Azure AD, the third one needs consent in the tenant](assets/teams_module_azure_permissions_v1_en.svg){ class="shadow lightbox" title="Permissions of the login via Microsoft Azure AD · 2026.11.12" }
 
-Therefore proceed in this order as soon as the key is stored in the server configuration: First have the permission added in Azure and consent granted to it. Then switch on the function "Meeting recording" in OpenOlat and save. From the next login via "Microsoft Azure AD" on, OpenOlat requests the permission.
+Therefore proceed in this order as soon as the key is stored in the server configuration: First have the permission added in Azure and consent granted to it. Then switch on the function "Meeting recording" in OpenOlat and save. From the next login via "Microsoft Azure AD" on, OpenOlat requests the permission. Before switching it on, have an account of the system administration ready that can log in with OpenOlat username and password: it is the way back if the consent is missing.
 
-If Microsoft unexpectedly asks for the approval of an administrator at the login via "Microsoft Azure AD", first check whether the function "Meeting recording" is switched on. If the login fails because the consent is missing, there are two ways back: The administration of the Microsoft tenant grants the consent, or a system administrator switches off the function "Meeting recording" and saves. The second way requires a login to OpenOlat without Azure AD, for example with OpenOlat username and password.
+If Microsoft unexpectedly asks for the approval of an administrator at the login via "Microsoft Azure AD", first check whether the function "Meeting recording" is switched on. If the login fails because the consent is missing, there are two ways back: The administration of your tenant at Microsoft grants the consent, or a system administrator switches off the function "Meeting recording" and saves. The second way requires a login to OpenOlat without Azure AD, for example with OpenOlat username and password. If OpenOlat automatically redirects to Microsoft when it is called, you reach this login via the address of your installation with the addition `/maintenance/`, see [Cloud login: Automatic redirect](Login_Cloud_Login.md#automatic_redirect).
 
 #### Meeting recording (default) {: #recording_default}
 
@@ -87,15 +101,15 @@ Default value for new online meetings, "On" or "Off". "Off" is selected by defau
 
 #### Recording start (default) {: #recording_auto_start}
 
-Default value for when the recording begins: "Automatically when the meeting starts" or "Manually by the meeting host". "Manually by the meeting host" is selected by default.
+Default value for when the recording begins: "Automatically when the meeting starts" or "Manually by the meeting host". The meeting host is the person who opens the online meeting. "Manually by the meeting host" is selected by default.
 
 #### Automatically publish recording for (default) {: #recording_publishing}
 
-Default value for the roles to which a recording is visible after the online meeting: "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". If no role is checked, OpenOlat does not publish new recordings automatically. They are then published manually after the online meeting.
+Default value for the roles to which a recording is visible after the online meeting: "Owners and coaches", "Course / group participants", "All meeting's attendees (without guests)" and "Guests". If no role is checked, OpenOlat does not publish new recordings automatically. Owners and coaches then publish them manually after the online meeting with "Publish".
 
 #### Delete recordings automatically {: #recording_deletion}
 
-Number of days after meeting end after which OpenOlat deletes a recording. OpenOlat checks this once a day during the night. If the field remains empty, OpenOlat does not delete any recording automatically.
+Number of days after which OpenOlat deletes a recording. The interface calls the period "days after meeting end", OpenOlat counts the days from the end of the recording. So the period also applies to recordings from permanent reservations, which have no meeting end. OpenOlat checks this once a day during the night. If the field remains empty or contains 0, OpenOlat does not delete any recording automatically.
 
 Only the recording is deleted, never the online meeting. Recordings that owners or coaches have marked as "Recording not deletable" are kept.
 
@@ -125,8 +139,11 @@ With "Month", "Week", "Day" and "Year" you switch the view, "Year" lists the onl
 
 **Mentioned on this page**<br>
 [Course Element "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md)<br>
+[Cloud login >](Login_Cloud_Login.md)<br>
+[Microsoft: Microsoft Graph permissions reference >](https://learn.microsoft.com/en-us/graph/permissions-reference)<br>
 [BigBlueButton module >](BigBlueButton_module.md)<br>
-[Cloud login >](Login_Cloud_Login.md)
+[Microsoft: App registration and API permissions >](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-configure-app-access-web-apis)<br>
+[Microsoft: Grant tenant-wide admin consent >](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent)
 
 **Further reading**<br>
 [Using Group Tools >](../../manual_user/groups/Using_Group_Tools.md)<br>

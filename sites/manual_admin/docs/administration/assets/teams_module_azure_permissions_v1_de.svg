@@ -38,7 +38,7 @@
   <rect x="672" y="248" width="238" height="96" rx="10" fill="#F2AF40"/>
   <text x="688" y="276" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#2D2926">In der Azure-App:</text>
   <text x="688" y="298" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Berechtigung eintragen,</text>
-  <text x="688" y="316" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Administrator:in des Tenants</text>
+  <text x="688" y="316" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">Administrator:in des Mandanten</text>
   <text x="688" y="334" font-family="'Roboto', sans-serif" font-size="13" fill="#2D2926">stimmt zu</text>
 
   <!-- Ergebnis -->

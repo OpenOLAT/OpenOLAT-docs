@@ -4,29 +4,30 @@
 
     For frentix customers, their customer advisor at frentix takes care of the activation.
 
-With the integration, users write and copy files to and from SharePoint and OneDrive in the File Hub and in the Media Center of OpenOlat. The prerequisite is that the required licenses are available.
+With the integration, users copy files from SharePoint and OneDrive in the File Hub and in the Media Center of OpenOlat and store files there. The prerequisite is that your organisation has the required licenses from Microsoft.
 
 
 ## SharePoint [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7510)" }](https://track.frentix.com/issue/OO-7510){:target="_blank"} {: #sharepoint}
 
-Only a single Microsoft Azure app is set up for the integration of SSO via Microsoft Entra ID, Microsoft Teams Online Meetings and Microsoft SharePoint integration.
+The login via "Microsoft Azure AD" (single sign-on, SSO), Microsoft Teams and SharePoint use the same app at Microsoft: the app that you register for the cloud login "Microsoft Azure Active Directory", see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure).
+
 
 ### Requirements
 
-SSO via Microsoft Entra ID (formerly Microsoft Azure AD Authentication) is a prerequisite for using the Microsoft SharePoint integration in OpenOlat. For this, only the corresponding authorization is added in the login app.
+The prerequisite for SharePoint is the login via "Microsoft Azure AD": OpenOlat accesses the files with the Microsoft account of the logged-in person. SharePoint and OneDrive therefore only appear for persons who have logged in via "Microsoft Azure AD". Microsoft has renamed the service Azure Active Directory to Microsoft Entra ID. For SharePoint, you only add the corresponding permissions in the same app.
 
 !!! tip "Tip"
 
-    As part of this configuration, **Office for the web** can also be activated. However, this setting does not need to be configured in the Microsoft Azure App, but only in the system administration under `Administration > External tools > Document editors`, tab "Office for the web".
+    On this occasion, you can also switch on "Office for the web", with which persons view and edit Word, Excel and PowerPoint files directly in the browser. The app at Microsoft needs no change for this. You switch it on in the system administration under `Administration > External tools > Document editors`, tab "Office for the web", see [External tools: Document editors](External_Tools_-_Administration/index.md#dokumenteneditoren).
 
 
 ### Configuration sequence
 
-1. Creation of Microsoft Azure app registration
-2. Addition of authorizations in app registration for SSO via Microsoft Entra ID and for Microsoft SharePoint integration; with the module Microsoft Teams switched on, also the permissions for Teams, see [Microsoft Teams module: Function "Meeting recording"](Teams_module.md#recording_enabled)
-3. Generation of key / secret for OpenOlat
-4. Activation of SSO via Microsoft Azure AD Authentication (Microsoft Entra ID) in OpenOlat
-5. As required: Activation of Microsoft SharePoint integration in OpenOlat
+1. Register OpenOlat at Microsoft as an app, see [Cloud login: Microsoft Azure Active Directory](Login_Cloud_Login.md#azure).
+2. At Microsoft, add the permissions for the login and for SharePoint in the app. If you use the module Microsoft Teams and its function "Meeting recording", the permissions for Teams are added, see [Microsoft Teams module: Prerequisites](Teams_module.md#prerequisites).
+3. Create the client secret for OpenOlat at Microsoft, in OpenOlat the field for it is called "Client secret", see [Cloud login: Create the client secret at Microsoft](Login_Cloud_Login.md#azure_client_secret).
+4. In OpenOlat, add "Microsoft Azure Active Directory" in the cloud login and enter "Client ID" and "Client secret".
+5. As required, switch on the module "Microsoft SharePoint / OneDrive" in OpenOlat.
 
 
 ### Activation in the OpenOlat administration
@@ -34,30 +35,27 @@ SSO via Microsoft Entra ID (formerly Microsoft Azure AD Authentication) is a pre
 You find the configuration in the system administration under:<br>
 `Administration > External tools > Microsoft SharePoint / OneDrive`
 
-**Please note:**<br>
-SharePoint and OneDrive can be integrated individually and independently of each other.
+If the module "Microsoft SharePoint / OneDrive" is switched on, you switch on "SharePoint" and "OneDrive" individually and independently of each other.
 
-![Module activation, role selection and lists of allowed and excluded sites and drives of the Microsoft SharePoint / OneDrive integration](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" title="Microsoft SharePoint / OneDrive page in the system administration" }
+With "Allow upload of files in SharePoint", OpenOlat also offers the SharePoint sites as a target when someone saves a file. Whether saving to a site works depends on the permission of the person at Microsoft. OpenOlat does not know this permission.
+
+![Module, SharePoint, Upload and OneDrive highlighted, below them the role selection and the lists of sites and drives: here you switch on the module and SharePoint and OneDrive individually](assets/sharepoint_config_v1_en.png){ class="shadow lightbox" title="Microsoft SharePoint / OneDrive page in the system administration · 2026.11.27" }
 
 ---
 
 ## OneDrive {: #onedrive}
 
-The integration of OneDrive is very similar to SharePoint and can be carried out in the same way as described above.
+You set up OneDrive in the same way as SharePoint: with the same app at Microsoft and the same login via "Microsoft Azure AD". In the module "Microsoft SharePoint / OneDrive", you switch on "OneDrive" for this.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Cloud login >](Login_Cloud_Login.md)<br>
+[External Tools: Overview >](External_Tools_-_Administration/index.md)<br>
 [Microsoft Teams module >](Teams_module.md)
 
+**Further reading**<br>
+[User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
+[User tools: Media Center >](../../manual_user/personal_menu/Media_Center.md)
+
 [To the top of the page ^](#sharepoint_onedrive)
-
-
-
-
-
-
-
-
-
-

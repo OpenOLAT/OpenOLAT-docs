@@ -14,11 +14,19 @@ Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt der Abschnitt
 
 ## Voraussetzungen {: #prerequisites}
 
-Bevor Sie das Modul einschalten, braucht Ihre Organisation einen Microsoft 365 Tenant (Microsoft Entra ID bzw. Azure) mit den erforderlichen Microsoft Teams Lizenzen. Die Zugangsdaten zum Tenant ("Anwendungs-ID (Client)", "Geheimer Clientschlüssel", "Tenant GUID") werden auf Serverebene in der OpenOlat-Konfiguration hinterlegt.
+Bevor Sie das Modul einschalten, braucht Ihre Organisation bei Microsoft einen Mandanten (Tenant) mit den erforderlichen Microsoft Teams Lizenzen. Der Mandant ist die Microsoft-365-Umgebung Ihrer Organisation in Microsoft Entra ID, dem früheren Azure Active Directory.
 
-Damit Personen Online-Termine eröffnen können, melden sie sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Anmeldung über "Microsoft Azure AD"). OpenOlat erstellt die Online-Termine über die Programmierschnittstelle von Microsoft (Microsoft Graph API) im Namen der angemeldeten Person.
+Microsoft Teams nutzt dieselbe App bei Microsoft wie die Anmeldung mit dem Microsoft-Konto. Die App ist die Registrierung von OpenOlat im Microsoft Entra Admin Center, oft Azure-App genannt. Sie richten sie für den Cloud-Login ein: In der System-Administration unter `Administration > Login > Cloud-Login` heisst diese Anbindung "Microsoft Azure Active Directory", auf der Login-Seite heisst der Eintrag "Microsoft Azure AD", siehe [Cloud-Login: Microsoft Azure Active Directory](Login_Cloud_Login.de.md#azure). Eigene Zugangsdaten für Microsoft Teams braucht OpenOlat nicht, auch wenn der Tab "Konfiguration" solche Felder zeigt, siehe [Anwendungs-ID (Client), Geheimer Clientschlüssel, Tenant GUID](#tenant_credentials).
 
-Ist das Modul eingeschaltet, verlangt OpenOlat bei der Anmeldung über "Microsoft Azure AD" von Microsoft zusätzlich die Berechtigung, Online-Termine anzulegen (`OnlineMeetings.ReadWrite`). Mit der Funktion "Terminaufzeichnung" kommt die Berechtigung hinzu, Aufzeichnungen zu lesen (`OnlineMeetingRecording.Read.All`). Die Berechtigung für Aufzeichnungen braucht in der Azure-App die Zustimmung einer Administratorin oder eines Administrators des Microsoft-Tenants. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Tenant, siehe [Funktion "Terminaufzeichnung"](#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+Damit Personen Online-Termine eröffnen können, melden sie sich in OpenOlat mit ihrem Microsoft-Konto der Organisation an (Anmeldung über "Microsoft Azure AD"). OpenOlat erstellt die Online-Termine über die Programmierschnittstelle von Microsoft (Microsoft Graph API) im Namen der angemeldeten Person. Wer sich anders anmeldet, etwa mit OpenOlat-Benutzername und Passwort, sieht beim Online-Termin den Hinweis, dass das Eröffnen die Anmeldung mit dem Microsoft-Konto braucht.
+
+Welche Berechtigungen OpenOlat bei dieser Anmeldung von Microsoft verlangt, hängt vom Modul und von der Terminaufzeichnung ab:
+
+- **Immer:** die Grundberechtigungen jeder Anmeldung, also Profil, E-Mail-Adresse und Lesen des eigenen Kontos.
+- **Modul "Microsoft Teams" eingeschaltet:** zusätzlich die Berechtigung, Online-Termine anzulegen (`OnlineMeetings.ReadWrite`). Diese Berechtigung kommt laut [Microsoft](https://learn.microsoft.com/de-de/graph/permissions-reference) ohne Administratorzustimmung aus.
+- **Zusätzlich Funktion "Terminaufzeichnung" eingeschaltet:** dazu die Berechtigung, Aufzeichnungen zu lesen (`OnlineMeetingRecording.Read.All`). Sie braucht laut [Microsoft](https://learn.microsoft.com/de-de/graph/permissions-reference) die Zustimmung der Administration Ihres Mandanten. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Mandanten, siehe [Funktion "Terminaufzeichnung"](#recording_enabled).
+
+Bleibt das Modul ausgeschaltet, weil Ihre Organisation Microsoft Teams in OpenOlat nicht nutzt, fragt die Anmeldung nur die Grundberechtigungen ab.
 
 [Zum Seitenanfang ^](#teams_module)
 
@@ -40,11 +48,11 @@ Schaltet Microsoft Teams für die ganze Instanz ein oder aus. Ist das Modul ausg
 
 #### Aktivieren für {: #activate_for}
 
-Gibt Microsoft Teams einzeln für die Orte frei, an denen Online-Termine entstehen: Kursbaustein "Microsoft Teams", Kurs Termine, Kursbaustein "Terminplanung", Gruppen und Betreuer:innen-Chat.
+Gibt Microsoft Teams einzeln für die Orte frei, an denen Online-Termine entstehen: Kursbaustein "Microsoft Teams", "Kurs Termine", Kursbaustein "Terminplanung", "Gruppen" und "Betreuer:innen-Chat".
 
 #### Online-Termine ohne Datum/permanent [:octicons-tag-16:{ title="ab Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666) {: #permanent_meetings}
 
-Bestimmt, ob in Kursen und Gruppen permanente Reservierungen entstehen dürfen. Eine permanente Reservierung ist ein Online-Termin ohne Beginn und Ende: Der Raum steht dauerhaft offen, erscheint aber in keinem Kalender.
+Bestimmt, ob in Kursen und Gruppen permanente Reservierungen entstehen dürfen. Eine permanente Reservierung ist ein Online-Termin ohne Beginn und Ende: Er steht dauerhaft offen, erscheint aber in keinem Kalender.
 
 Mit "Ein" (Standard) bietet die Auswahl "Online-Termin hinzufügen" die Variante "Permanente Reservierung hinzufügen" an. Mit "Aus" fehlt diese Variante im Kursbaustein "Microsoft Teams", im Gruppenwerkzeug "Microsoft Teams" und im Kurswerkzeug "Teams". Jeder neue Online-Termin braucht dann Beginn und Ende und erscheint im Kalender. Das hilft Organisationen, die alle Online-Termine planen und im Kalender überblicken wollen.
 
@@ -54,12 +62,12 @@ Das Modul BigBlueButton kennt dieselbe Einstellung unter dem Namen "Online-Termi
 
 #### Anwendungs-ID (Client), Geheimer Clientschlüssel, Tenant GUID {: #tenant_credentials}
 
-Sind in der Serverkonfiguration Zugangsdaten zum Microsoft 365 Tenant hinterlegt, zeigt der Tab sie in diesen drei Feldern zur Ansicht. Ändern lassen sie sich nur in der Serverkonfiguration.
+Diese drei Felder zeigt der Tab nur, wenn in der Serverkonfiguration Zugangsdaten zu einem Mandanten hinterlegt sind. OpenOlat zeigt sie nur an: Online-Termine entstehen über die Anmeldung der Person mit ihrem Microsoft-Konto und die App aus dem Cloud-Login, siehe [Voraussetzungen](#prerequisites). Massgebend ist die App aus dem Cloud-Login, auch wenn diese Felder eine andere Anwendungs-ID zeigen. Ändern lassen sich die Felder nur in der Serverkonfiguration.
 
 ### Terminaufzeichnung [:octicons-tag-16:{ title="ab Release 21.1 (OO-9665)" }](https://track.frentix.com/issue/OO-9665) {: #meeting_recording}
 
 !!! info "frentix-Kund:innen"
-    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix das Ein- und Ausschalten der Funktion. Berechtigung und Zustimmung in Azure erteilt die Administration Ihres Microsoft-Tenants.
+    Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix das Ein- und Ausschalten der Funktion. Berechtigung und Zustimmung in Azure erteilt die Administration Ihres Mandanten bei Microsoft.
 
 Sollen Aufzeichnungen von Online-Terminen in OpenOlat bereitstehen und nach Plan wieder gelöscht werden, schalten Sie hier die Terminaufzeichnung ein. OpenOlat holt dann die fertigen Aufzeichnungen aus Microsoft Teams ab, legt sie beim Online-Termin ab und zeigt sie den gewählten Rollen. Ohne die Funktion bleibt eine Aufzeichnung in Microsoft Teams. Was Besitzer:innen und Betreuer:innen je Online-Termin einstellen, steht im Benutzerhandbuch im Abschnitt [Terminaufzeichnung](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#meeting_recording).
 
@@ -69,17 +77,23 @@ Der Abschnitt erscheint erst, wenn das Modul eingeschaltet ist. Die vier Einstel
 
 #### Funktion "Terminaufzeichnung" {: #recording_enabled}
 
-Schaltet die Terminaufzeichnung für die ganze Instanz ein oder aus. Ist sie ausgeschaltet, fehlen die Einstellungen zur Aufzeichnung in jedem Online-Termin, und OpenOlat holt keine Aufzeichnung ab, auch für Online-Termine, die früher mit eingeschalteter Terminaufzeichnung gespeichert wurden. Ab Werk ist die Funktion ausgeschaltet. [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9953)" }](https://track.frentix.com/issue/OO-9953)
+Schaltet die Terminaufzeichnung für die ganze Instanz ein oder aus. Ist sie ausgeschaltet, fehlen die Einstellungen zur Aufzeichnung in jedem Online-Termin, und OpenOlat holt keine Aufzeichnung ab, auch für Online-Termine, die früher mit eingeschalteter Terminaufzeichnung gespeichert wurden. Bereits abgeholte Aufzeichnungen bleiben gespeichert, die Online-Termine zeigen sie aber nicht an, und die automatische Löschung ruht, bis die Funktion wieder eingeschaltet ist. Ab Werk ist die Funktion ausgeschaltet. [:octicons-tag-16:{ title="ab Release 21.1.2 (OO-9953)" }](https://track.frentix.com/issue/OO-9953)
 
 Zum Einschalten braucht OpenOlat in der Serverkonfiguration einen Schlüssel zum Schutz der Zugriffs-Token. Fehlt er, zeigt der Abschnitt eine Warnung, der Schalter lässt sich nicht einschalten, und OpenOlat lädt keine Aufzeichnungen herunter.
 
-Die Funktion verändert die Anmeldung über "Microsoft Azure AD". Sind das Modul "Microsoft Teams" und die Funktion "Terminaufzeichnung" eingeschaltet, verlangt OpenOlat bei jeder dieser Anmeldungen von Microsoft zusätzlich die Berechtigung, Aufzeichnungen von Online-Terminen zu lesen. Diese Berechtigung tragen Sie in Microsoft Azure in der App-Registrierung ein, über die sich OpenOlat bei Microsoft anmeldet (Azure-App). Es ist die App, deren "Client ID" in der System-Administration unter `Administration > Login > Cloud-Login` bei "Microsoft Azure Active Directory" steht, siehe [Cloud-Login: Microsoft Azure Active Directory](Login_Cloud_Login.de.md#azure). In dieser App-Registrierung fügen Sie in den API-Berechtigungen die delegierte Berechtigung `OnlineMeetingRecording.Read.All` hinzu: Mit ihr liest OpenOlat die Aufzeichnungen im Namen der angemeldeten Person. Wirksam wird sie erst, wenn eine Administratorin oder ein Administrator Ihres Microsoft-Tenants ihr zustimmt, also die Administration auf der Seite von Microsoft. Der Tenant ist die Microsoft-365-Umgebung Ihrer Organisation in Microsoft Entra ID, früher Azure AD. Fehlt die Zustimmung, verlangt Microsoft bei der Anmeldung die Genehmigung einer Administratorin oder eines Administrators, und für Personen ohne Administratorrechte im Tenant scheitert die Anmeldung über "Microsoft Azure AD". [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+Die Funktion verändert die Anmeldung über "Microsoft Azure AD". Sind das Modul "Microsoft Teams" und die Funktion "Terminaufzeichnung" eingeschaltet, verlangt OpenOlat bei jeder dieser Anmeldungen von Microsoft zusätzlich die Berechtigung, Aufzeichnungen von Online-Terminen zu lesen. Diese Berechtigung trägt die Administration Ihres Mandanten bei Microsoft in der App ein, über die sich OpenOlat bei Microsoft anmeldet (Azure-App). Es ist die App, deren "Client ID" in der System-Administration unter `Administration > Login > Cloud-Login` bei "Microsoft Azure Active Directory" steht, siehe [Cloud-Login: Microsoft Azure Active Directory](Login_Cloud_Login.de.md#azure).
 
-![Drei Stufen von Berechtigungen bei der Anmeldung über Azure AD, für die dritte braucht es die Zustimmung im Tenant](assets/teams_module_azure_permissions_v1_de.svg){ class="shadow lightbox" title="Berechtigungen der Anmeldung über Microsoft Azure AD · 2026.11.12" }
+Laut [Microsoft](https://learn.microsoft.com/de-de/entra/identity-platform/quickstart-configure-app-access-web-apis) liegt die Berechtigung im Microsoft Entra Admin Center unter:<br>
+`Entra ID > App-Registrierungen > "Ihre App" > API-Berechtigungen > Berechtigung hinzufügen > Microsoft Graph > Delegierte Berechtigungen`<br>
+Dort wird `OnlineMeetingRecording.Read.All` gewählt und mit "Berechtigungen hinzufügen" abgeschlossen. Mit dieser delegierten Berechtigung liest OpenOlat die Aufzeichnungen im Namen der angemeldeten Person.
 
-Gehen Sie deshalb in dieser Reihenfolge vor, sobald der Schlüssel in der Serverkonfiguration hinterlegt ist: Lassen Sie zuerst in Azure die Berechtigung eintragen und ihr zustimmen. Schalten Sie danach in OpenOlat die Funktion "Terminaufzeichnung" ein und speichern Sie. Ab der nächsten Anmeldung über "Microsoft Azure AD" fragt OpenOlat die Berechtigung ab.
+Wirksam wird die Berechtigung erst, wenn die Administration Ihres Mandanten bei Microsoft ihr zustimmt. Laut [Microsoft](https://learn.microsoft.com/de-de/graph/permissions-reference) braucht `OnlineMeetingRecording.Read.All` diese Administratorzustimmung. Erteilen darf sie laut [Microsoft](https://learn.microsoft.com/de-de/entra/identity/enterprise-apps/grant-admin-consent) eine Person mit der Rolle "Cloudanwendungsadministrator" oder "Anwendungsadministrator" bei Microsoft, und zwar in derselben App unter "API-Berechtigungen" mit der Schaltfläche für die Administratorzustimmung. Fehlt die Zustimmung, verlangt Microsoft bei der Anmeldung die Genehmigung einer Administratorin oder eines Administrators, und für Personen ohne Administratorrechte im Mandanten scheitert die Anmeldung über "Microsoft Azure AD". [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
-Verlangt Microsoft bei der Anmeldung über "Microsoft Azure AD" unerwartet die Genehmigung einer Administratorin oder eines Administrators, prüfen Sie zuerst, ob die Funktion "Terminaufzeichnung" eingeschaltet ist. Scheitert die Anmeldung, weil die Zustimmung fehlt, gibt es zwei Wege zurück: Die Administration des Microsoft-Tenants erteilt die Zustimmung, oder eine Systemadministratorin oder ein Systemadministrator schaltet die Funktion "Terminaufzeichnung" aus und speichert. Für den zweiten Weg braucht es eine Anmeldung bei OpenOlat ohne Azure AD, zum Beispiel mit OpenOlat-Benutzername und Passwort.
+![Drei Stufen von Berechtigungen bei der Anmeldung über Azure AD, für die dritte braucht es die Zustimmung im Mandanten](assets/teams_module_azure_permissions_v1_de.svg){ class="shadow lightbox" title="Berechtigungen der Anmeldung über Microsoft Azure AD · 2026.11.12" }
+
+Gehen Sie deshalb in dieser Reihenfolge vor, sobald der Schlüssel in der Serverkonfiguration hinterlegt ist: Lassen Sie zuerst in Azure die Berechtigung eintragen und ihr zustimmen. Schalten Sie danach in OpenOlat die Funktion "Terminaufzeichnung" ein und speichern Sie. Ab der nächsten Anmeldung über "Microsoft Azure AD" fragt OpenOlat die Berechtigung ab. Halten Sie vor dem Einschalten ein Konto der System-Administration bereit, das sich mit OpenOlat-Benutzername und Passwort anmelden kann: Es ist der Weg zurück, falls die Zustimmung fehlt.
+
+Verlangt Microsoft bei der Anmeldung über "Microsoft Azure AD" unerwartet die Genehmigung einer Administratorin oder eines Administrators, prüfen Sie zuerst, ob die Funktion "Terminaufzeichnung" eingeschaltet ist. Scheitert die Anmeldung, weil die Zustimmung fehlt, gibt es zwei Wege zurück: Die Administration Ihres Mandanten bei Microsoft erteilt die Zustimmung, oder eine Systemadministratorin oder ein Systemadministrator schaltet die Funktion "Terminaufzeichnung" aus und speichert. Für den zweiten Weg braucht es eine Anmeldung bei OpenOlat ohne Azure AD, zum Beispiel mit OpenOlat-Benutzername und Passwort. Leitet OpenOlat beim Aufruf automatisch zu Microsoft weiter, erreichen Sie diese Anmeldung über die Adresse Ihrer Installation mit dem Zusatz `/maintenance/`, siehe [Cloud-Login: Automatische Umleitung](Login_Cloud_Login.de.md#automatic_redirect).
 
 #### Terminaufzeichnung (Standard) {: #recording_default}
 
@@ -87,15 +101,15 @@ Standardwert für neue Online-Termine, "Ein" oder "Aus". Ab Werk ist "Aus" gewä
 
 #### Aufnahme starten (Standard) {: #recording_auto_start}
 
-Standardwert, wann die Aufzeichnung beginnt: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Ab Werk ist "Manuell durch die Sitzungsleitung" gewählt.
+Standardwert, wann die Aufzeichnung beginnt: "Automatisch, sobald das Meeting beginnt" oder "Manuell durch die Sitzungsleitung". Sitzungsleitung ist die Person, die den Online-Termin eröffnet. Ab Werk ist "Manuell durch die Sitzungsleitung" gewählt.
 
 #### Aufnahme automatisch veröffentlichen für (Standard) {: #recording_publishing}
 
-Standardwert, für welche Rollen eine Aufzeichnung nach dem Online-Termin sichtbar ist: "Besitzer:innen / Betreuer:innen", "Teilnehmer:innen des Kurses / der Gruppe", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle angekreuzt, veröffentlicht OpenOlat neue Aufzeichnungen nicht automatisch, sie werden nach dem Online-Termin von Hand publiziert.
+Standardwert, für welche Rollen eine Aufzeichnung nach dem Online-Termin sichtbar ist: "Besitzer:innen / Betreuer:innen", "Teilnehmer:innen des Kurses / der Gruppe", "Alle Teilnehmer:innen des Meetings (ausser Gäste)" und "Gäste". Ist keine Rolle angekreuzt, veröffentlicht OpenOlat neue Aufzeichnungen nicht automatisch. Besitzer:innen und Betreuer:innen veröffentlichen sie dann nach dem Online-Termin von Hand mit "Publizieren".
 
 #### Terminaufzeichnung automatisch löschen {: #recording_deletion}
 
-Anzahl Tage nach Termin-Ende, nach denen OpenOlat eine Aufzeichnung löscht. OpenOlat prüft das einmal täglich in der Nacht. Bleibt das Feld leer, löscht OpenOlat keine Aufzeichnung automatisch.
+Anzahl Tage, nach denen OpenOlat eine Aufzeichnung löscht. Die Oberfläche nennt die Frist "Tage nach Termin-Ende", OpenOlat zählt die Tage ab dem Ende der Aufzeichnung. So gilt die Frist auch für Aufzeichnungen aus permanenten Reservierungen, die kein Termin-Ende haben. OpenOlat prüft das einmal täglich in der Nacht. Bleibt das Feld leer oder steht dort 0, löscht OpenOlat keine Aufzeichnung automatisch.
 
 Gelöscht wird nur die Aufzeichnung, nie der Online-Termin. Aufzeichnungen, die Besitzer:innen oder Betreuer:innen als "Aufzeichnung nicht löschbar" markiert haben, bleiben erhalten.
 
@@ -125,8 +139,11 @@ Im Tab "Kalender" sehen Sie, wann viele Online-Termine gleichzeitig stattfinden,
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbaustein "Microsoft Teams" >](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md)<br>
+[Cloud-Login >](Login_Cloud_Login.de.md)<br>
+[Microsoft: Berechtigungsreferenz für Microsoft Graph >](https://learn.microsoft.com/de-de/graph/permissions-reference)<br>
 [Modul BigBlueButton >](BigBlueButton_module.de.md)<br>
-[Cloud-Login >](Login_Cloud_Login.de.md)
+[Microsoft: App-Registrierung und API-Berechtigungen >](https://learn.microsoft.com/de-de/entra/identity-platform/quickstart-configure-app-access-web-apis)<br>
+[Microsoft: Mandantenweite Administratorzustimmung erteilen >](https://learn.microsoft.com/de-de/entra/identity/enterprise-apps/grant-admin-consent)
 
 **Weiterführend**<br>
 [Gruppenwerkzeuge nutzen >](../../manual_user/groups/Using_Group_Tools.de.md)<br>
