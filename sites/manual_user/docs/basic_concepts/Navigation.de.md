@@ -81,6 +81,10 @@ Die Aktion ["Teilen"](#share) in der Fusszeile gibt die Seite weiter, die Sie ge
 
 Wer den Link öffnet, braucht Zugriff auf das Ziel. Der Link ersetzt keine Buchung und kein Angebot.
 
+## Formulare speichern {: #save_forms}
+
+Eingaben in einem Formular übernimmt OpenOlat erst, wenn Sie auf den Button zum Speichern klicken. Als Formular gilt in OpenOlat jede Ansicht mit Feldern, die Sie ausfüllen, ankreuzen oder auswählen, zum Beispiel Ihr Profil oder die Einstellungen eines Kurses. Eine Tabelle oder eine Excel-Datei ist damit nicht gemeint. Sobald Sie etwas ändern, hebt OpenOlat den Button zum Speichern farbig hervor. Lehnt OpenOlat einen Wert ab, speichert es nichts und nennt den Grund direkt unter dem Feld. Verlassen Sie das Formular ohne zu speichern, fragt OpenOlat mit dem Dialog "Ungespeicherte Formulardaten" nach: "Zurück zum Formular" führt zu Ihren Eingaben zurück, "Daten nicht speichern" verwirft sie.
+
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>

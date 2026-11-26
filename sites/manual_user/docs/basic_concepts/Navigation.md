@@ -81,6 +81,10 @@ The action ["Share"](#share) in the footer passes on the page you have open. The
 
 Anyone who opens the link needs access to the target. The link does not replace a booking or an offer.
 
+## Saving forms {: #save_forms}
+
+OpenOlat applies your input in a form only when you click the button to save it. In OpenOlat, a form is any view with fields that you fill in, tick or select, for example your profile or the settings of a course. This does not refer to a table or an Excel file. As soon as you change something, OpenOlat highlights the save button in colour. If OpenOlat rejects a value, it saves nothing and states the reason directly below the field. If you leave the form without saving, OpenOlat asks with the dialog "Unsaved form data": "Back to form" takes you back to your input, "Do not save data" discards it.
+
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
