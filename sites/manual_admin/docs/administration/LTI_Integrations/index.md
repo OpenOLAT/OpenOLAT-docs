@@ -1,8 +1,19 @@
 # LTI 1.3 Integrations [:octicons-tag-16:{ title="from Release 15.5 (OO-5205)" }](https://track.frentix.com/issue/OO-5205) {: #LTI_integrations}
 
+With LTI (Learning Tools Interoperability) you connect OpenOlat to other learning platforms: authors integrate external tools into courses, and courses or groups from OpenOlat can be offered in another LMS. For this, system administrators switch on the module "LTI 1.3" in the system administration, register the other systems and determine who may share courses and groups. The older version "LTI 1.0 / 1.1" is available in the course element "LTI page" even without this module.
+
+The page LTI under `Administration > External tools > LTI` has four settings items. Each settings item appears as a tab of its own:
+
+| Settings item | Purpose |
+|---|---|
+| Configuration | Switch on LTI 1.3, choose the organisation for new accounts and determine who may add LTI shares ("deployments") for courses and groups. This page describes the tab: [Activate LTI](#activate_lti), [Deployments](#deployments) |
+| External platforms | Register other LMS for which OpenOlat as tool provides courses and groups: [LTI - External Platforms](../LTI_External_platforms.md) |
+| External tools | Register tools that authors choose as a preconfigured tool in the course element "LTI page": [LTI - External tools](../LTI_External_tools.md). How authors select a specific content of the tool is described in [LTI - Deep Linking](../LTI_Deeplinking.md). |
+| Role mapping | Determine which LTI roles course owners may assign in the course element "LTI page", and set the default values for new course elements: [LTI - Role mapping](../LTI_Role_Mapping.md) |
+
 ## Basics {: #basics}
 
-Important terms in LTI terminology:
+Whoever connects OpenOlat to another system first determines which system offers the content and which one displays it. The settings and the supported services depend on this. LTI names the two roles as follows:
 
 * **Platform** (corresponds to client): the LMS into which the external content is integrated.
 * **Tool** (corresponds to host): the LMS or application that makes content available to others.
@@ -27,18 +38,16 @@ If you want to connect an external tool or another platform to OpenOlat, you see
 
 ## Activate LTI {: #activate_lti}
 
-System administrators activate LTI in the system administration under `Administration > External tools > LTI`, tab "Configuration". The checkbox "Enabled" next to the field Module "LTI 1.3" is at the very top. Only then can LTI connections be set up.
+So that authors can choose the version "LTI 1.3" in the course element "LTI page" and share courses or groups, the module "LTI 1.3" must be switched on. System administrators switch it on in the system administration, under `Administration > External tools > LTI`, tab "Configuration". The checkbox "Enabled" next to the module "LTI 1.3" is at the very top of the tab. Only then can LTI connections be set up.
 
 ![Marked menu entry LTI under External tools and marked checkbox Enabled for the module LTI 1.3](../assets/LTI_admin_config_v3_en.png){ class="shadow lightbox" title="Tab Configuration of the page LTI in the system administration · 2026.10.07" }
 
-Once enabled, the tab shows two further fields:
+Once enabled, the tab shows two further fields and below them the settings for who may add deployments (see [Deployments](#deployments)):
 
 | Field | Note |
 |---|---|
-| Platform ISS | The URL with which OpenOlat identifies itself to external systems. Provided by OpenOlat, read-only. The default is the domain of the instance. |
+| Platform ISS | The URL with which OpenOlat identifies itself to external systems. Provided by OpenOlat and read-only here, usually the domain of the instance. |
 | Organisation | The organisation to which OpenOlat assigns the user accounts that are newly created on access from an external platform. Without a selection, the default organisation applies. |
-
-The page LTI has four tabs: "Configuration" for the basic settings on this page, "External platforms" for OpenOlat as tool, "External tools" for OpenOlat as platform and "Role mapping" for the assignment of OpenOlat roles to LTI roles. The detail pages are linked below.
 
 ## Deployments {: #deployments}
 
@@ -76,15 +85,16 @@ System administrators determine in the system administration in the tab "Configu
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[LTI - External Platforms >](../../administration/LTI_External_platforms.md)<br>
+[LTI - External tools >](../../administration/LTI_External_tools.md)<br>
+[LTI - Deep Linking >](../../administration/LTI_Deeplinking.md)<br>
+[LTI - Role mapping >](../../administration/LTI_Role_Mapping.md)<br>
 [Course element "LTI Page" >](../../../manual_user/learningresources/Course_Element_LTI_Page.md)<br>
 [Configure LTI access to a course >](../../../manual_user/learningresources/LTI_Share_courses.md)<br>
-[Configure LTI access to a group >](../../../manual_user/groups/LTI_Share_groups.md)<br>
-[LTI - Deep Linking >](../../administration/LTI_Deeplinking.md)<br>
-[LTI - External tools >](../../administration/LTI_External_tools.md)
+[Configure LTI access to a group >](../../../manual_user/groups/LTI_Share_groups.md)
 
 **Further reading**<br>
 [Learning Tools Interoperability Core Specification (IMS Global Learning Consortium) >](http://www.imsglobal.org/spec/lti/v1p3/)<br>
-[LTI - External Platforms >](../../administration/LTI_External_platforms.md)<br>
-[LTI - Role mapping >](../../administration/LTI_Role_Mapping.md)
+[How do I integrate an OpenOlat course into Moodle? >](../../../manual_how-to/LTI_integrate_course_into_moodle/LTI_integrate_course_into_moodle.md)
 
 [To the top of the page ^](#LTI_integrations)
