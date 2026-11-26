@@ -30,7 +30,7 @@ OpenOlat benennt die Funktion für jede Rolle mit dem Wort, das zu ihrer Aufgabe
 | Das [Bewertungskit](#grading_kit) füllen: die Angaben, an denen die KI eine Antwort misst | Autor:in | Tab der Freitextfrage | "KI-Feedback" |
 | Die Prüfung der Antwort durch die KI erlauben oder ablehnen | Lernende | Dialog beim Start des Quiz | "KI-Korrektur" |
 | Die Rückmeldung der KI auf die Antwort erhalten | Lernende | Hinweis während der Prüfung<br>Block unter der Antwort | "Wartet auf KI-Korrektur"<br>"KI-Feedback" |
-| Festlegen, wie viele Freitextfragen die KI erzeugt, jede mit vorgefülltem Bewertungskit | Autor:in | Dialog "Importieren" im Content Editor<br>Dialog "KI Fragen" im Fragenpool | "Essay-Frage mit KI-Korrektur"<br>"Essay-Fragen mit KI-Korrektur" |
+| Festlegen, wie viele Freitextfragen die KI erzeugt, jede mit vorgefülltem Bewertungskit | Autor:in | Dialog "Importieren" im Content Editor<br>Dialog "KI-Fragen" im Fragenpool | "Essay-Frage mit KI-Korrektur"<br>"Essay-Fragen mit KI-Korrektur" |
 
 !!! info "frentix-Kund:innen"
 
@@ -59,7 +59,7 @@ Die Freitextfrage im Quiz erscheint nur, wenn die KI-Funktion "Essay Bewertung" 
 1. Öffnen Sie als Systemadministrator:in die System-Administration: `Administration > Externe Werkzeuge > KI-Modul`.
 2. Wählen Sie den Tab "KI-Funktionen".
 3. Prüfen Sie die Funktion "Essay Bewertung": Der Schalter "Funktion aktivieren" steht auf "EIN", ein KI-Anbieter und ein Sprachmodell sind gewählt. Den Anbieter richten Sie vorher im Tab [KI-Anbieter](../../manual_admin/administration/External_Tools_AI.de.md#ai_provider) ein.
-4. Für [erzeugte Fragen](#import) prüfen Sie zusätzlich die Funktion "Essay Fragen Generator". Der Button "KI Fragen" im Fragenpool erscheint ausserdem nur mit der Funktion "MC Fragen Generator".
+4. Für [erzeugte Fragen](#import) prüfen Sie zusätzlich die Funktion "Essay Fragen Generator". Der Button "KI-Fragen" im Fragenpool erscheint ausserdem nur mit der Funktion "MC Fragen Generator".
 
 Zwei Grenzwerte der Funktion "Essay Bewertung" wirken direkt auf Lernende und Autor:innen:
 
@@ -96,7 +96,7 @@ Details zu diesen Feldern beschreibt [Externe Werkzeuge: KI-Modul](../../manual_
 
 ## Schritt 2: Das Bewertungskit füllen {: #grading_kit}
 
-Das Bewertungskit im Tab **"KI-Feedback"** legt fest, woran die KI die Antworten misst. Erst mit gespeichertem Bewertungskit erhalten Lernende zu dieser Frage ein KI-Feedback. Dafür nutzt die KI den Quelltext-Auszug, die Musterantwort, die Schlüsselpunkte, die Bewertungskriterien, die Korrekturhinweise, den Schwierigkeitsgrad und die Sprache.
+Das Bewertungskit im Tab **"KI-Feedback"** legt fest, woran die KI die Antworten misst. Erst mit gespeichertem Bewertungskit erhalten Lernende zu dieser Frage ein KI-Feedback. Dafür nutzt die KI den Quelltext-Auszug, die Musterantwort, die Schlüsselpunkte, die Bewertungskriterien, die Korrekturhinweise, den Schwierigkeitsgrad und die Sprache. Lernziel und Bloom-Stufe halten fest, was die Frage prüft, und beschreiben sie so für Sie und Ihre Kolleg:innen.
 
 Fünf Angaben sind Pflicht und mit einem Stern markiert:
 
@@ -106,7 +106,7 @@ Fünf Angaben sind Pflicht und mit einem Stern markiert:
 | "Quelltext-Auszug" | Der Abschnitt aus dem Lerntext, auf dem die Frage beruht. Der Lerntext ist der Text, den Ihre Lernenden durcharbeiten, etwa ein Skript. Die KI nutzt den Abschnitt als Referenz. |
 | "Musterantwort" | Die erwartete Antwort in der Länge und Sprache, die Sie von Lernenden erwarten. |
 | "Bloom-Stufe" | Die kognitive Stufe der Frage nach der Taxonomie von Bloom, vom einfachsten zum anspruchsvollsten Denkschritt: "Erinnern", "Verstehen", "Anwenden", "Analysieren", "Bewerten" oder "Erschaffen". |
-| "Sprache (BCP-47)" | Die Sprache, in der Lernende antworten sollen, als Sprach-Tag wie `de`, `en` oder `fr`. Tragen Sie den Sprach-Tag ohne Region ein, etwa `en`. OpenOlat belegt das leere Feld mit der Sprache Ihrer Benutzeroberfläche vor. Antworten Lernende in einer anderen Sprache, weist das KI-Feedback darauf hin. |
+| "Sprache (BCP-47)" | Die Sprache, in der Lernende antworten sollen, als Sprach-Tag wie `de`, `en` oder `fr`. Tragen Sie den Sprach-Tag ohne Region ein, also `en` statt `en-US`. OpenOlat belegt das leere Feld mit der Sprache Ihrer Benutzeroberfläche vor. Antworten Lernende in einer anderen Sprache, weist das KI-Feedback darauf hin. |
 
 ![Die fünf Pflichtfelder Lernziel, Quelltext-Auszug, Musterantwort, Bloom-Stufe und Sprache tragen einen Stern, die Korrekturhinweise nicht](assets/ai_essay_grading_kit_top_v1_de.png){ class="shadow lightbox" title="Tab KI-Feedback einer Freitextfrage im Quiz" }
 
@@ -125,11 +125,11 @@ Die übrigen Felder sind optional:
 * **"Häufige Missverständnisse"**: Typische Falsch-Annahmen zur Frage, als Merkliste im Bewertungskit. Beim Erzeugen von Fragen füllt die KI sie vor. Soll das KI-Feedback auf eine Falsch-Annahme eingehen, nennen Sie sie zusätzlich in den Korrekturhinweisen.
 ![Zwei Falsch-Annahmen erfasst, darüber ein einzelner Schlüsselpunkt mit Gewicht 1.0 und Schwierigkeitsgrad 5](assets/ai_essay_grading_kit_misconceptions_v1_de.png){ class="shadow lightbox" title="Abschnitt Häufige Missverständnisse im Tab KI-Feedback" }
 
-Eine weitere Zeile fügen Sie mit "Schlüsselpunkt hinzufügen", "Kriterium hinzufügen" oder "Typischen Fehler hinzufügen" an, "Entfernen" löscht eine Zeile.
+Eine weitere Zeile fügen Sie mit "Schlüsselpunkt hinzufügen", "Kriterium hinzufügen" oder, bei den häufigen Missverständnissen, mit "Typischen Fehler hinzufügen" an, "Entfernen" löscht eine Zeile.
 
 Duplizieren Sie eine Frage im Quiz, erhält die Kopie kein Bewertungskit. Füllen Sie es bei der Kopie neu aus.
 
-Lässt sich das Bewertungskit nicht speichern, zeigt OpenOlat den Fehler direkt am Feld oder an der Zeile der Tabelle. Ergeben die Gewichte nicht 1.0, steht die Meldung "Summe der Gewichte muss 1.0 ergeben (±0.01)." beim Gewicht der ersten Zeile.
+Speichern Sie das Bewertungskit mit "Speichern". Lässt sich das Bewertungskit nicht speichern, zeigt OpenOlat den Fehler direkt am Feld oder an der Zeile der Tabelle. Ergeben die Gewichte nicht 1.0, steht die Meldung "Summe der Gewichte muss 1.0 ergeben (±0.01)." beim Gewicht der ersten Zeile.
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -182,7 +182,7 @@ Je offener die Frage, desto wichtiger sind Korrekturhinweise und Bewertungskrite
 
 Beim Start des Quiz fragt OpenOlat die Lernenden im Dialog "KI-Korrektur", ob die KI ihre Freitextantworten korrigieren darf: "Einmal erlauben", "Immer erlauben" oder "Jetzt nicht". Das KI-Feedback ist eine Rückmeldung für die Lernenden, Punkte und Bestanden-Status bleiben davon unberührt. Ohne Erlaubnis beantworten Lernende die Frage wie gewohnt, es erscheint nur kein KI-Feedback. "Immer erlauben" speichert die Wahl im Tab "KI-Einstellungen" der persönlichen Einstellungen, danach erscheint der Dialog nicht mehr. Nach "Einmal erlauben" oder "Jetzt nicht" fragt OpenOlat beim nächsten Durchgang durch das Quiz erneut, etwa nach "Neuer Versuch". Im Tab "KI-Einstellungen" ändern Lernende ihre Wahl jederzeit: "Aus" schaltet das KI-Feedback ab, "Vorgabe (ein)" oder "Vorgabe (aus)" lässt OpenOlat wieder beim Start fragen. Details beschreibt [Einwilligung zur KI-Korrektur](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_consent).
 
-1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Hat die KI die Frage erzeugt, über den Import oder über "KI Fragen" im Fragenpool, endet der Fragetext mit "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Eine von Hand erstellte Frage hat diesen Block nicht. Der Block ist Teil des Fragetexts, Sie können ihn also im Feld "Frage" anpassen oder entfernen. Der Zähler zeigt die Anzahl Wörter und, falls ein Maximum gesetzt ist, das erlaubte Maximum.
+1. Lernende starten das Quiz auf der Seite und beantworten die Freitextfrage im Eingabefeld. Hat die KI die Frage erzeugt, über den Import oder über "KI-Fragen" im Fragenpool, endet der Fragetext mit "Hinweise zur Bearbeitung": die erwartete Länge, die Anzahl der Schlüsselkonzepte und die Bereiche, nach denen bewertet wird. Eine von Hand erstellte Frage hat diesen Block nicht. Der Block ist Teil des Fragetexts, Sie können ihn also im Feld "Frage" anpassen oder entfernen. Der Zähler zeigt die Anzahl Wörter und, falls ein Maximum gesetzt ist, das erlaubte Maximum.
 2. Mit **"Überprüfen"** senden die Lernenden die Antwort ab. Während die KI arbeitet, erscheint der Hinweis "Wartet auf KI-Korrektur". Dauert es länger, bittet OpenOlat darum, die Seite offen zu lassen: Das Feedback erscheint auf der offenen Seite. Danach führt "Weiter" zur nächsten Frage.
 
 ![Die Freitextfrage mit Hinweisen zur Bearbeitung, Eingabefeld, Wortzähler und dem Button Überprüfen](assets/ai_essay_ai_review_v1_de.png){ class="shadow lightbox" title="Lernendenansicht des Quiz auf einer Kursseite" }
@@ -212,17 +212,19 @@ Unter **"Detailliertes Feedback"** lassen sich weitere Abschnitte aufklappen: "W
 Statt die Frage von Hand zu schreiben, lassen Sie sie aus einem Lerntext erzeugen, etwa aus dem Skript zu Ihrem Kurs.
 
 1. Klicken Sie im Bearbeitungsmodus der Seite auf **"Importieren"**, unter dem Inhalt neben "Neues Layout einfügen".
-2. Wählen Sie eine Markdown-, Text- oder Word-Datei mit dem Lerntext, oder wählen Sie "Text einfügen" und fügen Sie den Lerntext in das Eingabefeld ein.
+2. Wählen Sie eine Markdown-, Text- oder Word-Datei mit dem Lerntext, oder wählen Sie "Text einfügen" und fügen Sie den Lerntext in das Feld "Markdown-Text" ein. Einfacher Text ohne Formatierung genügt. Wie lang der Lerntext sein darf, legt die System-Administration im KI-Modul fest, standardmässig 60000 Zeichen.
 3. Der Schalter "KI-generiertes Quiz hinzufügen" ist beim Öffnen des Dialogs eingeschaltet. Lassen Sie ihn eingeschaltet. Der Schalter "Bild-Metadaten mit KI generieren" betrifft nur die Bilder der importierten Datei: OpenOlat erzeugt dafür Titel, Beschreibung, Alternativtext und Tags.
-4. Legen Sie im Feld "Essay-Frage mit KI-Korrektur" fest, wie viele Freitextfragen entstehen. Erlaubt sind bis zu fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen und kann auf 0 bleiben.
+4. Legen Sie im Feld "Essay-Frage mit KI-Korrektur" fest, wie viele Freitextfragen entstehen, höchstens fünf. Das Feld "MC-Fragen" steuert die Anzahl der Multiple-Choice-Fragen. Beide Felder stehen beim Öffnen des Dialogs auf 2. Sollen nur Freitextfragen entstehen, setzen Sie "MC-Fragen" auf 0.
 5. Wählen Sie die "Bloom-Stufen" und die "Zielschwierigkeit", und erfassen Sie bei Bedarf "Lernziele", ein Ziel pro Zeile.<br><br>
 ![Schalter KI-generiertes Quiz hinzufügen eingeschaltet, MC-Fragen 0, Essay-Frage mit KI-Korrektur 1, zwei Bloom-Stufen und ein Lernziel gewählt](assets/ai_essay_import_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Importieren im Content Editor" }
 
-6. Starten Sie den Import. Die Generierung läuft im Hintergrund und kann eine Minute dauern. OpenOlat übernimmt den Lerntext als Inhalt auf die Seite und fügt die Fragen direkt danach als Quiz-Element an.
+6. Starten Sie den Import mit "Importieren". Die Generierung läuft im Hintergrund und kann eine Minute dauern. OpenOlat übernimmt den Lerntext als Inhalt auf die Seite und fügt die Fragen direkt danach als Quiz-Element an.
 
 Die KI füllt das Bewertungskit der erzeugten Fragen vor. Prüfen Sie jede Frage inhaltlich und schärfen Sie das Bewertungskit im Tab "KI-Feedback" nach.
 
-Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Button "KI Fragen". Die Anzahl der Freitextfragen legen Sie dort im Feld "Essay-Fragen mit KI-Korrektur" fest. Im Fragenpool erzeugte Fragen erhalten den Status "Review". In ein Quiz übernehmen Sie sie im Bearbeitungsmodus der Seite über das Menü des Quiz-Elements: `Weitere Aktionen > Fragen aus Pool importieren`. Das Bewertungskit kommt mit.
+Freitextfragen und ihr Bewertungskit schreibt die KI in der Sprache Ihrer Benutzeroberfläche. Liegt Ihr Lerntext in einer anderen Sprache vor, stellen Sie vor dem Erzeugen die Sprache in Ihren [persönlichen Einstellungen](../../manual_user/personal_menu/Settings.de.md#language) auf die Sprache des Lerntexts um. Haben Sie die Fragen schon erzeugt, prüfen Sie im Tab "KI-Feedback" das Feld "Sprache (BCP-47)" und passen Sie die Texte des Bewertungskits an, auch den Quelltext-Auszug.
+
+Fragen aus einem Lerntext erzeugen Sie auch im [Fragenpool](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md#create_with_AI) über den Button "KI-Fragen". Die Anzahl der Freitextfragen legen Sie dort im Feld "Essay-Fragen mit KI-Korrektur" fest; der Dialog schlägt sie nach der Länge des Lerntexts vor. Im Fragenpool erzeugte Fragen erhalten den Status "Review". In ein Quiz übernehmen Sie sie im Bearbeitungsmodus der Seite über das Menü des Quiz-Elements: `Weitere Aktionen > Fragen aus Pool importieren`. Das Bewertungskit kommt mit.
 
 [Zum Seitenanfang ^](#ai_essay)
 
@@ -246,11 +248,11 @@ Denselben Weg gibt es im [Fragenpool](../../manual_user/area_modules/Question_Ba
 ["Wie erstelle ich meinen ersten OpenOlat-Kurs?" >](../my_first_course/my_first_course.de.md)<br>
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor/index.de.md)<br>
-[Content Editor: Quiz und KI-Feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../../manual_user/personal_menu/Media_Center.de.md)<br>
 [Kursbaustein "Test" >](../../manual_user/learningresources/Course_Element_Test/index.de.md)<br>
 [Externe Werkzeuge: KI-Modul >](../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../manual_user/personal_menu/Settings.de.md)<br>
+[Content Editor: Quiz und KI-Feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Fragenpool: Fragen erstellen >](../../manual_user/area_modules/Question_Bank_Create_Questions.de.md)
 
 **Weiterführend**<br>

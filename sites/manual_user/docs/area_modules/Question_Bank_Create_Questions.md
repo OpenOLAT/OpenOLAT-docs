@@ -26,11 +26,11 @@ In the dialog "Create question" you enter a title and then select the question t
 
 ## Create questions with AI [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7787)" }](https://track.frentix.com/issue/OO-7787){:target="_blank"} {: #create_with_AI}
 
-Instead of writing every question yourself, you have questions generated in the question bank with AI (artificial intelligence). You open the dialog for this with the "AI questions" button.
+Instead of writing every question yourself, you have questions generated in the question bank with AI (artificial intelligence). You open the dialog for this with the "AI questions" button above the table of questions, next to "Create question".
 
 !!! info "Important"
 
-    OpenOlat shows the "AI questions" button if the AI feature "MC Question Generator" is configured with an AI provider and a language model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration: `Administration > External tools > AI module > Tab "AI features"`. The dialog additionally generates essay questions with AI correction if the AI features "Essay Question Generator" and "Essay Grading" are also configured there.
+    OpenOlat shows the "AI questions" button if the AI feature "MC Question Generator" is configured with an AI provider and a language model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration: `Administration > External tools > AI module > Tab "AI features"`. The dialog additionally generates essay questions with AI correction if the AI features "Essay Question Generator" and "Essay Grading" are also configured there. For the activation, contact your organisation.
 
 The AI generates the questions from a source text: the text your learners work through, for example a script, a chapter or a fact sheet. The AI cannot ask about anything that is not in it.
 
@@ -41,9 +41,9 @@ You provide the source text in one of two modes:
 
 How long the source text may be is set by the system administration in the [AI module](../../manual_admin/administration/External_Tools_AI.md#ai_function_limits), 60000 characters by default [:octicons-tag-16:{ title="from Release 21.0.2 (OO-9677)" }](https://track.frentix.com/issue/OO-9677){:target="_blank"}. If "MC Question Generator" and "Essay Question Generator" are both active, the smaller of the two values applies. The dialog states the applicable limit and rejects texts that are too long.
 
-You then define how many questions are generated: "Multiple-choice questions" and, if the AI feature "Essay Grading" is configured, "Essay questions with AI correction". The AI suggests sensible values based on the length of the source text, which you can adjust. With the fields "Bloom levels", "Target difficulty" and "Learning objectives (optional)" you steer which questions are created, as with the [import in the Content Editor](../basic_concepts/Content_Editor/Editor_Import.md#import_ai_quiz); the Bloom levels "Understand" and "Apply" are preselected. Start the process with "Generate questions".
+You then define how many questions are generated: "Multiple-choice questions" and, if the AI feature "Essay Grading" is configured, "Essay questions with AI correction", that is, free-text questions with AI feedback. The AI suggests sensible values based on the length of the source text, which you can adjust. With the fields "Bloom levels", "Target difficulty" and "Learning objectives (optional)" you steer which questions are created, as with the [import in the Content Editor](../basic_concepts/Content_Editor/Editor_Import.md#import_ai_quiz); the Bloom levels "Understand" and "Apply" are preselected. Start the process with "Generate questions".
 
-Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question bank once they are ready. They are created in the language of the source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. AI-generated questions receive the "Review" status so they are checked before reuse.
+Generation runs in the background. You can leave the dialog open or close it; the new questions appear in the question bank once they are ready. Multiple-choice questions are created in the language of the source text [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}, essay questions with AI correction in the language of your user interface, as described in the section [Edit the AI feedback of an essay question](#ai_grading). AI-generated questions receive the "Review" status of the [review process](Question_Bank_Review_Process.md) so they are checked before reuse.
 
 Check each generated question for correctness of content before you use it.
 
@@ -51,7 +51,9 @@ Check each generated question for correctness of content before you use it.
 
 ## Edit the AI feedback of an essay question [:octicons-tag-16:{ title="from Release 21.0 (OO-9498)" }](https://track.frentix.com/issue/OO-9498){:target="_blank"} {: #ai_grading}
 
-For essay questions with AI correction, a grading kit defines how the AI assesses the answers. The AI prefills this grading kit during generation; you can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start. OpenOlat shows the tab as soon as the AI feature "Essay Grading" is enabled and configured with an AI provider and a language model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration: `Administration > External tools > AI module > Tab "AI features"`.
+For essay questions with AI correction, a grading kit defines how the AI assesses the answers in the quiz of a page. The AI prefills this grading kit during generation, including the learning objective and the reference excerpt; the learning objectives from the "AI questions" dialog steer which learning objectives it enters. You can adjust it by hand in the question's "AI feedback" tab. The tab also appears on an essay question you created yourself. This lets you build the grading kit from the start. OpenOlat shows the tab as soon as the AI feature "Essay Grading" is enabled and configured with an AI provider and a language model in the [AI module](../../manual_admin/administration/External_Tools_AI.md) of the system administration: `Administration > External tools > AI module > Tab "AI features"`.
+
+The AI writes generated essay questions and their grading kit in the language of your user interface. If your source text is in a different language, switch the language in your [personal settings](../personal_menu/Settings.md#language) to the language of the source text before generating. If you have already generated the questions, check the "Language (BCP-47)" field in the "AI feedback" tab and adjust the texts of the grading kit, including the reference excerpt.
 
 OpenOlat names this feature for each role with the word that fits its task: "Essay Grading" for the system administration, "AI feedback" in the tab of the question for authors, "AI correction" in the dialog in which learners allow the check of their answer. When generating, you set in the "Essay questions with AI correction" field how many essay questions are created. Which goal who reaches where under which word is shown in the table in the section [What AI feedback does](../../manual_how-to/ai_essay/ai_essay.md#concept) of the instructions on AI feedback.
 
@@ -62,7 +64,7 @@ Five entries are mandatory and carry an asterisk: "Learning objective", "Referen
 * **"Model answer"**: the expected reference answer.
 * **"Grading hints"**: additional instructions for the AI.
 * **"Bloom level"**: the cognitive level of the question.
-* **"Language (BCP-47)"**: the language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, for example `en`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. The AI writes the feedback itself in the language the learner has selected in their [personal settings](../personal_menu/Settings.md#language).
+* **"Language (BCP-47)"**: the language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, that is `en` instead of `en-US`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. The AI writes the feedback itself in the language the learner has selected in their [personal settings](../personal_menu/Settings.md#language).
 * **"Difficulty (1–5)"**: the standard the AI applies when assessing, from 1 (very easy) to 5 (very hard).
 * **"Key points"**: what a good answer must contain, each with a description, a weight from 0.0 to 1.0 and the "required" marker.
 * **"Rubric criteria"**: the aspects by which the AI assesses the answer, each with "Name", "Descriptor", a "Scope" ("Content" or "Language") and a weight.
@@ -72,11 +74,11 @@ A row counts as filled in as soon as its description, or for rubric criteria its
 
 If the grading kit cannot be saved, OpenOlat shows the error directly at the field or at the row of the table. If the weights do not add up to 1.0, the message "Weights must sum to 1.0 (±0.01)." appears at the weight of the first row.
 
-With the "Test feedback" button you enter a sample answer and see in the preview which AI feedback learners would receive. This lets you fine-tune the grading kit before use.
+With the "Test feedback" button you enter a sample answer and see in the preview which AI feedback learners would receive. The preview writes the feedback in the language from the "Language (BCP-47)" field. This lets you fine-tune the grading kit before use.
 
 !!! info "Where learners receive the AI feedback"
 
-    The grading kit only takes effect in the [quiz element of a page](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback). Add the essay question there with "Import questions from pool" in the 3-dot menu of the quiz element. In the course elements "Test" and "Self-test" the grading kit is not executed. There the essay answer remains subject to manual correction in the assessment tool.
+    The grading kit only takes effect in the [quiz element of a page](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback). Add the essay question there with "Import questions from pool" in the "More actions" menu (3-dot symbol) of the quiz element. In the course elements "Test" and "Self-test" the grading kit is not executed. There the essay answer remains subject to manual correction in the assessment tool.
 
 [To the top of the page ^](#create_questions)
 
@@ -109,10 +111,10 @@ If you are developing questions together, for example, you can create a workgrou
 [Question types >](Question_Bank_Question_Types/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
-[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
+[Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
 [How do I give learners AI feedback on free-text answers in a quiz? >](../../manual_how-to/ai_essay/ai_essay.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
-[Question Bank Review Process >](Question_Bank_Review_Process.md)<br>
+[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [Question Bank: Sharing Options >](Question_Pool_Sharing_Options.md)
 
 **Further reading**<br>

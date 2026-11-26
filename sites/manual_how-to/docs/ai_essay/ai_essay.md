@@ -96,7 +96,7 @@ For details on these fields, see [External tools: AI module](../../manual_admin/
 
 ## Step 2: Fill in the grading kit {: #grading_kit}
 
-The grading kit in the **"AI feedback"** tab defines what the AI measures the answers against. Only with a saved grading kit do learners receive AI feedback on this question. For it, the AI uses the reference excerpt, the model answer, the key points, the rubric criteria, the grading hints, the difficulty and the language.
+The grading kit in the **"AI feedback"** tab defines what the AI measures the answers against. Only with a saved grading kit do learners receive AI feedback on this question. For it, the AI uses the reference excerpt, the model answer, the key points, the rubric criteria, the grading hints, the difficulty and the language. The learning objective and the Bloom level record what the question tests and so describe it for you and your colleagues.
 
 Five entries are mandatory and marked with an asterisk:
 
@@ -106,7 +106,7 @@ Five entries are mandatory and marked with an asterisk:
 | "Reference excerpt" | The passage from the source text the question is based on. The source text is the text your learners work through, for example a script. The AI uses the passage as a reference. |
 | "Model answer" | The expected answer in the length and language you expect from learners. |
 | "Bloom level" | The cognitive level of the question according to Bloom's taxonomy, from the simplest to the most demanding thinking step: "Remember", "Understand", "Apply", "Analyse", "Evaluate" or "Create". |
-| "Language (BCP-47)" | The language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, for example `en`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. |
+| "Language (BCP-47)" | The language in which learners are to answer, as a language tag such as `de`, `en` or `fr`. Enter the language tag without region, that is `en` instead of `en-US`. OpenOlat prefills the empty field with the language of your user interface. If learners answer in a different language, the AI feedback points this out. |
 
 ![The five mandatory fields Learning objective, Reference excerpt, Model answer, Bloom level and Language carry an asterisk, Language is prefilled with en, so you see what you must fill in](assets/ai_essay_grading_kit_top_v1_en.png){ class="shadow lightbox" title="AI feedback tab of an essay question in the Quiz · 2026.11.04" }
 
@@ -125,11 +125,11 @@ The remaining fields are optional:
 * **"Common misconceptions"**: typical false assumptions about the question, as a reference list in the grading kit. When questions are generated, the AI pre-fills them. If the AI feedback should address a false assumption, also name it in the grading hints.
 ![Two misconceptions entered, above them a single key point with weight 1.0 and difficulty 5, so you see how to name the false assumptions the AI is to watch for](assets/ai_essay_grading_kit_misconceptions_v1_en.png){ class="shadow lightbox" title="Common misconceptions section in the AI feedback tab · 2026.11.04" }
 
-You add another row with "Add key point", "Add criterion" or "Add misconception"; "Remove" deletes a row.
+You add another row with "Add key point", "Add criterion" or, for the common misconceptions, with "Add misconception"; "Remove" deletes a row.
 
 If you duplicate a question in the Quiz, the copy has no grading kit. Fill it in again for the copy.
 
-If the grading kit cannot be saved, OpenOlat shows the error directly at the field or at the row of the table. If the weights do not add up to 1.0, the message "Weights must sum to 1.0 (±0.01)." appears at the weight of the first row.
+Save the grading kit with "Save". If the grading kit cannot be saved, OpenOlat shows the error directly at the field or at the row of the table. If the weights do not add up to 1.0, the message "Weights must sum to 1.0 (±0.01)." appears at the weight of the first row.
 
 [To the top of the page ^](#ai_essay)
 
@@ -212,17 +212,19 @@ Under **"Detailed feedback"** further sections can be expanded: "What went well"
 Instead of writing the question by hand, you can have it generated from a source text, for example from the script for your course.
 
 1. In the edit mode of the page, click **"Import"**, below the content next to "Add a new layout".
-2. Select a Markdown, text or Word file with the source text, or select "Paste text" and paste the source text into the input field.
+2. Select a Markdown, text or Word file with the source text, or select "Paste text" and paste the source text into the "Markdown text" field. Plain text without formatting is enough. How long the source text may be is set by the system administration in the AI module, 60000 characters by default.
 3. The "Add AI generated Quiz" switch is on when the dialog opens. Leave it on. The "Generate image metadata with AI" switch only concerns the images in the imported file: OpenOlat generates a title, description, alternative text and tags for them.
-4. In the "Essay question with AI correction" field, set how many essay questions are created. Up to five are allowed. The "MC question" field sets the number of multiple-choice questions and can stay at 0.
+4. In the "Essay question with AI correction" field, set how many essay questions are created, at most five. The "MC question" field sets the number of multiple-choice questions. Both fields are set to 2 when the dialog opens. If only essay questions are to be created, set "MC question" to 0.
 5. Select the "Bloom levels" and the "Target difficulty", and enter "Learning objectives" if needed, one objective per line.<br><br>
 ![Switch Add AI generated Quiz enabled, MC question 0, Essay question with AI correction 1, two Bloom levels and one learning objective, so you see how to set up the generation](assets/ai_essay_import_dialog_v1_en.png){ class="shadow lightbox" title="Import dialog in the Content Editor · 2026.11.04" }
 
-6. Start the import. Generation runs in the background and may take a minute. OpenOlat takes the source text onto the page as content and adds the questions directly after it as a Quiz element.
+6. Start the import with "Import". Generation runs in the background and may take a minute. OpenOlat takes the source text onto the page as content and adds the questions directly after it as a Quiz element.
 
 The AI pre-fills the grading kit of the generated questions. Check each question for content and refine the grading kit in the "AI feedback" tab.
 
-The same path exists in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" button. There you set the number of essay questions in the "Essay questions with AI correction" field. Questions created in the question bank receive the status "Review". You take them into a Quiz in the edit mode of the page via the menu of the Quiz element: `More actions > Import questions from pool`. The grading kit comes along.
+The AI writes essay questions and their grading kit in the language of your user interface. If your source text is in a different language, switch the language in your [personal settings](../../manual_user/personal_menu/Settings.md#language) to the language of the source text before generating. If you have already generated the questions, check the "Language (BCP-47)" field in the "AI feedback" tab and adjust the texts of the grading kit, including the reference excerpt.
+
+You also generate questions from a source text in the [Question bank](../../manual_user/area_modules/Question_Bank_Create_Questions.md#create_with_AI) via the "AI questions" button. There you set the number of essay questions in the "Essay questions with AI correction" field; the dialog suggests it based on the length of the source text. Questions created in the question bank receive the status "Review". You take them into a Quiz in the edit mode of the page via the menu of the Quiz element: `More actions > Import questions from pool`. The grading kit comes along.
 
 [To the top of the page ^](#ai_essay)
 
@@ -246,11 +248,11 @@ The same path exists in the [Question bank](../../manual_user/area_modules/Quest
 ["How do I create my first OpenOlat course?" >](../my_first_course/my_first_course.md)<br>
 [Course Element "Page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
 [Content Editor >](../../manual_user/basic_concepts/Content_Editor/index.md)<br>
-[Content Editor: Quiz and AI feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [User tools: Media Center >](../../manual_user/personal_menu/Media_Center.md)<br>
 [Course Element "Test" >](../../manual_user/learningresources/Course_Element_Test/index.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)<br>
 [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md)<br>
+[Content Editor: Quiz and AI feedback >](../../manual_user/basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [Question bank: Create Questions >](../../manual_user/area_modules/Question_Bank_Create_Questions.md)
 
 **Further reading**<br>

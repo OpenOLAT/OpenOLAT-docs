@@ -44,7 +44,7 @@ Einzelne Fragen, ganze Sektionen oder Tests lassen sich auch direkt aus dem [Tes
 
 Ist der [Beurteilungsprozess](../Question_Bank_Review_Process.de.md) aktiviert (Autor:innen beurteilen die erstellten Fragen gegenseitig), zeigt "Mein Fragenpool" zusätzlich Ihre Fachbereiche. Je nach Berechtigung erscheinen im Menü ausserdem die Bereiche "Beurteilung" und "Final".
 
-Je nach Konfiguration stehen über der Tabelle Ihrer Fragen die Buttons "Frage erstellen", "KI Fragen" und "Import". Mit den Suchfiltern und dem Suchfeld grenzen Sie die Tabelle ein, mehr dazu unter [Suchfunktion im Fragenpool](../Question_Pool_Search.de.md).
+Je nach Konfiguration stehen über der Tabelle Ihrer Fragen die Buttons "Frage erstellen", "KI-Fragen" und "Import". Mit den Suchfiltern und dem Suchfeld grenzen Sie die Tabelle ein, mehr dazu unter [Suchfunktion im Fragenpool](../Question_Pool_Search.de.md).
 
 ![Markierter Bereich Mein Fragenpool mit Meine Fragen und Meine Favoriten, rechts die Suchfilter über der Tabelle Ihrer eigenen Fragen, so finden Sie Ihre Fragen und grenzen sie ein](../assets/question_bank_navigation_my_question_bank_v2_de.png){ class="shadow lightbox" title="Bereich Mein Fragenpool · 2026.10.26" }
 
