@@ -77,7 +77,9 @@ Globale Badges manuell vergeben und die Regeln für ihre automatische Vergabe fe
 ### Globale Badges manuell vergeben
 
 Globale Badges können durch Systemadministrator:innen in der System-Administration manuell vergeben werden unter<br>
-`Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Manuell vergeben"`
+`Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > "Badgename" > Tab "Übersicht" > Button "Manuell vergeben"`
+
+Denselben Button finden Sie auch direkt in der Liste des Tabs "Globale Badges": in den Details einer Zeile, die das Plus-Symbol am Zeilenanfang aufklappt, und im Menü "Weitere Aktionen" am Zeilenende.
 
 ### Globale Badges automatisch vergeben
 

@@ -77,7 +77,9 @@ However, only [system administrators](../../manual_admin/administration/e-Assess
 ### Assign global badges manually
 
 Global badges can be assigned manually by system administrators in the system administration under<br>
-`Administration > e-Assessment > OpenBadges > "Global Badges" tab > Button "Award manually"`
+`Administration > e-Assessment > OpenBadges > Tab "Global badges" > "Badge name" > Tab "Overview" > Button "Award manually"`
+
+You also find the same button directly in the list of the "Global badges" tab: in the details of a row, which the plus icon at the start of the row expands, and in the "More actions" menu at the end of the row.
 
 ### Global badges assigned automatically
 
