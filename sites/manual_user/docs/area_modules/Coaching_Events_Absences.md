@@ -159,7 +159,6 @@ With the link "Search by participants" you return to the person search. In the r
 
 **Further reading**<br>
 [Events and absences (course administration) >](../learningresources/Events_and_absences.md)<br>
-[Coaching - User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching - Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching - Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching - Assessment Orders >](../area_modules/Coaching_Assessment_Orders.md)<br>

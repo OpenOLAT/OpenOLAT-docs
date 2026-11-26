@@ -151,7 +151,6 @@ nav:
     - Library: "area_modules/Library.md"
     - Coaching:
       - "area_modules/Coaching/index.md"
-      - User search: "area_modules/Coaching_User_Search.md"
       - People: "area_modules/Coaching_People.md"
       - Courses: "area_modules/Coaching_Courses.md"
       - Educational products: "area_modules/Coaching_Educational_Products.md"

@@ -86,7 +86,6 @@ The "Export history" section contains the Excel files you have generated. Each f
 [Reports: Booking orders >](../Reports_BookingOrders.md)
 
 **Further reading**<br>
-[Coaching: User search >](../../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../../manual_user/area_modules/Coaching_Educational_Products.md)<br>

@@ -147,7 +147,6 @@ The management of all correctors and their assignments, on the other hand, is do
 [External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)
 
 **Further reading**<br>
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>

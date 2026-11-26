@@ -130,7 +130,6 @@ Where a part lands in the tab "In preparation" depends on what stands in the row
 [Info page >](../learningresources/Info_page.md)
 
 **Further reading**<br>
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>

@@ -40,7 +40,6 @@ Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum das Bewertu
 
 ## Weiterführende Informationen {: #further_information}
 
-[Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>

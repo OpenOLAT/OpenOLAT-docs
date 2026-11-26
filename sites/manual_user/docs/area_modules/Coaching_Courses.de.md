@@ -137,7 +137,6 @@ Im Fokus "Weitere Ressourcen" zeigt die Liste keine Teilnehmenden-, Fortschritts
 
 **Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](../learningresources/Assessment_tool_overview/index.de.md)<br>
-[Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>

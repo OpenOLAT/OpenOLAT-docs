@@ -28,7 +28,7 @@ A [bulk search](Search_General/index.md#bulk_search) is also available.
 
 ## Search for people in Coaching {: #coachingtool}
 
-[Coaching](../area_modules/Coaching/index.md) is designed to support participants across courses. When dealing with many courses and participants, a [user search](../area_modules/Coaching_User_Search.md) that searches only within the group of people you are responsible for is helpful.
+[Coaching](../area_modules/Coaching/index.md) is designed to support participants across courses. When dealing with many courses and participants, a [user search](../area_modules/Coaching_People.md#user_search) that searches only within the group of people you are responsible for is helpful.
 
 ![Search form with user attributes and the checkbox Only active, opened via the highlighted entry User search](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox" title="User search in Coaching" }
 
@@ -54,7 +54,7 @@ Course members who do not have access to the selected course element (because th
 
 [General information on the search >](Search_General/index.md)<br>
 [Coaching - Overview >](../area_modules/Coaching/index.md)<br>
-[Coaching - User search >](../area_modules/Coaching_User_Search.md)<br>
+[Coaching - People >](../area_modules/Coaching_People.md)<br>
 [Global search >](Search_Global.md)<br>
 [Local search >](Search_Local.md)<br>
 [Search in a course >](Search_in_Course.md)<br>

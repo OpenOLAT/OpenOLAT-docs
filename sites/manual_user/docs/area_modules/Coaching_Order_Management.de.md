@@ -86,7 +86,6 @@ Angezeigt werden die Kursbausteine "Aufgabe", bei denen die "Zuweisung Betreuend
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)
 
 **Weiterführend**<br>
-[Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>

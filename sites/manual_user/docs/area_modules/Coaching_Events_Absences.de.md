@@ -159,7 +159,6 @@ Mit dem Link "Suche nach Teilnehmer:innen" kehren Sie zur Personensuche zurück.
 
 **Weiterführend**<br>
 [Termine und Absenzen (Kurs-Administration) >](../learningresources/Events_and_absences.de.md)<br>
-[Coaching - Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching - Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching - Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching - Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>

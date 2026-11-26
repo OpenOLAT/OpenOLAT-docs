@@ -19,8 +19,9 @@ With the Coaching Tool, course owners, course coaches, group coaches, education 
 
 ## The tools [:octicons-tag-16:{ title="from Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
-You can find access to the data of the persons you coach and the tools under the buttons of the sections "Coaching", "Assignments" and "Administration":
+You can find access to the data of the persons you coach and the tools in the search field and under the buttons of the sections "Coaching", "Assignments" and "Administration":
 
+* [User search](../Coaching_People.md#user_search) (search field above the sections)
 * People
 * Courses
 * Educational products
@@ -94,12 +95,17 @@ You can select one of your roles using the scopes above the list. This will give
 
 ---
 
+## User search {: #user_search}
+
+If you are looking for a specific person you coach, enter their name in the search field above the sections of the entry page. OpenOlat opens the "People" list directly with the matches. Administrators, learning resource managers and principals can also search by username and further account details via the "Search form" link. The section [Search for people](../Coaching_People.md#user_search) describes how the search works.
+
+[To the top of the page ^](#coaching)
+
+---
+
 ## Widgets {: #widgets}
 
-
-### Overview [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
-
-Below the buttons, a separator area labelled "Overview" visually sets off the widgets described below.
+Below the buttons, a separator area labelled "Overview" visually sets off the widgets [:octicons-tag-16:{ title="from Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"}. The widgets show events and courses at a glance without you having to open a tool.
 
 ![Marked separator area Overview: it separates the buttons of the sections Coaching and Assignments from the widgets below](../assets/coaching_overview_v2_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.11.02" }
 
@@ -192,7 +198,6 @@ Below the widgets, the button **"Edit overview"** takes you to the edit mode. Us
 ## Further information {: #further_information}
 
 **Further reading**<br>
-[Coaching: User search >](../../area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../area_modules/Coaching_Educational_Products.md)<br>

@@ -19,8 +19,9 @@ Mit dem Coaching Tool haben Kursbesitzer:innen, Kursbetreuer:innen, Gruppenbetre
 
 ## Die Werkzeuge [:octicons-tag-16:{ title="ab Release 20.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374) {: #tools}
 
-Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie unter den Buttons der Bereiche "Coaching", "Aufgaben" und "Administration":
+Den Zugang zu den Daten der betreuten Personen und die Werkzeuge finden Sie im Suchfeld und unter den Buttons der Bereiche "Coaching", "Aufgaben" und "Administration":
 
+* [Personensuche](../Coaching_People.de.md#user_search) (Suchfeld über den Bereichen)
 * Personen
 * Kurse
 * Bildungsprodukte
@@ -94,12 +95,17 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ---
 
+## Personensuche {: #user_search}
+
+Suchen Sie eine bestimmte Person, die Sie betreuen, geben Sie ihren Namen im Suchfeld über den Bereichen der Einstiegsseite ein. OpenOlat öffnet die Liste "Personen" direkt mit den Treffern. Administrator:innen, Lernressourcenverwalter:innen und Principals suchen über den Link "Suchformular" zusätzlich nach dem Anmeldenamen und weiteren Kontoangaben. Wie die Suche funktioniert, beschreibt der Abschnitt [Personen suchen](../Coaching_People.de.md#user_search).
+
+[Zum Seitenanfang ^](#coaching)
+
+---
+
 ## Widgets {: #widgets}
 
-
-### Übersicht [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305) {: #widget_overview}
-
-Unter den Buttons grenzt ein Trennbereich mit der Bezeichnung "Übersicht" die nachfolgend beschriebenen Widgets optisch ab.
+Unter den Buttons grenzt ein Trennbereich mit der Bezeichnung "Übersicht" die Widgets optisch ab [:octicons-tag-16:{ title="ab Release 20.3 (OO-9305)" }](https://track.frentix.com/issue/OO-9305){:target="_blank"}. Die Widgets zeigen Termine und Kurse auf einen Blick, ohne dass Sie ein Werkzeug öffnen.
 
 ![Markierter Trennbereich Übersicht: er trennt die Buttons der Bereiche Coaching und Aufgaben von den Widgets darunter](../assets/coaching_overview_v2_de.png){ class="shadow lightbox" title="Einstiegsseite Coaching · 2026.11.02" }
 
@@ -192,7 +198,6 @@ Unterhalb der Widgets steht der Button **"Übersicht anpassen"**. Damit ordnen S
 ## Weiterführende Informationen {: #further_information}
 
 **Weiterführend**<br>
-[Coaching: Personensuche >](../../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../../area_modules/Coaching_Educational_Products.de.md)<br>

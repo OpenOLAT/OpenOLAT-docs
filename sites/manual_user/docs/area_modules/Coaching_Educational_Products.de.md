@@ -129,7 +129,6 @@ Wo ein Teil im Tab "In Vorbereitung" landet, hängt davon ab, was in der Zeile s
 [Toolbar: Infoseite >](../learningresources/Info_page.de.md)
 
 **Weiterführend**<br>
-[Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>

@@ -7,6 +7,30 @@
 ![Marked scope buttons As coach, As course owner and Line manager above the people list with courses, visits, progress and success status; which scope buttons appear depends on your roles](assets/coaching_people_who_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.26" }
 
 
+## Search for people {: #user_search}
+
+If you are looking for a specific person you coach, you do not have to browse the list. The search field on the entry page of Coaching takes you directly to them and to their courses.
+
+![Marked search field with the placeholder Who do you want to coach?, the Search button and the Search form link](assets/coaching_user_search1_v3_en.png){ class="shadow lightbox" title="Coaching entry page · 2026.10.22" }
+
+Enter a name or a part of it and click "Search". OpenOlat opens the "People" list with the matches. Separate several search terms with a space or a comma; a person appears when all terms apply to them. The asterisk `*` stands for any number of characters, for example `Mei*` for all names beginning with "Mei". The asterisk behaves in the same way as in the course search in Coaching [:octicons-tag-16:{ title="from Release 20.3.7 (OO-9630)" }](https://track.frentix.com/issue/OO-9630){:target="_blank"}.
+
+!!! tip "Tip"
+
+    If you click "Search" without entering a name, you get the list of all people you coach. Above the list, you narrow it down with the filters "Organisations", "Not visited", "Last visit" and "Success status"; you add the filter "Certificates" with "More...". The filter "Organisations" only exists when your instance uses organisations.
+
+![Complete list of the people you coach with the filters Organisations, Not visited, Last visit and Success status, after a search without input](assets/coaching_user_search2_v2_en.png){ class="shadow lightbox" title="People list in Coaching · 2026.10.22" }
+
+### Search form {: #search_form}
+
+Only administrators, learning resource managers and principals see the "Search form" link below the search field. It opens the user search, where you search by username and further account details. In these fields, too, the asterisk `*` stands for any number of characters.
+
+![Search form with fields from Username to Title, the checkbox Only active and the button Search](assets/coaching_user_search3_v2_en.png){ class="shadow lightbox" title="User search in Coaching · 2026.10.22" }
+
+[To the top of the page ^](#people)
+
+---
+
 ## WHOM does the list show? [:octicons-tag-16:{ title="from Release 20.0.0 (OO-8374)" }](https://track.frentix.com/issue/OO-8374){:target="_blank"} {: #people_who}
 
 The menu item "People" in the Coaching Tool shows the list of **all participants you coach**.
@@ -332,7 +356,6 @@ Open a person and switch to "Educational products". The list shows the implement
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)
 
 **Further reading**<br>
-[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports/index.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>

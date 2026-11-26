@@ -40,7 +40,6 @@ When you then click on a username, the assessment tool for that person opens and
 
 ## Further information {: #further_information}
 
-[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>

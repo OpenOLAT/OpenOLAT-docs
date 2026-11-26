@@ -86,7 +86,6 @@ The tab displays the course elements "Task" for which the "Assignment coaches/pa
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)
 
 **Further reading**<br>
-[Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../area_modules/Coaching_Educational_Products.md)<br>
