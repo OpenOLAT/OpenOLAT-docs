@@ -157,6 +157,6 @@ Ist der Schalter eingeschaltet, erscheinen dort zusätzlich die Felder "Skalieru
 
 **Weiterführend**<br>
 [Kursbaustein "Struktur" >](Course_Element_Structure.de.md)<br>
-[Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)
+[Bewertungswerkzeug: Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)
 
 [Zum Seitenanfang ^](#bewertung-von-kursbausteinen)

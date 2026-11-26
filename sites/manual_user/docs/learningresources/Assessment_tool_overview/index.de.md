@@ -34,7 +34,7 @@ Ist für den ganzen Kurs ein "Bestehen" konfiguriert, zeigt der Bereich, wie vie
 
 ### Prüfungsmodus (Übersicht)
 
-Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn Administrator:innen den Prüfungsmodus in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
+Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn Administrator:innen den Prüfungsmodus in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Prüfungsverwaltung > Segment "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
 
 ![Laufende Prüfung mit dem Button "Prüfung beenden" im Banner und im Bereich, darunter zwei geplante Prüfungen mit Beginn und Ende](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Bereich Prüfungsmodus" }
 
@@ -52,40 +52,46 @@ Hier abonnieren Betreuende mit dem Schalter "Abonnieren" Benachrichtigungen per 
 
 ## Aufträge {: #orders}
 
-Unter "Aufträge" sammelt das Bewertungswerkzeug alle Bewertungen, die im Kurs noch zu erledigen sind. So arbeiten Sie die anstehenden Bewertungen ab, ohne jeden Kursbaustein einzeln zu öffnen. Sie finden "Aufträge" im Menü links direkt unter "Übersicht". Drei Tabs teilen sie auf:
+Unter "Aufträge" sammelt das Bewertungswerkzeug alle Bewertungen, die im Kurs noch zu erledigen sind. So arbeiten Sie die anstehenden Bewertungen ab, ohne jeden Kursbaustein einzeln zu öffnen. Sie finden "Aufträge" im Menü links direkt unter "Übersicht". Drei Segmente teilen sie auf:
 
 * **Offene Bewertungen:** Bewertungen im Status "Korrigieren", zum Beispiel nach der Abgabe einer Aufgabe. Mit "Bewerten" öffnen Sie die Bewertung der Person.
 * **Offene Einstufungen/Noten:** Kursbausteine mit einer [Bewertungsskala](../Assessment_translate_points_in_grades.de.md), bei denen die Note von Hand zugewiesen wird und noch fehlt. Mit "Zuweisen" vergeben Sie die Note.
 * **Freizugebende Bewertungen:** abgeschlossene Bewertungen, die Teilnehmende noch nicht sehen. Mit "Freigeben" machen Sie ausgewählte Bewertungen für die Teilnehmenden sichtbar.
 
-In jedem Tab schreiben Sie den ausgewählten Personen mit "E-Mail". Dieselben Tabs zeigt das Coaching kursübergreifend unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md).
+In jedem Segment schreiben Sie den ausgewählten Personen mit "E-Mail". Dieselben Segmente zeigt das Coaching kursübergreifend unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md).
 
-![Menüeintrag Aufträge und die Tabs Offene Bewertungen, Offene Einstufungen/Noten und Freizugebende Bewertungen, geöffnet ist die Liste der offenen Bewertungen mit dem Link Bewerten](../assets/assessment_tool_overview_orders_v1_de.png){ class="shadow lightbox" title="Bereich Aufträge des Bewertungswerkzeugs · 2026.11.09" }
+![Menüeintrag Aufträge und die Segmente Offene Bewertungen, Offene Einstufungen/Noten und Freizugebende Bewertungen, geöffnet ist die Liste der offenen Bewertungen mit dem Link Bewerten](../assets/assessment_tool_overview_orders_v1_de.png){ class="shadow lightbox" title="Bereich Aufträge des Bewertungswerkzeugs · 2026.11.09" }
 
 ## Prüfungseinsicht [:octicons-tag-16:{ title="ab Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
-Diesen Eintrag im Menü links sehen Sie, wenn für den Kurs eine Prüfungseinsicht konfiguriert ist, unter `Kurs > Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungseinsicht"`. Voraussetzung ist, dass die Prüfungseinsicht in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung` eingeschaltet ist.
+Diesen Eintrag im Menü links sehen Sie, wenn für den Kurs eine Prüfungseinsicht konfiguriert ist, unter `Kurs > Administration > Prüfungsverwaltung > Segment "Konfiguration Prüfungseinsicht"`. Voraussetzung ist, dass die Prüfungseinsicht in der System-Administration unter `Administration > e-Assessment > Prüfungsverwaltung` eingeschaltet ist.
 
 Betreuende fügen hier Teilnehmende hinzu und legen fest, auf welche Prüfung sich die Einsicht bezieht und wann die Einsicht möglich ist. Bei Bedarf vergeben sie einen Zugangscode und verschicken eine Infomail.
 
-![Teilnehmende mit Test-Status, Einsichtszeitraum, Einsichtsdauer und Status Geplant, dazu der Button "Teilnehmer:in hinzufügen"](../assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" title="Tab Prüfungseinsicht eines Tests" }
+![Teilnehmende mit Test-Status, Einsichtszeitraum, Einsichtsdauer und Status Geplant, dazu der Button "Teilnehmer:in hinzufügen"](../assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" title="Segment Prüfungseinsicht eines Tests" }
 
 Nähere Informationen finden Sie auf der Seite [Prüfungsverwaltung: Prüfungseinsicht](../Assessment_inspection.de.md).
 
 
 ## Übersicht der Bewertungsbausteine des Kurses
 
-Im Menü links des Bewertungswerkzeugs stehen alle bewertbaren Kursbausteine. Jeder Kursbaustein hat die Tabs "Übersicht" und "Teilnehmer:innen".
+Im Menü links des Bewertungswerkzeugs stehen alle bewertbaren Kursbausteine. Wählen Sie dort einen Kursbaustein, stehen über seiner Ansicht zwei Schaltflächen nebeneinander, die Segmente "Übersicht" und "Teilnehmer:innen". Das aktive Segment ist hervorgehoben, ein Klick auf das andere wechselt die Ansicht darunter.
 
-Der Tab "Übersicht" zeigt ähnliche Angaben wie die Übersicht des Bewertungswerkzeugs, aber für den einzelnen Kursbaustein, zum Beispiel die Punkteverteilung, die Anzahl der Bewertungen und das Bestehen.
+![Links das Menü mit Übersicht, Aufträge und den Kursbausteinen, rechts beim gewählten Test das aktive Segment Teilnehmer:innen mit der Liste der Teilnehmenden](../assets/assessing_tests_participants_buttons_v1_de.png){ class="shadow lightbox" title="Segment Teilnehmer:innen eines Tests im Bewertungswerkzeug" }
 
-### Tab Teilnehmer:innen
+Das Segment "Übersicht" zeigt ähnliche Angaben wie die Übersicht des Bewertungswerkzeugs, aber für den einzelnen Kursbaustein, zum Beispiel die Punkteverteilung, die Anzahl der Bewertungen und das Bestehen.
 
-Im Tab "Teilnehmer:innen" bewerten Sie: Sie wählen eine Person, erfassen Punkte und Feedback und geben die Bewertung frei. Die Tabelle zeigt den Bearbeitungsstand aller Teilnehmenden des Kursbausteins.<br>
-Bei Aufgaben laden Sie im Tab "Teilnehmer:innen" auch alle abgegebenen Dokumente herunter.
+### Segment Teilnehmer:innen {: #segment_participants}
+
+Im Segment "Teilnehmer:innen" bewerten Sie: Sie wählen eine Person, erfassen Punkte und Feedback und geben die Bewertung frei. Die Tabelle zeigt den Bearbeitungsstand aller Teilnehmenden des Kursbausteins.<br>
+Bei Aufgaben laden Sie im Segment "Teilnehmer:innen" auch alle abgegebenen Dokumente herunter.
 
 Der oberste Kursbaustein zählt ebenfalls als bewertbarer Kursbaustein. Er entspricht einem Kursbaustein ["Struktur"](../Course_Element_Structure.de.md).<br>
 Ein Klick auf eine Person beim obersten Kursbaustein zeigt den Bearbeitungsstand aller bewertbaren Kursbausteine dieser Person. Von dort öffnen Sie auch ihren Leistungsnachweis.
+
+In dieser Ansicht laden Sie den Bearbeitungsstand der Person als PDF-Datei herunter: Der Button "PDF exportieren" oben rechts erzeugt die Datei jedes Mal neu, ihr Name beginnt mit "Leistungsnachweis". Den Button zeigt OpenOlat nur, wenn Administrator:innen in der System-Administration den [PDF-Dienst](../../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingerichtet haben: `Administration > Externe Werkzeuge > PDF Generator`.
+
+Ist im Kurs ein [Zertifikat](../Course_Settings_Assessment_Certificate.de.md#certificate_issuer) eingeschaltet, zeigt dieselbe Ansicht den Abschnitt "Zertifikate" mit den Zertifikaten der Person. Dort stellen Sie mit dem Button "Zertifikat erzeugen" ein neues Zertifikat aus. Den Button gibt es, wenn beim Feld "PDF Zertifikat erzeugen" die Option "Manuell durch Betreuer:in" gewählt ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Zertifikat". Fehlt bei einem ausgestellten Zertifikat die PDF-Datei, erzeugen nur Administrator:innen sie neu, in der System-Administration unter `Administration > e-Assessment > Zertifikate > Segment "Wartung"`. Wie das geht, steht im [Administrationshandbuch](../../../manual_admin/administration/e-Assessment_Certificates.de.md#tab_maintenance).
 
 Ist auf dem obersten Kursbaustein eine Punkteberechnung eingerichtet, zeigt die oberste Ebene die Gesamtpunkte des Kurses. Dort laden Sie auch die Gesamtergebnisse der Teilnehmenden herunter.
 
@@ -97,9 +103,9 @@ Wie Sie bewerten, beschreiben die Seiten ["Bewertung von Kursbausteinen"](../Ass
 
 !!! info "Wichtig"
 
-    Ist für Teilnehmende eine Prüfungseinsicht aktiviert, hat der betreffende Kursbaustein zusätzlich den Tab "Prüfungseinsicht".
+    Ist für Teilnehmende eine Prüfungseinsicht aktiviert, hat der betreffende Kursbaustein zusätzlich das Segment "Prüfungseinsicht".
 
-Den Tab "Teilnehmer:innen" beschreibt die Seite ["Bewertungswerkzeug: Tab Teilnehmer:innen"](../Assessment_tool_tab_Users.de.md) im Detail.
+Das Segment "Teilnehmer:innen" beschreibt die Seite ["Bewertungswerkzeug: Teilnehmer:innen"](../Assessment_tool_tab_Users.de.md) im Detail.
 
 ## Daten zurücksetzen [:octicons-tag-16:{ title="ab Release 17.2.4 (OO-6792)" }](https://track.frentix.com/issue/OO-6792) {: #course_reset}
 

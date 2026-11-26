@@ -64,7 +64,7 @@ Mit Filtern grenzen Sie die Liste der Teilnehmenden auf die Personen ein, die Si
 
 **Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
-[Bewertungswerkzeug: Tab Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)<br>
+[Bewertungswerkzeug: Teilnehmer:innen >](Assessment_tool_tab_Users.de.md)<br>
 [Tests bewerten >](Assessing_tests.de.md)
 
 [Zum Seitenanfang ^](#assessment_of_learners)

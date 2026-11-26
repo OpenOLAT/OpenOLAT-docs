@@ -155,6 +155,6 @@ When the switch is on, the fields "Scaling factor" and "Score needed to pass" al
 
 **Further**<br>
 [Course Element "Structure" >](Course_Element_Structure.md)<br>
-[Assessment tool: Tab Participants >](Assessment_tool_tab_Users.md)
+[Assessment tool: Participants >](Assessment_tool_tab_Users.md)
 
 [To the top of the page ^](#assessment-of-course-modules)

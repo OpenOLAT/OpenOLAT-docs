@@ -150,7 +150,7 @@ If not the whole group has passed or not all should receive the same score, "For
 
 **Further**<br>
 [Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
-[Assessment tool - Tab Users >](Assessment_tool_tab_Users.md)<br>
+[Assessment tool: Participants >](Assessment_tool_tab_Users.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)
 
 [To the top of the page ^](#assessing-tasks-and-group-tasks)

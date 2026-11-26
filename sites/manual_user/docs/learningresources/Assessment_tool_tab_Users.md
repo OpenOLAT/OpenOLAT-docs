@@ -1,10 +1,10 @@
-# Assessment tool: Tab Participants {: #assessment_tool_users}
+# Assessment tool: Participants {: #assessment_tool_users}
 
 You have two general options for carrying out an assessment in the assessment tool. Either you start from one person and assess the work done by this person, or you start from the course structure and a specific assessment element and assess all persons for this task, this test, or other assessment course element.
 
-In the left column of the assessment tool you see the course structure with all assessable course elements. Here you can navigate directly to one of the course elements to make your assessment. For each course element, a tab with "Overview" and a tab with "Participants" is displayed.
+In the left column of the assessment tool you see the course structure with all assessable course elements. If you select a course element, two buttons appear side by side above its view: the segments "Overview" and "Participants". The active segment is highlighted, and a click on the other one switches the view below.
 
-![On the left the course structure, on the right the tabs Overview and Participants of a test, below them buttons, filters and the list of participants with attempts, score, passed and status](assets/assessing_tests_participants_buttons_v1_en.png){ class="shadow lightbox" title="Tab Participants of the Test course element in the assessment tool · 2026.10.07" }
+![On the left the course structure, on the right the segments Overview and Participants of a test, below them buttons, filters and the list of participants with attempts, score, passed and status](assets/assessing_tests_participants_buttons_v1_en.png){ class="shadow lightbox" title="Segment Participants of the Test course element in the assessment tool · 2026.10.07" }
 
 The exact procedure is described in the chapters [Assessing learners](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 
@@ -12,11 +12,11 @@ The exact procedure is described in the chapters [Assessing learners](../learnin
 
 ## Search for participants {: #assessment_tool_participants}
 
-In the "Participants" tab, all participants who can be assessed are listed. They can be filtered by various criteria, e.g. all participants who have "not yet passed" this course element, or all participants of a specific group. Individual persons can also be searched for.
+In the segment "Participants", all participants who can be assessed are listed. They can be filtered by various criteria, e.g. all participants who have "not yet passed" this course element, or all participants of a specific group. Individual persons can also be searched for.
 
 ### Display and column selection {: #display_column}
 
-The information displayed in the "Participants" tab can be further customized by selecting the desired columns. To do this, click on the gear icon.
+The information displayed in the segment "Participants" can be further customized by selecting the desired columns. To do this, click on the gear icon.
 
 The specific display options vary depending on the assessment element. In addition to basic information such as name or matriculation number, information on status or the last update can also be displayed here. Customizing the columns is therefore helpful to get a quick overview. The information on points, attempts, status, and the last update in particular is often needed.
 
@@ -48,9 +48,9 @@ To check as a coach how many points specific participants have earned, open the 
 
 #### Points for the entire course
 
-To view the points for the entire course, select the course name on the left and then the "Participants" tab.
+To view the points for the entire course, select the course name on the left and then the segment "Participants".
 
-![Course name selected on the left, the Participants tab and the Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_en.png){ class="shadow lightbox" title="Tab Participants of the course in the assessment tool · 2026.10.22" }
+![Course name selected on the left, the segment Participants and the Score column with the points of the entire course per person highlighted](assets/assessment_tool_tab_users_points2_v1_en.png){ class="shadow lightbox" title="Segment Participants of the course in the assessment tool · 2026.10.22" }
 
 Awarded points only count towards the total score of the course once the assessment is released. In a learning path course, the course settings define whether coaches may release an assessment themselves: `Course > Administration > Settings > Tab "Assessment"`, section "User rights", option "release assessment" under "Coaches can". More on this in the [section User rights](Course_Settings_Assessment/index.md#section_assessment_rights).
 
@@ -72,7 +72,7 @@ Whether an assessment is released is shown in the "Release assessment" column: i
 
 #### Points for a specific course element
 
-To view the points for a specific course element only, select the course element on the left and then the desired person in the "Participants" tab.
+To view the points for a specific course element only, select the course element on the left and then the desired person in the segment "Participants".
 
 For a test, this opens the list of test runs of this person. There the column "Score" shows the result, "Score (auto)" the automatically calculated share including any adjustments, and "Score (manual)" the share awarded by hand. How the list is structured and how you correct from there is described on the page [Assessing tests](Assessing_tests.md#test_runs). [:octicons-tag-16:{ title="from Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599)
 

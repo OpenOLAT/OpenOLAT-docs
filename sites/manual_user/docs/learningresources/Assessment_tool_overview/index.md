@@ -34,7 +34,7 @@ If "passed" is configured for the entire course, the area shows how many course 
 
 ### Assessment mode (Overview)
 
-If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if administrators have enabled the assessment mode in the system administration: `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`, switch "Enable assessment mode".
+If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if administrators have enabled the assessment mode in the system administration: `Administration > e-Assessment > Assessment management > Segment "Assessment management configuration"`, switch "Enable assessment mode".
 
 ![Running exam with the button "Prüfung beenden" in the banner and in the area, below two scheduled exams with start and end](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Area Assessment mode" }
 
@@ -52,39 +52,45 @@ Here coaches subscribe to e-mail notifications with the "Subscribe" switch: "New
 
 ## Orders {: #orders}
 
-Under "Orders" the assessment tool collects all assessments that still need to be done in the course. This way you work through the pending assessments without opening each course element individually. You find "Orders" in the menu on the left directly below "Overview". Three tabs divide them:
+Under "Orders" the assessment tool collects all assessments that still need to be done in the course. This way you work through the pending assessments without opening each course element individually. You find "Orders" in the menu on the left directly below "Overview". Three segments divide them:
 
 * **Open reviews:** assessments in the status "To review", for example after a task has been submitted. With "Assess" you open the assessment of the person.
 * **Open levels/gradings:** course elements with a [rating scale](../Assessment_translate_points_in_grades.md) where the grade is applied by hand and is still missing. With "Apply" you award the grade.
 * **Reviews to release:** completed assessments that participants do not see yet. With "Release" you make selected assessments visible to the participants.
 
-In every tab you write to the selected persons with "E-Mail". Coaching shows the same tabs across courses under [Assessment orders](../../area_modules/Coaching_Assessment_Orders.md).
+In every segment you write to the selected persons with "E-Mail". Coaching shows the same segments across courses under [Assessment orders](../../area_modules/Coaching_Assessment_Orders.md).
 
-![Menu entry Orders and the tabs Open reviews, Open levels/gradings and Reviews to release, with the list of open reviews and the link Assess open](../assets/assessment_tool_overview_orders_v1_en.png){ class="shadow lightbox" title="Area Orders of the assessment tool · 2026.11.09" }
+![Menu entry Orders and the segments Open reviews, Open levels/gradings and Reviews to release, with the list of open reviews and the link Assess open](../assets/assessment_tool_overview_orders_v1_en.png){ class="shadow lightbox" title="Area Orders of the assessment tool · 2026.11.09" }
 
 ## Assessment inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
-You see this entry in the menu on the left if an assessment inspection is configured for the course, under `Course > Administration > Assessment management > Tab "Configuration assessment inspection"`. It requires that the assessment inspection is switched on in the system administration under `Administration > e-Assessment > Assessment management`.
+You see this entry in the menu on the left if an assessment inspection is configured for the course, under `Course > Administration > Assessment management > Segment "Configuration assessment inspection"`. It requires that the assessment inspection is switched on in the system administration under `Administration > e-Assessment > Assessment management`.
 
 Coaches add participants here and define which exam the inspection applies to and when the inspection is possible. If required, they assign an access code and send an info e-mail.
 
-![Participants with test status, inspection period, inspection duration and status Scheduled, plus the button to add a participant](../assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" title="Tab Assessment inspection of a test" }
+![Participants with test status, inspection period, inspection duration and status Scheduled, plus the button to add a participant](../assets/Pruefungseinsicht_Baustein1.jpg){ class="shadow lightbox" title="Segment Assessment inspection of a test" }
 
 You can find more information on the page [Assessment management: assessment inspection](../Assessment_inspection.md).
 
 ## Overview of the assessment elements of the course
 
-The menu on the left of the assessment tool lists all assessable course elements. Each course element has the tabs "Overview" and "Participants".
+The menu on the left of the assessment tool lists all assessable course elements. If you select a course element there, two buttons appear side by side above its view: the segments "Overview" and "Participants". The active segment is highlighted, and a click on the other one switches the view below.
 
-The "Overview" tab shows information similar to the overview of the assessment tool, but for the single course element, for example the distribution of points, the number of assessments and passing.
+![On the left the menu with Overview, Orders and the course elements, on the right the active segment Participants of the selected test with the list of participants](../assets/assessing_tests_participants_buttons_v1_en.png){ class="shadow lightbox" title="Segment Participants of a test in the assessment tool" }
 
-### Tab Participants
+The segment "Overview" shows information similar to the overview of the assessment tool, but for the single course element, for example the distribution of points, the number of assessments and passing.
 
-In the "Participants" tab you assess: you select a person, enter points and feedback and release the assessment. The table shows the processing status of all participants of the course element.<br>
-For tasks, you also download all submitted documents in the "Participants" tab.
+### Segment Participants {: #segment_participants}
+
+In the segment "Participants" you assess: you select a person, enter points and feedback and release the assessment. The table shows the processing status of all participants of the course element.<br>
+For tasks, you also download all submitted documents in the segment "Participants".
 
 The top course element also counts as an assessable course element. It corresponds to a ["Structure"](../Course_Element_Structure.md) course element.<br>
 A click on a person at the top course element shows the processing status of all assessable course elements of this person. From there you also open their evidence of achievement.
+
+In this view you download the person's processing status as a PDF file: the button "Export PDF" at the top right creates the file anew each time, and its name starts with "Efficiency_statement". OpenOlat shows the button only if administrators have set up the [PDF service](../../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) in the system administration: `Administration > External tools > PDF generator`.
+
+If a [certificate](../Course_Settings_Assessment_Certificate.md#certificate_issuer) is switched on in the course, the same view shows the section "Certificates" with the certificates of the person. There you issue a new certificate with the button "Create certificate". The button is available if the option "Manually by coach" is selected in the field "Generate PDF certificate": `Course > Administration > Settings > Tab "Assessment"`, section "Certificate". If the PDF file of an issued certificate is missing, only administrators regenerate it, in the system administration under `Administration > e-Assessment > Certificates > Segment "Maintenance"`. The [administration manual](../../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance) describes how.
 
 If a point calculation is set up on the top course element, the top level shows the total points of the course. There you also download the overall results of the participants.
 
@@ -96,9 +102,9 @@ How you assess is described on the pages ["Assessment of course elements"](../As
 
 !!! info "Important"
 
-    If an assessment inspection is activated for participants, the course element concerned also has the tab "Assessment inspection".
+    If an assessment inspection is activated for participants, the course element concerned also has the segment "Assessment inspection".
 
-The "Participants" tab is described in detail on the page ["Assessment tool: Tab Participants"](../Assessment_tool_tab_Users.md).
+The segment "Participants" is described in detail on the page ["Assessment tool: Participants"](../Assessment_tool_tab_Users.md).
 
 ## Reset data [:octicons-tag-16:{ title="from Release 17.2.4 (OO-6792)" }](https://track.frentix.com/issue/OO-6792) {: #course_reset}
 

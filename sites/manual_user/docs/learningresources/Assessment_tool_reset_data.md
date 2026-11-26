@@ -15,17 +15,17 @@ Before the data is permanently reset, the old results can be downloaded and save
 
 Under `Course > Administration > Archiving & Reporting` you can generate reports of the course results. 
 
-![Course archiving with the options "All archives", "Complete archives" and "Partial archives", in the archiving area of the course administration](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" }
+![Course archiving with the options "All archives", "Complete archives" and "Partial archives"](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" title="Archiving in the course administration" }
 
 ### Saving a course element "Test" {: #backup_test}
 
 The data for a course element "Test" can be downloaded and saved as a zip file in the assessment tool.
 
-![Button "Export results" in the toolbar, in the "Participants" tab of the assessment tool for the course element "Test"](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
+![Button "Export results" in the toolbar above the list of participants](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" title="Course element Test in the assessment tool" }
 
 The generated zip files are then listed at the bottom of the screen and can be downloaded.
 
-![Export options "Standard" and "Advanced - with PDF" plus a list of already generated export files for download, in the "Export results" dialog](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
+![Export options "Standard" and "Advanced - with PDF" plus a list of already generated export files for download](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" title="Dialog Export results" }
 
 [To the top of the page ^](#reset_data)
 
@@ -49,13 +49,13 @@ The generated zip files are then listed at the bottom of the screen and can be d
 
 ## Reset data with Wizard {: #wizard}
 
-![Button "Reset data" at the top right, in the "Overview" tab of the assessment tool](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
+![Button "Reset data" at the top right](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" title="Overview of the assessment tool" }
 
-![First wizard step "General selection" with the choice between "Entire course"/"Selected course elements" and "All participants"/"Selected participants"](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
+![Choice between "Entire course"/"Selected course elements" and "All participants"/"Selected participants"](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" title="Wizard step General selection" }
 
 If you select the options "Selected participants" and "Selected course elements" in the wizard, you will be guided through the sub-steps in the wizard and asked again at the end whether you want to proceed with the reset.
 
-![List of course elements to check, in the wizard step "Select course elements"](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
+![List of course elements to check](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" title="Wizard step Select course elements" }
 
 [To the top of the page  ^](#reset_data)
 
@@ -66,7 +66,7 @@ If you select the options "Selected participants" and "Selected course elements"
 
 ### Reset in the assessment tool {: #members_assessment_tool}
 
-![Steps 1 to 4 marked: select course element, "Participants" tab, checkbox selection and "Reset data" button, in the assessment tool](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
+![Steps 1 to 4 marked: select course element, "Participants" tab, checkbox selection and "Reset data" button](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" title="Course element in the assessment tool" }
 
 1. Open course → Administration → Assessment tool → Select course element<br>
 (When you click on the root element of the course (top level), the following steps apply to all course elements.)
@@ -81,15 +81,15 @@ After clicking on the "Reset data" button, the data of the selected persons will
 
 1. Open course → Administration → Select Learning Path Tool
 
-![Menu item "Learning path" highlighted in the course toolbar](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
+![Menu item "Learning path" highlighted](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" title="Toolbar of the course" }
 
 2. A list of participants will open. Select a participant from the table.
 
-![List of participants with progress and pass status, in the course's learning path tool](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
+![List of participants with progress and pass status](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" title="Learning path tool of the course" }
 
 3. Click on the three-dot icon at the end of a line. There you will find the option "Reset data". You can reset data for individual course elements or for the course as a whole by selecting the top icon for the entire course.
 
-![Context menu of a participant with the "Reset data" option, in the learning path detail view](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
+![Context menu of a participant with the "Reset data" option](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" title="Learning path detail view" }
 
 [To the top of the page  ^](#reset_data)
 
@@ -235,7 +235,7 @@ The following items will not be deleted during the reset process:
 
 If you have selected a test course module in the assessment tool, you have the option to either reset or delete the data. What are the differences?
 
-![Three controls marked: "Reset data" with wizard, "Reset data" without wizard and "Delete all data", in the assessment tool of a course element "Test"](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
+![Three controls marked: "Reset data" with wizard, "Reset data" without wizard and "Delete all data"](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" title="Course element Test in the assessment tool" }
 
 
 | ![1](assets/1_green_24.png)<br>Reset data<br>with wizard| ![2](assets/2_green_24.png)<br>Reset data of selected participants without wizard | ![3](assets/3_green_24.png)<br>Delete all data<br>&nbsp; |
@@ -252,7 +252,7 @@ If you have selected a test course module in the assessment tool, you have the o
 
 ## Further information {: #further_information}
 
-[Assessment tool - Tab Participants >](Assessment_tool_tab_Users.md)<br>
+[Assessment tool: Participants >](Assessment_tool_tab_Users.md)<br>
 [Delete course >](Course_Delete.md)<br>
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
 

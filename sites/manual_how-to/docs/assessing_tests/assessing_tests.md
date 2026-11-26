@@ -293,7 +293,7 @@ Which bulk actions appear depends on the configuration of the course element and
 [Levels/Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)
 
 **Further reading**<br>
-[Assessment tool: Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
+[Assessment tool: Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
 [Assessment of learners >](../../manual_user/learningresources/Assessment_of_learners.md)<br>
 [Assessment of course modules >](../../manual_user/learningresources/Assessment_of_course_modules.md)<br>
 [Creating Tests >](../../manual_user/learningresources/Test/index.md)<br>

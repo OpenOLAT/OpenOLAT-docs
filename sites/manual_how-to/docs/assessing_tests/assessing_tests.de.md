@@ -294,7 +294,7 @@ Welche Sammelaktionen erscheinen, hängt von der Konfiguration des Kursbausteins
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
 **Weiterführend**<br>
-[Bewertungswerkzeug: Tab Teilnehmer:innen >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
+[Bewertungswerkzeug: Teilnehmer:innen >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>
 [Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
 [Tests erstellen >](../../manual_user/learningresources/Test/index.de.md)<br>

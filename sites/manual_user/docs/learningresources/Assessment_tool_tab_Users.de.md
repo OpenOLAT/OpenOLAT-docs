@@ -1,10 +1,10 @@
-# Bewertungswerkzeug: Tab Teilnehmer:innen {: #assessment_tool_users}
+# Bewertungswerkzeug: Teilnehmer:innen {: #assessment_tool_users}
 
 Sie haben zwei generelle Möglichkeiten die Bewertung im Bewertungswerkzeug vorzunehmen. Entweder Sie gehen von einer Person aus und bewerten die von dieser Person vorgenommenen Bearbeitungen. Oder Sie gehen von der Kursstruktur und einem konkreten Assessment Baustein aus und bewerten alle Personen für diese Aufgabe, diesen Test bzw. sonstigen Assessment Kursbaustein. 
 
-In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Hier können Sie direkt zu einem der Kursbausteine navigieren um Ihre Bewertung vorzunehmen. Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmer:innen" angezeigt. 
+In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Wählen Sie einen Kursbaustein, stehen über seiner Ansicht zwei Schaltflächen nebeneinander, die Segmente "Übersicht" und "Teilnehmer:innen". Das aktive Segment ist hervorgehoben, ein Klick auf das andere wechselt die Ansicht darunter.
 
-![Links die Kursstruktur, rechts die Tabs Übersicht und Teilnehmer:innen eines Tests, darunter Buttons, Filter und die Liste der Teilnehmenden mit Versuchen, Punkten, Bestanden und Status](assets/assessing_tests_participants_buttons_v1_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kursbausteins Test im Bewertungswerkzeug · 2026.10.07" }
+![Links die Kursstruktur, rechts die Segmente Übersicht und Teilnehmer:innen eines Tests, darunter Buttons, Filter und die Liste der Teilnehmenden mit Versuchen, Punkten, Bestanden und Status](assets/assessing_tests_participants_buttons_v1_de.png){ class="shadow lightbox" title="Segment Teilnehmer:innen des Kursbausteins Test im Bewertungswerkzeug · 2026.10.07" }
 
 Die genaue Vorgehensweise wird in den Kapiteln [Lernende bewerten](../learningresources/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../learningresources/Assessment_of_course_modules.de.md) beschrieben.
 
@@ -13,12 +13,12 @@ Die genaue Vorgehensweise wird in den Kapiteln [Lernende bewerten](../learningre
 
 ## Teilnehmer:innen suchen {: #assessment_tool_participants}
 
-Im Tab "Teilnehmer:innen" werden alle Teilnehmenden aufgelistet, die bewertet werden können. Sie können nach diversen Kriterien gefiltert werden. Z.B. alle Teilnehmenden, die diesen Kursbaustein noch "nicht bestanden" haben oder alle Teilnehmende einer bestimmten Gruppe. Ferner kann nach einzelnen Personen gesucht werden.
+Im Segment "Teilnehmer:innen" werden alle Teilnehmenden aufgelistet, die bewertet werden können. Sie können nach diversen Kriterien gefiltert werden. Z.B. alle Teilnehmenden, die diesen Kursbaustein noch "nicht bestanden" haben oder alle Teilnehmende einer bestimmten Gruppe. Ferner kann nach einzelnen Personen gesucht werden.
 
 
 ### Anzeige und Spaltenauswahl {: #display_column}
 
-Die Informationen, die im Tab "Teilnehmer:innen" angezeigt werden, können über die Auswahl der gewünschten Spalten weiter angepasst werden. Klicken Sie hierfür auf das Zahnrad.
+Die Informationen, die im Segment "Teilnehmer:innen" angezeigt werden, können über die Auswahl der gewünschten Spalten weiter angepasst werden. Klicken Sie hierfür auf das Zahnrad.
 
 Die konkreten Anzeige-Optionen variieren je nach Assessment-Baustein. Neben Basisinformationen wie Name oder Matrikelnummer, können hier auch Informationen zum Status oder der letzten Aktualisierung eingeblendet werden. Eine Spaltenanpassung ist also hilfreich um einen schnellen Überblick zu erhalten. Besonders die Informationen zu den Punkten, den Versuchen, dem Status, und der letzten Aktualisierung werden häufig benötigt. 
 
@@ -51,9 +51,9 @@ Um als Betreuer:in nachzuschauen, wie viele Punkte bestimmte Teilnehmer:innen er
 
 #### Punkte des gesamten Kurses
 
-Um die Punkte für den Gesamtkurs zu sehen, wählen Sie links den Namen des Kurses und dann den Tab "Teilnehmer:innen".
+Um die Punkte für den Gesamtkurs zu sehen, wählen Sie links den Namen des Kurses und dann das Segment "Teilnehmer:innen".
 
-![Kursname links ausgewählt, Tab Teilnehmer:innen und Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v2_de.png){ class="shadow lightbox" title="Tab Teilnehmer:innen des Kurses im Bewertungswerkzeug · 2026.10.22" }
+![Kursname links ausgewählt, Segment Teilnehmer:innen und Spalte Punkte mit den Punkten des Gesamtkurses je Person hervorgehoben](assets/assessment_tool_tab_users_points2_v2_de.png){ class="shadow lightbox" title="Segment Teilnehmer:innen des Kurses im Bewertungswerkzeug · 2026.10.22" }
 
 Vergebene Punkte zählen erst zur Gesamtpunktzahl des Kurses, wenn die Bewertung freigegeben ist. In einem Lernpfadkurs legen die Kurseinstellungen fest, ob Betreuer:innen eine Bewertung selbst freigeben dürfen: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Berechtigungen", Option "Bewertung freigeben" unter "Betreuende können". Mehr dazu im [Abschnitt Berechtigungen](Course_Settings_Assessment/index.de.md#section_assessment_rights).
 
@@ -75,7 +75,7 @@ Ob eine Bewertung freigegeben ist, zeigt die Spalte "Freigabe Bewertung": im Bei
 
 #### Punkte eines bestimmten Kursbausteins
 
-Um die Punkte nur für einen bestimmten Kursbaustein zu sehen, wählen Sie links den Kursbaustein und dann im Tab "Teilnehmer:innen" die gewünschte Person.
+Um die Punkte nur für einen bestimmten Kursbaustein zu sehen, wählen Sie links den Kursbaustein und dann im Segment "Teilnehmer:innen" die gewünschte Person.
 
 Bei einem Test öffnet sich damit die Liste der Testversuche dieser Person. Dort zeigt die Spalte "Punkte" das Ergebnis, "Punkte (Auto)" den automatisch errechneten Anteil samt allfälliger Anpassungen und "Punkte (Manuell)" den von Hand vergebenen Anteil. Wie die Liste aufgebaut ist und wie Sie von dort aus korrigieren, steht auf der Seite [Tests bewerten](Assessing_tests.de.md#test_runs). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9599)" }](https://track.frentix.com/issue/OO-9599)
 

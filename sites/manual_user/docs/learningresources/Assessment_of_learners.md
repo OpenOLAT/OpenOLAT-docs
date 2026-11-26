@@ -64,7 +64,7 @@ With filters, you narrow down the list of participants to the persons you want t
 
 **Further**<br>
 [Assessment tool - overview >](Assessment_tool_overview/index.md)<br>
-[Assessment tool: Tab Participants >](Assessment_tool_tab_Users.md)<br>
+[Assessment tool: Participants >](Assessment_tool_tab_Users.md)<br>
 [Assessing tests >](Assessing_tests.md)
 
 [To the top of the page ^](#assessment_of_learners)
