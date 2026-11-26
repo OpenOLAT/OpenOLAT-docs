@@ -105,7 +105,7 @@ Wann ein Angebot verfügbar ist, legen Sie im Angebot unter "Verfügbar wenn" fe
 
 ![Verfügbar wenn mit Benutzerdefinierte Bedingung markiert: Status ist Veröffentlicht, Ab und Bis je mit einem absoluten Datum](assets/catalog20_zeitbeschraenkt_v2_de.png){ class="shadow lightbox" title="Dialog Zugangscode · 2026.10.20" }
 
-Unter "Veröffentlicht in" wählen Sie "Interner Katalog", damit das Angebot im OpenOlat-Katalog erscheint. Ist der externe Katalog eingeschaltet, steht zusätzlich "Externer Katalog" zur Wahl. Den Fachbereich wählen Sie nicht im Angebot, sondern im Tab "Metadaten" des Kurses. Die Übersicht unter der oberen Überschrift "Angebot" im Tab "Freigabe" zeigt ihn unter "Angebot in Fachbereiche", der Link "Metadaten öffnen" führt dorthin. Ist kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
+Unter "Veröffentlicht in" wählen Sie "Interner Katalog", damit das Angebot im OpenOlat-Katalog erscheint. Ist der externe Katalog eingeschaltet, steht zusätzlich "Externer Katalog" zur Wahl. Den Fachbereich wählen Sie nicht im Angebot, sondern im Tab "Metadaten" des Kurses. Die Übersicht unter der oberen Überschrift "Angebot" im Tab "Freigabe" zeigt ihn unter "Angebot in Fachbereichen", der Link "Metadaten öffnen" führt dorthin. Ist kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden.
 
 Je nach Angebotsart legen Sie weitere Angaben fest, bei "Zugangscode" zum Beispiel den Code selbst.
 
@@ -182,7 +182,7 @@ Mit dem Fachbereich entscheiden Sie, in welchem Taxonomie-Launcher des Katalogs 
 
 ![Tab Metadaten mit dem Feld Fachbereiche / Katalog, darin der Fachbereich Erste Schritte und rechts die Schaltfläche Durchsuchen: hier legen Sie fest, in welchem Taxonomie-Launcher der Kurs erscheint](assets/catalog20_fachbereich_v2_de.png){ class="shadow lightbox" title="Tab Metadaten der Kurseinstellungen · 2026.10.20" }
 
-Ein Angebot übernimmt den Fachbereich, den Sie im Tab "Metadaten" angeben. Im Angebot selbst wählen Sie keinen Fachbereich, der Tab "Freigabe" zeigt ihn nur unter "Angebot in Fachbereiche" an. Im Katalog dienen die Fachbereiche auch als Schlagworte. Sie können mehrere Fachbereiche angeben.
+Ein Angebot übernimmt den Fachbereich, den Sie im Tab "Metadaten" angeben. Im Angebot selbst wählen Sie keinen Fachbereich, der Tab "Freigabe" zeigt ihn nur unter "Angebot in Fachbereichen" an. Im Katalog dienen die Fachbereiche auch als Schlagworte. Sie können mehrere Fachbereiche angeben.
 
 Wenn Sie in das Feld "Fachbereiche / Katalog" klicken, erscheint ein Popup mit einem Suchfeld. Unter "Auswahl" stehen die gewählten Fachbereiche, darunter alle Fachbereiche nach Taxonomie gruppiert. Mit einem Häkchen fügen Sie einen Fachbereich hinzu oder entfernen ihn. "Alles auswählen" kreuzt alle aufgeführten Fachbereiche an, "Auswahl zurücksetzen" hebt die ganze Auswahl auf.
 
