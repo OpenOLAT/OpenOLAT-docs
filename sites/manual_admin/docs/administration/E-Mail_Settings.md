@@ -45,7 +45,7 @@ Under "Standard settings for e-mail sending" you define the default behaviour as
   * "Send e-mails to the internal OpenOlat inbox"
   * "Send e-mails to the internal OpenOlat inbox and the personal e-mail address"
 
-In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails: `Personal menu > System settings > Tab "System"`. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
+In addition, every person can define in their personal [settings](../../manual_user/personal_menu/Settings.md#mail_delivery) under "E-mail delivery" where OpenOlat delivers their e-mails: `Personal menu > Settings > Tab "System"`. This own choice overrides your default setting. The default setting only applies to the persons who have not made a choice themselves. Without a valid e-mail address in the profile, no delivery to the outside takes place in any case.
 
 Independently of both settings, every person forwards single messages from the inbox to their own address: [User tools: E-Mail](../../manual_user/personal_menu/E-Mail.md#forward).
 

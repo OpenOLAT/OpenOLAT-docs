@@ -1,17 +1,17 @@
 # :o_icon_o_icon_settings: Personal Configuration: Settings {: #personal_configuration_settings}
 
-![Entry System settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_en.png){ class="aside-right lightbox"}
+![Entry Settings in the section Configuration of the personal menu, between the entries Profile and Password](assets/pers_menu_settings_v1_en.png){ class="aside-right lightbox"}
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [User settings](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank"}
 
 The settings allow you to adapt OpenOlat according to your needs. You find the settings in the personal menu under:<br>
-`Personal menu > System settings`
+`Personal menu > Settings`
 
 
 ## Tab System {: #tab_system}
 
 You find the tab "System" in the personal menu under:<br>
-`Personal menu > System settings > Tab "System"`
+`Personal menu > Settings > Tab "System"`
 
 ![The four sections of the tab System highlighted, from the general system settings to the reset of the configurations, so you find each section of this page in the tab](assets/pers_menu_settings_tab_system_v2_en.png){ class="shadow lightbox" title="System tab of the personal settings · 2026.10.20" }
 
@@ -113,8 +113,8 @@ If you clear the field "Landing page" and click "Save", the landing page of your
 So that you reach frequently used tools with one click, you select here which user tools appear directly at the top in the main navigation, to the left of your profile picture.<br>
 Tools that are displayed as an icon in the main navigation are no longer listed in the personal menu.
 
-**Example: "System settings" and "Badges" have been moved from the personal menu to the main navigation**
-![Check boxes System settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_en.png){ class="shadow lightbox" title="Section User tools in the System tab · 2026.10.20" }
+**Example: "Settings" and "Badges" have been moved from the personal menu to the main navigation**
+![Check boxes Settings and Badges marked in the section User tools, their icons appear in the main navigation and are missing in the opened personal menu](assets/pers_menu_settings_tab_system_pers_tools_v1_en.png){ class="shadow lightbox" title="Section User tools in the System tab · 2026.10.20" }
 
 !!! tip "Tip"
 
@@ -124,7 +124,7 @@ Tools that are displayed as an icon in the main navigation are no longer listed 
 ### Reset configurations {: #reset}
 
 If you want to undo your personal adjustments, reset them to the default setting in the section "Reset configurations". You find the section in the personal menu under:<br>
-`Personal menu > System settings > Tab "System"`
+`Personal menu > Settings > Tab "System"`
 
 You select what is reset:
 
@@ -208,7 +208,7 @@ Here you find your saved adjustments, such as hidden table columns, and reset th
 ## Tab AI settings [:octicons-tag-16:{ title="from Release 21.1 (OO-9784)" }](https://track.frentix.com/issue/OO-9784){:target="_blank"} {: #tab_ai_settings}
 
 Some AI features of OpenOlat work automatically, without you calling them. In the tab "AI settings" you decide for each of these features whether OpenOlat may use it for your answers and images. You find the tab under:<br>
-`Personal menu > System settings > Tab "AI settings"`
+`Personal menu > Settings > Tab "AI settings"`
 
 The tab only appears if system administrators have switched on at least one of the two features in the system administration: `Administration > External tools > AI module`. It only shows the rows of the switched-on features. Guests do not see the tab, for them the default of the system administration always applies.
 

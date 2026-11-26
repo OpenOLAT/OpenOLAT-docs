@@ -55,7 +55,7 @@ Jeder Tab zeigt die Durchführungen in einem bestimmten Status:
 
 * **Favoriten**<br>Nur die Durchführungen, die Sie selbst mit der Flagge markiert haben, unabhängig vom Status. Sobald mindestens eine Markierung besteht, ist dieser Tab beim Öffnen vorausgewählt.
 * **Alle**<br>Alle Durchführungen ohne Einschränkung, auch die beendeten und die abgebrochenen. Nützlich, wenn Sie eine Durchführung suchen und ihren Status nicht kennen.
-* **Relevant**<br>Die Durchführungen mit dem Status "Provisorisch" oder "Bestätigt". Das ist alles, was läuft oder verbindlich geplant ist, und damit die Ansicht für den Alltag. Haben Sie keine Favoriten markiert, ist dieser Tab vorausgewählt.
+* **Relevant**<br>Die Durchführungen mit dem Status "Provisorisch", "Bestätigt" oder "Aktiv". Das ist alles, was läuft oder verbindlich geplant ist, und damit die Ansicht für den Alltag. Haben Sie keine Favoriten markiert, ist dieser Tab vorausgewählt.
 * **Vorbereitung**<br>Durchführungen, die noch nicht freigegeben sind. Diesen Tab sehen nur Betreuer:innen und Kursbesitzer:innen. Teilnehmende sehen Durchführungen in Vorbereitung nicht.
 * **Beendet**<br>Die Durchführungen mit dem Status "Beendet" und die mit dem Status "Abgebrochen", gemeinsam in einem Tab. Eine abgebrochene Durchführung verschwindet also nicht, sie wandert hierher.
 
@@ -75,7 +75,7 @@ Welche Spalten die Liste zeigt, bestimmen Sie über das Zahnrad-Icon rechts übe
 * **Kennzeichen**<br>Die Referenz aus Ihrer eigenen Systematik, zum Beispiel eine Kursnummer. Kursplaner:innen vergeben sie beim Anlegen der Durchführung.
 * **Produkt**<br>Das Bildungsprodukt, zu dem die Durchführung gehört, mit seinem Kennzeichen.
 * **Beginn** und **Ende**<br>Der geplante Zeitraum der Durchführung.
-* **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
+* **Status**<br>Der Status der Durchführung, also "Vorbereitung", "Provisorisch", "Bestätigt", "Aktiv", "Abgebrochen" oder "Beendet". Diese Spalte ist zu Beginn ausgeblendet.
 * **Kalender**<br>Der Link "Stundenplan" führt zu den Terminen der Durchführung.
 
 In den anderen Bereichen weicht die Spaltenwahl ab. Die Benutzerverwaltung zeigt zusätzlich die Spalten "Rollen" und "Alle Rollen" und bietet den Filter "Rollen" [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}, beschrieben unter [Kontoeinstellungen verwalten](../../manual_admin/usermanagement/Configure_User.de.md) im Administrationshandbuch. Die Bildungsprodukte unter "Kurse" und die Personenansicht im Coaching Tool zeigen zusätzlich die Spalte "Fortschritt".

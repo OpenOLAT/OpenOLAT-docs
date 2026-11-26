@@ -54,7 +54,7 @@ Before the AI corrects free-text answers of learners, OpenOlat asks them for per
 "Allow once" is highlighted if the default of the administration is "on", otherwise "Not now". As long as nothing is stored, the dialog appears again in every new attempt, also after a click on "New attempt". Without permission, learners answer the free-text questions as usual, only no AI feedback appears.
 
 Learners undo "Always allow" by selecting "Default (on)" or "Default (off)" again in the tab "AI settings". With "Off" they switch the AI feedback off completely there. You find the tab under:<br>
-`Personal menu > System settings > Tab "AI settings"`<br>
+`Personal menu > Settings > Tab "AI settings"`<br>
 More about this: [Tab AI settings](../../personal_menu/Settings.md#tab_ai_settings)
 
 [To the top of the page ^](#quiz_ai_feedback)

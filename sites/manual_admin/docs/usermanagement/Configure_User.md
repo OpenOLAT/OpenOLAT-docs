@@ -41,7 +41,7 @@ If the [customer number](../administration/Modules_Organisations.md#customer_num
 
 ### System settings
 
-If a person receives OpenOlat in the wrong language or gets no emails at their address, the "System settings" tab shows their own settings, for example the default language and whether emails stay within OpenOlat or also go to the address in the profile. The person maintains them under `Personal menu > System settings`, see [Settings](../../manual_user/personal_menu/Settings.md).
+If a person receives OpenOlat in the wrong language or gets no emails at their address, the "System settings" tab shows their own settings, for example the default language and whether emails stay within OpenOlat or also go to the address in the profile. The person maintains them under `Personal menu > Settings`, see [Settings](../../manual_user/personal_menu/Settings.md).
 
 Administrators, user managers and roles managers reach the tab. For invited accounts OpenOlat shows the tab to all roles that open the user settings.
 
@@ -137,26 +137,27 @@ If a person cannot log in because they lack login credentials or have forgotten 
 
 Administrators, user managers and roles managers reach the "Password" tab. User managers do not see the tab for accounts that are themselves administrator or roles manager.
 
-At the top, the tab shows the security level of the account, for an account without local authentication for example "Security: No local authentication available". If "Use security levels / Passkey" is switched on in the system administration, the line "Minimum requirement" below it names the level that applies at least to the role of the person.
+At the top, the tab shows the security level of the account, for an account without local authentication for example "Security: No local authentication available". If the option "Use security levels / Passkey" is switched on in the system administration under `Administration > Login > Password and authentication`, the line "Minimum requirement" below it names the level that applies at least to the role of the person.
 
-If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows the button "Create login credentials": with it you set the login credentials directly. The button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. OpenOlat does not show this button if the person logs in with a passkey only (level 2) or if the minimum level 2 applies to their role.
+If the user does not yet have local authentication, the "Local OpenOlat Authentication" section shows the button "Create login credentials": with it you set the login credentials directly and pass them on to the person in a secure way. The button "Send invitation link to set login credentials" sends a link by mail; the person then sets their own login credentials. OpenOlat does not show this button if the person logs in with a passkey only (level 2) or if the minimum level 2 applies to their role.
 
 ![Account without login credentials: marked buttons Send invitation link to set login credentials and Create login credentials](assets/user_management_password_tab_no_credentials_v1_en.png){ class="shadow lightbox" title="Password tab of an account without local authentication · 2026.10.31" }
 
-If an invitation link has already been sent, a message shows its validity period. The "Deactivate invitation link" action can be used to invalidate the link at any time. After expiry or deactivation the link leads nowhere; you can then send a new invitation link.
+If an invitation link has already been sent, a message shows its validity period. With the button "Deactivate invitation link" you invalidate the link at any time. After expiry or deactivation the link leads nowhere; you can then send a new invitation link.
 
-If the person already has a password, the "Local OpenOlat Authentication" section shows the actions "Reset password" and "Send password link". With "Reset password" you set a new password directly, "Send password link" sends the person a link with which they reset it themselves. These two actions are available only to administrators and user managers. Roles managers send the invitation link, deactivate it and create login credentials; only for invited accounts do they also reset an existing password or send a password link.
+If the person already has a password, the "Local OpenOlat Authentication" section shows the actions "Reset password" and "Send password link". With "Reset password" you set a new password directly, "Send password link" sends the person a link with which they reset it themselves. These two actions are available only to administrators and user managers. Roles managers send the invitation link, deactivate it and create login credentials; only for [invited accounts](#account_type) do they also reset an existing password or send a password link.
 
 System administrators define how long an invitation link remains valid in the system administration in the section "Validity period of the login data":<br>
-`Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).
+`Administration > Login > Self-registration`, tab "Configuration", see [Self-registration](../administration/Login_Self-Registration.md#tab_configuration).<br>
+The decisive field there is "Validity period in hours (REST)". It also applies to the password link, and also when self-registration is switched off.
 
 ![Six steps from sending the invitation link to the saved login credentials, split across the administrating role, OpenOlat and the person](assets/user_management_invitation_link_flow_v1_en.svg){ class="shadow lightbox" title="Flow with the invitation link" }
 
-The "Passkeys" section lists the passkeys of the person, even if passkey is switched off in the system administration. With "Delete" you remove a passkey. If the person has no passkey, the section is hidden if passkey is switched off or if security level 1 (Password) applies as the minimum. OpenOlat shows the "Recovery option" section with the button "Send recovery key" only when passkey is switched on.
+The "Passkeys" section lists the passkeys of the person, even if the option "Use security levels / Passkey" is switched off. With "Delete" you remove a passkey. If the person has no passkey, the section is hidden if passkey is switched off or if security level 1 (Password) applies as the minimum. OpenOlat shows the "Recovery option" section with the button "Send recovery key" only when passkey is switched on. The recovery key arrives by mail; with it, the person logs in once within two hours.
 
 If the person has so far logged in with a passkey only (level 2) and passkey has since been switched off, the tab shows the warning "Login is not possible: The account only has passkeys, but the passkey feature is disabled." The person gets back into their account in one of two ways:
 
-* **Create login credentials:** With "Create login credentials" you set a password. Pass it on to the person in a secure way; they change it after logging in under `Personal Menu > Password`.
+* **Create login credentials:** With "Create login credentials" you set a password. Pass it on to the person in a secure way; they change it after logging in under `Personal menu > Password`.
 * **Delete passkeys:** You delete all passkeys of the person in the "Passkeys" section. The warning then disappears, and the button "Send invitation link to set login credentials" appears. With the link, the person sets their password themselves.
 
 What to consider before switching passkey off is described under [Password and Authentication](../administration/Login_Password_and_Authentication.md#use_security_levels_passkey).
@@ -251,10 +252,9 @@ Administrators, roles managers and principals reach the tab.
 
 The "Credit points" tab shows the credit points the person has acquired.
 
-OpenOlat only shows the tab when the "Credit points" module is switched on. Administrators, user managers, roles managers and principals reach it.
+OpenOlat only shows the tab when credit points are switched on in the system administration under `Administration > e-Assessment > Credit points`. Administrators, user managers, roles managers and principals reach it.
 
 [To the top of the page ^](#user_configuration)
-
 
 
 ### Evidence of achievements
@@ -269,7 +269,7 @@ Via the actions menu (three dots) of a row, a single evidence of achievement can
 
 ![Warning that the evidence of achievement is created again for persons who are still enrolled, with the buttons Delete and Cancel](assets/user_management_evidence_delete_v1_en.png){ class="shadow lightbox" title="Dialog Delete evidence of achievement" }
 
-You delete an evidence of achievement only here in the user management; the person concerned cannot delete their own evidence of achievement. The action "Delete Statement" is available only to administrators and roles managers. Principals and user managers see the tab without this action. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
+You delete an evidence of achievement only here in the user management; the person concerned cannot delete their own evidence of achievement. The action "Delete evidence of achievement" is available only to administrators and roles managers. Principals and user managers see the tab without this action. [:octicons-tag-16:{ title="from Release 21.0.3 (OO-9733)" }](https://track.frentix.com/issue/OO-9733)
 
 [To the top of the page ^](#user_configuration)
 
@@ -314,7 +314,6 @@ Administrators, user managers and roles managers reach the tab.
 [To the top of the page ^](#user_configuration)
 
 
-
 ### Relations [:octicons-tag-16:{ title="from Release 13.2 (OO-3305)" }](https://track.frentix.com/issue/OO-3305)
 
 If a superior, a parent or a person responsible for training is to receive rights towards another person, you define this relation between the two accounts in the "Relations" tab. The prerequisite is that roles for person to person are defined in the system administration. These roles grant the linked people the rights that are set there. You find the roles under:<br>
@@ -342,16 +341,16 @@ Which default value applies depends on the role. Authors, learning resource mana
 
 The "Events" tab shows the events and absences of the person, for example to trace their attendance in a course.
 
-OpenOlat only shows the tab when the "Events / Absences" module is switched on. Administrators, user managers, roles managers and principals reach it.
+OpenOlat only shows the tab when the "Events / Absences" module is switched on, in the system administration under `Administration > Modules > Events / Absences`. Administrators, user managers, roles managers and principals reach it.
 
 [To the top of the page ^](#user_configuration)
 
 
 ### Competences
 
-In the "Competences" tab you assign areas of competence to the person. They are categorized according to "Manage", "Teach", "Have" and "Target". What each competence type does is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md#competences) in the user manual.
+In the "Competences" tab you assign competences to the person. Each competence has a competence type: "Manage", "Teach", "Have" or "Target". What each competence type does is explained on the page [Taxonomy](../../manual_user/basic_concepts/Taxonomy_Concept.md#competences) in the user manual.
 
-OpenOlat only shows the tab when the "Taxonomy" module is switched on. Administrators, user managers, roles managers and principals reach it; administrators, user managers and roles managers can assign competences.
+OpenOlat only shows the tab when the "Taxonomy" module is switched on, in the system administration under `Administration > Modules > Taxonomy`. Administrators, user managers, roles managers and principals reach it; administrators, user managers and roles managers can assign competences.
 
 Administrators assign the same competence to several people in one step, in the system administration via the taxonomy level:<br>
 `Administration > Modules > Taxonomy > "Title of the taxonomy" > Tab "Levels" > "Title of the level" > Tab "Competences"`<br>
@@ -362,22 +361,23 @@ They assign the competence type "Manage" in the same level in the "Management" t
 
 ### Educational products [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-The "Educational products" tab shows all implementations of the person, regardless of the role they hold in them and whether they hold this role in the implementation itself or in an element below it, for example in a module [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+If you want to know in which implementations of the Course Planner a person takes part and in which role, open the "Educational products" tab. An implementation is the concrete run of a product from the Course Planner, with a period, members and courses; it is structured in elements, for example terms or modules. The tab shows the implementations of the person, regardless of the role they hold in them and whether they hold this role in the implementation itself or in an element below it, for example in a module [:octicons-tag-16:{ title="from Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}. An implementation appears here as soon as it has left the status "Preparation".
 
-OpenOlat only shows the tab when the [module "Course Planner"](../administration/Modules_Course_Planner.md) is switched on. Administrators, user managers, roles managers and principals reach it.
+Administrators, user managers, roles managers and principals reach the tab, provided the "Course Planner" module is switched on. System administrators find the switch in the system administration under:<br>
+`Administration > Modules > Course Planner`, see [Module Course Planner](../administration/Modules_Course_Planner.md#activation).
 
-The list carries implementations, not single courses. A course appears here as part of the implementation through which the person was booked, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which implementations the person passes through, "Learning resources" shows which courses they are registered in. The "Educational products" tab is purely an overview.
+The list carries implementations, not single courses. A course appears here as part of the implementation it belongs to, and in the "Learning resources" tab additionally as a single learning resource. The two tabs answer different questions: "Educational products" shows which implementations the person passes through, "Learning resources" shows which courses they are registered in. The "Educational products" tab is purely an overview; you assign the roles in an implementation in the Course Planner.
 
 ![Marked column All roles: for one implementation Roles is empty, All roles names Master coach and Element owner](assets/user_management_educational_products_v2_en.png){ class="shadow lightbox" title="Educational products tab in User management · 2026.11.16" }
 
-The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. Compared to the Coaching Tool, the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" are missing. In return, the list shows two columns that state for each implementation in which role the person takes part:
+The filter tabs available are "All", "Relevant" and "Finished", "Relevant" is preselected. The list is geared to the roles of the person: instead of the columns "Favourite" and "Status" and the tabs "Favourites" and "Preparation" from the Coaching Tool, it shows two columns that state for each implementation in which role the person takes part:
 
-* **Roles**<br>The roles of the person in the implementation itself. Their roles in the elements below it are shown in the column "All roles".
+* **Roles**<br>The roles of the person in the implementation itself. If the person holds a role only in an element below it, for example in a module, this column stays empty, and the column "All roles" names their role.
 * **All roles** [:octicons-tag-16:{ title="from Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}<br>All roles of the person in the whole implementation, that is in the implementation itself and in every element below it, for example in a module. Each role appears once, even if the person holds it in several elements.
 
-With the filter "Roles" you narrow the list down to the implementations in which the person holds one of the selected roles, no matter on which level. You show the filters with the small arrow below the filter tabs. You can choose from "Participant", "Coach", "Master coach", "Owner" and "Element owner". This way you find, for example in the tab "All", every implementation in which the person is a master coach, including the finished ones.
+With the filter "Roles" you narrow the list down to the implementations in which the person holds one of the selected roles, no matter on which level. You show the filters with the small arrow below the filter tabs. You can choose from "Participant", "Coach", "Master coach", "Owner" and "Element owner". This way you find, for example in the tab "All", the implementations in which the person is a master coach, including the finished ones. The columns "Roles" and "All roles" and the filter "Roles" exist only in this list of the user management.
 
-A click on the title of an implementation opens its complete structure with all elements and courses, including those in which the person holds no role. There, the column "Roles" names the role of the person for each element. This shows you on which level they take part.
+A click on the title of an implementation opens its complete structure here in the tab, with all elements and courses, including those in which the person holds no role. There, too, a column is called "Roles": it names the role of the person for each element. This shows you on which level they take part.
 
 What the individual tabs and the other columns show, for example the column "Calendar", is described in the sections [Filtering the list](../../manual_user/area_modules/Coaching_Educational_Products.md#filter) and [The columns of the list](../../manual_user/area_modules/Coaching_Educational_Products.md#columns) in the user manual.
 
@@ -388,7 +388,7 @@ What the individual tabs and the other columns show, for example the column "Cal
 
 The "Grading assignments" tab shows which grading assignments are assigned to the person as corrector.
 
-OpenOlat only shows the tab when the correction workflow is switched on, and not for invited accounts and guest accounts. All roles that open the user settings reach it.
+OpenOlat only shows the tab when the [correction workflow](../administration/e-Assessment_Test.md#tab_correction-workflow) is switched on, in the system administration under `Administration > e-Assessment > Test`, tab "Correction workflow", and not for [invited accounts](#account_type) and guest accounts. Administrators, user managers, roles managers and principals reach it.
 
 [To the top of the page ^](#user_configuration)
 
@@ -413,7 +413,8 @@ OpenOlat only shows the tab when the correction workflow is switched on, and not
 [Files and Folders >](../administration/Files_and_Folders.md)<br>
 [Taxonomy >](../../manual_user/basic_concepts/Taxonomy_Concept.md)<br>
 [Module Course Planner >](../administration/Modules_Course_Planner.md)<br>
-[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)
+[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[e-Assessment Administration: Test >](../administration/e-Assessment_Test.md)
 
 **Further reading**<br>
 [Create user >](Create_User.md)<br>

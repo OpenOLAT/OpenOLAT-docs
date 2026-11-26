@@ -69,7 +69,7 @@ If the terms of use of the platform are switched on, all users are asked to acce
 - What additional consents need to be obtained given the particularly sensitive nature of your course?
 
 All users can review the Terms of Use and Privacy Policy, which they have previously agreed to, at any time in their personal menu:<br>
-`Personal menu > System settings > Terms of use`<br>
+`Personal menu > Settings > Terms of use`<br>
 More about this: [Personal Configuration: Settings >](../../manual_user/personal_menu/Settings.md#tab_terms_of_use)
 
 Information about the OpenOlat platform's Terms of Use and Privacy Policy, as well as the confirmation required from OpenOlat users upon their first visit, can be found here: [OpenOlat Platform Terms of Use >](../../manual_user/basic_concepts/Terms_Of_Use.md#terms_of_use_platform).

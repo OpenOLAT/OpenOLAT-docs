@@ -137,22 +137,23 @@ Kann sich eine Person nicht anmelden, weil ihr die Zugangsdaten fehlen oder sie 
 
 Den Reiter "Passwort" erreichen Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen. Benutzerverwalter:innen sehen den Reiter nicht bei Konten, die selbst Administrator:in oder Rollenverwalter:in sind.
 
-Oben im Reiter steht die Sicherheitsstufe des Kontos, bei einem Konto ohne lokale Authentifizierung zum Beispiel "Sicherheit: Keine lokale Authentifizierung vorhanden". Ist in der System-Administration "Sicherheitsstufen / Passkey verwenden" eingeschaltet, nennt die Zeile "Minimale Anforderung" darunter die Stufe, die für die Rolle der Person mindestens gilt.
+Oben im Reiter steht die Sicherheitsstufe des Kontos, bei einem Konto ohne lokale Authentifizierung zum Beispiel "Sicherheit: Keine lokale Authentifizierung vorhanden". Ist in der System-Administration unter `Administration > Login > Passwort und Authentifizierung` die Option "Sicherheitsstufen / Passkey verwenden" eingeschaltet, nennt die Zeile "Minimale Anforderung" darunter die Stufe, die für die Rolle der Person mindestens gilt.
 
-Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" den Button "Zugangsdaten erstellen": Damit legen Sie die Zugangsdaten direkt fest. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. Diesen Button zeigt OpenOlat nicht, wenn sich die Person nur mit Passkey anmeldet (Stufe 2) oder für ihre Rolle die Mindeststufe 2 gilt.
+Verfügt die Benutzer:in noch über keine lokale Authentifizierung, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" den Button "Zugangsdaten erstellen": Damit legen Sie die Zugangsdaten direkt fest und teilen sie der Person auf sicherem Weg mit. Der Button "Einladungslink zum Setzen der Zugangsdaten senden" versendet einen Link per Mail; die Person setzt ihre Zugangsdaten damit selbst. Diesen Button zeigt OpenOlat nicht, wenn sich die Person nur mit Passkey anmeldet (Stufe 2) oder für ihre Rolle die Mindeststufe 2 gilt.
 
 ![Konto ohne Zugangsdaten: markiert die Buttons Einladungslink zum Setzen der Zugangsdaten senden und Zugangsdaten erstellen](assets/user_management_password_tab_no_credentials_v1_de.png){ class="shadow lightbox" title="Reiter Passwort eines Kontos ohne lokale Authentifizierung · 2026.10.31" }
 
-Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Über die Aktion "Einladungslink deaktivieren" kann der Link jederzeit ungültig gemacht werden. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
+Wurde ein Einladungslink bereits versendet, zeigt eine Meldung dessen Gültigkeitsdauer an. Mit dem Button "Einladungslink deaktivieren" machen Sie den Link jederzeit ungültig. Nach Ablauf oder Deaktivierung führt der Link ins Leere; Sie können danach einen neuen Einladungslink senden.
 
-Hat die Person bereits ein Passwort, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" die Aktionen "Passwort neu setzen" und "Passwortlink senden". Mit "Passwort neu setzen" legen Sie ein neues Passwort direkt fest, "Passwortlink senden" schickt der Person einen Link, mit dem sie es selbst neu setzt. Diese beiden Aktionen stehen nur Administrator:innen und Benutzerverwalter:innen zur Verfügung. Rollenverwalter:innen senden den Einladungslink, deaktivieren ihn und erstellen Zugangsdaten; nur bei eingeladenen Konten setzen auch sie ein bestehendes Passwort neu oder senden einen Passwortlink.
+Hat die Person bereits ein Passwort, zeigt der Abschnitt "Lokale OpenOlat-Authentifizierung" die Aktionen "Passwort neu setzen" und "Passwortlink senden". Mit "Passwort neu setzen" legen Sie ein neues Passwort direkt fest, "Passwortlink senden" schickt der Person einen Link, mit dem sie es selbst neu setzt. Diese beiden Aktionen stehen nur Administrator:innen und Benutzerverwalter:innen zur Verfügung. Rollenverwalter:innen senden den Einladungslink, deaktivieren ihn und erstellen Zugangsdaten; nur bei [eingeladenen Konten](#account_type) setzen auch sie ein bestehendes Passwort neu oder senden einen Passwortlink.
 
 Wie lange ein Einladungslink gültig bleibt, legen Systemadministrator:innen in der System-Administration im Abschnitt "Gültigkeitsdauer der Logindaten" fest:<br>
-`Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).
+`Administration > Login > Selbstregistration`, Reiter "Konfiguration", siehe [Selbstregistration](../administration/Login_Self-Registration.de.md#tab_configuration).<br>
+Massgebend ist dort das Feld "Gültigkeitsdauer in Stunden (REST)". Es gilt auch für den Passwortlink und auch dann, wenn die Selbstregistration ausgeschaltet ist.
 
 ![Sechs Schritte vom Senden des Einladungslinks bis zu den gespeicherten Zugangsdaten, aufgeteilt auf die verwaltende Rolle, OpenOlat und die Person](assets/user_management_invitation_link_flow_v1_de.svg){ class="shadow lightbox" title="Ablauf mit dem Einladungslink" }
 
-Der Abschnitt "Passkeys" listet die Passkeys der Person, auch wenn Passkey in der System-Administration ausgeschaltet ist. Mit "Löschen" entfernen Sie einen Passkey. Hat die Person keinen Passkey, ist der Abschnitt ausgeblendet, wenn Passkey ausgeschaltet ist oder als Minimum die Sicherheitsstufe 1 (Passwort) gilt. Den Abschnitt "Wiederherstellungsoption" mit dem Button "Recovery Key senden" zeigt OpenOlat nur bei eingeschaltetem Passkey.
+Der Abschnitt "Passkeys" listet die Passkeys der Person, auch wenn die Option "Sicherheitsstufen / Passkey verwenden" ausgeschaltet ist. Mit "Löschen" entfernen Sie einen Passkey. Hat die Person keinen Passkey, ist der Abschnitt ausgeblendet, wenn Passkey ausgeschaltet ist oder als Minimum die Sicherheitsstufe 1 (Passwort) gilt. Den Abschnitt "Wiederherstellungsoption" mit dem Button "Recovery Key senden" zeigt OpenOlat nur bei eingeschaltetem Passkey. Der Recovery Key kommt per Mail; mit ihm meldet sich die Person innerhalb von zwei Stunden einmalig an.
 
 Hat sich die Person bisher nur mit Passkey angemeldet (Stufe 2) und ist Passkey inzwischen ausgeschaltet, zeigt der Reiter die Warnung "Die Anmeldung ist nicht möglich: Das Konto verfügt nur über Passkeys, doch die Passkey-Funktion ist deaktiviert." Die Person kommt auf einem von zwei Wegen wieder in ihr Konto:
 
@@ -251,7 +252,7 @@ Den Reiter erreichen Administrator:innen, Rollenverwalter:innen und Principals.
 
 Der Reiter "Kreditpunkte" zeigt die Kreditpunkte, welche die Person erworben hat.
 
-Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Kreditpunkte". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+Den Reiter zeigt OpenOlat nur, wenn die Kreditpunkte in der System-Administration unter `Administration > e-Assessment > Kreditpunkte` eingeschaltet sind. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -340,16 +341,16 @@ Welcher Standardwert gilt, hängt von der Rolle ab: Autor:innen, Lernressourcenv
 
 Der Reiter "Termine" zeigt die Termine und Absenzen der Person, etwa um ihre Anwesenheit in einem Kurs nachzuvollziehen.
 
-Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Termine / Absenzen". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Termine / Absenzen", in der System-Administration unter `Administration > Module > Termine / Absenzen`. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
 
 ### Kompetenzen
 
-Im Reiter "Kompetenzen" ordnen Sie der Person Kompetenzbereiche zu. Sie sind kategorisiert nach "Verwalten", "Unterrichten" ("Dozieren"), "Haben" und "Ziel". Was die einzelnen Kompetenztypen bewirken, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md#competences) im Benutzerhandbuch.
+Im Reiter "Kompetenzen" ordnen Sie der Person Kompetenzen zu. Jede Kompetenz hat einen Kompetenztyp: "Verwalten", "Unterrichten" ("Dozieren"), "Haben" oder "Ziel". Was die einzelnen Kompetenztypen bewirken, erklärt die Seite [Taxonomie](../../manual_user/basic_concepts/Taxonomy_Concept.de.md#competences) im Benutzerhandbuch.
 
-Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Taxonomie". Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Kompetenzen zuordnen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem Modul "Taxonomie", in der System-Administration unter `Administration > Module > Taxonomie`. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals; Kompetenzen zuordnen können Administrator:innen, Benutzerverwalter:innen und Rollenverwalter:innen.
 
 Dieselbe Kompetenz weisen Administrator:innen mehreren Personen in einem Schritt zu, in der System-Administration über die Taxonomieebene:<br>
 `Administration > Module > Taxonomie > "Titel der Taxonomie" > Tab "Ebenen" > "Titel der Ebene" > Tab "Kompetenzen"`<br>
@@ -360,22 +361,23 @@ Den Kompetenztyp "Verwalten" vergeben sie in derselben Ebene im Tab "Verwaltung"
 
 ### Bildungsprodukte [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9288)" }](https://track.frentix.com/issue/OO-9288)
 
-Der Reiter "Bildungsprodukte" zeigt alle Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat und ob sie diese Rolle in der Durchführung selbst oder in einem Element darunter hat, zum Beispiel in einem Modul [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}.
+Wollen Sie wissen, in welchen Durchführungen des Course Planners eine Person beteiligt ist und in welcher Rolle, öffnen Sie den Reiter "Bildungsprodukte". Eine Durchführung ist der konkrete Durchgang eines Produkts aus dem Course Planner, mit Zeitraum, Mitgliedern und Kursen; gegliedert ist sie in Elemente, etwa Semester oder Module. Der Reiter zeigt die Durchführungen der Person, unabhängig davon, welche Rolle sie darin hat und ob sie diese Rolle in der Durchführung selbst oder in einem Element darunter hat, zum Beispiel in einem Modul [:octicons-tag-16:{ title="ab Release 21.0 (OO-9374)" }](https://track.frentix.com/issue/OO-9374){:target="_blank"}. Eine Durchführung erscheint hier, sobald sie den Status "Vorbereitung" verlassen hat.
 
-Den Reiter zeigt OpenOlat nur bei eingeschaltetem [Modul "Course Planner"](../administration/Modules_Course_Planner.de.md). Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
+Den Reiter erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals, sofern das Modul "Course Planner" eingeschaltet ist. Systemadministrator:innen finden den Schalter in der System-Administration unter:<br>
+`Administration > Module > Course Planner`, siehe [Modul Course Planner](../administration/Modules_Course_Planner.de.md#activation).
 
-Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, über die die Person gebucht wurde, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Durchführungen die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Der Reiter "Bildungsprodukte" ist eine reine Übersicht.
+Die Liste führt Durchführungen, nicht einzelne Kurse. Ein Kurs erscheint hier als Teil der Durchführung, zu der er gehört, und im Reiter "Lernressourcen" zusätzlich als einzelne Lernressource. Die beiden Reiter beantworten verschiedene Fragen: "Bildungsprodukte" zeigt, welche Durchführungen die Person durchläuft, "Lernressourcen" zeigt, in welchen Kursen sie eingetragen ist. Der Reiter "Bildungsprodukte" ist eine reine Übersicht; die Rollen in einer Durchführung vergeben Sie im Course Planner.
 
 ![Markierte Spalte Alle Rollen: Bei einer Durchführung ist Rollen leer, Alle Rollen nennt Klassenlehrer:in und Elementbesitzer:in](assets/user_management_educational_products_v2_de.png){ class="shadow lightbox" title="Reiter Bildungsprodukte in der Benutzerverwaltung · 2026.11.16" }
 
-Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Gegenüber dem Coaching Tool fehlen die Spalten "Favorit" und "Status" sowie die Tabs "Favoriten" und "Vorbereitung". Dafür zeigt die Liste zwei Spalten, die je Durchführung ausweisen, in welcher Rolle die Person beteiligt ist:
+Als Filter-Tabs stehen "Alle", "Relevant" und "Beendet" zur Verfügung, "Relevant" ist vorausgewählt. Die Liste ist auf die Rollen der Person ausgerichtet: Statt der Spalten "Favorit" und "Status" und der Tabs "Favoriten" und "Vorbereitung" aus dem Coaching Tool zeigt sie zwei Spalten, die je Durchführung ausweisen, in welcher Rolle die Person beteiligt ist:
 
-* **Rollen**<br>Die Rollen der Person in der Durchführung selbst. Ihre Rollen in den Elementen darunter zeigt die Spalte "Alle Rollen".
+* **Rollen**<br>Die Rollen der Person in der Durchführung selbst. Hat die Person nur in einem Element darunter eine Rolle, etwa in einem Modul, bleibt diese Spalte leer, und die Spalte "Alle Rollen" nennt ihre Rolle.
 * **Alle Rollen** [:octicons-tag-16:{ title="ab Release 21.1.3 (OO-10009)" }](https://track.frentix.com/issue/OO-10009){:target="_blank"}<br>Alle Rollen der Person in der ganzen Durchführung, also in der Durchführung selbst und in jedem Element darunter, zum Beispiel in einem Modul. Jede Rolle steht einmal, auch wenn die Person sie in mehreren Elementen hat.
 
-Mit dem Filter "Rollen" grenzen Sie die Liste auf die Durchführungen ein, in denen die Person eine der gewählten Rollen hat, egal auf welcher Ebene. Die Filter blenden Sie mit dem kleinen Pfeil unter den Filter-Tabs ein. Zur Wahl stehen "Teilnehmer:in", "Betreuer:in", "Klassenlehrer:in", "Besitzer:in" und "Elementbesitzer:in". So finden Sie zum Beispiel im Tab "Alle" sämtliche Durchführungen, in denen die Person Klassenlehrer:in ist, auch die beendeten.
+Mit dem Filter "Rollen" grenzen Sie die Liste auf die Durchführungen ein, in denen die Person eine der gewählten Rollen hat, egal auf welcher Ebene. Die Filter blenden Sie mit dem kleinen Pfeil unter den Filter-Tabs ein. Zur Wahl stehen "Teilnehmer:in", "Betreuer:in", "Klassenlehrer:in", "Besitzer:in" und "Elementbesitzer:in". So finden Sie zum Beispiel im Tab "Alle" die Durchführungen, in denen die Person Klassenlehrer:in ist, auch die beendeten. Die Spalten "Rollen" und "Alle Rollen" und den Filter "Rollen" gibt es nur in dieser Liste der Benutzerverwaltung.
 
-Ein Klick auf den Titel einer Durchführung öffnet ihre vollständige Struktur mit allen Elementen und Kursen, auch mit denen, in denen die Person keine Rolle hat. Die Spalte "Rollen" nennt dort je Element die Rolle der Person. So sehen Sie, auf welcher Ebene sie beteiligt ist.
+Ein Klick auf den Titel einer Durchführung öffnet hier im Reiter ihre vollständige Struktur mit allen Elementen und Kursen, auch mit denen, in denen die Person keine Rolle hat. Auch dort heisst eine Spalte "Rollen": Sie nennt je Element die Rolle der Person. So sehen Sie, auf welcher Ebene sie beteiligt ist.
 
 Was die einzelnen Tabs und die übrigen Spalten zeigen, etwa die Spalte "Kalender", beschreiben die Abschnitte [Die Liste filtern](../../manual_user/area_modules/Coaching_Educational_Products.de.md#filter) und [Die Spalten der Liste](../../manual_user/area_modules/Coaching_Educational_Products.de.md#columns) im Benutzerhandbuch.
 
@@ -386,7 +388,7 @@ Was die einzelnen Tabs und die übrigen Spalten zeigen, etwa die Spalte "Kalende
 
 Der Reiter "Korrekturaufträge" zeigt, welche Korrekturaufträge der Person als Korrektor:in zugewiesen sind.
 
-Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht bei eingeladenen Konten und Gastkonten. Ihn erreichen alle Rollen, welche die Kontoeinstellungen öffnen.
+Den Reiter zeigt OpenOlat nur bei eingeschaltetem [Korrektur-Workflow](../administration/e-Assessment_Test.de.md#tab_correction-workflow), in der System-Administration unter `Administration > e-Assessment > Test`, Tab "Korrektur-Workflow", und nicht bei [eingeladenen Konten](#account_type) und Gastkonten. Ihn erreichen Administrator:innen, Benutzerverwalter:innen, Rollenverwalter:innen und Principals.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -411,7 +413,8 @@ Den Reiter zeigt OpenOlat nur bei eingeschaltetem Korrektur-Workflow und nicht b
 [Dateien und Ordner >](../administration/Files_and_Folders.de.md)<br>
 [Taxonomie >](../../manual_user/basic_concepts/Taxonomy_Concept.de.md)<br>
 [Modul Course Planner >](../administration/Modules_Course_Planner.de.md)<br>
-[Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)
+[Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
+[e-Assessment Administration: Test >](../administration/e-Assessment_Test.de.md)
 
 **Weiterführend**<br>
 [Konto erstellen >](Create_User.de.md)<br>
