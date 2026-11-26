@@ -23,7 +23,9 @@ How to create a podcast for a course is described in the guide [How do I create 
 
 ## General information about podcasts {: #general}
 
-The term "Podcasting" combines the words "iPod" and "Broadcasting" and means producing and providing audio and video files. Podcasts can be subscribed to: you download the episodes to mobile devices via services such as iTunes, or you listen to and watch them directly in OpenOlat. This way, participants also use the episodes on the move, and unlike a radio show, production and use do not depend on a broadcasting time. The latest episode is always at the top. If ratings and comments are switched on in the learning resource, participants rate episodes and write comments on them.
+Participants listen to and watch the episodes directly in OpenOlat, or they subscribe to the podcast and download the episodes to a mobile device via a service such as iTunes. This way, they also use the episodes on the move, and unlike a radio show, production and use do not depend on a broadcasting time. The latest episode is always at the top. If ratings and comments are switched on in the [options of the learning resource](../Podcast_Administration.md#tab_options), participants rate episodes and write comments on them. How to subscribe is described on the page [Listening to and watching podcasts](../Podcast_listen_and_watch.md#abo).
+
+The term "Podcasting" combines the words "iPod" and "Broadcasting" and means producing and providing audio and video files.
 
 
 ## The learning resource podcast {: #learning_resource}

@@ -5,16 +5,16 @@
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-If you are an owner of a course, OpenOlat shows you the "Administration" button at the top left. There you will find all options for editing, configuration and administration of the course, before and during its use. Administrators and learning resource managers of the organisation the course belongs to see the same options. The most important options include the [course editor](../General_Configuration_of_Course_Elements.md) and the [settings](../Course_Settings/index.md).
+If you want to build, set up or evaluate a course, open the "Administration" button at the top left in the course. The menu brings together everything you edit, configure and manage in the course before and during its implementation. As an owner of the course you see all menu items, as do administrators and [learning resource managers](../../basic_concepts/Roles/index.md#org) of the organisation the course belongs to. The most important ones include the [course editor](../General_Configuration_of_Course_Elements.md) and the [settings](../Course_Settings/index.md).
 
-The "Administration" button is also available for coaches. They see fewer options there, only those relevant to coaches, for example the [assessment tool](../Assessment_tool_overview/index.md). Persons who have been granted individual rights in the [Rights area of the members management](../Members_management.md#section_rights) see the options for these rights.
+[Coaches](../../basic_concepts/Roles/index.md#coach) also see the "Administration" button, but in the menu only the menu items for coaching, for example the [assessment tool](../Assessment_tool_overview/index.md). Persons with individual rights from the [Rights area of the members management](../Members_management.md#section_rights) see the menu items for these rights.
 
 !!! info "Important"
 
-    Some options are only available if the corresponding feature is activated. If necessary, please contact the administrators of your organisation.
+    Some menu items only appear if the corresponding function is switched on in OpenOlat. If a menu item is missing, contact your organisation.
 
 
-Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
+Other learning resources also have an "Administration" menu, with fewer menu items. Which ones depends on the type of learning resource.
 
 The section [Menu items](#menu_items) shows what each menu item is for and where it is described.
 
@@ -102,13 +102,17 @@ If you are looking for a menu item, the overview tells you in one sentence what 
 [To the top of the page ^](#course_administration)
 
 
-## Course DB {: #course_DB}
+## Course DB [:octicons-tag-16:{ title="from Release 8.1.4 (OO-313)" }](https://track.frentix.com/issue/OO-313){:target="_blank"} {: #course_DB}
 
-If a course is to store information on individual persons that no course element records, for example a "Read" tick or the answers of a self-built survey, you create a database for it in the Course DB. A page in the course, for example an "HTML page" course element, writes and reads the values per person via the REST interface of OpenOlat, usually with JavaScript.
+!!! info "Contact"
 
-With "Create a new database" you create a database with a name. OpenOlat then shows the URL under which the page stores the values. With "Export" you download the values of all persons as an Excel file. "Reset" empties the database, "Delete" removes it.
+    The Course DB is part of the server configuration and switched off by default. For a change, contact your organisation.
 
-The menu item is visible to owners of the course, learning resource managers and administrators as well as members with the right ["Course database"](../Members_management.md#right_course_db). It requires that the Course DB is switched on in your OpenOlat instance. It is part of the server configuration and switched off by default. For activation, contact your organisation.
+If a course is to store information on individual persons that no course element records, for example the confirmation that someone has read a text, or the answers of a self-built survey, you create a database for it in the Course DB (course database). A page in the course, for example an "HTML page" course element, writes and reads the values per person via the [REST interface](../../../manual_admin/administration/REST_API.md) of OpenOlat, that is via addresses that a script in the page calls, usually JavaScript. A person with programming skills writes the script; the Course DB only provides the database.
+
+With "Create a new database" you create a database with a name. OpenOlat then shows the URL for each database under which the page stores the values; the script uses this address. With "Export" you download the values of all persons as an Excel file. "Reset" empties the database, "Delete" removes it.
+
+The menu item is visible to owners of the course, learning resource managers and administrators as well as members with the right ["Course database"](../Members_management.md#right_course_db), as soon as the Course DB is switched on in your OpenOlat instance.
 
 [To the top of the page ^](#course_administration)
 
@@ -125,17 +129,17 @@ The menu item only exists in courses with the usage "Template". There it takes t
 
 ## Duplicate as learning path {: #duplicate_as_learning_path}
 
-If you want to continue a conventional course as a learning path course, for example a course created before OpenOlat 15, use this menu item to create a copy as a learning path course. The original course remains unchanged.
+If you want to continue a conventional course as a learning path course, for example a course created before OpenOlat 15, use this menu item to create a copy as a learning path course. The original course remains unchanged. As with [Copy](../Course_Copy.md), the copy takes over structure and content; user data such as forum posts and group members stay in the original.
 
-In the dialog "Duplicate as learning path" you enter the "Title of learning resource" and the "Reference of learning resource" of the copy and choose the course design: "With learning path" guides participants through the course in a fixed order, "With learning progress" shows the progress without a fixed order. "Duplicate & convert" creates the copy. [:octicons-tag-16:{ title="from Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
+In the dialog "Duplicate as learning path" you enter the "Title of learning resource" of the copy, optionally also the "Reference of learning resource", for example a course number, and choose the course design. Both course designs result in a learning path course: "With learning path" guides participants through the course in a fixed order, "With learning progress" shows the progress without a fixed order. "Duplicate & convert" creates the copy. [:octicons-tag-16:{ title="from Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
 
-The menu item only exists in conventional courses. In the menu it follows "Save as template", in a template "Instantiate as course". You see it if you are allowed to copy the course, that is if the menu also shows "Copy". You open the same dialog in the course settings in the [tab "Execution"](../Course_Settings_Execution.md#course_type) with the button "Duplicate as learning path".
+The menu item only exists in conventional courses. In the menu it follows "Save as template", in a conventional course with the [usage](../Creating_Course.md#purpose) "Template" it follows "Instantiate as course". You see it if you are allowed to copy the course, that is if the menu also shows "Copy". You open the same dialog in the course settings in the [tab "Execution"](../Course_Settings_Execution.md#course_type) with the button "Duplicate as learning path".
 
 !!! tip "Tip"
 
-    If the course is only to be transferred to the current format, the "With learning progress" option is usually the better choice. In this case, the course structure does not have to be edited in a fixed order, which is more in line with the hypermedia structure of the previous course. If necessary, this setting can also be adjusted retrospectively in the course editor of the copied course at the top course element.
+    If you want to continue the course as a learning path course without changing its flow, choose "With learning progress" in most cases. Participants then work through the course without a fixed order, as freely as they moved in the conventional course. If needed, you change the order later in the course editor of the copy, in the top course element, which bears the title of the course.
 
-    Please note that guests do not have access to learning path courses.
+    [Guests](../../basic_concepts/guest_access.md), that is persons without an OpenOlat account, have no access to learning path courses. If your conventional course offers guest access, it does not apply to the copy.
 
 [To the top of the page ^](#course_administration)
 

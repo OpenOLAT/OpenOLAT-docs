@@ -1,5 +1,6 @@
 # Glossary - create {: #glossary_create}
 
+If participants should be able to look up the technical terms of a course, you create a glossary, enter the terms with their definitions and embed the glossary in the course. Participants then read the explanation of a term directly in the learning content, without leaving the course. A glossary is created by persons with the role author, learning resource manager or administrator.
 
 ## Where is a new glossary created? {: #where}
 
@@ -65,8 +66,7 @@ You edit the definitions in a simple editor. Besides text, it offers for example
 * Font selection
 * Indentation
 * Tables
-* links
-* etc.
+* Links
 
 Whether the glossary groups the terms by initial letter with an alphabetical index is set in the settings of the glossary, see [Glossary: Administration](Glossary_administration.md#tab_register).
 
@@ -79,23 +79,25 @@ Whether the glossary groups the terms by initial letter with an alphabetical ind
 
 You usually embed a glossary in a course. Participants then see the terms explained in the course. You can also use a glossary standalone and offer it, for example, as an offer of its own in the catalog.
 
-System administrators do not need to switch on the glossary function separately.
+Glossaries are available in every OpenOlat instance, without any setting in the system administration. Everyone who opens the [course settings](Course_Settings/index.md) can embed one: owners of the course, learning resource managers and administrators, and also persons with the right "Course editor".
 
-``1.`` Select the glossary with the button "Select glossary", under `Course > Administration > Settings > Tab "Options"`.
+``1.`` Open `Course > Administration > Settings > Tab "Options"`. Select the glossary with the button "Select glossary" and click "Save".
 
 ![Options tab of the course settings with the highlighted button Select glossary, which you use to select or create a glossary](assets/glossary_create_settings_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.09" }
 
-``2.`` So that participants see the glossary in the course toolbar, switch it on there as a tool: checkbox "Glossary" under `Course > Administration > Settings > Tab "Toolbar"`.
+``2.`` Switch the glossary on as a tool: checkbox "Glossary" under `Course > Administration > Settings > Tab "Toolbar"`. Only then does the glossary take effect in the course: the menu "Glossary" appears in the toolbar, and the terms can be explained in the learning content.
 
 ![Toolbar tab of the course settings with the highlighted, switched-on checkbox Glossary under Activate tools in toolbar](assets/glossary_settings_toolbar_activate_v2_en.png){ class="shadow lightbox" title="Toolbar tab in the course settings · 2026.11.09" }
 
+In the menu "Glossary" of the toolbar, participants select "Show glossary terms in learning content". After that, OpenOlat shows the explanation of a term as soon as they point at the term in the learning content with the mouse. Find out more on the page [Glossary - Usage](Glossary_usage.md).
 
 !!! note "Note"
 
     You embed one glossary per course. Several glossaries can exist in the authoring area, so that different courses use different glossaries.
 
-If you want to embed a different glossary in your course, select it under `Course > Administration > Settings > Tab "Options"` with "Select glossary". If you no longer use a glossary, remove it there with "Delete selection".
+If you want to embed a different glossary in your course, select it under `Course > Administration > Settings > Tab "Options"` with "Select glossary". If you no longer use a glossary, remove it there with "Delete selection" and click "Save". The glossary itself remains as a learning resource in the authoring area.
 
+[To the top of the page ^](#glossary_create)
 
 ---
 
@@ -103,10 +105,12 @@ If you want to embed a different glossary in your course, select it under `Cours
 
 **Mentioned on this page**<br>
 [Glossary: Administration >](Glossary_administration.md)<br>
-[Members management >](Members_management.md)
+[Members management >](Members_management.md)<br>
+[Course Settings >](Course_Settings/index.md)<br>
+[Glossary - Usage >](Glossary_usage.md)
 
 **Further reading**<br>
-[Usage of a glossary >](../learningresources/Glossary_usage.md)
+[Glossary >](Glossary/index.md)
 
 [To the top of the page ^](#glossary_create)
 

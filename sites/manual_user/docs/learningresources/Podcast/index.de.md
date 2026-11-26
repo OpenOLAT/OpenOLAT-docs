@@ -23,7 +23,9 @@ Wie Sie einen Podcast für einen Kurs erstellen, beschreibt die Anleitung [Wie e
 
 ## Allgemeines zu Podcasts {: #general}
 
-Der Begriff "Podcasting" verbindet die Wörter "iPod" und "Broadcasting" und bezeichnet das Produzieren und Anbieten von Audio- und Videodateien. Podcasts lassen sich abonnieren: Die Episoden laden Sie über Dienste wie iTunes auf mobile Geräte oder hören und sehen sie direkt in OpenOlat. Die Teilnehmenden nutzen die Episoden so auch unterwegs, und anders als bei einer Radiosendung hängen Produktion und Nutzung an keiner Sendezeit. Die neueste Episode steht immer oben. Sind Bewertungen und Kommentare in der Lernressource eingeschaltet, bewerten Teilnehmende Episoden und schreiben Kommentare dazu.
+Teilnehmende hören und sehen die Episoden direkt in OpenOlat oder abonnieren den Podcast und laden die Episoden über einen Dienst wie iTunes auf ein mobiles Gerät. So nutzen sie die Episoden auch unterwegs, und anders als bei einer Radiosendung hängen Produktion und Nutzung an keiner Sendezeit. Die neueste Episode steht immer oben. Sind Bewertungen und Kommentare in den [Optionen der Lernressource](../Podcast_Administration.de.md#tab_options) eingeschaltet, bewerten Teilnehmende Episoden und schreiben Kommentare dazu. Wie das Abonnieren geht, beschreibt die Seite [Podcasts anhören und ansehen](../Podcast_listen_and_watch.de.md#abo).
+
+Der Begriff "Podcasting" verbindet die Wörter "iPod" und "Broadcasting" und bezeichnet das Produzieren und Anbieten von Audio- und Videodateien.
 
 
 ## Die Lernressource Podcast {: #learning_resource}

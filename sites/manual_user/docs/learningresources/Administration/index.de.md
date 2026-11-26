@@ -5,16 +5,16 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank"}
 
 
-Sind Sie Besitzer:in eines Kurses, zeigt OpenOlat Ihnen links oben den Button "Administration". Dort finden Sie alle Optionen zur Bearbeitung, Konfiguration und Administration des Kurses, vor und während seiner Nutzung. Dieselben Optionen sehen Administrator:innen und Lernressourcenverwalter:innen der Organisation, der der Kurs angehört. Zu den wichtigsten zählen der [Kurseditor](../General_Configuration_of_Course_Elements.de.md) und die [Einstellungen](../Course_Settings/index.de.md).
+Wollen Sie einen Kurs aufbauen, einrichten oder auswerten, öffnen Sie im Kurs links oben den Button "Administration". Das Menü bündelt alles, was Sie vor und während der Durchführung am Kurs bearbeiten, konfigurieren und verwalten. Als Besitzer:in des Kurses sehen Sie alle Menüpunkte, ebenso Administrator:innen und [Lernressourcenverwalter:innen](../../basic_concepts/Roles/index.de.md#org) der Organisation, der der Kurs angehört. Zu den wichtigsten zählen der [Kurseditor](../General_Configuration_of_Course_Elements.de.md) und die [Einstellungen](../Course_Settings/index.de.md).
 
-Betreuer:innen steht der Button "Administration" ebenfalls zur Verfügung. Sie sehen dort weniger Optionen, nur die für Betreuer:innen relevanten, zum Beispiel das [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Personen, denen im [Bereich "Rechte" der Mitgliederverwaltung](../Members_management.de.md#section_rights) einzelne Rechte erteilt wurden, sehen die Optionen zu diesen Rechten.
+[Betreuer:innen](../../basic_concepts/Roles/index.de.md#coach) sehen den Button "Administration" ebenfalls, im Menü aber nur die Menüpunkte für die Betreuung, zum Beispiel das [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Personen mit einzelnen Rechten aus dem [Bereich "Rechte" der Mitgliederverwaltung](../Members_management.de.md#section_rights) sehen die Menüpunkte zu diesen Rechten.
 
 !!! info "Wichtig"
 
-    Manche Optionen stehen nur zur Verfügung, wenn das entsprechende Feature aktiviert ist. Wenden Sie sich gegebenenfalls an die Administrator:innen Ihrer Organisation.
+    Manche Menüpunkte erscheinen nur, wenn die zugehörige Funktion in OpenOlat eingeschaltet ist. Fehlt Ihnen ein Menüpunkt, wenden Sie sich an Ihre Organisation.
 
 
-Andere Lernressourcen verfügen ebenfalls über das Menü "Administration", jedoch sind die Menüoptionen dort nicht so umfangreich. Sie variieren je nach Lernressource.
+Andere Lernressourcen haben ebenfalls ein Menü "Administration", mit weniger Menüpunkten. Welche es sind, hängt von der Art der Lernressource ab.
 
 Wozu jeder Menüpunkt dient und wo er beschrieben ist, zeigt der Abschnitt [Menüpunkte](#menu_items).
 
@@ -102,13 +102,17 @@ Suchen Sie einen Menüpunkt, sagt Ihnen die Übersicht in einem Satz, wozu er di
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Kurs DB {: #course_DB}
+## Kurs DB [:octicons-tag-16:{ title="ab Release 8.1.4 (OO-313)" }](https://track.frentix.com/issue/OO-313){:target="_blank"} {: #course_DB}
 
-Soll ein Kurs Angaben einzelner Personen speichern, die kein Kursbaustein erfasst, etwa ein Häkchen "Gelesen" oder die Antworten einer selbst gebauten Umfrage, legen Sie dafür in der Kurs DB eine Datenbank an. Eine Seite im Kurs, zum Beispiel ein Kursbaustein "HTML-Seite", schreibt und liest die Werte je Person über die REST-Schnittstelle von OpenOlat, meist per JavaScript.
+!!! info "Kontakt"
 
-Mit "Neue Datenbank erstellen" legen Sie eine Datenbank mit einem Namen an. OpenOlat zeigt dazu die URL, unter der die Seite die Werte ablegt. Mit "Exportieren" laden Sie die Werte aller Personen als Excel-Datei herunter. "Zurücksetzen" leert die Datenbank, "Löschen" entfernt sie.
+    Die Kurs DB ist Teil der Serverkonfiguration und im Auslieferungszustand ausgeschaltet. Für eine Änderung wenden Sie sich an Ihre Organisation.
 
-Den Menüpunkt sehen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Mitglieder mit dem Recht ["Kurs Datenbank"](../Members_management.de.md#right_course_db). Voraussetzung ist, dass die Kurs DB auf Ihrer OpenOlat-Instanz eingeschaltet ist. Sie ist Teil der Serverkonfiguration und im Auslieferungszustand ausgeschaltet. Für eine Aktivierung wenden Sie sich an Ihre Organisation.
+Soll ein Kurs Angaben einzelner Personen speichern, die kein Kursbaustein erfasst, etwa die Bestätigung, dass jemand einen Text gelesen hat, oder die Antworten einer selbst gebauten Umfrage, legen Sie dafür in der Kurs DB (Kurs Datenbank) eine Datenbank an. Eine Seite im Kurs, zum Beispiel ein Kursbaustein "HTML-Seite", schreibt und liest die Werte je Person über die [REST-Schnittstelle](../../../manual_admin/administration/REST_API.de.md) von OpenOlat, also über Adressen, die ein Skript in der Seite aufruft, meist JavaScript. Das Skript schreibt eine Person mit Programmierkenntnissen; die Kurs DB stellt nur die Datenbank bereit.
+
+Mit "Neue Datenbank erstellen" legen Sie eine Datenbank mit einem Namen an. OpenOlat zeigt danach bei jeder Datenbank die URL, unter der die Seite die Werte ablegt; diese Adresse setzt das Skript ein. Mit "Exportieren" laden Sie die Werte aller Personen als Excel-Datei herunter. "Zurücksetzen" leert die Datenbank, "Löschen" entfernt sie.
+
+Den Menüpunkt sehen Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen sowie Mitglieder mit dem Recht ["Kurs Datenbank"](../Members_management.de.md#right_course_db), sobald die Kurs DB auf Ihrer OpenOlat-Instanz eingeschaltet ist.
 
 [Zum Seitenanfang ^](#course_administration)
 
@@ -125,19 +129,17 @@ Den Menüpunkt gibt es nur in Kursen mit dem Verwendungszweck "Template". Dort s
 
 ## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
-Wollen Sie einen herkömmlichen Kurs als Lernpfadkurs weiterführen, zum Beispiel einen Kurs, der vor OpenOlat 15 entstanden ist, erstellen Sie mit diesem Menüpunkt eine Kopie als Lernpfadkurs. Der ursprüngliche Kurs bleibt unverändert erhalten.
+Wollen Sie einen herkömmlichen Kurs als Lernpfadkurs weiterführen, zum Beispiel einen Kurs, der vor OpenOlat 15 entstanden ist, erstellen Sie mit diesem Menüpunkt eine Kopie als Lernpfadkurs. Der ursprüngliche Kurs bleibt unverändert erhalten. Wie beim [Kopieren](../Course_Copy.de.md) übernimmt die Kopie Struktur und Inhalte; Benutzerdaten wie Forenbeiträge und Gruppenmitglieder bleiben im Original.
 
-Im Dialog "Als Lernpfad duplizieren" geben Sie den "Titel der Lernressource" und das "Kennzeichen der Lernressource" der Kopie an und wählen das Kursdesign: "Mit Lernpfad" führt die Teilnehmenden in einer festen Reihenfolge durch den Kurs, "Mit Lernfortschritt" zeigt den Fortschritt ohne feste Reihenfolge. "Duplizieren und konvertieren" erstellt die Kopie. [:octicons-tag-16:{ title="ab Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
+Im Dialog "Als Lernpfad duplizieren" geben Sie den "Titel der Lernressource" der Kopie an, auf Wunsch auch das "Kennzeichen der Lernressource", etwa eine Kursnummer, und wählen das Kursdesign. Beide Kursdesigns ergeben einen Lernpfadkurs: "Mit Lernpfad" führt die Teilnehmenden in einer festen Reihenfolge durch den Kurs, "Mit Lernfortschritt" zeigt den Fortschritt ohne feste Reihenfolge. "Duplizieren und konvertieren" erstellt die Kopie. [:octicons-tag-16:{ title="ab Release 20.2 (OO-8967)" }](https://track.frentix.com/issue/OO-8967){:target="_blank"}
 
-Den Menüpunkt gibt es nur in herkömmlichen Kursen. Im Menü folgt er auf "Als Template speichern", in einem Template auf "Als Kurs instanziieren". Sie sehen ihn, wenn Sie den Kurs kopieren dürfen, also wenn das Menü auch "Kopieren" zeigt. Denselben Dialog öffnen Sie in den Kurseinstellungen im [Tab "Durchführung"](../Course_Settings_Execution.de.md#course_type) mit dem Button "Als Lernpfad duplizieren".
+Den Menüpunkt gibt es nur in herkömmlichen Kursen. Im Menü folgt er auf "Als Template speichern", in einem herkömmlichen Kurs mit dem [Verwendungszweck](../Creating_Course.de.md#purpose) "Template" auf "Als Kurs instanziieren". Sie sehen ihn, wenn Sie den Kurs kopieren dürfen, also wenn das Menü auch "Kopieren" zeigt. Denselben Dialog öffnen Sie in den Kurseinstellungen im [Tab "Durchführung"](../Course_Settings_Execution.de.md#course_type) mit dem Button "Als Lernpfad duplizieren".
 
 !!! tip "Tipp"
 
-    Wenn der Kurs lediglich in das aktuelle Format übertragen werden soll, ist in den meisten Fällen die Option "Mit Lernfortschritt" die bessere Wahl. Hier muss die Kursstruktur nicht in einer festen Reihenfolge bearbeitet werden, was der Hypermedia-Struktur des Ausgangskurses eher entspricht. Diese Einstellung kann bei Bedarf auch nachträglich im Kurseditor des kopierten Kurses am obersten Kursbaustein angepasst werden.
+    Wollen Sie den Kurs als Lernpfadkurs weiterführen, ohne seinen Ablauf zu ändern, wählen Sie in den meisten Fällen "Mit Lernfortschritt". Die Teilnehmenden bearbeiten den Kurs dann ohne feste Reihenfolge, so frei, wie sie sich im herkömmlichen Kurs bewegt haben. Die Reihenfolge ändern Sie bei Bedarf später im Kurseditor der Kopie, im obersten Kursbaustein, der den Titel des Kurses trägt.
 
-    Beachten Sie, dass grundsätzlich Gäste keinen Zugang zu Lernpfadkursen haben.
-
-
+    [Gäste](../../basic_concepts/guest_access.de.md), also Personen ohne OpenOlat-Konto, haben keinen Zugang zu Lernpfadkursen. Bietet Ihr herkömmlicher Kurs einen Gastzugang, gilt er für die Kopie nicht.
 
 [Zum Seitenanfang ^](#course_administration)
 

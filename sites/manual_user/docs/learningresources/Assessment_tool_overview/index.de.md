@@ -4,9 +4,15 @@ Das Bewertungswerkzeug ist die zentrale Stelle für die Bewertungen eines Kurses
 
 Sie öffnen das Bewertungswerkzeug unter `Kurs > Administration > Bewertungswerkzeug`. Zuerst erscheint die Übersicht: Sie zeigt, wie der Kurs steht und welche Bewertungen und Aktionen anstehen. So sehen Sie schnell, was zu tun ist. Von der Übersicht aus gelangen Sie zu den Bewertungen der einzelnen Kursbausteine und Personen.
 
-![Startseite des Bewertungswerkzeugs, die auf einen Blick zeigt, wie der Kurs steht, welche Prüfung ansteht und was noch zu bewerten ist](../assets/Bewertungswerkezuge_191.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs" }
+![Startseite des Bewertungswerkzeugs, die auf einen Blick zeigt, wie der Kurs steht, welche Prüfung ansteht und was noch zu bewerten oder freizugeben ist](../assets/assessment_tool_overview_v1_de.png){ class="shadow lightbox" title="Übersicht des Bewertungswerkzeugs · 2026.11.27" }
 
 Die folgenden Abschnitte beschreiben zuerst die Bereiche der Übersicht, danach die weiteren Einträge im Menü links und die Buttons oben rechts.
+
+## Steckbrief
+
+Name | Bewertungswerkzeug
+---------|----------
+Verfügbar seit | Release 7.1 oder früher
 
 ## "Übersicht" des Bewertungswerkzeugs
 
@@ -34,7 +40,7 @@ Ist für den ganzen Kurs ein "Bestehen" konfiguriert, zeigt der Bereich, wie vie
 
 ### Prüfungsmodus (Übersicht)
 
-Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn Administrator:innen den Prüfungsmodus in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Prüfungsverwaltung > Segment "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
+Ist für den Kurs eine Prüfung im [Prüfungsmodus](../Assessment_mode.de.md) geplant oder läuft gerade eine Prüfung, zeigt das Bewertungswerkzeug sie in diesem Bereich an. Den Bereich gibt es, solange der Kurs eine Prüfung hat, die noch nicht beendet ist, und wenn Systemadministrator:innen den Prüfungsmodus in der System-Administration eingeschaltet haben: `Administration > e-Assessment > Prüfungsverwaltung > Segment "Prüfungsverwaltung Konfiguration"`, Schalter "Prüfungsmodus einschalten".
 
 ![Laufende Prüfung mit dem Button "Prüfung beenden" im Banner und im Bereich, darunter zwei geplante Prüfungen mit Beginn und Ende](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Bereich Prüfungsmodus" }
 
@@ -54,11 +60,11 @@ Hier abonnieren Betreuende mit dem Schalter "Abonnieren" Benachrichtigungen per 
 
 Unter "Aufträge" sammelt das Bewertungswerkzeug alle Bewertungen, die im Kurs noch zu erledigen sind. So arbeiten Sie die anstehenden Bewertungen ab, ohne jeden Kursbaustein einzeln zu öffnen. Sie finden "Aufträge" im Menü links direkt unter "Übersicht". Drei Segmente teilen sie auf:
 
-* **Offene Bewertungen:** Bewertungen im Status "Korrigieren", zum Beispiel nach der Abgabe einer Aufgabe. Mit "Bewerten" öffnen Sie die Bewertung der Person.
+* **Offene Bewertungen:** Bewertungen im Status "Korrigieren": Die Person hat zum Beispiel eine Aufgabe abgegeben, und die Bewertung durch Sie steht noch aus. Mit "Bewerten" öffnen Sie die Bewertung der Person.
 * **Offene Einstufungen/Noten:** Kursbausteine mit einer [Bewertungsskala](../Assessment_translate_points_in_grades.de.md), bei denen die Note von Hand zugewiesen wird und noch fehlt. Mit "Zuweisen" vergeben Sie die Note.
-* **Freizugebende Bewertungen:** abgeschlossene Bewertungen, die Teilnehmende noch nicht sehen. Mit "Freigeben" machen Sie ausgewählte Bewertungen für die Teilnehmenden sichtbar.
+* **Freizugebende Bewertungen:** abgeschlossene Bewertungen, die noch nicht freigegeben sind. Erst mit der Freigabe sieht die Person ihre Bewertung. Mit "Freigeben" machen Sie ausgewählte Bewertungen für die Teilnehmenden sichtbar.
 
-In jedem Segment schreiben Sie den ausgewählten Personen mit "E-Mail". Dieselben Segmente zeigt das Coaching kursübergreifend unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md).
+Im Segment "Offene Bewertungen" zeigt der Filter "Mir zugewiesen" nur die Personen, die Ihnen als Betreuer:in zugewiesen sind, etwa in einer Aufgabe mit eingeschalteter Option "Zuweisung Betreuende/Teilnehmende". In jedem Segment schreiben Sie den ausgewählten Personen mit "E-Mail". Kursübergreifend zeigt der Bereich "Coaching" in der Hauptnavigation dieselben Segmente unter [Bewertungsaufträge](../../area_modules/Coaching_Assessment_Orders.de.md).
 
 ![Menüeintrag Aufträge und die Segmente Offene Bewertungen, Offene Einstufungen/Noten und Freizugebende Bewertungen, geöffnet ist die Liste der offenen Bewertungen mit dem Link Bewerten](../assets/assessment_tool_overview_orders_v1_de.png){ class="shadow lightbox" title="Bereich Aufträge des Bewertungswerkzeugs · 2026.11.09" }
 
@@ -86,14 +92,14 @@ Das Segment "Übersicht" zeigt ähnliche Angaben wie die Übersicht des Bewertun
 Im Segment "Teilnehmer:innen" bewerten Sie: Sie wählen eine Person, erfassen Punkte und Feedback und geben die Bewertung frei. Die Tabelle zeigt den Bearbeitungsstand aller Teilnehmenden des Kursbausteins.<br>
 Bei Aufgaben laden Sie im Segment "Teilnehmer:innen" auch alle abgegebenen Dokumente herunter.
 
-Der oberste Kursbaustein zählt ebenfalls als bewertbarer Kursbaustein. Er entspricht einem Kursbaustein ["Struktur"](../Course_Element_Structure.de.md).<br>
-Ein Klick auf eine Person beim obersten Kursbaustein zeigt den Bearbeitungsstand aller bewertbaren Kursbausteine dieser Person. Von dort öffnen Sie auch ihren Leistungsnachweis.
+Der oberste Kursbaustein steht im Menü links mit dem Titel des Kurses über den übrigen Kursbausteinen. Er zählt ebenfalls als bewertbarer Kursbaustein und entspricht einem Kursbaustein ["Struktur"](../Course_Element_Structure.de.md).<br>
+Ein Klick auf eine Person beim obersten Kursbaustein zeigt den Bearbeitungsstand aller bewertbaren Kursbausteine dieser Person. Von dort öffnen Sie auch ihren [Leistungsnachweis](../../personal_menu/Evidence_of_Achievements.de.md), die Zusammenstellung ihrer Bewertungen im Kurs.
 
-In dieser Ansicht laden Sie den Bearbeitungsstand der Person als PDF-Datei herunter: Der Button "PDF exportieren" oben rechts erzeugt die Datei jedes Mal neu, ihr Name beginnt mit "Leistungsnachweis". Den Button zeigt OpenOlat nur, wenn Administrator:innen in der System-Administration den [PDF-Dienst](../../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingerichtet haben: `Administration > Externe Werkzeuge > PDF Generator`.
+In dieser Ansicht laden Sie den Bearbeitungsstand der Person als PDF-Datei herunter: Der Button "PDF exportieren" oben rechts erzeugt die Datei jedes Mal neu, ihr Name beginnt mit "Leistungsnachweis". Den Button zeigt OpenOlat nur, wenn Systemadministrator:innen in der System-Administration den [PDF-Dienst](../../../manual_admin/administration/External_Tools_-_Administration/index.de.md#pdf_generator) eingerichtet haben: `Administration > Externe Werkzeuge > PDF Generator`.
 
-Ist im Kurs ein [Zertifikat](../Course_Settings_Assessment_Certificate.de.md#certificate_issuer) eingeschaltet, zeigt dieselbe Ansicht den Abschnitt "Zertifikate" mit den Zertifikaten der Person. Dort stellen Sie mit dem Button "Zertifikat erzeugen" ein neues Zertifikat aus. Den Button gibt es, wenn beim Feld "PDF Zertifikat erzeugen" die Option "Manuell durch Betreuer:in" gewählt ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Zertifikat". Fehlt bei einem ausgestellten Zertifikat die PDF-Datei, erzeugen nur Administrator:innen sie neu, in der System-Administration unter `Administration > e-Assessment > Zertifikate > Segment "Wartung"`. Wie das geht, steht im [Administrationshandbuch](../../../manual_admin/administration/e-Assessment_Certificates.de.md#tab_maintenance).
+Ist im Kurs ein [Zertifikat](../Course_Settings_Assessment_Certificate.de.md#certificate_issuer) eingeschaltet, zeigt dieselbe Ansicht den Abschnitt "Zertifikate" mit den Zertifikaten der Person. Dort stellen Sie mit dem Button "Zertifikat erzeugen" ein neues Zertifikat aus. Den Button gibt es, wenn beim Feld "PDF Zertifikat erzeugen" die Option "Manuell durch Betreuer:in" gewählt ist: `Kurs > Administration > Einstellungen > Tab "Bewertung"`, Abschnitt "Zertifikat". Fehlt bei einem ausgestellten Zertifikat die PDF-Datei, erzeugen nur Systemadministrator:innen sie neu, in der System-Administration unter `Administration > e-Assessment > Zertifikate > Segment "Wartung"`. Wie das geht, steht im [Administrationshandbuch](../../../manual_admin/administration/e-Assessment_Certificates.de.md#tab_maintenance).
 
-Ist auf dem obersten Kursbaustein eine Punkteberechnung eingerichtet, zeigt die oberste Ebene die Gesamtpunkte des Kurses. Dort laden Sie auch die Gesamtergebnisse der Teilnehmenden herunter.
+Ist auf dem obersten Kursbaustein eine [Punkteberechnung](../Course_Settings_Assessment/index.de.md#section_assessment_settings) eingerichtet, zeigt die oberste Ebene die Gesamtpunkte des Kurses. Mit dem Symbol "Herunterladen" über der Tabelle laden Sie die Tabelle mit den Gesamtpunkten aller Teilnehmenden als Excel-Datei herunter.
 
 !!! tip "Tipp"
 
@@ -118,9 +124,11 @@ Mit dem Button "Daten zurücksetzen" oben rechts setzen Sie die Daten von Teilne
 
 Müssen Sie viele Teilnehmer:innen auf einmal bewerten, etwa nach einer Prüfung auf Papier, nehmen Sie die Massenbewertung. Sie übermitteln Punkte, Status, Kommentare und Rückgabedateien für mehrere Teilnehmer:innen in einem Schritt, statt jede Person einzeln zu öffnen.
 
-Sie öffnen die Massenbewertung mit dem Button "Massenbewertung" oben rechts im Bewertungswerkzeug. Die Seite "Geplante Massenbewertungen" listet die Massenbewertungen, die noch ausgeführt werden. Mit "Neue Massenbewertung starten" öffnen Sie den Wizard. Im Wizard wählen Sie den Kursbaustein, laden die Daten hoch und legen fest, ob OpenOlat die Bewertung "Sofort" oder "Später, nach Datum" ausführt.
+Sie öffnen die Massenbewertung mit dem Button "Massenbewertung" oben rechts im Bewertungswerkzeug. Die Seite "Geplante Massenbewertungen" listet die Massenbewertungen, die noch ausgeführt werden. Mit "Neue Massenbewertung starten" öffnen Sie den Wizard. Im Wizard wählen Sie den Kursbaustein, laden die Daten hoch und legen fest, ob OpenOlat die Bewertung "Sofort" oder "Später, nach Datum" ausführt. Zur Auswahl stehen die Kursbausteine "Bewertung", "Aufgabe", "Gruppenaufgabe" und "Videoaufgabe", wenn sie Punkte, Bestanden, einen Kommentar oder Rückgabedateien vorsehen.
 
-Den Button sehen alle Personen, die das Bewertungswerkzeug öffnen. Ausgenommen sind Personen, die den Kurs nur in der Rolle Principal öffnen, ohne Mitglied zu sein oder den Kurs zu administrieren.
+Im Schritt "Bewertungsdaten" fügen Sie die Werte zeilenweise ein, getrennt durch Tabulator oder Komma, zum Beispiel aus Excel kopiert. Rückgabedateien sind Dateien, die Teilnehmende bei einer Aufgabe als Korrektur zurückerhalten. Sie laden sie als ZIP-Archiv mit einem Unterordner je Person hoch.
+
+Den Button sehen alle Personen, die das Bewertungswerkzeug öffnen. Ausgenommen sind Personen, die den Kurs nur in der Rolle [Principal](../../basic_concepts/Roles/index.de.md#org) öffnen, also nur lesend, ohne Mitglied zu sein oder den Kurs zu administrieren.
 
 ![Erster Schritt "Kursbaustein auswählen" mit den bewertbaren Kursbausteinen des Kurses und dem Link "Wählen"](../assets/Massenbewertung_wizard.png){ class="shadow lightbox" title="Assistent Massenbewertung" }
 

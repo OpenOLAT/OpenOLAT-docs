@@ -11,7 +11,7 @@ You set the course options under "Module settings" and the presets for new cours
 
 #### Enable course option {: #enable_course_option}
 
-The option "Course related terms of use and data protection" gives course owners the ["Terms of use" tab](../../manual_user/learningresources/Course_Settings_Disclaimer.md) in the course settings. There they define terms of use and a data protection declaration that participants confirm before visiting the course.
+The option "Course related terms of use and privacy policy" gives course owners the ["Terms of use" tab](../../manual_user/learningresources/Course_Settings_Disclaimer.md) in the course settings. There they define terms of use and a privacy policy that participants confirm before visiting the course.
 
 #### Enable assessment option {: #enable_assessment_option}
 

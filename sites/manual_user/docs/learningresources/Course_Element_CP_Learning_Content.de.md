@@ -12,23 +12,23 @@ Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP erstellen Sie entweder direkt in OpenOlat, wie es die Anleitung "[Wie erstelle ich ein Content Package?](../../manual_how-to/content_package/content_package.de.md)" erklärt, oder ausserhalb von OpenOlat.
+Nutzen Sie den Kursbaustein "CP-Lerninhalt", um ein Content Package (CP) in Ihren Kurs einzubinden: ein Paket aus Lernseiten mit eigener Struktur im Format IMS Content Packaging (IMS-CP, Version 1.1.2). Das CP erstellen Sie entweder direkt in OpenOlat, wie es die Anleitung "[Wie erstelle ich ein Content Package?](../../manual_how-to/content_package/content_package.de.md)" erklärt, oder mit einem anderen Werkzeug ausserhalb von OpenOlat. Ein extern erstelltes CP laden Sie im Tab "Lerninhalt" als ZIP-Datei hoch, die die Datei "imsmanifest.xml" enthält.
 
 Den Kursbaustein konfigurieren Sie im Kurseditor in den Tabs "Lerninhalt" und "Anzeige Inhalt":<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "CP-Lerninhalt"`
 
 ## Tab Lerninhalt :octicons-tag-16:{ title="Neuauflage ab Release 16.2" } {: #tab_learning_content}
 
-Im Kurseditor erscheint der Kursbaustein "CP-Lerninhalt" als einzelner Kursbaustein. Seinen Inhalt, das Content Package, erstellen, bearbeiten oder ersetzen Sie im Tab "Lerninhalt".
+Im Kurseditor erscheint der Kursbaustein "CP-Lerninhalt" als ein einziger Eintrag, auch wenn das CP aus vielen Seiten besteht. Seinen Inhalt, das Content Package, legen Sie im Tab "Lerninhalt" fest. Ein CP ist in OpenOlat eine eigene Lernressource, die Sie in mehreren Kursen verwenden können. Mit "CP-Lerninhalt wählen, erstellen oder importieren" wählen Sie ein CP aus, das als Lernressource schon besteht, erstellen ein neues oder laden eines aus einer Datei hoch. Ist ein CP eingebunden, öffnet ein Klick auf seinen Namen die Vorschau, und "CP-Lerninhalt auswechseln" ersetzt es durch ein anderes. Mit "Bearbeiten" ändern Sie den Inhalt des CP. Die Änderung gilt für die Lernressource und damit in allen Kursen, die sie einbinden. Den Button sehen Besitzer:innen des CP, Lernressourcenverwalter:innen und Administrator:innen.
 
-![Tab Lerninhalt mit dem gewählten CP-Lerninhalt, den Buttons zum Auswechseln und Bearbeiten, darunter die Checkbox CP-Navigation im Kursmenü integrieren](assets/course_element_cp_learning_content_tab_content1_v2_de.png){ class="shadow lightbox" title="Tab Lerninhalt des Kursbausteins im Kurseditor · 2026.11.09" }
+![Gewählter CP-Lerninhalt mit den Buttons CP-Lerninhalt auswechseln und Bearbeiten, darunter die eingeschaltete Checkbox CP-Navigation im Kursmenü integrieren](assets/course_element_cp_learning_content_tab_content1_v2_de.png){ class="shadow lightbox" title="Tab Lerninhalt des Kursbausteins im Kurseditor · 2026.11.09" }
 
-Ein Content Package besteht meist aus mehreren Seiten. Ist die Option "CP-Navigation im Kursmenü integrieren" eingeschaltet, zeigt OpenOlat die Struktur dieser Seiten direkt im Kursmenü.<br>
+Ein Content Package besteht meist aus mehreren Seiten. Ist die Option "CP-Navigation im Kursmenü integrieren" eingeschaltet, zeigt OpenOlat die Struktur dieser Seiten direkt im Kursmenü. Bei einem neuen Kursbaustein ist sie eingeschaltet.<br>
 Ohne diese Option sehen Teilnehmer:innen die Struktur nicht. Nach dem Öffnen des Kursbausteins blättern sie mit den Pfeilen rechts oben im Inhalt durch die Seiten des CP.
 
-![CP-Seiten als eigene Einträge im Kursmenü, weil CP-Navigation integriert ist](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="lightbox" title="Kursmenü mit integrierter CP-Navigation" }
+![CP-Seiten als eigene Einträge im Kursmenü, weil CP-Navigation integriert ist](assets/course_element_cp_learning_content_tab_content2_v1_de.png){ class="shadow lightbox" title="Kursmenü mit integrierter CP-Navigation" }
 
-![Pfeile zum Navigieren durch die CP-Seiten, ohne Struktur im Kursmenü](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="lightbox" title="Kursbaustein CP-Lerninhalt ohne CP-Navigation im Kursmenü" }
+![Pfeile zum Navigieren durch die CP-Seiten, ohne Struktur im Kursmenü](assets/course_element_cp_learning_content_tab_content3_v1_de.png){ class="shadow lightbox" title="Kursbaustein CP-Lerninhalt ohne CP-Navigation im Kursmenü" }
 
 [Zum Seitenanfang ^](#CP_learning_content)
 

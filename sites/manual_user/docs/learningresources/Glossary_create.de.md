@@ -1,5 +1,6 @@
 # Glossar erstellen {: #glossary_create}
 
+Sollen Teilnehmende die Fachbegriffe eines Kurses nachschlagen können, legen Sie ein Glossar an, erfassen die Begriffe mit ihren Definitionen und binden das Glossar in den Kurs ein. Die Erklärung eines Begriffs lesen die Teilnehmenden dann direkt im Lerninhalt, ohne den Kurs zu verlassen. Ein Glossar erstellen Personen mit der Rolle Autor:in, Lernressourcenverwalter:in oder Administrator:in.
 
 ## Wo wird ein neues Glossar erstellt? {: #where}
 
@@ -70,7 +71,6 @@ Die Definitionen bearbeiten Sie in einem einfachen Editor. Neben Text bietet er 
 * Einrückungen
 * Tabellen
 * Links
-* u.a.
 
 Ob das Glossar die Begriffe über ein alphabetisches Register nach Anfangsbuchstaben gliedert, legen Sie in den Einstellungen des Glossars fest, siehe [Glossar: Administration](Glossary_administration.de.md#tab_register).
 
@@ -84,17 +84,17 @@ Ob das Glossar die Begriffe über ein alphabetisches Register nach Anfangsbuchst
 
 Ein Glossar binden Sie meist in einen Kurs ein. Teilnehmende sehen die Begriffe dann im Kurs erklärt. Sie können ein Glossar auch eigenständig verwenden und zum Beispiel als eigenes Angebot im Katalog anbieten.
 
-Systemadministrator:innen müssen die Glossarfunktion nicht eigens einschalten.
+Glossare stehen in jeder OpenOlat-Instanz zur Verfügung, ohne Einstellung in der System-Administration. Einbinden können es alle, welche die [Kurseinstellungen](Course_Settings/index.de.md) öffnen: Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen, ausserdem Personen mit dem Recht "Kurseditor".
 
-``1.`` Wählen Sie das Glossar mit dem Button "Glossar wählen" aus, unter `Kurs > Administration > Einstellungen > Tab "Optionen"`.
+``1.`` Öffnen Sie `Kurs > Administration > Einstellungen > Tab "Optionen"`. Wählen Sie das Glossar mit dem Button "Glossar wählen" aus und klicken Sie auf "Speichern".
 
 ![Tab Optionen der Kurseinstellungen mit dem markierten Button Glossar wählen, über den Sie ein Glossar auswählen oder neu erstellen](assets/glossary_create_settings_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.09" }
 
-``2.`` Damit Teilnehmende das Glossar in der Toolbar des Kurses sehen, schalten Sie es dort als Werkzeug ein: Checkbox "Glossar" unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`.
+``2.`` Schalten Sie das Glossar als Werkzeug ein: Checkbox "Glossar" unter `Kurs > Administration > Einstellungen > Tab "Toolbar"`. Erst damit wirkt das Glossar im Kurs: In der Toolbar erscheint das Menü "Glossar", und die Begriffe lassen sich im Lerninhalt erklären.
 
 ![Tab Toolbar der Kurseinstellungen mit der markierten, eingeschalteten Checkbox Glossar unter Werkzeuge in Toolbar aktivieren](assets/glossary_settings_toolbar_activate_v2_de.png){ class="shadow lightbox" title="Tab Toolbar in den Kurseinstellungen · 2026.11.09" }
 
-
+Im Menü "Glossar" der Toolbar wählen Teilnehmende "Glossarbegriffe in Lerninhalt einblenden". Danach zeigt OpenOlat die Erklärung eines Begriffs, sobald sie im Lerninhalt mit der Maus auf den Begriff zeigen. Mehr dazu auf der Seite [Glossar - Verwendung](Glossary_usage.de.md).
 
 !!! note "Hinweis"
 
@@ -102,8 +102,9 @@ Systemadministrator:innen müssen die Glossarfunktion nicht eigens einschalten.
 
 
 
-Möchten Sie ein anderes Glossar in Ihren Kurs einbinden, wählen Sie es unter `Kurs > Administration > Einstellungen > Tab "Optionen"` mit "Glossar wählen" aus. Verwenden Sie kein Glossar mehr, entfernen Sie es dort mit "Auswahl löschen".
+Möchten Sie ein anderes Glossar in Ihren Kurs einbinden, wählen Sie es unter `Kurs > Administration > Einstellungen > Tab "Optionen"` mit "Glossar wählen" aus. Verwenden Sie kein Glossar mehr, entfernen Sie es dort mit "Auswahl löschen" und klicken auf "Speichern". Das Glossar selbst bleibt als Lernressource im Autorenbereich erhalten.
 
+[Zum Seitenanfang ^](#glossary_create)
 
 ---
 
@@ -111,9 +112,11 @@ Möchten Sie ein anderes Glossar in Ihren Kurs einbinden, wählen Sie es unter `
 
 **Auf dieser Seite erwähnt**<br>
 [Glossar: Administration >](Glossary_administration.de.md)<br>
-[Mitgliederverwaltung >](Members_management.de.md)
+[Mitgliederverwaltung >](Members_management.de.md)<br>
+[Kurseinstellungen >](Course_Settings/index.de.md)<br>
+[Glossar - Verwendung >](Glossary_usage.de.md)
 
 **Weiterführend**<br>
-[Glossar verwenden >](../learningresources/Glossary_usage.de.md)
+[Glossar >](Glossary/index.de.md)
 
 [Zum Seitenanfang ^](#glossary_create)

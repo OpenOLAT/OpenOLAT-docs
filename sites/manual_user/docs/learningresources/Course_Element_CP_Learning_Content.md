@@ -12,18 +12,18 @@ Purpose | Display learning content in IMS CP format
 Assessable | no
 Specialty / Note | 
 
-Use the "CP learning content" course element to embed learning content in the IMS-CP format (IMS-CP Version 1.1.2) into your course. You create the CP either directly in OpenOlat, as explained in the guide "[How do I create a Content Package?](../../manual_how-to/content_package/content_package.md)", or outside of OpenOlat.
+Use the "CP learning content" course element to embed a content package (CP) in your course: a package of learning pages with its own structure in the IMS Content Packaging format (IMS-CP, version 1.1.2). You create the CP either directly in OpenOlat, as explained in the guide "[How do I create a Content Package?](../../manual_how-to/content_package/content_package.md)", or with another tool outside of OpenOlat. You upload an externally created CP in the "Learning content" tab as a ZIP file that contains the file "imsmanifest.xml".
 
 You configure the course element in the course editor in the tabs "Learning content" and "Display content":<br>
 `Course > Administration > Course editor > Course element "CP learning content"`
 
 ## Tab Learning content :octicons-tag-16:{ title="New edition from Release 16.2" } {: #tab_learning_content}
 
-In the course editor, the "CP learning content" course element appears as a single course element. You create, edit or replace its content, the content package, in the "Learning content" tab.
+In the course editor, the "CP learning content" course element appears as a single entry, even if the CP consists of many pages. You define its content, the content package, in the "Learning content" tab. In OpenOlat, a CP is a learning resource of its own that you can use in several courses. With "Select, create or import CP learning content" you select a CP that already exists as a learning resource, create a new one or upload one from a file. Once a CP is embedded, a click on its name opens the preview, and "Replace CP learning content" replaces it with another one. With "Edit" you change the content of the CP. The change applies to the learning resource and therefore in all courses that embed it. Owners of the CP, learning resource managers and administrators see this button.
 
-![Tab Learning content with the selected CP learning content, the buttons for replacing and editing, below it the checkbox Show CP navigation within the course menu](assets/course_element_cp_learning_content_tab_content1_v2_en.png){ class="shadow lightbox" title="Tab Learning content of the course element in the course editor · 2026.11.09" }
+![Selected CP learning content with the buttons Replace CP learning content and Edit, below it the switched-on checkbox Show CP navigation within the course menu](assets/course_element_cp_learning_content_tab_content1_v2_en.png){ class="shadow lightbox" title="Tab Learning content of the course element in the course editor · 2026.11.09" }
 
-A content package usually consists of several pages. If the option "Show CP navigation within the course menu" is switched on, OpenOlat shows the structure of these pages directly in the course menu.<br>
+A content package usually consists of several pages. If the option "Show CP navigation within the course menu" is switched on, OpenOlat shows the structure of these pages directly in the course menu. In a new course element, it is switched on.<br>
 Without this option, participants do not see the structure. After opening the course element, they page through the CP pages with the arrows at the top right of the content.
 
 ![CP pages as separate entries in the course menu, because CP navigation is integrated](assets/course_element_cp_learning_content_tab_content2_v1_en.png){ class="shadow lightbox" title="Course menu with integrated CP navigation · 2026.11.09" }

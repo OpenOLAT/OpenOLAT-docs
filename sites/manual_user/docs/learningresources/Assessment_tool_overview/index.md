@@ -4,9 +4,15 @@ The assessment tool is the central place for the assessments of a course. Course
 
 You open the assessment tool under `Course > Administration > Assessment tool`. The overview appears first: it shows how the course is doing and which assessments and actions are pending. This way you quickly see what needs to be done. From the overview you get to the assessments of the individual course elements and persons.
 
-![Start page of the assessment tool that shows at a glance how the course is doing, which exam is coming up and what still needs to be assessed](../assets/assessment_tool_overview.jpg){ class="shadow lightbox" title="Overview of the assessment tool" }
+![Start page of the assessment tool that shows at a glance how the course is doing, which exam is coming up and what still needs to be assessed or released](../assets/assessment_tool_overview_v1_en.png){ class="shadow lightbox" title="Overview of the assessment tool · 2026.11.27" }
 
 The following sections first describe the areas of the overview, then the further entries in the menu on the left and the buttons at the top right.
+
+## Profile
+
+Name | Assessment tool
+---------|----------
+Available since | Release 7.1 or earlier
 
 ## "Overview" of the assessment tool
 
@@ -34,7 +40,7 @@ If "passed" is configured for the entire course, the area shows how many course 
 
 ### Assessment mode (Overview)
 
-If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if administrators have enabled the assessment mode in the system administration: `Administration > e-Assessment > Assessment management > Segment "Assessment management configuration"`, switch "Enable assessment mode".
+If an exam in [assessment mode](../Assessment_mode.md) is planned for the course or an exam is currently running, the assessment tool shows it in this area. The area exists as long as the course has an exam that has not yet ended, and if system administrators have enabled the assessment mode in the system administration: `Administration > e-Assessment > Assessment management > Segment "Assessment management configuration"`, switch "Enable assessment mode".
 
 ![Running exam with the button "Prüfung beenden" in the banner and in the area, below two scheduled exams with start and end](../assets/Pruefng1_Bewertungswerkzeug1.jpg){ class="shadow lightbox" title="Area Assessment mode" }
 
@@ -54,13 +60,13 @@ Here coaches subscribe to e-mail notifications with the "Subscribe" switch: "New
 
 Under "Orders" the assessment tool collects all assessments that still need to be done in the course. This way you work through the pending assessments without opening each course element individually. You find "Orders" in the menu on the left directly below "Overview". Three segments divide them:
 
-* **Open reviews:** assessments in the status "To review", for example after a task has been submitted. With "Assess" you open the assessment of the person.
+* **Open reviews:** assessments in the status "To review": the person has, for example, submitted a task, and your assessment is still pending. With "Assess" you open the assessment of the person.
 * **Open levels/gradings:** course elements with a [rating scale](../Assessment_translate_points_in_grades.md) where the grade is applied by hand and is still missing. With "Apply" you award the grade.
-* **Reviews to release:** completed assessments that participants do not see yet. With "Release" you make selected assessments visible to the participants.
+* **Reviews to release:** completed assessments that have not been released yet. Only after the release does the person see their assessment. With "Release" you make selected assessments visible to the participants.
 
-In every segment you write to the selected persons with "E-Mail". Coaching shows the same segments across courses under [Assessment orders](../../area_modules/Coaching_Assessment_Orders.md).
+In the segment "Open reviews" the filter "Assigned to me" shows only the persons assigned to you as a coach, for example in a task with the option "Assignment coaches/participants" switched on. In every segment you write to the selected persons with "E-Mail". Across courses, the area "Coaching" in the main navigation shows the same segments under [Assessment orders](../../area_modules/Coaching_Assessment_Orders.md).
 
-![Menu entry Orders and the segments Open reviews, Open levels/gradings and Reviews to release, with the list of open reviews and the link Assess open](../assets/assessment_tool_overview_orders_v1_en.png){ class="shadow lightbox" title="Area Orders of the assessment tool · 2026.11.09" }
+![Menu entry Orders and the segments Open reviews, Open levels/gradings and Reviews to release; the list of open reviews is open, with the link Assess](../assets/assessment_tool_overview_orders_v1_en.png){ class="shadow lightbox" title="Area Orders of the assessment tool · 2026.11.09" }
 
 ## Assessment inspection [:octicons-tag-16:{ title="from Release 18.2 (OO-7425)" }](https://track.frentix.com/issue/OO-7425)
 
@@ -85,14 +91,14 @@ The segment "Overview" shows information similar to the overview of the assessme
 In the segment "Participants" you assess: you select a person, enter points and feedback and release the assessment. The table shows the processing status of all participants of the course element.<br>
 For tasks, you also download all submitted documents in the segment "Participants".
 
-The top course element also counts as an assessable course element. It corresponds to a ["Structure"](../Course_Element_Structure.md) course element.<br>
-A click on a person at the top course element shows the processing status of all assessable course elements of this person. From there you also open their evidence of achievement.
+The top course element appears in the menu on the left with the title of the course, above the other course elements. It also counts as an assessable course element and corresponds to a ["Structure"](../Course_Element_Structure.md) course element.<br>
+A click on a person at the top course element shows the processing status of all assessable course elements of this person. From there you also open their [evidence of achievement](../../personal_menu/Evidence_of_Achievements.md), the summary of their assessments in the course.
 
-In this view you download the person's processing status as a PDF file: the button "Export PDF" at the top right creates the file anew each time, and its name starts with "Efficiency_statement". OpenOlat shows the button only if administrators have set up the [PDF service](../../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) in the system administration: `Administration > External tools > PDF generator`.
+In this view you download the person's processing status as a PDF file: the button "Export PDF" at the top right creates the file anew each time, and its name starts with "Efficiency_statement". OpenOlat shows the button only if system administrators have set up the [PDF service](../../../manual_admin/administration/External_Tools_-_Administration/index.md#pdf_generator) in the system administration: `Administration > External tools > PDF generator`.
 
-If a [certificate](../Course_Settings_Assessment_Certificate.md#certificate_issuer) is switched on in the course, the same view shows the section "Certificates" with the certificates of the person. There you issue a new certificate with the button "Create certificate". The button is available if the option "Manually by coach" is selected in the field "Generate PDF certificate": `Course > Administration > Settings > Tab "Assessment"`, section "Certificate". If the PDF file of an issued certificate is missing, only administrators regenerate it, in the system administration under `Administration > e-Assessment > Certificates > Segment "Maintenance"`. The [administration manual](../../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance) describes how.
+If a [certificate](../Course_Settings_Assessment_Certificate.md#certificate_issuer) is switched on in the course, the same view shows the section "Certificates" with the certificates of the person. There you issue a new certificate with the button "Create certificate". The button is available if the option "Manually by coach" is selected in the field "Generate PDF certificate": `Course > Administration > Settings > Tab "Assessment"`, section "Certificate". If the PDF file of an issued certificate is missing, only system administrators regenerate it, in the system administration under `Administration > e-Assessment > Certificates > Segment "Maintenance"`. The [administration manual](../../../manual_admin/administration/e-Assessment_Certificates.md#tab_maintenance) describes how.
 
-If a point calculation is set up on the top course element, the top level shows the total points of the course. There you also download the overall results of the participants.
+If a [point calculation](../Course_Settings_Assessment/index.md#section_assessment_settings) is set up on the top course element, the top level shows the total points of the course. With the icon "Download" above the table you download the table with the total points of all participants as an Excel file.
 
 !!! tip "Tip"
 
@@ -116,9 +122,11 @@ With the button "Reset data" at the top right you reset the data of participants
 
 If you have to assess many participants at once, for example after an exam on paper, use the bulk assessment. You submit points, status, comments and return files for several participants in one step instead of opening each person individually.
 
-You open the bulk assessment with the button "Bulk assessment" at the top right of the assessment tool. The page "Planned bulk assessments" lists the bulk assessments that are still to be executed. With "Start new bulk assessment" you open the wizard. In the wizard you select the course element, upload the data and define whether OpenOlat executes the assessment "Immediately" or "Later, scheduled by date".
+You open the bulk assessment with the button "Bulk assessment" at the top right of the assessment tool. The page "Planned bulk assessments" lists the bulk assessments that are still to be executed. With "Start new bulk assessment" you open the wizard. In the wizard you select the course element, upload the data and define whether OpenOlat executes the assessment "Immediately" or "Later, scheduled by date". The course elements "Assessment", "Task", "Group task" and "Video task" are available if they provide for points, passed, a comment or return files.
 
-The button is visible to all persons who open the assessment tool. Excepted are persons who open the course only in the role Principal, without being a member or administering the course.
+In the step "Assessment values" you paste the values line by line, separated by tab or comma, for example copied from Excel. Return files are files that participants receive back as a correction in a task. You upload them as a ZIP archive with one subfolder per person.
+
+The button is visible to all persons who open the assessment tool. Excepted are persons who open the course only in the role [Principal](../../basic_concepts/Roles/index.md#org), that is read-only, without being a member or administering the course.
 
 ![First step "Kursbaustein auswählen" with the assessable course elements of the course and the link "Wählen"](../assets/Massenbewertung_wizard.png){ class="shadow lightbox" title="Bulk assessment wizard" }
 
