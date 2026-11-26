@@ -5,13 +5,13 @@
 
 Universities that belong to a Shibboleth federation check the login of their members themselves. A federation is an association of universities that recognise these logins mutually, for example the federation of SWITCH in Switzerland. With Shibboleth, these people log in to OpenOlat with the account of their home university. OpenOlat receives no password, only the attributes that the university releases, for example name, e-mail address and field of study. You manage no passwords in OpenOlat, and new members of the university receive their account at the first login.
 
-If Shibboleth is switched on, system administrators find the page in the system administration under:<br>
+If Shibboleth is switched on, system administrators find the page "Shibboleth authorization" in the system administration under:<br>
 `Administration > Login > Shibboleth`
 
 
 ## What the server configuration defines {: #server_configuration}
 
-The server configuration is the configuration file of the installation, the page in the administration calls it the "OpenOlat configuration file". This file is maintained by the body that operates OpenOlat. The basic configuration is there: the connection to the federation, which attributes OpenOlat takes over into which profile fields and to which organisation new accounts are assigned. The page in the administration points this out with the sentence "The Shibboleth basic configuration must be done in the OpenOlat configuration file."
+The server configuration is the configuration file of the installation, the page in the administration calls it the "OpenOlat configuration file". This file is maintained by the body that operates OpenOlat. The basic configuration is there: the connection to the federation, which attributes OpenOlat takes over into which profile fields and to which organisation new accounts are assigned. The page in the administration points this out with the sentence "The basic Shibboleth configuration must be done in the OpenOlat configuration file."
 
 A change to the basic configuration applies only from the next restart. Without Shibboleth switched on, the entry "Shibboleth" is missing from the menu `Administration > Login`.
 
@@ -35,13 +35,13 @@ More on this under [Manage user settings](../usermanagement/Configure_User.md).
 
 Not every person who can log in at their university should use OpenOlat. With "Activate attribute access control", you only let in people whose attributes carry an allowed value, for example only members of a certain university or field of study.
 
-You define up to two attributes:
+If "Activate attribute access control" is switched on, fields for up to two attributes appear:
 
 - **Shibboleth attribute 1:** the name of the attribute that OpenOlat checks, as the integration of your installation passes it to OpenOlat.
 - **Allowed values for attribute 1:** the allowed values, separated by line break, comma or semicolon. Upper and lower case do not matter.
 - **Shibboleth attribute 2** and **Allowed values for attribute 2:** a second attribute with its values, following the same pattern.
 
-A person gets access if one of the two attributes carries one of the allowed values. To everyone else, OpenOlat shows the message "You are not authorized to log in to OpenOlat." OpenOlat checks the attributes at every login via Shibboleth, also for people who already have an account.
+With "Save", you apply the details. A person gets access if one of the two attributes carries one of the allowed values. OpenOlat compares the whole value that the integration passes for the attribute with each allowed value. To everyone else, OpenOlat shows the message "You are not authorized to log in to OpenOlat." OpenOlat checks the attributes at every login via Shibboleth, also for people who already have an account.
 
 Which attributes a university can deliver is defined by the federation. At SWITCH, the federation is called "Switch edu-ID Federation", and the "Switch edu-ID Attribute Specification" describes its attributes. For an access restriction, these two attributes are suitable, for example:
 
@@ -55,14 +55,14 @@ The field "Shibboleth attribute 1" holds the name under which the integration of
 
 ## Direct link for SSO access [:octicons-tag-16:{ title="from Release 10.3.4 (OO-1651)" }](https://track.frentix.com/issue/OO-1651) {: #direct_link}
 
-If the login via Shibboleth should start directly from the website of your university, place the "Direct link for SSO access" there. SSO (single sign-on) means: the person logs in once at their university and is thereby also logged in to OpenOlat. The page shows this address. It leads to the login via Shibboleth without a detour via the login page of OpenOlat.
+If the login via Shibboleth should start directly from the website of your university, place the "Direct link for SSO access" there. SSO (single sign-on) means: the person logs in once at their university and is thereby also logged in to OpenOlat. The page shows this address, it ends with `/shib/`, for example `https://your.openolat.domain/shib/`. It leads to the login via Shibboleth without a detour via the login page of OpenOlat.
 
 [To the top of the page ^](#shibboleth)
 
 
 ## Shibboleth and Switch edu-ID {: #switch_eduid}
 
-Switch edu-ID is a personal account at SWITCH that stays with a person even after a change of university. With Shibboleth, by contrast, the person logs in with the account of their university. You connect Switch edu-ID as a cloud login, not via Shibboleth, see [Cloud login: Switch edu-ID](Login_Cloud_Login.md#switch_eduid). Shibboleth and Switch edu-ID can be switched on side by side.
+Switch edu-ID is a personal account at SWITCH that stays with a person even after a change of university. With Shibboleth, by contrast, the person logs in with the account of their university. The federation of SWITCH is named "Switch edu-ID Federation", but the login via Shibboleth runs with the account of the university. You connect Switch edu-ID as a cloud login, not via Shibboleth, see [Cloud login: Switch edu-ID](Login_Cloud_Login.md#switch_eduid). Shibboleth and Switch edu-ID can be switched on side by side.
 
 [To the top of the page ^](#shibboleth)
 

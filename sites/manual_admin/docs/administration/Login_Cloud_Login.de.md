@@ -8,22 +8,22 @@ Die Anbindungen richten Systemadministrator:innen in der System-Administration e
 Die Seite ist immer im Menü, sie setzt keine Serverkonfiguration voraus.
 
 
-## Authentifizierungsdienst hinzufügen [:octicons-tag-16:{ title="ab Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #add_provider}
+## Identitätsanbieter hinzufügen [:octicons-tag-16:{ title="ab Release 10.1 (OO-729)" }](https://track.frentix.com/issue/OO-729) {: #add_provider}
 
 Für die gängigen Identitätsanbieter bringt OpenOlat fertige Anbindungen mit. Sie wählen den Identitätsanbieter aus und tragen die Zugangsdaten ein, die er für OpenOlat ausstellt.
 
 Das Menü "Weitere Aktionen" mit dem Symbol aus drei Punkten oben rechts auf der Seite listet die fertigen Anbindungen, die noch nicht hinzugefügt sind: Google, Facebook, LinkedIn, X (Twitter), Active Directory Federation Services, Microsoft Azure Active Directory, Keycloak, Switch edu-ID und Datenlotsen. Wählen Sie einen Eintrag, erscheint auf der Seite ein Abschnitt für diesen Identitätsanbieter. Hinzugefügte Identitätsanbieter führt das Menü nicht mehr auf.
 
-![Im Menü Weitere Aktionen wählen Sie den Identitätsanbieter zum Hinzufügen, darunter die zwei Wege für einen eigenen OAuth-2.0-Provider](assets/login_cloud_login_add_provider_menu_v1_de.png){ class="shadow lightbox" title="Menü Weitere Aktionen auf der Seite Cloud-Login · 2026.11.12" }
+![Im Menü Weitere Aktionen wählen Sie den Identitätsanbieter zum Hinzufügen, darunter die zwei Wege für einen eigenen OAuth-2.0-Provider](assets/login_cloud_login_add_provider_menu_v2_de.png){ class="shadow lightbox" title="Menü Weitere Aktionen auf der Seite Cloud-Login · 2026.11.26" }
 
 So binden Sie einen Identitätsanbieter an:
 
-1. Registrieren Sie OpenOlat beim Identitätsanbieter als Anwendung. Als Rücksprungadresse geben Sie dort die "Umleitungs-URI" an, die OpenOlat im Abschnitt "Login via OAuth, Cloud-Dienste und soziale Netzwerke" direkt unter dem Menü "Weitere Aktionen" anzeigt.
+1. Registrieren Sie OpenOlat beim Identitätsanbieter als Anwendung. Wie das geht, beschreibt die Dokumentation des Identitätsanbieters, für Microsoft der Abschnitt [Microsoft Azure Active Directory](#azure). Als Rücksprungadresse geben Sie dort die "Umleitungs-URI" an, die OpenOlat im Abschnitt "Login via OAuth, Cloud-Dienste und soziale Netzwerke" direkt unter dem Menü "Weitere Aktionen" anzeigt.
 2. Wählen Sie den Identitätsanbieter im Menü "Weitere Aktionen".
 3. Tragen Sie im Abschnitt des Identitätsanbieters die Zugangsdaten ein, die er für OpenOlat ausgestellt hat, etwa "Client ID" und "Client secret". Mit diesen beiden Angaben weist sich OpenOlat beim Identitätsanbieter aus.
 4. Klicken Sie auf "Speichern".
 
-Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl. Mit "Entfernen" im Abschnitt des Identitätsanbieters und einer Bestätigung nehmen Sie die Anbindung wieder weg.
+Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl. Mit "Entfernen" im Abschnitt des Identitätsanbieters lösen Sie die Anbindung wieder, OpenOlat fragt vorher nach einer Bestätigung.
 
 ### Active Directory Federation Services {: #adfs}
 
@@ -32,7 +32,9 @@ Für die Anmeldung mit einem Microsoft-Konto der Organisation bringt OpenOlat zw
 - **Microsoft Azure Active Directory:** Die Konten liegen im Clouddienst von Microsoft, den Organisationen mit Microsoft 365 nutzen. Die Einrichtung beschreibt der nächste Abschnitt.
 - **Active Directory Federation Services:** Die Organisation betreibt den Anmeldedienst selbst, auf ihren eigenen Windows-Servern.
 
-Im Abschnitt "Active Directory Federation Services" tragen Sie im Feld "OAuth2 endpoint (oAuthEndpoint)" die Adresse des Anmeldedienstes Ihrer Organisation ein, zum Beispiel `https://adfs.openolat.org/adfs/oauth2`, dazu "Client ID" und "Client secret". Das "Client secret" braucht es laut Hinweis im Formular nur für ADFS 2016. Welche Version im Einsatz ist und welche Werte gelten, weiss die Stelle, die den Anmeldedienst Ihrer Organisation betreibt.
+Führt Ihre Organisation die Konten in einem Active Directory ohne diesen Anmeldedienst, binden Sie das Verzeichnis über [LDAP](Login_LDAP.de.md) an.
+
+Im Abschnitt "Active Directory Federation Services" tragen Sie im Feld "OAuth2 endpoint (oAuthEndpoint)" die Adresse des Anmeldedienstes Ihrer Organisation ein, zum Beispiel `https://adfs.openolat.org/adfs/oauth2`, dazu "Client ID" und "Client secret". "Client secret" ist kein Pflichtfeld, laut Hinweis im Formular braucht es den Wert nur für ADFS 2016. Auf der Login-Seite heisst der Eintrag "Microsoft ADFS". Welche Version im Einsatz ist und welche Werte gelten, weiss die Stelle, die den Anmeldedienst Ihrer Organisation betreibt.
 
 Laut [Dokumentation von Microsoft](https://learn.microsoft.com/de-de/windows-server/identity/ad-fs/ad-fs-overview), Stand November 2026, gehört AD FS (Active Directory-Verbunddienste) zu Windows Server, und Microsoft empfiehlt den Wechsel zum Clouddienst Microsoft Entra ID, dem früheren Azure Active Directory. Die Adressen für die Anmeldung über [OAuth 2.0](#authorization_code_flow) liegen bei AD FS unter dem Pfad `/adfs/oauth2/` ([Microsoft: OIDC-Authentifizierung mit AD FS](https://learn.microsoft.com/de-de/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs)). "Client ID" und "Client secret" entstehen bei AD FS, wenn OpenOlat dort als Client registriert wird; AD FS lässt laut [Microsoft](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adfsod/7fc51569-b46d-4aba-8ae6-bad19cb9951b) nur registrierte Clients zu.
 
@@ -40,7 +42,7 @@ Laut [Dokumentation von Microsoft](https://learn.microsoft.com/de-de/windows-ser
 
 Arbeitet Ihre Organisation mit Microsoft 365, melden sich Ihre Mitarbeitenden mit ihrem Microsoft-Konto an. Dafür fügen Sie "Microsoft Azure Active Directory" hinzu. Microsoft hat diesen Dienst in Microsoft Entra ID umbenannt, unter diesem Namen finden Sie ihn bei Microsoft. Auf der Login-Seite heisst der Eintrag "Microsoft Azure AD".
 
-Im Abschnitt "Microsoft Azure Active Directory" tragen Sie drei Angaben ein, die Microsoft für OpenOlat ausstellt: "Client ID", "Client secret" und "Verzeichnis-ID (Mandant)", die Kennung der Microsoft-365-Umgebung Ihrer Organisation. Dafür registrieren Sie OpenOlat zuerst bei Microsoft als App. Danach tragen Sie die drei Angaben in OpenOlat ein und klicken auf "Speichern". Ab dann zeigt die Login-Seite den Eintrag "Microsoft Azure AD". Die Zuordnung von Attributen braucht es bei dieser Anbindung nicht, "Attribute editieren" gibt es nur bei eigenen Providern.
+Im Abschnitt "Microsoft Azure Active Directory" tragen Sie drei Angaben ein, die Microsoft für OpenOlat ausstellt: "Client ID", "Client secret" und "Verzeichnis-ID (Mandant)", die Kennung der Microsoft-365-Umgebung Ihrer Organisation. Dafür registrieren Sie OpenOlat zuerst bei Microsoft als App. Danach tragen Sie die drei Angaben in OpenOlat ein und klicken auf "Speichern". Ab dann zeigt die Login-Seite den Eintrag "Microsoft Azure AD". Die Zuordnung von Attributen braucht es bei dieser Anbindung nicht, "Attribute editieren" gibt es nur bei [eigenen Providern](#own_provider).
 
 Die Schritte bei Microsoft in den nächsten Absätzen geben die Dokumentation von Microsoft wieder, Stand November 2026. Microsoft kann Menüs und Beschriftungen jederzeit ändern.
 
@@ -68,11 +70,11 @@ Der Mandant (Tenant) ist die Microsoft-365-Umgebung Ihrer Organisation. Im Feld 
 `Entra ID > Übersicht > Eigenschaften`<br>
 Dafür brauchen Sie bei Microsoft mindestens die Rolle "Globaler Leser".
 
-Sind das Modul "Microsoft Teams" und dessen Funktion "Terminaufzeichnung" eingeschaltet, fragt die Anmeldung über "Microsoft Azure AD" bei Microsoft eine zusätzliche Berechtigung ab, und dafür braucht es die Zustimmung der Administration Ihres Mandanten bei Microsoft, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
+Sind das Modul "Microsoft Teams" und dessen Funktion "Terminaufzeichnung" eingeschaltet, fragt die Anmeldung über "Microsoft Azure AD" bei Microsoft eine zusätzliche Berechtigung ab, und dafür braucht es die Zustimmung der Administration Ihres Mandanten bei Microsoft. Fehlt sie, scheitert die Anmeldung für Personen ohne Administratorrechte im Mandanten, siehe [Modul Microsoft Teams: Funktion "Terminaufzeichnung"](Teams_module.de.md#recording_enabled). [:octicons-tag-16:{ title="ab Release 21.1.1 (OO-9888)" }](https://track.frentix.com/issue/OO-9888)
 
 ### Switch edu-ID [:octicons-tag-16:{ title="ab Release 16.2.6 (OO-6252)" }](https://track.frentix.com/issue/OO-6252) {: #switch_eduid}
 
-Switch edu-ID ist ein persönliches Konto bei SWITCH, das einer Person auch nach einem Wechsel der Hochschule bleibt. Hochschulen in der Schweiz binden sie als Cloud-Login an, nicht über [Shibboleth](Login_Shibboleth.de.md). Mit "2-Faktor-Authentifizierung erzwingen" verlangt OpenOlat von Switch edu-ID eine Anmeldung mit zweitem Faktor; Switch edu-ID fragt die Person dann zusätzlich zum Passwort nach diesem Faktor.
+Switch edu-ID ist ein persönliches Konto bei SWITCH, das einer Person auch nach einem Wechsel der Hochschule bleibt. Hochschulen in der Schweiz binden sie als Cloud-Login an, nicht über [Shibboleth](Login_Shibboleth.de.md). Im Abschnitt "Switch edu-ID" tragen Sie "Client ID" und "Client secret" ein, die SWITCH für OpenOlat ausstellt. Mit "2-Faktor-Authentifizierung erzwingen" verlangt OpenOlat von Switch edu-ID eine Anmeldung mit zweitem Faktor; Switch edu-ID fragt die Person dann zusätzlich zum Passwort nach diesem Faktor.
 
 ### Datenlotsen {: #datenlotsen}
 
@@ -148,6 +150,7 @@ Welche Meldungen eine Person sieht, wenn die Anmeldung über den Identitätsanbi
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[LDAP >](Login_LDAP.de.md)<br>
 [Microsoft: Übersicht über AD FS >](https://learn.microsoft.com/de-de/windows-server/identity/ad-fs/ad-fs-overview)<br>
 [Microsoft: OIDC-Authentifizierung mit AD FS >](https://learn.microsoft.com/de-de/SharePoint/security-for-sharepoint-server/set-up-oidc-auth-in-sharepoint-server-with-adfs)<br>
 [Microsoft: OAuth und OpenID Connect bei AD FS >](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adfsod/7fc51569-b46d-4aba-8ae6-bad19cb9951b)<br>
@@ -159,8 +162,8 @@ Welche Meldungen eine Person sieht, wenn die Anmeldung über den Identitätsanbi
 [Microsoft: Mandanten-ID finden >](https://learn.microsoft.com/de-de/entra/fundamentals/how-to-find-tenant)<br>
 [Modul Microsoft Teams >](Teams_module.de.md)<br>
 [Shibboleth >](Login_Shibboleth.de.md)<br>
-[OpenID Connect Discovery >](https://openid.net/specs/openid-connect-discovery-1_0.html)<br>
 [OAuth 2.0, RFC 6749 >](https://datatracker.ietf.org/doc/html/rfc6749)<br>
+[OpenID Connect Discovery >](https://openid.net/specs/openid-connect-discovery-1_0.html)<br>
 [OpenID Connect Core >](https://openid.net/specs/openid-connect-core-1_0.html)<br>
 [Konto erstellen >](../usermanagement/Create_User.de.md)<br>
 [Kontoeinstellungen verwalten >](../usermanagement/Configure_User.de.md)<br>
@@ -168,7 +171,6 @@ Welche Meldungen eine Person sieht, wenn die Anmeldung über den Identitätsanbi
 
 **Weiterführend**<br>
 [Login: Übersicht >](Login/index.de.md)<br>
-[LDAP >](Login_LDAP.de.md)<br>
 [Login-Konzept >](../../manual_user/login_registration/Login_Concept.de.md)
 
 [Zum Seitenanfang ^](#cloud_login)

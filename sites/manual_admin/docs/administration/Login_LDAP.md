@@ -42,18 +42,18 @@ If a person leaves your organisation, they disappear from the directory. In the 
 - **Deactivate:** The person can no longer log in, the account remains with all data. More on this under [Deactivation and reactivation](Life_cycles_-_Administration/index.md#account_reactivation). [:octicons-tag-16:{ title="from Release 17.1.5 (OO-6649)" }](https://track.frentix.com/issue/OO-6649)
 - **Delete account:** OpenOlat deletes the accounts, see [Delete user](../usermanagement/Delete_User.md).
 
-After a click on one of the two actions, a wizard lists the accounts that are missing from the directory. You select the accounts and confirm.
+After a click on one of the two actions, a wizard lists the accounts that are missing from the directory. You select the accounts and confirm. The wizard does not list accounts with the status "Active and not deletable", and for "Deactivate" also no accounts that are already inactive. Administrators set the status of an account in the user management, see [Manage user settings](../usermanagement/Configure_User.md).
 
-Until you remove an account, the person can continue to log in with the password last used if OpenOlat keeps a copy of the LDAP password (see [Maintenance](#maintenance)).
+Until you remove an account, the person can continue to log in with the password last used if OpenOlat keeps a copy of the LDAP password, even when the directory server can be reached. You remove the copies of all LDAP accounts with "Delete cached fallback-authentications", see [Maintenance](#maintenance).
 
-The server configuration can also define that the synchronization deletes or deactivates such accounts itself. So that a fault in the directory does not affect all accounts, the synchronization then changes nothing if the entry in the directory is missing for half or more of the OpenOlat accounts with LDAP login. This limit is the default value of the server configuration. If it is reached, you remove the accounts by hand in the area "Life cycle user".
+The server configuration can also define that the synchronization deletes or deactivates such accounts itself. So that a fault in the directory does not affect all accounts, the synchronization then removes none of these accounts if the entry in the directory is missing for half or more of the OpenOlat accounts with LDAP login. This limit is the default value of the server configuration. If it is reached, you remove the accounts by hand in the area "Life cycle user".
 
 [To the top of the page ^](#ldap)
 
 
 ## Maintenance {: #maintenance}
 
-So that people can also log in when the directory server cannot be reached, OpenOlat can keep a copy of the LDAP password at login. If this copy is switched on in the server configuration, the page shows the area "Maintenance". With "Delete cached fallback-authentications" you remove the stored copies. Until a person has logged in successfully via LDAP again and OpenOlat creates the copy anew, OpenOlat checks their login only against the directory. If the directory server fails during this time, they cannot log in.
+So that people can also log in when the directory server cannot be reached, OpenOlat can keep a copy of the LDAP password at login. In the default configuration, this is switched on. If this copy is switched on in the server configuration, the page shows the area "Maintenance". With "Delete cached fallback-authentications" you remove the stored copies. Until a person has logged in successfully via LDAP again and OpenOlat creates the copy anew, OpenOlat checks their login only against the directory. If the directory server fails during this time, they cannot log in.
 
 [To the top of the page ^](#ldap)
 

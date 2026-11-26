@@ -21,18 +21,19 @@ Verfügbar seit | Release 10.2 (2015)
 
 Bevor Personen mit OpenOlat arbeiten, legen Sie fest, wie sie sich anmelden. Neben dem OpenOlat-Passwort kann ein angebundenes System die Anmeldung übernehmen, die Personen brauchen dann kein eigenes OpenOlat-Passwort. OpenOlat kennt drei solche Login-Verfahren, die nebeneinander eingeschaltet sein können:
 
-- **Cloud-Login:** Ein Identitätsanbieter wie Microsoft, Google, Keycloak oder Switch edu-ID übernimmt die Anmeldung.
-- **LDAP:** OpenOlat übernimmt die Konten aus einem Verzeichnis wie Active Directory und prüft die Anmeldung gegen dieses Verzeichnis.
-- **Shibboleth:** Personen melden sich bei ihrer Hochschule in einer Shibboleth-Föderation an.
+- **[Cloud-Login](../Login_Cloud_Login.de.md):** Ein Identitätsanbieter wie Microsoft, Google, Keycloak oder Switch edu-ID übernimmt die Anmeldung.
+- **[LDAP](../Login_LDAP.de.md):** OpenOlat übernimmt die Konten aus einem Verzeichnis wie Active Directory und prüft die Anmeldung gegen dieses Verzeichnis.
+- **[Shibboleth](../Login_Shibboleth.de.md):** Personen melden sich bei ihrer Hochschule in einer Shibboleth-Föderation an.
 
-Ein Verzeichnis wie Active Directory lässt sich auf zwei Wegen anbinden: Über LDAP übernimmt OpenOlat die Konten aus dem Verzeichnis. Über die Cloud-Login-Anbindungen "Active Directory Federation Services" und "Microsoft Azure Active Directory" (bei Microsoft heute Microsoft Entra ID) übernimmt Microsoft die Anmeldung, und OpenOlat erhält nur die Bestätigung.
+Ein Verzeichnis wie Active Directory lässt sich auf zwei Wegen anbinden: Über LDAP übernimmt OpenOlat die Konten aus dem Verzeichnis. Über die Cloud-Login-Anbindungen ["Active Directory Federation Services"](../Login_Cloud_Login.de.md#adfs) und ["Microsoft Azure Active Directory"](../Login_Cloud_Login.de.md#azure) (bei Microsoft heute Microsoft Entra ID) übernimmt Microsoft die Anmeldung, und OpenOlat erhält nur die Bestätigung. Auf der Login-Seite heissen die beiden Einträge "Microsoft ADFS" und "Microsoft Azure AD".
 
-Das Cloud-Login richten Systemadministrator:innen direkt im Menü Login ein. LDAP und Shibboleth setzen die Serverkonfiguration voraus, erst danach erscheinen sie im Menü. Die Serverkonfiguration ist die Konfigurationsdatei der Installation. Diese Datei pflegt die Stelle, die OpenOlat betreibt.
+Das Cloud-Login richten Systemadministrator:innen direkt in der System-Administration ein, unter `Administration > Login > Cloud-Login`. LDAP und Shibboleth setzen die Serverkonfiguration voraus, erst danach erscheinen sie im Menü. Die Serverkonfiguration ist die Konfigurationsdatei der Installation. Diese Datei pflegt die Stelle, die OpenOlat betreibt.
 
 ![OpenOlat-Passwort, Cloud-Login, LDAP und Shibboleth mit ihrem Ort der Einrichtung, LDAP und Shibboleth erst nach der Serverkonfiguration](../assets/login_methods_setup_v1_de.svg){ class="shadow lightbox" title="Login-Verfahren und wo sie eingerichtet werden · 2026.11.12" }
 
 Mit welchen Verfahren sich ein einzelnes Konto anmeldet, sehen Administrator:innen im Reiter "Authentifizierungen" des Kontos:<br>
-`Benutzerverwaltung > "Konto der Person" > Reiter "Authentifizierungen"`
+`Benutzerverwaltung > "Konto der Person" > Reiter "Authentifizierungen"`<br>
+Dort ergänzen oder löschen sie auch einzelne Authentifizierungen, siehe [Kontoeinstellungen verwalten](../../usermanagement/Configure_User.de.md).
 
 [Zum Seitenanfang ^](#login)
 

@@ -42,18 +42,18 @@ Verlässt eine Person Ihre Organisation, verschwindet sie aus dem Verzeichnis. I
 - **Inaktivieren:** Die Person kann sich nicht mehr anmelden, das Konto bleibt mit allen Daten erhalten. Mehr dazu unter [Deaktivierung und Reaktivierung](Life_cycles_-_Administration/index.de.md#account_reactivation). [:octicons-tag-16:{ title="ab Release 17.1.5 (OO-6649)" }](https://track.frentix.com/issue/OO-6649)
 - **Löschen:** OpenOlat löscht die Konten, siehe [Benutzer:in löschen](../usermanagement/Delete_User.de.md).
 
-Nach dem Klick auf eine der beiden Aktionen listet ein Assistent die Konten, die im Verzeichnis fehlen. Sie wählen die Konten aus und bestätigen.
+Nach dem Klick auf eine der beiden Aktionen listet ein Assistent die Konten, die im Verzeichnis fehlen. Sie wählen die Konten aus und bestätigen. Konten mit dem Status "Aktiv und nicht löschbar" führt der Assistent nicht auf, bei "Inaktivieren" auch keine Konten, die schon inaktiv sind. Den Status eines Kontos legen Administrator:innen in der Benutzerverwaltung fest, siehe [Kontoeinstellungen verwalten](../usermanagement/Configure_User.de.md).
 
-Bis Sie ein Konto entfernen, kann sich die Person mit dem zuletzt verwendeten Passwort weiter anmelden, wenn OpenOlat eine Kopie des LDAP-Passworts speichert (siehe [Wartungsfunktionen](#maintenance)).
+Bis Sie ein Konto entfernen, kann sich die Person mit dem zuletzt verwendeten Passwort weiter anmelden, wenn OpenOlat eine Kopie des LDAP-Passworts speichert, auch bei erreichbarem Verzeichnisserver. Die Kopien aller LDAP-Konten entfernen Sie mit "Authentifizierungen aus Cache löschen", siehe [Wartungsfunktionen](#maintenance).
 
-Die Serverkonfiguration kann auch festlegen, dass die Synchronisation solche Konten selbst löscht oder inaktiviert. Damit eine Störung im Verzeichnis nicht alle Konten trifft, ändert die Synchronisation dann nichts, wenn bei der Hälfte oder mehr der OpenOlat-Konten mit LDAP-Anmeldung der Eintrag im Verzeichnis fehlt. Diese Grenze ist der Standardwert der Serverkonfiguration. Wird sie erreicht, entfernen Sie die Konten im Bereich "Lebenszyklus Konten" von Hand.
+Die Serverkonfiguration kann auch festlegen, dass die Synchronisation solche Konten selbst löscht oder inaktiviert. Damit eine Störung im Verzeichnis nicht alle Konten trifft, entfernt die Synchronisation keines dieser Konten, wenn bei der Hälfte oder mehr der OpenOlat-Konten mit LDAP-Anmeldung der Eintrag im Verzeichnis fehlt. Diese Grenze ist der Standardwert der Serverkonfiguration. Wird sie erreicht, entfernen Sie die Konten im Bereich "Lebenszyklus Konten" von Hand.
 
 [Zum Seitenanfang ^](#ldap)
 
 
 ## Wartungsfunktionen {: #maintenance}
 
-Damit sich Personen auch anmelden können, wenn der Verzeichnisserver nicht erreichbar ist, kann OpenOlat beim Login eine Kopie des LDAP-Passworts speichern. Ist diese Kopie in der Serverkonfiguration eingeschaltet, zeigt die Seite den Bereich "Wartungsfunktionen". Mit "Authentifizierungen aus Cache löschen" entfernen Sie die gespeicherten Kopien. Bis sich eine Person wieder erfolgreich über LDAP angemeldet hat und OpenOlat die Kopie neu anlegt, prüft OpenOlat ihre Anmeldung nur gegen das Verzeichnis. Fällt der Verzeichnisserver in dieser Zeit aus, kann sie sich nicht anmelden.
+Damit sich Personen auch anmelden können, wenn der Verzeichnisserver nicht erreichbar ist, kann OpenOlat beim Login eine Kopie des LDAP-Passworts speichern. In der Standardkonfiguration ist das eingeschaltet. Ist diese Kopie in der Serverkonfiguration eingeschaltet, zeigt die Seite den Bereich "Wartungsfunktionen". Mit "Authentifizierungen aus Cache löschen" entfernen Sie die gespeicherten Kopien. Bis sich eine Person wieder erfolgreich über LDAP angemeldet hat und OpenOlat die Kopie neu anlegt, prüft OpenOlat ihre Anmeldung nur gegen das Verzeichnis. Fällt der Verzeichnisserver in dieser Zeit aus, kann sie sich nicht anmelden.
 
 [Zum Seitenanfang ^](#ldap)
 

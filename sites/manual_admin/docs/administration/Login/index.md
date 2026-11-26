@@ -20,18 +20,19 @@ Available since | Release 10.2 (2015)
 
 Before people work with OpenOlat, you define how they log in. Besides the OpenOlat password, a connected system can take over the login, the people then need no OpenOlat password of their own. OpenOlat knows three such login procedures, which can be switched on side by side:
 
-- **Cloud login:** An identity provider such as Microsoft, Google, Keycloak or Switch edu-ID takes over the login.
-- **LDAP:** OpenOlat takes over the accounts from a directory such as Active Directory and checks the login against this directory.
-- **Shibboleth:** People log in at their university in a Shibboleth federation.
+- **[Cloud login](../Login_Cloud_Login.md):** An identity provider such as Microsoft, Google, Keycloak or Switch edu-ID takes over the login.
+- **[LDAP](../Login_LDAP.md):** OpenOlat takes over the accounts from a directory such as Active Directory and checks the login against this directory.
+- **[Shibboleth](../Login_Shibboleth.md):** People log in at their university in a Shibboleth federation.
 
-A directory such as Active Directory can be connected in two ways: via LDAP, OpenOlat takes over the accounts from the directory. Via the cloud login integrations "Active Directory Federation Services" and "Microsoft Azure Active Directory" (at Microsoft now Microsoft Entra ID), Microsoft takes over the login, and OpenOlat only receives the confirmation.
+A directory such as Active Directory can be connected in two ways: via LDAP, OpenOlat takes over the accounts from the directory. Via the cloud login integrations ["Active Directory Federation Services"](../Login_Cloud_Login.md#adfs) and ["Microsoft Azure Active Directory"](../Login_Cloud_Login.md#azure) (at Microsoft now Microsoft Entra ID), Microsoft takes over the login, and OpenOlat only receives the confirmation. On the login page, the two entries are called "Microsoft ADFS" and "Microsoft Azure AD".
 
-System administrators set up the cloud login directly in the menu Login. LDAP and Shibboleth require the server configuration, only then do they appear in the menu. The server configuration is the configuration file of the installation. This file is maintained by the body that operates OpenOlat.
+System administrators set up the cloud login directly in the system administration, under `Administration > Login > Cloud login`. LDAP and Shibboleth require the server configuration, only then do they appear in the menu. The server configuration is the configuration file of the installation. This file is maintained by the body that operates OpenOlat.
 
 ![OpenOlat password, cloud login, LDAP and Shibboleth with their place of setup, LDAP and Shibboleth only after the server configuration](../assets/login_methods_setup_v1_en.svg){ class="shadow lightbox" title="Login procedures and where they are set up · 2026.11.12" }
 
 Administrators see the login procedures of a single account in the "Authentications" tab of the account:<br>
-`User management > "Account of the person" > Tab "Authentications"`
+`User management > "Account of the person" > Tab "Authentications"`<br>
+There they also add or delete individual authentications, see [Manage user settings](../../usermanagement/Configure_User.md).
 
 [To the top of the page ^](#login)
 
