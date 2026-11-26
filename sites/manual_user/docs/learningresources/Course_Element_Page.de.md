@@ -53,10 +53,10 @@ Im Kursbaustein Seite stehen folgende Inhaltselemente zur Wahl, geordnet wie im 
 
 Unter "Text":
 
-* **Titel:** Überschrift in einer der vordefinierten Grössen h1 bis h6.
+* **Titel:** Überschrift in einer der vordefinierten Grössen von h1 (grösste) bis h6 (kleinste).
 * **Text:** Fliesstext, den Sie mit einem kleinen HTML-Editor gestalten.
-* **Tabelle:** Inhalte in Zeilen und Spalten. Die Anzahl Zeilen und Spalten legen Sie im Inspektor fest.
-* **Mathematische Formel:** Mathematische Formeln, erstellt mit dem Formeleditor MathJax.
+* **Tabelle:** Inhalte in Zeilen und Spalten. Die Anzahl Zeilen und Spalten legen Sie im Inspektor fest, dem Einstellungsbereich rechts neben der Seite, den das Zahnrad am markierten Inhaltselement öffnet.
+* **Mathematische Formel:** Eine Formel, die Sie in einem [grafischen Formeleditor](../basic_concepts/Math_formula.de.md#insert_formula) zusammensetzen, ohne LaTeX beherrschen zu müssen.
 * **Code-Beispiel:** Programmcode, den die Seite anzeigt, ohne ihn auszuführen.
 Im Inspektor wählen Sie unter "Sprache des Codes" eine von 28 Programmiersprachen oder "Automatisch" und "Klartext" [:octicons-tag-16:{ title="ab Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}.
 ![Code-Beispiel mit Zeilennummern, im Inspektor die Auswahl Sprache des Codes mit Python](assets/course_element_page_code_v2_de.png){ class="shadow lightbox" title="Content Editor des Kursbausteins Seite · 2026.11.10" }
@@ -69,12 +69,12 @@ Unter "Medien":
 * **Bildvergleich:** Zwei übereinander liegende Bilder, die ein Schieberegler ineinander überblendet [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
 * **Video:** Eine Videodatei aus dem Media Center, neu hochgeladen oder neu aufgenommen.
 * **Audio:** Audio aus dem Media Center auswählen, neu aufnehmen oder als MP3- oder M4A-Datei hinzufügen [:octicons-tag-16:{ title="ab Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
-* **Dokument:** Word-, PowerPoint- oder Excel-Dokumente laden Sie hoch oder erstellen sie direkt. PDF und andere Dateien laden Sie hoch oder übernehmen sie aus dem Media Center.
-* **Diagramm:** draw.io-Diagramm neu erstellen oder aus der Liste auswählen [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
+* **Dokument:** Word-, PowerPoint- oder Excel-Dokumente laden Sie hoch. Hat die Administration einen Dokumenteneditor eingerichtet, erstellen Sie sie auch direkt mit "Dokument erstellen". PDF und andere Dateien laden Sie hoch oder übernehmen sie aus dem Media Center.
+* **Diagramm:** Ein Diagramm, das Sie mit dem Zeichenwerkzeug draw.io neu erstellen oder aus Ihrem Media Center auswählen [:octicons-tag-16:{ title="ab Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 
 Unter "Wissen":
 
-* **Quiz:** Bindet Quizfragen in die Seite ein, neu erstellt oder aus dem Fragenpool importiert [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. Bei Freitextfragen erhalten Lernende hier ein [KI-Feedback zu ihrer Antwort](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
+* **Quiz:** Bindet Quizfragen in die Seite ein, neu erstellt oder aus dem [Fragenpool](../area_modules/Question_Bank/index.de.md) importiert [:octicons-tag-16:{ title="ab Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. Hat die Administration die KI-Funktion eingerichtet, erhalten Lernende bei Freitextfragen hier ein [KI-Feedback zu ihrer Antwort](../basic_concepts/Content_Editor/Editor_Quiz.de.md#ai_feedback) [:octicons-tag-16:{ title="ab Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
 
 Unter "Andere & Design":
 
@@ -94,6 +94,8 @@ Damit lassen sich Inhalte aus externen Werkzeugen, einfachen Textdateien oder KI
 
 
 ## Seite editieren (Bearbeitungsmodus)
+
+Eine bestehende Seite ändern Sie auch ohne Kurseditor, direkt im Kurs: Öffnen Sie den Kursbaustein und schalten Sie über der Seite den "Bearbeitungsmodus" ein. Den Schalter sehen Kursbesitzer:innen, dazu Betreuer:innen, wenn im Tab "Seiteninhalt" unter "Berechtigungen" bei "Seite editieren" das Häkchen "Betreuer:innen" gesetzt ist. Mit "Erweiterte Konfiguration anzeigen" vergeben Sie dieses Recht auch an einzelne Rollen, Gruppen oder Benutzer:innen. Danach arbeiten Sie im selben Content Editor wie im Kurseditor.
 
 ### Layout editieren
 
@@ -123,21 +125,22 @@ Um ein Inhaltselement zu ändern, zu kopieren oder zu verschieben, klicken Sie e
 
 Bilder, Videos, Dokumente und andere Medien, die Sie in eine Seite einfügen, legt OpenOlat im [Media Center](../personal_menu/Media_Center.de.md) ab, nicht wie beim [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses. Im Media Center finden Sie alle eingefügten Medien wieder und regeln dort Verwaltung und Freigabe.
 
-Medien laden Sie im persönlichen Menü ins Media Center hoch oder direkt im Content Editor, wenn Sie ein neues Inhaltselement anlegen.
+Medien laden Sie unter `Persönliches Menü > Media Center` hoch oder direkt im Content Editor, wenn Sie ein neues Inhaltselement anlegen.
 
 
 ## Unterschiede: Seite - HTML-Seite
 
+Beide Kursbausteine bringen eigene Inhalte als Seite in den Kurs. Die Tabelle zeigt, worin sie sich unterscheiden, damit Sie den passenden wählen.
 
 |                        | Seite                          | HTML-Seite                     |
 | -----------------------| ------------------------------ | ------------------------------ |
 | Erstellung des Inhalts | im Content Editor              | im HTML-Editor                 |
-| Gestaltung             | blockbasierter Ansatz          | HTML-Seite                     |
+| Gestaltung             | Inhaltselemente in Layouts     | eine HTML-Datei                |
 | Erstellungsaufwand     | geringer, da vorstrukturiert   | teilweise höher                 |
-| Vorschau               | direkt im Editor               | separater Tab "Anzeige Inhalt" |
+| Vorschau               | direkt im Editor               | Button "Vorschau" im Tab "Seiteninhalt" |
 | Medien                 | im Media Center               | im Ablageordner                |
 | Bearbeitung durch Betreuer:innen möglich  | :material-check: | :material-check:      |
-| erweiterte Berechtigungen                     | :material-check: | :material-cancel:     |
+| Bearbeitungsrecht für Rollen, Gruppen oder einzelne Personen | :material-check: | :material-cancel:     |
 | Integration pdf        | :material-check:               | :material-check:               |
 | Integration Office-Dokumente | :material-check:         | :material-cancel:              |
 | Integration draw.io Diagramme        | :material-check: | :material-cancel:     |
@@ -146,7 +149,7 @@ Medien laden Sie im persönlichen Menü ins Media Center hoch oder direkt im Con
 
 !!! tip "Tipp"
 
-    Wollen Sie nur Office-Dokumente einbinden, eignen sich auch die Kursbausteine "Dokument" oder "Ordner".
+    Wollen Sie nur Office-Dokumente einbinden, eignen sich auch die Kursbausteine ["Dokument"](Course_Element_Document.de.md) oder ["Ordner"](Course_Element_Folder.de.md).
 
 
 !!! info "Wichtig"
@@ -156,12 +159,16 @@ Medien laden Sie im persönlichen Menü ins Media Center hoch oder direkt im Con
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Mathematische Formel >](../basic_concepts/Math_formula.de.md)<br>
+[Fragenpool: Übersicht >](../area_modules/Question_Bank/index.de.md)<br>
 [Content Editor: Quiz und KI-Feedback >](../basic_concepts/Content_Editor/Editor_Quiz.de.md)<br>
 [Content Editor: Importieren >](../basic_concepts/Content_Editor/Editor_Import.de.md)<br>
 [Content Editor: Layout >](../basic_concepts/Content_Editor/Editor_Layout.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
 [Kursbaustein "HTML-Seite" >](../learningresources/Course_Element_HTML_Page.de.md)<br>
-[Ablageordner >](../learningresources/Storage_folder.de.md)
+[Ablageordner >](../learningresources/Storage_folder.de.md)<br>
+[Kursbaustein "Dokument" >](Course_Element_Document.de.md)<br>
+[Kursbaustein "Ordner" >](Course_Element_Folder.de.md)
 
 **Weiterführend**<br>
 [Content Editor >](../basic_concepts/Content_Editor/index.de.md)<br>

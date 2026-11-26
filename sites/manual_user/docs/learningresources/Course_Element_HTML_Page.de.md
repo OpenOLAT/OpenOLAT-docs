@@ -313,7 +313,7 @@ In den angelegten HTML-Seiten ist unter "Sicherheitseinstellungen" die Option "L
 | Erstellung des Inhalts | im Content Editor              | im HTML-Editor                 |
 | Gestaltung             | blockbasierter Ansatz          | HTML-Seite                     |
 | Erstellungsaufwand     | geringer, da vorstrukturiert   | meistens höher                 |
-| Vorschau               | direkt im Editor               | separater Tab "Anzeige Inhalt" |
+| Vorschau               | direkt im Editor               | Button "Vorschau" im Tab "Seiteninhalt" |
 | Medien                 | im Media Center                | im Ablageordner                |
 | Editieren kann Betreuer:innen erlaubt werden  | :material-check: | :material-check:      |
 | erweiterte Berechtigungen                     | :material-check: | :material-cancel:     |

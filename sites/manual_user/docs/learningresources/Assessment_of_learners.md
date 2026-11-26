@@ -24,7 +24,7 @@ Course owners, coaches and members with the right ["Assessment tool"](Members_ma
 
 5. With "Next" in the top right corner, you move to the next assessable course element of this person, with "Previous" to the previous one. The menu between them carries the name of the current course element. It opens the course structure, in which you select another assessable course element directly.
 
-![Previous and Next in the top right corner, between them the menu with the current course element: navigation to the next assessable course element](assets/assessment_of_learners_next_v1_en.png){ class="shadow lightbox" title="Assessment tool, assessment form, navigation in the top right corner · 2026.11.10" }
+    ![Previous and Next in the top right corner, between them the menu with the current course element: navigation to the next assessable course element](assets/assessment_of_learners_next_v1_en.png){ class="shadow lightbox" title="Assessment tool, assessment form, navigation in the top right corner · 2026.11.10" }
 
 ## This is how you assess the solutions of a particular course element {: #assess_solutions}
 
@@ -50,7 +50,14 @@ In the assessment tool, click on "Bulk assessment" in the top right corner and t
 
 ## Filter options {: #filter_options}
 
-With filters, you narrow down the list of participants to the persons you want to assess right now. The filters are located above the table in the list of the course and in the list of each course element, for example "Status" and "Passed". In this way, you show for example only the members of a certain group or all persons who have not yet passed the course or course element.
+With filters, you narrow down the list of participants to the persons you want to assess right now. The filters are located above the table in the list of the course and in the list of each course element, for example "Status", "Passed" and, as soon as the course has groups, "Groups". In this way, you show for example only the members of a certain group or all persons who have not yet passed the course or course element.
+
+The tabs above the filters are quicker. Each tab shows a ready-made selection, "All" shows every person. Which further tabs appear depends on the course and the course element:
+
+* "Passed" and "Not passed": if the assessment uses "Passed".
+* "To review" and "To release": in course elements in which you award points or "Passed" yourself. "To review" shows the persons with the status "To review", "To release" the finished assessments that you have not yet released, that is, not yet made visible to the participants.
+* "Relevant" and "Excluded": In the [learning path course](Learning_path_course_Course_editor.md#tab_learning_path), you set for each course element whether it is "Mandatory", "Optional" or "Excluded". "Relevant" shows the persons for whom it is mandatory or optional, "Excluded" the others. In conventional courses, "Relevant" appears for course owners and as soon as entries "From participant view" exist. The tab then shows only the members of the course.
+* "Assigned to me": in the course elements "Task" and "Group task", if the [assignment coaches/participants](Course_Element_Task/Task_Setup.md#workflow_coaching) is switched on there. The tab shows the persons you coach.
 
 ## Further information {: #further_information}
 
@@ -60,7 +67,9 @@ With filters, you narrow down the list of participants to the persons you want t
 [Assessing tasks and group tasks >](Assessing_tasks_and_group_tasks.md)<br>
 [Assessment of course modules >](Assessment_of_course_modules.md)<br>
 [Course Element "Video task" >](Course_Element_Video_Task.md)<br>
-[How and where can I do a bulk assessment? >](../../manual_how-to/bulk_assessment/bulk_assessment.md)
+[How and where can I do a bulk assessment? >](../../manual_how-to/bulk_assessment/bulk_assessment.md)<br>
+[Learning path course - Course editor >](Learning_path_course_Course_editor.md)<br>
+[Set up a task >](Course_Element_Task/Task_Setup.md)
 
 **Further**<br>
 [Assessment tool - overview >](Assessment_tool_overview/index.md)<br>

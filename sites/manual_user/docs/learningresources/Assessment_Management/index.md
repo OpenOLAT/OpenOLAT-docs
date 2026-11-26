@@ -7,11 +7,11 @@ If you hold exams in a course, you define in the assessment management how parti
 You open the assessment management under:<br>
 `Course > Administration > Assessment management`
 
-The entry "Assessment management" is visible to course owners, persons with the right "Course editor" or "Assessment mode", principals and master coaches.
+The entry "Assessment management" is visible to course owners, persons with the right ["Course editor"](../Members_management.md#right_course_editor) or ["Assessment mode"](../Members_management.md#right_assessment_mode), [principals and master coaches](../../basic_concepts/Authorisation_Concept.md). Principals and master coaches see the assessment modes of the course but do not edit, start or end them.
 
 ![Menu Administration with the entry Assessment management, next to it the tabs Configuration assessment mode and Configuration assessment inspection, which lead to both configurations](../assets/assessment_management_overview_v2_en.png){ class="shadow lightbox" title="Assessment management tool of a course · 2026.11.10" }
 
-Which tabs the assessment management shows is set by system administrators in the system administration, with the switches "Enable assessment mode" and "Enable assessment inspection":<br>
+Which tabs the assessment management shows is set by system administrators in the [system administration](../../../manual_admin/administration/e-Assessment_AssessmentMgmt.md), with the switches "Enable assessment mode" and "Enable assessment inspection":<br>
 `Administration > e-Assessment > Assessment management > Tab "Assessment management configuration"`
 
 The tab "Configuration assessment mode" appears when the assessment mode is enabled, the tab "Configuration assessment inspection" when the assessment inspection is enabled. If only one of the two switches is enabled, the assessment management opens its configuration directly, without tabs. The assessment inspection is therefore also available without the assessment mode. The entry "Assessment management" appears in the "Administration" menu as soon as one of the two switches is enabled.

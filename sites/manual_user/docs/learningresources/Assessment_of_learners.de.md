@@ -24,7 +24,7 @@ Kursbesitzer:innen, Betreuer:innen und Mitglieder mit dem Recht ["Bewertungs-Wer
 
 5. Mit "Weiter" rechts oben wechseln Sie zum nächsten bewertbaren Kursbaustein dieser Person, mit "Zurück" zum vorherigen. Das Menü dazwischen trägt den Namen des aktuellen Kursbausteins. Es öffnet die Kursstruktur, in der Sie einen anderen bewertbaren Kursbaustein direkt auswählen.
 
-![Zurück und Weiter rechts oben, dazwischen das Menü mit dem aktuellen Kursbaustein: Wechsel zum nächsten bewertbaren Kursbaustein](assets/assessment_of_learners_next_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug, Bewertungsformular, Navigation rechts oben · 2026.11.10" }
+    ![Zurück und Weiter rechts oben, dazwischen das Menü mit dem aktuellen Kursbaustein: Wechsel zum nächsten bewertbaren Kursbaustein](assets/assessment_of_learners_next_v1_de.png){ class="shadow lightbox" title="Bewertungswerkzeug, Bewertungsformular, Navigation rechts oben · 2026.11.10" }
 
 ## So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein {: #assess_solutions}
 
@@ -50,7 +50,14 @@ Klicken Sie im Bewertungswerkzeug rechts oben auf "Massenbewertung" und danach a
 
 ## Filtermöglichkeiten {: #filter_options}
 
-Mit Filtern grenzen Sie die Liste der Teilnehmenden auf die Personen ein, die Sie gerade bewerten wollen. Die Filter stehen in der Liste des Kurses und in der Liste jedes Kursbausteins über der Tabelle, zum Beispiel "Status" und "Bestanden". So zeigen Sie etwa nur die Mitglieder einer bestimmten Gruppe oder alle Personen, die den Kurs oder Kursbaustein noch nicht bestanden haben.
+Mit Filtern grenzen Sie die Liste der Teilnehmenden auf die Personen ein, die Sie gerade bewerten wollen. Die Filter stehen in der Liste des Kurses und in der Liste jedes Kursbausteins über der Tabelle, zum Beispiel "Status", "Bestanden" und, sobald der Kurs Gruppen hat, "Gruppen". So zeigen Sie etwa nur die Mitglieder einer bestimmten Gruppe oder alle Personen, die den Kurs oder Kursbaustein noch nicht bestanden haben.
+
+Schneller geht es mit den Tabs über den Filtern. Jeder Tab zeigt eine fertige Auswahl, "Alle" zeigt jede Person. Welche weiteren Tabs erscheinen, hängt vom Kurs und vom Kursbaustein ab:
+
+* "Bestanden" und "Nicht bestanden": wenn die Bewertung "Bestanden" vorsieht.
+* "Zu korrigieren" und "Freizugeben": in Kursbausteinen, in denen Sie Punkte oder "Bestanden" selbst vergeben. "Zu korrigieren" zeigt die Personen mit dem Status "Korrigieren", "Freizugeben" die fertigen Bewertungen, die Sie noch nicht freigegeben, also für die Teilnehmenden noch nicht sichtbar gemacht haben.
+* "Relevant" und "Ausgenommen": Im [Lernpfadkurs](Learning_path_course_Course_editor.de.md#tab_learning_path) legen Sie je Kursbaustein fest, ob er "Obligatorisch", "Freiwillig" oder "Ausgenommen" ist. "Relevant" zeigt die Personen, für die er obligatorisch oder freiwillig ist, "Ausgenommen" die übrigen. In herkömmlichen Kursen erscheint "Relevant" für Kursbesitzer:innen und sobald Einträge "Aus Teilnehmer:innenansicht" vorliegen. Der Tab zeigt dann nur die Mitglieder des Kurses.
+* "Mir zugewiesen": in den Kursbausteinen "Aufgabe" und "Gruppenaufgabe", wenn dort die [Zuweisung Betreuende/Teilnehmende](Course_Element_Task/Task_Setup.de.md#workflow_coaching) eingeschaltet ist. Der Tab zeigt die Personen, die Sie betreuen.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -60,7 +67,9 @@ Mit Filtern grenzen Sie die Liste der Teilnehmenden auf die Personen ein, die Si
 [Aufgaben und Gruppenaufgaben bewerten >](Assessing_tasks_and_group_tasks.de.md)<br>
 [Bewertung von Kursbausteinen >](Assessment_of_course_modules.de.md)<br>
 [Kursbaustein "Videoaufgabe" >](Course_Element_Video_Task.de.md)<br>
-[Wie und wo kann ich eine Massenbewertung vornehmen? >](../../manual_how-to/bulk_assessment/bulk_assessment.de.md)
+[Wie und wo kann ich eine Massenbewertung vornehmen? >](../../manual_how-to/bulk_assessment/bulk_assessment.de.md)<br>
+[Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)<br>
+[Aufgabe einrichten >](Course_Element_Task/Task_Setup.de.md)
 
 **Weiterführend**<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>

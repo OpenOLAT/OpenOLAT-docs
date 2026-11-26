@@ -1,12 +1,14 @@
 # Form elements {: #form_elements} 
 
-You build a form from elements in the [form editor](../Form_Editor/index.md). Via "Add content", you add the following elements to a layout:
+You build a form from elements in the [form editor](../Form_Editor/index.md): headings, texts, questions and images, plus elements for details about the respondent or the responsible coach. Every element sits in a [container](#form_element_container), which the form editor calls "Layout". Via "Add content", you open the dialog with the elements, arranged in the groups "Text", "Question types", "Organisational", "Media" and "Other & design". Each element is described in a section of its own on this page.
+
+You set the settings of an element in the inspector. It opens to the right of the form when you click on the element and then on the gear wheel that appears above the element.
 
 ![Content elements in the groups Text, Question type, Organisational, Media and Other & design, from which you choose the element you need](../assets/form_content_types_v2_en.png){ class="shadow lightbox" title="Dialog Add content in the form editor · 2026.11.10" }
 
-You set the elements of the group "Question types" to "Mandatory" or "Optional". Participants fill in a mandatory element before they finish the form. An optional element may stay empty.
+You set the elements of the group "Question types" to "Mandatory" or "Optional" under "Obligation" in the inspector. Participants fill in a mandatory element before they finish the form. An optional element may stay empty.
 
-Many elements can be placed in an [alert box](#form_element_alert_box) in the "Style" tab. In the "Layout" tab, you set the distance to the other elements.
+Many elements can be placed in an [alert box](#form_element_alert_box) in the "Style" tab. In the "Layout" tab of an element, you set its distance to the other elements.
 
 ---
 
@@ -23,7 +25,7 @@ With the element "Title", you structure the form with headings. You choose the s
 
 ## Text {: #form_element_text} 
 
-With the element "Text", you add information or questions to the form. A small editor formats the text and inserts links and bullet points.
+With the element "Text", you add information or questions to the form. In a small editor, you format the text and insert links and bullet points. In the inspector, tab "Style", you spread the text over up to four columns under "Columns".
 
 ![Text element with the toolbar for formatting, next to it the inspector with Columns and the switch Alert box](../assets/form_content_inspector_v2_en.png){ class="shadow lightbox" title="Text element in the form editor, inspector, tab Style · 2026.11.10" }
 
@@ -34,7 +36,7 @@ With the element "Text", you add information or questions to the form. A small e
 
 ## Table [:octicons-tag-16:{ title="from Release 13.2 (OO-3856)" }](https://track.frentix.com/issue/OO-3856) {: #form_element_tabelle} 
 
-With the element "Table", you present information clearly in rows and columns. In the inspector, you set among other things "Row", "Column", "Row header" and "Column header".
+With the element "Table", you present information clearly in rows and columns. In the inspector, tab "General", you set the number of rows and columns under "Row" and "Column". Under "Data grid", you tick "Row header" or "Column header", under "Row style" "Striped" or "Bordered". Under "Color", you give the table a colored appearance or leave it without color with "None".
 
 ![Table with caption, header row and three rows, next to it the inspector, in which you set Row, Column, Row header and Column header](../assets/form_content_table_v2_en.png){ class="shadow lightbox" title="Table element in the form editor, inspector, tab General · 2026.11.10" }
 
@@ -60,14 +62,15 @@ How you configure a rubric is described on the page [The form element rubric](..
 In a single choice, participants select exactly one option from a list.
 
 * With the button "Add choice", you add further options.
-* With the arrows, you move an entry up or down.
+* With the arrows in the column "Move", you move an entry up or down.
+* In the column "Delete", you remove an entry.
 * Under "Presentation", you choose whether the options appear "Vertical", "Horizontal" or as a "Dropdown".
 
 !!! tip "Tip"
 
     Write the question for the selection in a separate element "Text". The same applies to the multiple choice.
 
-The single choice can be the condition of a [question rule](../Form_Question_Rules.md). Depending on the selected answer, the form then shows certain containers with their contents.
+The single choice can be the condition of a [question rule](../Form_Question_Rules.md). Depending on the selected answer, the form then shows the containers that you define in the question rule, with their contents.
 
 In the inspector, give the element a meaningful name under "Name" so that you find it again in the question rules.
 
@@ -83,11 +86,12 @@ In the inspector, give the element a meaningful name under "Name" so that you fi
 In a multiple choice, participants select one or more options from a list.
 
 * With the button "Add choice", you add further options.
-* With the arrows, you move an entry up or down.
+* With the arrows in the column "Move", you move an entry up or down.
+* In the column "Delete", you remove an entry.
 * Under "Presentation", you choose whether the options appear "Vertical", "Horizontal" or as a "Dropdown".
-* With the option "Participant can insert other values", participants add their own answers.
+* With the option "Participant can insert other values", participants add their own answers. They then also see the option "Others". If they tick it, they enter their answer in a text field.
 
-The multiple choice can be the condition of a [question rule](../Form_Question_Rules.md). Depending on the selected answer, the form then shows certain containers with their contents.
+The multiple choice can be the condition of a [question rule](../Form_Question_Rules.md). Depending on the selected answer, the form then shows the containers that you define in the question rule, with their contents.
 
 In the inspector, give the element a meaningful name under "Name" so that you find it again in the question rules.
 
@@ -100,10 +104,11 @@ In the inspector, give the element a meaningful name under "Name" so that you fi
 
 ## Text block {: #form_element_text_input}
 
-In the element "Text block", participants enter their own text in a free text field.
+In the element "Text block", participants enter their own text in a free text field. Unlike the element "Text", which displays information, the text block is an input field.
 
 * Under "Input type", you set whether participants enter "Text" or a number ("Numeric"). For a date, add the separate element [Date / Time](#form_element_date_input).
-* Under "Row type", you choose "Single row" or "Multiple rows".
+* With "Text", you choose "Single row" or "Multiple rows" under "Row type". With "Multiple rows", you set under "Rows" how many rows high the field is.
+* With "Numeric", you limit the input with "Minimum" and "Maximum".
 
 ![Free text field of the element Text block, highlighted in the inspector are Input type with Text and Numeric and the Row type](../assets/form_content_text_input_v2_en.png){ class="shadow lightbox" title="Text block element in the form editor, inspector, tab General · 2026.11.10" }
 
@@ -185,6 +190,8 @@ Under "Obligation", you choose one of three variants:
 
 With the element "Terms of use", you add a letter of agreement with a checkbox to the form. Participants tick it before they finish the form. They can save the form in between before that.
 
+You enter the text in the field "Letter of agreement" and the sentence next to the checkbox in the field "Agreement label". Both fields contain a suggestion that you adapt.
+
 ![Terms of use element with the text of the letter of agreement and the label that appears next to the checkbox](../assets/form_content_terms_of_use_v2_en.png){ class="shadow lightbox" title="Terms of use element in the form editor · 2026.11.10" }
 
 [To the top of the page ^](#form_elements)
@@ -240,7 +247,7 @@ The separator is a fine dividing line that structures your form into areas.
 
 A container holds the elements of the form in columns and rows. In the form editor, it is called "Layout": every element sits in a container, and a new form already contains one with one column. You do not add a further container via "Add content" but with the button "Add a new layout".
 
-In the inspector of the container, you set:
+In the inspector of the container, you set in three tabs:
 
 * **Layout**: the layout template, that is the division into columns and rows
 * **Name**: the name by which you select the container in the [question rules](../Form_Question_Rules.md)
@@ -261,7 +268,7 @@ With the alert box, you highlight an element, for example an important text or a
 
 ![Text element in an alert box with title and icon, highlighted in the inspector are Alert box, Type, Title, With icon and Collapsible](../assets/form_content_text_box_v2_en.png){ class="shadow lightbox" title="Alert box of a text element in the form editor, inspector, tab Style · 2026.11.10" }
 
-If the switch "Alert box" is switched on, you set the following settings.
+If the switch "Alert box" is switched on, you define the following options.
 
 #### Type {: #alert_box_type}
 

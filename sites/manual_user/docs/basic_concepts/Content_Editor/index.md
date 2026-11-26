@@ -17,7 +17,7 @@ The Content Editor is used in several places in OpenOlat. Who uses it depends on
 
 Each task in the Content Editor has its own page:
 
-| Page | What for |
+| Topic | Purpose |
 |---|---|
 | [Layout](Editor_Layout.md) | Divide a page into areas, arrange content in them and set spacing, background and alert boxes. |
 | [Add content](Editor_Add_Content.md) | Insert texts, images, videos, documents and other content, also from your Media Center, the store for your media files. |
@@ -45,13 +45,13 @@ The switch "Edit mode" turns editing of the page on and off.
 
 **In the course editor:**
 
-![Three marked steps: course element Page, tab Page content, button Edit page.](../assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" title="Course element Page in the course editor" }
+![Tab Page content with the button Edit page, below it the section Rights with the option for coaches](../../learningresources/assets/course_element_page_tab_page_content_v1_en.png){ class="shadow lightbox" title="Course element Page in the course editor" }
 
 In the tab "Page content" you define under "Rights" whether, in addition to course owners, coaches may also edit the page when the course editor is closed: option "Edit page" for "Coach". With "Show advanced configuration" you additionally grant the right to individual roles, groups or users, optionally with a start and end.
 
-![The option Edit page is ticked for coaches.](../assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" title="Page content tab of the course element Page" }
+![Tab Page content in the course editor: under Rights, Edit page is ticked for Coach, so coaches can also edit the page when the course editor is closed](../assets/content_editor_page_edit_right_coach_v1_en.png){ class="shadow lightbox" title="Page content tab of the course element Page in the course editor · 2026.11.26" }
 
-OpenOlat stores the media content of the [Course Element "Page"](../../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, citations, documents, etc.) in the [Media Center](../../personal_menu/Media_Center.md), not in the course’s storage folder as with the [Course Element "HTML Page"](../../learningresources/Course_Element_HTML_Page.md).
+OpenOlat stores the media content of the [course element "Page"](../../learningresources/Course_Element_Page.md) (images, audio, video, diagrams, citations, documents, etc.) in the [Media Center](../../personal_menu/Media_Center.md), not in the course’s storage folder as with the [course element "HTML page"](../../learningresources/Course_Element_HTML_Page.md).
 
 The media of a portfolio binder are also stored in the Media Center. The learning resource "Form", by contrast, stores images in the learning resource itself.
 
@@ -62,24 +62,24 @@ The media of a portfolio binder are also stored in the Media Center. The learnin
 
 ### Learning resource form {: #form}
 
-The [learning resource Form](../../learningresources/Form/index.md) and all elements that use a form also use the Content Editor.
+You also put together the questions and texts of a [learning resource Form](../../learningresources/Form/index.md) in the Content Editor, under: `Form > Administration > Form editor`. This applies to every form, including one you later embed in a [course element "Form"](../../learningresources/Course_Element_Form.md) or ["Survey"](../../learningresources/Course_Element_Survey.md).
 
-The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
+The dialog "Add content" is adapted to the form: besides "Text", "Media" and "Other & design" it offers the groups "Question type" and "Organisational". Which elements a form holds is described on the page [Form elements](../../learningresources/Form_Elements/index.md).
 
-![The Add content dialog in the form editor with the additional group Question type.](../assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Add content dialogue in the form editor" }
+![Dialog Add content with the additional groups Question type and Organisational, for example Rubric, Single choice and Terms of use](../../learningresources/assets/form_content_types_v2_en.png){ class="shadow lightbox" title="Add content dialog in the form editor" }
 
 [To the top of the page ^](#content_editor)
 
 ---
 
 
-### E-portfolio [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
+### Portfolio 2.0 [:octicons-tag-16:{ title="from Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-The Content Editor is also used for entries in [binders](../../area_modules/My_portfolio_binders.md), which can be used both independently of a course and in conjunction with [portfolio templates](../../learningresources/Portfolio_template_Creation.md) and [portfolio tasks](../../learningresources/Course_Element_Portfolio_Task.md).
+In Portfolio 2.0, your personal area for binders, you design the entries in your [binders](../../area_modules/My_portfolio_binders.md) with the Content Editor, whether the binder is independent of a course or comes from a [portfolio template](../../learningresources/Portfolio_template_Creation.md) or a [portfolio task](../../learningresources/Course_Element_Portfolio_Task.md). Like every page, an entry starts with a layout that you select via "Add a new layout".
 
 ![Selection of the layout templates with nine grids, opened via Insert new layout.](../assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" title="Layout templates of a portfolio binder" }
 
-[Portfolio >](../../area_modules/The_portfolio_editor_17_1.md)
+[The Portfolio Editor >](../../area_modules/The_portfolio_editor_17_1.md)
 
 [To the top of the page ^](#content_editor)
 

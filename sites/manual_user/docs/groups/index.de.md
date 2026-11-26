@@ -18,6 +18,12 @@
 
 In Gruppen arbeiten Personen zusammen: in einem Kurs, über mehrere Kurse hinweg oder ganz unabhängig von Kursen. Jede Gruppe konfigurieren Sie für ihren Zweck. Dieses Kapitel beschreibt, wie Sie Gruppen für verschiedene Verwendungszwecke konfigurieren und nutzen.
 
+## Steckbrief {: #profile}
+
+Name | Gruppen
+---------|----------
+Verfügbar seit | Release 7.1 oder früher
+
 [Zum Seitenanfang ^](#groups)
 
 ---
@@ -25,10 +31,10 @@ In Gruppen arbeiten Personen zusammen: in einem Kurs, über mehrere Kurse hinweg
 
 ## Wo findet man die OpenOlat Gruppen? {: #where}
 
-Die Gruppen, in denen Sie Mitglied sind, erreichen Sie über den Eintrag "Gruppen" in der Hauptnavigation. Der Tab "Meine Gruppen" listet Ihre aktiven Gruppen:<br>
+Die Gruppen, in denen Sie Mitglied sind, erreichen Sie über den Eintrag "Gruppen" in der Hauptnavigation. Den Eintrag sehen alle angemeldeten Benutzer:innen ausser Gästen und Konten mit der Rolle [Einladung](../basic_concepts/Assign_Roles.de.md#role_assignment_invitee), also externen Personen, die über eine Einladung Zugang zu einem Kurs oder einer Mappe erhalten haben. Der Tab "Meine Gruppen" listet Ihre aktiven Gruppen:<br>
 `Gruppen > Meine Gruppen`
 
-Die übrigen Tabs zeigen weitere Ausschnitte. "Favoriten" zeigt die Gruppen, die Sie mit dem Symbol "Bookmark hinzufügen" in der Liste markiert haben, "Inaktive Gruppen" Ihre inaktiven Gruppen. "Veröffentlichte Gruppen" zeigt veröffentlichte Gruppen, in denen Sie noch kein Mitglied sind und denen Sie beitreten können. Unter "Suche" finden Sie Gruppen über einen Suchbegriff.
+Die übrigen Tabs zeigen weitere Ausschnitte. "Favoriten" zeigt die Gruppen, die Sie mit dem Symbol "Bookmark hinzufügen" in der Liste markiert haben, "Inaktive Gruppen" Ihre inaktiven Gruppen. Inaktiv wird eine Gruppe von Hand oder über den [automatischen Gruppen-Lebenszyklus](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md), der nicht benutzte Gruppen nach einer Frist inaktiviert. "Veröffentlichte Gruppen" zeigt veröffentlichte Gruppen, in denen Sie noch kein Mitglied sind und denen Sie beitreten können. Unter "Suche" finden Sie Gruppen über einen Suchbegriff.
 
 Bei vielen Gruppen behalten Sie mit den Filtern den Überblick, etwa mit "Name" oder "Veröffentlicht". Die Filterleiste klappen Sie mit dem kleinen Pfeil unter den Tabs auf und zu.
 
@@ -38,8 +44,10 @@ In der Liste können Sie
 
 * eine Gruppe verlassen, mit "Verlassen" in der Zeile der Gruppe
 * eine Gruppe löschen, in der Sie Betreuer:in sind: über :o_icon_o_icon_actions: am Ende der Zeile mit "Löschen". Wer eine Gruppe erstellt, ist ihre Betreuer:in.
-* nach einem Klick auf eine Gruppe ihre Mitglieder sehen und, sofern die Gruppe es erlaubt, mit ihnen Kontakt aufnehmen
-* die Werkzeuge der Gruppe nutzen
+* nach einem Klick auf eine Gruppe ihre Mitglieder sehen und mit ihnen Kontakt aufnehmen, sofern die Betreuer:innen das in der [Gruppenadministration](Group_Administration/index.de.md#members) eingestellt haben
+* die [Werkzeuge der Gruppe](Using_Group_Tools.de.md) nutzen, etwa Forum, Ordner oder Kalender
+
+Dürfen Sie Gruppen erstellen, steht oben rechts der Button "Gruppe erstellen". Wer Gruppen erstellen darf und wie es geht, beschreibt die Seite [Gruppen erstellen](Create_Groups.de.md).
 
 [Zum Seitenanfang ^](#groups)
 
@@ -60,9 +68,9 @@ Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammenbleibt
 
 Gruppen entstehen auch ganz unabhängig von Kursen, etwa für den Austausch über gemeinsame Interessen. So bilden alle Lehrenden eines Fachgebiets eine gemeinsame Gruppe, oder Lernende bilden in Eigeninitiative Gruppen zur Prüfungsvorbereitung.
 
-### Managed Groups
+### Extern verwaltete Gruppen [:octicons-tag-16:{ title="ab Release 9.0 (OO-623)" }](https://track.frentix.com/issue/OO-623) {: #managed-groups}
 
-Eine zusätzliche Software wie der Syncher legt Gruppen an und weist ihnen die Mitglieder automatisch zu. So übernimmt OpenOlat Gruppen, die in anderen Systemen schon bestehen.
+Extern verwaltete Gruppen (Managed Groups) legt ein anderes System an, zum Beispiel der fxSyncher, und weist ihnen die Mitglieder automatisch zu. So übernimmt OpenOlat Gruppen, die in anderen Systemen schon bestehen. Die Angaben, die das externe System pflegt, etwa Titel oder Mitglieder, sind in OpenOlat gesperrt und werden im externen System geändert. Für eine Änderung wenden Sie sich an Ihre Organisation.
 
 
 !!! note "Hinweis"

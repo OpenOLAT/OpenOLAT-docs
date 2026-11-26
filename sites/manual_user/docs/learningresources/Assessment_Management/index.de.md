@@ -7,11 +7,11 @@ Wer in einem Kurs Prüfungen abnimmt, legt in der Prüfungsverwaltung fest, wie 
 Sie öffnen die Prüfungsverwaltung unter:<br>
 `Kurs > Administration > Prüfungsverwaltung`
 
-Den Eintrag "Prüfungsverwaltung" sehen Kursbesitzer:innen, Personen mit dem Recht "Kurseditor" oder "Prüfungsmodus" sowie Principals und Klassenlehrer:innen.
+Den Eintrag "Prüfungsverwaltung" sehen Kursbesitzer:innen, Personen mit dem Recht ["Kurseditor"](../Members_management.de.md#right_course_editor) oder ["Prüfungsmodus"](../Members_management.de.md#right_assessment_mode) sowie [Principals und Klassenlehrer:innen](../../basic_concepts/Authorisation_Concept.de.md). Principals und Klassenlehrer:innen sehen die Prüfungsmodi des Kurses, bearbeiten, starten und beenden sie aber nicht.
 
 ![Menü Administration mit dem Eintrag Prüfungsverwaltung, daneben die Tabs Konfiguration Prüfungsmodus und Konfiguration Prüfungseinsicht, über die Sie beide Konfigurationen erreichen](../assets/assessment_management_overview_v2_de.png){ class="shadow lightbox" title="Werkzeug Prüfungsverwaltung eines Kurses · 2026.11.10" }
 
-Welche Tabs die Prüfungsverwaltung zeigt, legen Systemadministrator:innen in der System-Administration fest, mit den Schaltern "Prüfungsmodus einschalten" und "Prüfungseinsicht einschalten":<br>
+Welche Tabs die Prüfungsverwaltung zeigt, legen Systemadministrator:innen in der [System-Administration](../../../manual_admin/administration/e-Assessment_AssessmentMgmt.de.md) fest, mit den Schaltern "Prüfungsmodus einschalten" und "Prüfungseinsicht einschalten":<br>
 `Administration > e-Assessment > Prüfungsverwaltung > Tab "Prüfungsverwaltung Konfiguration"`
 
 Der Tab "Konfiguration Prüfungsmodus" erscheint bei eingeschaltetem Prüfungsmodus, der Tab "Konfiguration Prüfungseinsicht" bei eingeschalteter Prüfungseinsicht. Ist nur einer der beiden Schalter eingeschaltet, öffnet die Prüfungsverwaltung direkt dessen Konfiguration, ohne Tabs. Die Prüfungseinsicht steht damit auch ohne Prüfungsmodus zur Verfügung. Der Eintrag "Prüfungsverwaltung" erscheint im Menü "Administration", sobald einer der beiden Schalter eingeschaltet ist.

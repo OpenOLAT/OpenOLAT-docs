@@ -313,7 +313,7 @@ In the created HTML pages, the option "Allow links in the entire storage folder"
 | Creation of the content | in Content Editor              | in HTML editor                 |
 | Design             | block-based approach          | HTML page                     |
 | Production effort     | lower, as pre-structured   | mostly higher                 |
-| Preview               | directly in editor               | separate tab "Display content" |
+| Preview               | directly in editor               | button "Preview" in the tab "Page content" |
 | Media                 | in the Media Center           | in the storage folder                |
 | Editing can be allowed for coaches  | :material-check: | :material-check:      |
 | Extended authorizations                    | :material-check: | :material-cancel:     |

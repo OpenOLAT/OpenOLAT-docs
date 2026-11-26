@@ -17,7 +17,7 @@ Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet. Wer ihn 
 
 Für jede Aufgabe im Content Editor gibt es eine eigene Seite:
 
-| Seite | Wozu |
+| Thema | Wozu |
 |---|---|
 | [Layout](Editor_Layout.de.md) | Eine Seite in Bereiche gliedern, Inhalte darin anordnen und Abstände, Hintergrund und Hinweis-Boxen festlegen. |
 | [Inhalt hinzufügen](Editor_Add_Content.de.md) | Texte, Bilder, Videos, Dokumente und weitere Inhalte einfügen, auch aus Ihrem Media Center, der Ablage für Ihre Mediendateien. |
@@ -46,11 +46,11 @@ Der Schalter "Bearbeitungsmodus" schaltet die Bearbeitung der Seite ein und aus.
 
 **Im Kurseditor:**
 
-![Drei markierte Schritte: Kursbaustein Seite, Tab Seiteninhalt, Button Seite editieren.](../assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" title="Kursbaustein Seite im Kurseditor" }
+![Tab Seiteninhalt mit dem Button Seite editieren, darunter der Abschnitt Berechtigungen mit der Option für Betreuer:innen](../../learningresources/assets/course_element_page_tab_page_content_v1_de.png){ class="shadow lightbox" title="Kursbaustein Seite im Kurseditor" }
 
 Im Tab "Seiteninhalt" legen Sie unter "Berechtigungen" fest, ob neben den Kursbesitzer:innen auch Betreuer:innen die Seite bei geschlossenem Kurseditor bearbeiten dürfen: Option "Seite editieren" für "Betreuer:innen". Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht zusätzlich an einzelne Rollen, Gruppen oder Benutzer:innen, auf Wunsch mit Beginn und Ende.
 
-![Die Option Seite editieren ist für Betreuer:innen angehakt.](../assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" title="Tab Seiteninhalt des Kursbausteins Seite" }
+![Tab Seiteninhalt im Kurseditor: Unter Berechtigungen ist Seite editieren für Betreuer:innen angehakt, so bearbeiten Betreuer:innen die Seite auch bei geschlossenem Kurseditor](../assets/content_editor_page_edit_right_coach_v2_de.png){ class="shadow lightbox" title="Tab Seiteninhalt des Kursbausteins Seite im Kurseditor · 2026.11.26" }
 
 Die Medien-Inhalte des [Kursbausteins "Seite"](../../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente usw.) speichert OpenOlat im [Media Center](../../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses wie beim [Kursbaustein "HTML-Seite"](../../learningresources/Course_Element_HTML_Page.de.md).
 
@@ -63,24 +63,24 @@ Auch die Medien einer Portfolio-Mappe liegen im Media Center. Die Lernressource 
 
 ### Lernressource Formular {: #form}
 
-Auch die [Lernressource Formular](../../learningresources/Form/index.de.md) und alle Elemente, die ein Formular nutzen, verwenden den Content Editor.
+Auch die Fragen und Texte einer [Lernressource Formular](../../learningresources/Form/index.de.md) stellen Sie im Content Editor zusammen, unter: `Formular > Administration > Formulareditor`. Das gilt für jedes Formular, auch für eines, das Sie später in einen [Kursbaustein "Formular"](../../learningresources/Course_Element_Form.de.md) oder ["Umfrage"](../../learningresources/Course_Element_Survey.de.md) einbinden.
 
-Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
+Der Dialog "Inhalt hinzufügen" ist an das Formular angepasst: Neben "Text", "Medien" und "Andere & Design" bietet er die Gruppen "Fragetypen" und "Organisatorisch". Welche Elemente ein Formular aufnimmt, beschreibt die Seite [Formular-Elemente](../../learningresources/Form_Elements/index.de.md).
 
-![Der Dialog Inhalt hinzufügen im Formulareditor mit der zusätzlichen Gruppe Fragetypen.](../assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" }
+![Dialog Inhalt hinzufügen mit den zusätzlichen Gruppen Fragetypen und Organisatorisch, etwa Rubrik, Einzelauswahl und Nutzungsbedingungen](../../learningresources/assets/form_content_types_v2_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" }
 
 [Zum Seitenanfang ^](#content_editor)
 
 ---
 
 
-### E-Portfolio [:octicons-tag-16:{ title="ab Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
+### Portfolio 2.0 [:octicons-tag-16:{ title="ab Release 11.0 (OO-2057)" }](https://track.frentix.com/issue/OO-2057){:target="_blank"} {: #portfolio}
 
-Auch für Einträge in [Mappen](../../area_modules/My_portfolio_binders.de.md), die sowohl kursunabhängig als auch in Verbindung mit [Portfoliovorlagen](../../learningresources/Portfolio_template_Creation.de.md) und [Portfolioaufgaben](../../learningresources/Course_Element_Portfolio_Task.de.md) verwendet werden können, wird der Content Editor verwendet.
+Im Portfolio 2.0, Ihrem persönlichen Bereich für Mappen, gestalten Sie die Einträge in Ihren [Mappen](../../area_modules/My_portfolio_binders.de.md) mit dem Content Editor, ob die Mappe kursunabhängig ist oder aus einer [Portfoliovorlage](../../learningresources/Portfolio_template_Creation.de.md) oder [Portfolioaufgabe](../../learningresources/Course_Element_Portfolio_Task.de.md) stammt. Ein Eintrag beginnt wie jede Seite mit einem Layout, das Sie über "Neues Layout einfügen" wählen.
 
 ![Auswahl der Layout-Vorlagen mit neun Rastern, geöffnet über Neues Layout einfügen.](../assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" title="Layout-Vorlagen einer Portfolio-Mappe" }
 
-[Portfolio >](../../area_modules/The_portfolio_editor_17_1.de.md)
+[Der Portfolio Editor >](../../area_modules/The_portfolio_editor_17_1.de.md)
 
 [Zum Seitenanfang ^](#content_editor)
 

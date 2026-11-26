@@ -18,6 +18,12 @@
 
 In groups, persons work together: in a course, across several courses or completely independently of courses. You configure each group for its purpose. This chapter describes how to configure and use groups for different purposes.
 
+## Profile {: #profile}
+
+Name | Groups
+---------|----------
+Available since | Release 7.1 or earlier
+
 [To the top of the page ^](#groups)
 
 ---
@@ -25,10 +31,10 @@ In groups, persons work together: in a course, across several courses or complet
 
 ## Where to find OpenOlat groups? {: #where}
 
-You reach the groups in which you are a member via the entry "Groups" in the main navigation. The tab "My groups" lists your active groups:<br>
+You reach the groups in which you are a member via the entry "Groups" in the main navigation. All logged-in users see the entry, except guests and accounts with the role [Invitee](../basic_concepts/Assign_Roles.md#role_assignment_invitee), that is, external persons who have received access to a course or a binder via an invitation. The tab "My groups" lists your active groups:<br>
 `Groups > My groups`
 
-The other tabs show further selections. "Favourites" shows the groups you have marked with the icon "Add bookmark" in the list, "Inactive groups" your inactive groups. "Published groups" shows published groups in which you are not yet a member and which you can join. Under "Search" you find groups with a search term.
+The other tabs show further selections. "Favourites" shows the groups you have marked with the icon "Add bookmark" in the list, "Inactive groups" your inactive groups. A group becomes inactive manually or via the [automatic group life cycle](../../manual_admin/administration/Automatic_Group_Lifecycle.md), which inactivates unused groups after a set period. "Published groups" shows published groups in which you are not yet a member and which you can join. Under "Search" you find groups with a search term.
 
 With many groups, the filters help you keep track, for example "Name" or "Published". You expand and collapse the filter bar with the small arrow below the tabs.
 
@@ -38,8 +44,10 @@ In the list you can
 
 * leave a group, with "Leave" in the row of the group
 * delete a group in which you are a coach: via :o_icon_o_icon_actions: at the end of the row with "Delete". Whoever creates a group is its coach.
-* after a click on a group, see its members and, if the group allows it, get in contact with them
-* use the tools of the group
+* after a click on a group, see its members and get in contact with them, if the coaches have set this in the [group administration](Group_Administration/index.md#members)
+* use the [tools of the group](Using_Group_Tools.md), for example forum, folder or calendar
+
+If you are allowed to create groups, the button "Create group" is at the top right. Who may create groups and how it works is described on the page [Create Groups](Create_Groups.md).
 
 [To the top of the page ^](#groups)
 
@@ -60,9 +68,9 @@ This type of group corresponds to a class that stays together for a longer perio
 
 Groups also come into being completely independently of courses, for example to share common interests. All teachers in a subject area form a joint group, or learners form groups on their own initiative to prepare for exams.
 
-### Managed Groups
+### Externally managed groups [:octicons-tag-16:{ title="from Release 9.0 (OO-623)" }](https://track.frentix.com/issue/OO-623) {: #managed-groups}
 
-Additional software such as the Syncher creates groups and assigns their members automatically. In this way, OpenOlat takes over groups that already exist in other systems.
+Another system, for example the fxSyncher, creates externally managed groups and assigns their members automatically. In this way, OpenOlat takes over groups that already exist in other systems. The details that the external system maintains, such as title or members, are locked in OpenOlat and are changed in the external system. For a change, contact your organisation.
 
 
 !!! note "Note"

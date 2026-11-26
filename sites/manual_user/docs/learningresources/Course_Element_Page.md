@@ -50,10 +50,10 @@ In the course element Page the following content elements are available, ordered
 
 Under "Text":
 
-* **Title:** A heading in one of the predefined sizes h1 to h6.
+* **Title:** A heading in one of the predefined sizes from h1 (largest) to h6 (smallest).
 * **Text:** Running text that you design with a small HTML editor.
-* **Table:** Content in rows and columns. You set the number of rows and columns in the inspector.
-* **Math formula:** Mathematical formulas, created with the MathJax formula editor.
+* **Table:** Content in rows and columns. You set the number of rows and columns in the inspector, the settings panel to the right of the page that the gear icon on the selected content element opens.
+* **Math formula:** A formula that you build in a [graphical formula editor](../basic_concepts/Math_formula.md#insert_formula), without having to master LaTeX.
 * **Code example:** Program code that the page displays without running it.
 In the inspector you select one of 28 programming languages under "Code language", or "Automatic" and "Plain text" [:octicons-tag-16:{ title="from Release 18.2.0 (OO-7140)" }](https://track.frentix.com/issue/OO-7140){:target="_blank"}.
 ![Code example with line numbers, in the inspector the selection Code language with Python](assets/course_element_page_code_v2_en.png){ class="shadow lightbox" title="Content Editor of the course element Page · 2026.11.10" }
@@ -66,12 +66,12 @@ Under "Media":
 * **Image comparison:** Two superimposed images that a slider blends into each other [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7143)" }](https://track.frentix.com/issue/OO-7143){:target="_blank"}
 * **Video:** A video file from the Media Center, newly uploaded or newly recorded.
 * **Audio:** Select audio from the Media Center, record it or add it as an MP3 or M4A file [:octicons-tag-16:{ title="from Release 18.1.1 (OO-7366)" }](https://track.frentix.com/issue/OO-7366){:target="_blank"}
-* **Document:** You upload Word, PowerPoint or Excel documents or create them directly. You upload PDF and other files or take them from the Media Center.
-* **Diagram:** Create a new draw.io diagram or select one from the list [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
+* **Document:** You upload Word, PowerPoint or Excel documents. If the administration has set up a document editor, you can also create them directly with "Create document". You upload PDF and other files or take them from the Media Center.
+* **Diagram:** A diagram that you create with the drawing tool draw.io or select from your Media Center [:octicons-tag-16:{ title="from Release 18.1.0 (OO-7092)" }](https://track.frentix.com/issue/OO-7092){:target="_blank"}
 
 Under "Knowledge":
 
-* **Quiz:** Embeds quiz questions into the page, newly created or imported from the question bank [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. For essay questions, learners receive [AI feedback on their answer](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback) here [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
+* **Quiz:** Embeds quiz questions into the page, newly created or imported from the [question bank](../area_modules/Question_Bank/index.md) [:octicons-tag-16:{ title="from Release 19.0.0 (OO-7145)" }](https://track.frentix.com/issue/OO-7145){:target="_blank"}. If the administration has set up the AI feature, learners receive [AI feedback on their answer](../basic_concepts/Content_Editor/Editor_Quiz.md#ai_feedback) here for essay questions [:octicons-tag-16:{ title="from Release 21.0 (OO-9497)" }](https://track.frentix.com/issue/OO-9497){:target="_blank"}
 
 Under "Other & design":
 
@@ -92,6 +92,8 @@ This allows content from external tools, plain text files or AI applications to 
 
 ## Edit page (Edit mode)
 
+You can also change an existing page without the course editor, directly in the course: open the course element and switch on "Edit mode" above the page. The switch is visible to course owners, and to coaches if the checkbox "Coach" is selected for "Edit page" under "Rights" in the tab "Page content". With "Show advanced configuration" you also grant this right to individual roles, groups or users. You then work in the same Content Editor as in the course editor.
+
 ### Edit layout
 
 If the arrangement of the fields no longer fits, you change the layout template without creating the content again. To do so, click into the layout. OpenOlat shows a frame around the layout and, in the upper right corner, its toolbar: gear icon ("Edit settings"), "Duplicate", 3 dots ("More actions") and the arrows "Move down" and "Move up".
@@ -107,7 +109,7 @@ Existing content elements are preserved and can be moved to the new fields.
 
 To change, copy or move a content element, click it. Its toolbar with four icons appears in the upper left corner of the element.
 
-![Cogwheel, Duplicate, 3 points and arrow cross on the selected content element Title, on the right the inspector of the title](assets/course_element_page_contentelement_title_v2_en.png){ class="shadow lightbox" title="Toolbar of a content element in the course element Page · 2026.11.10" }
+![Gear icon, Duplicate, 3 dots and arrow cross on the selected content element Title, on the right the inspector of the title](assets/course_element_page_contentelement_title_v2_en.png){ class="shadow lightbox" title="Toolbar of a content element in the course element Page · 2026.11.10" }
 
 * **Gear icon ("Edit settings"):** shows and hides the [inspector](../basic_concepts/Content_Editor/Editor_Layout.md#inspector) with the settings of the element.
 * **Duplicate:** copies the element [:octicons-tag-16:{ title="from Release 20.1.0 (OO-7709)" }](https://track.frentix.com/issue/OO-7709){:target="_blank"}.
@@ -119,22 +121,23 @@ To change, copy or move a content element, click it. Its toolbar with four icons
 
 Images, videos, documents and other media that you insert into a page are stored by OpenOlat in the [Media Center](../personal_menu/Media_Center.md), not, as with the [course element "HTML page"](../learningresources/Course_Element_HTML_Page.md), in the [storage folder](../learningresources/Storage_folder.md) of the course. In the Media Center you find all inserted media again and manage and share them there.
 
-You upload media to the Media Center in the personal menu or directly in the Content Editor when you create a new content element.
+You upload media under `Personal menu > Media Center` or directly in the Content Editor when you create a new content element.
 
 
 
 ## Differences: Page - HTML-Page
 
+Both course elements bring your own content into the course as a page. The table shows how they differ, so that you can choose the right one.
 
 |                        | Page                                      | HTML page                                 |
 | -----------------------| ------------------------------ | ------------------------------ |
 | Content creation | in Content Editor              | in HTML Editor                 |
-| Layout             | block-based approach          | HTML Page                     |
+| Layout             | content elements in layouts   | an HTML file                  |
 | Creation effort     | lower, since pre-structured   | possibly higher                 |
-| Preview               | directly in editor               |  separate tab "Display content" |
+| Preview               | directly in editor               | button "Preview" in the tab "Page content" |
 | Media                 | in Media Center               | in storage folder                |
 | Editing by coaches possible | :material-check: | :material-check:      |
-| Extended authorizations                    | :material-check: | :material-cancel:     |
+| Editing right for roles, groups or individual persons | :material-check: | :material-cancel:     |
 | Integration pdf        | :material-check:               | :material-check:               |
 | Integration Office-Documents | :material-check:         | :material-cancel:              |
 | Integration draw.io Diagrams        | :material-check: | :material-cancel:     |
@@ -143,7 +146,7 @@ You upload media to the Media Center in the personal menu or directly in the Con
 
 !!! tip "Tip"
 
-    If you only want to include Office documents, the course elements "Document" or "Folder" are also suitable.
+    If you only want to include Office documents, the course elements ["Document"](Course_Element_Document.md) or ["Folder"](Course_Element_Folder.md) are also suitable.
 
 
 !!! info "Important"
@@ -153,12 +156,16 @@ You upload media to the Media Center in the personal menu or directly in the Con
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Math formula >](../basic_concepts/Math_formula.md)<br>
+[Question Bank: Overview >](../area_modules/Question_Bank/index.md)<br>
 [Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)<br>
 [Content Editor: Layout >](../basic_concepts/Content_Editor/Editor_Layout.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
 [Course Element "HTML page" >](../learningresources/Course_Element_HTML_Page.md)<br>
-[Storage folder >](../learningresources/Storage_folder.md)
+[Storage folder >](../learningresources/Storage_folder.md)<br>
+[Course Element "Document" >](Course_Element_Document.md)<br>
+[Course Element "Folder" >](Course_Element_Folder.md)
 
 **Further reading**<br>
 [Content Editor >](../basic_concepts/Content_Editor/index.md)<br>

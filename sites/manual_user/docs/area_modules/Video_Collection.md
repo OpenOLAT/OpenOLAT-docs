@@ -1,7 +1,7 @@
 # Video Collection {: #video_collection}
 
 
-If you are looking for a learning video without knowing which course it is in, you will find it in the "Video Collection". It shows all video learning resources of your OpenOlat instance that are released for you, and you open each video directly from there. You reach the "Video Collection" via the main navigation.
+If you are looking for a learning video without knowing which course it is in, you will find it in the "Video Collection". It shows all video learning resources of your OpenOlat instance that their owners have [released](#selection) for you, and you open each video directly from there. You reach the "Video Collection" via the main navigation. If the entry no longer fits into the top line, you find it in the "More" menu on the right.
 
 The search field searches the title, description, objectives and authors of the videos. The sorting orders the tiles by "Relevance", "Title", "Author", "Creation date" or "Views". The default is "Creation date", with the newest video first.
 
@@ -11,7 +11,7 @@ The search field searches the title, description, objectives and authors of the 
 
 !!! note "Note"
 
-    Administrators decide which persons see the "Video Collection" entry in the main navigation, for example all registered accounts or only authors and learning resource managers. If you do not see the entry, contact your administrators.
+    Administrators decide which persons see the "Video Collection" entry in the main navigation, for example all registered accounts or only authors and learning resource managers. If you do not see the entry, contact your administrators. The page [Sites and modules](index.md#conditions) explains which conditions decide about an entry of the main navigation.
 
 
 
@@ -52,14 +52,14 @@ What you see about a video comes from the settings of the learning resource:
 
 ## How do the videos get into the Video Collection? [:octicons-tag-16:{ title="ab Release 18.2 (OO-7575)" }](https://track.frentix.com/issue/OO-7575) {: #selection}
 
-The owners of a video learning resource decide in its settings whether the video appears in the Video Collection. OpenOlat compiles the selection from this automatically. Two settings must be right:
+The owners of a video learning resource decide in its settings whether the video appears in the Video Collection. An owner is, among others, whoever created the video learning resource. OpenOlat compiles the selection automatically from the following two settings:
 
 * **Status:** The video learning resource is set to "Published".<br>
 `Authoring > "Learning resource" > Button "Status"`
 
-* **Share:** In the section "Video Collection", "Show in video collection site" is switched on. OpenOlat shows this section if the Video Collection is switched on in your instance.<br>
+* **Share:** In the section "Video Collection", "Show in Video Collection" is switched on. OpenOlat shows this section if administrators have switched on the Video Collection for your instance.<br>
 `Authoring > "Learning resource" > Administration > Settings > Tab "Share"`<br>
-If the management of organisations is switched on, select at least one organisation under "Visible for". The Video Collection then shows the video to the persons of these organisations.
+If your instance works with organisations, the field "Visible for" appears below the switch. Select at least one organisation there, otherwise the share cannot be saved. The Video Collection then shows the video to the persons of these organisations and their sub-organisations. Without organisations, all persons who see the "Video Collection" entry see it.
 
 
 !!! tip "Tip"
@@ -74,6 +74,7 @@ If the management of organisations is switched on, select at least one organisat
 
 ## Further information {: #further_information}
 
+[Sites and modules >](index.md)<br>
 [Function concept courses and learning resources >](../learningresources/General_Functions_Concept.md)<br>
 [Learning resource: Video >](../learningresources/Learning_resource_Video.md)<br>
 [Video Upload >](../basic_concepts/Video_Upload.md)<br>

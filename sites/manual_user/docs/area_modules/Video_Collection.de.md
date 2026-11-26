@@ -1,9 +1,9 @@
 # Video Collection {: #video_collection}
 
 
-Wer ein Lernvideo sucht, ohne zu wissen, in welchem Kurs es steckt, findet es in der "Video Collection". Sie zeigt alle Video-Lernressourcen Ihrer OpenOlat-Instanz, die für Sie freigegeben sind, und Sie öffnen jedes Video direkt von dort. Die "Video Collection" erreichen Sie über die Hauptnavigation.
+Wer ein Lernvideo sucht, ohne zu wissen, in welchem Kurs es steckt, findet es in der "Video Collection". Sie zeigt alle Video-Lernressourcen Ihrer OpenOlat-Instanz, die ihre Besitzer:innen für Sie [freigegeben](#selection) haben, und Sie öffnen jedes Video direkt von dort. Die "Video Collection" erreichen Sie über die Hauptnavigation. Passt der Eintrag nicht mehr in die oberste Zeile, finden Sie ihn im Menü "Mehr" am rechten Rand.
 
-Das Suchfeld durchsucht Titel, Beschreibung, Lernziele und Autor:innen der Videos. Die Sortierung ordnet die Kacheln nach "Relevanz", "Titel", "Autor:innen", "Erstellungsdatum" oder "Ansicht" (Anzahl Aufrufe). Voreingestellt ist "Erstellungsdatum", das neueste Video steht zuerst.
+Das Suchfeld durchsucht Titel, Beschreibung, Lernziele und Autor:innen der Videos. Die Sortierung ordnet die Kacheln nach "Relevanz", "Titel", "Autor:innen", "Erstellungsdatum" oder "Aufrufe". Voreingestellt ist "Erstellungsdatum", das neueste Video steht zuerst.
 
 
 ![Kachelübersicht der Video Collection mit Titel, Dauer, Anzahl Aufrufe und Erstellungsdatum je Video, darüber Suchfeld und Sortierung: So finden Sie ein Video und rufen es direkt auf](assets/video_collection_v2_de.png){ class="shadow lightbox" title="Video Collection · 2026.11.10" }
@@ -11,7 +11,7 @@ Das Suchfeld durchsucht Titel, Beschreibung, Lernziele und Autor:innen der Video
 
 !!! note "Hinweis"
 
-    Welche Personen den Eintrag "Video Collection" in der Hauptnavigation sehen, legen Administrator:innen fest, zum Beispiel alle registrierten Konten oder nur Autor:innen und Lernressourcenverwalter:innen. Sehen Sie den Eintrag nicht, wenden Sie sich an Ihre Administrator:innen.
+    Welche Personen den Eintrag "Video Collection" in der Hauptnavigation sehen, legen Administrator:innen fest, zum Beispiel alle registrierten Konten oder nur Autor:innen und Lernressourcenverwalter:innen. Sehen Sie den Eintrag nicht, wenden Sie sich an Ihre Administrator:innen. Welche Bedingungen über einen Eintrag der Hauptnavigation entscheiden, erklärt die Seite [Bereiche und Module](index.de.md#conditions).
 
 
 
@@ -52,14 +52,14 @@ Was Sie zu einem Video sehen, stammt aus den Einstellungen der Lernressource:
 
 ## Wie kommen die Videos in die Video Collection? [:octicons-tag-16:{ title="ab Release 18.2 (OO-7575)" }](https://track.frentix.com/issue/OO-7575) {: #selection}
 
-Ob ein Video in der Video Collection erscheint, legen die Besitzer:innen der Video-Lernressource in deren Einstellungen fest. OpenOlat stellt die Auswahl daraus automatisch zusammen. Zwei Einstellungen müssen stimmen:
+Ob ein Video in der Video Collection erscheint, legen die Besitzer:innen der Video-Lernressource in deren Einstellungen fest. Besitzer:in ist unter anderem, wer die Video-Lernressource erstellt hat. OpenOlat stellt die Auswahl aus den folgenden zwei Einstellungen automatisch zusammen:
 
 * **Status:** Die Video-Lernressource steht auf "Veröffentlicht".<br>
 `Autorenbereich > "Lernressource" > Button "Status"`
 
-* **Freigabe:** Im Abschnitt "Video Collection" ist "Im Video Collection anzeigen" eingeschaltet. Diesen Abschnitt zeigt OpenOlat, wenn die Video Collection in Ihrer Instanz eingeschaltet ist.<br>
+* **Freigabe:** Im Abschnitt "Video Collection" ist "In der Video Collection anzeigen" eingeschaltet. Diesen Abschnitt zeigt OpenOlat, wenn Administrator:innen die Video Collection für Ihre Instanz eingeschaltet haben.<br>
 `Autorenbereich > "Lernressource" > Administration > Einstellungen > Tab "Freigabe"`<br>
-Ist die Verwaltung von Organisationen eingeschaltet, wählen Sie unter "Sichtbar für" mindestens eine Organisation. Die Video Collection zeigt das Video dann den Personen dieser Organisationen.
+Arbeitet Ihre Instanz mit Organisationen, erscheint unter dem Schalter das Feld "Sichtbar für". Dort wählen Sie mindestens eine Organisation, sonst lässt sich die Freigabe nicht speichern. Die Video Collection zeigt das Video dann den Personen dieser Organisationen und ihrer Unterorganisationen. Ohne Organisationen sehen es alle Personen, die den Eintrag "Video Collection" sehen.
 
 
 !!! tip "Tipp"
@@ -74,6 +74,7 @@ Ist die Verwaltung von Organisationen eingeschaltet, wählen Sie unter "Sichtbar
 
 ## Weiterführende Informationen {: #further_information}
 
+[Bereiche und Module >](index.de.md)<br>
 [Funktionskonzept Kurse und Lernressourcen >](../learningresources/General_Functions_Concept.de.md)<br>
 [Lernressource: Video >](../learningresources/Learning_resource_Video.de.md)<br>
 [Video hochladen >](../basic_concepts/Video_Upload.de.md)<br>

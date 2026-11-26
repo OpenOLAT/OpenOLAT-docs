@@ -1,12 +1,14 @@
 # Formular-Elemente {: #form_elements} 
 
-Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf. Über "Inhalt hinzufügen" fügen Sie einem Layout die folgenden Elemente hinzu:
+Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf: Überschriften, Texte, Fragen und Bilder, dazu Elemente für Angaben zur befragten Person oder zur zuständigen Betreuer:in. Jedes Element steht in einem [Container](#form_element_container), den der Formulareditor "Layout" nennt. Über "Inhalt hinzufügen" öffnen Sie den Dialog mit den Elementen, geordnet in die Gruppen "Text", "Fragetypen", "Organisatorisch", "Medien" und "Andere & Design". Jedes Element beschreibt ein eigener Abschnitt dieser Seite.
+
+Die Einstellungen eines Elements legen Sie im Inspektor fest. Er öffnet sich rechts neben dem Formular, wenn Sie auf das Element klicken und danach auf das Zahnrad, das über dem Element erscheint.
 
 ![Inhaltselemente in den Gruppen Text, Fragetypen, Organisatorisch, Medien sowie Andere & Design, aus denen Sie das passende Element wählen](../assets/form_content_types_v2_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor · 2026.11.10" }
 
-Die Elemente der Gruppe "Fragetypen" stellen Sie auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element füllen die Teilnehmenden aus, bevor sie das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
+Die Elemente der Gruppe "Fragetypen" stellen Sie im Inspektor unter "Pflicht" auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element füllen die Teilnehmenden aus, bevor sie das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
 
-Viele Elemente stellen Sie im Tab "Stil" in eine [Hinweis-Box](#form_element_alert_box). Im Tab "Layout" legen Sie den Abstand zu den übrigen Elementen fest.
+Viele Elemente stellen Sie im Tab "Stil" in eine [Hinweis-Box](#form_element_alert_box). Im Tab "Layout" eines Elements legen Sie seinen Abstand zu den übrigen Elementen fest.
 
 ---
 
@@ -22,7 +24,7 @@ Mit dem Element "Titel" gliedern Sie das Formular mit Überschriften. Die Gröss
 
 ## Text {: #form_element_text} 
 
-Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellungen hinzu. Ein kleiner Editor formatiert den Text und fügt Links und Aufzählungen ein.
+Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellungen hinzu. In einem kleinen Editor formatieren Sie den Text und fügen Links und Aufzählungen ein. Im Inspektor, Tab "Stil", verteilen Sie den Text unter "Spalten" auf bis zu vier Spalten.
 
 ![Text-Element mit der Symbolleiste zum Formatieren, daneben der Inspektor mit Spalten und dem Schalter Hinweis-Box](../assets/form_content_inspector_v2_de.png){ class="shadow lightbox" title="Element Text im Formulareditor, Inspektor, Tab Stil · 2026.11.10" }
 
@@ -34,7 +36,7 @@ Mit dem Element "Text" fügen Sie dem Formular Informationen oder Fragestellunge
 
 ## Tabelle [:octicons-tag-16:{ title="ab Release 13.2 (OO-3856)" }](https://track.frentix.com/issue/OO-3856) {: #form_element_tabelle} 
 
-Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalten dar. Im Inspektor legen Sie unter anderem "Zeile", "Spalte", "Kopfzeile" und "Kopfspalte" fest.
+Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalten dar. Im Inspektor, Tab "Allgemein", legen Sie unter "Zeile" und "Spalte" die Anzahl der Zeilen und Spalten fest. Unter "Tabellenraster" kreuzen Sie "Kopfzeile" oder "Kopfspalte" an, unter "Zeilenstil" "Gestreift" oder "Umrandet". Unter "Farbe" geben Sie der Tabelle ein farbiges Erscheinungsbild oder belassen sie mit "Keine" ohne Farbe.
 
 ![Tabelle mit Überschrift, Kopfzeile und drei Zeilen, daneben der Inspektor, in dem Sie Zeile, Spalte, Kopfzeile und Kopfspalte festlegen](../assets/form_content_table_v2_de.png){ class="shadow lightbox" title="Element Tabelle im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
@@ -60,14 +62,15 @@ Wie Sie eine Rubrik konfigurieren, beschreibt die Seite [Das Formular-Element Ru
 In einer Einzelauswahl (Single Choice) wählen die Teilnehmenden genau eine Option aus einer Liste.
 
 * Mit dem Button "Eintrag hinzufügen" ergänzen Sie weitere Optionen.
-* Mit den Pfeilen verschieben Sie einen Eintrag nach oben oder unten.
+* Mit den Pfeilen in der Spalte "Verschieben" verschieben Sie einen Eintrag nach oben oder unten.
+* In der Spalte "Löschen" entfernen Sie einen Eintrag.
 * Unter "Darstellung" wählen Sie, ob die Optionen "Untereinander", "Nebeneinander" oder als "Auswahlliste" erscheinen.
 
 !!! tip "Tipp"
 
     Die Fragestellung zur Auswahl schreiben Sie in ein eigenes Element "Text". Gleiches gilt für die Mehrfachauswahl.
 
-Die Einzelauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann bestimmte Container mit ihren Inhalten an.
+Die Einzelauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann die Container, die Sie in der Frageregel festlegen, mit ihren Inhalten an.
 
 Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
@@ -82,11 +85,12 @@ Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit S
 In einer Mehrfachauswahl (Multiple Choice) wählen die Teilnehmenden eine oder mehrere Optionen aus einer Liste.
 
 * Mit dem Button "Eintrag hinzufügen" ergänzen Sie weitere Optionen.
-* Mit den Pfeilen verschieben Sie einen Eintrag nach oben oder unten.
+* Mit den Pfeilen in der Spalte "Verschieben" verschieben Sie einen Eintrag nach oben oder unten.
+* In der Spalte "Löschen" entfernen Sie einen Eintrag.
 * Unter "Darstellung" wählen Sie, ob die Optionen "Untereinander", "Nebeneinander" oder als "Auswahlliste" erscheinen.
-* Mit der Option "Teilnehmer:in kann weitere Werte erfassen" ergänzen die Teilnehmenden eigene Antworten.
+* Mit der Option "Teilnehmer:in kann weitere Werte erfassen" ergänzen die Teilnehmenden eigene Antworten. Sie sehen dann zusätzlich die Option "Weitere". Kreuzen sie diese an, tragen sie ihre Antwort in ein Textfeld ein.
 
-Die Mehrfachauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann bestimmte Container mit ihren Inhalten an.
+Die Mehrfachauswahl kann die Bedingung einer [Frageregel](../Form_Question_Rules.de.md) sein. Je nach gewählter Antwort zeigt das Formular dann die Container, die Sie in der Frageregel festlegen, mit ihren Inhalten an.
 
 Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit Sie es in den Frageregeln wiederfinden.
 
@@ -98,10 +102,11 @@ Geben Sie dem Element im Inspektor unter "Name" einen sprechenden Namen, damit S
 
 ## Textblock {: #form_element_text_input}
 
-Im Element "Textblock" tragen die Teilnehmenden eigenen Text in ein Freitextfeld ein.
+Im Element "Textblock" tragen die Teilnehmenden eigenen Text in ein Freitextfeld ein. Anders als das Element "Text", das Informationen anzeigt, ist der Textblock ein Eingabefeld.
 
 * Unter "Erlaubte Werte" legen Sie fest, ob die Teilnehmenden "Text" oder eine "Zahl" eingeben. Für ein Datum fügen Sie das eigene Element [Datum / Zeit](#form_element_date_input) ein.
-* Unter "Zeilentyp" wählen Sie "Eine Zeile" oder "Mehrere Zeilen".
+* Bei "Text" wählen Sie unter "Zeilentyp" "Eine Zeile" oder "Mehrere Zeilen". Bei "Mehrere Zeilen" legen Sie unter "Zeilen" fest, wie viele Zeilen hoch das Feld ist.
+* Bei "Zahl" begrenzen Sie die Eingabe mit "Minimum" und "Maximum".
 
 ![Freitextfeld des Elements Textblock, im Inspektor markiert sind Erlaubte Werte mit Text und Zahl sowie der Zeilentyp](../assets/form_content_text_input_v2_de.png){ class="shadow lightbox" title="Element Textblock im Formulareditor, Inspektor, Tab Allgemein · 2026.11.10" }
 
@@ -180,6 +185,8 @@ Unter "Pflicht" wählen Sie eine von drei Varianten:
 
 Mit dem Element "Nutzungsbedingungen" fügen Sie dem Formular eine Einverständniserklärung mit Checkbox hinzu. Die Teilnehmenden haken sie an, bevor sie das Formular abschliessen. Zwischenspeichern können sie das Formular auch vorher.
 
+Den Text tragen Sie im Feld "Einverständniserklärung" ein, den Satz neben der Checkbox im Feld "Beschriftung Einverständniserklärung". Beide Felder enthalten einen Vorschlag, den Sie anpassen.
+
 ![Element Nutzungsbedingungen mit dem Text der Einverständniserklärung und der Beschriftung, die neben der Checkbox erscheint](../assets/form_content_terms_of_use_v2_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formulareditor · 2026.11.10" }
 
 [Zum Seitenanfang ^](#form_elements)
@@ -237,9 +244,9 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 Ein Container nimmt die Elemente des Formulars in Spalten und Zeilen auf. Im Formulareditor heisst er "Layout": Jedes Element steht in einem Container, ein neues Formular enthält bereits einen mit einer Spalte. Einen weiteren Container fügen Sie nicht über "Inhalt hinzufügen" ein, sondern mit dem Button "Neues Layout einfügen".
 
-Im Inspektor des Containers legen Sie fest:
+Im Inspektor des Containers legen Sie in drei Tabs fest:
 
-* **Layout**: die Layout Vorlage, also die Aufteilung in Spalten und Zeilen
+* **Layout**: die Layoutvorlage, also die Aufteilung in Spalten und Zeilen
 * **Name**: den Namen, über den Sie den Container in den [Frageregeln](../Form_Question_Rules.de.md) auswählen
 * **Stil**: eine [Hinweis-Box](#form_element_alert_box) um den ganzen Container
 
