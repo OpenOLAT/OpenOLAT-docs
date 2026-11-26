@@ -21,8 +21,8 @@ With the checkbox "Read only", you choose between two ways to embed it: read-onl
 
 ![Course settings, tab "Options": "Selected resource folder" with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.18" }
 
-- **Read only**: The files are only referenced. Within the course, they can neither be changed, deleted, nor added to. This way, all linked courses always use the same files in the same state.
-- **Without write protection**: Course owners change and delete files or add new ones. These changes apply directly in the resource folder and therefore in all linked courses, even if the persons involved are not owners of the resource folder.
+- **Read only**: Within the course, the files of the resource folder can neither be changed, deleted, nor added to. This way, all linked courses always use the same files in the same state.
+- **Without write protection**: Course owners change and delete files or add new ones, under `Course > Administration > Files` in the folder "_sharedfolder". These changes apply directly in the resource folder and therefore in all linked courses, even if the persons involved are not owners of the resource folder.
 
 Therefore, consider carefully whether write protection should be removed.
 

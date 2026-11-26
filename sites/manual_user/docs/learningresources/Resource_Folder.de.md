@@ -21,8 +21,8 @@ Mit dem Häkchen "Schreibgeschützt" wählen Sie zwischen zwei Varianten der Ein
 
 ![Kurseinstellungen, Tab "Optionen": "Gewählter Ressourcenordner" mit dem Häkchen "Schreibgeschützt" und den Buttons "Auswahl löschen" und "Auswechseln"](assets/resource_folder_select_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.18" }
 
-- **Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs lassen sie sich weder verändern noch löschen oder ergänzen. So nutzen alle verknüpften Kurse stets dieselben Dateien im selben Stand.
-- **Ohne Schreibschutz**: Kursbesitzer:innen ändern und löschen Dateien oder fügen neue hinzu. Diese Anpassungen gelten direkt im Ressourcenordner und damit in allen verknüpften Kursen, auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
+- **Schreibgeschützt**: Im Kurs lassen sich die Dateien des Ressourcenordners weder verändern noch löschen oder ergänzen. So nutzen alle verknüpften Kurse stets dieselben Dateien im selben Stand.
+- **Ohne Schreibschutz**: Kursbesitzer:innen ändern und löschen Dateien oder fügen neue hinzu, unter `Kurs > Administration > Dateien` im Ordner "_sharedfolder". Diese Anpassungen gelten direkt im Ressourcenordner und damit in allen verknüpften Kursen, auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
 
 Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.
 
