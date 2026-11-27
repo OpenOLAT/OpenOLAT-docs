@@ -11,7 +11,7 @@ Available since | Release 10.5 (OO-725)
 Purpose | Make a video available once and use it in several courses
 In the course | Course elements "Video" and "Video task"
 
-You create the learning resource in the authoring area: with "Import file" you upload an MP4 file, with "Embed via URL" you embed an external video, for example from YouTube or Vimeo. The steps are described in the section [Import learning resources](../area_modules/authoring_new_course.md#import-learning-resources). You then find the video in the authoring area in the "My entries" tab.
+You create the learning resource in the authoring area: with "Import file" you upload an MP4 file, with "Embed via URL" you embed an external video, for example from YouTube or Vimeo. The steps are described in the section [Import learning resources](../area_modules/authoring_new_course.md#import-learning-resources). You then find the video under `Authoring > My entries`.
 
 ![Button "Import file" with the expanded entry "Embed via URL", below it video learning resources in the "My entries" list](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" title="Authoring area, tab My entries" }
 
@@ -44,7 +44,7 @@ In the "Administration" menu, you manage the Video learning resource: its settin
 
 In the settings, you define how the video is described, shared and displayed. You open the settings via `Video > Administration > Settings`. Which tabs appear depends on the video: "Video quality" is missing for videos added via "Embed via URL", "Download" appears only for videos in MP4 format, and "Catalog" only if Catalog 1.0 is active.
 
-![Tab bar of the settings highlighted, seven tabs from "Metadata" to "Download", including "Subtitle configuration" and "Video quality"](assets/learning_resource_video_settings_tabs_v1_en.png){ class="shadow lightbox" title="Settings of a video learning resource · 2026.10.20" }
+![Tab bar of the settings highlighted, seven tabs from "Metadata" to "Download", including "Configure poster", "Subtitle configuration" and "Video quality"](assets/learning_resource_video_settings_tabs_v1_en.png){ class="shadow lightbox" title="Settings of a video learning resource · 2026.10.20" }
 
 
 ### Tab "Metadata"
@@ -156,14 +156,14 @@ CC stands for the American term "[Closed captions](https://de.wikipedia.org/wiki
 
 ### Tab "Video quality" {: #video_quality}
 
-In the "Video quality" tab, you can see the resolutions in which the video is available. After the upload, OpenOlat creates the video in several resolutions, which can take a while. Which resolutions are created is defined by the system administration under:<br>
-`Administration > Modules > Video`
+In the "Video quality" tab, you can see the resolutions in which the video is available. If transcoding is switched on, OpenOlat creates the video after the upload in every resolution selected for it, which can take a while. Whether videos are transcoded and which resolutions are created is defined by the system administration under:<br>
+`Administration > Modules > Video > Tab "Video configuration"`
 
-With "Transcode" you create a pending resolution, with "Delete" you remove a resolution you do not need.
+The row "Master video" is the uploaded original file; it cannot be deleted here. If one of the selected resolutions is still missing, its row shows the link "Transcode" in the "Action" column, which creates it. With "Delete" you remove a resolution you do not need.
 
 ![Table of the resolutions Master video, 1080p Full-HD, 480p, 360p and 240p with dimension, size and format, each with the action "Delete" except for the master video](assets/learning_resource_video_qualities_v1_en.png){ class="shadow lightbox" title="Video quality tab in the settings · 2026.10.20" }
 
-In the video player, you select the resolution using the gear icon "Source Chooser".
+In the video player, you select the resolution using the gear icon. When you hover the mouse pointer over it, the player shows the label "Source Chooser".
 
 ![Expanded selection of the resolutions 720p to 240p with file size above the gear icon Source Chooser](assets/video_aufloesung.png){ class="shadow lightbox" title="Video player of a video learning resource" }
 

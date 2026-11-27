@@ -21,7 +21,7 @@ An imported question is initially read-only in the test editor as long as it car
 
 ![Tab Question bank with the origin of an imported question and the framed button make a copy and edit, with which you edit the question in the test](../assets/test_editor_question_pool_tab_v1_en.png){ class="shadow lightbox" title="Tab Question bank in the test editor · 2026.11.10" }
 
-If you want to edit the question in the test, click "make a copy and edit" in the "Question bank" tab. The question receives a new ID, the previous ID is then shown under "Master ID", and you edit the question in the test editor. The tab then shows the note "The question was copied from the question bank. You can find the original question under the master id." Your changes stay in the test.
+If you want to edit the question in the test, click "Make a copy and edit" in the "Question bank" tab. The question receives a new ID, the previous ID is then shown under "Master ID", and you edit the question in the test editor. The tab then shows the note "The question was copied from the question bank. You can find the original question under the master id." Your changes stay in the test.
 
 If a question from the test should also be available in the question bank, transfer it with [Export to pool](../Test_export.md#export_to_pool). This also creates a copy: OpenOlat creates a new question with its own ID in the question bank.
 

@@ -22,7 +22,7 @@ As long as no wiki is assigned, the tab "Wiki learning content" offers three way
 
 If a wiki learning resource is already assigned, its name appears. To change the assignment later, click on "Replace" in the tab "Wiki learning content" and select another wiki. With the arrow next to "Replace" you create or import a new one instead.
 
-In the "Wiki learning content" tab, you also define who may edit the wiki. Under "Edit Material" you allow coaches and participants, in addition to the owners, to edit wiki articles. By default all participants have read and write permission in a Wiki. A wiki page can be deleted by the person who created it, by the owners of the course and by the owners of the wiki learning resource. [:octicons-tag-16:{ title="from Release 15.0 (OO-4551)" }](https://track.frentix.com/issue/OO-4551)
+In the "Wiki learning content" tab, you also define who may edit the wiki. Under "Edit articles" you allow coaches and participants, in addition to the owners, to edit wiki articles. By default all participants have read and write permission in a Wiki. A wiki page can be deleted by the person who created it, by the owners of the course and by the owners of the wiki learning resource. [:octicons-tag-16:{ title="from Release 15.0 (OO-4551)" }](https://track.frentix.com/issue/OO-4551)
 
 !!! info "Important"
 

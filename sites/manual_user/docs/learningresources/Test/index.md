@@ -13,7 +13,7 @@ In the course | Course elements "Test", "Self-test" and "Practice"
 
 OpenOlat saves tests in the standardized format QTI 2.1. QTI stands for "Question & Test Interoperability", a data format for online tests. Tests in this format can also be used in other LMS (learning management systems) and systems that support the standard. [IMS](http://www.imsglobal.org/ "IMS") develops such open standards for the e-learning sector.
 
-In OpenOlat, tests are part of the "learning resources". You create a learning resource separately and integrate it into online courses. For example, you use the same learning resource "Test" in multiple courses.
+In OpenOlat, tests are part of the "learning resources". You create the test as a learning resource of its own in the authoring area and integrate it into online courses. For example, you use the same learning resource "Test" in multiple courses.
 
 [To the top of the page ^](#create_tests)
 
@@ -26,7 +26,7 @@ With tests you monitor performance, check the current level of knowledge or hold
 
 Formative tests capture interim learning progress. With automatic or manual feedback, participants improve while they learn.
 
-Summative tests come at the end of a learning process or course. They check whether the planned learning objectives have been achieved. Examples of this are "live" exams or online exams.
+Summative tests come at the end of a learning process or course. They check whether the planned learning objectives have been achieved. Examples of this are graded exams or online exams.
 
 You create tests with the [OpenOlat test editor](../Test_editor_QTI_2.1/index.md) as tests in the QTI 2.1 format. You specify the length of the test, the [question types](../Test_question_types/index.md) and further settings.
 
@@ -49,7 +49,7 @@ You create the questions of a test directly in the learning resource Test, or yo
 
 !!! warning "Copy, not a link"
 
-    Questions from the question bank come into the test as a copy. Afterwards, the question in the question bank and the question in the test are two separate questions. If you change the question in the question bank, the question in the test remains unchanged, and vice versa. You see where a question comes from in the test editor in the "Question bank" tab. If the test is to use the changed version, remove the question from the test and import it again from the question bank, as long as the test has not yet been carried out.
+    Questions from the question bank come into the test as a copy. Afterwards, the question in the question bank and the question in the test are two separate questions. If you change the question in the question bank, the question in the test remains unchanged, and vice versa. You see where a question comes from in the test editor in the "Question bank" tab. If the test is to use the changed version, remove the question from the test and import it again from the question bank, as long as nobody has started the test yet. After that, the test editor hides "Add elements" and "Delete".
 
 ![On import, OpenOlat copies question A once into the test, later changes in the question bank do not reach the test](../assets/question_pool_copy_v1_en.svg){ class="shadow lightbox" title="Question from the question bank as a copy in the test · 2026.11.09" }
 
@@ -60,11 +60,11 @@ Questions come from the question bank into a test in two ways:
 
 OpenOlat copies the question at the time of the import. A question from the question bank is initially read-only in the test editor as long as it carries the same ID as the question in the question bank. The "Question bank" tab shows its origin: "ID", "Master ID", "Authors", "Copied at" and "Version".
 
-If you want to edit the question in the test, click "make a copy and edit" in the "Question bank" tab. The question receives a new ID, and the previous ID is then shown under "Master ID". Via the "Master ID" you still open the original question in the question bank.
+If you want to edit the question in the test, click "Make a copy and edit" in the "Question bank" tab. The question receives a new ID, and the previous ID is then shown under "Master ID". Via the "Master ID" you still open the original question in the question bank.
 
 The reverse direction also creates a copy: with [Export to pool](../Test_export.md#export_to_pool), OpenOlat creates a new question with its own ID in the question bank.
 
-If you have a test as a file in IMS QTI format from another LMS, import it as a learning resource. How to proceed is described in the section [Import learning resources](../../area_modules/authoring_new_course.md#import-learning-resources).
+If you have a test as a file in IMS QTI 2.1 format from another LMS, import it as a learning resource. How to proceed is described in the section [Import learning resources](../../area_modules/authoring_new_course.md#import-learning-resources).
 
 !!! info "Important"
 

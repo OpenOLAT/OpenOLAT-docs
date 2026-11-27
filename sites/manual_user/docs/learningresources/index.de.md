@@ -1,6 +1,6 @@
 # Lernressourcen {: #learning_resources}
 
-Kurse, Tests, Wikis, Formulare und weitere Inhalte legen Sie in OpenOlat als [Lernressourcen](General_Functions_Concept.de.md) im Autorenbereich an. Die meisten Lernressourcen binden Sie über einen [Kursbaustein](Course_Elements/index.de.md) in einen Kurs ein, Glossar und Ressourcenordner über die Kurseinstellungen. Viele Typen erstellen Sie direkt im Menü "Erstellen" des Autorenbereichs, [weitere Lernressourcen](#further_learningresources) laden Sie über "Datei importieren" hoch.
+Kurse, Tests, Wikis, Formulare und weitere Inhalte legen Sie in OpenOlat als [Lernressourcen](General_Functions_Concept.de.md) im [Autorenbereich](../area_modules/Authoring/index.de.md) an. Die meisten Lernressourcen binden Sie über einen [Kursbaustein](Course_Elements/index.de.md) in einen Kurs ein, Glossar und Ressourcenordner über die Kurseinstellungen. Viele Typen erstellen Sie direkt im Menü "Erstellen" des Autorenbereichs, [weitere Lernressourcen](#further_learningresources) laden Sie über "Datei importieren" hoch.
 
 Die Abschnitte zu den einzelnen Typen zeigen unter dem Titel das Symbol des Typs. Mit demselben Symbol erscheint die Lernressource im Autorenbereich in der Spalte "Typ". Zeigen Sie mit der Maus auf das Symbol, nennt OpenOlat den Namen des Typs.
 
@@ -16,7 +16,7 @@ Die Abschnitte zu den einzelnen Typen zeigen unter dem Titel das Symbol des Typs
 
 Ein OpenOlat-Kurs dient als reiner Online-Kurs oder begleitet Vorlesungen, Seminare und andere Präsenzveranstaltungen. Er fasst beliebig viele Kursbausteine in einer Struktur zusammen. So setzen Sie verschiedene didaktische Konzepte um, etwa Webquests, Gruppenpuzzles, kooperative Online-Seminare, problembasiertes Lernen oder spielbasierte Ansätze.
 
-Steckbrief und Kurszyklus vom Anlegen bis zum Löschen finden Sie auf der Seite [Allgemeines](General_Information/index.de.md) zum Kurs. Wie Sie Kurse erstellen, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements/index.de.md).
+Steckbrief und Kurszyklus vom Anlegen bis zum Löschen finden Sie auf der Seite [Allgemeines](General_Information/index.de.md) zum Kurs. Wie Sie Kurse erstellen, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine im Überblick"](Course_Elements/index.de.md).
 
 Haben Sie oder Ihre Organisation Templates vorbereitet, erstellen Sie daraus direkt einen neuen Kurs: mit dem Eintrag "Kurs aus Template" im Menü "Erstellen". Ein Template ist ein Kurs mit dem Verwendungszweck "Template". Ein Assistent führt Sie in zwei Schritten: Im Schritt "Template" wählen Sie das Template, im Schritt "Einstellungen" geben Sie dem neuen Kurs unter anderem Titel, Kennzeichen und Durchführungszeitraum. OpenOlat legt den Kurs als Kopie an, das Template selbst bleibt unverändert. Zur Auswahl stehen die Templates, die Sie besitzen oder verwalten, und Templates, die für Autor:innen zum Kopieren freigegeben sind. Mehr zum Verwendungszweck "Template" erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md#purpose). [:octicons-tag-16:{ title="ab Release 20.2 (OO-8897)" }](https://track.frentix.com/issue/OO-8897)
 
@@ -31,7 +31,7 @@ Haben Sie oder Ihre Organisation Templates vorbereitet, erstellen Sie daraus dir
 
 :o_icon_o_FileResource-IMSQTI21_icon:
 
-OpenOlat-Tests können sowohl zu Prüfungs- als auch zu Übungszwecken verwendet werden. Im ersten Fall können die Kursautor:innen die Testresultate einsehen und den Teilnehmenden zuordnen, im zweiten Fall werden die Resultate anonymisiert gespeichert. Jeder Test liegt im standardisierten Format IMS QTI 2.1 vor.
+Tests setzen Sie für Prüfungen und zum Üben ein. Im Kursbaustein "Test" sehen Besitzer:innen und Betreuer:innen die Resultate der Teilnehmenden, im Kursbaustein "Selbsttest" speichert OpenOlat alle Eingaben anonym. Jeder Test liegt im standardisierten Format IMS QTI 2.1 vor.
 
 Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapitel ["Tests erstellen"](Test/index.de.md).
 
@@ -45,7 +45,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Tests finden Sie im Kapite
 
 :o_icon_o_FileResource-IMSCP_icon:
 
-Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-Learning-Format. Die Spezifikation dieses Datenformats kommt ebenfalls von [IMS bzw. 1EdTech Consortium](https://de.wikipedia.org/wiki/IMS_Content_Packaging "IMS bzw. 1EdTech Consortium"). OpenOlat unterstützt die IMS-CP Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS (Learning-Management-Systemen) verwendet werden können. In einen Kurs binden Sie einen CP-Lerninhalt mit dem Kursbaustein "CP-Lerninhalt" ein. Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel ["CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
+Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-Learning-Format. Die Spezifikation dieses Datenformats stammt wie bei Tests vom [IMS bzw. 1EdTech Consortium](https://de.wikipedia.org/wiki/IMS_Content_Packaging "IMS bzw. 1EdTech Consortium"). OpenOlat unterstützt die IMS-CP Version 1.1.2. Einen CP-Lerninhalt verwenden Sie in OpenOlat-Kursen und ebenso in anderen LMS (Learning-Management-Systemen). In einen Kurs binden Sie ihn mit dem Kursbaustein "CP-Lerninhalt" ein. Wie Sie einen CP-Lerninhalt erstellen, beschreibt das Kapitel ["CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
 
 Im Autorenbereich zeigt OpenOlat CP-Lerninhalte mit dem Symbol eines Archivs. Dasselbe Symbol tragen [SCORM-Lerninhalte](#scorm). Welcher der beiden Typen es ist, zeigt der Name: Zeigen Sie in der Spalte "Typ" mit der Maus auf das Symbol, nennt OpenOlat "CP-Lerninhalt" oder "SCORM 1.2".
 
@@ -61,7 +61,7 @@ Im Autorenbereich zeigt OpenOlat CP-Lerninhalte mit dem Symbol eines Archivs. Da
 
 In einem Wiki erstellen mehrere Personen gemeinsam Inhalte. Ein Wiki dient für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Studien- und Projektarbeiten.
 
-Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten, erfahren Sie im Kapitel [Kursbaustein "Wiki"](../learningresources/Course_Element_Wiki.de.md).
+Steckbrief und Erstellung des Wikis beschreibt die Seite ["Wiki"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten, erfahren Sie im Kapitel [Kursbaustein "Wiki"](../learningresources/Course_Element_Wiki.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -73,7 +73,7 @@ Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstell
 
 :o_icon_o_FileResource-PODCAST_icon:
 
-In einem Podcast stellen Sie Audio- und Videodateien als Episoden in OpenOlat bereit. Teilnehmende hören oder sehen die Episoden direkt in OpenOlat oder abonnieren den Podcast über Dienste wie iTunes und laden die Episoden auf mobile Geräte. Sind Bewertungen und Kommentare eingeschaltet, bewerten und kommentieren Teilnehmende die Episoden.
+In einem Podcast stellen Sie Audio- und Videodateien als Episoden in OpenOlat bereit. Teilnehmende hören oder sehen die Episoden direkt in OpenOlat oder abonnieren den Podcast über Dienste wie iTunes und laden die Episoden auf mobile Geräte. Sind Bewertungen und Kommentare eingeschaltet, bewerten und kommentieren Teilnehmende die Episoden. In einen Kurs binden Sie einen Podcast mit dem Kursbaustein "Podcast" ein.
 
 Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersicht"](Podcast/index.de.md).
 
@@ -91,7 +91,7 @@ In einem Blog veröffentlichen Sie fachbezogene oder persönliche Informationen 
 
 Im Autorenbereich, im Kursmenü und in der Toolbar trägt der Blog ein eigenes Blog-Symbol. Das Megafon-Symbol gehört zu den [Mitteilungen](Course_Element_Notifications.de.md).
 
-Steckbrief und Funktionen des Blogs beschreibt die Seite [Blog: Übersicht](Blog/index.de.md). Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md). Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden, finden Sie im ["How to Bereich"](../../manual_how-to/blog/blog.de.md).
+Steckbrief und Funktionen des Blogs beschreibt die Seite [Blog: Übersicht](Blog/index.de.md), den Kursbaustein die Seite [Kursbaustein "Blog"](../learningresources/Course_Element_Blog.de.md). Wie Sie einen Blog erstellen und in Ihren Kurs einbinden, zeigt die Anleitung [Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -103,7 +103,7 @@ Steckbrief und Funktionen des Blogs beschreibt die Seite [Blog: Übersicht](Blog
 
 :o_icon_o_FileResource-SHAREDFOLDER_icon:
 
-Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und müssen somit nicht mehrfach erstellt werden. Der verknüpfte Ressourcenordner wird in den Dateien des verknüpften Kurses unter `_sharedfolder` angezeigt, und es besteht Zugriff auf alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse. Einen Ressourcenordner binden Sie in den Kurseinstellungen ein, einen je Kurs:<br>
+Mit einem Ressourcenordner nutzen Sie dieselben Dateien, etwa Inhalte, Informationen oder Grafiken, in mehreren Kursen, ohne sie mehrfach anzulegen. Im verknüpften Kurs erscheint der Ressourcenordner im [Ablageordner](Storage_folder.de.md) des Kurses als Unterordner `_sharedfolder` mit allen Dateien darin. Ändern Sie eine Datei im Ressourcenordner, gilt die Änderung in allen verknüpften Kursen. Einen Ressourcenordner binden Sie in den Kurseinstellungen ein, einen je Kurs:<br>
 `Kurs > Administration > Einstellungen > Tab "Optionen"`
 
 Details beschreibt die Seite [Kurseinstellungen - Tab Optionen](Course_Settings_Options.de.md), den Steckbrief die Seite [Ressourcenordner](Resource_Folder.de.md).
@@ -132,7 +132,7 @@ Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, 
 
 :o_icon_o_BinderTemplate_icon:
 
-Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben, die im Rahmen eines Portfolio-Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können Lehrende eine strukturierte Portfoliomappe gestalten, die die Lernenden abholen und bearbeiten können. Weitere Informationen zur [Portfolio 2.0 Vorlage](Portfolio_template_Creation.de.md) erhalten Sie im entsprechenden Kapitel.
+Eine Portfolio 2.0 Vorlage enthält die Aufgaben für ein Portfolio-Assessment. Mit ihr gestalten Lehrende eine strukturierte Mappe. In einen Kurs binden Sie die Vorlage mit dem Kursbaustein "Portfolioaufgabe" ein. Dort holen die Teilnehmenden ihre Mappe mit "Portfolioaufgabe abholen" ab und bearbeiten sie. Wie Sie eine Vorlage erstellen, beschreibt die Seite [Portfoliovorlage: Erstellung](Portfolio_template_Creation.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -144,10 +144,12 @@ Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben, die im Rahmen eines Portfolio-As
 
 :o_icon_o_FileResource-GLOSSARY_icon:
 
-In einem Glossar können Begriffe und Definitionen abgelegt und alphabetisch sortiert zugänglich gemacht werden. Wird ein Glossar in einen OpenOlat-Kurs eingebaut, können die Begriffe auch bei integrierten HTML-Dateien direkt zur Erklärung angezeigt werden. Ferner ist es möglich, Glossare so zu konfigurieren, dass auch Lernende ein Glossar inhaltlich befüllen können.
+In einem Glossar sammeln Sie Begriffe mit ihren Definitionen, alphabetisch sortiert. Ist das Glossar in einen Kurs eingebunden, zeigt OpenOlat die Definition eines Begriffs direkt im Lerninhalt, zum Beispiel in den Kursbausteinen "Seite" und "HTML-Seite". Glossare lassen sich so konfigurieren, dass auch Teilnehmende Begriffe ergänzen.
 
-Ein Glossar binden Sie in den Kurseinstellungen ein:<br>
-`Kurs > Administration > Einstellungen > Tab "Optionen"`
+Ein Glossar binden Sie in den Kurseinstellungen in zwei Schritten ein. Wählen Sie es zuerst mit "Glossar wählen" aus:<br>
+`Kurs > Administration > Einstellungen > Tab "Optionen"`<br>
+Schalten Sie danach die Checkbox "Glossar" ein, damit es in der Toolbar des Kurses erscheint:<br>
+`Kurs > Administration > Einstellungen > Tab "Toolbar"`
 
 Den Steckbrief finden Sie auf der Seite [Glossar](Glossary/index.de.md). Weitere Infos zur [Erstellung](../learningresources/Glossary_create.de.md) und [Verwendung](../learningresources/Glossary_usage.de.md) von Glossaren finden Sie in den entsprechenden Kapiteln.
 
@@ -164,7 +166,7 @@ Die folgenden Lernressourcen bringen Sie meist über "Datei importieren" im Auto
 
 :o_icon_o_FileResource-SCORMCP_icon:
 
-Ein standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird, ist das SCORM-Format (Version 1.2). SCORM steht für "Sharable Content Object Reference Model" und ist ein Referenzmodell für austauschbare elektronische Lerninhalte der ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte eignen sich für die Verwendung in OpenOlat-Kursen oder ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Sie Ihre Lerninhalte nicht nur in OpenOlat, sondern auch in anderen LMS verwenden können.
+OpenOlat unterstützt das standardisierte E-Learning-Format SCORM in der Version 1.2. SCORM steht für "Sharable Content Object Reference Model" und ist ein Referenzmodell für austauschbare elektronische Lerninhalte der ["Advanced Distributed Learning Initiative" (ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte verwenden Sie in OpenOlat-Kursen und ebenso in anderen LMS.
 
 Einen SCORM-Lerninhalt bringen Sie als Paket über "Datei importieren" in OpenOlat und binden ihn mit dem Kursbaustein "SCORM 1.2" in einen Kurs ein. Im Autorenbereich trägt er dasselbe Symbol wie ein [CP-Lerninhalt](#cp-content).
 
@@ -176,7 +178,7 @@ Einen SCORM-Lerninhalt bringen Sie als Paket über "Datei importieren" in OpenOl
 
 :o_icon_o_FileResource-SOUND_icon:
 
-Audiodateien können in OpenOlat hochgeladen und an einigen Stellen auch direkt [in OpenOlat aufgenommen](../learningresources/Audio_Recording.de.md) werden.
+Audiodateien bringen Sie über "Datei importieren" als Lernressource in OpenOlat. An einigen Stellen nehmen Sie Audio auch direkt in OpenOlat auf, siehe [Audio aufnehmen](../learningresources/Audio_Recording.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -186,7 +188,7 @@ Audiodateien können in OpenOlat hochgeladen und an einigen Stellen auch direkt 
 
 :o_icon_o_FileResource-VIDEO_icon:
 
-OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Die Lernressource Video kann in OpenOlat über "Datei importieren" oder "Per URL einbinden" hinzugefügt und anschliessend weiter konfiguriert werden. OpenOlat unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen finden Sie im Kapitel [Lernressource: Video](../learningresources/Learning_resource_Video.de.md).
+OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Eine Lernressource Video fügen Sie über "Datei importieren" oder "Per URL einbinden" hinzu und konfigurieren sie danach weiter: Untertitel in mehreren Sprachen, Quiz, Anmerkungen und Kapitel. Generelle Informationen finden Sie im Kapitel [Lernressource: Video](../learningresources/Learning_resource_Video.de.md).
 
 [Zum Seitenanfang ^](#learning_resources)
 
@@ -196,9 +198,9 @@ OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Di
 
 ![Einträge Word, Excel und PowerPoint mit ihren Dateisymbolen am Ende des Menüs Erstellen im Autorenbereich markiert](assets/learning_resource_file_v2_de.png){ width="192" class="aside-right lightbox" title="Menü Erstellen im Autorenbereich · 2026.11.10" }
 
-Neben den oben genannten Lernressourcen können Sie eine Reihe weiterer Dateitypen in OpenOlat importieren. Dazu gehören PDF-, PowerPoint-, Excel- und Word-Dateien sowie Bilder, Musik und Animationen.
+Über "Datei importieren" bringen Sie weitere Dateitypen als Lernressource in OpenOlat, etwa PDF-, PowerPoint-, Excel- und Word-Dateien sowie Bilder, Musik und Animationen.
 
-Zudem können Sie, sofern ein entsprechender Dokumenteneditor aktiviert ist, Word-, Excel- oder PowerPoint-Dateien direkt in OpenOlat als Lernressource erstellen. Welche Dateitypen Sie mit Ihrer Konfiguration erstellen können, zeigt das Menü "Erstellen".
+Ist ein Dokumenteneditor eingeschaltet, erstellen Sie Word-, Excel- oder PowerPoint-Dateien auch direkt in OpenOlat als Lernressource. Welche Dateitypen Sie mit Ihrer Konfiguration erstellen können, zeigt das Menü "Erstellen".
 
 
 !!! info "Wichtig"

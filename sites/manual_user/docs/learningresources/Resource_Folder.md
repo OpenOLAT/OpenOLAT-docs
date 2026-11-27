@@ -13,15 +13,15 @@ In the course | `Course > Administration > Settings > Options`, one resource fol
 
 ## Using a resource folder in a course
 
-With a resource folder, you organize files centrally, for example content, information and graphics, and use them in several courses.
+A resource folder comes into the course via the course settings. You then show its files, for example content, information and graphics, in course elements such as "Folder" or "HTML page".
 
 As a course owner, you link the resource folder to the course in the course settings: under `Course > Administration > Settings > Options`, click "Replace" and select the desired resource folder or create a new one. Its title then appears under "Selected resource folder", and with "Save" you apply the selection. Only one resource folder can be linked per course.
 
-With the checkbox "Read only", you choose between two ways to embed it: read-only or without write protection.
+With the checkbox "Read only", you define whether the files of the resource folder can only be read in the course or also changed.
 
 ![Course settings, tab "Options": "Selected resource folder" with the checkbox "Read only" and the buttons "Deselect" and "Replace"](assets/resource_folder_select_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.18" }
 
-- **Read only**: Within the course, the files of the resource folder can neither be changed, deleted, nor added to. This way, all linked courses always use the same files in the same state.
+- **Read only**: Within the course, the files of the resource folder can neither be changed, deleted, nor added to. This way, this course does not change the files that other linked courses also use.
 - **Without write protection**: Course owners change and delete files or add new ones, under `Course > Administration > Files` in the folder "_sharedfolder". These changes apply directly in the resource folder and therefore in all linked courses, even if the persons involved are not owners of the resource folder.
 
 Therefore, consider carefully whether write protection should be removed.

@@ -14,7 +14,7 @@ Via WebDAV you access the following OpenOlat folders. OpenOlat creates the struc
   * Folders of [groups](../groups/Using_Group_Tools.md)
   * [Storage folders of courses](../learningresources/Storage_folder.md) (course owners only)
   * [Course element "Folder"](../learningresources/Course_Element_Folder.md)
-  * [Resource folders](../learningresources/index.md#resource_folder) (owners and coaches with write access, participants with read access)
+  * [Resource folders](../learningresources/Resource_Folder.md) (owners and coaches of the resource folder with write access, its participants with read access)
   * [Course archives](../learningresources/Course_Archiving/index.md) (authors, learning resource managers and administrators only) [:octicons-tag-16:{ title="from Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on the configuration of the folder.
@@ -29,7 +29,7 @@ To access a folder on OpenOlat via WebDAV, you need:
   * Your OpenOlat username or, alternatively, the stored email address
   * Your OpenOlat/WebDAV password
 
-If you access OpenOlat via Shibboleth or a cloud login, you set up your WebDAV password in the settings of your personal menu. To do so, select the link "Settings" and click the button "Set password" in the tab "WebDAV". If you already have an OpenOlat password, use it for WebDAV access.
+If you access OpenOlat via Shibboleth or a cloud login, you set up your WebDAV password in the settings of your personal menu. To do so, click the button "Set password" under `Personal menu > Settings > Tab "WebDAV"`. If you already have an OpenOlat password, use it for WebDAV access.
 
 ## Troubleshooting
 
@@ -102,8 +102,8 @@ Once you have set up the connection successfully, a directory opens on your comp
 
   * **coursefolders**: Here you have access to the [storage folders](../learningresources/Storage_folder.md) of all courses you own. A WebDAV folder is created automatically for each course. Click the WebDAV folder of a course and you see the files and the structure of the respective storage folder and can upload, delete, modify files, etc. In addition to the files and folders you create, OpenOlat automatically creates further folders depending on the configuration. You can also access these via WebDAV. Only the owners of a course see the storage folder. Coaches and participants only find the folders of the course elements "Folder" and embedded resource folders here, provided this access is enabled in the system administration under `Administration > Core functions > WebDAV`, see [WebDAV (Administration manual)](../../manual_admin/administration/WebDAV.md#access_courses).
 
-    * _other_: This folder only appears if "Group courses by semester terms" or "Group courses by CPL elements" is switched on in the system administration under `Administration > Core functions > WebDAV`. This folder contains all courses that are _not_ assigned to a term or element.
-    * _finished_: This folder only appears if the courses are not grouped. This folder contains all courses with the status "Finished".
+    * `_other`: This folder only appears if "Group courses by semester terms" or "Group courses by CPL elements" is switched on in the system administration under `Administration > Core functions > WebDAV`. This folder contains all courses that are _not_ assigned to a term or element.
+    * `_finished`: This folder only appears if the courses are not grouped. This folder contains all courses with the status "Finished".
 
   * **groupfolders**: Here you find all groups you are a member of and whose folders you have access to.
   * **home**: Your personal files with the subfolders "private" and "public".
@@ -117,7 +117,7 @@ Once you have set up the connection successfully, a directory opens on your comp
 [Using Group Tools >](../groups/Using_Group_Tools.md)<br>
 [Storage folder >](../learningresources/Storage_folder.md)<br>
 [Course Element "Folder" >](../learningresources/Course_Element_Folder.md)<br>
-[Various Types of Learning Resources >](../learningresources/index.md)<br>
+[Resource folder >](../learningresources/Resource_Folder.md)<br>
 [Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [Navigation >](Navigation.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>

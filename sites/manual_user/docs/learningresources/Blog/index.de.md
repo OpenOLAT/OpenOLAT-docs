@@ -13,7 +13,7 @@ Im Kurs | Kursbaustein "Blog" oder Werkzeug "Blog" in der Toolbar des Kurses
 
 ## Was sind Blogs?
 
-Der Begriff "Blog" ist die Kurzform von "Weblog", zusammengesetzt aus "Web" für das World Wide Web und "Log" für Logbuch. Viele führen einen Blog als Online-Journal für fachbezogene oder persönliche Information. Als Lernressource legen Sie den Blog einmal an und binden ihn in einen oder mehrere Kurse ein: als [Kursbaustein](../Course_Elements/index.de.md), also als Punkt im Kursmenü, oder über die Toolbar, die Werkzeugleiste oben im Kurs. Teilnehmer:innen abonnieren einen Blog, um über neue Einträge benachrichtigt zu werden. Sind in der Lernressource unter `Blog > Administration > Einstellungen > Tab "Optionen"` Bewertungen und Kommentare eingeschaltet, bewerten sie die Einträge und schreiben Kommentare dazu.
+Der Begriff "Blog" ist die Kurzform von "Weblog", zusammengesetzt aus "Web" für das World Wide Web und "Log" für Logbuch. Viele führen einen Blog als Online-Journal für fachbezogene oder persönliche Information. Als Lernressource legen Sie den Blog einmal an und binden ihn in einen oder mehrere Kurse ein: als [Kursbaustein](../Course_Elements/index.de.md), also als Punkt im Kursmenü, oder über die Toolbar, die Werkzeugleiste oben im Kurs. Teilnehmer:innen abonnieren einen Blog, um über neue Einträge benachrichtigt zu werden. Sind in der Lernressource unter `Blog > Administration > Einstellungen > Tab "Optionen"` die Schalter "Beiträge bewerten" und "Beiträge kommentieren" eingeschaltet, bewerten sie die Einträge und schreiben Kommentare dazu.
 
 ## Seiten zum Blog {: #pages}
 
@@ -32,10 +32,9 @@ Für Diskussionen im Kurs ist der Kursbaustein [Forum](../Course_Element_Forum.d
 
 ## Weiterführende Informationen {: #further_information}
 
-[Wie erstelle ich einen Blog? >](../../../manual_how-to/blog/blog.de.md)<br>
-[Kursbaustein "Blog" >](../Course_Element_Blog.de.md)<br>
 [Toolbar >](../Course_Settings_Toolbar.de.md)<br>
-[Podcast: Übersicht >](../Podcast/index.de.md)
+[Zugangskonfiguration / Freigabe >](../Access_configuration.de.md)<br>
+[Mitgliederverwaltung >](../Members_management.de.md)
 
 [Zum Seitenanfang ^](#blog_learning_resource_overview)
 

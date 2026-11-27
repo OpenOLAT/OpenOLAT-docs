@@ -13,7 +13,7 @@ In the course | Course element "Blog" or tool "Blog" in the course toolbar
 
 ## What are blogs?
 
-The term "Blog" is short for "Weblog", composed of "Web" for the World Wide Web and "Log" for logbook. Many people run a blog as an online journal for professional or personal information. As a learning resource, you create the blog once and embed it in one or more courses: as a [course element](../Course_Elements/index.md), that is an item in the course menu, or via the toolbar, the bar with the course tools at the top of the course. Participants subscribe to a blog to be notified of new entries. If ratings and comments are switched on in the learning resource under `Blog > Administration > Settings > Tab "Options"`, they rate the entries and write comments on them.
+The term "Blog" is short for "Weblog", composed of "Web" for the World Wide Web and "Log" for logbook. Many people run a blog as an online journal for professional or personal information. As a learning resource, you create the blog once and embed it in one or more courses: as a [course element](../Course_Elements/index.md), that is an item in the course menu, or via the toolbar, the bar with the course tools at the top of the course. Participants subscribe to a blog to be notified of new entries. If the toggles "Posts are rateable" and "Posts are commentable" are switched on in the learning resource under `Blog > Administration > Settings > Tab "Options"`, they rate the entries and write comments on them.
 
 ## Pages about the blog {: #pages}
 
@@ -32,10 +32,9 @@ For discussions in the course, the ["Forum" course element](../Course_Element_Fo
 
 ## Further information {: #further_information}
 
-[How do I create a blog? >](../../../manual_how-to/blog/blog.md)<br>
-[Course Element "Blog" >](../Course_Element_Blog.md)<br>
 [Toolbar >](../Course_Settings_Toolbar.md)<br>
-[Podcast: Overview >](../Podcast/index.md)
+[Access configuration >](../Access_configuration.md)<br>
+[Members management >](../Members_management.md)
 
 [To the top of the page ^](#blog_learning_resource_overview)
 

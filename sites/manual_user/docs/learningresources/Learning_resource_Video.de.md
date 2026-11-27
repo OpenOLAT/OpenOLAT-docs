@@ -11,7 +11,7 @@ Verfügbar seit | Release 10.5 (OO-725)
 Zweck | Ein Video einmal bereitstellen und in mehreren Kursen nutzen
 Im Kurs | Kursbausteine "Video" und "Videoaufgabe"
 
-Sie erstellen die Lernressource im Autorenbereich: Mit "Datei importieren" laden Sie eine MP4-Datei hoch, mit "Per URL einbinden" binden Sie ein externes Video ein, etwa von YouTube oder Vimeo. Die Schritte beschreibt der Abschnitt [Lernressourcen importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Danach finden Sie das Video im Autorenbereich im Tab "Meine Einträge".
+Sie erstellen die Lernressource im Autorenbereich: Mit "Datei importieren" laden Sie eine MP4-Datei hoch, mit "Per URL einbinden" binden Sie ein externes Video ein, etwa von YouTube oder Vimeo. Die Schritte beschreibt der Abschnitt [Lernressourcen importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Danach finden Sie das Video unter `Autorenbereich > Meine Einträge`.
 
 ![Button "Datei importieren" mit aufgeklapptem Eintrag "Per URL einbinden", darunter Video-Lernressourcen in der Liste "Meine Einträge"](assets/Video_Lernressource_anlegen.jpg){ class="shadow lightbox" title="Autorenbereich, Tab Meine Einträge" }
 
@@ -52,7 +52,7 @@ In den Einstellungen legen Sie fest, wie das Video beschrieben, freigegeben und 
 Im Tab "Metadaten" finden Sie allgemeine Angaben zum Video wie Erstelldatum und Dateigrösse. Wie bei anderen Lernressourcen hinterlegen Sie hier ausserdem Angaben zu Autor:innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz.
 
 
-!!! note "Hinweis für YouTube Videos"
+!!! note "Hinweis für YouTube-Videos"
 
     Binden Sie ein YouTube-Video über "Per URL einbinden" ein, übernimmt OpenOlat auch Metadaten des YouTube-Videos, etwa den Titel und ein Startbild.
 
@@ -155,14 +155,14 @@ CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedi
 
 ### Tab "Videoqualitäten" {: #video_quality}
 
-Im Tab "Videoqualitäten" sehen Sie, in welchen Auflösungen das Video vorliegt. Nach dem Hochladen erstellt OpenOlat das Video in mehreren Auflösungen, das kann eine Weile dauern. Welche Auflösungen entstehen, legt die System-Administration fest unter:<br>
-`Administration > Module > Video`
+Im Tab "Videoqualitäten" sehen Sie, in welchen Auflösungen das Video vorliegt. Ist die Transkodierung eingeschaltet, erstellt OpenOlat nach dem Hochladen das Video in jeder Auflösung, die dafür ausgewählt ist, das kann eine Weile dauern. Ob transkodiert wird und welche Auflösungen entstehen, legt die System-Administration fest unter:<br>
+`Administration > Module > Video > Tab "Videokonfiguration"`
 
-Mit "Transkodieren" erstellen Sie eine ausstehende Auflösung, mit "Löschen" entfernen Sie eine Auflösung, die Sie nicht brauchen.
+Die Zeile "Master video" ist die hochgeladene Originaldatei, sie lässt sich hier nicht löschen. Fehlt eine der ausgewählten Auflösungen noch, steht in ihrer Zeile in der Spalte "Aktion" der Link "Transkodieren", der sie erstellt. Mit "Löschen" entfernen Sie eine Auflösung, die Sie nicht brauchen.
 
 ![Tabelle der Auflösungen Master video, 1080p Full-HD, 480p, 360p und 240p mit Dimension, Grösse und Format, je mit der Aktion "Löschen" ausser beim Master video](assets/learning_resource_video_qualities_v1_de.png){ class="shadow lightbox" title="Tab Videoqualitäten in den Einstellungen · 2026.10.20" }
 
-Im Videoplayer wählen Sie die Auflösung über das Zahnrad-Symbol "Source Chooser".
+Im Videoplayer wählen Sie die Auflösung über das Zahnrad-Symbol. Fahren Sie mit dem Mauszeiger darüber, zeigt der Player die englische Beschriftung "Source Chooser".
 
 ![Aufgeklappte Auswahl der Auflösungen 720p bis 240p mit Dateigrösse über dem Zahnrad-Symbol Source Chooser](assets/video_aufloesung.png){ class="shadow lightbox" title="Videoplayer einer Video-Lernressource" }
 

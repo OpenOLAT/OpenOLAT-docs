@@ -34,7 +34,7 @@ Die Lernressource Podcast erstellen Sie im Autorenbereich. Unter `Autorenbereich
 
 Verwenden Sie den Podcast nur in einem Kurs, genügt der Verwendungszweck "Einbindung", mit dem OpenOlat jeden neuen Podcast anlegt. Sie finden ihn unter `Podcast > Administration > Einstellungen > Freigabe`, siehe [Podcast: Administration](../Podcast_Administration.de.md#tab_share). Wer die Episoden im Kurs sieht, regeln dann die Mitglieder und Rechte des Kurses. Eigene Mitglieder ordnen Sie dem Podcast unter `Podcast > Administration > Mitgliederverwaltung` zu, Buchungen richten Sie unter `Podcast > Administration > Angebotsarten` ein. Beides brauchen Sie nur, wenn Sie den Podcast mit dem Verwendungszweck "Eigenständig" anbieten.
 
-Der Kursbaustein zeigt den Podcast unabhängig vom Status der Lernressource, also auch im Status "Vorbereitung". Liegt die Lernressource im Papierkorb oder ist sie gelöscht, zeigt der Kursbaustein stattdessen den Hinweis "Der Podcast kann nicht angezeigt werden, da die Podcast Ressource gelöscht wurde." [:octicons-tag-16:{ title="ab Release 18.1 (OO-7115)" }](https://track.frentix.com/issue/OO-7115){:target="_blank"}
+Der Kursbaustein zeigt den Podcast unabhängig vom Status der Lernressource, also auch im Status "Vorbereitung". Liegt die Lernressource im Papierkorb oder ist sie gelöscht, zeigt der Kursbaustein stattdessen den Hinweis "Der Podcast kann nicht angezeigt werden, da die Podcast-Ressource gelöscht wurde." [:octicons-tag-16:{ title="ab Release 18.1 (OO-7115)" }](https://track.frentix.com/issue/OO-7115){:target="_blank"}
 
 
 ## Weiterführende Informationen {: #further_information}

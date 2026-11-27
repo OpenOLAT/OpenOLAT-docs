@@ -23,9 +23,9 @@ Damit Teilnehmende das Glossar im Kurs nutzen, schalten Sie es anschliessend im 
 
 ## Ressourcenordner einbinden
 
-Ein Ressourcenordner stellt dieselben Dateien in mehreren Kursen zur Verfügung. Mit "Auswechseln" öffnen Sie eine Auswahl, in der Sie eine bestehende Lernressource "Ressourcenordner" wählen oder eine neue erstellen. Die Dateien des Ressourcenordners erscheinen danach im [Ablageordner](Storage_folder.de.md) des Kurses im automatisch erstellten Unterordner "_sharedfolder".
+Ein Ressourcenordner stellt dieselben Dateien in mehreren Kursen zur Verfügung. Mit "Auswechseln" öffnen Sie eine Auswahl, in der Sie eine bestehende Lernressource "Ressourcenordner" wählen oder eine neue erstellen. Die Dateien des Ressourcenordners erscheinen danach unter `Kurs > Administration > Dateien` im automatisch erstellten Ordner "_sharedfolder", neben dem [Ablageordner](Storage_folder.de.md) des Kurses.
 
-Sobald Sie einen Ressourcenordner wählen, ist "Schreibgeschützt" eingeschaltet. Die Dateien lassen sich dann nur in der Lernressource selbst bearbeiten, nicht im Ablageordner des Kurses und nicht beim Einbinden über Einzelseiten im Kurseditor. Sollen sie auch im Kurs bearbeitbar sein, entfernen Sie das Häkchen bei "Schreibgeschützt". Das Häkchen entfernen können nur Besitzer:innen des Kurses, Lernressourcenverwalter:innen und Administrator:innen.
+Sobald Sie einen Ressourcenordner wählen, ist "Schreibgeschützt" eingeschaltet. Die Dateien lassen sich dann nur in der Lernressource selbst bearbeiten, nicht im Ordner "_sharedfolder" des Kurses und nicht beim Einbinden über den Kursbaustein "HTML-Seite" im Kurseditor. Sollen sie auch im Kurs bearbeitbar sein, entfernen Sie das Häkchen bei "Schreibgeschützt". Das Häkchen entfernen können nur Personen, die den Ressourcenordner verwalten: seine Besitzer:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
 Eine Schritt-für-Schritt-Anleitung zum Einbinden eines Ressourcenordners finden Sie im How-to [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](../../manual_how-to/multiple_use/multiple_use.de.md)
 

@@ -13,15 +13,15 @@ Im Kurs | `Kurs > Administration > Einstellungen > Optionen`, ein Ressourcenordn
 
 ## Ressourcenordner im Kurs verwenden
 
-Mit einem Ressourcenordner organisieren Sie Dateien zentral, zum Beispiel Inhalte, Informationen und Grafiken, und nutzen sie in mehreren Kursen.
+Ein Ressourcenordner kommt über die Kurseinstellungen in den Kurs. Seine Dateien, zum Beispiel Inhalte, Informationen und Grafiken, zeigen Sie danach in Kursbausteinen wie "Ordner" oder "HTML-Seite".
 
 Als Kursbesitzer:in verbinden Sie den Ressourcenordner in den Kurseinstellungen mit dem Kurs: Klicken Sie unter `Kurs > Administration > Einstellungen > Optionen` auf "Auswechseln" und wählen Sie den gewünschten Ressourcenordner aus oder erstellen Sie einen neuen. Danach steht sein Titel unter "Gewählter Ressourcenordner", und mit "Speichern" übernehmen Sie die Wahl. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
 
-Mit dem Häkchen "Schreibgeschützt" wählen Sie zwischen zwei Varianten der Einbindung: schreibgeschützt oder ohne Schreibschutz.
+Mit dem Häkchen "Schreibgeschützt" legen Sie fest, ob die Dateien des Ressourcenordners im Kurs nur gelesen oder auch geändert werden können.
 
 ![Kurseinstellungen, Tab "Optionen": "Gewählter Ressourcenordner" mit dem Häkchen "Schreibgeschützt" und den Buttons "Auswahl löschen" und "Auswechseln"](assets/resource_folder_select_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.18" }
 
-- **Schreibgeschützt**: Im Kurs lassen sich die Dateien des Ressourcenordners weder verändern noch löschen oder ergänzen. So nutzen alle verknüpften Kurse stets dieselben Dateien im selben Stand.
+- **Schreibgeschützt**: Im Kurs lassen sich die Dateien des Ressourcenordners weder verändern noch löschen oder ergänzen. So ändert dieser Kurs nichts an den Dateien, die auch andere verknüpfte Kurse verwenden.
 - **Ohne Schreibschutz**: Kursbesitzer:innen ändern und löschen Dateien oder fügen neue hinzu, unter `Kurs > Administration > Dateien` im Ordner "_sharedfolder". Diese Anpassungen gelten direkt im Ressourcenordner und damit in allen verknüpften Kursen, auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
 
 Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.

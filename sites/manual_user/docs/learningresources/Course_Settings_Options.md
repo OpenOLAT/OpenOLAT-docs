@@ -23,9 +23,9 @@ So that participants can use the glossary in the course, you then switch it on i
 
 ## Include resource folder
 
-A resource folder provides the same files in several courses. With "Replace", you open a selection in which you choose an existing "Resource folder" learning resource or create a new one. The files of the resource folder then appear in the course's [storage folder](Storage_folder.md), in the automatically created subfolder "_sharedfolder".
+A resource folder provides the same files in several courses. With "Replace", you open a selection in which you choose an existing "Resource folder" learning resource or create a new one. The files of the resource folder then appear under `Course > Administration > Files` in the automatically created folder "_sharedfolder", next to the course's [storage folder](Storage_folder.md).
 
-As soon as you select a resource folder, "Read only" is switched on. The files can then only be edited in the learning resource itself, not in the course's storage folder and not when embedding them via single pages in the course editor. If they should also be editable in the course, clear the checkbox at "Read only". Only owners of the course, learning resource managers and administrators can clear this checkbox.
+As soon as you select a resource folder, "Read only" is switched on. The files can then only be edited in the learning resource itself, not in the course's "_sharedfolder" folder and not when embedding them via the course element "HTML page" in the course editor. If they should also be editable in the course, clear the checkbox at "Read only". Only persons who manage the resource folder can clear this checkbox: its owners, learning resource managers and administrators.
 
 A step-by-step guide to including a resource folder can be found in the how-to [How can I use the same files in several courses?](../../manual_how-to/multiple_use/multiple_use.md)
 

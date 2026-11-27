@@ -14,8 +14,8 @@ WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein o
   * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
   * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer:innen)
   * [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md)
-  * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (Besitzer:innen und Betreuer:innen mit Schreibrecht, Teilnehmende mit Leserecht)
-  * [Kursarchive](../learningresources/Course_Archiving/index.de.md) (nur Autor:innen, Lernressourcenmanager:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
+  * [Ressourcenordner](../learningresources/Resource_Folder.de.md) (Besitzer:innen und Betreuer:innen des Ressourcenordners mit Schreibrecht, seine Teilnehmenden mit Leserecht)
+  * [Kursarchive](../learningresources/Course_Archiving/index.de.md) (nur Autor:innen, Lernressourcenverwalter:innen und Administrator:innen) [:octicons-tag-16:{ title="ab Release 19.0 (OO-7504)" }](https://track.frentix.com/issue/OO-7504)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, hängt von der Konfiguration des Ordners ab.
 
@@ -29,7 +29,7 @@ Um einen Ordner auf OpenOlat über WebDAV zu erreichen, benötigen Sie:
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail-Adresse
   * Ihr OpenOlat-/WebDAV-Passwort
 
-Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, richten Sie Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü ein. Wählen Sie dazu den Link "Einstellungen" und klicken Sie im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
+Falls Sie mit Shibboleth oder einem Cloud-Login auf OpenOlat zugreifen, richten Sie Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menü ein. Klicken Sie dazu unter `Persönliches Menü > Einstellungen > Tab "WebDAV"` auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV-Zugang.
 
 ## Problembehandlung
 
@@ -102,13 +102,13 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 
   * **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.de.md) aller Kurse, die Sie besitzen. Für jeden Kurs wird automatisch ein WebDAV-Ordner angelegt. Klicken Sie auf den WebDAV-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw. Neben den von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach Konfiguration automatisch weitere Ordner an. Diese erreichen Sie ebenfalls über WebDAV. Den Ablageordner sehen nur die Besitzer:innen eines Kurses. Betreuer:innen und Teilnehmende finden hier nur die Ordner der Kursbausteine "Ordner" sowie eingebundene Ressourcenordner, sofern dieser Zugriff in der System-Administration unter `Administration > Core-Konfiguration > WebDAV` freigeschaltet ist, siehe [WebDAV (Administrationshandbuch)](../../manual_admin/administration/WebDAV.de.md#access_courses).
 
-    * _other_: Dieser Ordner erscheint nur, wenn in der System-Administration unter `Administration > Core-Konfiguration > WebDAV` "Kurse nach Semesterdaten gruppieren" oder "Kurse nach CPL Elementen gruppieren" eingeschaltet ist. In diesem Ordner befinden sich alle Kurse, welche _keinem_ Semester bzw. Element zugeordnet sind.
-    * _finished_: Dieser Ordner erscheint nur, wenn die Kurse nicht gruppiert werden. In diesem Ordner befinden sich alle Kurse mit dem Status "Beendet".
+    * `_other`: Dieser Ordner erscheint nur, wenn in der System-Administration unter `Administration > Core-Konfiguration > WebDAV` "Kurse nach Semesterdaten gruppieren" oder "Kurse nach CPL Elementen gruppieren" eingeschaltet ist. In diesem Ordner befinden sich alle Kurse, welche _keinem_ Semester bzw. Element zugeordnet sind.
+    * `_finished`: Dieser Ordner erscheint nur, wenn die Kurse nicht gruppiert werden. In diesem Ordner befinden sich alle Kurse mit dem Status "Beendet".
 
   * **groupfolders**: Hier finden Sie alle Gruppen, in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   * **home**: Ihre persönlichen Dateien mit den Unterordnern "private" und "public".
   * **sharedfolders**: Alle Ressourcenordner, die Sie besitzen oder auf die Sie aufgrund einer Mitgliedschaft zugreifen dürfen. Besitzer:innen und Betreuer:innen erhalten Lese- und Schreibrechte, Teilnehmende nur Leserechte.
-  * **mycoursearchives**: Alle [Kursarchive](../learningresources/Course_Archiving/index.de.md), die Sie erstellt haben. Dieser Ordner erscheint nur für Autor:innen, Lernressourcenmanager:innen und Administrator:innen.
+  * **mycoursearchives**: Alle [Kursarchive](../learningresources/Course_Archiving/index.de.md), die Sie erstellt haben. Dieser Ordner erscheint nur für Autor:innen, Lernressourcenverwalter:innen und Administrator:innen.
 
 ## Weiterführende Informationen {: #further_information}
 
@@ -117,7 +117,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 [Gruppenwerkzeuge nutzen >](../groups/Using_Group_Tools.de.md)<br>
 [Ablageordner >](../learningresources/Storage_folder.de.md)<br>
 [Kursbaustein "Ordner" >](../learningresources/Course_Element_Folder.de.md)<br>
-[Lernressourcen >](../learningresources/index.de.md)<br>
+[Ressourcenordner >](../learningresources/Resource_Folder.de.md)<br>
 [Kurs-Administration: Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Navigation >](Navigation.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../personal_menu/Settings.de.md)<br>

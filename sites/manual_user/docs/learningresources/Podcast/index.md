@@ -34,7 +34,7 @@ You create the podcast learning resource in the authoring area. Under `Authoring
 
 If you only use the podcast in a course, the usage "Embedding" is sufficient, with which OpenOlat creates every new podcast. You find it under `Podcast > Administration > Settings > Share`, see [Podcast: Administration](../Podcast_Administration.md#tab_share). Who sees the episodes in the course is then determined by the members and rights of the course. You assign members of its own to the podcast under `Podcast > Administration > Members management`, and you set up bookings under `Podcast > Administration > Offer types`. You only need both if you offer the podcast with the usage "Standalone".
 
-The course element shows the podcast regardless of the status of the learning resource, including the status "Preparation". If the learning resource is in the recycle bin or deleted, the course element shows the note "The podcast cannot be started because the podcast resource has been deleted." instead. [:octicons-tag-16:{ title="from Release 18.1 (OO-7115)" }](https://track.frentix.com/issue/OO-7115){:target="_blank"}
+The course element shows the podcast regardless of the status of the learning resource, including the status "Preparation". If the learning resource is in the recycle bin or deleted, the course element shows the note "The podcast cannot be displayed because the podcast resource has been deleted." instead. [:octicons-tag-16:{ title="from Release 18.1 (OO-7115)" }](https://track.frentix.com/issue/OO-7115){:target="_blank"}
 
 
 ## Further information {: #further_information}
