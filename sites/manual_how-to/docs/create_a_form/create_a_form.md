@@ -89,7 +89,7 @@ Exception: An anonymous survey was created.
 The answers can be viewed by authorized persons.<br>
 Who is authorized can be configured, see [8. Configure forms](#step8).
 
-If coaches click on the course element "Form" in the course, they do not see the form like the participants, but the list of participants with status and submission date. From the list they open the individual forms, with "Export data" they download the entries.<br>
+If coaches click on the course element "Form" in the course, they do not see the form like the participants, but the list of participants with status and submission date. The status shows how far someone has got: "Not started", "In progress" or "Done". By default, only persons with a system role such as author or administrator see the column "Username", coaches without such a role do not see it. The administration of OpenOlat sets which roles see the username. From the list coaches open the individual forms, with "Export data" they download the entries.<br>
 
 ![Coaches see the list of participants with status and submission date in the course element Form and download the entries with Export data](assets/form_lecturer_evaluation_par_c_v2_en.png){ class="shadow lightbox" title="Course element Form as seen by coaches · 2026.11.27" }
 
@@ -227,19 +227,19 @@ To test a form as an author, select "Participant view" in the menu "Role" under 
 
     When others (non-owners) test, their entered data is saved and a form can only be changed to a limited extent afterwards. This prevents subsequent manipulation.
 
-    This also applies to you as an owner: if you open a course element "Survey" in the course under `Role > Switch to > Participant view`, the form can only be changed to a limited extent afterwards, even if you do not enter anything. The form editor then shows the message "The resource is already used. Editing is limited."
+    This also applies to you as an owner: if you open a course element "Survey" in the course under `Role > Switch to > Participant view`, the form can only be changed to a limited extent afterwards, even if you do not enter anything. The form editor then shows the message "The resource is already used. Editing is limited." Limited means: you can no longer add, duplicate, delete or move elements. If you open the course element without a role switch in your role "Owner" instead, by default you see the results of the survey, and the form remains freely editable.
 
-    If others have already opened or filled in the form, create a copy of the learning resource via `Form > Administration > Copy`, change the copy and include it in a new course element.
+    If editing is already limited because others or you yourself have opened the form as a participant, create a copy of the learning resource via `Form > Administration > Copy`, change the copy and include it in a new course element.
 
 <br>
 
 !!! tip "Tip when a 'Not accessible' appears"
 
-    If you as an author have published a course and then call it up, it often happens that the course element with the form learning resource is not accessible.
+    If you as an author have published a course and then call it up, it can happen that the course element with the form learning resource is not accessible.
 
-    Often it is because authors are not allowed to fill in the form themselves according to the preset configuration, because they are owners but not participants. In the course element "Survey", for example, only the role "Participant" is preset under "Participation by" in the tab "Survey".
+    Often it is because authors are not allowed to fill in the form themselves according to the preset configuration, because they are owners but not participants. In the course element "Survey", for example, only the role "Participant" is preset under "Participation by" in the tab "Survey". Owners see the results there if they are selected under "Results visible for", as in the preset. Otherwise the course element is not accessible for them.
 
-    You can get around this by switching to the "Participant view" in the menu "Role" of the course.
+    You can get around this by switching to the "Participant view" in the menu "Role" of the course. Note the warning above: afterwards, the form can only be changed to a limited extent.
 
 
 [To the top of the page ^](#create_form)

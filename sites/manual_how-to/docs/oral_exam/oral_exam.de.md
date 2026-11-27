@@ -109,11 +109,12 @@ Klicken Sie auf "Bewertungsskala bearbeiten", um eine Skala auszuwählen und eve
 
 Unter **Zuweisung** definieren Sie, ob die Zuweisung zur gewählten Bewertungsskala manuell durch die Betreuenden oder automatisch durch die Zuordnung der erreichten Punktzahl erfolgen soll.
 
-#### Bestanden/Nicht bestanden ausgeben {: #display_passed}
+#### Bestanden/Nicht bestanden ausgeben oder Erfolgskriterium {: #display_passed}
 
-Haben Sie sich für eine Bewertung mit Einstufung/Noten entschieden, wird Ihnen der Grenzwert für das "Bestanden" der gewählten Bewertungsskala angezeigt.<br>
-Verwenden Sie *keine* Bewertung mit Einstufung/Noten, können Sie sich entscheiden, ob Sie das "Bestanden/Nicht bestanden" des Kursbausteins den Teilnehmer:innen anzeigen möchten.<br>
-Wenn zusätzlich zu "Bestanden/Nicht bestanden ausgeben" auch "Punkte vergeben" aktiviert ist, kann neben der standardmässigen manuellen Bewertung durch die Betreuer:innen auch eine automatische, punkteabhängige Bewertung aktiviert werden.
+Welche Einstellung an dieser Stelle erscheint, hängt von der Option "Bewertung mit Einstufung/Noten" ab:
+
+- **Mit Einstufung/Noten:** Das Feld "Erfolgskriterium" zeigt, ab welcher Note oder Stufe die Prüfung bestanden ist, z.B. "Bestanden mit 4 (Note)". Den Wert legt die gewählte [Bewertungsskala](#rating_scale) fest, an dieser Stelle können Sie ihn nicht ändern. Sieht die Skala kein Bestehen vor, fehlt das Feld, und der Kursbaustein vergibt kein Bestanden oder Nicht bestanden.
+- **Ohne Einstufung/Noten:** Mit dem Schalter "Bestanden/Nicht bestanden ausgeben" legen Sie fest, ob der Kursbaustein ein Bestanden oder Nicht bestanden vergibt und den Teilnehmer:innen anzeigt. Unter "Art der Ausgabe" wählen Sie "Manuell durch Betreuer:in" oder "Automatisch durch Punkteschwelle". Die automatische Ausgabe setzt voraus, dass "Punkte vergeben" eingeschaltet ist. Sie tragen dann die "Punkteschwelle für Bestanden" ein.
 
 #### Bei Kurs-Bewertung berücksichtigen {: #course_assessment}
 

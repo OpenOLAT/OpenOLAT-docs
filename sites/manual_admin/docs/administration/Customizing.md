@@ -55,7 +55,7 @@ For "Imprint in", "Terms of use" and "Privacy policy" there is one button per la
 
 With the "Contact form" checkbox you also offer a form for general requests. The requests go to the address in the "Contact mail" field, which you store with "Save".
 
-![Imprint enabled and set to position Footer, below it the texts Imprint in, Terms of use and Privacy policy, maintained per language](assets/admin_customizing_imprint_v2_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.10.21" }
+![Imprint enabled, position Footer, below it one button per language for Imprint in, Terms of use and Privacy policy, a checkmark shows an existing text](assets/admin_customizing_imprint_v3_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.11.27" }
 
 [To the top of the page ^](#customizing)
 

@@ -40,14 +40,14 @@ Der Text gehört zu den Texten der Oberfläche. Deshalb lässt er sich für jede
 Davon getrennt hinterlegen Systemadministrator:innen im Impressum einen Text "Nutzungsbedingungen":<br>`Administration > Customizing > Impressum`<br>
 Dieser Text erscheint im Impressum unter "Nutzungsbedingungen", nicht im Dialog beim ersten Login. Hinterlegen lässt er sich nur, wenn das Impressum eingeschaltet ist, für jede aktivierte Sprache ein eigener Text.
 
-![Ein Button je aktivierter Sprache zum Hinterlegen der Nutzungsbedingungen im Impressum, unterhalb des Impressumstexts](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing" }
+![In der Zeile Nutzungsbedingungen hinterlegen Sie den Text je Sprache über deren Button, ein Häkchen zeigt einen vorhandenen Text](assets/terms_of_use_platform_define_v2_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.11.27" }
 
 
 ### Akzeptierte Nutzungsbedingungen nachlesen {: #terms_of_use_platform_verify}
 
 Die Nutzungsbedingungen, denen Sie beim ersten Login zugestimmt haben, lesen Sie jederzeit in Ihrem persönlichen Menü nach:<br>`Persönliches Menü > Einstellungen > Tab "Nutzungsbedingungen"`
 
-![Der akzeptierte Text der Nutzungsbedingungen mit drei angehakten Checkboxen zur Zustimmung und dem Link Drucken](assets/terms_of_use_pers_menu_v1_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Einstellungen" }
+![Im persönlichen Menü öffnet Einstellungen die Einstellungen, dort zeigt der Tab Nutzungsbedingungen den akzeptierten Text mit dem Datum Ihrer Zustimmung](assets/terms_of_use_pers_menu_v2_de.png){ class="shadow lightbox" title="Tab Nutzungsbedingungen der Einstellungen · 2026.11.27" }
 
 [Zum Seitenanfang ^](#terms_of_use)
 
@@ -118,7 +118,7 @@ Die Einverständniserklärung fügen Autor:innen der Lernressource Formular im [
 
 ![Element Nutzungsbedingungen in der Gruppe Organisatorisch](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" }
 
-![Felder Einverständniserklärung und Beschriftung Einverständniserklärung des Elements Nutzungsbedingungen, rechts der Inspektor mit dem Schalter Hinweis-Box](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formulareditor" }
+![In den Feldern Einverständniserklärung und Beschriftung Einverständniserklärung schreiben Sie Text und Beschriftung der Checkbox, im Tab Stil des Inspektors schalten Sie die Hinweis-Box ein](assets/terms_of_use_form2_v2_de.png){ class="shadow lightbox" title="Element Nutzungsbedingungen im Formulareditor · 2026.11.27" }
 
 [Zum Seitenanfang ^](#terms_of_use)
 

@@ -89,7 +89,7 @@ Ausnahme: Es wurde eine anonyme Umfrage erstellt.
 Die Antworten können von berechtigten Personen eingesehen werden.<br>
 Wer berechtigt ist, kann konfiguriert werden, siehe [8. Formulare konfigurieren](#step8).
 
-Klicken Betreuer:innen im Kurs auf den Kursbaustein "Formular", sehen sie nicht das Formular wie die Teilnehmenden, sondern die Liste der Teilnehmer:innen mit Status und Abgabedatum. Aus der Liste öffnen sie die einzelnen Formulare, mit "Daten exportieren" laden sie die Angaben herunter.<br>
+Klicken Betreuer:innen im Kurs auf den Kursbaustein "Formular", sehen sie nicht das Formular wie die Teilnehmenden, sondern die Liste der Teilnehmer:innen mit Status und Abgabedatum. Der Status zeigt, wie weit jemand ist: "Nicht gestartet", "Gestartet" oder "Ausgefüllt". Die Spalte "Anmeldename" sehen in der Voreinstellung nur Personen mit einer Systemrolle wie Autor:in oder Administrator:in, Betreuer:innen ohne eine solche Rolle sehen sie nicht. Welche Rollen den Anmeldenamen sehen, legt die Administration von OpenOlat fest. Aus der Liste öffnen Betreuer:innen die einzelnen Formulare, mit "Daten exportieren" laden sie die Angaben herunter.<br>
 
 ![Betreuende sehen im Kursbaustein Formular die Liste der Teilnehmer:innen mit Status und Abgabedatum und laden die Angaben mit Daten exportieren herunter](assets/formular_dozentenbeurteilung_tn_b_v2_de.png){ class="shadow lightbox" title="Kursbaustein Formular aus Sicht der Betreuenden · 2026.11.27" }
 
@@ -227,19 +227,19 @@ Um als Autor:in ein Formular zu testen, wählen Sie im Menü "Rolle" unter "Wech
 
     Wenn andere (Nicht-Besitzer:innen) testen, werden deren eingegebene Daten gespeichert und ein Formular ist danach nur noch eingeschränkt änderbar. So ist eine nachträgliche Manipulation ausgeschlossen.
 
-    Das gilt auch für Sie als Besitzer:in: Öffnen Sie im Kurs unter `Rolle > Wechseln zu > Teilnehmer:innenansicht` einen Kursbaustein "Umfrage", ist das Formular danach nur noch eingeschränkt änderbar, auch wenn Sie nichts eingeben. Der Formulareditor zeigt dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
+    Das gilt auch für Sie als Besitzer:in: Öffnen Sie im Kurs unter `Rolle > Wechseln zu > Teilnehmer:innenansicht` einen Kursbaustein "Umfrage", ist das Formular danach nur noch eingeschränkt änderbar, auch wenn Sie nichts eingeben. Der Formulareditor zeigt dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt." Eingeschränkt heisst: Elemente lassen sich nicht mehr hinzufügen, duplizieren, löschen oder verschieben. Öffnen Sie den Kursbaustein dagegen ohne Rollenwechsel in Ihrer Rolle "Besitzer:in", sehen Sie in der Voreinstellung die Resultate der Umfrage, und das Formular bleibt frei bearbeitbar.
 
-    Haben andere das Formular bereits geöffnet oder ausgefüllt, erstellen Sie eine Kopie der Lernressource unter `Formular > Administration > Kopieren`, ändern die Kopie und binden sie in einen neuen Kursbaustein ein.
+    Ist die Bearbeitung bereits beschränkt, weil andere oder Sie selbst das Formular als Teilnehmer:in geöffnet haben, erstellen Sie eine Kopie der Lernressource unter `Formular > Administration > Kopieren`, ändern die Kopie und binden sie in einen neuen Kursbaustein ein.
 
 <br>
 
 !!! tip "Tipp, wenn ein 'Nicht zugänglich' erscheint"
 
-    Wenn Sie als Autor:in einen Kurs publiziert haben und ihn danach aufrufen, kommt es oft vor, dass der Kursbaustein mit der Formular-Lernressource nicht zugänglich ist.
+    Wenn Sie als Autor:in einen Kurs publiziert haben und ihn danach aufrufen, kann es vorkommen, dass der Kursbaustein mit der Formular-Lernressource nicht zugänglich ist.
 
-    Oft liegt es daran, dass Autor:innen das Formular gemäss der voreingestellten Konfiguration nicht selbst ausfüllen dürfen, weil sie Besitzer:innen, aber keine Teilnehmenden sind. Im Kursbaustein "Umfrage" zum Beispiel ist im Tab "Umfrage" unter "Teilnahme durch" nur die Rolle "Teilnehmer:innen" voreingestellt.
+    Oft liegt es daran, dass Autor:innen das Formular gemäss der voreingestellten Konfiguration nicht selbst ausfüllen dürfen, weil sie Besitzer:innen, aber keine Teilnehmenden sind. Im Kursbaustein "Umfrage" zum Beispiel ist im Tab "Umfrage" unter "Teilnahme durch" nur die Rolle "Teilnehmer:innen" voreingestellt. Besitzer:innen sehen dort die Resultate, wenn sie unter "Resultate sichtbar für" ausgewählt sind, wie in der Voreinstellung. Sonst ist der Kursbaustein für sie nicht zugänglich.
 
-    Mit dem Wechsel zur "Teilnehmer:innenansicht" im Menü "Rolle" des Kurses umgehen Sie dies.
+    Mit dem Wechsel zur "Teilnehmer:innenansicht" im Menü "Rolle" des Kurses umgehen Sie dies. Beachten Sie dabei die Warnung oben: Danach ist das Formular nur noch eingeschränkt änderbar.
 
 
 [Zum Seitenanfang ^](#create_form)

@@ -56,7 +56,7 @@ Für "Impressum auf", "Nutzungsbedingungen" und "Datenschutzerklärung" steht je
 
 Mit der Checkbox "Kontaktformular" bieten Sie zusätzlich ein Formular für allgemeine Anfragen an. Die Anfragen gehen an die Adresse im Feld "Kontakt E-Mail", die Sie mit "Speichern" sichern.
 
-![Impressum eingeschaltet und auf Position Footer gesetzt, darunter die Texte Impressum auf, Nutzungsbedingungen und Datenschutzerklärung, je Sprache hinterlegt](assets/admin_customizing_imprint_v2_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.10.21" }
+![Impressum eingeschaltet, Position Footer, darunter je Sprache ein Button für Impressum auf, Nutzungsbedingungen und Datenschutzerklärung, ein Häkchen zeigt einen vorhandenen Text](assets/admin_customizing_imprint_v3_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.11.27" }
 
 [Zum Seitenanfang ^](#customizing)
 

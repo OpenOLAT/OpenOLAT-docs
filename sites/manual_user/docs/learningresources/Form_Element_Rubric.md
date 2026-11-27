@@ -55,7 +55,7 @@ You add a rubric to the form in the [form editor](Form_Editor/index.md) via "Add
 
 A rubric consists of rows and columns: the rows hold the criteria, statements or questions, the columns the levels of the rating scale.
 
-![Column label with the value per column, and per row One line, Multi-line and Formatted, the weight, the move arrows and the bin](assets/Rubric_add_EN.png){ class="shadow lightbox" title="Configuration of a rubric" }
+![The selected rubric in the form editor shows the column label with the value per column, and per row One line, Multi-line and Formatted, the weight, the move arrows and the bin](assets/form_element_rubric_add_v1_en.png){ class="shadow lightbox" title="Rubric in the form editor · 2026.11.27" }
 
 Under "Column label", enter the level of the rating scale for each column, for example very good, good, medium, bad, very bad. Each column has a value, which you set in the "Extended" tab of the [rubric inspector](#rubric_inspector) under "Scale type". The inspector is the movable window with the settings of the selected rubric.
 

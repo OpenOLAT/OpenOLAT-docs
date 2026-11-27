@@ -4,11 +4,11 @@ With a form in the learning resource "[Portfolio 2.0 Template](Portfolio_templat
 
 For this, you need a Portfolio 2.0 template. Select or create a "Section" in it and select "New assignment". How you edit a Portfolio 2.0 template is described on the page [Portfolio template: Administration and editing](../learningresources/Portfolio_template_Administration_and_editing.md).
 
-![Section with the button New assignment under Create new assignment](assets/Formular_eportfolio.png){ class="shadow lightbox" title="Tab Entries of a portfolio binder" }
+![Tab Entries of a Portfolio 2.0 template, framed the section with the button New assignment, with which you add the assignment for the form](assets/forms_in_eportfolio_template_assignment_v1_en.png){ class="shadow lightbox" title="Tab Entries of a Portfolio 2.0 template · 2026.11.27" }
 
 For a form in a portfolio assignment, select the entry "Form" under "Type". With the button "Select a form", you then select a prepared form or create a new one.
 
-![Assignment of type Form with form selection and evaluation mode](assets/portfolio_Aufgabe1.png){ class="shadow lightbox" title="Dialog New assignment" }
+![Dialog New assignment, framed the type Form and the button Select a form, with which you link a prepared form to the assignment; below the options for the evaluation](assets/forms_in_eportfolio_template_assignment_form_v1_en.png){ class="shadow lightbox" title="Dialog New assignment in a Portfolio 2.0 template · 2026.11.27" }
 
 If you do not have a form yet, you create a new "Form" learning resource with the button "Create" in the "Select a form" dialog. You load a form from a file with the button "Import file". OpenOlat adds the new or imported form directly to the portfolio assignment.
 
@@ -29,7 +29,7 @@ Via the course element "[Portfolio task](../learningresources/Creating_Portfolio
 
 The following form shows a self-assessment as participants see it when filling it in.
 
-![Example form with self evaluation via sliders](assets/Portfolio_Formular.png){ class="shadow lightbox" title="Form when filling in" }
+![Portfolio assignment of type Form in the binder of a participant, framed the self-assessment with sliders, as participants see it when they fill in the form](assets/forms_in_eportfolio_template_form_view_v1_en.png){ class="shadow lightbox" title="Assignment of type Form in a portfolio binder · 2026.11.27" }
 
 ## Further information {: #further_information}
 

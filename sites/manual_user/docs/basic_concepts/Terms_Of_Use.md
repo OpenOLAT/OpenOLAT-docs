@@ -40,14 +40,14 @@ The text is one of the texts of the user interface. This is why it can be adapte
 Separately from this, system administrators store a text "Terms of use" in the imprint:<br>`Administration > Customizing > Imprint`<br>
 This text appears in the imprint under "Terms of use", not in the dialog at the first login. It can only be stored if the imprint is enabled, with a separate text for each activated language.
 
-![One button per activated language for storing the terms of use in the imprint, below the imprint text](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Imprint page in the Customizing menu" }
+![In the row Terms of use, you store the text per language via its button, a checkmark shows an existing text](assets/terms_of_use_platform_define_v1_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.11.27" }
 
 
 ### Read accepted terms of use {: #terms_of_use_platform_verify}
 
 You can read the terms of use that you agreed to at the first login at any time in your personal menu:<br>`Personal menu > Settings > Tab "Terms of use"`
 
-![The accepted text of the terms of use with three ticked consent checkboxes and the Print link](assets/terms_of_use_pers_menu_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the settings" }
+![In the personal menu, System settings opens the settings, where the Terms of use tab shows the accepted text with the date of your consent](assets/terms_of_use_pers_menu_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the settings · 2026.11.27" }
 
 [To the top of the page ^](#terms_of_use)
 
@@ -67,29 +67,29 @@ The tab exists if the system administration has switched on the option "Course r
 
 The fields for the text appear as soon as you tick the checkbox "Enabled" next to "Terms of use". On the same tab, you can also switch on a course-related privacy policy; it has the same structure.
 
-![Terms of use enabled, below it the fields Title, Terms with text editor as well as Label checkbox 1 and 2](assets/terms_of_use_course_define_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the course settings" }
+![With Terms of use enabled, you write the title, the terms in the text editor and the labels of checkbox 1 and 2](assets/terms_of_use_course_define_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the course settings · 2026.11.27" }
 
 In the field "Label checkbox 1" at the bottom of the page, you define which text is displayed to participants next to their checkbox for accepting the terms of use.
 
 In addition, a second checkbox with any descriptive text can be defined for confirmation in the field "Label checkbox 2". If a text is entered, both checkboxes must be confirmed by the participants for the terms of use to be considered accepted. If no descriptive text is entered, the second checkbox is not displayed to the participants.
 
-![Field Label checkbox 2 with the example text "Ich willige ein, dass ..."](assets/terms_of_use_course_checkbox2_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the course settings" }
+![In the field Label checkbox 2 you write the text of a second checkbox, here "I agree that ..."](assets/terms_of_use_course_checkbox2_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the course settings · 2026.11.27" }
 
 
 ### Activate confirmation request for a course
 
 The participants see the terms of use as soon as you tick the checkbox "Enabled" next to "Terms of use" and save. OpenOlat only saves the text while the checkbox is ticked. If you switch the terms of use off later, the last saved text is kept and appears again when you switch them on again.
 
-![Checkbox Enabled next to Terms of use ticked](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the course settings" }
+![Once the checkbox Enabled next to Terms of use is ticked and saved, participants see the terms of use](assets/terms_of_use_course_activate_v1_en.png){ class="shadow lightbox" title="Terms of use tab of the course settings · 2026.11.27" }
 
 
 ### Management of the terms of use in the members management
 
 Which participants have given their consent to the course-specific terms of use is visible to course owners in the [members management](../learningresources/Members_management.md) under:<br>`Course > Administration > Members management > Consents`
 
-![Entry Members management in the opened Administration menu of the course toolbar](assets/terms_of_use_course_members_management1_v1_de.png){ class="shadow lightbox" title="Administration menu of the course" }
+![In the Administration menu of the course, Members management leads to the consents](assets/terms_of_use_course_members_management1_v1_en.png){ class="shadow lightbox" title="Administration menu of the course · 2026.11.27" }
 
-![Table of consents with the date per person, one revoked entry struck through, below it the buttons for revoking and deleting](assets/terms_of_use_course_members_management2_v1_de.png){ class="shadow lightbox" title="Consents area of the members management" }
+![Under Consents, the table shows who agreed to the terms of use and when, a revoked consent is struck through, and the buttons below revoke consents or delete entries](assets/terms_of_use_course_members_management2_v1_en.png){ class="shadow lightbox" title="Consents area of the members management · 2026.11.27" }
 
 * If someone declines, the column "Consent" shows the note "Rejected or withdrawn". You can then contact the person directly.
 * Course owners can revoke selected consents or delete the entries.
@@ -99,7 +99,7 @@ Which participants have given their consent to the course-specific terms of use 
 
 [Learning path courses](../learningresources/Creating_learning_path_courses.md) can be copied with the help of a wizard: `Course > Administration > Copy with wizard`. In the wizard, you specify before copying which [course settings](../learningresources/Course_Settings/index.md) the copy takes over, including the terms of use.
 
-![Row Terms of use with the options Customize, Copy and Don't copy](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Copy course wizard, Copy options step" }
+![In the step Copy options, the row Terms of use decides with Customize, Copy or Don't copy whether the copy takes over the terms of use](assets/terms_of_use_course_copy_v1_en.png){ class="shadow lightbox" title="Copy course wizard, Copy options step · 2026.11.27" }
 
 [To the top of the page ^](#terms_of_use)
 
@@ -110,15 +110,15 @@ Which participants have given their consent to the course-specific terms of use 
 
 A form can also contain terms of use: the element "Terms of use" shows a letter of agreement with a checkbox. The person filling in the form ticks it. Without the tick, the form cannot be finished, OpenOlat then reports "Please give your consent first."
 
-![Text of the letter of agreement with the checkbox for consent](assets/terms_of_use_form3_v1_de.png){ class="shadow lightbox" title="Participant view of a form" }
+![Below the letter of agreement, the person filling in the form ticks the checkbox to give consent](assets/terms_of_use_form3_v1_en.png){ class="shadow lightbox" title="Participant view of a form · 2026.11.27" }
 
 ### Define terms of use of a form
 
 Authors add the letter of agreement to the learning resource Form in the [form editor](../learningresources/Form_Editor/index.md) as the element "Terms of use": via "Add content", in the group "Organisational". In the element, you set the text and the label of the checkbox in the fields "Letter of agreement" and "Agreement label". In the tab "Style" of the inspector, you place the element in a highlighted box with the switch "Alert box".
 
-![Element Terms of use in the group Organisational](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Add content dialog in the form editor" }
+![In the dialog Add content, you find the element Terms of use in the group Organisational](assets/terms_of_use_form1_v1_en.png){ class="shadow lightbox" title="Add content dialog in the form editor · 2026.11.27" }
 
-![Fields Letter of agreement and Agreement label of the element Terms of use, on the right the inspector with the switch Alert box](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" title="Element Terms of use in the form editor" }
+![In the fields Letter of agreement and Agreement label you write the text and the label of the checkbox, in the Style tab of the inspector you switch on the Alert box](assets/terms_of_use_form2_v1_en.png){ class="shadow lightbox" title="Element Terms of use in the form editor · 2026.11.27" }
 
 [To the top of the page ^](#terms_of_use)
 

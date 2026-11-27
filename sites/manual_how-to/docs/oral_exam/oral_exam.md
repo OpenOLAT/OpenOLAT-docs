@@ -109,11 +109,12 @@ Click "Edit rating scale" to select a scale and make any additional settings. Th
 
 Under **Assignment**, you define whether the assignment to the selected rating scale should be done manually by the coaches or automatically based on the score achieved.
 
-#### Display passed / not passed {: #display_passed}
+#### Display passed / not passed or Success criterion {: #display_passed}
 
-If you have chosen an assessment with levels/grading, the threshold for "Passed" of the selected rating scale is displayed.<br>
-If you do *not* use an assessment with levels/grading, you can decide whether to display the "passed / not passed" of the course element to the participants.<br>
-If "Score granted" is enabled in addition to "Display passed / not passed", an automatic, score-based assessment can be activated in addition to the standard manual assessment by the coaches.
+Which setting appears here depends on the option "Levels/Grading":
+
+- **With levels/grading:** The field "Success criterion" shows from which grade or level on the exam is passed, e.g. "Passed with 4 (Grade)". The selected [rating scale](#rating_scale) sets the value, you cannot change it at this point. If the scale has no passing, the field is missing, and the course element does not award passed or not passed.
+- **Without levels/grading:** With the switch "Display passed / not passed" you define whether the course element awards passed or not passed and displays it to the participants. Under "Type of display" you select "Manually by coach" or "Automatic (using cut value)". The automatic display requires that "Score granted" is switched on. You then enter the "Passed cut value".
 
 #### Include in course assessment {: #course_assessment}
 

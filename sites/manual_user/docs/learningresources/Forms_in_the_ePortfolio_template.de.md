@@ -4,7 +4,7 @@ Mit einem Formular in der Lernressource "[Portfolio 2.0 Vorlage](Portfolio_templ
 
 Dafür brauchen Sie eine Portfolio 2.0 Vorlage. Wählen oder erstellen Sie darin einen "Bereich" und wählen Sie "Neue Aufgabe". Wie Sie eine Portfolio 2.0 Vorlage bearbeiten, beschreibt die Seite [Portfoliovorlage: Administration und Bearbeitung](../learningresources/Portfolio_template_Administration_and_editing.de.md).
 
-![Bereich mit dem Button Neue Aufgabe unter Neue Aufgabe erstellen](assets/Formular_eportfolio.png){ class="shadow lightbox" title="Tab Einträge einer Portfoliomappe" }
+![Bereich mit dem Button Neue Aufgabe unter Neue Aufgabe erstellen](assets/Formular_eportfolio.png){ class="shadow lightbox" title="Tab Einträge einer Portfolio 2.0 Vorlage" }
 
 Für ein Formular in einer Portfolio-Aufgabe wählen Sie unter "Typ" den Eintrag "Formular". Mit dem Button "Formular auswählen" wählen Sie danach ein vorbereitetes Formular oder erstellen ein neues.
 
