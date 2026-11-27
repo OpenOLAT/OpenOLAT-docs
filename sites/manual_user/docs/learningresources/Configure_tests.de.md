@@ -1,46 +1,50 @@
 # Test konfigurieren
 
-Für die OpenOlat Tests stehen weitere Strukturierungs- und Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion ("Sektion") und eine Single-Choice-Frage ("Single Choice"). Falls in Ihrem Test keine Single-Choice-Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
+Im Testeditor gliedern Sie einen Test und legen fest, wie Teilnehmende ihn bearbeiten: ob er bestanden werden kann, wie viel Zeit sie haben, ob sie zwischen den Fragen springen und ob sie ihre Antworten danach ansehen. Jeder Test besteht mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion ("Sektion") und eine Single-Choice-Frage ("Single Choice"). Falls in Ihrem Test keine Single-Choice-Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
 
-Alle hier beschriebenen Einstellungen nehmen Sie im Testeditor vor: `Test > Administration > Testeditor`. Den Testeditor öffnen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen.
+Alle hier beschriebenen Einstellungen legen Sie im Testeditor fest: `Test > Administration > Testeditor`. Den Testeditor öffnen Besitzer:innen des Tests, Administrator:innen und Lernressourcenverwalter:innen.
 
-Einstellungen für Tests können auf drei Ebenen vorgenommen werden:
+Die Einstellungen gelten auf drei Ebenen:
 
 * auf Ebene Test: Einstellungen für den gesamten Test
 * auf Ebene Test-Part: Einstellungen für einen Block aus Sektionen, den Teilnehmende als Ganzes bearbeiten und beenden
 * auf Ebene Sektion: Einstellungen für einzelne Sektionen
 
-Dabei ist die Test Ebene die oberste Ebene. Der Test kann dann mehrere Test-Parts enthalten, die wiederum verschiedene Sektionen beinhalten. Enthält ein Test nur einen Test-Part, kann dieser Test-Part trotzdem mehrere Sektionen umfassen. Teilen Sie einen Test in mehrere Test-Parts, wenn Teile des Tests unterschiedlichen Regeln folgen sollen, siehe [Test-Part Ebene](#testpart).
+Die Einstellungen der einzelnen Fragen beschreibt die Seite [Testfragen konfigurieren](Configure_test_questions.de.md).
+
+Die Test-Ebene ist die oberste Ebene. Der Test kann mehrere Test-Parts enthalten, die wiederum verschiedene Sektionen enthalten. Enthält ein Test nur einen Test-Part, kann dieser Test-Part trotzdem mehrere Sektionen umfassen. Teilen Sie einen Test in mehrere Test-Parts, wenn Teile des Tests unterschiedlichen Regeln folgen sollen, siehe [Test-Part-Ebene](#testpart).
 
 ![Hierarchie Test, Test-Part, Sektion und Frage mit den Einstellungen, die auf jeder Ebene gelten](assets/test_structure_levels_v1_de.svg){ class="shadow lightbox" title="Ebenen eines Tests · 2026.10.07" }
 
-**Sektionen** werden zur Gliederung Ihres Tests verwendet. Häufig werden zum Beispiel zuerst einleitende Fragen gestellt und dafür eine Sektion "Allgemeines" erstellt. Ihr Test kann aus beliebig vielen Sektionen bestehen. Eine Verschachtelung mehrerer Sektionen untereinander ist möglich.
+Mit Sektionen gliedern Sie Ihren Test. Häufig stehen zum Beispiel einleitende Fragen am Anfang, gesammelt in einer Sektion "Allgemeines". Ihr Test kann aus beliebig vielen Sektionen bestehen, und Sektionen lassen sich ineinander verschachteln.
 
 Wenn Sie eine neue Sektion oder einen weiteren Test-Part hinzufügen möchten, wählen Sie oben im Dropdown-Menü `Elemente hinzufügen > Sektion` bzw. `Test-Part`. Anschliessend können Sie der Sektion konkrete Fragen zuordnen.
 
-Im Folgenden werden die Einstellungsmöglichkeiten auf den drei Ebenen erläutert:
+## Test-Ebene
 
-## Test Ebene
-
-Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Zudem können folgende Konfigurationen ausgewählt werden:
-
-![Bestanden / Nicht bestanden ausgegeben mit Punkteschwelle und Zeitbeschränkung](assets/test_editor_tab_test_configuration_v1_de.png){ class="shadow lightbox" title="Tab Test Konfiguration im Testeditor" }
+Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint, und die Einstellungen in den Tabs "Test Konfiguration", "Feedback" und "Expert".
 
 ### Tab Test Konfiguration
 
-* **Maximal erreichbare Punktzahl:** Diese Punktzahl wird von den Punkten der einzelnen Fragen im Test automatisch berechnet.
+Im Tab "Test Konfiguration" legen Sie fest, wie viele Punkte der Test vergibt, ob er bestanden werden kann und wie viel Zeit Teilnehmende haben.
+
+![Bestanden / Nicht bestanden ausgegeben mit Punkteschwelle und Zeitbeschränkung](assets/test_editor_tab_test_configuration_v1_de.png){ class="shadow lightbox" title="Tab Test Konfiguration im Testeditor" }
+
+* **Maximal erreichbare Punktzahl:** OpenOlat berechnet diese Punktzahl automatisch aus den Punkten der einzelnen Fragen im Test.
 * **Bestanden / Nicht bestanden ausgegeben:** Aktivieren Sie das Feld, wenn für den Test ein "bestanden" bzw. "nicht bestanden" angezeigt werden soll.
-* **Art der Ausgabe:** Ist "Bestanden / Nicht bestanden ausgegeben" aktiviert, legen Sie hier fest, wie das Ergebnis zustande kommt: "Automatisch durch Punkteschwelle" oder "Manuell durch Betreuer:in". Diese Einstellung und die Punkteschwelle gelten auch, wenn Sie den Test in einen Kurs einbinden. Ausnahme: Aktivieren Sie dort die Option "Bewertung mit Einstufung/Noten", rechnet die Bewertungsskala die erreichten Punkte in eine Note oder Stufe um, zum Beispiel 0 bis 100 Punkte in Schweizer Noten von 1 bis 6. Ob der Test bestanden ist, entscheidet dann die Note: Die Bewertungsskala legt mit "Bestanden mit" fest, ab welcher Note der Test bestanden ist, zum Beispiel ab Note 4. Die Punkteschwelle des Tests wird dabei nicht umgerechnet und zählt nicht mehr, siehe [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_test) und [Einstufung/Noten](Assessment_translate_points_in_grades.de.md).
+* **Art der Ausgabe:** Ist "Bestanden / Nicht bestanden ausgegeben" aktiviert, legen Sie hier fest, wie das Ergebnis zustande kommt: "Automatisch durch Punkteschwelle" oder "Manuell durch Betreuer:in". Diese Einstellung und die Punkteschwelle gelten auch, wenn Sie den Test in einen Kurs einbinden. Ausnahme: Aktivieren Sie im Kursbaustein "Test" die Option "Bewertung mit Einstufung/Noten", rechnet die Bewertungsskala die erreichten Punkte in eine Note oder Stufe um, zum Beispiel 0 bis 100 Punkte in Schweizer Noten von 1 bis 6. Ob der Test bestanden ist, entscheidet dann die Note: Die Bewertungsskala legt mit "Bestanden mit" fest, ab welcher Note der Test bestanden ist, zum Beispiel ab Note 4. Die Punkteschwelle des Tests wird dabei nicht umgerechnet und zählt nicht mehr, siehe [Test einrichten](Course_Element_Test/Test_Setup.de.md#section_test) und [Einstufung/Noten](Assessment_translate_points_in_grades.de.md).
 
     ![Bestanden im Kurs: ohne Einstufung/Noten entscheidet die Punkteschwelle des Tests, mit Einstufung/Noten die umgerechnete Note](assets/test_passed_decision_v1_de.svg){ class="shadow lightbox" title="Bestanden im Kurs mit und ohne Einstufung/Noten" }
 * **Punkteschwelle für Bestanden:** Geben Sie hier die Punktzahl ein, die mindestens notwendig ist, damit der Test als bestanden gilt.
-* **Zeitbeschränkung:** Die Zeitbeschränkung kann für den gesamten Test definiert werden. Es können Stunden und Minuten definiert werden. Den Teilnehmenden wird oberhalb des Tests angezeigt, wie viel Zeit ihnen noch zur Verfügung steht. Durch die farbliche Hervorhebung wird zusätzlich das nahende Ende des Tests verdeutlicht. Eine Zeitbeschränkung für eine Sektion oder einzelne Fragen ist nicht möglich.
+* **Zeitbeschränkung:** Die Zeitbeschränkung gilt für den gesamten Test, in Stunden und Minuten. Oberhalb des Tests sehen Teilnehmende, wie viel Zeit ihnen noch bleibt. Gegen Ende hebt OpenOlat die Anzeige farbig hervor. Eine Zeitbeschränkung für eine Sektion oder einzelne Fragen ist nicht möglich.
 
-    Sobald die Zeit abgelaufen ist, wird der Test eingezogen. Antworten, welche noch nicht gesendet wurden, werden als leere, nicht beantwortete Fragen behandelt und geben keine Punkte. Es wird nicht nachgefragt, ob die Frage gespeichert werden soll oder nicht. Das Feedback über den gesamten Test und der Rückblick gehören der Zeiterfassung an.
+    Sobald die Zeit abgelaufen ist, beendet OpenOlat den Test automatisch. Im Kurs kündigt der Kursbaustein "Test" das vor dem Start mit "wird automatisch eingezogen" an. Antworten, die Teilnehmende noch nicht mit "Antwort speichern" gesendet haben, zählen als unbeantwortet und geben keine Punkte. Eine Rückfrage, ob die Antworten gespeichert werden sollen, erscheint nicht. Auch das Feedback zum gesamten Test und der Rückblick fallen unter die Zeitbeschränkung.
 
 !!! note "Hinweis"
 
-    Eine zeitliche Beschränkung des Tests kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md) verlängert werden.
+    Eine Zeitbeschränkung richten Sie entweder direkt im Testeditor ein, wie hier beschrieben, oder nach dem Einbinden des Tests in einen Kurs im Kursbaustein "Test":<br>
+    `Kurs > Administration > Kurseditor > "Titel des Kursbausteins" > Tab "Optionen"`<br>
+    Mit "Konfiguration von Lernressource übernehmen" gilt dort die Zeitbeschränkung aus dem Testeditor. Mit "Konfiguration anpassen" gilt die Zeitbeschränkung des Kursbausteins; ist dort keine aktiviert, gilt die des Tests. Wenn nötig verlängern Sie die Testzeit für einzelne Personen im [Bewertungswerkzeug](Assessment_tool_overview/index.de.md).
 
 ### Tab Feedback
 
@@ -49,28 +53,28 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 ### Tab Expert {: #expert} [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-8321)" }](https://track.frentix.com/issue/OO-8321)
 
-Im Tab "Expert" können folgende Konfigurationen vorgenommen werden. Hat der Test mindestens zwei Test-Parts, stehen dieselben Einstellungen im Formular "Test part" des jeweiligen Test-Parts, siehe [Test-Part Ebene](#testpart).
+Im Tab "Expert" legen Sie fest, wie sich Teilnehmende durch die Fragen bewegen, wie oft sie den Test lösen dürfen und ob sie ihre Antworten nach dem Test ansehen. Hat der Test mindestens zwei Test-Parts, stehen dieselben Einstellungen im Formular "Test part" des jeweiligen Test-Parts, und die Test-Ebene hat keinen Tab "Expert", siehe [Test-Part-Ebene](#testpart).
 
 ![Alle Einstellungen des Tabs Expert auf einen Blick, darunter Anzahl Versuche einschränken mit maximal 2 Versuchen und Persönliche Notizen erlauben](assets/test_editor_tab_expert_v2_de.png){ class="shadow lightbox" title="Tab Expert im Testeditor · 2026.11.10" }
 
 * **Navigation:**
 
-    * Linear: Alle Fragen müssen der Reihe nach beantwortet werden. Es kann nicht zwischen den Fragen hin und her gesprungen werden
-    * Nicht linear: Die Fragen können in der gewünschten Reihenfolge beantwortet werden.
+    * Linear: Teilnehmende beantworten alle Fragen der Reihe nach und springen nicht zwischen den Fragen hin und her.
+    * Nicht linear: Teilnehmende beantworten die Fragen in der Reihenfolge, die sie selbst wählen.
 
-* **Anzahl Versuche einschränken:** Wenn nur eine gewisse Anzahl an Lösungsversuchen zulässig sein soll, kann dies hier definiert werden. Bei "Ja" geben Sie die Zahl unter "Max. Anzahl Versuche" ein. Diese Einschränkung bezieht sich auf einen Test-Part und nicht auf den gesamten Test. Wenn die Anzahl Lösungsversuche für den gesamten Test eingeschränkt werden sollen, muss dies im Kursbaustein Test oder in den Einstellungen des Tests vorgenommen werden: `Test > Administration > Einstellungen > Tab "Optionen"`. Enthält ein Test nur einen Test-Part, gilt die Einstellung ebenfalls für den gesamten Test.
+* **Anzahl Versuche einschränken:** Legen Sie hier fest, wie oft Teilnehmende ihre Antwort auf eine Frage abgeben dürfen. Bei "Ja" geben Sie die Zahl unter "Max. Anzahl Versuche" ein. Die Grenze gilt für jede Frage einzeln, nicht für den Testdurchlauf: Jede Abgabe mit "Antwort speichern" zählt als ein Versuch, und unter der Frage steht zum Beispiel "Noch 1 Versuch (1/2)". Sind alle Versuche verbraucht, lässt sich die Antwort auf diese Frage nicht mehr ändern. In einem neuen Testdurchlauf beginnt die Zählung von vorn. Die Anzahl Lösungsversuche für den gesamten Test schränken Sie im Kursbaustein "Test" oder in den Einstellungen des Tests ein: `Test > Administration > Einstellungen > Tab "Optionen"`.
 
     Wenn die Anzahl Lösungsversuche auf Ebene Test oder Test-Part eingeschränkt wird, vererbt sich diese Einschränkung auf alle darunter liegenden Sektionen und Fragen.
 
 * **Fragen überspringen erlauben:** Wenn diese Option gewählt ist, kann der Test beendet werden, bevor alle Fragen beantwortet sind.
 
-* **Persönliche Notizen erlauben:** Die Teilnehmenden können sich persönliche Notizen machen, welche nach dem Beenden des Tests nicht mehr zur Verfügung stehen und nicht ausgewertet werden. Diese Funktion kann nur gewählt werden, wenn im Tab "Optionen" der Einstellungen "Persönliche Notizen" ausgewählt ist.
+* **Persönliche Notizen erlauben:** Die Teilnehmenden können sich persönliche Notizen machen, welche nach dem Beenden des Tests nicht mehr zur Verfügung stehen und nicht ausgewertet werden. Diese Funktion kann nur gewählt werden, wenn in den Einstellungen des Tests "Persönliche Notizen" ausgewählt ist: `Test > Administration > Einstellungen > Tab "Optionen"`.
 
-* **Rückblick erlauben:** Nach dem Beenden des Tests kann der Test und die Antworten nochmals angeschaut, aber nicht mehr korrigiert werden.
+* **Rückblick erlauben:** Nach dem Beenden des Tests können Teilnehmende den Test und ihre Antworten nochmals ansehen, aber nicht mehr korrigieren.
 
 * **Lösung anzeigen:** Beim Rückblick werden zusätzlich die Lösungen angezeigt. Diese Funktion ist nur möglich, wenn "Rückblick erlauben" ausgewählt ist.
 
-## Test-Part Ebene {: #testpart}
+## Test-Part-Ebene {: #testpart}
 
 Sollen Teile eines Tests unterschiedlichen Regeln folgen, etwa ein Pflichtteil ohne Zurückblättern vor einem frei bearbeitbaren Teil, teilen Sie den Test in Test-Parts. Ein Test-Part ist die oberste Gliederungsebene eines Tests. Er fasst Sektionen zusammen und legt für sie gemeinsam fest, wie sich Teilnehmende durch die Fragen bewegen ("Navigation": "Linear" oder "Nicht linear") und welche Einstellungen des Tabs "Expert" gelten.
 
@@ -106,26 +110,31 @@ Eine Zeitbeschränkung gibt es nur für den ganzen Test (Tab "Test Konfiguration
 
 Was Teilnehmende während der Durchführung sehen, beschreibt die Seite [Kursbaustein "Test"](Course_Element_Test/index.de.md#participate_as_learner).
 
-## Sektion Ebene {: #section}
+## Sektionsebene {: #section}
 
-Einem Test-Part können mehrere Sektionen untergeordnet werden. Mehrere verschachtelte Sektionen mit Beschreibung werden untereinander angezeigt und können jeweils separat ein- und ausgeblendet und auch zufällig sortiert angezeigt werden. Existiert für einen Test nur ein Test-Part, erscheinen alle Sektionen auf der obersten Ebene.
+Einem Test-Part ordnen Sie eine oder mehrere Sektionen unter. Im Test sehen Teilnehmende verschachtelte Sektionen mit Beschreibung untereinander und blenden sie einzeln ein und aus. Sektionen können auch in zufälliger Reihenfolge erscheinen. Enthält ein Test nur einen Test-Part, stehen alle Sektionen im Menü des Testeditors direkt unter dem Test.
 
-Im Tab **"Sektion"** kann eine Beschreibung für die Sektion eingetragen und definiert werden ob alle oder nur eine Auswahl der Fragen der Sektion erscheinen sollen. Ferner kann die Art der Reihenfolge, zufällig oder linear definiert werden.
+Im Tab "Sektion" tragen Sie eine Beschreibung der Sektion ein und legen mit "Anzahl Fragen in dieser Sektion" fest, ob alle Fragen der Sektion erscheinen oder nur eine Auswahl. Mit "Zufällige Reihenfolge der Fragen oder der Sektionen?" legen Sie fest, ob die Fragen oder die untergeordneten Sektionen in zufälliger Reihenfolge erscheinen.
 
-Der Tab "Expert" der Test oder Test-Part Ebene kann auf Sektionsebene noch einmal überschrieben und geändert werden. Damit ist für einzelne Sektionen ein abweichendes Verhalten im Vergleich zum restlichen Test konfigurierbar.
+Im Tab "Expert" einer Sektion überschreiben Sie die Einstellungen des Tabs "Expert" der Test- oder Test-Part-Ebene. So verhält sich eine einzelne Sektion anders als der restliche Test.
 
-Ist die Sichtbarkeit des Sektionstitels im Tab "Expert" aktiviert, so wird auch die jeweilige Sektionsbeschreibung an folgenden Stellen in OpenOlat angezeigt:
+Ist im Tab "Expert" der Sektion "Sektionstitel sichtbar in Test" aktiviert, zeigt OpenOlat auch die Sektionsbeschreibung an folgenden Stellen an:
 
 * Im Test, wenn eine zur Sektion zugehörige Frage aufgerufen wird. Die Sektionsbeschreibung kann von den Teilnehmenden aus- und eingeblendet werden.
 * In den Testresultaten.
-* Im Korrektur-Workflow an den zu dieser Sektion gehörenden Fragen.
+* Im [Korrektur-Workflow](Test_correction_workflow.de.md), in dem Korrektor:innen die Antworten bewerten, an den zu dieser Sektion gehörenden Fragen.
 
 ## Weiterführende Informationen {: #further_information}
 
-[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
+**Auf dieser Seite erwähnt**<br>
+[Testfragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test einrichten >](Course_Element_Test/Test_Setup.de.md)<br>
 [Einstufung/Noten >](Assessment_translate_points_in_grades.de.md)<br>
 [Bewertungswerkzeug - Übersicht >](Assessment_tool_overview/index.de.md)<br>
+[Kursbaustein "Test" >](Course_Element_Test/index.de.md)<br>
+[Test: Korrektur-Workflow >](Test_correction_workflow.de.md)
+
+**Weiterführend**<br>
 [Testeditor >](Test_editor_QTI_2.1/index.de.md)<br>
 [Test: Einstellungen >](Test_settings.de.md)
 

@@ -1,18 +1,18 @@
 # Storage folder {: #storage_folder}
 
-The "Storage folder" of a course serves the course owners as a repository for the files used in the course. This includes e.g. all HTML pages, graphics and files used that are made available via the course element "Folder". The files are, so to speak, ready to hand in the background and can be made available at any time via the corresponding course elements. You open the storage folder via `Course > Administration > Files > Storage folder`. This path is visible to course owners, administrators, learning resource managers and persons with the course right "Course editor".
+In the "Storage folder" of a course, course owners store the files they use in the course. This keeps the files ready in one place, and you integrate them into the course via course elements. This includes, for example, HTML pages and graphics that the course element "HTML page" displays, and the files of a course element "Folder" that uses the option "Choose folder from course storage". You open the storage folder via `Course > Administration > Files > Storage folder`. This path is visible to course owners, administrators, learning resource managers and persons with the course right "Course editor".
 
-Course participants have no direct but only indirect access to files of the storage folder. In order to access the files, they must be linked via corresponding [Course Elements](Course_Elements/index.md). A storage folder is always course specific.
+Participants see the files of the storage folder where a [course element](Course_Elements/index.md) or the "Documents" tool provides them. Each course has its own storage folder.
 
 ![Files and folders in table view, trash and actions for selected entries such as Zip or Send e-mail, used space below](assets/storage_folder_files_v1_en.png){ class="shadow lightbox" title="Storage folder of a course" }
 
-In the storage folder files can be uploaded, deleted, moved, copied, sent by e-mail, searched for, zipped, un-zipped or created. Deleted files and folders remain in the "Trash" until OpenOlat permanently deletes them after a defined number of days. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the system administration, further file formats can be created: `Administration > External tools > Document editors`. For example, if OnlyOffice is used, Word, Excel or PowerPoint files can also be created.
+In the storage folder you can upload, download, delete, move, copy, send by e-mail, search, zip, unzip and create files. With "Folder" and "Files" you switch between the folder view and the files view: the files view lists the files of all subfolders, without the folders themselves. Deleted files and folders remain in the "Trash" until OpenOlat permanently deletes them after a defined number of days. The "Trash" view shows how many days that is. There you also restore deleted files and folders. By default, you create HTML documents in OpenOlat. If administrators have activated further document editors in the system administration, you also create other file formats: `Administration > External tools > Document editors`. With OnlyOffice, for example, also Word, Excel and PowerPoint files.
 
-When uploading a file, the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder. The maximum file size is shown in the "Add files" dialog, which you open via the dropdown menu next to "Upload files". The used space of the storage folder is shown below the file list.
+Two limits apply when uploading: the maximum file size per file and the storage limit of the whole storage folder, the [quota](#storage_usage_edit_quota). Both also apply when you upload files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder. The maximum file size is shown in the "Add files" dialog, which you open via the dropdown menu next to "Upload files". In the dialog, you upload files from your device under "Local" or take over files from the "[File Hub](../personal_menu/File_Hub.md)", which brings together your files from personal folders, groups, courses and resource folders, and from your "[Media Center](../basic_concepts/Media_Center_Concept/index.md)". The used space and the storage limit of the storage folder are shown below the file list.
 
-![Maximum file size for upload below the local file selection](assets/storage_folder_upload_v1_en.png){ class="shadow lightbox" title="Add files dialog in the storage folder" }
+![Maximum file size for upload below the local selection, below it File Hub and Media Center as further sources](assets/storage_folder_upload_v1_en.png){ class="shadow lightbox" title="Add files dialog in the storage folder" }
 
-Furthermore, the storage folder can be usefully provided with further subfolders and thus a systematic structuring of course-related files can be implemented.
+With "Create folder" in the same dropdown menu, you create subfolders and thus structure the files of the course.
 
 ## Storage usage [:octicons-tag-16:{ title="from Release 18.0.2 (OO-6938)" }](https://track.frentix.com/issue/OO-6938){:target="_blank"} {: #storage_usage}
 
@@ -49,22 +49,26 @@ The guide ["What measures can I take to reduce storage space consumption?"](../.
 
 The additional folders OpenOlat creates for a course are shown under `Course > Administration > Files`. Depending on the course configuration, they appear next to the storage folder:
 
-* **_courseelementdata**: Generated as soon as the course contains at least one course element "Folder". This folder contains all course elements "[folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Element_Participant_Folder.md)" of a course. The corresponding folders appear here automatically after they have been created in the course editor and can be edited here as well.
-* **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/Resource_Folder.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing here, deactivate the option "Read only" for the selected resource folder: `Course > Administration > Settings > Options`.
-* **_documents**: Generated when the course tool "[Documents](Course_Settings_Toolbar.md#documents)" is enabled. It contains the files that are provided for central download via the "Documents" tool.
-* **_coachdocuments**: Generated when the folder "Coach files" is enabled in the course. It contains the files that only coaches and course owners see. [:octicons-tag-16:{ title="from Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566)
+* **_courseelementdata**: Generated as soon as the course contains at least one course element "Folder" or "Participant folder". This folder contains the folders of all course elements "[Folder](../learningresources/Course_Element_Folder.md)" and "[Participant folder](../learningresources/Course_Element_Participant_Folder.md)" of a course. They appear here automatically as soon as the course element has been created in the course editor, and can be edited here as well.
+* **_sharedfolder**: Generated when the course is connected to a [resource folder](../learningresources/Resource_Folder.md). The linked resource folder can be viewed here, but cannot be edited by default. To enable editing here, deactivate the option "Read only" for the selected resource folder in the course settings: `Course > Administration > Settings > Options`.
+* **_documents**: Generated when the course tool "[Documents](Course_Settings_Toolbar.md#documents)" is enabled and "Automatically generated folder" is selected as "File destination". It contains the files that are provided for central download via the "Documents" tool.
+* **_coachdocuments**: Generated when the folder "Coach files" is enabled in the course and "Automatically generated folder" is selected as "File destination". You define both under `Course > Administration > Settings > Options`. It contains the files that only coaches and course owners see. [:octicons-tag-16:{ title="from Release 16.0 (OO-5566)" }](https://track.frentix.com/issue/OO-5566)
 
 ## Link course element "HTML page" to storage folder
 
-Single web specific pages (e.g. html, pdf), which are stored in the storage folder, can be made visible in the course with the course element "[HTML page](Course_Element_HTML_Page.md)". Additionally, the checkbox "Allow links in the entire storage folder" can be selected. Thus it becomes possible to link html-files, which can be found in the storage folder, directly. This is helpful to show linked charts of a html-page or other linked files.
+You display a file from the storage folder, for example an HTML or PDF file, in the course with the course element "[HTML page](Course_Element_HTML_Page.md)". If the HTML file refers to graphics or other files in the storage folder, activate the checkbox "Allow links in the entire storage folder" in the course element:<br>
+`Course > Administration > Course editor > "Title of the course element" > Tab "Page content"`<br>
+The HTML file may then link to any file in the storage folder, and the linked graphics appear on the page.
 
-As soon as the checkbox is activated, the path for other files of the storage folder is visible. Thus it becomes possible, to call up files, which are determined in the storage folder but aren't published in the course itself.
+With the checkbox activated, the path to the other files in the storage folder is visible to everyone who opens the HTML page. Via this path, participants can also call up files that the course does not provide anywhere else.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
+[User tools: File Hub >](../personal_menu/File_Hub.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
 [What measures can I take to reduce storage space consumption? >](../../manual_how-to/reduce_storage_consumption/reduce_storage_consumption.md)<br>
 [Course Element "Folder" >](Course_Element_Folder.md)<br>
@@ -74,7 +78,6 @@ As soon as the checkbox is activated, the path for other files of the storage fo
 [Course Element "HTML page" >](Course_Element_HTML_Page.md)
 
 **Further reading**<br>
-[Folder concept >](../basic_concepts/Folder_Concept.md)<br>
-[User tools: File Hub >](../personal_menu/File_Hub.md)
+[Folder concept >](../basic_concepts/Folder_Concept.md)
 
 [To the top of the page ^](#storage_folder)
