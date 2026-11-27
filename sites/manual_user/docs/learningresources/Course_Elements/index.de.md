@@ -6,105 +6,20 @@
 
 Aus Kursbausteinen bauen Sie Ihren Kurs auf. Mit ihnen stellen Sie Inhalte bereit und strukturieren sie, fördern Zusammenarbeit und Austausch, prüfen den Wissensstand der Teilnehmenden und regeln Organisatorisches.
 
-Die nachfolgende Auflistung ordnet die Kursbausteine in dieselben Gruppen wie der Dialog "Kursbausteine einfügen" im Kurseditor. Sie öffnen ihn unter:<br>
+Im Kurseditor ordnet OpenOlat die Kursbausteine in fünf Gruppen. Sie sehen die Gruppen im Dialog "Kursbausteine einfügen":<br>
 `Kurs > Administration > Kurseditor > Kursbausteine einfügen`
 
 ![Alle Kursbausteine, die sich in einen Kurs einfügen lassen, nach Gruppen geordnet, dazu die Einträge Mehrere Checklisten und Mehrere HTML-Seiten](assets/course_elements_index_V2_de.png){ class="shadow lightbox" title="Dialog Kursbausteine einfügen im Kurseditor" }
 
-## Wissensvermittlung
+Das Handbuch ordnet die Kursbausteine in denselben Gruppen. Jede Gruppe hat eine eigene Seite mit allen Kursbausteinen der Gruppe:
 
-Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturierung von Kursinhalten. Je nach Baustein können auch bestimmte, extern erstellte Inhalte eingebunden werden.
-
-* [:o_icon_o_st_icon: Struktur](../Course_Element_Structure.de.md)
-* [:o_icon_o_page_icon: Seite](../Course_Element_Page.de.md)
-* [:o_icon_o_cp_icon: CP-Lerninhalt](../Course_Element_CP_Learning_Content.de.md)
-* [:o_icon_o_scorm_icon: SCORM 1.2](../Course_Element_SCORM_Learning_Content.de.md)
-* [:o_icon_o_filetype_file: Dokument](../Course_Element_Document.de.md)
-* [:o_icon_o_bc_icon: Ordner](../Course_Element_Folder.de.md)
-* [:o_icon_o_podcast_icon: Podcast](../Course_Element_Podcast.de.md)
-* [:o_icon_o_blog_icon: Blog](../Course_Element_Blog.de.md)
-* [:o_icon_o_icon_video: Video](../Course_Element_Video.de.md)
-* [:o_icon_o_livestream_icon: Video Livestream](../Course_Element_Video_Livestream.de.md)
-* [:o_icon_o_opencast_icon: Opencast](../Course_Element_Opencast.de.md)
-* [:o_icon_o_edusharing_icon: edu-sharing](../Course_Element_edu_Sharing.de.md)
-* [:o_icon_o_card2brain_icon: card2brain Lernkarten](../Course_Element_card2brain_Flashcards.de.md)
-* [:o_icon_o_mediasite_icon: Mediasite](../Course_Element_Mediasite.de.md)
-* [:o_icon_o_edubase_icon: Edubase](../Course_Element_Edubase.de.md)
-* [:o_icon_o_jupyter_icon: JupyterHub](../Course_Element_JupyterHub.de.md)
-
-## Wissensüberprüfung
-
-Mit den folgenden Kursbausteinen prüfen Sie insbesondere den Wissensstand der Teilnehmenden.
-
-* [:o_icon_o_ms_icon: Bewertung](../Course_Element_Assessment.de.md)
-* [:o_icon_o_gta_icon: Aufgabe](../Course_Element_Task/index.de.md)
-* [:o_icon_o_gta_icon: Gruppenaufgabe](../Course_Element_Grouptask.de.md)
-* [:o_icon_o_ep_icon: Portfolioaufgabe](../Course_Element_Portfolio_Task.de.md)
-* [:o_icon_o_iqtest_icon: Test](../Course_Element_Test/index.de.md)
-* [:o_icon_o_iqself_icon: Selbsttest](../Course_Element_Self_Test.de.md)
-* [:o_icon_o_practice_icon: Übung](../Course_Element_Practice.de.md)
-* [:o_icon_o_icon_videotask: Videoaufgabe](../Course_Element_Video_Task.de.md)
-* [:o_icon_o_icon_form: Formular](../Course_Element_Form.de.md)
-* [:o_icon_o_survey_icon: Umfrage](../Course_Element_Survey.de.md)
-* [:o_icon_o_cl_icon: Checkliste](../Course_Element_Checklist.de.md)
-* [:o_icon_o_icon_wizard: Mehrere Checklisten](../Course_Element_Multiple_Checklists.de.md) (Assistent)
-
-In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen fasst ein Kursbaustein [Struktur](../Course_Element_Structure.de.md) die Punkte zusammen und bestimmt das Bestehen.
-
-Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den Tab "Erinnerungen", bei Aufgabe und Gruppenaufgabe in [Lernpfadkursen](../Learning_path_course/index.de.md) heisst er "Erinnerungen & To-dos". Dort richten Sie E-Mails ein, die OpenOlat abhängig vom Bearbeitungsstand des Kursbausteins verschickt, zum Beispiel wenn eine Aufgabe oder ein Test zu einem bestimmten Datum noch nicht bearbeitet ist. Die Möglichkeiten gleichen denen im Menü "Erinnerung" des Kurses: `Kurs > Administration > Erinnerung`. Mehr dazu: [Erinnerungen](../Course_Reminders.de.md)
-
-Zur Gruppe gehören auch die Kursbausteine "Umfrage" und "Formular". Mit ihnen binden Sie OpenOlat [Formulare](../Form_Editor/index.de.md) für Befragungen und ähnliche Zwecke in einen Kurs ein.
-
-## Kommunikation und Kollaboration
-
-Die Kursbausteine dieser Gruppe setzen Sie vor allem für die Zusammenarbeit und den Austausch untereinander ein. Zur selben Gruppe gehören die Kursbausteine für [virtuelle Klassenzimmer](#virtual_classrooms).
-
-* [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.de.md)
-* [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.de.md)
-* [:o_icon_o_dialog_icon: Dateidiskussion](../Course_Element_File_Dialog.de.md)
-* [:o_icon_o_pf_icon: Teilnehmer:innen Ordner](../Course_Element_Participant_Folder.de.md)
-* [:o_icon_o_cmembers_icon: Liste der Teilnehmer:innen](../Course_Element_Participant_List.de.md)
-
-### Virtuelle Klassenzimmer {: #virtual_classrooms}
-
-Mit den folgenden Kursbausteinen setzen Sie in OpenOlat [virtuelle Klassenzimmer](../../basic_concepts/Virtual_classrooms.de.md) für synchrone Meetings, Videokonferenzen oder Webinare ein.
-
-* [:o_icon_o_vc_icon: Adobe Connect](../Course_Element_Adobe_Connect.de.md)
-* [:o_icon_o_vc_icon: BigBlueButton](../bigbluebutton/index.de.md)
-* [:o_icon_o_gotomeeting_icon: GoToMeeting](../Course_Element_GoToMeeting.de.md)
-* [:o_icon_o_vc_icon: Microsoft Teams](../Course_Element_Microsoft_Teams.de.md)
-* [:o_icon_o_openmeetings_icon: OpenMeetings](../Course_Element_OpenMeetings.de.md)
-* [:o_icon_o_vitero_icon: vitero](../Course_Element_vitero.de.md)
-* [:o_icon_o_vc_icon: Zoom](../zoom/index.de.md)
-
-Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitäten jeweils zur Verfügung stehen, hängt von der Konfiguration Ihres OpenOlat-Systems ab.
-
-Ein virtuelles Klassenzimmer ermöglicht es, gleichzeitig (synchron) online mit mehreren Personen zusammenzuarbeiten, die geographisch an unterschiedlichen Orten sind. Funktionen von virtuellen Klassenzimmern sind unter anderem Live-Chat, Audio und Video, Desktop- und Dokumentsharing. Betreten Sie ein virtuelles Klassenzimmer über einen Kursbaustein, öffnet sich ein neues Browserfenster, in dem die virtuelle Sitzung stattfindet.
-
-Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset und eine angeschlossene Kamera. Je nach eingesetztem System laden Sie zusätzlich Software für die Sitzung herunter.
-
-## Verwaltung und Organisation
-
-Für organisatorische Belange und zur Verteilung von Informationen eignen sich besonders die nachfolgenden Kursbausteine.
-
-* [:o_icon_o_en_icon: Einschreibung](../Course_Element_Enrolment.de.md)
-* [:o_icon_o_infomsg_icon: Mitteilungen](../Course_Element_Notifications.de.md)
-* [:o_icon_o_co_icon: E-Mail](../Course_Element_EMail.de.md)
-* [:o_icon_o_icon_topicbroker: Themenbörse](../Course_Element_Topic_Broker.de.md)
-* [:o_icon_o_cal_icon: Kalender](../Course_Element_Calendar.de.md)
-* [:o_icon_o_appointment_icon: Terminplanung](../Course_Element_Appointment_Scheduling.de.md)
-
-## Andere
-
-Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
-
-* [:o_icon_o_lti_icon: LTI-Seite](../Course_Element_LTI_Page.de.md)
-* [:o_icon_o_sp_icon: HTML-Seite](../Course_Element_HTML_Page.de.md)
-* [:o_icon_o_icon_wizard: Mehrere HTML-Seiten](../Course_Element_Multiple_HTML_Pages.de.md) (Assistent)
-* [:o_icon_o_tu_icon: Externe Seite](../Course_Element_External_Page.de.md)
-* [:o_icon_o_projectbroker_icon: Themenvergabe](../Course_Element_Topic_Assignment.de.md)
-* [:o_icon_o_ll_icon: Linkliste](../Course_Element_Link_List.de.md)
-* [:o_icon_o_icon_cns: Auswahl](../Course_Element_Selection.de.md)
+Gruppe | Wozu
+---------|----------
+[Wissensvermittlung](Knowledge_Transfer/index.de.md) | Kursinhalte bereitstellen und den Kurs strukturieren, auch mit Inhalten, die ausserhalb von OpenOlat erstellt wurden.
+[Wissensüberprüfung](Assessment/index.de.md) | Den Wissensstand der Teilnehmenden prüfen, ihre Arbeiten bewerten und sie befragen.
+[Kommunikation und Kollaboration](Communication_and_Collaboration/index.de.md) | Austausch und Zusammenarbeit im Kurs, auch live in virtuellen Klassenzimmern.
+[Verwaltung und Organisation](Administration_and_Organisation/index.de.md) | Die Einschreibung in Gruppen, die Vergabe von Themen und Terminen sowie Informationen und E-Mails an die Teilnehmenden.
+[Andere](Other/index.de.md) | Eigene und externe Webseiten, externe Lernapplikationen über LTI (Learning Tools Interoperability), Linklisten, Themenvergabe und Auswahl.
 
 ## Allgemeines zu Kursbausteinen
 
@@ -112,7 +27,7 @@ Alle Kursbausteine haben die Tabs "Titel und Beschreibung" und "Layout". Weitere
 
 Neben den Kursbausteinen gestalten Sie Kurse mit weiteren Werkzeugen und Lernressourcen. Sie sind in den jeweiligen Kapiteln beschrieben.
 
-## Leistungsbewertung
+## Leistungsbewertung {: #performance_assessment}
 
 Viele Kursbausteine können Sie zur summativen oder formativen Bewertung nutzen oder zur Fortschrittskontrolle. Die Bewertungen der bewertbaren Kursbausteine sehen und bearbeiten Sie im [Bewertungswerkzeug](../Assessment_tool_overview/index.de.md). Alle Einstellungen beschreibt die Seite des jeweiligen Kursbausteins:
 

@@ -6,105 +6,20 @@
 
 You build your course from course elements. With them, you provide and structure content, promote collaboration and exchange, check the participants' level of knowledge and handle organizational matters.
 
-The list below organizes the course elements into the same groups as the dialog "Insert course elements" in the course editor. You open it under:<br>
+In the course editor, OpenOlat organizes the course elements into five groups. You see the groups in the dialog "Insert course elements":<br>
 `Course > Administration > Course editor > Insert course elements`
 
 ![All course elements that can be inserted into a course, sorted into groups, plus the entries Multiple checklists and Multiple HTML pages](assets/course_elements_index_V1_en.png){ class="shadow lightbox" title="Dialog Insert course elements in the course editor" }
 
-## Knowledge transfer
+The manual organizes the course elements into the same groups. Each group has its own page with all course elements of the group:
 
-The following course elements serve in particular to provide and structure course content. Depending on the module, certain externally created content can also be integrated.
-
-* [:o_icon_o_st_icon: Structure](../Course_Element_Structure.md)
-* [:o_icon_o_page_icon: Page](../Course_Element_Page.md)
-* [:o_icon_o_cp_icon: CP Learning Content](../Course_Element_CP_Learning_Content.md)
-* [:o_icon_o_scorm_icon: SCORM 1.2](../Course_Element_SCORM_Learning_Content.md)
-* [:o_icon_o_filetype_file: Document](../Course_Element_Document.md)
-* [:o_icon_o_bc_icon: Folder](../Course_Element_Folder.md)
-* [:o_icon_o_podcast_icon: Podcast](../Course_Element_Podcast.md)
-* [:o_icon_o_blog_icon: Blog](../Course_Element_Blog.md)
-* [:o_icon_o_icon_video: Video](../Course_Element_Video.md)
-* [:o_icon_o_livestream_icon: Video Livestream](../Course_Element_Video_Livestream.md)
-* [:o_icon_o_opencast_icon: Opencast](../Course_Element_Opencast.md)
-* [:o_icon_o_edusharing_icon: edu-sharing](../Course_Element_edu_Sharing.md)
-* [:o_icon_o_card2brain_icon: card2brain flashcards](../Course_Element_card2brain_Flashcards.md)
-* [:o_icon_o_mediasite_icon: Mediasite](../Course_Element_Mediasite.md)
-* [:o_icon_o_edubase_icon: Edubase](../Course_Element_Edubase.md)
-* [:o_icon_o_jupyter_icon: JupyterHub](../Course_Element_JupyterHub.md)
-
-## Assessment
-
-With the following course elements, you check in particular the participants' level of knowledge.
-
-* [:o_icon_o_ms_icon: Assessment](../Course_Element_Assessment.md)
-* [:o_icon_o_gta_icon: Task](../Course_Element_Task/index.md)
-* [:o_icon_o_gta_icon: Group Task](../Course_Element_Grouptask.md)
-* [:o_icon_o_ep_icon: Portfolio Task](../Course_Element_Portfolio_Task.md)
-* [:o_icon_o_iqtest_icon: Test](../Course_Element_Test/index.md)
-* [:o_icon_o_iqself_icon: Self-test](../Course_Element_Self_Test.md)
-* [:o_icon_o_practice_icon: Practice](../Course_Element_Practice.md)
-* [:o_icon_o_icon_videotask: Video task](../Course_Element_Video_Task.md)
-* [:o_icon_o_icon_form: Form](../Course_Element_Form.md)
-* [:o_icon_o_survey_icon: Survey](../Course_Element_Survey.md)
-* [:o_icon_o_cl_icon: Checklist](../Course_Element_Checklist.md)
-* [:o_icon_o_icon_wizard: Multiple checklists](../Course_Element_Multiple_Checklists.md) (wizard)
-
-In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](../Course_Element_Structure.md) combines the points and determines whether a person has passed.
-
-All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Group task in [learning path courses](../Learning_path_course/index.md) it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../Course_Reminders.md)
-
-The group also includes the course elements "Survey" and "Form". With them, you build OpenOlat [forms](../Form_Editor/index.md) for surveys and similar purposes into a course.
-
-## Communication and collaboration
-
-You use the course elements of this group mainly for collaboration and exchange among each other. The course elements for [virtual classrooms](#virtual_classrooms) belong to the same group.
-
-* [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.md)
-* [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.md)
-* [:o_icon_o_dialog_icon: File Dialog](../Course_Element_File_Dialog.md)
-* [:o_icon_o_pf_icon: Participant Folder](../Course_Element_Participant_Folder.md)
-* [:o_icon_o_cmembers_icon: Participant list](../Course_Element_Participant_List.md)
-
-### Virtual Classrooms {: #virtual_classrooms}
-
-With the following course elements you use [virtual classrooms](../../basic_concepts/Virtual_classrooms.md) in OpenOlat for synchronous meetings, video conferences or webinars.
-
-* [:o_icon_o_vc_icon: Adobe Connect](../Course_Element_Adobe_Connect.md)
-* [:o_icon_o_vc_icon: BigBlueButton](../bigbluebutton/index.md)
-* [:o_icon_o_gotomeeting_icon: GoToMeeting](../Course_Element_GoToMeeting.md)
-* [:o_icon_o_vc_icon: Microsoft Teams](../Course_Element_Microsoft_Teams.md)
-* [:o_icon_o_openmeetings_icon: OpenMeetings](../Course_Element_OpenMeetings.md)
-* [:o_icon_o_vitero_icon: vitero](../Course_Element_vitero.md)
-* [:o_icon_o_vc_icon: Zoom](../zoom/index.md)
-
-Which course elements are available for these purposes and which functionalities each of them offers depends on the configuration of your OpenOlat system.
-
-A virtual classroom allows you to work online (synchronously) with several people who are geographically separated from you. Functions of virtual classrooms include live chat, audio and video, desktop and document sharing. If you enter a virtual classroom through a course element, a new browser window opens in which the virtual session takes place.
-
-To be able to use all functionalities you will need a headset and a connected camera. Depending on the system used, you download additional software for the session.
-
-## Administration and Organisation
-
-The following course elements are particularly suitable for organizational matters and for the distribution of information.
-
-* [:o_icon_o_en_icon: Enrolment](../Course_Element_Enrolment.md)
-* [:o_icon_o_infomsg_icon: Info messages](../Course_Element_Notifications.md)
-* [:o_icon_o_co_icon: E-Mail](../Course_Element_EMail.md)
-* [:o_icon_o_icon_topicbroker: Topic Broker](../Course_Element_Topic_Broker.md)
-* [:o_icon_o_cal_icon: Calendar](../Course_Element_Calendar.md)
-* [:o_icon_o_appointment_icon: Appointment scheduling](../Course_Element_Appointment_Scheduling.md)
-
-## Other
-
-Additional course elements can be found in the group "Other".
-
-* [:o_icon_o_lti_icon: LTI Page](../Course_Element_LTI_Page.md)
-* [:o_icon_o_sp_icon: HTML page](../Course_Element_HTML_Page.md)
-* [:o_icon_o_icon_wizard: Multiple HTML pages](../Course_Element_Multiple_HTML_Pages.md) (wizard)
-* [:o_icon_o_tu_icon: External page](../Course_Element_External_Page.md)
-* [:o_icon_o_projectbroker_icon: Topic Assignment](../Course_Element_Topic_Assignment.md)
-* [:o_icon_o_ll_icon: Link list](../Course_Element_Link_List.md)
-* [:o_icon_o_icon_cns: Selection](../Course_Element_Selection.md)
+Group | Purpose
+---------|----------
+[Knowledge transfer](Knowledge_Transfer/index.md) | Provide course content and structure the course, also with content created outside OpenOlat.
+[Assessment](Assessment/index.md) | Check the participants' level of knowledge, assess their work and survey them.
+[Communication and collaboration](Communication_and_Collaboration/index.md) | Exchange and collaboration in the course, also live in virtual classrooms.
+[Administration and Organisation](Administration_and_Organisation/index.md) | Enrolment in groups, the assignment of topics and appointments as well as information and emails to the participants.
+[Other](Other/index.md) | Own and external web pages, external learning applications via LTI (Learning Tools Interoperability), link lists, topic assignment and selection.
 
 ## General information on course elements
 
@@ -112,7 +27,7 @@ All course elements have the tabs "Title and description" and "Layout". Further 
 
 In addition to the course elements, you design courses with further tools and learning resources. They are described in the respective chapters.
 
-## Performance assessment
+## Performance assessment {: #performance_assessment}
 
 You can use many course elements for summative or formative assessment or for progress control. You view and edit the assessments of the assessable course elements in the [assessment tool](../Assessment_tool_overview/index.md). The page of the respective course element describes all settings:
 

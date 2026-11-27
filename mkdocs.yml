@@ -206,6 +206,7 @@ plugins:
           Cockpit : Cockpit
           Colors : Farben
           Communication and Collaboration : Kommunikation und Kollaboration
+          Communication and collaboration : Kommunikation und Kollaboration
           Communication during an exam : Kommunikation während einer Prüfung
           Competences : Kompetenzen
           Competences tags : Kompetenzen verschlagworten
@@ -419,6 +420,8 @@ plugins:
           JupyterHub : JupyterHub
           Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course : Mit dem Kursassistenten in wenigen Mausklicks zu Ihrem OpenOlat-Kurs
           Knowledge Transfer : Wissensvermittlung
+          Knowledge transfer : Wissensvermittlung
+          Knowledge assessment : Wissensüberprüfung
           Landing pages : Startseite
           Layout : Layout
           Learners : Lernende
@@ -515,6 +518,7 @@ plugins:
           OpenMeetings : OpenMeetings
           Options : Optionen
           Other users : Personensuche
+          Other : Andere
           Order : Reihenfolge
           Orders : Aufträge
           Order management : Auftragsverwaltung
@@ -655,7 +659,7 @@ plugins:
           To-dos basics : "To-dos: Grundlagen"
           To-dos : To-dos
           To-dos in the course : To-dos im Kurs
-          Topic assigment : Themenvergabe
+          Topic assignment : Themenvergabe
           Topic Broker : Themenbörse
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Toolbar : Toolbar
