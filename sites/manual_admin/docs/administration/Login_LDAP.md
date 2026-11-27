@@ -3,7 +3,11 @@
 !!! info "frentix customers"
     The integration of LDAP is part of the server configuration. For frentix customers, their customer advisor at frentix takes care of the change.
 
-Many organisations keep the accounts of their staff or students in a directory such as Active Directory. With the LDAP integration, OpenOlat takes over the accounts from this directory and checks username and password against the directory at login. People log in on the login page with the credentials they use in your organisation anyway, and you maintain the accounts in one place.
+Many organisations keep the accounts of their staff or students in a directory such as Active Directory. With the LDAP integration, OpenOlat takes over the accounts from this directory and checks username and password against the directory at login. People log in on the login page with the credentials they use in the organisation anyway, and you maintain the accounts in one place.
+
+The usual field "Username" of the login page is all it takes. Some installations show a separate button for LDAP, like the example in the image.
+
+![Framed, the field Username with the button LDAP Login: this is where people log in with the credentials from the directory](assets/login_ldap_login_page_v1_de.png){ class="shadow lightbox" title="Example of a login box with LDAP login · 2026.11.27" }
 
 If LDAP is switched on, system administrators find the page "LDAP administration" in the system administration under:<br>
 `Administration > Login > LDAP`

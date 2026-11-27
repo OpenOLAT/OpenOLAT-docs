@@ -23,7 +23,11 @@ How to connect an identity provider:
 3. In the section of the identity provider, enter the credentials it has issued for OpenOlat, for example "Client ID" and "Client secret". With these two details, OpenOlat identifies itself to the identity provider.
 4. Click "Save".
 
-From then on, the login page offers the identity provider for selection. With "Remove" in the section of the identity provider, you disconnect the integration again, OpenOlat asks for a confirmation first.
+From then on, the login page offers the identity provider for selection.
+
+![Framed, the note Please select your identity provider. with one button for each connected identity provider: this is where the people of your organisation find their way to log in](assets/login_cloud_login_login_page_v1_en.png){ class="shadow lightbox" title="Login page with identity providers · 2026.11.27" }
+
+With "Remove" in the section of the identity provider, you disconnect the integration again, OpenOlat asks for a confirmation first.
 
 ### Active Directory Federation Services {: #adfs}
 

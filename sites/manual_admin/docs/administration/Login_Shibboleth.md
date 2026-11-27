@@ -15,7 +15,11 @@ The server configuration is the configuration file of the installation, the page
 
 A change to the basic configuration applies only from the next restart. Without Shibboleth switched on, the entry "Shibboleth" is missing from the menu `Administration > Login`.
 
-Depending on the server configuration, the login page shows a selection of the university via the selection service of SWITCH for Shibboleth, or a simple login form that forwards to the login at the university. The page in the administration is the same in both cases.
+Depending on the server configuration, the login page shows a selection of the university for Shibboleth, or a simple login form that forwards to the login at the university. The selection comes from SWITCH and lists the universities of the federation. The body that operates OpenOlat can hide individual ones in the server configuration or add universities of other federations. The page in the administration is the same in both cases.
+
+The image shows as an example the selection of the university on the login page of an installation with customised texts. The labels of your login page can differ from it.
+
+![Framed, the selection of the university with selection field and button Login, below it the login with an OpenOlat account and via identity providers](assets/login_shibboleth_login_page_v1_en.png){ class="shadow lightbox" title="Example of a login box with selection of the university · 2026.11.27" }
 
 [To the top of the page ^](#shibboleth)
 

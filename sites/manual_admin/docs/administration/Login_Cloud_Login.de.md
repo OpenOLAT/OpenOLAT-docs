@@ -23,7 +23,11 @@ So binden Sie einen Identitätsanbieter an:
 3. Tragen Sie im Abschnitt des Identitätsanbieters die Zugangsdaten ein, die er für OpenOlat ausgestellt hat, etwa "Client ID" und "Client secret". Mit diesen beiden Angaben weist sich OpenOlat beim Identitätsanbieter aus.
 4. Klicken Sie auf "Speichern".
 
-Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl. Mit "Entfernen" im Abschnitt des Identitätsanbieters lösen Sie die Anbindung wieder, OpenOlat fragt vorher nach einer Bestätigung.
+Ab dann zeigt die Login-Seite den Identitätsanbieter zur Auswahl.
+
+![Gerahmt der Hinweis Bitte wählen Sie Ihren Identitätsanbieter. mit je einem Button pro angebundenem Identitätsanbieter: so finden die Personen Ihrer Organisation ihren Anmeldeweg](assets/login_cloud_login_login_page_v1_de.png){ class="shadow lightbox" title="Login-Seite mit Identitätsanbietern · 2026.11.27" }
+
+Mit "Entfernen" im Abschnitt des Identitätsanbieters lösen Sie die Anbindung wieder, OpenOlat fragt vorher nach einer Bestätigung.
 
 ### Active Directory Federation Services {: #adfs}
 

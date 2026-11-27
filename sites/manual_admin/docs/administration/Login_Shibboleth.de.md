@@ -15,7 +15,11 @@ Die Serverkonfiguration ist die Konfigurationsdatei der Installation, die Seite 
 
 Eine Änderung an der Basiskonfiguration gilt erst ab dem nächsten Neustart. Ohne eingeschaltetes Shibboleth fehlt der Eintrag "Shibboleth" im Menü `Administration > Login`.
 
-Je nach Serverkonfiguration zeigt die Login-Seite für Shibboleth eine Auswahl der Hochschule über den Auswahldienst von SWITCH oder eine einfache Anmeldemaske, die zur Anmeldung bei der Hochschule weiterleitet. Die Seite in der Administration ist in beiden Fällen dieselbe.
+Je nach Serverkonfiguration zeigt die Login-Seite für Shibboleth eine Auswahl der Hochschule oder eine einfache Anmeldemaske, die zur Anmeldung bei der Hochschule weiterleitet. Die Auswahl stammt von SWITCH und listet die Hochschulen der Föderation. Die Stelle, die OpenOlat betreibt, kann in der Serverkonfiguration einzelne davon ausblenden oder Hochschulen anderer Föderationen ergänzen. Die Seite in der Administration ist in beiden Fällen dieselbe.
+
+Das Bild zeigt als Beispiel die Auswahl der Hochschule auf der Login-Seite einer Installation mit angepassten Texten. Die Beschriftung Ihrer Login-Seite kann davon abweichen.
+
+![Gerahmt die Auswahl der Hochschule mit Auswahlfeld und Button Login, darunter die Anmeldung mit OpenOlat-Konto und über Identitätsanbieter](assets/login_shibboleth_login_page_v1_de.png){ class="shadow lightbox" title="Beispiel einer Anmeldebox mit Auswahl der Hochschule · 2026.11.27" }
 
 [Zum Seitenanfang ^](#shibboleth)
 

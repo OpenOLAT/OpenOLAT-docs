@@ -3,7 +3,11 @@
 !!! info "frentix-Kund:innen"
     Die Anbindung an LDAP ist Teil der Serverkonfiguration. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
 
-Viele Organisationen führen die Konten ihrer Mitarbeitenden oder Studierenden in einem Verzeichnis wie Active Directory. Mit der LDAP-Anbindung übernimmt OpenOlat die Konten aus diesem Verzeichnis und prüft beim Login Anmeldename und Passwort gegen das Verzeichnis. Personen melden sich auf der Login-Seite mit den Zugangsdaten an, die sie in Ihrer Organisation ohnehin verwenden, und Sie pflegen die Konten an einer Stelle.
+Viele Organisationen führen die Konten ihrer Mitarbeitenden oder Studierenden in einem Verzeichnis wie Active Directory. Mit der LDAP-Anbindung übernimmt OpenOlat die Konten aus diesem Verzeichnis und prüft beim Login Anmeldename und Passwort gegen das Verzeichnis. Personen melden sich auf der Login-Seite mit den Zugangsdaten an, die sie in der Organisation ohnehin verwenden, und Sie pflegen die Konten an einer Stelle.
+
+Dafür genügt das gewohnte Feld "Anmeldename" der Login-Seite. Manche Installationen zeigen für LDAP einen eigenen Button, wie das Beispiel im Bild.
+
+![Gerahmt das Feld Anmeldename mit dem Button LDAP Login: hier melden sich Personen mit den Zugangsdaten aus dem Verzeichnis an](assets/login_ldap_login_page_v1_de.png){ class="shadow lightbox" title="Beispiel einer Anmeldebox mit LDAP-Login · 2026.11.27" }
 
 Ist LDAP eingeschaltet, finden Systemadministrator:innen die Seite "LDAP Verwaltung" in der System-Administration unter:<br>
 `Administration > Login > LDAP`
