@@ -246,9 +246,9 @@ Weitere Fragen fügen Sie nach demselben Prinzip hinzu, die Einstellungen unters
 
 9\. Klicken Sie im Testeditor links auf das oberste Element, den Titel des Tests. Rechts erscheinen die Tabs mit den Einstellungen für den ganzen Test.
 
-![Oberstes Element des Testeditors gewählt, im Tab Test Konfiguration maximal 5 Punkte, Bestanden automatisch ab einer Punkteschwelle von 3 und eine Zeitbeschränkung von 30 Minuten](assets/testerstellung_2_9_v2_de.png){ class="shadow lightbox" title="Tab Test Konfiguration im Testeditor · 2026.11.10" }
+![Oberstes Element des Testeditors gewählt, im Tab Test-Konfiguration maximal 5 Punkte, Bestanden automatisch ab einer Punkteschwelle von 3 und eine Zeitbeschränkung von 30 Minuten](assets/testerstellung_2_9_v2_de.png){ class="shadow lightbox" title="Tab Test-Konfiguration im Testeditor · 2026.11.10" }
 
-10\. **Test Konfiguration:** Legen Sie fest, ab wie vielen Punkten der Test bestanden ist und ob eine Zeitbeschränkung gilt.
+10\. **Test-Konfiguration:** Legen Sie fest, ab wie vielen Punkten der Test bestanden ist und ob eine Zeitbeschränkung gilt.
 
 Im Tab "Feedback" hinterlegen Sie bei Bedarf eine allgemeine Rückmeldung für bestandene und für nicht bestandene Tests. Sie gilt, wenn OpenOlat das Bestehen automatisch über die Punkteschwelle ausgibt.
 

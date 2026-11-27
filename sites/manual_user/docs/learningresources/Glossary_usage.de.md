@@ -6,9 +6,9 @@ Ein Glossar erklärt die Fachbegriffe eines Kurses. Teilnehmende schlagen einen 
 
 ### Aufruf in der Toolbar {: #glossary_call_in_toolbar}
 
-Haben die Kursbesitzer:innen ein Glossar in den Kurs eingebunden und als Werkzeug eingeschaltet, erscheint in der Kurstoolbar das Menü "Glossar", siehe [Glossar einbinden](Glossary_create.de.md#integrate).
+Ist ein Glossar in den Kurs eingebunden und als Werkzeug eingeschaltet, erscheint in der Kurstoolbar das Menü "Glossar". Einbinden und einschalten können es alle, welche die Kurseinstellungen öffnen, siehe [Glossar einbinden](Glossary_create.de.md#integrate). Als Teilnehmer:in nutzen Sie das Menü ohne eigene Einstellung.
 
-Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eigenen Fenster. Mit "Glossarbegriffe in Lerninhalt einblenden" zeigt OpenOlat die Erklärung eines Begriffs im Lerninhalt, sobald Sie mit der Maus auf den Begriff zeigen.
+Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eigenen Fenster. Mit "Glossarbegriffe in Lerninhalt einblenden" zeigt OpenOlat die Erklärung eines Begriffs im Lerninhalt, sobald Sie mit der Maus auf den Begriff zeigen. Die Wahl gilt nur für Sie und bleibt in diesem Kurs gespeichert, auch über das Abmelden hinaus. Danach heisst derselbe Eintrag "Glossarbegriffe von Lerninhalt ausblenden", damit schalten Sie die Erklärungen wieder aus.
 
 ![Menü Glossar in der Kurstoolbar hell, geöffnet mit den Einträgen Glossar in separatem Fenster öffnen und Glossarbegriffe in Lerninhalt einblenden markiert: zwei Wege, das Glossar im Kurs zu nutzen](assets/glossary_toolbar_dropdown_v2_de.png){ class="shadow lightbox" title="Kurstoolbar mit geöffnetem Menü Glossar · 2026.11.18" }
 
@@ -17,9 +17,9 @@ Mit "Glossar in separatem Fenster öffnen" lesen Sie alle Begriffe in einem eige
 ---
 
 
-### Nutzung in HTML-Seiten {: #glossary_call_in_HTML}
+### Nutzung im Lerninhalt {: #glossary_call_in_HTML}
 
-Steht ein Begriff aus dem Glossar im Lerninhalt des Kurses, etwa auf einer HTML-Seite oder im Wiki, unterstreicht OpenOlat ihn mit einer feinen Punktlinie. Zeigen Sie mit der Maus auf den Begriff, erscheint seine Erklärung aus dem Glossar.
+Stossen Sie im Lerninhalt des Kurses auf einen Fachbegriff, erklärt ihn das Glossar direkt an dieser Stelle. Wählen Sie dafür in der Kurstoolbar im Menü "Glossar" den Eintrag "Glossarbegriffe in Lerninhalt einblenden". Danach unterstreicht OpenOlat jeden Begriff aus dem Glossar mit einer feinen Punktlinie, etwa auf einer HTML-Seite, im Kursbaustein "Seite" oder im Wiki. Zeigen Sie mit der Maus auf den Begriff, erscheint seine Erklärung aus dem Glossar. Das gilt auch für die Beschreibung und die Beiträge im Kursbaustein "Forum" und für die Beschreibung auf der Startseite des Kursbausteins "Test". In den Fragen eines gestarteten Tests unterstreicht OpenOlat keine Begriffe, solange im Kursbaustein "Test" im Tab "Optionen" die Einstellung "Nur Modul anzeigen, LMS ausblenden" gesetzt ist. So ist der Kursbaustein voreingestellt.
 
 ![Glossarbegriffe WebDAV und Wiki gepunktet unterstrichen, bei WebDAV die Erklärung aus dem Glossar: Teilnehmende lesen einen Fachbegriff nach, ohne die Seite zu verlassen](assets/glossary_usage_html_v2_de.png){ class="shadow lightbox" title="Kursbaustein Seite in einem Kurs · 2026.11.18" }
 
@@ -36,7 +36,7 @@ Den Link auf das Glossar finden Sie im Feld "Direktlink" unter:<br>
 `Glossar > Administration > Einstellungen > Tab "Freigabe"`<br>
 Mit "In Zwischenablage kopieren" übernehmen Sie den Link in eine E-Mail oder auf eine Webseite. Mit "QR-Code anzeigen" geben Sie ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field).
 
-![Verwendungszweck Eigenständig und Feld Direktlink mit dem Link auf das Glossar und den Schaltflächen zum Kopieren und für den QR-Code markiert](assets/glossary_settings_share_v2_de.png){ class="shadow lightbox" title="Tab Freigabe in den Einstellungen eines Glossars · 2026.11.09" }
+![Verwendungszweck Eigenständig und Feld Direktlink mit Kopieren und QR-Code markiert: hier holen Sie den Link, mit dem Sie das Glossar ohne Kurs weitergeben](assets/glossary_settings_share_v3_de.png){ class="shadow lightbox" title="Tab Freigabe in den Einstellungen eines Glossars · 2026.11.27" }
 
 [Zum Seitenanfang ^](#glossary_usage)
 
@@ -47,7 +47,9 @@ Mit "In Zwischenablage kopieren" übernehmen Sie den Link in eine E-Mail oder au
 
 Ein Glossar steht auch Personen ohne OpenOlat-Konto offen, wenn Sie es für Gäste freigeben. Gäste sind anonyme Benutzer:innen, die in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht erscheinen.
 
-Die Systemadministrator:innen schalten den Gastlogin für die OpenOlat-Instanz ein und legen fest, welche OpenOlat-Bereiche Gäste sehen. Im Glossar setzen Sie im Tab "Freigabe" den "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" und fügen ein Angebot der Art "Gastzugang" hinzu. Mehr dazu unter [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
+Die Systemadministrator:innen schalten den Gastlogin für die OpenOlat-Instanz ein und legen fest, welche OpenOlat-Bereiche Gäste sehen. Als Besitzer:in des Glossars geben Sie es danach für Gäste frei, unter:<br>
+`Glossar > Administration > Einstellungen > Tab "Freigabe"`<br>
+Wählen Sie dort den Verwendungszweck "Eigenständig" wie beim [separaten Glossar](#glossary_call_as_stand_alone), setzen Sie den "Zugang für Teilnehmer:innen" auf "Buchbare und offene Angebote" und fügen Sie im Abschnitt "Angebot" ein Angebot der Art "Gastzugang" hinzu. Den Link für Gäste zeigt das Angebot danach im Feld "Externer Link - Gast". Schicken Sie ihn den Gästen, oder sie finden das Glossar im Katalog, sofern die Systemadministrator:innen ihnen den Katalog zeigen. Mehr dazu unter [Rollen und Rechte: Gastzugang](../basic_concepts/guest_access.de.md).
 
 [Zum Seitenanfang ^](#glossary_usage)
 

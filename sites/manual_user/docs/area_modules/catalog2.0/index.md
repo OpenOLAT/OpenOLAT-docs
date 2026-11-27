@@ -11,7 +11,7 @@ Available since | Release 17.0 (OO-6143)
 
 In the catalog, you present to learners the courses and learning resources that were created in OpenOlat.
 
-If someone is interested in a specific offer, they open the corresponding info page for each entry.
+If someone is interested in a specific offer, they open the info page of the entry.
 
 If a user decides on a course, they open it directly from the catalog. If they do not have access yet, they first book the course with "Book".
 
@@ -25,7 +25,7 @@ The catalog can be made available to both registered and unregistered persons. W
 
 Registered OpenOlat users find the catalog in the main navigation.
 
-![Entry Catalog in the main navigation light, below it the header of the catalog with the search field: here logged-in users call up the catalog](../assets/catalog20_kopfzeilenmenu_v2_en.png){ class="shadow lightbox" title="Catalog for logged-in users · 2026.11.18" }
+![Entry Catalog in the main navigation highlighted, below it the header of the catalog with the search field: here logged-in users call up the catalog](../assets/catalog20_kopfzeilenmenu_v2_en.png){ class="shadow lightbox" title="Catalog for logged-in users · 2026.11.18" }
 
 Requirement: The catalog must be activated in the system administration: `Administration > Modules > Catalog > Tab "Settings"`. The setup is described in the [administration manual](../../../manual_admin/administration/Modules_Catalog_2.0.md).
 
@@ -35,7 +35,7 @@ Requirement: The catalog must be activated in the system administration: `Admini
 
 Unregistered persons can access an externally accessible, mirrored version of the catalog, provided this so-called web catalog is activated. Access is possible directly from the login page. However, the link to the web catalog can also be integrated elsewhere in a website. [:octicons-tag-16:{ title="from Release 20.0 (OO-8002)" }](https://track.frentix.com/issue/OO-8002)
 
-![Section Catalog with the button Explore our offers below the guest access highlighted](../assets/catalog20_webcatalog_login_v1_en.png){ class="shadow lightbox" title="Login page of OpenOlat · 2026.11.09" }
+![Section Catalog with the button Explore our offers below the guest access highlighted: here unregistered persons open the web catalog](../assets/catalog20_webcatalog_login_v1_en.png){ class="shadow lightbox" title="Login page of OpenOlat · 2026.11.09" }
 
 [Further information on the external catalog >](../../../manual_user/area_modules/catalog2.0_web.md)<br>
 [To the top of the page ^](#catalog_overview)
@@ -50,7 +50,7 @@ Catalog 2.0 contains the following components:
 - Search field (inside the header)
 - Filter for a directed search, e.g. by implementation format, type of learning resource, etc.
 - Launcher: Sections in the catalog in which catalog entries are compiled according to certain criteria, e.g. recently published courses (depending on the launcher type and launcher configuration)
-- Tiles/cards with a description of a course or learning resource (corresponds to the [info page](../../learningresources/Info_page.md))
+- Tiles with a description of a course or learning resource (corresponds to the [info page](../../learningresources/Info_page.md))
 
 ![Header with the search field, one launcher and one tile in it marked: the components that make up the start page of the catalog](../assets/catalog20_bestandteile_v2_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.11.18" }
 
@@ -58,28 +58,28 @@ Catalog 2.0 contains the following components:
 
 ---
 
-## What pages and displays does the catalog have? {: #catalog_views}
+## What pages and views does the catalog have? {: #catalog_views}
 
-**Page/Display 1:**<br>
+**Page/View 1:**<br>
 If you call up the catalog (2.0) in the main navigation, you first reach the start page (landing page) with the launchers.
 
-![Entry Catalog in the main navigation light, below it the start page with launchers for categories and for courses: the first view after calling up the catalog](../assets/catalog20_startseite_v2_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.11.18" }
+![Entry Catalog in the main navigation highlighted, below it the start page with launchers for categories and for courses: the first view after calling up the catalog](../assets/catalog20_startseite_v2_en.png){ class="shadow lightbox" title="Start page of the catalog · 2026.11.18" }
 
-In the search field, you search directly for specific learning resources. The title, teaser text and taxonomy are indexed for this purpose. However, you can also click on the displayed tiles/cards that are grouped in the launchers.
+In the search field, you search directly for specific learning resources. The title, teaser text and taxonomy are indexed for this purpose. The link "Explore all … offers" below the search field lists all entries of the catalog; the number in the link says how many there are. However, you can also click on the displayed tiles that are grouped in the launchers. Next to the title of a launcher, "Show all" displays all entries of this launcher as a list.
 
-**Page/Display 2:**<br>
-Clicking on a card/tile in a launcher of type "Taxonomy level" (category) opens a microsite (list view) with the courses and learning resources in this category. A category includes all courses and learning resources that are assigned to the same taxonomy level. Subcategories are also possible.
+**Page/View 2:**<br>
+Clicking on a tile in a launcher of type "Taxonomy level" (category) opens a microsite (list view) with the courses and learning resources in this category. A category includes all courses and learning resources that are assigned to the same taxonomy level. Subcategories are also possible.
 
 A launcher of type "Taxonomy level" therefore does not show courses and learning resources directly, but taxonomy levels, which then contain the courses and learning resources.
 
 ![Launcher of the type Taxonomy level with four tiles marked: a click on a tile opens the microsite of this category](../assets/catalog20_categorielauncher_v2_en.png){ class="shadow lightbox" title="Launcher of the type Taxonomy level on the start page of the catalog · 2026.11.18" }
 
-If you click on a card/tile in a launcher of another type, the course or learning resource starts immediately if you are already a member. Otherwise the info page opens, also for an offer without booking and for an implementation.
+If you click on a tile in a launcher of another type, the course or learning resource starts immediately if you are already a member. Otherwise the info page opens, also for an offer without booking and for an implementation.
 
-**Page/Display 3:**<br>
+**Page/View 3:**<br>
 If a microsite is opened first, you display the [info page](../../learningresources/Info_page.md) in the list with "Learn more" or start the course or learning resource immediately with "Open". If you do not have access yet, the button "Book" appears instead of "Open".
 
-![Microsite of a category with a subcategory, filters and the list of offers, for the entry the buttons Learn more and Open light: from here to the info page or directly into the course](../assets/catalog20_microsite_v2_en.png){ class="shadow lightbox" title="Microsite of a category in the catalog · 2026.11.18" }
+![Microsite of a category with a subcategory, filters and the list of offers, for the entry the buttons Learn more and Open highlighted: from here to the info page or directly into the course](../assets/catalog20_microsite_v2_en.png){ class="shadow lightbox" title="Microsite of a category in the catalog · 2026.11.18" }
 
 !!! note "Note"
 
