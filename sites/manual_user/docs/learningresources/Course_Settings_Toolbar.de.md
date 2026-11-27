@@ -17,16 +17,21 @@ Verfügbar seit | Release 10.0 (2014)
 
 ## Werkzeuge in Toolbar aktivieren {: #activate_tools}
 
-Ist die Checkbox "Toolbar sichtbar für Teilnehmer:innen" eingeschaltet, wählen Sie darunter die Werkzeuge aus. Den Tab bearbeiten Besitzer:innen des Kurses, Lernressourcenverwalter:innen, Administrator:innen und Personen mit dem Recht "Kurseditor".
+Ist im Tab "Toolbar" die Checkbox "Toolbar sichtbar für Teilnehmer:innen" eingeschaltet, wählen Sie darunter die Werkzeuge aus und klicken auf "Speichern":<br>
+`Kurs > Administration > Einstellungen > Tab "Toolbar"`
 
-![Tab Toolbar mit den aktivierbaren Werkzeugen: Kurskalender eingeschaltet, darunter die Checkbox "Betreuer:innen dürfen den Kalender bearbeiten" mit Hinweistext](assets/course_settings_toolbar1_v3_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen · 2026.11.10" }
+Den Tab bearbeiten Besitzer:innen des Kurses, Lernressourcenverwalter:innen, Administrator:innen und Personen mit dem Recht "Kurseditor".
 
-Betreuer:innen und Besitzer:innen sehen die Toolbar immer. Jedes Werkzeug, das Sie für den Kurs einschalten, erscheint mit seinem Icon in der Toolbar.<br>
+![Toolbar sichtbar für Teilnehmer:innen eingeschaltet, darunter die Werkzeuge mit je einer Checkbox Ein, unter Kurskalender die Checkbox Betreuer:innen dürfen den Kalender bearbeiten](assets/course_settings_toolbar1_v3_de.png){ class="shadow lightbox" title="Tab Toolbar der Kurseinstellungen · 2026.11.10" }
+
+Wenn Sie die Werkzeuge auswählen, schalten Sie am besten **nur die Werkzeuge ein, die der Kurs braucht**. So bleibt die Toolbar übersichtlich, und Teilnehmer:innen finden ihre Werkzeuge auf einen Blick. Passen nicht alle Icons in eine Zeile, bricht die Toolbar in eine zweite Zeile um, auf schmalen Bildschirmen schon bei weniger Werkzeugen. Auf sehr schmalen Bildschirmen zeigt die Toolbar nur noch die Icons ohne ihre Namen.
+
+Betreuer:innen und Besitzer:innen sehen die Toolbar immer, auch wenn sie für Teilnehmer:innen ausgeschaltet ist. Jedes Werkzeug, das Sie für den Kurs einschalten, erscheint mit seinem Icon und seinem Namen in der Toolbar.<br>
 [Mehr dazu >](#show_icons)
 
 Zu den [Werkzeugen](#available_icons) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat Werkzeuge, die es auch als Kursbausteine gibt, z.B. Kurskalender, Liste der Teilnehmer:innen, E-Mail, Blog, Wiki, Forum und Dokumente. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](Blog/index.de.md) können Sie auch auf bereits erstellte Lernressourcen zurückgreifen. Die übrigen Werkzeuge ähneln den entsprechenden Kursbausteinen, bieten aber nicht alle Konfigurationsmöglichkeiten, die die Kursbausteine im Kurseditor haben.
 
-Planen Betreuer:innen die Termine des Kurses, erlauben Sie ihnen mit der Checkbox "Betreuer:innen dürfen den Kalender bearbeiten", im Kurskalender Termine hinzuzufügen, zu ändern und zu löschen. Die Checkbox erscheint direkt unter "Kurskalender", sobald Sie den Kurskalender einschalten. Teilnehmer:innen lesen die Termine. Schalten Sie den Kurskalender oder die Toolbar aus, speichert OpenOlat auch diese Option als ausgeschaltet.<br>
+Planen Betreuer:innen die Termine des Kurses, erlauben Sie ihnen mit der Checkbox "Betreuer:innen dürfen den Kalender bearbeiten", im Kurskalender Termine hinzuzufügen, zu ändern und zu löschen. Die Checkbox erscheint direkt unter "Kurskalender", sobald Sie den Kurskalender einschalten. Teilnehmer:innen lesen die Termine. Schalten Sie den Kurskalender oder die Toolbar aus, speichert OpenOlat auch diese Option als ausgeschaltet. Schalten Sie den Kurskalender später wieder ein, setzen Sie die Option neu.<br>
 [Mehr zu den Rechten im Kurskalender >](#calendar)
 
 Besonders in linear aufgebauten [Lernpfadkursen](Learning_path_course/index.de.md) stellt die Toolbar wichtige Werkzeuge bereit, unabhängig von der Reihenfolge der Lernschritte.
@@ -71,30 +76,37 @@ In der Toolbar sehen die Rollen, die unter "Sichtbar für" ausgewählt sind, das
 
 ## Verfügbare Icons {: #available_icons}
 
-Welche Icons eine Person in der Toolbar sieht, hängt von den eingeschalteten Werkzeugen und von ihrer Rolle im Kurs ab.
+Jedes Werkzeug erscheint in der Toolbar als Icon mit seinem Namen darunter. Welche Icons eine Person sieht, hängt von den eingeschalteten Werkzeugen und von ihrer Rolle im Kurs ab. Die drei Beispiele zeigen die Toolbar desselben Kurses, geordnet nach den Rechten der Rolle. Die Bilder der Betreuer:in und der Besitzer:in zeigen zusätzlich das geöffnete Menü "Administration" und markieren, was gegenüber der vorherigen Rolle dazukommt.
 
-**Beispiel Teilnehmer:in**:
+**Beispiel Teilnehmer:in**<br>
+Teilnehmer:innen sehen die Werkzeuge, die Sie im [Tab "Toolbar"](#activate_tools) eingeschaltet haben, rechts das Menü ["Mein Kurs"](#my_course) und in [Lernpfadkursen](Learning_path_course/index.de.md) die [Fortschrittsanzeige](#progress), die nur Teilnehmer:innen sehen.
 
-![Toolbar aus Sicht einer Teilnehmer:in mit den Werkzeugen von Infoseite (Info-Symbol) bis Kurssuche, darunter Mitteilungen (Megafon) und Blog (Blog-Symbol), rechts Mein Kurs](assets/toolbar_example_course_participant_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
+![Toolbar einer Teilnehmer:in mit den Werkzeugen von Infoseite bis Kurssuche, rechts Mein Kurs und Fortschrittsanzeige mit 75%](assets/toolbar_example_course_participant_v3_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.11.27" }
 
-**Beispiel Kursbesitzer:in/Betreuer:in**:
+**Beispiel Betreuer:in**<br>
+Betreuer:innen sehen zusätzlich links das Menü "Administration" mit den Einträgen für die Betreuung, im Beispiel "Bewertungswerkzeug", "To-dos" und "Datenerhebungsvorschau". Rechts zeigt "Rolle" die aktive Rolle Betreuer:in.
 
-![Toolbar aus Sicht einer Kursbesitzer:in mit zusätzlich Administration, Status Veröffentlicht und Rollenwechsler, dazwischen dieselben Werkzeuge von Infoseite bis Kurssuche](assets/toolbar_example_course_owner_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Kursbesitzer:in · 2026.10.27" }
+![Toolbar einer Betreuer:in mit geöffnetem, gekürztem Menü Administration: Bewertungswerkzeug, To-dos, Datenerhebungsvorschau. Rolle Betreuer:in markiert](assets/toolbar_example_course_coach_v1_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses, Sicht Betreuer:in · 2026.11.27" }
+
+**Beispiel Besitzer:in**<br>
+Besitzer:innen sehen zusätzlich den Status des Kurses und im Menü "Administration" alle Einträge zur Verwaltung, von "Einstellungen" bis "Löschen". "Administration", Status und "Rolle" erscheinen für Besitzer:innen immer. Zusammen mit den Werkzeugen, die in diesem Kurs eingeschaltet sind, sind es so viele Icons, dass die Toolbar in eine zweite Zeile umbricht: "Dokumente" und "Kurssuche" stehen unter den übrigen Werkzeugen. Welche Werkzeuge erscheinen, legen Sie im Tab "Toolbar" fest, siehe [Werkzeuge in Toolbar aktivieren](#activate_tools).
+
+![Toolbar einer Besitzer:in in zwei Zeilen, Dokumente und Kurssuche in der zweiten. Geöffnetes, vollständiges Menü Administration und Status Veröffentlicht markiert](assets/toolbar_example_course_owner_v3_de.png){ class="shadow lightbox" title="Menü Administration eines Kurses, Sicht Besitzer:in · 2026.11.27" }
 
 ### Administration {: #admin}
 
-![Werkzeug Administration ganz links in der Toolbar markiert: Menü, über das Besitzer:innen und berechtigte Betreuer:innen den Kurs verwalten. Daneben Status Veröffentlicht und Werkzeuge ab Infoseite](assets/toolbar_admin_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
+![Werkzeug Administration ganz links in der Toolbar markiert, daneben Status Veröffentlicht und die Werkzeuge ab Infoseite](assets/toolbar_admin_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Das Menü "Administration" sehen nur Personen, die den Kurs verwalten, Teilnehmer:innen sehen es nicht. Dort öffnen sie unter anderem die Einstellungen und den Kurseditor.<br>
+Über das Menü "Administration" verwalten und betreuen Sie den Kurs. Welche Einträge darin stehen, hängt von Ihrer Rolle ab. Besitzer:innen sehen alle Einträge, darunter "Einstellungen", "Mitgliederverwaltung" und "Kurseditor". Betreuer:innen sehen die Einträge für die Betreuung: immer "Bewertungswerkzeug" und "To-dos". Dazu kommen "Badges", wenn Betreuer:innen im Kurs Badges vergeben dürfen, "Unterlagen Betreuer:innen", wenn dieser Ordner eingeschaltet ist, "Datenerhebungsvorschau", wenn Systemadministrator:innen sie eingeschaltet haben, sowie "Teststatistiken" und "Fragebogen Statistiken", wenn der Kurs einen Test oder Fragebogen enthält. Erhalten Betreuer:innen in der Mitgliederverwaltung [zusätzliche Rechte](Members_management.de.md#additional_rights), etwa das Recht "Kurseditor", erscheinen die zugehörigen Einträge ebenfalls. Teilnehmer:innen sehen das Menü nicht.<br>
 [Mehr dazu >](Administration/index.de.md)
 
 ---
 
 ### Status [:octicons-tag-16:{ title="ab Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
-![Status Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert: hier wechseln Berechtigte den Status des Kurses. Rechts daneben die Werkzeuge ab Infoseite mit dem Info-Symbol](assets/toolbar_status_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
+![Status Veröffentlicht als grüne Schaltfläche mit Auswahlpfeil markiert, rechts daneben die Werkzeuge ab Infoseite mit dem Info-Symbol](assets/toolbar_status_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Den Status sehen nur Personen, die den Kurs verwalten, Teilnehmer:innen sehen ihn nicht. Hier wechseln sie den Status des Kurses.<br>
+Über "Status" wechseln Sie den Status des Kurses, etwa von "Vorbereitung" zu "Veröffentlicht". Den Status sehen und wechseln Besitzer:innen, Administrator:innen, Lernressourcenverwalter:innen und Kursplaner:innen. Betreuer:innen und Teilnehmer:innen sehen ihn nicht.<br>
 [Mehr dazu >](../learningresources/Access_configuration.de.md)
 
 ---
@@ -266,9 +278,9 @@ Rechts neben der Kurssuche stehen die [externen Kurstools](#external_tools), sof
 
 ### Rolle {: #role}
 
-![Rollenwechsler mit der aktiven Rolle Besitzer:in und der Beschriftung Rolle in der Toolbar markiert, rechts daneben Mein Kurs](assets/toolbar_role_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
+![Auswahl Rolle mit der aktiven Rolle Besitzer:in in der Toolbar markiert, rechts daneben Mein Kurs](assets/toolbar_role_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses · 2026.10.27" }
 
-Hat eine Person in diesem Kurs mehrere Rollen, wechselt sie hier die Rolle.<br>
+Unter "Rolle" sehen Sie, in welcher Rolle Sie den Kurs gerade nutzen, und wechseln sie. Hat eine Person im Kurs mehrere Rollen, etwa Besitzer:in und Betreuer:in, wählt sie hier die andere Rolle. Besitzer:innen und Betreuer:innen, die nicht zugleich Teilnehmer:in sind, wechseln hier ausserdem in die "Teilnehmer:innenansicht" und sehen den Kurs so, wie ihn Teilnehmer:innen sehen. Über dieselbe Auswahl wechseln sie zurück in ihre Rolle. Wegen dieser Ansicht erscheint "Rolle" auch bei einer Betreuer:in mit nur einer Rolle im Kurs. Teilnehmer:innen ohne weitere Rolle sehen "Rolle" nicht.<br>
 [Mehr dazu >](../basic_concepts/Roles/index.de.md#course)
 
 ---
@@ -282,7 +294,7 @@ Das Dropdown-Menü "Mein Kurs" der Toolbar bietet Zugriff auf personalisierte Be
 
 ---
 
-### Fortschrittsanzeige {: #progress}
+### Fortschrittsanzeige [:octicons-tag-16:{ title="ab Release 15.0 (OO-4356)" }](https://track.frentix.com/issue/OO-4356) {: #progress}
 
 ![Fortschrittsanzeige als Kreisdiagramm mit 88 Prozent am rechten Rand der Toolbar markiert, links daneben Mein Kurs](assets/toolbar_progress_v2_de.png){ class="shadow lightbox" title="Toolbar eines Kurses, Sicht Teilnehmer:in · 2026.10.27" }
 
@@ -329,6 +341,7 @@ Das Icon "Termine" erscheint automatisch in der Toolbar, sobald das Termin- und 
 [Blog: Übersicht >](Blog/index.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
+[Mitgliederverwaltung >](Members_management.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Toolbar: Infoseite >](Info_page.de.md)<br>
 [Kursbaustein "Kalender" >](Course_Element_Calendar.de.md)<br>

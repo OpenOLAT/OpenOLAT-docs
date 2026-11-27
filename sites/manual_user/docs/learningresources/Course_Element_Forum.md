@@ -12,9 +12,7 @@ Assessable | no
 Specialty / Note |
 
 
-With the course element "Forum", the members of your course discuss at different times (asynchronously): each person writes and replies whenever it suits them. Participants ask questions about the content of the course there, for example, and answer each other, you start a subject discussion or implement forum-based learning methods.
-
-![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of the first post of a thread](assets/Posting_beantworten.png){ class="shadow lightbox" title="Discussion topic in the forum" }
+With the course element "Forum", the members of your course discuss at different times (asynchronously): each person writes and replies whenever it suits them. Participants ask questions about the content of the course there, for example, and answer each other, you start a subject discussion or implement forum-based learning methods, such as a pro-and-con discussion or a brainstorming on a question.
 
 [To the top of the page ^](#forum)
 

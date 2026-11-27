@@ -12,9 +12,7 @@ Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Mit dem Kursbaustein "Forum" diskutieren die Mitglieder Ihres Kurses zeitversetzt (asynchron): Jede Person schreibt und antwortet dann, wenn es ihr passt. Teilnehmende stellen dort etwa Fragen zum Inhalt des Kurses und beantworten sie gegenseitig, Sie eröffnen eine Fachdiskussion oder setzen forenbasierte Lernmethoden um.
-
-![Forumsbeitrag mit Titel, Autorin und Text sowie den Buttons Antworten mit Zitat und Antworten ohne Zitat, Beispiel des ersten Beitrags eines Diskussionsthemas](assets/Posting_beantworten.png){ class="shadow lightbox" title="Diskussionsthema im Forum" }
+Mit dem Kursbaustein "Forum" diskutieren die Mitglieder Ihres Kurses zeitversetzt (asynchron): Jede Person schreibt und antwortet dann, wenn es ihr passt. Teilnehmende stellen dort etwa Fragen zum Inhalt des Kurses und beantworten sie gegenseitig, Sie eröffnen eine Fachdiskussion oder setzen forenbasierte Lernmethoden um, etwa eine Pro-Contra-Diskussion oder ein Brainstorming zu einer Frage.
 
 [Zum Seitenanfang ^](#forum)
 

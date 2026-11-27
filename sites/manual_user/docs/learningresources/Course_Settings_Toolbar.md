@@ -17,16 +17,21 @@ Available since | Release 10.0 (2014)
 
 ## Activate tools in toolbar {: #activate_tools}
 
-If the checkbox "Toolbar visible for participants" is switched on, you select the tools below it. The tab can be edited by owners of the course, learning resource managers, administrators and persons with the "Course editor" right.
+If the checkbox "Toolbar visible for participants" is switched on in the "Toolbar" tab, you select the tools below it and click "Save":<br>
+`Course > Administration > Settings > Tab "Toolbar"`
 
-![Toolbar tab with the tools that can be enabled: Course calendar switched on, below it the checkbox "Coaches can edit the calendar" with its hint text](assets/course_settings_toolbar1_v3_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings · 2026.11.10" }
+The tab can be edited by owners of the course, learning resource managers, administrators and persons with the "Course editor" right.
 
-Coaches and owners always see the toolbar. Every tool you switch on for the course appears with its icon in the toolbar.<br>
+![Toolbar visible for participants switched on, below it the tools each with a checkbox On, below Course calendar the checkbox Coaches can edit the calendar](assets/course_settings_toolbar1_v3_en.png){ class="shadow lightbox" title="Toolbar tab of the course settings · 2026.11.10" }
+
+When you select the tools, it is best to switch on **only the tools the course needs**. This keeps the toolbar clear, and participants find their tools at a glance. If not all icons fit into one line, the toolbar wraps into a second line, on narrow screens already with fewer tools. On very narrow screens the toolbar only shows the icons without their names.
+
+Coaches and owners always see the toolbar, even if it is switched off for participants. Every tool you switch on for the course appears with its icon and its name in the toolbar.<br>
 [More >](#show_icons)
 
 In addition to course search, glossary and course chat, the [tools](#available_icons) of the toolbar include tools that also exist as course elements, e.g. course calendar, participant list, e-mail, blog, wiki, forum and documents. For [Wiki](../learningresources/Wiki.md) and [Blog](Blog/index.md), you can also use learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer all the configuration options that the course elements have in the course editor.
 
-If coaches plan the events of the course, the checkbox "Coaches can edit the calendar" allows them to add, change and delete events in the course calendar. The checkbox appears directly below "Course calendar" as soon as you switch on the course calendar. Participants read the events. If you switch off the course calendar or the toolbar, OpenOlat also saves this option as switched off.<br>
+If coaches plan the events of the course, the checkbox "Coaches can edit the calendar" allows them to add, change and delete events in the course calendar. The checkbox appears directly below "Course calendar" as soon as you switch on the course calendar. Participants read the events. If you switch off the course calendar or the toolbar, OpenOlat also saves this option as switched off. If you switch the course calendar on again later, you set the option again.<br>
 [More about the rights in the course calendar >](#calendar)
 
 Especially in linear [learning path courses](Learning_path_course/index.md), the toolbar provides important tools regardless of the order of the learning steps.
@@ -71,30 +76,37 @@ In the toolbar, the roles selected under "Visible to" see the tool with its name
 
 ## Available icons {: #available_icons}
 
-Which icons a person sees in the toolbar depends on the tools switched on and on their role in the course.
+Every tool appears in the toolbar as an icon with its name below it. Which icons a person sees depends on the tools switched on and on their role in the course. The three examples show the toolbar of the same course, ordered by the rights of the role. The images of the coach and the owner additionally show the open menu "Administration" and highlight what is added compared to the previous role.
 
-**Example participant**:
+**Example participant**<br>
+Participants see the tools you have switched on in the ["Toolbar" tab](#activate_tools), on the right the menu ["My course"](#my_course) and, in [learning path courses](Learning_path_course/index.md), the [progress indicator](#progress), which only participants see.
 
-![Toolbar from a participant's point of view with the tools from Info page (info icon) to Course search, including Info messages (megaphone) and Blog (blog icon), on the right My course](assets/toolbar_example_course_participant_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
+![Toolbar of a participant with the tools from Info page to Course search, on the right My course and the progress indicator at 75%](assets/toolbar_example_course_participant_v3_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.11.27" }
 
-**Example course owner/coach**:
+**Example coach**<br>
+Coaches additionally see the menu "Administration" on the left with the entries for coaching, in the example "Assessment tool", "To-dos" and "Data collection previews". On the right, "Role" shows the active role Coach.
 
-![Toolbar from a course owner's point of view with additionally Administration, status Published and the role switcher, in between the same tools from Info page to Course search](assets/toolbar_example_course_owner_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, course owner view · 2026.10.27" }
+![Toolbar of a coach with the open, shortened menu Administration: Assessment tool, To-dos, Data collection previews. Role Coach highlighted](assets/toolbar_example_course_coach_v1_en.png){ class="shadow lightbox" title="Administration menu of a course, coach view · 2026.11.27" }
+
+**Example owner**<br>
+Owners additionally see the status of the course and, in the menu "Administration", all entries for managing the course, from "Settings" to "Delete". "Administration", status and "Role" always appear for owners. Together with the tools switched on in this course, there are so many icons that the toolbar wraps into a second line: "Documents" and "Course search" are below the other tools. You define which tools appear in the "Toolbar" tab, see [Activate tools in toolbar](#activate_tools).
+
+![Toolbar of an owner in two lines, Documents and Course search in the second. Open, complete menu Administration and status Published highlighted](assets/toolbar_example_course_owner_v3_en.png){ class="shadow lightbox" title="Administration menu of a course, owner view · 2026.11.27" }
 
 ### Administration {: #admin}
 
-![Tool Administration highlighted at the far left of the toolbar: the menu owners and authorised coaches use to manage the course. Next to it the status Published and the tools starting with Info page](assets/toolbar_admin_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
+![Tool Administration highlighted at the far left of the toolbar, next to it the status Published and the tools starting with Info page](assets/toolbar_admin_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Only persons who manage the course see the menu "Administration", participants do not see it. There they open, among other things, the settings and the course editor.<br>
+With the menu "Administration" you manage and coach the course. Which entries it contains depends on your role. Owners see all entries, including "Settings", "Members management" and "Course editor". Coaches see the entries for coaching: always "Assessment tool" and "To-dos". In addition, "Badges" appears if coaches may award badges in the course, "Coach files" if this folder is switched on, "Data collection previews" if system administrators have switched it on, and "Test statistics" and "Survey statistics" if the course contains a test or questionnaire. If coaches receive [additional rights](Members_management.md#additional_rights) in the members management, for example the right "Course editor", the corresponding entries also appear. Participants do not see the menu.<br>
 [More >](Administration/index.md)
 
 ---
 
 ### Status [:octicons-tag-16:{ title="from Release 13.0 (OO-3584)" }](https://track.frentix.com/issue/OO-3584) {: #status}
 
-![Status Published highlighted as a green button with a selection arrow: this is where authorised persons change the status of the course. To its right the tools from Info page with its info icon](assets/toolbar_status_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
+![Status Published highlighted as a green button with a selection arrow, to its right the tools from Info page with its info icon](assets/toolbar_status_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-Only persons who manage the course see the status, participants do not see it. Here they change the status of the course.<br>
+With "Status" you change the status of the course, for example from "Preparation" to "Published". Owners, administrators, learning resource managers and course planners see and change the status. Coaches and participants do not see it.<br>
 [More >](../learningresources/Access_configuration.md)
 
 ---
@@ -266,9 +278,9 @@ To the right of the course search are the [external course tools](#external_tool
 
 ### Role {: #role}
 
-![Role switcher with the active role Owner and the label Role highlighted in the toolbar, to its right My course](assets/toolbar_role_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
+![Selection Role with the active role Owner highlighted in the toolbar, to its right My course](assets/toolbar_role_v2_en.png){ class="shadow lightbox" title="Toolbar of a course · 2026.10.27" }
 
-If a person has multiple roles in this course, they change the role here.<br>
+Under "Role" you see in which role you are currently using the course, and you change it. If a person has multiple roles in the course, for example owner and coach, they select the other role here. Owners and coaches who are not also participants also switch here to the "Participant view" and see the course the way participants see it. With the same selection they switch back to their role. Because of this view, "Role" also appears for a coach with only one role in the course. Participants without any other role do not see "Role".<br>
 [More >](../basic_concepts/Roles/index.md#course)
 
 ---
@@ -282,7 +294,7 @@ The "My course" drop-down menu in the toolbar provides access to personalized co
 
 ---
 
-### Progress {: #progress}
+### Progress [:octicons-tag-16:{ title="from Release 15.0 (OO-4356)" }](https://track.frentix.com/issue/OO-4356) {: #progress}
 
 ![Progress indicator as a pie chart at 88 percent highlighted at the right edge of the toolbar, to its left My course](assets/toolbar_progress_v2_en.png){ class="shadow lightbox" title="Toolbar of a course, participant view · 2026.10.27" }
 
@@ -329,6 +341,7 @@ The "Events" icon appears automatically in the toolbar as soon as the appointmen
 [Blog: Overview >](Blog/index.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Course Administration: Overview >](Administration/index.md)<br>
+[Members management >](Members_management.md)<br>
 [Access configuration >](Access_configuration.md)<br>
 [Toolbar: Info page >](Info_page.md)<br>
 [Course Element "Calendar" >](Course_Element_Calendar.md)<br>
