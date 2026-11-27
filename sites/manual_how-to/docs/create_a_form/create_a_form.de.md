@@ -62,7 +62,10 @@ In Formularen stehen verschiedene Fragetypen zur Verfügung:
 * Einzelauswahl
 * Mehrfachauswahl
 * Textblock
+* Datum / Zeit
 * Datei hochladen
+
+Eine Rubrik ist ein Raster aus Zeilen und Spalten: Die Zeilen tragen die Kriterien oder Aussagen, die Spalten die Stufen einer gemeinsamen Bewertungsskala. Ein Textblock ist ein Eingabefeld, in das die Teilnehmenden ihre Antwort schreiben.
 
 Je nach Zielsetzung können damit Formulare ganz unterschiedlich gestaltet werden. Hier ein Beispiel in der Teilnehmeransicht:
 
@@ -86,9 +89,9 @@ Ausnahme: Es wurde eine anonyme Umfrage erstellt.
 Die Antworten können von berechtigten Personen eingesehen werden.<br>
 Wer berechtigt ist, kann konfiguriert werden, siehe [8. Formulare konfigurieren](#step8).
 
-Klicken Betreuer:innen im Kurs auf genau den gleichen Kursbaustein mit Formular, dann sehen sie zunächst nicht das Formular (wie die Teilnehmenden), sondern einen automatisch erstellten Report. Für die Details kann auf die einzelnen Formulare zugegriffen werden.<br>
+Klicken Betreuer:innen im Kurs auf den Kursbaustein "Formular", sehen sie nicht das Formular wie die Teilnehmenden, sondern die Liste der Teilnehmer:innen mit Status und Abgabedatum. Aus der Liste öffnen sie die einzelnen Formulare, mit "Daten exportieren" laden sie die Angaben herunter.<br>
 
-![Oben das Formular zum Ausfüllen, unten die Liste der ausgefüllten Formulare mit Status und Abgabedatum](assets/formular_dozentenbeurteilung_tn_b_v1_de.png){ class="shadow lightbox" title="Kursbaustein Formular aus Sicht der Teilnehmenden und der Betreuenden" }
+![Betreuende sehen im Kursbaustein Formular die Liste der Teilnehmer:innen mit Status und Abgabedatum und laden die Angaben mit Daten exportieren herunter](assets/formular_dozentenbeurteilung_tn_b_v2_de.png){ class="shadow lightbox" title="Kursbaustein Formular aus Sicht der Betreuenden · 2026.11.27" }
 
 !!! info "Frageregeln"
 
@@ -109,7 +112,7 @@ Eine Formular-Lernressource gestalten Sie im Formulareditor. Sie öffnen ihn von
 
 <h3>a) Autorenbereich > neues Formular erstellen</h3>
 
-Sie können eine Formular-Lernressource direkt im Autorenbereich erstellen. Anschliessend können Sie beim Editieren eines Kurses auf diese vorbereitete Formular-Lernressource zugreifen und sie in einen Kursbaustein einbinden.
+Sie können eine Formular-Lernressource direkt im Autorenbereich erstellen und ihre Elemente im Formulareditor hinzufügen, ganz ohne Kurs. Anschliessend können Sie beim Editieren eines Kurses auf diese vorbereitete Formular-Lernressource zugreifen und sie in einen Kursbaustein einbinden.
 
 ![Menü Erstellen im Autorenbereich mit markiertem Eintrag Formular, links daneben der Button Datei importieren](assets/formular_lernressource_neu_v2_de.png){ class="shadow lightbox" title="Autorenbereich · 2026.11.10" } 
 
@@ -135,9 +138,9 @@ Wenn Sie im Kurseditor einen Kursbaustein eingefügt haben (z.B. den Kursbaustei
 
 <h3>d) Kurseditor > Kursbaustein > Tab für Lerninhalt > Button "Lernressource bearbeiten"</h3>
 
-Ist bereits eine Formular-Lernressource in den Kursbaustein eingebunden, öffnen Sie den Formulareditor auch im Kurseditor, mit dem Button "Lernressource bearbeiten".
+Ist bereits eine Formular-Lernressource in den Kursbaustein eingebunden, öffnen Sie sie im Kurseditor mit dem Button "Lernressource bearbeiten". In der geöffneten Lernressource wählen Sie `Formular > Administration > Formulareditor`. Hat das Formular noch keinen Inhalt, führt auch der Button "Formulareditor" auf der leeren Seite dorthin.
 
-![Tab Umfrage mit eingebundenem Formular, der Button Lernressource bearbeiten öffnet den Formulareditor](assets/kurseditor_umfrage_formular_bearbeiten_v2_de.png){ class="shadow lightbox" title="Kursbaustein Umfrage mit Formular · 2026.11.10" } 
+![Tab Umfrage mit eingebundenem Formular und markiertem Button Lernressource bearbeiten](assets/kurseditor_umfrage_formular_bearbeiten_v2_de.png){ class="shadow lightbox" title="Kursbaustein Umfrage mit Formular · 2026.11.10" } 
 
 
 !!! tip "Tipp"
@@ -146,12 +149,12 @@ Ist bereits eine Formular-Lernressource in den Kursbaustein eingebunden, öffnen
 
 !!! tip "Tipp"
 
-    Wenn Sie eine ganz neue Formular-Lernressource erstellen, werden Sie nach der Aufforderung zur Titeleingabe zum Screen mit Einstellungen geführt.
+    Wenn Sie im Autorenbereich eine ganz neue Formular-Lernressource erstellen, führt OpenOlat Sie nach der Eingabe des Titels zu den Einstellungen der Lernressource, Tab "Metadaten".
     Hier können Sie gleich Einstellungen festlegen, zum Beispiel eine Lizenz hinterlegen. Sie können aber auch später jederzeit wieder darauf zugreifen. Mehr dazu unter [8. Formulare konfigurieren](#step8).
 
 !!! info "Wichtig"
 
-    Wurde ein Formular bereits benutzt (von Teilnehmenden ausgefüllt), bestehen Einschränkungen bei der Bearbeitung. (Siehe unten: [9. Formulare ändern](#step9))
+    Wurde ein Formular bereits benutzt (von Teilnehmenden geöffnet oder ausgefüllt), bestehen Einschränkungen bei der Bearbeitung. (Siehe unten: [9. Formulare ändern](#step9))
 
 
 [Zum Seitenanfang ^](#create_form)
@@ -170,21 +173,19 @@ Ein Layout meint hier ein **Raster**. Sie können mehrere solcher Layouts hinter
 
 In die Felder des Layouts fügen Sie nun die Inhalte ein, zum Beispiel Titel, Texte und Einzelauswahl.
 
-Wenn Sie das Layout nachträglich ändern wollen, können Sie das Auswahlwerkzeug jederzeit wieder mit Klick auf das kleine Zahnrad öffnen.
+Wenn Sie das Layout nachträglich ändern wollen, klicken Sie auf das kleine Zahnrad am Layout. Im Inspektor wählen Sie im Tab "Layout" eine andere Vorlage.
 
 ![Zahnrad eines zweispaltigen Layouts öffnet den Inspektor mit dem Tab Layout zum Austauschen der Vorlage](assets/formular_editor_4_v2_de.png){ class="shadow lightbox" title="Tab Layout im Formulareditor · 2026.11.10" } 
 
 <br>
 
-Im nachstehenden Beispiel wurde das Layout z.B. von zweispaltig auf einspaltig geändert.
-
-Fügen Sie nun Titel, Texte und die verschiedenen Fragen hinzu. Starten Sie am besten mit einem Titel und einem kurzen Einstiegstext im Element "Text", der die Teilnehmenden informiert.
+Fügen Sie nun Titel, Texte und die verschiedenen Fragen hinzu. Starten Sie am besten mit einem Titel und einem kurzen Einstiegstext im Element "Text", der die Teilnehmenden informiert. Anders als der Fragetyp "Textblock" zeigt das Element "Text" nur Text an, ohne Eingabefeld.
 
 ![Fenster Inhalt hinzufügen mit den Gruppen Text, Fragetypen, Organisatorisch, Medien und Andere & Design](assets/formular_editor_6_v2_de.png){ class="shadow lightbox" title="Fenster Inhalt hinzufügen im Formulareditor · 2026.11.09" } 
 
 <br>
 
-Klicken Sie jeweils auf "Inhalt hinzufügen" und verwenden Sie dann die angebotenen Optionen.<br>
+Klicken Sie jeweils im Feld des Layouts auf "Inhalt hinzufügen" und verwenden Sie dann die angebotenen Optionen.<br>
 Zum Beispiel für ein "Titel"-Element.
 
 ![Titel-Element mit Text im Formular, im Fenster Titel die Auswahl der Grösse](assets/formular_editor_8_v2_de.png){ class="shadow lightbox" title="Titel-Element im Formulareditor · 2026.11.10" } 
@@ -194,7 +195,7 @@ Bei einem "Rubrik"-Element sind die Optionen wesentlich vielfältiger. Es gilt a
 * Wählen Sie ein Element.
 * Die angezeigten Optionen gelten für das aktuell selektierte Element.
 
-Erkunden Sie die vielen Optionen!
+Beim Rubrik-Element zeigt der Inspektor die Tabs "Generell", "Erweitert", "Stil" und "Layout". Im Tab "Generell" legen Sie unter anderem "Typ", "Schritte" und "Pflicht" fest, im Tab "Erweitert" den Namen der Rubrik, den "Skalentyp" und die Wertebereiche. Alle Optionen beschreibt die Seite [Das Formular-Element Rubrik](../../manual_user/learningresources/Form_Element_Rubric.de.md).
 
 ![Rubrik mit drei Fragen in Bearbeitung, daneben das Fenster Rubrik mit den Tabs Generell, Erweitert, Stil und Layout und Optionen wie Typ, Schritte und Pflicht](assets/formular_editor_11_v2_de.png){ class="shadow lightbox" title="Optionen eines Rubrik-Elements · 2026.11.10" } 
 
@@ -216,7 +217,7 @@ Wenn Sie fertig sind **schliessen Sie den Editor indem Sie auf den Titel des For
 
 ## 7. Formulare testen  {: #step7}
 
-Um als Autor:in ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
+Um als Autor:in ein Formular zu testen, wählen Sie im Menü "Rolle" unter "Wechseln zu" die "Teilnehmer:innenansicht":
 
 ![Menü Rolle mit dem Eintrag Teilnehmer:innenansicht unter Wechseln zu](assets/formular_rollenwechsel_v2_de.png){ class="shadow lightbox" title="Rollenwechsel in der Formular-Lernressource · 2026.11.10" } 
 
@@ -226,17 +227,19 @@ Um als Autor:in ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
 
     Wenn andere (Nicht-Besitzer:innen) testen, werden deren eingegebene Daten gespeichert und ein Formular ist danach nur noch eingeschränkt änderbar. So ist eine nachträgliche Manipulation ausgeschlossen.
 
-    Haben andere bereits Daten ins Formular eingegeben, erstellen Sie am besten eine Kopie der Lernressource oder des Kursbausteins und arbeiten mit dieser weiter.
+    Das gilt auch für Sie als Besitzer:in: Öffnen Sie im Kurs unter `Rolle > Wechseln zu > Teilnehmer:innenansicht` einen Kursbaustein "Umfrage", ist das Formular danach nur noch eingeschränkt änderbar, auch wenn Sie nichts eingeben. Der Formulareditor zeigt dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
+
+    Haben andere das Formular bereits geöffnet oder ausgefüllt, erstellen Sie eine Kopie der Lernressource unter `Formular > Administration > Kopieren`, ändern die Kopie und binden sie in einen neuen Kursbaustein ein.
 
 <br>
 
 !!! tip "Tipp, wenn ein 'Nicht zugänglich' erscheint"
 
-    Wenn Sie als Autorin oder Autor einen Kurs publiziert haben (also den Kurseditor verlassen), kommt es oft vor, dass der Kursbaustein mit der Formular-Lernressource nicht zugänglich ist.
+    Wenn Sie als Autor:in einen Kurs publiziert haben und ihn danach aufrufen, kommt es oft vor, dass der Kursbaustein mit der Formular-Lernressource nicht zugänglich ist.
 
-    Oft liegt es daran, dass Autorinnen und Autoren das Formular gemäss der voreingestellten Konfiguration nicht selbst ausfüllen dürfen. (Weil sie Besitzer:innen, aber keine Teilnehmenden sind.)
+    Oft liegt es daran, dass Autor:innen das Formular gemäss der voreingestellten Konfiguration nicht selbst ausfüllen dürfen, weil sie Besitzer:innen, aber keine Teilnehmenden sind. Im Kursbaustein "Umfrage" zum Beispiel ist im Tab "Umfrage" unter "Teilnahme durch" nur die Rolle "Teilnehmer:innen" voreingestellt.
 
-    Mit dem Rollenwechsel zur Teilnehmeransicht im Editor umgehen Sie dies.
+    Mit dem Wechsel zur "Teilnehmer:innenansicht" im Menü "Rolle" des Kurses umgehen Sie dies.
 
 
 [Zum Seitenanfang ^](#create_form)
@@ -331,6 +334,7 @@ Merkmale:
 
 * oft Einzelauswahl, um zu einer eindeutigen Stellungnahme zu nötigen
 * anonym
+* das Beispiel unten nutzt Rubriken vom Typ "Diskret mit Slider"
 
 ![Fragen mit Schiebereglern von kaum bis sehr und ein Texteingabefeld für vermisste Themen](assets/form_example1_v1_de.png){ class="shadow lightbox" title="Beispiel Umfrage zur Unterrichtsqualität" }
 
@@ -388,12 +392,12 @@ Merkmale:
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Das Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>
 [Formular-Elemente >](../../manual_user/learningresources/Form_Elements/index.de.md)
 
 **Weiterführend**<br>
 [Formulare - Übersicht >](../../manual_user/learningresources/Form/index.de.md)<br>
 [Der Formulareditor >](../../manual_user/learningresources/Form_Editor/index.de.md)<br>
-[Das Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>
 [Frageregeln in Formularen >](../../manual_user/learningresources/Form_Question_Rules.de.md)<br>
 [Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
 [Kursbaustein "Formular" >](../../manual_user/learningresources/Course_Element_Form.de.md)<br>

@@ -12,9 +12,9 @@ First decide which areas are to appear for which answer. Then implement this wit
 For a question rule, the form needs:
 
 * a multiple choice or single choice with at least one answer
-* a container with content that does not contain the single or multiple choice of the condition
+* a container for the contents that appear only after the answer. It does not contain the single or multiple choice of the condition, otherwise the rule also hides the question it depends on.
 
-If a requirement is missing, OpenOlat shows a warning in the "Question rules" dialog, and you cannot create a rule.
+If the form lacks a single or multiple choice with at least one answer or a container, the "Question rules" dialog shows the message "No rules can be created".
 
 ### Assign suitable names
 
@@ -28,7 +28,7 @@ To enter the name for a single or multiple choice:
 
 ![The cogwheel symbol of the multiple choice opens the inspector, in the "General" tab the field "Name" shows the name of the element, here "Obst"](assets/form_question_rules_multiple_choice_name_v1_en.png){ class="shadow lightbox" title="Inspector of a multiple choice in the form editor · 2026.11.09" }
 
-### Store question rules in the menu
+### Create rules in the "Question rules" dialog {: #create_rules}
 You open the question rules in the form editor via the "Question rules" symbol to the right of the "Administration" menu:<br>
 `Form > Administration > Form editor > Question rules`
 
@@ -38,7 +38,7 @@ The "Question rules" dialog opens. There, you create new rules with "Add rule" a
 
 ![Question rules dialog before the first rule with the tip to define rules after the form is designed, and the button "Add rule"](assets/form_question_rules_empty_v1_en.png){ class="shadow lightbox" title="Question rules dialog without a rule · 2026.11.09" }
 
-A question rule consists of a condition and an action. The condition is an answer of a single or multiple choice. The action shows a container, for example with further information or questions. Finally, click "Save".
+A question rule consists of a condition and an action. The condition is an answer of a single or multiple choice. The action shows a container, for example with further information or questions. In each row, you select under "Condition" the single or multiple choice and after "is" the answer, under "Action" after "show" the container. Finally, click "Save".
 
 ![Three question rules, each with a condition such as "Obst is Zitrone" on the left and an assigned action such as "show Rückmeldung" on the right](assets/form_question_rules_example_v1_en.png){ class="shadow lightbox" title="Question rules dialog with three rules · 2026.11.10" }
 

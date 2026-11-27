@@ -21,7 +21,7 @@ In the course | Course elements "Form" and "Survey", as rubric also in "Assessme
 
 In OpenOlat, a form is a learning resource of its own, that is a content object you manage in the authoring area and use in different places. As an author, you create it in the authoring area: `Authoring > Create > Form`. Whoever creates a form is owner of the form learning resource. Owners, learning resource managers and administrators can edit it.
 
-You open the [form editor](../Form_Editor/index.md) in the authoring area or from a course in which a course element includes the form. In the course, open the course editor for this: `Course > Administration > Course editor`. In the tab "Form" of the course element "Form", click "Edit learning resource"; for the course element "Survey", in the tab "Survey". The button opens the form learning resource. There, select the entry "Form editor" in the menu "Administration": `Form > Administration > Form editor`.
+You open the [form editor](../Form_Editor/index.md) in the form learning resource itself, in the menu "Administration" with the entry "Form editor": `Form > Administration > Form editor`. So you add elements directly in the learning resource, no course is needed for this. You get to the learning resource in the authoring area by clicking its title, or from a course in which a course element includes the form. In the course, open the course editor for this: `Course > Administration > Course editor`. There, select the course element that includes the form. In the tab "Form" of the course element "Form", click "Edit learning resource"; for the course element "Survey", in the tab "Survey". The button opens the form learning resource.
 
 In the editor, you build the form from layouts that define the columns and rows of the page. Into the layouts you insert [elements](../Form_Elements/index.md), for example texts and questions. With [question rules](../Form_Question_Rules.md) you specify that an area of the form only appears once the person filling it in has selected a specific answer.
 
@@ -59,8 +59,8 @@ Place of use | Purpose
 
 ## Further information {: #further_information}
 
-[Course element "Assessment" >](../Course_Element_Assessment.md)<br>
-[Course element "Task" >](../Course_Element_Task/index.md)<br>
-[Course element "Group task" >](../Course_Element_Grouptask.md)
+[Course Element "Assessment" >](../Course_Element_Assessment.md)<br>
+[Course Element "Task" >](../Course_Element_Task/index.md)<br>
+[Course Element "Group Task" >](../Course_Element_Grouptask.md)
 
 [To the top of the page ^](#overview)

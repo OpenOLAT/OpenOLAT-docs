@@ -51,11 +51,11 @@ So that people find the legal information of your organisation, you set up the i
 
 The "Enable imprint" checkbox shows the link to the imprint. Only then do the other settings of the page appear. Under "Position" you choose whether the link appears at the top ("Top") or in the footer ("Footer").
 
-For "Imprint in", "Term of use" and "Privacy policy" there is one button per language of the instance, with which you store the text in this language. A checkmark on the button shows that a text exists for this language. With the trash icon next to it you delete the text. In the imprint the texts appear under "Imprint", "Usage terms" and "Privacy policy".
+For "Imprint in", "Terms of use" and "Privacy policy" there is one button per language of the instance, with which you store the text in this language. A checkmark on the button shows that a text exists for this language. With the trash icon next to it you delete the text. In the imprint the texts appear under "Imprint", "Usage terms" and "Privacy policy".
 
 With the "Contact form" checkbox you also offer a form for general requests. The requests go to the address in the "Contact mail" field, which you store with "Save".
 
-![Imprint enabled and set to position Footer, below it the texts Imprint in, Term of use and Privacy policy, maintained per language](assets/admin_customizing_imprint_v2_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.10.21" }
+![Imprint enabled and set to position Footer, below it the texts Imprint in, Terms of use and Privacy policy, maintained per language](assets/admin_customizing_imprint_v2_en.png){ class="shadow lightbox" title="Imprint page in the Customizing menu · 2026.10.21" }
 
 [To the top of the page ^](#customizing)
 

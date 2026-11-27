@@ -1,12 +1,15 @@
 # Form elements {: #form_elements} 
 
-You build a form from elements in the [form editor](../Form_Editor/index.md): headings, texts, questions and images, plus elements for details about the respondent or the responsible coach. Every element sits in a [container](#form_element_container), which the form editor calls "Layout". Via "Add content", you open the dialog with the elements, arranged in the groups "Text", "Question types", "Organisational", "Media" and "Other & design". Each element is described in a section of its own on this page.
+You build a form from elements in the [form editor](../Form_Editor/index.md): headings, texts, questions and images, plus elements for details about the respondent or the responsible coach. Every element sits in a [container](#form_element_container), which the form editor calls "Layout". With "Add content" in a container, you open the dialog with the elements, arranged in the groups "Text", "Question types", "Organisational", "Media" and "Other & design". Each element is described in a section of its own on this page.
+
+You open the form editor in the learning resource "Form" itself, independently of a course. You find the learning resource in the [Authoring](../../area_modules/Authoring/index.md) area, and the form editor in it under:<br>
+`Form > Administration > Form editor`
 
 You set the settings of an element in the inspector. It opens to the right of the form when you click on the element and then on the gear wheel that appears above the element.
 
-![Content elements in the groups Text, Question type, Organisational, Media and Other & design, from which you choose the element you need](../assets/form_content_types_v2_en.png){ class="shadow lightbox" title="Dialog Add content in the form editor · 2026.11.10" }
+![Content elements in the groups Text, Question types, Organisational, Media and Other & design, from which you choose the element you need](../assets/form_content_types_v2_en.png){ class="shadow lightbox" title="Dialog Add content in the form editor · 2026.11.10" }
 
-You set the elements of the group "Question types" to "Mandatory" or "Optional" under "Obligation" in the inspector. Participants fill in a mandatory element before they finish the form. An optional element may stay empty.
+You set the elements of the group "Question types" to "Mandatory" or "Optional" under "Obligation" in the inspector, tab "General". Participants must fill in a mandatory element, only then can the form be finished. An optional element may stay empty.
 
 Many elements can be placed in an [alert box](#form_element_alert_box) in the "Style" tab. In the "Layout" tab of an element, you set its distance to the other elements.
 
@@ -49,7 +52,7 @@ With the element "Table", you present information clearly in rows and columns. I
 
 With a rubric, people rate several criteria or statements on the same scale. The rows hold the criteria or statements, the columns the levels of the rating scale. In courses, the rubric serves, for example, coaches as a grading grid or participants for [peer reviews](../Course_Element_Task/index.md) in the course element "Task".
 
-How you configure a rubric is described on the page [The form element rubric](../Form_Element_Rubric.md).
+How you configure a rubric is described on the page [The form element rubric](../Form_Element_Rubric.md#rubric_configuration).
 
 ![Rubric with statements in the rows and a five-level rating scale in the columns, next to it the inspector with Type and Steps](../assets/form_content_rubric_v2_en.png){ class="shadow lightbox" title="Rubric element in the form editor, inspector, tab General · 2026.11.10" }
 
@@ -302,6 +305,7 @@ If the option is switched on, participants collapse the box with the symbol at t
 
 [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md)<br>
 [The form editor](../Form_Editor/index.md)<br>
+[Authoring - Overview](../../area_modules/Authoring/index.md)<br>
 [The form element rubric](../Form_Element_Rubric.md)<br>
 [Question rules in forms](../Form_Question_Rules.md)
 

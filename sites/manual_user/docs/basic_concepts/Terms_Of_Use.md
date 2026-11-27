@@ -19,23 +19,33 @@ When you use OpenOlat or certain elements of it for the first time, you may be r
 
 ## Terms of use of the OpenOlat platform {: #terms_of_use_platform}
 
-### Confirmation by OpenOlat users on first call
+### Confirmation by OpenOlat users at the first login
 
-When OpenOlat is called up for the first time, all users are asked to confirm the terms of use. If you decline, you return to the login page.
+At the first login, OpenOlat asks all users for their consent in the dialog "Terms of use". Only with "Accept" do you get into OpenOlat. If you deny, you stay on the login page.
 
 ![Text of the terms of use with the checkbox for consent, the Print link and the buttons Deny and Accept](assets/terms_of_use_platform_accept_v1_de.png){ class="shadow lightbox" title="Login page on the first login" }
 
 
 ### Define terms of use of the platform {: #terms_of_use_platform_define}
 
-**System administrators** define the text of the terms of use in the system administration under `Administration > Customizing > Imprint`. The terms of use can only be stored if the imprint is enabled. A separate text can be created for each activated language.
+!!! info "Contact"
 
-![One button per activated language for storing the terms of use, below the imprint text](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Imprint page in the Customizing menu" }
+    For a change, contact your organisation.
+
+Whether OpenOlat asks for consent at the first login is part of the server configuration and only applies after the next restart once changed. By default, the dialog is switched on.
+
+System administrators adapt the text of the dialog in the system administration with the [language adaptation tool](../../manual_how-to/language_adaption_tool/language_adaption_tool.md):<br>`Administration > Customizing > Language adaptation tool`<br>
+The text is one of the texts of the user interface. This is why it can be adapted separately for each activated language.
+
+Separately from this, system administrators store a text "Terms of use" in the imprint:<br>`Administration > Customizing > Imprint`<br>
+This text appears in the imprint under "Terms of use", not in the dialog at the first login. It can only be stored if the imprint is enabled, with a separate text for each activated language.
+
+![One button per activated language for storing the terms of use in the imprint, below the imprint text](assets/terms_of_use_platform_define_v1_de.png){ class="shadow lightbox" title="Imprint page in the Customizing menu" }
 
 
 ### Read accepted terms of use {: #terms_of_use_platform_verify}
 
-All users can read the terms of use that they have agreed to at any time in their personal menu:<br>`Personal menu > Settings > Tab "Terms of use"`
+You can read the terms of use that you agreed to at the first login at any time in your personal menu:<br>`Personal menu > Settings > Tab "Terms of use"`
 
 ![The accepted text of the terms of use with three ticked consent checkboxes and the Print link](assets/terms_of_use_pers_menu_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the settings" }
 
@@ -44,7 +54,7 @@ All users can read the terms of use that they have agreed to at any time in thei
 
 ## Terms of use in the course settings [:octicons-tag-16:{ title="from Release 15.0 (OO-4455)" }](https://track.frentix.com/issue/OO-4455) {: #terms_of_use_course}
 
-### Confirmation by learners in the course
+### Confirmation by participants in the course
 
 Course owners can set their own terms of use for their course. The participants accept them when they call up the course for the first time. Anyone who declines cannot open the course.
 
@@ -53,7 +63,9 @@ Course owners can set their own terms of use for their course. The participants 
 
 Course owners create course-specific terms of use for their course under:<br>`Course > Administration > Settings > Tab "Terms of use"`
 
-The text editor is displayed as soon as the "Terms of use" checkbox is ticked. On the same tab, a course-related privacy policy can also be enabled; it has the same structure.
+The tab exists if the system administration has switched on the option "Course related terms of use and privacy policy" in the [module Course](../../manual_admin/administration/Modules_Course.md#enable_course_option). All fields of the tab are described on the page [Course Settings - Tab Terms of use](../learningresources/Course_Settings_Disclaimer.md).
+
+The fields for the text appear as soon as you tick the checkbox "Enabled" next to "Terms of use". On the same tab, you can also switch on a course-related privacy policy; it has the same structure.
 
 ![Terms of use enabled, below it the fields Title, Terms with text editor as well as Label checkbox 1 and 2](assets/terms_of_use_course_define_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the course settings" }
 
@@ -66,7 +78,7 @@ In addition, a second checkbox with any descriptive text can be defined for conf
 
 ### Activate confirmation request for a course
 
-In order for the terms of use to be displayed, the course owners must enable them. If a text has been entered for the terms of use, it is retained after saving, regardless of whether the display is activated. This way, you can prepare the terms of use while they are switched off and switch them on once the final version is ready.
+The participants see the terms of use as soon as you tick the checkbox "Enabled" next to "Terms of use" and save. OpenOlat only saves the text while the checkbox is ticked. If you switch the terms of use off later, the last saved text is kept and appears again when you switch them on again.
 
 ![Checkbox Enabled next to Terms of use ticked](assets/terms_of_use_course_activate_v1_de.png){ class="shadow lightbox" title="Terms of use tab of the course settings" }
 
@@ -79,7 +91,7 @@ Which participants have given their consent to the course-specific terms of use 
 
 ![Table of consents with the date per person, one revoked entry struck through, below it the buttons for revoking and deleting](assets/terms_of_use_course_members_management2_v1_de.png){ class="shadow lightbox" title="Consents area of the members management" }
 
-* If a participant declines, you can contact the person directly.
+* If someone declines, the column "Consent" shows the note "Rejected or withdrawn". You can then contact the person directly.
 * Course owners can revoke selected consents or delete the entries.
 
 
@@ -87,22 +99,22 @@ Which participants have given their consent to the course-specific terms of use 
 
 [Learning path courses](../learningresources/Creating_learning_path_courses.md) can be copied with the help of a wizard: `Course > Administration > Copy with wizard`. In the wizard, you specify before copying which [course settings](../learningresources/Course_Settings/index.md) the copy takes over, including the terms of use.
 
-![Row Terms of use with the options Customize, Copy and Do not copy](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Copy course wizard, Copy options step" }
+![Row Terms of use with the options Customize, Copy and Don't copy](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" title="Copy course wizard, Copy options step" }
 
 [To the top of the page ^](#terms_of_use)
 
 
 ## Terms of use in forms [:octicons-tag-16:{ title="from Release 13.0 (OO-3674)" }](https://track.frentix.com/issue/OO-3674) {: #terms_of_use_form}
 
-### Confirmation by learners
+### Confirmation when filling in
 
-A form can also contain a letter of agreement. The participants tick it before they finish the form.
+A form can also contain terms of use: the element "Terms of use" shows a letter of agreement with a checkbox. The person filling in the form ticks it. Without the tick, the form cannot be finished, OpenOlat then reports "Please give your consent first."
 
 ![Text of the letter of agreement with the checkbox for consent](assets/terms_of_use_form3_v1_de.png){ class="shadow lightbox" title="Participant view of a form" }
 
 ### Define terms of use of a form
 
-Authors add the letter of agreement to the learning resource Form in the [form editor](../learningresources/Form_Editor/index.md) as the element "Terms of use", via "Add content". In the element, you set the text of the letter of agreement and the label of the checkbox.
+Authors add the letter of agreement to the learning resource Form in the [form editor](../learningresources/Form_Editor/index.md) as the element "Terms of use": via "Add content", in the group "Organisational". In the element, you set the text and the label of the checkbox in the fields "Letter of agreement" and "Agreement label". In the tab "Style" of the inspector, you place the element in a highlighted box with the switch "Alert box".
 
 ![Element Terms of use in the group Organisational](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" title="Add content dialog in the form editor" }
 
@@ -113,20 +125,29 @@ Authors add the letter of agreement to the learning resource Form in the [form e
 
 ## Terms of use of external tools {: #terms_of_use_external_tools}
 
-In OpenOlat, external tools are integrated in some places (mostly also open source, but not developed by frentix), for which the conditions must also be accepted before use.
+In OpenOlat, external tools are integrated in some places, mostly also open source, but not developed by frentix. When such a tool opens a document, data goes to an external server. Depending on the setting, OpenOlat asks for your consent first.
 
 Example **draw.io**<br>
-draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the "Document" course element, in the Media Center and wherever new documents can be created. In draw.io, several people can also work together on a diagram.
+draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, for example in projects, in the portfolio, in the "Document" course element, in the Media Center and wherever new documents can be created. In draw.io, several people can also work together on a diagram.
+
+If the option "Confirmation of data transfer" is switched on for draw.io, OpenOlat shows the dialog "Confirmation of data transfer" when you open a diagram for the first time. It explains that the document is temporarily saved on an external server and that your name is passed to the editor. With "I accept the data transfer" you open the diagram, after that OpenOlat does not ask you again. System administrators switch the option on in the system administration:<br>`Administration > External tools > draw.io`
 
 [To the top of the page ^](#terms_of_use)
 
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[How do I use the language adaptation tool? >](../../manual_how-to/language_adaption_tool/language_adaption_tool.md)<br>
+[Module Course >](../../manual_admin/administration/Modules_Course.md)<br>
+[Course Settings - Tab Terms of use >](../learningresources/Course_Settings_Disclaimer.md)<br>
 [Members management >](../learningresources/Members_management.md)<br>
 [Creating learning path courses >](../learningresources/Creating_learning_path_courses.md)<br>
 [Course Settings >](../learningresources/Course_Settings/index.md)<br>
-[The form editor >](../learningresources/Form_Editor/index.md)<br>
+[The form editor >](../learningresources/Form_Editor/index.md)
+
+**Further reading**<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
 [Data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)
 

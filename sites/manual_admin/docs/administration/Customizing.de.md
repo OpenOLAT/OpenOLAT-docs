@@ -52,11 +52,11 @@ Damit Personen die rechtlichen Angaben Ihrer Organisation finden, richten Sie au
 
 Die Checkbox "Impressum einschalten" blendet den Link zum Impressum ein. Erst danach erscheinen die übrigen Einstellungen der Seite. Unter "Position" wählen Sie, ob der Link oben ("Top") oder in der Fusszeile ("Footer") steht.
 
-Für "Impressum auf", "Term of use" und "Datenschutz Erklärung" steht je Sprache der Instanz ein Button, über den Sie den Text in dieser Sprache hinterlegen. Ein Häkchen auf dem Button zeigt, dass für diese Sprache ein Text vorhanden ist. Mit dem Papierkorb daneben löschen Sie ihn. Im Impressum erscheinen die Texte unter "Impressum", "Nutzungsbedingungen" und "Datenschutzerklärung".
+Für "Impressum auf", "Nutzungsbedingungen" und "Datenschutzerklärung" steht je Sprache der Instanz ein Button, über den Sie den Text in dieser Sprache hinterlegen. Ein Häkchen auf dem Button zeigt, dass für diese Sprache ein Text vorhanden ist. Mit dem Papierkorb daneben löschen Sie ihn. Im Impressum erscheinen die Texte unter "Impressum", "Nutzungsbedingungen" und "Datenschutzerklärung".
 
 Mit der Checkbox "Kontaktformular" bieten Sie zusätzlich ein Formular für allgemeine Anfragen an. Die Anfragen gehen an die Adresse im Feld "Kontakt E-Mail", die Sie mit "Speichern" sichern.
 
-![Impressum eingeschaltet und auf Position Footer gesetzt, darunter die Texte Impressum auf, Term of use und Datenschutz Erklärung, je Sprache hinterlegt](assets/admin_customizing_imprint_v2_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.10.21" }
+![Impressum eingeschaltet und auf Position Footer gesetzt, darunter die Texte Impressum auf, Nutzungsbedingungen und Datenschutzerklärung, je Sprache hinterlegt](assets/admin_customizing_imprint_v2_de.png){ class="shadow lightbox" title="Seite Impressum im Menü Customizing · 2026.10.21" }
 
 [Zum Seitenanfang ^](#customizing)
 

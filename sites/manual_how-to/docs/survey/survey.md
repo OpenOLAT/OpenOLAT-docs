@@ -105,11 +105,10 @@ b) Insert the learning resource into the course element
 
 #### Approach 2: Course element -> Learning resource
 a) In the course editor, select the course element and there the tab "Survey".<br>
-b) Click the button "Choose, create or import".<br>
-A list of already existing learning resources of which you are the owner is displayed.<br>
-There you can select one or create a new form learning resource with the button above the list.<br>
-This takes you to the form editor, where you create the questions.<br>
-As soon as the learning resource is saved, it is also displayed in the authoring area.
+b) Click the button "Create" and enter a title. The new form learning resource is then included in the course element and also appears in the authoring area.<br>
+c) Click the button "Edit learning resource". In the opened learning resource, you create the questions in the form editor: `Form > Administration > Form editor`
+
+In the same tab, you choose an existing form learning resource with "Select" or bring in a form learning resource exported as a ZIP file with "Import".
 
 !!! tip "Tip"
 
@@ -125,13 +124,13 @@ If you proceeded by first selecting the course element and then creating the lea
 
 If you first created the form learning resource in the authoring area (Step 2, Approach 1), then the learning resource still has to be integrated into the Survey course element.
 
-- Open the **course editor** and select the **course element** with your final survey.
-- Select the **tab "Survey"**.
-- With the **button "Choose, create or import"**, you integrate the form learning resource into the course element. In the overview, all forms of which you are the owner are displayed. Select the desired form.
+- Open the course editor via `Course > Administration > Course editor` and select the course element with your final survey.
+- Select the tab "Survey".
+- Click the button "Select". The window "Choose form" shows in the tab "My forms" the forms of which you are the owner. Forms that others have shared with you are in the tab "Shared with me". Select the desired form.
 
 !!! warning "Attention"
 
-    Once a form has been viewed by at least one participant, it can **no longer be replaced**: The "Replace" button is omitted. If it nevertheless has to be exchanged, create a new course element "Survey" and integrate the desired form there.
+    You exchange an included form in the tab "Survey" with the button "Replace". Once a form has been viewed by at least one participant, it can no longer be replaced: The "Replace" button is omitted. If it nevertheless has to be exchanged, create a new course element "Survey" and integrate the desired form there.
 
 [To the top of the page ^](#survey)
 
@@ -285,7 +284,7 @@ The contents of all tabs can be printed or downloaded as an Excel table or PDF.
 
 ## Subsequent changes to the form learning resource {: #changes}
 
-Once a form integrated in the course has been called up, it can only be changed to a **limited** extent. Texts (e.g. typos) can be corrected, but individual blocks can no longer be moved and no areas can be newly created or deleted. The message *"The resource is already used …"* then appears in the form.
+Once a form integrated in the course has been called up, it can only be changed to a **limited** extent. Texts (e.g. typos) can be corrected, but elements can no longer be added, moved, duplicated or deleted. The message "The resource is already used. Editing is limited." then appears in the form editor.
 
 Therefore, plan the content of the final survey as completely as possible before the participants gain access.
 

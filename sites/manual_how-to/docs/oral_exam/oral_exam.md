@@ -74,7 +74,7 @@ You can create 10 course elements of the type "Assessment", each with 1 form.
 
 ### Settings in the tab "Assessment"
 
-![Tab Assessment with rubric assessment switched on, score taken from the rubric form, rating scale and options for comments](assets/oral_exam_step2b_v1_de.png){ class="shadow lightbox" title="Tab Assessment of the course element Assessment" } 
+![All settings of the tab Assessment at a glance: rubric assessment, score from the rubric form, grading with a rating scale and the options in the section Assessment form](assets/oral_exam_step2b_v1_en.png){ class="shadow lightbox" title="Tab Assessment of the course element Assessment · 2026.11.27" } 
 
 #### Set status "To review" if accessible {: #initial_status}
 
@@ -163,7 +163,7 @@ Oral exams often consist of a combination of different formats, such as presenta
 
 In OpenOlat, you best create a freely definable assessment grid with the rubric element. A rubric is a grid of rows and columns: the rows hold the criteria or statements, the columns the levels of a shared rating scale.
 
-![Rubric with five columns from very bad to very good and four assessment criteria, on the right the window Rubric](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" title="Rubric element in the form editor" } 
+![Assessment grid as a rubric element with four criteria in the rows and five levels from very bad to very good, on the right the window Rubric with its tabs](assets/oral_exam_step3b_v1_en.png){ class="shadow lightbox" title="Rubric element in the form editor · 2026.11.27" } 
 
 In the newly created form learning resource, open the editor under `Form > Administration > Form editor` and create a rubric form that is appropriate for your oral exam.
 
@@ -199,7 +199,7 @@ In the form editor, add information for
 
 in a content element above the rubric element. This information is then displayed in the header.
 
-![Dialog Add content with the elements Date / Time and Coach details highlighted](assets/oral_exam_step3_header_v1_de.png){ class="shadow lightbox" title="Dialog Add content in the form editor" } 
+![Window Add content with the elements Date / Time and Coach details highlighted, which record the exam time and the examiners in the header](assets/oral_exam_step3_header_v1_en.png){ class="shadow lightbox" title="Window Add content in the form editor · 2026.11.27" } 
 
 [To the top of the page ^](#oral_exam)
 

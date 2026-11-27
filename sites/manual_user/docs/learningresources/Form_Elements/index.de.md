@@ -1,12 +1,15 @@
 # Formular-Elemente {: #form_elements} 
 
-Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf: Überschriften, Texte, Fragen und Bilder, dazu Elemente für Angaben zur befragten Person oder zur zuständigen Betreuer:in. Jedes Element steht in einem [Container](#form_element_container), den der Formulareditor "Layout" nennt. Über "Inhalt hinzufügen" öffnen Sie den Dialog mit den Elementen, geordnet in die Gruppen "Text", "Fragetypen", "Organisatorisch", "Medien" und "Andere & Design". Jedes Element beschreibt ein eigener Abschnitt dieser Seite.
+Ein Formular bauen Sie im [Formulareditor](../Form_Editor/index.de.md) aus Elementen auf: Überschriften, Texte, Fragen und Bilder, dazu Elemente für Angaben zur befragten Person oder zur zuständigen Betreuer:in. Jedes Element steht in einem [Container](#form_element_container), den der Formulareditor "Layout" nennt. Mit "Inhalt hinzufügen" in einem Container öffnen Sie den Dialog mit den Elementen, geordnet in die Gruppen "Text", "Fragetypen", "Organisatorisch", "Medien" und "Andere & Design". Jedes Element beschreibt ein eigener Abschnitt dieser Seite.
+
+Den Formulareditor öffnen Sie in der Lernressource "Formular" selbst, unabhängig von einem Kurs. Die Lernressource finden Sie im [Autorenbereich](../../area_modules/Authoring/index.de.md), den Formulareditor darin unter:<br>
+`Formular > Administration > Formulareditor`
 
 Die Einstellungen eines Elements legen Sie im Inspektor fest. Er öffnet sich rechts neben dem Formular, wenn Sie auf das Element klicken und danach auf das Zahnrad, das über dem Element erscheint.
 
 ![Inhaltselemente in den Gruppen Text, Fragetypen, Organisatorisch, Medien sowie Andere & Design, aus denen Sie das passende Element wählen](../assets/form_content_types_v2_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor · 2026.11.10" }
 
-Die Elemente der Gruppe "Fragetypen" stellen Sie im Inspektor unter "Pflicht" auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element füllen die Teilnehmenden aus, bevor sie das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
+Die Elemente der Gruppe "Fragetypen" stellen Sie im Inspektor, Tab "Allgemein" (bei der Rubrik "Generell"), unter "Pflicht" auf "Obligatorisch" oder "Freiwillig". Ein obligatorisches Element müssen die Teilnehmenden ausfüllen, erst dann lässt sich das Formular abschliessen. Ein freiwilliges Element darf leer bleiben.
 
 Viele Elemente stellen Sie im Tab "Stil" in eine [Hinweis-Box](#form_element_alert_box). Im Tab "Layout" eines Elements legen Sie seinen Abstand zu den übrigen Elementen fest.
 
@@ -49,7 +52,7 @@ Mit dem Element "Tabelle" stellen Sie Angaben übersichtlich in Zeilen und Spalt
 
 Mit einer Rubrik bewerten Personen mehrere Kriterien oder Aussagen auf derselben Skala. Die Zeilen tragen die Kriterien oder Aussagen, die Spalten die Stufen der Bewertungsskala. In Kursen dient die Rubrik zum Beispiel Betreuer:innen als Bewertungsraster oder Teilnehmenden für [Peer-Reviews](../Course_Element_Task/index.de.md) im Kursbaustein "Aufgabe".
 
-Wie Sie eine Rubrik konfigurieren, beschreibt die Seite [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md).
+Wie Sie eine Rubrik konfigurieren, beschreibt die Seite [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md#rubric_configuration).
 
 ![Rubrik mit drei Aussagen in den Zeilen und einer fünfstufigen Bewertungsskala in den Spalten, daneben der Inspektor mit Typ und Schritten](../assets/form_content_rubric_v2_de.png){ class="shadow lightbox" title="Element Rubrik im Formulareditor, Inspektor, Tab Generell · 2026.11.10" }
 
@@ -298,6 +301,7 @@ Ist die Option eingeschaltet, klappen die Teilnehmenden die Box mit dem Symbol o
 
 [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 [Der Formulareditor](../Form_Editor/index.de.md)<br>
+[Autorenbereich - Übersicht](../../area_modules/Authoring/index.de.md)<br>
 [Das Formular-Element Rubrik](../Form_Element_Rubric.de.md)<br>
 [Frageregeln in Formularen](../Form_Question_Rules.de.md)
 

@@ -62,7 +62,10 @@ Various question types are available in forms:
 * Single choice
 * Multiple choice
 * Text block
+* Date / Time
 * Upload file
+
+A rubric is a grid of rows and columns: the rows carry the criteria or statements, the columns the levels of a common rating scale. A text block is an input field in which the participants write their answer.
 
 Depending on the objective, forms can be designed quite differently with it. Here is an example in the participant view:
 
@@ -86,9 +89,9 @@ Exception: An anonymous survey was created.
 The answers can be viewed by authorized persons.<br>
 Who is authorized can be configured, see [8. Configure forms](#step8).
 
-If coaches click on exactly the same course element with form in the course, they do not see the form at first (like the participants), but an automatically generated report. For the details, the individual forms can be accessed.<br>
+If coaches click on the course element "Form" in the course, they do not see the form like the participants, but the list of participants with status and submission date. From the list they open the individual forms, with "Export data" they download the entries.<br>
 
-![At the top the form to fill in, at the bottom the list of submitted forms with status and submission date](assets/form_lecturer_evaluation_par_c_v1_en.png){ class="shadow lightbox" title="Course element Form as seen by participants and coaches" }
+![Coaches see the list of participants with status and submission date in the course element Form and download the entries with Export data](assets/form_lecturer_evaluation_par_c_v2_en.png){ class="shadow lightbox" title="Course element Form as seen by coaches · 2026.11.27" }
 
 !!! info "Question rules"
 
@@ -109,7 +112,7 @@ You design a form learning resource in the form editor. You open it from differe
 
 <h3>a) Authoring > create new form</h3>
 
-You can create a form learning resource directly in the authoring area. Subsequently, you can access this prepared form learning resource when editing a course and include it in a course element.
+You can create a form learning resource directly in the authoring area and add its elements in the form editor, without any course. Subsequently, you can access this prepared form learning resource when editing a course and include it in a course element.
 
 ![Create menu in the authoring area with the entry Form highlighted, to the left the button Import file](assets/form_learning_resource_new_v2_en.png){ class="shadow lightbox" title="Authoring area · 2026.11.10" } 
 
@@ -135,9 +138,9 @@ If you have inserted a course element in the course editor (e.g. the course elem
 
 <h3>d) Course editor > course element > tab for learning content > button "Edit learning resource"</h3>
 
-If a form learning resource is already included in the course element, you also open the form editor in the course editor, with the button "Edit learning resource".
+If a form learning resource is already included in the course element, you open it in the course editor with the button "Edit learning resource". In the opened learning resource, select `Form > Administration > Form editor`. If the form has no content yet, the button "Form editor" on the empty page also takes you there.
 
-![Tab Survey with an embedded form, the button Edit learning resource opens the form editor](assets/course_editor_survey_form_edit_v2_en.png){ class="shadow lightbox" title="Course element Survey with form · 2026.11.10" } 
+![Tab Survey with an embedded form and the button Edit learning resource highlighted](assets/course_editor_survey_form_edit_v2_en.png){ class="shadow lightbox" title="Course element Survey with form · 2026.11.10" } 
 
 
 !!! tip "Tip"
@@ -146,12 +149,12 @@ If a form learning resource is already included in the course element, you also 
 
 !!! tip "Tip"
 
-    When you create a brand new form learning resource, you will be taken to the settings screen after the title entry prompt.
+    When you create a brand new form learning resource in the authoring area, OpenOlat takes you to the settings of the learning resource, tab "Metadata", after you enter the title.
     Here you can set settings right away, for example store a license. However, you can also access it again at any time later. For more information, see [8. Configure forms](#step8).
 
 !!! info "Important"
 
-    If a form has already been used (filled in by participants), there are restrictions on editing. (See below: [9. Modify forms](#step9))
+    If a form has already been used (opened or filled in by participants), there are restrictions on editing. (See below: [9. Modify forms](#step9))
 
 
 [To the top of the page ^](#create_form)
@@ -170,21 +173,19 @@ A layout here means a **grid**. You can insert several such layouts one after th
 
 Now insert the content into the fields of the layout, for example titles, texts and single choices.
 
-If you want to change the layout afterwards, you can open the selection tool again at any time by clicking on the small gear.
+If you want to change the layout afterwards, click on the small gear of the layout. In the inspector, select another template in the tab "Layout".
 
 ![Gear of a two-column layout opens the inspector with the tab Layout to replace the template](assets/form_editor_4_v2_en.png){ class="shadow lightbox" title="Tab Layout in the form editor · 2026.11.10" } 
 
 <br>
 
-In the example below, the layout has been changed from two columns to one column.
-
-Now add titles, texts and the different questions. It is best to start with a title and a short introductory text in the element "Text" that informs the participants.
+Now add titles, texts and the different questions. It is best to start with a title and a short introductory text in the element "Text" that informs the participants. Unlike the question type "Text block", the element "Text" only displays text, without an input field.
 
 ![Window Add content with the groups Text, Question type, Organisational, Media and Other & design](assets/form_editor_6_v2_en.png){ class="shadow lightbox" title="Window Add content in the form editor · 2026.11.09" } 
 
 <br>
 
-In each case, click "Add content" and then use the options provided.<br>
+In each case, click "Add content" in the field of the layout and then use the options provided.<br>
 For example, for a "Title" element.
 
 ![Title element with text in the form, in the window Title the selection of the size](assets/form_editor_8_v2_en.png){ class="shadow lightbox" title="Title element in the form editor · 2026.11.10" } 
@@ -194,7 +195,7 @@ For a "Rubric" element, the options are much more diverse. However, the same pri
 * Select an element.
 * The displayed options apply to the currently selected element.
 
-Explore the many options available!
+For a rubric element, the inspector shows the tabs "General", "Extended", "Style" and "Layout". In the tab "General" you set, among other things, "Type", "Steps" and "Obligation", in the tab "Extended" the name of the rubric, the "Scale type" and the value ranges. All options are described on the page [The form element rubric](../../manual_user/learningresources/Form_Element_Rubric.md).
 
 ![Rubric with three questions in editing mode, next to it the window Rubric with the tabs General, Extended, Style and Layout and options such as type, steps and obligation](assets/form_editor_11_v2_en.png){ class="shadow lightbox" title="Options of a rubric element · 2026.11.10" } 
 
@@ -216,7 +217,7 @@ When you are done **close the editor by clicking on the title of the form in the
 
 ## 7. Testing forms  {: #step7}
 
-To test a form as an author, switch to the participant view:
+To test a form as an author, select "Participant view" in the menu "Role" under "Switch to":
 
 ![Role menu with the entry Participant view under Switch to](assets/form_role_change_v2_en.png){ class="shadow lightbox" title="Role switch in the form learning resource · 2026.11.10" } 
 
@@ -226,17 +227,19 @@ To test a form as an author, switch to the participant view:
 
     When others (non-owners) test, their entered data is saved and a form can only be changed to a limited extent afterwards. This prevents subsequent manipulation.
 
-    If others have already entered data into the form, it is best to create a copy of the learning resource or course element and continue working with it.
+    This also applies to you as an owner: if you open a course element "Survey" in the course under `Role > Switch to > Participant view`, the form can only be changed to a limited extent afterwards, even if you do not enter anything. The form editor then shows the message "The resource is already used. Editing is limited."
+
+    If others have already opened or filled in the form, create a copy of the learning resource via `Form > Administration > Copy`, change the copy and include it in a new course element.
 
 <br>
 
 !!! tip "Tip when a 'Not accessible' appears"
 
-    If you as an author have published a course (left the course editor), it often happens that the course element with the form learning resource is not accessible.
+    If you as an author have published a course and then call it up, it often happens that the course element with the form learning resource is not accessible.
 
-    Often it is because authors are not allowed to fill in the form themselves according to the preset configuration. (Because they are owners but not participants.)
+    Often it is because authors are not allowed to fill in the form themselves according to the preset configuration, because they are owners but not participants. In the course element "Survey", for example, only the role "Participant" is preset under "Participation by" in the tab "Survey".
 
-    You can get around this by switching roles to the participant view in the editor.
+    You can get around this by switching to the "Participant view" in the menu "Role" of the course.
 
 
 [To the top of the page ^](#create_form)
@@ -331,6 +334,7 @@ Characteristics:
 
 * often single choice, in order to force a clear statement
 * anonymous
+* the example below uses rubrics of the type "Discrete with slider"
 
 ![Questions with sliders from hardly to very and a text input field for missing topics](assets/form_example1_v1_en.png){ class="shadow lightbox" title="Example teaching quality survey · 2026.11.10" }
 
@@ -388,12 +392,12 @@ Characteristics:
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
 [Form elements >](../../manual_user/learningresources/Form_Elements/index.md)
 
 **Further reading**<br>
 [Forms - Overview >](../../manual_user/learningresources/Form/index.md)<br>
 [The form editor >](../../manual_user/learningresources/Form_Editor/index.md)<br>
-[The form element rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
 [Question rules in forms >](../../manual_user/learningresources/Form_Question_Rules.md)<br>
 [Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
 [Course Element "Form" >](../../manual_user/learningresources/Course_Element_Form.md)<br>

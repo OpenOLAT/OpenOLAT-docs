@@ -12,9 +12,9 @@ Legen Sie zuerst fest, welche Bereiche bei welcher Antwort erscheinen sollen. Da
 Für eine Frageregel braucht das Formular:
 
 * eine Mehrfachauswahl oder Einzelauswahl mit mindestens einer Antwort
-* einen Container mit Inhalt, der nicht die Einzel- oder Mehrfachauswahl der Bedingung enthält
+* einen Container für die Inhalte, die erst nach der Antwort erscheinen. Er enthält nicht die Einzel- oder Mehrfachauswahl der Bedingung, sonst blendet die Regel die Frage, von der sie abhängt, mit aus.
 
-Fehlt eine Voraussetzung, zeigt OpenOlat im Dialog "Frageregeln" eine Warnung, und Sie können keine Regel erstellen.
+Fehlt im Formular eine Einzel- oder Mehrfachauswahl mit mindestens einer Antwort oder ein Container, zeigt der Dialog "Frageregeln" die Meldung "Es können keine Regeln erstellt werden".
 
 ### Passende Namen vergeben
 
@@ -28,7 +28,7 @@ So tragen Sie den Namen für eine Einzel- oder Mehrfachauswahl ein:
 
 ![Das Zahnrad-Symbol der Mehrfachauswahl öffnet den Inspektor, im Tab "Allgemein" steht im Feld "Name" der Name des Elements, hier "Obst"](assets/form_question_rules_multiple_choice_name_v1_de.png){ class="shadow lightbox" title="Inspektor einer Mehrfachauswahl im Formulareditor · 2026.11.09" }
 
-### Frageregeln im Menü hinterlegen
+### Regeln im Dialog "Frageregeln" erstellen {: #create_rules}
 Die Frageregeln öffnen Sie im Formulareditor über das Symbol "Frageregeln" rechts neben dem Menü "Administration":<br>
 `Formular > Administration > Formulareditor > Frageregeln`
 
@@ -38,7 +38,7 @@ Es öffnet sich der Dialog "Frageregeln". Dort erstellen Sie mit "Regel hinzufü
 
 ![Dialog Frageregeln vor der ersten Regel mit dem Tipp, Regeln nach dem Fertigstellen des Formulars zu definieren, und dem Button "Regel hinzufügen"](assets/form_question_rules_empty_v1_de.png){ class="shadow lightbox" title="Dialog Frageregeln ohne Regel · 2026.11.09" }
 
-Eine Frageregel besteht aus einer Bedingung und einer Aktion. Die Bedingung ist eine Antwort einer Einzel- oder Mehrfachauswahl. Die Aktion zeigt einen Container, zum Beispiel mit weiteren Informationen oder Fragen. Zum Schluss klicken Sie auf "Speichern".
+Eine Frageregel besteht aus einer Bedingung und einer Aktion. Die Bedingung ist eine Antwort einer Einzel- oder Mehrfachauswahl. Die Aktion zeigt einen Container, zum Beispiel mit weiteren Informationen oder Fragen. In jeder Zeile wählen Sie unter "Bedingung" die Einzel- oder Mehrfachauswahl und nach "ist" die Antwort, unter "Aktion" nach "zeige" den Container. Zum Schluss klicken Sie auf "Speichern".
 
 ![Drei Frageregeln, je mit Bedingung wie "MC Obst ist Kiwi" links und zugeordneter Aktion wie "zeige Container 2 mit Textelement" rechts](assets/Frageregeln_Beispiel.png){ class="shadow lightbox" title="Dialog Frageregeln mit drei Regeln" }
 

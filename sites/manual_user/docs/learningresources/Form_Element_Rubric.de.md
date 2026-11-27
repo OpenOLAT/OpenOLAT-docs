@@ -2,10 +2,10 @@
 
 Mit einer Rubrik beantworten oder bewerten Personen mehrere Fragen auf derselben Bewertungsskala. Die Rubrik ist ein Element der Lernressource "Formular" und steht überall zur Verfügung, wo OpenOlat Formulare einsetzt:
 
-* [Kursbaustein Umfrage](../learningresources/Course_Element_Survey.de.md)
-* [Kursbaustein Formular](../learningresources/Course_Element_Form.de.md)
-* [Kursbaustein Bewertung](Forms_in_Rubric_Scoring.de.md)
-* [Kursbaustein Aufgabe mit Peer-Review](Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric)
+* [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)
+* [Kursbaustein "Formular"](../learningresources/Course_Element_Form.de.md)
+* [Kursbaustein "Bewertung"](Forms_in_Rubric_Scoring.de.md)
+* [Kursbaustein "Aufgabe" mit Peer-Review](Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric)
 * [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
 
 ## Einsatzbeispiele für Rubriken
@@ -55,15 +55,15 @@ Eine Rubrik fügen Sie im [Formulareditor](Form_Editor/index.de.md) über "Inhal
 
 Eine Rubrik besteht aus Zeilen und Spalten: Die Zeilen tragen die Kriterien, Aussagen oder Fragen, die Spalten die Stufen der Bewertungsskala.
 
-![Rubrik-Konfiguration mit Spaltenbeschriftung samt Wertzuweisung je Spalte sowie Gewichtung und Verschiebepfeilen je Zeile](assets/formular_rubik17a.png){ class="shadow lightbox" title="Konfiguration einer Rubrik" }
+![Spaltenbeschriftung mit dem Wert je Spalte, dazu je Zeile Eine Zeile, Mehrere Zeilen und Formatiert, das Gewicht, die Verschiebepfeile und der Papierkorb](assets/formular_rubik17a.png){ class="shadow lightbox" title="Konfiguration einer Rubrik" }
 
-Geben Sie unter "Spaltenbeschriftung" für jede Spalte die Stufe der Bewertungsskala ein, zum Beispiel sehr gut, gut, mittel, schlecht, sehr schlecht. Jede Spalte hat einen Wert, den Sie im Tab "Erweitert" des Rubrik-Inspektors unter "Skalentyp" festlegen.
+Geben Sie unter "Spaltenbeschriftung" für jede Spalte die Stufe der Bewertungsskala ein, zum Beispiel sehr gut, gut, mittel, schlecht, sehr schlecht. Jede Spalte hat einen Wert, den Sie im Tab "Erweitert" des [Rubrik-Inspektors](#rubric_inspector) unter "Skalentyp" festlegen. Der Inspektor ist das verschiebbare Fenster mit den Einstellungen der ausgewählten Rubrik.
 
-Geben Sie in den Zeilen die Kriterien, Aussagen oder Fragen ein. Weitere Zeilen ergänzen Sie mit "Frage hinzufügen". Die Texte der Zeilen können Sie formatieren. Mit den Doppelpfeilen nach oben und unten verschieben Sie eine Zeile. Im Feld "Gewicht" geben Sie einer Zeile mehr Bedeutung: Ein Kriterium mit doppeltem oder dreifachem Gewicht zählt bei der Punktevergabe entsprechend mehr. Mit dem Gewicht 0 zählt eine Frage nicht zur Punktzahl, die maximal erreichbare Punktzahl sinkt entsprechend. In der Statistik des Kursbausteins "Bewertung" bleibt die Frage mit dem Wert 0 sichtbar.
+Geben Sie in den Zeilen die Kriterien, Aussagen oder Fragen ein. Weitere Zeilen ergänzen Sie mit "Frage hinzufügen". Über jedem Textfeld wählen Sie mit "Eine Zeile", "Mehrere Zeilen" oder "Formatiert", ob der Text einzeilig, mehrzeilig oder formatiert ist. Mit den Doppelpfeilen nach oben und unten verschieben Sie eine Zeile, mit dem Papierkorb löschen Sie sie. Die letzte verbleibende Zeile lässt sich nicht löschen. Im Feld "Gewicht" geben Sie einer Zeile mehr Bedeutung: Ein Kriterium mit doppeltem oder dreifachem Gewicht zählt bei der Punktevergabe entsprechend mehr. Mit dem Gewicht 0 zählt eine Frage nicht zur Punktzahl, die maximal erreichbare Punktzahl sinkt entsprechend. In der Statistik des Kursbausteins "Bewertung" bleibt eine Frage mit dem Gewicht 0 sichtbar.
 
 In einem Kurs kann eine Rubrik automatisch eine Punktzahl ergeben. Das nutzen der Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" und die Peer-Reviews im Kursbaustein "[Aufgabe](../learningresources/Course_Element_Task/index.de.md)".
 
-Mit dem waagrechten Doppelpfeil erstellen Sie eine Rubrik mit zwei Enden.
+Mit dem waagrechten Doppelpfeil rechts neben der Spaltenbeschriftung erstellen Sie eine Rubrik mit zwei Enden. Jede Zeile hat dann links und rechts eine eigene Beschriftung, etwa "in Präsenz" und "Online", und die Skala liegt dazwischen.
 
 ![Rubrik mit zwei Enden je Zeile und je einem eigenen Zeilenlabel wie "Audio Qualität", aktiviert über den Pfeil oben rechts](assets/Rubrik_2_enden.jpg){ class="shadow lightbox" title="Konfiguration einer Rubrik mit zwei Enden" }
 
@@ -72,7 +72,7 @@ Mit dem waagrechten Doppelpfeil erstellen Sie eine Rubrik mit zwei Enden.
 
     Das Gewicht einer Zeile können Sie ändern, solange das Formular noch für keine Bewertung verwendet wurde, auch wenn es bereits in einem Kursbaustein eingebunden ist. Sobald ein Kursbaustein "Bewertung" oder "Aufgabe" das Formular für die Bewertung einer Person verwendet hat, ist das Gewicht gesperrt. Der Formulareditor zeigt dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
 
-### Einstellungen im Rubrik-Inspektor
+### Einstellungen im Rubrik-Inspektor {: #rubric_inspector}
 
 Im Rubrik-Inspektor legen Sie in den Tabs "Generell", "Erweitert", "Stil" und "Layout" fest, wie die Rubrik aussieht und wie OpenOlat sie auswertet.
 
@@ -118,12 +118,12 @@ Im Tab "Stil" stellen Sie die Rubrik in eine [Hinweis-Box](Form_Elements/index.d
 
 #### Tab "Layout"
 
-Im Tab "Layout" legen Sie den Abstand der Rubrik zu den übrigen Elementen des Formulars fest.
+Im Tab "Layout" des Rubrik-Inspektors legen Sie den Abstand der Rubrik zu den übrigen Elementen des Formulars fest.
 
 
 !!! tip "Tipp"
 
-    Der Rubrik-Inspektor kann frei im Formularbereich positioniert und verschoben werden. Verschieben Sie ihn so, dass er Sie nicht stört oder andere wichtige Elemente überdeckt.
+    Den Rubrik-Inspektor ziehen Sie an seiner Kopfzeile an eine andere Stelle des Formulars. So verdeckt er keine Elemente, an denen Sie gerade arbeiten.
 
 
 ## Weiterführende Informationen {: #further_information}

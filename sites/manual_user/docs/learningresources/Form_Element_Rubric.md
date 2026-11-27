@@ -2,13 +2,13 @@
 
 With a rubric, people answer or rate several questions on the same rating scale. The rubric is an element of the learning resource "Form" and is available wherever OpenOlat uses forms:
 
-* [Course element Survey](../learningresources/Course_Element_Survey.md)
-* [Course element Form](../learningresources/Course_Element_Form.md)
-* [Course element Assessment](Forms_in_Rubric_Scoring.md)
-* [Course element Task with Peer Review](Course_Element_Task/Task_Peer_Review.md#peer_review_rubric)
+* [Course element "Survey"](../learningresources/Course_Element_Survey.md)
+* [Course element "Form"](../learningresources/Course_Element_Form.md)
+* [Course element "Assessment"](Forms_in_Rubric_Scoring.md)
+* [Course element "Task" with peer review](Course_Element_Task/Task_Peer_Review.md#peer_review_rubric)
 * [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
 
-## Examples of use for Rubrics
+## Examples of use for rubrics
 
 In OpenOlat, you use rubrics, for example,
 
@@ -55,23 +55,23 @@ You add a rubric to the form in the [form editor](Form_Editor/index.md) via "Add
 
 A rubric consists of rows and columns: the rows hold the criteria, statements or questions, the columns the levels of the rating scale.
 
-![Rubric configuration with column label including a value per column, and weight and move arrows per row](assets/Rubric_add_EN.png){ class="shadow lightbox" title="Configuration of a rubric" }
+![Column label with the value per column, and per row One line, Multi-line and Formatted, the weight, the move arrows and the bin](assets/Rubric_add_EN.png){ class="shadow lightbox" title="Configuration of a rubric" }
 
-Under "Column label", enter the level of the rating scale for each column, for example very good, good, medium, bad, very bad. Each column has a value, which you set in the "Extended" tab of the rubric inspector under "Scale type".
+Under "Column label", enter the level of the rating scale for each column, for example very good, good, medium, bad, very bad. Each column has a value, which you set in the "Extended" tab of the [rubric inspector](#rubric_inspector) under "Scale type". The inspector is the movable window with the settings of the selected rubric.
 
-Enter the criteria, statements or questions in the rows. You add further rows with "Add question". You can format the texts of the rows. With the up and down double arrows, you move a row. In the "Weight" field, you give a row more importance: a criterion with double or triple weight counts correspondingly more when points are awarded. With the weight 0, a question does not count towards the score, and the maximum achievable score decreases accordingly. In the statistics of the course element "Assessment", the question remains visible with the value 0.
+Enter the criteria, statements or questions in the rows. You add further rows with "Add question". Above each text field, you choose with "One line", "Multi-line" or "Formatted" whether the text is single-line, multi-line or formatted. With the up and down double arrows, you move a row, with the bin you delete it. The last remaining row cannot be deleted. In the "Weight" field, you give a row more importance: a criterion with double or triple weight counts correspondingly more when points are awarded. With the weight 0, a question does not count towards the score, and the maximum achievable score decreases accordingly. In the statistics of the course element "Assessment", a question with the weight 0 remains visible.
 
 In a course, a rubric can automatically result in a score. The course element "[Assessment](../learningresources/Course_Element_Assessment.md)" and the peer reviews in the course element "[Task](../learningresources/Course_Element_Task/index.md)" use this.
 
-With the horizontal double arrow, you create a rubric with two ends.
+With the horizontal double arrow to the right of the column label, you create a rubric with two ends. Each row then has its own label on the left and on the right, for example "In person" and "Online", and the scale lies in between.
 
-![Cross double arrow button highlighted at the top right of the column label, used to turn the rubric into one with two scale ends](assets/Rubric_scale_EN.png){ class="shadow lightbox" title="Configuration of a rubric with two ends" }
+![Horizontal double arrow button highlighted at the top right of the column label, used to turn the rubric into one with two ends](assets/Rubric_scale_EN.png){ class="shadow lightbox" title="Configuration of a rubric with two ends" }
 
 !!! info "Important"
 
     You can change the weight of a row as long as the form has not yet been used for an assessment, even if it is already included in a course element. As soon as a course element "Assessment" or "Task" has used the form to assess a person, the weight is locked. The form editor then shows the message "The resource is already used. Editing is limited."
 
-### Rubric inspector settings
+### Rubric inspector settings {: #rubric_inspector}
 
 In the rubric inspector, you set in the tabs "General", "Extended", "Style" and "Layout" how the rubric looks and how OpenOlat evaluates it.
 
@@ -116,12 +116,12 @@ In the "Style" tab, you place the rubric in an [alert box](Form_Elements/index.m
 
 #### Tab "Layout"
 
-In the "Layout" tab, you set the distance between the rubric and the other elements of the form.
+In the "Layout" tab of the rubric inspector, you set the distance between the rubric and the other elements of the form.
 
 
 !!! tip "Tip"
 
-    The rubric inspector can be freely positioned and moved in the form area. Move it so that it does not disturb you or cover other important elements.
+    You drag the rubric inspector by its header to another place in the form. This way, it does not cover any elements you are working on.
 
 
 ## Further information {: #further_information}

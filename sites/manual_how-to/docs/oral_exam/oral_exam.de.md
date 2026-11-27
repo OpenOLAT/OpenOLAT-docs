@@ -74,7 +74,7 @@ Es können 10 Kursbausteine vom Typ "Bewertung" mit je 1 Formular erstellt werde
 
 ### Einstellungen im Tab "Bewertung"
 
-![Tab Bewertung mit eingeschalteter Rubrik-Bewertung, Punkten aus dem Rubrik-Formular, Bewertungsskala und Optionen für Kommentare](assets/oral_exam_step2b_v1_de.png){ class="shadow lightbox" title="Tab Bewertung des Kursbausteins Bewertung" } 
+![Alle Einstellungen des Tabs Bewertung auf einen Blick: Rubrik-Bewertung, Punkte aus dem Rubrik-Formular, Einstufung mit Bewertungsskala und die Optionen im Abschnitt Bewertungsformular](assets/oral_exam_step2b_v2_de.png){ class="shadow lightbox" title="Tab Bewertung des Kursbausteins Bewertung · 2026.11.27" } 
 
 #### Status "Korrigieren" setzen, wenn Zugriff gewährt {: #initial_status}
 
@@ -163,7 +163,7 @@ Mündliche Prüfungen bestehen oft aus einer Kombination verschiedener Formate, 
 
 In OpenOlat erstellen Sie ein frei definierbares Bewertungsraster am besten mit dem Rubrik-Element. Eine Rubrik ist ein Raster aus Zeilen und Spalten: Die Zeilen tragen die Kriterien oder Aussagen, die Spalten die Stufen einer gemeinsamen Bewertungsskala.
 
-![Rubrik mit fünf Spalten von sehr schlecht bis sehr gut und vier Bewertungskriterien, rechts das Fenster Rubrik](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor" } 
+![Bewertungsraster als Rubrik-Element mit vier Kriterien in den Zeilen und fünf Stufen von sehr schlecht bis sehr gut, rechts das Fenster Rubrik mit seinen Tabs](assets/oral_exam_step3b_v2_de.png){ class="shadow lightbox" title="Rubrik-Element im Formulareditor · 2026.11.27" } 
 
 Öffnen Sie in der neu erstellten Formular-Lernressource den Editor unter `Formular > Administration > Formulareditor` und erstellen Sie ein Rubrik-Formular, das zu Ihrer mündlichen Prüfung passt.
 
@@ -199,7 +199,7 @@ Fügen Sie im Formulareditor für
 
 jeweils Angaben in einem Inhaltselement oberhalb des Rubrik-Elements hinzu. Diese werden dann im Kopfbereich angezeigt.
 
-![Dialog Inhalt hinzufügen mit den markierten Elementen Datum / Zeit und Angaben zum:r Betreuer:in](assets/oral_exam_step3_header_v1_de.png){ class="shadow lightbox" title="Dialog Inhalt hinzufügen im Formulareditor" } 
+![Fenster Inhalt hinzufügen mit den markierten Elementen Datum / Zeit und Angaben zum:r Betreuer:in, die Prüfungszeit und Prüfer:innen im Kopfbereich festhalten](assets/oral_exam_step3_header_v2_de.png){ class="shadow lightbox" title="Fenster Inhalt hinzufügen im Formulareditor · 2026.11.27" } 
 
 [Zum Seitenanfang ^](#oral_exam)
 

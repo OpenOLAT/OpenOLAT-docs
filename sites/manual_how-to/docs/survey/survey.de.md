@@ -104,11 +104,10 @@ b) Einfügen der Lernressource in den Kursbaustein
 
 #### Vorgehensweise 2: Kursbaustein -> Lernressource
 a) Wählen Sie im Kurseditor den Kursbaustein und dort den Tab "Umfrage".<br>
-b) Klicken Sie auf den Button "Wählen, erstellen oder importieren".<br>
-Es wird Ihnen eine Liste bereits vorhandener Lernressourcen angezeigt, bei denen Sie Besitzer:in sind.<br>
-Sie können dort eine auswählen oder mit dem Button über der Liste eine neue Formular-Lernressource erstellen.<br>
-So gelangen Sie in den Formulareditor und erstellen dort die Fragen.<br>
-Sobald die Lernressource gespeichert ist, wird auch sie im Autorenbereich angezeigt.
+b) Klicken Sie auf den Button "Erstellen" und geben Sie einen Titel ein. Die neue Formular-Lernressource ist danach in den Kursbaustein eingebunden und erscheint auch im Autorenbereich.<br>
+c) Klicken Sie auf den Button "Lernressource bearbeiten". In der geöffneten Lernressource erstellen Sie die Fragen im Formulareditor: `Formular > Administration > Formulareditor`
+
+Im selben Tab wählen Sie mit "Auswählen" eine vorhandene Formular-Lernressource oder bringen mit "Import" eine als ZIP-Datei exportierte Formular-Lernressource ein.
 
 !!! tip "Tipp"
 
@@ -124,13 +123,13 @@ Wenn Sie so vorgegangen sind, dass Sie zuerst den Kursbaustein gewählt und dann
 
 Haben Sie zunächst die Formular-Lernressource im Autorenbereich erstellt (Schritt 2, Vorgehensweise 1), dann muss die Lernressource noch in den Umfrage-Kursbaustein eingebunden werden.
 
-- Öffnen Sie den **Kurseditor** und wählen Sie den **Kursbaustein** mit Ihrer Abschlussumfrage.
-- Wählen Sie den **Tab "Umfrage"**.
-- Mit dem **Button "Wählen, erstellen oder importieren"** binden Sie die Formular-Lernressource in den Kursbaustein ein. In der Übersicht werden alle Formulare angezeigt, bei denen Sie Besitzer:in sind. Wählen Sie das gewünschte Formular aus.
+- Öffnen Sie den Kurseditor unter `Kurs > Administration > Kurseditor` und wählen Sie den Kursbaustein mit Ihrer Abschlussumfrage.
+- Wählen Sie den Tab "Umfrage".
+- Klicken Sie auf den Button "Auswählen". Das Fenster "Formular auswählen" zeigt im Tab "Meine Formulare" die Formulare, bei denen Sie Besitzer:in sind. Formulare, die andere für Sie freigegeben haben, finden Sie im Tab "Für mich freigegeben". Wählen Sie das gewünschte Formular aus.
 
 !!! warning "Achtung"
 
-    Sobald ein Formular von mindestens einer teilnehmenden Person angesehen wurde, kann es **nicht mehr ersetzt** werden: Der Button "Ersetzen" entfällt. Muss es dennoch ausgetauscht werden, legen Sie einen neuen Kursbaustein "Umfrage" an und binden Sie dort das gewünschte Formular ein.
+    Ein eingebundenes Formular tauschen Sie im Tab "Umfrage" mit dem Button "Ersetzen" aus. Sobald ein Formular von mindestens einer teilnehmenden Person angesehen wurde, kann es nicht mehr ersetzt werden: Der Button "Ersetzen" entfällt. Muss es dennoch ausgetauscht werden, legen Sie einen neuen Kursbaustein "Umfrage" an und binden Sie dort das gewünschte Formular ein.
 
 [Zum Seitenanfang ^](#survey)
 
@@ -284,7 +283,7 @@ Die Inhalte aller Tabs können ausgedruckt oder als Excel-Tabelle bzw. PDF herun
 
 ## Nachträgliche Änderungen an der Formular-Lernressource {: #changes}
 
-Sobald ein im Kurs eingebundenes Formular aufgerufen wurde, kann es nur noch **eingeschränkt** geändert werden. Texte (z.B. Tippfehler) lassen sich korrigieren, aber einzelne Blöcke können nicht mehr verschoben und keine Bereiche neu angelegt oder gelöscht werden. Im Formular erscheint dann die Meldung *"Die Ressource wird bereits verwendet …"*.
+Sobald ein im Kurs eingebundenes Formular aufgerufen wurde, kann es nur noch **eingeschränkt** geändert werden. Texte (z.B. Tippfehler) lassen sich korrigieren, aber Elemente lassen sich nicht mehr hinzufügen, verschieben, duplizieren oder löschen. Im Formulareditor erscheint dann die Meldung "Die Ressource wird bereits verwendet. Die Bearbeitung ist beschränkt."
 
 Planen Sie den Inhalt der Abschlussumfrage daher möglichst vollständig, bevor die Teilnehmenden Zugriff erhalten.
 
