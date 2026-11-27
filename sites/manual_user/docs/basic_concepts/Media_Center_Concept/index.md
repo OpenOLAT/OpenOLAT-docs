@@ -28,7 +28,7 @@ Media can be...
 The Media Center is your personal area. You open it via your profile picture at the top right, in the personal menu:<br>
 `Personal menu > Media Center`
 
-![Highlighted profile picture at the top right of the main navigation opens the personal menu](../assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
+![Profile picture at the top right of the main navigation: a click on it opens the personal menu with the Media Center](../assets/media_center_concept_access1_v1_en.png){ class="shadow lightbox" title="Main navigation, top right · 2026.11.27" }
 
 ![Entry Media Center under User tools in the opened personal menu](../assets/media_center_concept_access2_v2_en.png){ class="shadow lightbox" title="Personal menu, User tools · 2026.11.27" }
 
@@ -70,7 +70,7 @@ In the Media Center you store files and content that you have created or collect
 
 ## Add media to the Media Center [:octicons-tag-16:{ title="from Release 19.1 (OO-7813)" }](https://track.frentix.com/issue/OO-7813){:target="_blank"} {: #add_media}
 
-![Highlighted drop-down menu next to Add media file with File, Video via URL, video and audio recording, draw.io diagram, Text and Citation](../assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" title="Add media file menu in My Media Center" }
+![Button Add media file with the opened drop-down menu in My Media Center: from here you upload a file or create a video, an audio recording, a document, a draw.io diagram, a text or a citation](../assets/media_center_concept_add_media_v1_en.png){ class="shadow lightbox" title="My Media Center, drop-down menu Add media file · 2026.11.27" }
 
 Media get into the Media Center in four ways: you upload them directly, you create them in the Media Center, you create them in the Content Editor, or you take over content from other areas of OpenOlat. How you then share a media item with others is described under [Share with others](#share).
 
@@ -110,7 +110,7 @@ You take over your own content from other areas of OpenOlat into the Media Cente
 
 For example, to take over a forum post, open your post in the forum and click on the puzzle piece icon at the top right of the post.
 
-![Highlighted puzzle piece icon at the top right of a forum post, which transfers the post to the Media Center](../assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" title="Forum post with puzzle piece icon" }
+![Forum post in the course element Forum: a click on the puzzle piece icon at the top right of the post takes it over into your Media Center](../assets/media_center_puzzle_v1_en.png){ class="shadow lightbox" title="Course element Forum, forum post · 2026.11.27" }
 
 A window opens in which you enter the title and further metadata as when uploading, and save. The post is then in your Media Center, with a link to the original.
 
