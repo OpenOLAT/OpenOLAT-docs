@@ -111,25 +111,27 @@ Mit der folgenden Syntax grenzen Sie Ihre Suchanfrage genauer ein.
 
 Metadaten helfen, ein Dokument zu erkennen und in der Suche zu finden. Metadaten oder _Metainformationen_ sind Daten, die Informationen über Merkmale anderer Daten enthalten, aber nicht diese Daten selbst. Sie beschreiben eine Datei mit ergänzenden Informationen wie zum Beispiel einem Titel, dem Urheber oder dem Herausgeber. So ist besser erkennbar, um was für ein Dokument es sich handelt. Das ist besonders nützlich, wenn der Titel eines Dokuments nicht in den Dateinamen passt, weil er zu lang ist oder spezielle Zeichen enthält.
 
-Sie können jede Datei und auch ganze Lernressourcen mit Metadaten versehen. Die Metadaten sind optional und müssen nicht ausgefüllt werden. Sie orientieren sich am [Dublin Core Simple Standard](https://de.wikipedia.org/wiki/Dublin_Core). Einige Metadaten lassen sich nicht ändern: der Name der Person, die das Dokument hochgeladen hat, die Grösse des Dokuments, der Zeitpunkt, zu dem das Dokument hochgeladen wurde, und der Dateityp. Informationen wie z.B. den ursprünglichen Verfasser, den Titel, eine Beschreibung, die Quelle oder die Sprache können Sie manuell eingeben.
+Sie können jede Datei und auch ganze Lernressourcen mit Metadaten versehen. Die Metadaten sind optional und müssen nicht ausgefüllt werden. Sie orientieren sich am [Dublin Core Simple Standard](https://de.wikipedia.org/wiki/Dublin_Core). Einige Metadaten lassen sich nicht ändern: der Name der Person, die das Dokument hochgeladen hat, die Grösse des Dokuments, der Zeitpunkt, zu dem das Dokument hochgeladen wurde, und der Dateityp. Informationen wie z.B. den ursprünglichen Verfasser, den Titel, eine Beschreibung, die Quelle oder die Sprache können Sie manuell eingeben. Die Metadaten einer Datei in einem Ordner öffnen Sie im 3-Punkte-Menü der Datei mit "Metadaten".
 
 Die Volltextsuche indexiert die Metadaten. Sie finden Dokumente deshalb auch über die Begriffe, die in ihren Metadaten stehen.
 
-**Datei sperren:** Wählen Sie in den Metadaten einer Datei beim Feld "Gesperrt" die Option "Gesperrt", damit andere Benutzer:innen die Datei weder überschreiben noch löschen oder verschieben können. Gesperrte Dateien tragen in der Dateiliste in der Spalte "Dateistatus" die Markierung "Gesperrt" mit einem Schloss. Für Ordner gibt es diese Option nicht.
+**Datei sperren:** Wählen Sie in den Metadaten einer Datei beim Feld "Gesperrt" die Option "Gesperrt", damit andere Benutzer:innen die Datei weder überschreiben noch löschen oder verschieben können. Gesperrte Dateien tragen in der Tabellenansicht des Ordners in der Spalte "Dateistatus" die Markierung "Gesperrt" mit einem Schloss. Die Sperre hebt die Person wieder auf, die sie gesetzt hat: Sie wählt beim Feld "Gesperrt" die Option "Freigegeben". Für Ordner gibt es diese Option nicht.
 
 ![Dateiliste eines Ordners, bei der gesperrten Datei ist in der Spalte Dateistatus die Markierung Gesperrt mit Schloss markiert](../assets/search_general_folder_locked_file_v1_de.png){ class="shadow lightbox" title="Dateiliste eines Ordners · 2026.11.03" }
 
 Das Feld "Externer Link zu dieser Ressource" in den Metadaten zeigt einen Link, mit dem Sie auch ausserhalb von OpenOlat direkt auf die Datei verlinken. Sie kopieren ihn oder geben ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../Navigation.de.md#url_field).
 
-**Anzahl Ansichten:** Das Feld "Anzahl Ansichten" zeigt, wie oft eine Datei aus einem Ordner heruntergeladen wurde. Trotz des Namens zählt OpenOlat Downloads, nicht die Anzeige im Browser. Die Zahl steigt um 1, wenn jemand die Datei mit "Herunterladen" speichert, sie in einer ZIP-Datei mit anderen Dateien herunterlädt, sie über WebDAV öffnet oder auf den Dateinamen klickt und die Datei dabei heruntergeladen wird. Öffnet sich die Datei beim Klick dagegen im Browser oder in einem Editor, zum Beispiel ein PDF oder ein Word-Dokument, bleibt die Zahl gleich.
+**Anzahl Ansichten:** Das Feld "Anzahl Ansichten" zeigt, wie oft eine Datei aus einem Ordner heruntergeladen wurde. Trotz des Namens zählt OpenOlat Downloads, nicht die Anzeige im Browser. Die Zahl steigt um 1, wenn jemand die Datei mit "Herunterladen" speichert, sie zusammen mit anderen Dateien oder mit dem ganzen Ordner als ZIP-Datei herunterlädt, sie über [WebDAV](../Using_WebDAV.de.md) auf dem eigenen Computer öffnet oder kopiert, oder auf den Dateinamen klickt und die Datei dabei heruntergeladen wird. Öffnet sich die Datei beim Klick dagegen zur Ansicht im Browser oder in einem Editor, zum Beispiel ein PDF oder ein Word-Dokument, bleibt die Zahl gleich. Andere Aktionen im Ordner, etwa "Zippen" oder "E-Mail versenden", ändern die Zahl ebenfalls nicht.
 
-OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei dreimal herunter, steigt die Zahl um drei, und auch Downloads von Besitzer:innen und Betreuer:innen zählen mit. Wann und von wem eine Datei heruntergeladen wurde, zeigt das Feld nicht. Lesen Sie die Zahl deshalb als groben Hinweis, nicht als Nutzungsauswertung. Das Feld sehen alle, die die Metadaten einer Datei öffnen können, auch Teilnehmer:innen; sie erhalten die Metadaten in einer Nur-Lese-Ansicht. Wie oft Teilnehmende einen Kursbaustein aufgerufen haben, zeigen die [Kursstatistiken](../../learningresources/Statistics_Course.de.md).
+OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei dreimal herunter, steigt die Zahl um drei, und auch Downloads von Besitzer:innen und Betreuer:innen zählen mit. Wann und von wem eine Datei heruntergeladen wurde, zeigt das Feld nicht. Lesen Sie die Zahl deshalb als groben Hinweis, nicht als Nutzungsauswertung. Wie oft ein Kursbaustein aufgerufen wurde, etwa ein Kursbaustein "Ordner", zeigen die [Kursstatistiken](../../learningresources/Statistics_Course.de.md) als Summe ohne Namen.
 
-![Vier Wege erhöhen die Anzahl Ansichten um 1: Herunterladen, als ZIP herunterladen, Abruf über WebDAV, Klick auf einen Dateinamen, der herunterlädt; Öffnen im Viewer zählt nicht](../assets/folder_metadata_number_of_views_v1_de.svg){ class="shadow lightbox" title="Was die Anzahl Ansichten erhöht · 2026.11.03" }
+Das Feld sehen alle, die die Metadaten einer Datei öffnen können, auch Teilnehmer:innen. Wer im Ordner nur lesen darf, sieht die Metadaten in einer Nur-Lese-Ansicht.
+
+![Vier Wege erhöhen die Anzahl Ansichten um 1: Herunterladen, als ZIP herunterladen, Abruf über WebDAV, Klick auf einen Dateinamen, der herunterlädt; Öffnen im Browser oder Editor zählt nicht](../assets/folder_metadata_number_of_views_v1_de.svg){ class="shadow lightbox" title="Was die Anzahl Ansichten erhöht · 2026.11.03" }
 
 !!! info "Wichtig"
 
-    Ob ein Klick auf den Dateinamen die Datei herunterlädt, hängt vom Dateiformat und von der Konfiguration der Instanz ab. HTML-Dateien werden zum Beispiel heruntergeladen, wenn die Sicherheitsfunktion ["Dateidownload in Ordner erzwingen"](../../../manual_admin/administration/Login_Security.de.md#files) eingeschaltet ist.
+    Ob ein Klick auf den Dateinamen die Datei herunterlädt, hängt vom Dateiformat und von der Konfiguration Ihrer OpenOlat-Instanz ab. Ein Klick lädt die Datei herunter, wenn OpenOlat das Format weder im Browser anzeigen noch in einem Editor öffnen kann. Welche Editoren zur Verfügung stehen, legen Administrator:innen in der System-Administration fest: `Administration > Externe Werkzeuge > Dokumenteneditoren`. HTML-, JavaScript- und SVG-Dateien sowie Dateien, deren Typ OpenOlat nicht erkennt, lädt ein Klick ausserdem herunter, wenn in der System-Administration das Häkchen ["Dateidownload in Ordner erzwingen"](../../../manual_admin/administration/Login_Security.de.md#files) gesetzt ist.
 
 [zum Seitenanfang ^](#search_general)
 
@@ -145,6 +147,7 @@ OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei
 [Suche im File Hub >](../Search_in_FileHub.de.md)<br>
 [Dublin Core (Wikipedia) >](https://de.wikipedia.org/wiki/Dublin_Core)<br>
 [Navigation >](../Navigation.de.md)<br>
+[Einsatz von WebDAV >](../Using_WebDAV.de.md)<br>
 [Kursstatistiken >](../../learningresources/Statistics_Course.de.md)<br>
 [Sicherheit >](../../../manual_admin/administration/Login_Security.de.md)
 
@@ -152,7 +155,9 @@ OpenOlat zählt jeden Abruf, nicht jede Person: Lädt dieselbe Person eine Datei
 [Kontosuche >](../../../manual_admin/usermanagement/Search_Users.de.md)<br>
 [Coaching - Personen >](../../area_modules/Coaching_People.de.md)<br>
 [Katalog 2.0: Übersicht >](../../area_modules/catalog2.0/index.de.md)<br>
-[Course Planner: Übersicht >](../../area_modules/Course_Planner/index.de.md)
+[Course Planner: Übersicht >](../../area_modules/Course_Planner/index.de.md)<br>
+[Kursbaustein "Ordner" >](../../learningresources/Course_Element_Folder.de.md)<br>
+[Ordnerkonzept >](../Folder_Concept.de.md)
 
 **youtube**<br>
 [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>)

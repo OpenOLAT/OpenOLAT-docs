@@ -125,16 +125,16 @@ Bindet OpenOlat-Ordner als Netzlaufwerk auf dem eigenen Rechner ein. Dies ist id
 
 ## Bedienungsweisen, die in allen Ordnern gleich sind
 
-Alle Ordner nutzen dieselbe Komponente. Diese Funktionen finden Sie im Ablageordner, in Kurs- und Gruppenordnern, im Kursarchiv, in Bibliothek, Projekt und weiteren Bereichen.
+Ordner sehen in OpenOlat überall gleich aus und funktionieren gleich. Diese Funktionen finden Sie im Ablageordner, in Kurs- und Gruppenordnern, im Kursarchiv, in Bibliothek, Projekt und weiteren Bereichen.
 
 - **Zwei Ansichten:** Hierarchisch mit Ordnern oder nur Dateien; zusätzlich Kachel- und Tabellenansicht mit wählbaren Spalten. Der Krümelpfad zeigt die aktuelle Ebene.
 - **Suche:** Nach Dateiname, Beschreibung und Ersteller:in im aktuellen Ordner samt Unterordnern (keine Volltextsuche in Dateien).
-- **Dateistatus:** "Wird bearbeitet", "gesperrt" (über Metadaten) und ein "Neu"-Label direkt nach dem Upload.
-- **Aktionen:** Im 3-Punkte-Menü: verschieben, kopieren, herunterladen, zippen und löschen je Datei.
+- **Dateistatus:** "Wird gerade bearbeitet", "Gesperrt" (in den Metadaten gesetzt) und das Label "Neu" direkt nach dem Upload.
+- **Aktionen:** Im 3-Punkte-Menü je Datei, unter anderem herunterladen, umbenennen, zippen, verschieben, kopieren, Metadaten öffnen und löschen.
 - **Drag & Drop + Multi-Upload:** Mehrere Dateien gleichzeitig per Maus auf das Zielfeld ziehen.
 - **Massen-Aktionen:** Über Checkboxen mehrere Einträge auswählen und gemeinsam bearbeiten.
 - **Erstellen im Ordner:** Dokumente (OnlyOffice: Word/Excel/PowerPoint, Diagramme, Whiteboard, HTML …), Unterordner, Video- und Audioaufnahmen.
-- **Metadaten & Lizenzen:** Beschreibung, Sperre, Lizenzangaben (z. B. Creative Commons), Anzahl Ansichten (zählt Downloads) und Direktlink je Datei.
+- **Metadaten & Lizenzen:** Beschreibung, Sperre, Lizenzangaben (z. B. Creative Commons), "Anzahl Ansichten" (zählt Downloads, nicht die Anzeige im Browser) und "Externer Link zu dieser Ressource" je Datei. Bearbeiten kann die Metadaten, wer im Ordner Dateien hochladen und bearbeiten darf. Was "Anzahl Ansichten" genau zählt, steht unter [Metadaten](../../manual_user/basic_concepts/Search_General/index.de.md#metadata).
 - **Papierkorb:** Gelöschtes wandert in den Papierkorb; die automatische Löschfrist setzen Systemadministrator:innen.
 - **Quota / Speicherlimit:** Begrenzung pro Datei und pro Ordner, siehe [Speicherplatz (Quota)](#quota). Gilt auch bei WebDAV-Upload.
 
@@ -354,6 +354,8 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 
 **Auf dieser Seite erwähnt**<br>
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../my_first_course/my_first_course.de.md)<br>
+[Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General/index.de.md)<br>
+[Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../reduce_storage_consumption/reduce_storage_consumption.de.md)<br>
 [Ordnerkonzept >](../../manual_user/basic_concepts/Folder_Concept.de.md)<br>
 [Kursbaustein "Ordner" >](../../manual_user/learningresources/Course_Element_Folder.de.md)<br>
 [Kursbaustein "Teilnehmer:innen Ordner" >](../../manual_user/learningresources/Course_Element_Participant_Folder.de.md)<br>
@@ -367,8 +369,7 @@ Denken Sie auch daran, dass die Grösse der einzelnen Dateien und der Gesamtspei
 [Persönliche Werkzeuge: File Hub >](../../manual_user/personal_menu/File_Hub.de.md)<br>
 [Bereiche und Module >](../../manual_user/area_modules/index.de.md)<br>
 [Modul Dokumentenpool >](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
-[Kurs-Administration: Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)<br>
-[Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren? >](../reduce_storage_consumption/reduce_storage_consumption.de.md)
+[Kurs-Administration: Archivierung & Reports >](../../manual_user/learningresources/Course_Archiving/index.de.md)
 
 **Weiterführend**<br>
 [Konzept des File Hub >](../../manual_user/basic_concepts/File_Hub_Concept.de.md)<br>

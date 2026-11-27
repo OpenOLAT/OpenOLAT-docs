@@ -132,7 +132,7 @@ Die Suchfunktion in Ordnern sucht nach
 
 * Dateinamen,
 * Beschreibung und
-* Ersteller
+* Ersteller:in
 
 im aktuellen Ordner mit seinen Unterordnern. Es ist keine Volltextsuche, also keine Suche z.B. innerhalb von Word-Dateien.
 
@@ -143,7 +143,7 @@ Ob jemand eine Datei gerade bearbeitet oder ob sie gesperrt ist, sehen Sie in de
 
 Bearbeitet jemand eine Datei gerade, trägt sie den Status "Wird gerade bearbeitet".
 
-Den Status "Gesperrt" setzen Sie in den [Metadaten](Search_General/index.de.md#metadata). Die Metadaten bearbeiten Sie unter den drei Punkten am Ende einer Zeile.
+Den Status "Gesperrt" setzen Sie in den [Metadaten](Search_General/index.de.md#metadata). Die Metadaten öffnen Sie im 3-Punkte-Menü am Ende einer Zeile mit "Metadaten". Bearbeiten kann sie, wer im Ordner Dateien hochladen und bearbeiten darf. Wer im Ordner nur lesen darf, sieht sie in einer Nur-Lese-Ansicht.
 
 Eine neu hochgeladene Datei trägt zunächst das Label "Neu". So finden Sie sie sofort wieder, um sie zum Beispiel zu verschieben oder zu kopieren. Das Label sieht nur die Person, die die Datei hochgeladen hat. Es verschwindet, sobald sie den Ordner einmal verlassen hat.
 
@@ -173,7 +173,7 @@ Markieren Sie die Checkbox in der Kopfzeile, werden alle Listeneinträge ausgew�
 !!! info "Kontakt"
     Die Vorschau einer HTML-Datei in einer Lightbox, einem Fenster über der aktuellen Seite, setzt eine Inhaltsdomäne (separate Adresse für Inhalte) voraus. Die Inhaltsdomäne ist Teil der Serverkonfiguration. Für eine Änderung wenden Sie sich an Ihre Organisation.
 
-Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je nach Ihrem Recht im Ordner zum Bearbeiten oder nur zum Ansehen:
+Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je nach Ihrem Recht im Ordner zum Bearbeiten oder nur zum Ansehen. Schreibrecht haben Sie, wenn der Ordner den Button "Dateien hochladen" zeigt.
 
 - **Mit Schreibrecht** öffnet sich die Datei im HTML-Editor in einem neuen Browserfenster.
 - **Mit reinem Leserecht** öffnet sich eine Vorschau der Datei in einer Lightbox über der aktuellen Seite.
@@ -181,6 +181,8 @@ Wenn Sie in einem Ordner auf eine HTML-Datei klicken, öffnet OpenOlat sie je na
 Die Vorschau in der Lightbox liefert die Datei über die [Inhaltsdomäne](Content_Domain.de.md) aus. HTML-Code und Skripte aus der Datei erhalten so keinen Zugriff auf Ihre OpenOlat-Sitzung.
 
 Ohne Inhaltsdomäne öffnet sich eine HTML-Datei auch bei reinem Leserecht in einem neuen Browserfenster.
+
+Editor, Vorschau und neues Browserfenster gibt es, solange in der System-Administration das Häkchen ["Dateidownload in Ordner erzwingen"](../../manual_admin/administration/Login_Security.de.md#files) nicht gesetzt ist. Ist es gesetzt, lädt ein Klick auf den Dateinamen die HTML-Datei herunter, mit Schreibrecht wie mit Leserecht. Mit Schreibrecht öffnen Sie die Datei dann im 3-Punkte-Menü mit "Bearbeiten" im HTML-Editor.
 
 
 ## Papierkorb [:octicons-tag-16:{ title="ab Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
@@ -218,6 +220,7 @@ Die Dateien im Papierkorb können automatisch nach einer bestimmten Zeit gelösc
 [Kurs-Administration: Archivierung & Reports >](../learningresources/Course_Archiving/index.de.md)<br>
 [Konzept des File Hub >](File_Hub_Concept.de.md)<br>
 [Allgemeines zur Suche >](Search_General/index.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [Inhaltsdomäne >](Content_Domain.de.md)
 
 **Weiterführend**<br>

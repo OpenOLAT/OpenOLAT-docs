@@ -5,7 +5,7 @@
 Name | Ordner
 ---------|----------
 Icon | :o_icon_o_bc_icon:
-Verfügbar seit | Neuauflage mit Release 19.1
+Verfügbar seit | Neuauflage mit Release 19.0 (OO-7490)
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Bereitstellung von Dateien zum Download (z.B. Material zum Kurs)
 Bewertbar | nein
@@ -22,12 +22,12 @@ Mit dem Kursbaustein "Ordner" stellen Sie den Teilnehmenden Ihres Kurses Dateien
 
 === "Tab Lernpfad mit fixen Zeitangaben"
 
-    ![Freigabedatum und Zu bearbeiten bis mit festen Datums- und Zeitfeldern, Erledigungskriterium Kursbaustein öffnen](assets/course_element_folder_tab_learning_path_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad mit fixen Zeitangaben im Kurseditor" }
+    ![Tab Lernpfad des Kursbausteins Ordner im Kurseditor: ohne Relatives Datum geben Sie Freigabedatum und Zu bearbeiten bis als feste Daten mit Uhrzeit an](assets/course_element_folder_tab_learning_path_v2_de.png){ class="shadow lightbox" title="Tab Lernpfad mit fixen Zeitangaben im Kurseditor · 2026.11.27" }
 
 
 === "Tab Lernpfad mit relativen Zeitangaben"
 
-    ![Relatives Datum aktiviert, Freigabedatum und Zu bearbeiten bis als Tage nach Erster Kursbesuch des Teilnehmenden](assets/course_element_folder_tab_learning_path_relativ_v1_de.png){ class="shadow lightbox" title="Tab Lernpfad mit relativen Zeitangaben im Kurseditor" }
+    ![Tab Lernpfad des Kursbausteins Ordner: mit Häkchen bei Relatives Datum geben Sie Freigabedatum und Zu bearbeiten bis in Tagen nach einem Bezugspunkt an, etwa Erster Kursbesuch des Teilnehmenden](assets/course_element_folder_tab_learning_path_relativ_v2_de.png){ class="shadow lightbox" title="Tab Lernpfad mit relativen Zeitangaben im Kurseditor · 2026.11.27" }
 
 
 #### Durchführung {: #execution}
@@ -44,8 +44,7 @@ Vor dem Freigabedatum sehen die Teilnehmenden den Ordner, können ihn aber nicht
 
 #### Zu bearbeiten bis {: #due_date}
 
-Bis zum angegebenen Zeitpunkt können die Teilnehmenden den Ordner öffnen und bearbeiten.
-Ohne Angabe bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+Bis zum angegebenen Zeitpunkt können die Teilnehmenden den Ordner öffnen und bearbeiten. Ohne Angabe bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
 
 #### Bearbeitungszeit {: #learning_time}
 
@@ -89,7 +88,7 @@ Mit "Erweiterte Konfiguration anzeigen" vergeben Sie das Recht auch an bestimmte
 
 ![Dateiliste mit einer ausgewählten Datei und den Aktionen Herunterladen, Zippen, Kopieren nach, Verschieben nach, E-Mail versenden und Löschen](assets/course_element_folder_view_editor_closed_v1_de.png){ class="shadow lightbox" title="Kursbaustein Ordner bei geschlossenem Kurseditor · 2026.11.03" }
 
-Auch bei geschlossenem Kurseditor arbeiten Sie im Kurs direkt mit den Dateien des Ordners. Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprechenden Berechtigung zur Verfügung:
+Auch bei geschlossenem Kurseditor arbeiten Sie im Kurs direkt mit den Dateien des Ordners. Folgende Möglichkeiten stehen den Besitzer:innen des Kurses und allen Personen mit "Vollzugriff" zur Verfügung (siehe [Berechtigungen](#user_rights)):
 
 ### Dateien hinzufügen
 
@@ -111,18 +110,18 @@ Auch bei geschlossenem Kurseditor arbeiten Sie im Kurs direkt mit den Dateien de
 
 ## Weitere Optionen und Anpassungen des Kursbausteins {: #further_options}
 
-Wer über neue Dateien im Ordner informiert sein will, abonniert die Änderungen im Ordner. Die Ansicht passen Sie an, indem Sie zwischen der Kachelansicht und der Tabellenansicht wechseln. In der Tabellenansicht wählen Sie die angezeigten Spalten und sehen so mehr Details als in der Kachelansicht. Mit der Suche finden Sie Dateien schnell. Gelöschte Dateien verschiebt OpenOlat in den "Papierkorb".
+Wer über neue Dateien im Ordner informiert sein will, abonniert die Änderungen im Ordner. Die Ansicht passen Sie an, indem Sie zwischen der Kachelansicht und der Tabellenansicht wechseln. In der Tabellenansicht wählen Sie die angezeigten Spalten und sehen so mehr Details als in der Kachelansicht. Mit der Suche finden Sie Dateien schnell. Gelöschte Dateien verschiebt OpenOlat in den ["Papierkorb"](../basic_concepts/Folder_Concept.de.md#paper_basket). Mit den Buttons "Ordner" und "Dateien" über der Liste wechseln Sie zwischen der Ansicht mit Ordnern und der Liste aller Dateien, siehe [Ordnerkonzept](../basic_concepts/Folder_Concept.de.md#view).
 
-Im 3-Punkte-Menü des Kursbausteins öffnen Sie mit "WebDAV-Link" den Link für die [WebDAV-Verbindung](../basic_concepts/Using_WebDAV.de.md) und wählen "Metadaten aktualisieren".
+Im 3-Punkte-Menü oben rechts im Ordner öffnen Sie mit "WebDAV-Link" den Link für die [WebDAV-Verbindung](../basic_concepts/Using_WebDAV.de.md). Mit "Metadaten aktualisieren" gleicht OpenOlat die Metadaten mit den Dateien ab, die im Ordner liegen.
 
 
 ### Metadaten {: #metadata}
 
-Mit den [Metadaten](../basic_concepts/Search_General/index.de.md#metadata) beschreiben Sie eine Datei genauer. Kursbesitzer:innen bearbeiten sie über das 3-Punkte-Menü der Datei.
+Mit den [Metadaten](../basic_concepts/Search_General/index.de.md#metadata) beschreiben Sie eine Datei genauer. Sie öffnen sie im 3-Punkte-Menü der Datei mit "Metadaten". Wer im Ordner Dateien hochladen und bearbeiten darf, also die Besitzer:innen des Kurses und alle Personen mit "Vollzugriff", bearbeitet die Metadaten dort. Wer im Ordner nur lesen darf, etwa Teilnehmer:innen ohne "Vollzugriff", sieht sie in einer Nur-Lese-Ansicht.
 
-Neben der Beschreibung und der Sperre sind besonders die Lizenzangaben wichtig. Dort hinterlegen Sie eine Lizenz für das Dokument, zum Beispiel eine der Creative-Commons-Lizenzen, tragen den Lizenzgeber ein und ergänzen Angaben zum Herausgeber, zur Quelle oder zum Erscheinungsdatum. Der Ordner zeigt die Lizenz in einer eigenen Spalte. Ein Klick auf die Lizenz zeigt die hinterlegten Angaben.
+Neben der Beschreibung und der Sperre sind besonders die Lizenzangaben wichtig. Dort hinterlegen Sie eine Lizenz für das Dokument, zum Beispiel eine der Creative-Commons-Lizenzen, tragen den Lizenzgeber ein und ergänzen Angaben zum Herausgeber, zur Quelle oder zum Erscheinungsdatum. In der Tabellenansicht zeigt der Ordner die Lizenz in einer eigenen Spalte. Ein Klick auf die Lizenz zeigt die hinterlegten Angaben.
 
-Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General/index.de.md#metadata). Das Feld "Externer Link zu dieser Ressource" zeigt den Link, der direkt auf die Datei führt. Sie kopieren ihn oder geben ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). Ob auch externe Personen die Datei öffnen, hängt von den Zugangseinstellungen des Kurses ab.
+Das Feld "Anzahl Ansichten" in den Metadaten zeigt, wie oft eine Datei heruntergeladen wurde. Was genau zählt, steht unter [Metadaten](../basic_concepts/Search_General/index.de.md#metadata). Das Feld "Externer Link zu dieser Ressource" zeigt den Link, der direkt auf die Datei führt. Sie kopieren ihn oder geben ihn als QR-Code weiter, siehe [Links kopieren und als QR-Code weitergeben](../basic_concepts/Navigation.de.md#url_field). Ob auch Personen, die nicht Mitglied des Kurses sind, die Datei über den Link öffnen, hängt von den Zugangseinstellungen des Kurses ab.
 
 
 ### Dateien bearbeiten [:octicons-tag-16:{ title="ab Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
@@ -137,6 +136,7 @@ Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie do
 [Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Persönliche Werkzeuge: File Hub >](../personal_menu/File_Hub.de.md)<br>
 [Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
+[Ordnerkonzept >](../basic_concepts/Folder_Concept.de.md)<br>
 [Einsatz von WebDAV >](../basic_concepts/Using_WebDAV.de.md)<br>
 [Allgemeines zur Suche >](../basic_concepts/Search_General/index.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>

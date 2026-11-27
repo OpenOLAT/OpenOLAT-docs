@@ -81,7 +81,7 @@ Für Systemadministrator:innen gilt:
 
 - Die Inhaltsdomäne braucht eine eigene Domain, die keine Cookies mit der OpenOlat-Adresse teilt. Eine Subdomain der OpenOlat-Adresse, etwa `content.learn.example.com` zu `learn.example.com`, genügt nicht, weil sie Cookies mit der OpenOlat-Adresse teilen kann.
 - Beide Adressen zeigen auf denselben OpenOlat-Server, zum Beispiel über einen zusätzlichen virtuellen Host im Reverse Proxy.
-- Ohne Inhaltsdomäne liefert OpenOlat die Inhalte über die eigene Adresse aus, ohne diesen Schutz. An einigen Stellen entfernt OpenOlat deshalb die Skripte aus HTML-Dateien, etwa aus der zugewiesenen Aufgabenstellung im Kursbaustein "Aufgabe". HTML-Dateien in Ordnern mit reinem Leserecht öffnen sich in einem neuen Browserfenster statt in der Lightbox.
+- Ohne Inhaltsdomäne liefert OpenOlat die Inhalte über die eigene Adresse aus, ohne diesen Schutz. An einigen Stellen entfernt OpenOlat deshalb die Skripte aus HTML-Dateien, etwa aus der zugewiesenen Aufgabenstellung im Kursbaustein "Aufgabe". HTML-Dateien in Ordnern mit reinem Leserecht öffnen sich in einem neuen Browserfenster statt in der Lightbox. Ist das Häkchen ["Dateidownload in Ordner erzwingen"](../../manual_admin/administration/Login_Security.de.md#files) gesetzt, lädt ein Klick HTML-Dateien in Ordnern und im Kursbaustein "Aufgabe" herunter, mit und ohne Inhaltsdomäne.
 - Zugriffe über die Inhaltsdomäne erhalten eine eigene Sitzung. Sie dient nur der Auslieferung des Inhalts und wird nie zu einer vollständigen OpenOlat-Sitzung. Die Liste der [aktiven Sitzungen](../../manual_admin/administration/System.de.md#active_sessions) in der System-Administration führt solche Sitzungen nicht auf: `Administration > System > Aktive Sitzungen`.
 
 ![OpenOlat-Adresse und Inhaltsdomäne zeigen über den Reverse Proxy auf denselben Server, eine Subdomain ist ungeeignet](assets/content_domain_server_v1_de.svg){ class="shadow lightbox" title="Ein Server mit zwei Adressen · 2026.11.13" }
@@ -114,6 +114,7 @@ OpenOlat folgt mit der Inhaltsdomäne einem Verfahren, das grosse Plattformen se
 [Kursbaustein "Test" >](../learningresources/Course_Element_Test/index.de.md)<br>
 [Ordnerkonzept >](Folder_Concept.de.md)<br>
 [Projekte: Dateien >](../area_modules/Project_Files.de.md)<br>
+[Sicherheit >](../../manual_admin/administration/Login_Security.de.md)<br>
 [System >](../../manual_admin/administration/System.de.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)<br>
 [Content hosting for the modern web >](https://security.googleblog.com/2012/08/content-hosting-for-modern-web.html)<br>

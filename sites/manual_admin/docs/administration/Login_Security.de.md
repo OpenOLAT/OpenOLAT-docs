@@ -14,7 +14,9 @@ Im Tab "Konfiguration" schalten Sie die Sicherheitsfunktionen für die ganze Ins
 
 ### Dateien in Ordnern {: #files}
 
-**Dateidownload in Ordner erzwingen**: Setzen Sie das Häkchen bei "Dateidownload in Ordner erzwingen", damit OpenOlat Dateien aus Ordnern herunterlädt, statt sie direkt im Browser zu öffnen. Damit verhindern Sie Cross-Site-Scripting (XSS). Das gilt für HTML-Seiten, JavaScript- und SVG-Dateien sowie für Dateien, deren Typ OpenOlat nicht erkennt. Der Kursbaustein "HTML-Seite" ist von diesem Mechanismus nicht betroffen.
+**Dateidownload in Ordner erzwingen**: Setzen Sie das Häkchen bei "Dateidownload in Ordner erzwingen", damit OpenOlat Dateien aus Ordnern herunterlädt, statt sie direkt im Browser zu öffnen. Damit verhindern Sie Cross-Site-Scripting (XSS). Das gilt für HTML-Seiten, JavaScript- und SVG-Dateien sowie für Dateien, deren Typ OpenOlat nicht erkennt. Dieselbe Regel gilt für die Dokumente in den Kursbausteinen "Aufgabe", "Gruppenaufgabe" und "Dateidiskussion". Der Kursbaustein "HTML-Seite" ist von diesem Mechanismus nicht betroffen. Nach einer Neuinstallation ist das Häkchen gesetzt.
+
+Für alle, die mit Ordnern arbeiten, ändert das Häkchen den Klick auf den Dateinamen einer Datei dieser Typen: Die Datei lädt herunter. Eine HTML-Datei öffnet sich deshalb nicht mehr im HTML-Editor oder in einer Vorschau. Wer im Ordner Dateien bearbeiten darf, öffnet sie weiterhin im 3-Punkte-Menü mit "Bearbeiten", siehe [HTML-Dateien öffnen](../../manual_user/basic_concepts/Folder_Concept.de.md#open_html). Andere Dateien, etwa PDF- oder Word-Dokumente, öffnen sich beim Klick wie ohne Häkchen. Wie jeder Download zählt auch dieser in den [Metadaten](../../manual_user/basic_concepts/Search_General/index.de.md#metadata) der Datei beim Feld "Anzahl Ansichten" mit.
 
 
 ### HTTP-Header {: #headers}
@@ -120,6 +122,8 @@ Im Tab "Medien-Server" legen Sie fest, von welchen Plattformen Personen Videos �
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Ordnerkonzept >](../../manual_user/basic_concepts/Folder_Concept.de.md)<br>
+[Allgemeines zur Suche >](../../manual_user/basic_concepts/Search_General/index.de.md)<br>
 [Persönliche Werkzeuge: Kalender >](../../manual_user/personal_menu/Calendar.de.md)<br>
 [Wie erstelle ich einen Blog? >](../../manual_how-to/blog/blog.de.md)<br>
 [Wie erstelle ich einen Podcast? >](../../manual_how-to/podcast/podcast.de.md)<br>

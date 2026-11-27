@@ -31,7 +31,8 @@ You create statistics per hour, per day, per weekday and per week. For statistic
 **Further reading**<br>
 [Test statistics >](Statistics_Test.md)<br>
 [Survey statistics >](Statistics_Survey.md)<br>
-[Course Administration: Archiving & Reports >](Course_Archiving/index.md)
+[Course Administration: Archiving & Reports >](Course_Archiving/index.md)<br>
+[Course Element "Folder" >](Course_Element_Folder.md)
 
 [To the top of the page ^](#course_statistics)
 

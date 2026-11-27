@@ -14,7 +14,9 @@ In the "Configuration" tab, you switch the security functions on or off for the 
 
 ### Files in folders {: #files}
 
-**Force file download in folders**: Select the checkbox "Force file download in folders" so that OpenOlat downloads files from folders instead of opening them directly in the browser. This prevents cross-site scripting (XSS). This applies to HTML pages, JavaScript and SVG files, and files whose type OpenOlat does not recognise. The course element "HTML page" is not affected by this mechanism.
+**Force file download in folders**: Select the checkbox "Force file download in folders" so that OpenOlat downloads files from folders instead of opening them directly in the browser. This prevents cross-site scripting (XSS). This applies to HTML pages, JavaScript and SVG files, and files whose type OpenOlat does not recognise. The same rule applies to the documents in the course elements "Task", "Group task" and "File dialog". The course element "HTML page" is not affected by this mechanism. After a new installation, the checkbox is selected.
+
+For everyone who works with folders, the checkbox changes the click on the file name of a file of these types: the file downloads. An HTML file therefore no longer opens in the HTML editor or in a preview. Anyone who may edit files in the folder still opens it in the 3-dot menu with "Edit", see [Opening HTML files](../../manual_user/basic_concepts/Folder_Concept.md#open_html). Other files, for example PDF or Word documents, open on a click as they do without the checkbox. Like every download, this one also counts in the [metadata](../../manual_user/basic_concepts/Search_General/index.md#metadata) of the file in the field "Number of views".
 
 
 ### HTTP headers {: #headers}
@@ -118,6 +120,8 @@ In the "Media server" tab, you define from which platforms people may embed vide
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Folder concept >](../../manual_user/basic_concepts/Folder_Concept.md)<br>
+[General information on the search >](../../manual_user/basic_concepts/Search_General/index.md)<br>
 [User tools: Calendar >](../../manual_user/personal_menu/Calendar.md)<br>
 [How do I create a blog? >](../../manual_how-to/blog/blog.md)<br>
 [How do I create a podcast? >](../../manual_how-to/podcast/podcast.md)<br>

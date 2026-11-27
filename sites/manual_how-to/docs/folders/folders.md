@@ -125,16 +125,16 @@ Mounts OpenOlat folders as a network drive on your own computer. This is ideal f
 
 ## Controls that are the same in all folders
 
-All folders use the same component. You will find these features in the Storage folder, in course and group folders, in the Course archive, in the Library, Projects and further areas.
+Folders look the same and work the same everywhere in OpenOlat. You will find these features in the Storage folder, in course and group folders, in the Course archive, in the Library, Projects and further areas.
 
 - **Two views:** Hierarchical with folders or files only; plus tile and table view with selectable columns. The breadcrumb shows the current level.
 - **Search:** By file name, description and creator in the current folder including subfolders (no full-text search within files).
-- **File status:** "Being edited", "locked" (via metadata) and a "New" label right after upload.
-- **Actions:** In the 3-dot menu: move, copy, download, zip and delete per file.
+- **File status:** "Currently being edited", "Locked" (set in the metadata) and the label "New" right after upload.
+- **Actions:** In the 3-dot menu per file, among others download, rename, zip, move, copy, open the metadata and delete.
 - **Drag & drop + multi-upload:** Drag several files at once with the mouse onto the target area.
 - **Bulk actions:** Select multiple entries via checkboxes and process them together.
 - **Create within the folder:** Documents (OnlyOffice: Word/Excel/PowerPoint, diagrams, whiteboard, HTML …), subfolders, video and audio recordings.
-- **Metadata & licenses:** Description, lock, license details (e.g. Creative Commons), Number of views (counts downloads) and direct link per file.
+- **Metadata & licenses:** Description, lock, license details (e.g. Creative Commons), "Number of views" (counts downloads, not the display in the browser) and "External link to this resource" per file. The metadata can be edited by anyone who may upload and edit files in the folder. What exactly "Number of views" counts is described under [Metadata](../../manual_user/basic_concepts/Search_General/index.md#metadata).
 - **Trash can:** Deleted items go to the trash can; system administrators set the automatic deletion period.
 - **Quota / storage limit:** Limit per file and per folder, see [Storage space (quota)](#quota). Also applies to WebDAV upload.
 
@@ -354,6 +354,8 @@ Also remember that the size of individual files and the total storage of a folde
 
 **Mentioned on this page**<br>
 [How do I create my first OpenOlat course? >](../my_first_course/my_first_course.md)<br>
+[General information on the search >](../../manual_user/basic_concepts/Search_General/index.md)<br>
+[What measures can I take to reduce storage space consumption? >](../reduce_storage_consumption/reduce_storage_consumption.md)<br>
 [Folder concept >](../../manual_user/basic_concepts/Folder_Concept.md)<br>
 [Course Element "Folder" >](../../manual_user/learningresources/Course_Element_Folder.md)<br>
 [Course Element "Participant folder" >](../../manual_user/learningresources/Course_Element_Participant_Folder.md)<br>
@@ -367,8 +369,7 @@ Also remember that the size of individual files and the total storage of a folde
 [User tools: File Hub >](../../manual_user/personal_menu/File_Hub.md)<br>
 [Sites and modules >](../../manual_user/area_modules/index.md)<br>
 [Module Document Pool >](../../manual_admin/administration/Modules_Document_pool.md)<br>
-[Course Administration: Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)<br>
-[What measures can I take to reduce storage space consumption? >](../reduce_storage_consumption/reduce_storage_consumption.md)
+[Course Administration: Archiving & Reports >](../../manual_user/learningresources/Course_Archiving/index.md)
 
 **Further reading**<br>
 [File Hub Concept >](../../manual_user/basic_concepts/File_Hub_Concept.md)<br>

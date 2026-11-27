@@ -81,7 +81,7 @@ The following applies to system administrators:
 
 - The content domain needs a domain of its own that does not share cookies with the OpenOlat address. A subdomain of the OpenOlat address, such as `content.learn.example.com` for `learn.example.com`, is not sufficient because it can share cookies with the OpenOlat address.
 - Both addresses point to the same OpenOlat server, for example via an additional virtual host in the reverse proxy.
-- Without a content domain, OpenOlat delivers the content via its own address, without this protection. In some places, OpenOlat therefore removes the scripts from HTML files, for example from the assignment allocated in the course element "Task". HTML files in folders with read-only access open in a new browser window instead of in the lightbox.
+- Without a content domain, OpenOlat delivers the content via its own address, without this protection. In some places, OpenOlat therefore removes the scripts from HTML files, for example from the assignment allocated in the course element "Task". HTML files in folders with read-only access open in a new browser window instead of in the lightbox. If the checkbox ["Force file download in folders"](../../manual_admin/administration/Login_Security.md#files) is selected, a click downloads HTML files in folders and in the course element "Task", with and without a content domain.
 - Accesses via the content domain receive a session of their own. It only serves to deliver the content and never becomes a full OpenOlat session. The list of [active sessions](../../manual_admin/administration/System.md#active_sessions) in the system administration does not show such sessions: `Administration > System > Active sessions`.
 
 ![OpenOlat address and content domain point to the same server via the reverse proxy, a subdomain is unsuitable](assets/content_domain_server_v1_en.svg){ class="shadow lightbox" title="One server with two addresses · 2026.11.13" }
@@ -114,6 +114,7 @@ With the content domain, OpenOlat follows a procedure that large platforms have 
 [Course Element "Test" >](../learningresources/Course_Element_Test/index.md)<br>
 [Folder concept >](Folder_Concept.md)<br>
 [Projects: Files >](../area_modules/Project_Files.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)<br>
 [System >](../../manual_admin/administration/System.md)<br>
 [Installation guide >](../../manual_admin/installation/installGuide.md)<br>
 [Content hosting for the modern web >](https://security.googleblog.com/2012/08/content-hosting-for-modern-web.html)<br>

@@ -5,7 +5,7 @@
 Name | Folder
 ---------|----------
 Icon | :o_icon_o_bc_icon:
-Available since | New edition with release 19.1
+Available since | New edition with release 19.0 (OO-7490)
 Functional group | Knowledge transfer
 Purpose | Provision of files for download (e.g. material for the course)
 Assessable | no
@@ -45,8 +45,7 @@ Before the release date, participants see the folder but cannot open it. From th
 
 #### Due date {: #due_date}
 
-Participants can open and edit the folder up to the specified date.
-Without an entry, the folder remains permanently available from the release date, provided you have access to the course.
+Participants can open and edit the folder up to the specified date. Without an entry, the folder remains permanently available from the release date, provided you have access to the course.
 
 #### Learning time {: #learning_time}
 
@@ -92,7 +91,7 @@ With "Show advanced configuration" you also grant the right to specific groups o
 
 ![File list with one selected file and the actions Download, Zip, Copy to, Move to, Send e-mail and Delete](assets/course_element_folder_view_editor_closed_v1_en.png){ class="shadow lightbox" title="Folder course element with closed course editor · 2026.11.03" }
 
-Even with the course editor closed, you work directly with the files of the folder in the course. The following options are available to course owners and persons with the appropriate authorization:
+Even with the course editor closed, you work directly with the files of the folder in the course. The following options are available to the owners of the course and to all persons with "Full access" (see [User rights](#user_rights)):
 
 
 ### Add files
@@ -116,18 +115,18 @@ Even with the course editor closed, you work directly with the files of the fold
 
 ## Further options and adjustments to the course element {: #further_options}
 
-Anyone who wants to be informed about new files in the folder subscribes to the changes in the folder. You adjust the view by switching between the tile view and the table view. In the table view, you select the displayed columns and thus see more details than in the tile view. With the search you find files quickly. OpenOlat moves deleted files to the "Trash".
+Anyone who wants to be informed about new files in the folder subscribes to the changes in the folder. You adjust the view by switching between the tile view and the table view. In the table view, you select the displayed columns and thus see more details than in the tile view. With the search you find files quickly. OpenOlat moves deleted files to the ["Trash"](../basic_concepts/Folder_Concept.md#paper_basket). With the buttons "Folder" and "Files" above the list, you switch between the view with folders and the list of all files, see [Folder concept](../basic_concepts/Folder_Concept.md#view).
 
-In the 3-dot menu of the course element, you open the link for the [WebDAV connection](../basic_concepts/Using_WebDAV.md) with "WebDAV link" and select "Update metadata".
+In the 3-dot menu at the top right of the folder, you open the link for the [WebDAV connection](../basic_concepts/Using_WebDAV.md) with "WebDAV link". With "Update metadata", OpenOlat matches the metadata with the files that are in the folder.
 
 
 ### Metadata  {: #metadata}
 
-With the [metadata](../basic_concepts/Search_General/index.md#metadata) you describe a file in more detail. Course owners edit it via the 3-dot menu of the file.
+With the [metadata](../basic_concepts/Search_General/index.md#metadata) you describe a file in more detail. You open it in the 3-dot menu of the file with "Metadata". Anyone who may upload and edit files in the folder, that is the owners of the course and all persons with "Full access", edits the metadata there. Anyone who may only read in the folder, for example participants without "Full access", sees it in a read-only view.
 
-In addition to the description and the lock, the license information is particularly important. There you define a license for the document, for example one of the Creative Commons licenses, enter the licensor and add information about the publisher, the source or the publication date. The folder shows the license in a separate column. A click on the license shows the stored information.
+In addition to the description and the lock, the license information is particularly important. There you define a license for the document, for example one of the Creative Commons licenses, enter the licensor and add information about the publisher, the source or the publication date. In the table view, the folder shows the license in a separate column. A click on the license shows the stored information.
 
-The field "Number of views" in the metadata shows how often a file was downloaded. What exactly counts is described under [Metadata](../basic_concepts/Search_General/index.md#metadata). The field "External link to this resource" shows the link that leads directly to the file. You copy it or pass it on as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). Whether external persons can also open the file depends on the access settings of the course.
+The field "Number of views" in the metadata shows how often a file was downloaded. What exactly counts is described under [Metadata](../basic_concepts/Search_General/index.md#metadata). The field "External link to this resource" shows the link that leads directly to the file. You copy it or pass it on as a QR code, see [Copy links and pass them on as a QR code](../basic_concepts/Navigation.md#url_field). Whether persons who are not members of the course can also open the file via the link depends on the access settings of the course.
 
 ### Edit files [:octicons-tag-16:{ title="from Release 14.0 (OO-3939)" }](https://track.frentix.com/issue/OO-3939) {: #edit_files}
 
@@ -141,6 +140,7 @@ Persons with editing rights can switch directly to editing mode for supported fi
 [Course Settings >](Course_Settings/index.md)<br>
 [User tools: File Hub >](../personal_menu/File_Hub.md)<br>
 [User tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[Folder concept >](../basic_concepts/Folder_Concept.md)<br>
 [Using WebDAV >](../basic_concepts/Using_WebDAV.md)<br>
 [General information on the search >](../basic_concepts/Search_General/index.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>

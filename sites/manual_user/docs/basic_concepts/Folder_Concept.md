@@ -143,7 +143,7 @@ Whether someone is currently editing a file or whether it is locked, you see in 
 
 If someone is currently editing a file, it has the status "Currently being edited".
 
-You set the status "Locked" in the [metadata](Search_General/index.md#metadata). You edit the metadata under the three dots at the end of a line.
+You set the status "Locked" in the [metadata](Search_General/index.md#metadata). You open the metadata in the 3-dot menu at the end of a line with "Metadata". Anyone who may upload and edit files in the folder can edit them. Anyone who may only read in the folder sees them in a read-only view.
 
 A newly uploaded file first has the label "New". This way you find it again immediately, for example to move or copy it. Only the person who uploaded the file sees the label. It disappears as soon as this person has left the folder once.
 
@@ -173,7 +173,7 @@ If you select the checkbox in the header, all list entries are selected and high
 !!! info "Contact"
     The preview of an HTML file in a lightbox, a window above the current page, requires a content domain (separate address for content). The content domain is part of the server configuration. For a change, contact your organisation.
 
-When you click an HTML file in a folder, OpenOlat opens it for editing or for viewing only, depending on your access in the folder:
+When you click an HTML file in a folder, OpenOlat opens it for editing or for viewing only, depending on your access in the folder. You have write access if the folder shows the button "Upload files".
 
 - **With write access**, the file opens in the HTML editor in a new browser window.
 - **With read-only access**, a preview of the file opens in a lightbox above the current page.
@@ -181,6 +181,8 @@ When you click an HTML file in a folder, OpenOlat opens it for editing or for vi
 The preview in the lightbox delivers the file through the [content domain](Content_Domain.md). HTML code and scripts from the file therefore have no access to your OpenOlat session.
 
 Without a content domain, an HTML file opens in a new browser window even with read-only access.
+
+Editor, preview and new browser window are available as long as the checkbox ["Force file download in folders"](../../manual_admin/administration/Login_Security.md#files) is not selected in the system administration. If it is selected, a click on the file name downloads the HTML file, with write access as well as with read-only access. With write access, you then open the file in the HTML editor in the 3-dot menu with "Edit".
 
 
 ## Trash [:octicons-tag-16:{ title="from Release 19.0 (OO-7541)" }](https://track.frentix.com/issue/OO-7541) {: #paper_basket}
@@ -218,6 +220,7 @@ The files in the trash can be deleted automatically after a certain period of ti
 [Course Administration: Archiving & Reports >](../learningresources/Course_Archiving/index.md)<br>
 [File Hub Concept >](File_Hub_Concept.md)<br>
 [General information on the search >](Search_General/index.md)<br>
+[Security >](../../manual_admin/administration/Login_Security.md)<br>
 [Content domain >](Content_Domain.md)
 
 **Further reading**<br>

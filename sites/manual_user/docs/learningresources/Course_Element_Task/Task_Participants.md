@@ -26,11 +26,11 @@ In the course element you see all steps of the task (workflow) one below the oth
 
 ## Download assigned tasks {: #process_task_download}
 
-Depending on the configuration, one or more tasks are available for selection in the step "Task assignment", or a task is automatically assigned to you. If the title of the task file is linked for several tasks, you can view the task before selecting it. If you only have the "Select" button, you cannot view the task in advance. If the task is the template for the submission, the button is called "Select and edit". With automatic assignment you receive the task as soon as you open the course element before the deadline.
+Depending on the configuration, one or more tasks are available for selection in the step "Task assignment", or a task is automatically assigned to you. If the title of the task file is linked for several tasks, you can view the task before selecting it. If you only have the "Select" button, you cannot view the task in advance. If the task is the template for the submission, the button is called "Select and edit": OpenOlat then creates a copy of the task file in the step "Task submission", which you edit and submit. With automatic assignment you receive the task as soon as you open the course element before the assignment deadline.
 
 If you have selected a task or a task has been automatically assigned to you, click on "Download task" to download or display the task. If you click on the file name of the task, OpenOlat displays the task. You can then download the task again at any time.
 
-HTML files, whether assignment, submitted document or sample solution, open in a lightbox, and scripts in them only run if a [content domain](../../basic_concepts/Content_Domain.md) (separate address for content) is set up. [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
+HTML files, whether assignment, submitted document or sample solution, open in a lightbox, and scripts in them only run if a [content domain](../../basic_concepts/Content_Domain.md) (separate address for content) is set up. If the checkbox "Force file download in folders" is selected in the system administration, a click downloads the HTML file instead. [:octicons-tag-16:{ title="from Release 21.0 (OO-7554)" }](https://track.frentix.com/issue/OO-7554)
 
 It is also possible that your teacher has not stored the task in the course element "Task", but has chosen a different location, e.g. another course element, an HTML page, an external website or has set the task orally in presence or in an online meeting. In this case, the "Task assignment" section does not appear.
 
