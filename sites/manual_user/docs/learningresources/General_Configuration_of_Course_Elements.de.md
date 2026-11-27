@@ -24,7 +24,7 @@ Einen Kurs bauen Sie aus Kursbausteinen auf. Sie können beliebig viele Kursbaus
 
 Um einen Kursbaustein dem Kurs hinzuzufügen, wählen Sie im Kurseditor "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). OpenOlat fügt ihn in der linken Navigation direkt nach dem Kursbaustein ein, den Sie vorher dort gewählt haben, auf derselben Ebene. Ist ganz oben der Kurs selbst gewählt, steht der neue Kursbaustein am Ende des Kurses. Mit Drag&Drop verschieben Sie Kursbausteine jederzeit an den gewünschten Ort.
 
-Zwei Einträge im Dialog "Kursbausteine einfügen" legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) erzeugt aus den ausgewählten Dateien des [Ablageordners](Storage_folder.de.md) je einen Kursbaustein "HTML-Seite", [Mehrere Checklisten](Course_Element_Checklist.de.md#multi) legt mehrere Checklisten nach derselben Vorlage an.
+Zwei Einträge unter "Kursbausteine einfügen" sind Assistenten und legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_Multiple_HTML_Pages.de.md) erzeugt aus den ausgewählten Dateien des [Ablageordners](Storage_folder.de.md) je einen Kursbaustein "HTML-Seite", [Mehrere Checklisten](Course_Element_Multiple_Checklists.de.md) legt mehrere Checklisten nach derselben Vorlage an.
 
 Wählen Sie vor dem Einfügen in der linken Navigation den Kursbaustein, hinter dem der neue stehen soll. Dann müssen Sie den neuen Kursbaustein nicht mehr verschieben. Alle Kursbausteine lassen sich verschieben, duplizieren und löschen. Wie das geht, beschreibt die Seite [Löschen, Verschieben und Kopieren von Kursbausteinen](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md).
 
@@ -138,9 +138,9 @@ Diese Einschränkungen gibt es nur in herkömmlichen Kursen. Brauchen Sie solche
 
 **Auf dieser Seite erwähnt**<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
-[Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
+[Assistent "Mehrere HTML-Seiten" >](Course_Element_Multiple_HTML_Pages.de.md)<br>
 [Ablageordner >](Storage_folder.de.md)<br>
-[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
+[Assistent "Mehrere Checklisten" >](Course_Element_Multiple_Checklists.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
 [Navigation >](../basic_concepts/Navigation.de.md)<br>

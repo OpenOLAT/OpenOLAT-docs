@@ -266,7 +266,7 @@ Select whether the link appears in the course content or in a new window.
 
 !!! tip "Tip"
 
-    You can also upload externally created files to the storage folder of the course or link a resource folder to the course and the storage folder. The "Select" button shows you all HTML and PDF files in the storage folder. You link these files with the course element "HTML page" and thus integrate them into your course. This method is recommended if you want to define the folder structure of the storage folder yourself. If there are many files, the wizard ["Multiple HTML pages"](#multi) creates all course elements in one step.
+    You can also upload externally created files to the storage folder of the course or link a [resource folder](Resource_Folder.md) to the course. The "Select" button shows you all HTML and PDF files in the storage folder. You link these files with the course element "HTML page" and thus integrate them into your course. This method is recommended if you create the HTML files outside of OpenOlat and want to keep their folder structure. If there are many files, the wizard "Multiple HTML pages" creates all course elements in one step. More about this under [Wizard "Multiple HTML pages"](Course_Element_Multiple_HTML_Pages.md).
 
 !!! warning "Attention"
 
@@ -275,34 +275,10 @@ Select whether the link appears in the course content or in a new window.
 
 ## Creating multiple HTML pages at once {: #multi}
 
-If many HTML files are already stored in the storage folder, for example an externally created script with several chapters, the wizard "Multiple HTML pages" creates a separate course element "HTML page" for each file. This way you do not insert each page individually and link it to its file. On request, the wizard also takes over the folder structure of the storage folder as course elements "Structure".
-
-The wizard can be used by anyone who may open the course editor: course owners, administrators, learning resource managers and persons with the [course right "Course editor"](../learningresources/Members_management.md#additional_rights). It is available in conventional courses and in learning path courses.
-
-How to create multiple HTML pages:
-
-1. Upload the files to the [storage folder](../learningresources/Storage_folder.md) of the course. The wizard also offers the files of a resource folder that you have linked to the course.
-2. In the course editor, select the course element in the course menu after or below which the new pages should be placed.
-3. In the toolbar of the course editor, click "Insert course elements" and, in the group "Other", "Multiple HTML pages". The entry is located directly after "HTML page". The dialog "Select the files." opens.<br>
+If many HTML files are stored in the storage folder, the wizard "Multiple HTML pages" creates a separate course element "HTML page" for each file. You find it among the course elements:<br>
 `Course > Administration > Course editor > Insert course elements > Other > Multiple HTML pages`
-4. Tick each file that should become a page of its own. The dialog shows all files and folders of the storage folder, including images, CSS files and scripts. Specifically select the HTML files that participants should see as a page of their own in the course menu. A tick on a folder also selects all files and subfolders in it. "Select all" and "Delete selection" set or remove all ticks at once.
-5. Click "Add after current course element". The new course elements are then placed directly after the selected course element. With "Add as child of current course element" they are placed at the end below the selected course element. If the top entry in the course menu is selected, the dialog only offers "Add as child of current course element".
 
-![A tick on the folder modul-1 also selects the three HTML files in it; at the bottom the two buttons that insert the new pages after or below the selected course element](assets/course_element_html_page_multi_dialog_v1_en.png){ class="shadow lightbox" title="Dialog Select the files. in the course editor · 2026.11.10" }
-
-The dialog closes, and the course menu of the course editor shows the new course elements. Participants see them as soon as you [publish](Using_additional_Course_Editor_Tools.md#publish) the course.
-
-You open the wizard via "Insert course elements". [Quick-Add](Using_additional_Course_Editor_Tools.md#quick_add) creates course elements individually, that is, one HTML page per entry.
-
-### What the wizard creates {: #multi_result}
-
-Each selected file becomes a course element "HTML page" that shows exactly this file. If the file is not an HTML file, a download link appears above the content: the page shows an image directly and a CSS file as text, but a Word document only as a link. Each selected folder becomes a course element "Structure", below which the course elements from this folder are placed. If a folder is not selected, the selected files from it are placed one level higher, directly below the next selected folder or at the selected place in the course menu. The top entry in the dialog stands for the storage folder itself and bears the course title. If you select it as well, for example with "Select all", a course element "Structure" with the course title as "Title" is created for it too, below which all others are placed.
-
-![Course menu after the wizard: the course element Structure modul-1 bears the folder name, below it three HTML pages with the file names including the extension](assets/course_element_html_page_multi_result_v1_en.png){ class="shadow lightbox" title="Course menu in the course editor after the wizard Multiple HTML pages · 2026.11.10" }
-
-As "Title", the wizard takes over the file or folder name, for files including the extension, for example "chapter1.html". Afterwards, give the new course elements understandable titles in the tab "Title and description" so that participants recognize in the course menu what to expect.
-
-In the created HTML pages, the option "Allow links in the entire storage folder" is switched on under "Security settings". This way, links between the pages and to images, CSS files or scripts in other folders of the storage folder work. If you insert an HTML page individually, switch the option on yourself in the [tab "Page content"](#tab_page_content) if required.
+How to use it and what it creates is described under [Wizard "Multiple HTML pages"](Course_Element_Multiple_HTML_Pages.md).
 
 
 ## Differences: Course element page - Course element HTML page {: #page_differences}
@@ -337,7 +313,8 @@ In the created HTML pages, the option "Allow links in the entire storage folder"
 [Toolbar >](Course_Settings_Toolbar.md)<br>
 [Course Element "Document" >](Course_Element_Document.md)<br>
 [Course Element "Folder" >](Course_Element_Folder.md)<br>
-[Course editor tools >](Using_additional_Course_Editor_Tools.md)
+[Resource folder >](Resource_Folder.md)<br>
+[Wizard "Multiple HTML pages" >](Course_Element_Multiple_HTML_Pages.md)
 
 **Further reading**<br>
 [Course Element "Checklist" >](Course_Element_Checklist.md)<br>

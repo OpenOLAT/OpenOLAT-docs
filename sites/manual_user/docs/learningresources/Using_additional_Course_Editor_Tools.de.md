@@ -10,7 +10,7 @@ Während Sie einen Kurs im Kurseditor aufbauen, stehen Ihnen in der Toolbar die 
 
 ## Kursbausteine einfügen
 
-Mit "Kursbausteine einfügen" bauen Sie Ihren Kurs aus. Der Dialog zeigt alle [Kursbausteine](Course_Elements/index.de.md), die Sie in einen Kurs einfügen können, in Gruppen geordnet. Wählen Sie einen Kursbaustein aus, fügt OpenOlat ihn dem Kurs hinzu. Zwei Einträge legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) in der Gruppe "Andere" und [Mehrere Checklisten](Course_Element_Checklist.de.md#multi). Mehr dazu auf der Seite [Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md).
+Mit "Kursbausteine einfügen" bauen Sie Ihren Kurs aus. Der Dialog zeigt alle [Kursbausteine](Course_Elements/index.de.md), die Sie in einen Kurs einfügen können, in Gruppen geordnet. Wählen Sie einen Kursbaustein aus, fügt OpenOlat ihn dem Kurs hinzu. Zwei Assistenten legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_Multiple_HTML_Pages.de.md) in der Gruppe "Andere" und [Mehrere Checklisten](Course_Element_Multiple_Checklists.de.md) in der Gruppe "Wissensüberprüfung". Mehr dazu auf der Seite [Kursbausteine im Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md).
 
 ## Quick-Add [:octicons-tag-16:{ title="ab Release 16.2 (OO-5984)" }](https://track.frentix.com/issue/OO-5984){:target="_blank"} {: #quick_add}
 
@@ -111,8 +111,8 @@ Je nach Kurs zeigt der Assistent danach noch Hinweise an. Mit dem [Katalog 1.0](
 [Mitgliederverwaltung >](Members_management.de.md)<br>
 [Kurs-Administration: Übersicht >](Administration/index.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
-[Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
-[Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
+[Assistent "Mehrere HTML-Seiten" >](Course_Element_Multiple_HTML_Pages.de.md)<br>
+[Assistent "Mehrere Checklisten" >](Course_Element_Multiple_Checklists.de.md)<br>
 [Kursbausteine im Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Zugangskonfiguration / Freigabe >](Access_configuration.de.md)<br>
 [Zugriffsbeschränkungen im Expertenmodus >](Access_Restrictions_in_the_Expert_Mode.de.md)<br>

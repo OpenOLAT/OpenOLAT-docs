@@ -47,8 +47,7 @@ Mit den folgenden Kursbausteinen prüfen Sie insbesondere den Wissensstand der T
 * [:o_icon_o_icon_form: Formular](../Course_Element_Form.de.md)
 * [:o_icon_o_survey_icon: Umfrage](../Course_Element_Survey.de.md)
 * [:o_icon_o_cl_icon: Checkliste](../Course_Element_Checklist.de.md)
-
-Direkt nach "Checkliste" steht im Dialog der Eintrag "Mehrere Checklisten". Damit legen Sie [mehrere Checklisten in einem Schritt](../Course_Element_Checklist.de.md#multi) an.
+* [:o_icon_o_icon_wizard: Mehrere Checklisten](../Course_Element_Multiple_Checklists.de.md) (Assistent)
 
 In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen fasst ein Kursbaustein [Struktur](../Course_Element_Structure.de.md) die Punkte zusammen und bestimmt das Bestehen.
 
@@ -101,12 +100,11 @@ Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
 
 * [:o_icon_o_lti_icon: LTI-Seite](../Course_Element_LTI_Page.de.md)
 * [:o_icon_o_sp_icon: HTML-Seite](../Course_Element_HTML_Page.de.md)
+* [:o_icon_o_icon_wizard: Mehrere HTML-Seiten](../Course_Element_Multiple_HTML_Pages.de.md) (Assistent)
 * [:o_icon_o_tu_icon: Externe Seite](../Course_Element_External_Page.de.md)
 * [:o_icon_o_projectbroker_icon: Themenvergabe](../Course_Element_Topic_Assignment.de.md)
 * [:o_icon_o_ll_icon: Linkliste](../Course_Element_Link_List.de.md)
 * [:o_icon_o_icon_cns: Auswahl](../Course_Element_Selection.de.md)
-
-Direkt nach "HTML-Seite" steht im Dialog der Eintrag "Mehrere HTML-Seiten". Damit legen Sie aus den Dateien des [Ablageordners](../Storage_folder.de.md) [mehrere HTML-Seiten in einem Schritt](../Course_Element_HTML_Page.de.md#multi) an.
 
 ## Allgemeines zu Kursbausteinen
 

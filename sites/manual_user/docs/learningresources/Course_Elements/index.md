@@ -47,8 +47,7 @@ With the following course elements, you check in particular the participants' le
 * [:o_icon_o_icon_form: Form](../Course_Element_Form.md)
 * [:o_icon_o_survey_icon: Survey](../Course_Element_Survey.md)
 * [:o_icon_o_cl_icon: Checklist](../Course_Element_Checklist.md)
-
-Directly after "Checklist", the dialog shows the entry "Multiple checklists". With it, you create [multiple checklists in one step](../Course_Element_Checklist.md#multi).
+* [:o_icon_o_icon_wizard: Multiple checklists](../Course_Element_Multiple_Checklists.md) (wizard)
 
 In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](../Course_Element_Structure.md) combines the points and determines whether a person has passed.
 
@@ -101,12 +100,11 @@ Additional course elements can be found in the group "Other".
 
 * [:o_icon_o_lti_icon: LTI Page](../Course_Element_LTI_Page.md)
 * [:o_icon_o_sp_icon: HTML page](../Course_Element_HTML_Page.md)
+* [:o_icon_o_icon_wizard: Multiple HTML pages](../Course_Element_Multiple_HTML_Pages.md) (wizard)
 * [:o_icon_o_tu_icon: External page](../Course_Element_External_Page.md)
 * [:o_icon_o_projectbroker_icon: Topic Assignment](../Course_Element_Topic_Assignment.md)
 * [:o_icon_o_ll_icon: Link list](../Course_Element_Link_List.md)
 * [:o_icon_o_icon_cns: Selection](../Course_Element_Selection.md)
-
-Directly after "HTML page", the dialog shows the entry "Multiple HTML pages". With it, you create [multiple HTML pages in one step](../Course_Element_HTML_Page.md#multi) from the files of the [storage folder](../Storage_folder.md).
 
 ## General information on course elements
 

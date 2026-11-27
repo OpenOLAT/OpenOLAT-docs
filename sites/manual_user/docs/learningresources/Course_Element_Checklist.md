@@ -20,9 +20,7 @@ As an informational work aid that supports participants in completing smaller ta
 
 If a checklist has been given a submission date, it cannot be edited afterwards. Below the submission date and rating information is the actual list with all the checkboxes, including any information and files to download. If a checkbox appears grayed out, either only coaches can check it, or the submission date has already passed.
 
-Several checklists can also be added at once. This procedure is useful if you need several identical checklists. Several (maximum 12) modules with the same check elements are created and bundled with a structure module. A title is automatically created for each module, but changes are possible. Each module can then be given a specific delivery date.
-
-Thus, several checklists with identical check criteria but for different groups, for different objects to be checked, for different event dates or for checking the same object at different points in time (development) can be created relatively quickly.
+If you need the same checklist several times, for example for different dates, create them in one go with the [wizard "Multiple checklists"](Course_Element_Multiple_Checklists.md).
 
 ## Create and configure a checklist [:octicons-tag-16:{ title="from Release 9.4 (OO-936)" }](https://track.frentix.com/issue/OO-936){:target="_blank"}
 
@@ -157,35 +155,25 @@ Altogether you have four ways to edit the checklists of participants.
   3. **Edit**: The button opens the overview table in edit mode, in which you edit all checkboxes of all participants.
   4. **Assessment tool**: And finally, you select or deselect checkboxes of individual participants in the [Assessment tool](../learningresources/Assessment_of_course_modules.md) as well.
 
-##  Course element: Multiple checklists [:octicons-tag-16:{ title="from Release 9.4 (OO-937)" }](https://track.frentix.com/issue/OO-937){:target="_blank"} {: #multi}
+## Creating multiple checklists at once {: #multi}
 
-![Icon of the course element Multiple checklists](assets/wizard_434343_64.png)
+If you need the same checklist several times, the wizard "Multiple checklists" creates up to 12 checklists from a common template. You find it among the course elements:<br>
+`Course > Administration > Course editor > Insert course elements > Assessment > Multiple checklists`
 
-If activated by the OpenOlat Admin, the option "Multiple checklists" is also available. It opens the checklist wizard, which enables you to create multiple similar checklists simultaneously. They will be added as child nodes to a structure course element. The checklist group is inserted at the bottom of the course. You can arrange the group or individual checklists afterwards via drag & drop into their correct order.
-
-In the **first** step, create a template for the checklist group to be created by defining the type and number of checkboxes, and configure it in the second step. All lists and settings can be edited separately in the course editor after creation.
-
-The  **second**  step lets you determine how many checklists should be created based on the template defined in the first step. Specify a title, which will then make up the individual checklist titles together with a sequential number. You can adapt the titles in the next step. Here you also define whether and how points are to be awarded or the Pass attribute is to be assigned.
-
-For more information on the other settings, please refer to [Tab Configuration](#tab_configuration). If you configured the checklists to have a deadline, you can define the date in the third step.
-
-The  **third**  step of the wizard allows you to customize the individual checklist titles according to your requirements. Define the individual due dates here, if you enabled the deadline in the previous step. Just leave the date input field blank, if you do not wish to configure a deadline. 
-
-Define the title and description of the parent structure course element in the **fourth**  and last step. Both short title and title are displayed as usual in the course.
-
-In the lower part of the form, you determine whether the course element "Structure" displays assessment information from the checklists and how it combines it. For more information on the course element "Structure" and the assessment information of other course elements, please refer to the chapter Knowledge Transfer - [Structural element: Score](Course_Element_Structure.md#score).
+How to use it and what it creates is described under [Wizard "Multiple checklists"](Course_Element_Multiple_Checklists.md).
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Wizard "Multiple checklists" >](Course_Element_Multiple_Checklists.md)<br>
 [Assessment of course modules >](../learningresources/Assessment_of_course_modules.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Levels/Grading >](../learningresources/Assessment_translate_points_in_grades.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
-[Course Element "Structure" >](Course_Element_Structure.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)
 
 **Further reading**<br>
-[Badges >](../learningresources/OpenBadges.md)
+[Badges >](../learningresources/OpenBadges.md)<br>
+[Course Element "Structure" >](Course_Element_Structure.md)
 
 [To the top of the page ^](#course_element_checklist)
 

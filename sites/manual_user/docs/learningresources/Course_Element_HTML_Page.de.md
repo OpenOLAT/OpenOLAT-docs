@@ -265,7 +265,7 @@ Wählen Sie, ob der Link im Kursinhalt oder in einem neuen Fenster erscheint.
 
 !!! tip "Tipp"
 
-    Sie können auch extern erstellte Dateien in den Ablageordner des Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner verbinden. Der Button "Auswählen" zeigt Ihnen alle HTML- und PDF-Dateien im Ablageordner. Diese Dateien verknüpfen Sie mit dem Kursbaustein "HTML-Seite" und binden sie so in Ihren Kurs ein. Dieser Weg empfiehlt sich, wenn Sie die Ordnerstruktur des Ablageordners selbst bestimmen möchten. Sind es viele Dateien, legt der Assistent ["Mehrere HTML-Seiten"](#multi) alle Kursbausteine in einem Schritt an.
+    Sie können auch extern erstellte Dateien in den Ablageordner des Kurses hochladen oder einen [Ressourcenordner](Resource_Folder.de.md) mit dem Kurs verknüpfen. Der Button "Auswählen" zeigt Ihnen alle HTML- und PDF-Dateien im Ablageordner. Diese Dateien verknüpfen Sie mit dem Kursbaustein "HTML-Seite" und binden sie so in Ihren Kurs ein. Dieser Weg empfiehlt sich, wenn Sie die HTML-Dateien ausserhalb von OpenOlat erstellen und ihre Ordnerstruktur behalten möchten. Sind es viele Dateien, legt der Assistent "Mehrere HTML-Seiten" alle Kursbausteine in einem Schritt an. Mehr dazu unter [Assistent "Mehrere HTML-Seiten"](Course_Element_Multiple_HTML_Pages.de.md).
 
 
 !!! warning "Achtung"
@@ -275,34 +275,10 @@ Wählen Sie, ob der Link im Kursinhalt oder in einem neuen Fenster erscheint.
 
 ## Mehrere HTML-Seiten auf einmal anlegen {: #multi}
 
-Liegen bereits viele HTML-Dateien im Ablageordner, etwa ein extern erstelltes Skript mit mehreren Kapiteln, legt der Assistent "Mehrere HTML-Seiten" für jede Datei einen eigenen Kursbaustein "HTML-Seite" an. So fügen Sie nicht jede Seite einzeln ein und verknüpfen sie mit ihrer Datei. Auf Wunsch übernimmt der Assistent auch die Ordnerstruktur des Ablageordners als Kursbausteine "Struktur".
-
-Den Assistenten nutzt, wer den Kurseditor öffnen darf: Kursbesitzer:innen, Administrator:innen, Lernressourcenverwalter:innen und Personen mit dem [Kursrecht "Kurseditor"](../learningresources/Members_management.de.md#additional_rights). Er steht in herkömmlichen Kursen und in Lernpfadkursen zur Verfügung.
-
-So legen Sie mehrere HTML-Seiten an:
-
-1. Laden Sie die Dateien in den [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses hoch. Der Assistent bietet auch die Dateien eines Ressourcenordners an, den Sie mit dem Kurs verknüpft haben.
-2. Wählen Sie im Kurseditor im Kursmenü den Kursbaustein, hinter oder unter dem die neuen Seiten stehen sollen.
-3. Klicken Sie in der Toolbar des Kurseditors auf "Kursbausteine einfügen" und in der Gruppe "Andere" auf "Mehrere HTML-Seiten". Der Eintrag steht direkt nach "HTML-Seite". Der Dialog "Wählen Sie die Dateien." öffnet sich.<br>
+Liegen viele HTML-Dateien im Ablageordner, legt der Assistent "Mehrere HTML-Seiten" für jede Datei einen eigenen Kursbaustein "HTML-Seite" an. Sie finden ihn in den Kursbausteinen:<br>
 `Kurs > Administration > Kurseditor > Kursbausteine einfügen > Andere > Mehrere HTML-Seiten`
-4. Setzen Sie ein Häkchen bei jeder Datei, die eine eigene Seite werden soll. Der Dialog zeigt alle Dateien und Ordner des Ablageordners, auch Bilder, CSS-Dateien und Skripte. Wählen Sie gezielt die HTML-Dateien, die Teilnehmende als eigene Seite im Kursmenü sehen sollen. Ein Häkchen bei einem Ordner wählt alle Dateien und Unterordner darin mit aus. "Alle auswählen" und "Auswahl löschen" setzen oder entfernen alle Häkchen auf einmal.
-5. Klicken Sie auf "Nach dem aktuellen Kursbaustein einfügen". Die neuen Kursbausteine stehen dann direkt hinter dem gewählten Kursbaustein. Mit "Als Kind des aktuellen Kursbausteins einfügen" stehen sie am Ende unter dem gewählten Kursbaustein. Ist im Kursmenü der oberste Eintrag gewählt, bietet der Dialog nur "Als Kind des aktuellen Kursbausteins einfügen" an.
 
-![Ein Häkchen beim Ordner modul-1 wählt auch die drei HTML-Dateien darin aus; unten die beiden Buttons, die die neuen Seiten nach oder unter dem gewählten Kursbaustein einfügen](assets/course_element_html_page_multi_dialog_v1_de.png){ class="shadow lightbox" title="Dialog Wählen Sie die Dateien. im Kurseditor · 2026.11.10" }
-
-Der Dialog schliesst sich, und das Kursmenü des Kurseditors zeigt die neuen Kursbausteine. Teilnehmende sehen sie, sobald Sie den Kurs [publizieren](Using_additional_Course_Editor_Tools.de.md#publish).
-
-Den Assistenten öffnen Sie über "Kursbausteine einfügen". [Quick-Add](Using_additional_Course_Editor_Tools.de.md#quick_add) legt Kursbausteine einzeln an, also eine HTML-Seite pro Eingabe.
-
-### Was der Assistent anlegt {: #multi_result}
-
-Jede ausgewählte Datei wird ein Kursbaustein "HTML-Seite", der genau diese Datei zeigt. Ist die Datei keine HTML-Datei, steht über dem Inhalt ein Link zum Herunterladen: Ein Bild zeigt die Seite direkt an, eine CSS-Datei als Text, ein Word-Dokument dagegen nur als Link. Jeder ausgewählte Ordner wird ein Kursbaustein "Struktur", unter dem die Kursbausteine aus diesem Ordner stehen. Ist ein Ordner nicht ausgewählt, stehen die ausgewählten Dateien daraus eine Ebene höher, direkt unter dem nächsten ausgewählten Ordner oder am gewählten Ort im Kursmenü. Der oberste Eintrag im Dialog steht für den Ablageordner selbst und trägt den Kurstitel. Wählen Sie ihn mit aus, etwa mit "Alle auswählen", entsteht auch für ihn ein Kursbaustein "Struktur" mit dem Kurstitel als "Titel", unter dem alle übrigen stehen.
-
-![Kursmenü nach dem Assistenten: der Kursbaustein Struktur modul-1 trägt den Ordnernamen, darunter drei HTML-Seiten mit den Dateinamen samt Endung](assets/course_element_html_page_multi_result_v1_de.png){ class="shadow lightbox" title="Kursmenü im Kurseditor nach dem Assistenten Mehrere HTML-Seiten · 2026.11.10" }
-
-Als "Titel" übernimmt der Assistent den Datei- oder Ordnernamen, bei Dateien mit Endung, zum Beispiel "kapitel1.html". Geben Sie den neuen Kursbausteinen danach im Tab "Titel und Beschreibung" verständliche Titel, damit Teilnehmende im Kursmenü erkennen, was sie erwartet.
-
-In den angelegten HTML-Seiten ist unter "Sicherheitseinstellungen" die Option "Link in gesamten Ablageordner erlauben" eingeschaltet. So funktionieren Verweise zwischen den Seiten und auf Bilder, CSS-Dateien oder Skripte in anderen Ordnern des Ablageordners. Fügen Sie eine HTML-Seite einzeln ein, schalten Sie die Option bei Bedarf im [Tab "Seiteninhalt"](#tab_page_content) selbst ein.
+Wie Sie ihn nutzen und was er anlegt, steht unter [Assistent "Mehrere HTML-Seiten"](Course_Element_Multiple_HTML_Pages.de.md).
 
 
 ## Unterschiede: Kursbaustein Seite - Kursbaustein HTML-Seite {: #page_differences}
@@ -337,7 +313,8 @@ In den angelegten HTML-Seiten ist unter "Sicherheitseinstellungen" die Option "L
 [Toolbar >](Course_Settings_Toolbar.de.md)<br>
 [Kursbaustein "Dokument" >](Course_Element_Document.de.md)<br>
 [Kursbaustein "Ordner" >](Course_Element_Folder.de.md)<br>
-[Kurseditorwerkzeuge >](Using_additional_Course_Editor_Tools.de.md)
+[Ressourcenordner >](Resource_Folder.de.md)<br>
+[Assistent "Mehrere HTML-Seiten" >](Course_Element_Multiple_HTML_Pages.de.md)
 
 **Weiterführend**<br>
 [Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>

@@ -23,7 +23,7 @@ You build a course from course elements. You can insert any number of course ele
 
 To add a course element to the course, select "Insert course elements" in the course editor and click the desired [course element](Course_Elements/index.md). OpenOlat inserts it in the left navigation directly after the course element you selected there beforehand, on the same level. If the course itself is selected at the very top, the new course element is placed at the end of the course. With Drag&Drop, you move course elements to the desired position at any time.
 
-Two entries in the dialog "Insert course elements" create several course elements in one step: [Multiple HTML pages](Course_Element_HTML_Page.md#multi) creates one course element "HTML page" for each selected file of the [storage folder](Storage_folder.md), [Multiple checklists](Course_Element_Checklist.md#multi) creates several checklists from the same template.
+Two entries under "Insert course elements" are wizards and create several course elements in one step: [Multiple HTML pages](Course_Element_Multiple_HTML_Pages.md) creates one course element "HTML page" for each selected file of the [storage folder](Storage_folder.md), [Multiple checklists](Course_Element_Multiple_Checklists.md) creates several checklists from the same template.
 
 Before inserting, select the course element in the left navigation after which the new one is to be placed. Then you do not need to move the new course element afterwards. You can move, duplicate and delete all course elements. The page [Deleting, Moving and Copying Course Elements](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md) describes how this works.
 
@@ -136,9 +136,9 @@ These restrictions only exist in conventional courses. If you need such targeted
 
 **Mentioned on this page**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
-[Course Element "HTML page" >](Course_Element_HTML_Page.md)<br>
+[Wizard "Multiple HTML pages" >](Course_Element_Multiple_HTML_Pages.md)<br>
 [Storage folder >](Storage_folder.md)<br>
-[Course Element "Checklist" >](Course_Element_Checklist.md)<br>
+[Wizard "Multiple checklists" >](Course_Element_Multiple_Checklists.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>
 [Navigation >](../basic_concepts/Navigation.md)<br>

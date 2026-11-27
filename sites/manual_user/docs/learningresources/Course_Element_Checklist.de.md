@@ -20,9 +20,7 @@ Als informationelle Arbeitshilfe, die Teilnehmende dabei unterstützt z.B. klein
 
 Wenn eine Checkliste mit einem Abgabedatum versehen wurde, kann diese im Anschluss nicht mehr bearbeitet werden. Unterhalb des Abgabedatums und der Bewertungsinformation steht die eigentliche Liste mit allen Checkboxen, inklusive eventueller Informationen und Dateien zum Download. Erscheint eine Checkbox ausgegraut, können sie entweder nur Betreuer:innen abhaken, oder das Abgabedatum ist bereits abgelaufen.
 
-Es können auch mehrere Checklisten auf einmal hinzugefügt werden. Dieses Vorgehen ist sinnvoll, wenn Sie mehrere identische Checklisten benötigen. Dabei werden mehrere (maximal 12) Bausteine mit denselben Checkelementen erstellt und mit einem Strukturbaustein gebündelt. Für jeden Baustein wird dabei automatisch ein Titel angelegt, Änderungen sind aber möglich. Jeder Baustein kann dann noch mit einem spezifischen Abgabedatum versehen werden.
-
-So können relativ schnell mehrere Checklisten mit identischen Check-Kriterien aber für unterschiedliche Gruppen, für unterschiedliche zu checkende Objekte, für unterschiedliche Veranstaltungstermine oder zur Überprüfung desselben Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.
+Brauchen Sie dieselbe Checkliste mehrmals, etwa für verschiedene Termine, legen Sie sie mit dem [Assistenten "Mehrere Checklisten"](Course_Element_Multiple_Checklists.de.md) in einem Durchgang an.
 
 ## Checkliste erstellen und einrichten [:octicons-tag-16:{ title="ab Release 9.4 (OO-936)" }](https://track.frentix.com/issue/OO-936){:target="_blank"}
 
@@ -156,34 +154,24 @@ Insgesamt stehen Ihnen vier Wege zur Verfügung, die Checklisten der Teilnehmend
   3. **Editieren**: Die Schaltfläche öffnet die Übersichtstabelle im Bearbeitungsmodus, in dem Sie alle Checkboxen aller Teilnehmenden bearbeiten.
   4. **Bewertungswerkzeug**: Zu guter Letzt wählen Sie Checkboxen einzelner Teilnehmender auch im [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) aus oder ab.
 
-## Kursbaustein "Mehrere Checklisten" [:octicons-tag-16:{ title="ab Release 9.4 (OO-937)" }](https://track.frentix.com/issue/OO-937){:target="_blank"} {: #multi}
+## Mehrere Checklisten auf einmal anlegen {: #multi}
 
-![Symbol des Kursbausteins Mehrere Checklisten](assets/wizard_434343_64.png)
+Brauchen Sie dieselbe Checkliste mehrmals, legt der Assistent "Mehrere Checklisten" bis zu 12 Checklisten nach einer gemeinsamen Vorlage an. Sie finden ihn in den Kursbausteinen:<br>
+`Kurs > Administration > Kurseditor > Kursbausteine einfügen > Wissensüberprüfung > Mehrere Checklisten`
 
-Sofern vom OpenOlat Admin aktiviert, steht Ihnen auch die Option "Mehrere Checklisten" zur Verfügung.  Mit Hilfe eines Checklisten-Wizards können Sie mehrere Listen derselben Art gleichzeitig erstellen. Sie werden zusammen mit einem Struktur-Kursbaustein als Gruppe am Ende Ihres Kurses hinzugefügt. Den Strukturbaustein und die einzelnen Checklisten können Sie im Anschluss mittels Drag & Drop an die jeweils gewünschte Stelle im Kurs verschieben.
-
-Erstellen Sie im **ersten** Schritt eine Vorlage für die zu erstellende Gruppe an Checklisten indem Sie Art und Anzahl der Checkboxen festlegen, und konfigurieren Sie diese im zweiten Schritt. Alle Listen und Einstellungen können im Anschluss im Kurseditor separat bearbeitet werden.
-
-Im **zweiten** Schritt bestimmen Sie wie viele Checklisten anhand der im ersten Schritt definierten Vorlage erstellt werden sollen. Legen Sie einen Titel fest. Die Checklisten erhalten alle diesen Titel und werden durchnummeriert. Den Titel für jede einzelne Checkliste können Sie im nächsten Schritt anpassen. Hier definieren Sie auch, ob und wie Punkte vergeben oder das Attribut Bestanden vergeben werden soll.
-
-Informationen zu den weiteren Einstellungen finden Sie unter [Tab Konfiguration](#tab_configuration). Wenn Sie die Checklisten mit einem Abgabedatum versehen, können Sie dieses im nächsten Schritt definieren.
-
-Im **dritten** Schritt der Checklisten Sammelfunktion können Sie die Titel der einzelnen Checklisten gemäss Ihren Wünschen anpassen. Hier kann nun das Abgabedatum pro Checkliste definiert werden. Möchten Sie bei einer oder mehreren Checklisten ohne Abgabedatum arbeiten, lassen Sie das Datumsfeld leer.
-
-Im **vierten** Schritt definieren Sie Titel und Beschreibung des übergeordneten Struktur-Kursbausteins. Kurztitel und Titel werden wie gewohnt in der Navigation und der Kurselement-Übersicht angezeigt.
-
-Im unteren Teil des Formulars legen Sie fest, ob der Strukturbaustein Bewertungsinformationen aus den Checklisten anzeigt und wie er sie zusammenfasst. Informationen zum Struktur-Kursbaustein und der Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung - [Strukturbaustein: Punkte](Course_Element_Structure.de.md#score).
+Wie Sie ihn nutzen und was er anlegt, steht unter [Assistent "Mehrere Checklisten"](Course_Element_Multiple_Checklists.de.md).
 
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Assistent "Mehrere Checklisten" >](Course_Element_Multiple_Checklists.de.md)<br>
 [Bewertung von Kursbausteinen >](../learningresources/Assessment_of_course_modules.de.md)<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Einstufung/Noten >](../learningresources/Assessment_translate_points_in_grades.de.md)<br>
-[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)<br>
-[Kursbaustein "Struktur" >](Course_Element_Structure.de.md)
+[Kurseinstellungen - Tab Bewertung >](Course_Settings_Assessment/index.de.md)
 
 **Weiterführend**<br>
-[Badges >](../learningresources/OpenBadges.de.md)
+[Badges >](../learningresources/OpenBadges.de.md)<br>
+[Kursbaustein "Struktur" >](Course_Element_Structure.de.md)
 
 [Zum Seitenanfang ^](#course_element_checklist)

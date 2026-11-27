@@ -10,7 +10,7 @@ Via the "Administration" menu of the course you reach further course tools. They
 
 ## Insert course elements
 
-With "Insert course elements" you extend your course. The dialog shows all [course elements](Course_Elements/index.md) that you can insert into a course, sorted into groups. If you select a course element, OpenOlat adds it to the course. Two entries create several course elements in one step: [Multiple HTML pages](Course_Element_HTML_Page.md#multi) in the group "Other" and [Multiple checklists](Course_Element_Checklist.md#multi). More about this on the page [Course elements in the Course editor](../learningresources/General_Configuration_of_Course_Elements.md).
+With "Insert course elements" you extend your course. The dialog shows all [course elements](Course_Elements/index.md) that you can insert into a course, sorted into groups. If you select a course element, OpenOlat adds it to the course. Two wizards create several course elements in one step: [Multiple HTML pages](Course_Element_Multiple_HTML_Pages.md) in the group "Other" and [Multiple checklists](Course_Element_Multiple_Checklists.md) in the group "Assessment". More about this on the page [Course elements in the Course editor](../learningresources/General_Configuration_of_Course_Elements.md).
 
 ## Quick-Add [:octicons-tag-16:{ title="from Release 16.2 (OO-5984)" }](https://track.frentix.com/issue/OO-5984){:target="_blank"} {: #quick_add}
 
@@ -111,8 +111,8 @@ Depending on the course, the wizard then shows further notes. With the [Catalog 
 [Members management >](Members_management.md)<br>
 [Course Administration: Overview >](Administration/index.md)<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
-[Course Element "HTML page" >](Course_Element_HTML_Page.md)<br>
-[Course Element "Checklist" >](Course_Element_Checklist.md)<br>
+[Wizard "Multiple HTML pages" >](Course_Element_Multiple_HTML_Pages.md)<br>
+[Wizard "Multiple checklists" >](Course_Element_Multiple_Checklists.md)<br>
 [Course elements in the Course editor >](../learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Access configuration >](Access_configuration.md)<br>
 [Access Restrictions in the Expert Mode >](Access_Restrictions_in_the_Expert_Mode.md)<br>
