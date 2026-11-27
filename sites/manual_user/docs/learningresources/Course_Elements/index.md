@@ -6,14 +6,14 @@
 
 You build your course from course elements. With them, you provide and structure content, promote collaboration and exchange, check the participants' level of knowledge and handle organizational matters.
 
-The list below organizes the course components into the same groups as the dialog in the course editor:
-![Overview about course Elements](assets/course_elements_index_V1_en.png){ class="shadow lightbox" }
+The list below organizes the course elements into the same groups as the dialog "Insert course elements" in the course editor. You open it under:<br>
+`Course > Administration > Course editor > Insert course elements`
+
+![All course elements that can be inserted into a course, sorted into groups, plus the entries Multiple checklists and Multiple HTML pages](assets/course_elements_index_V1_en.png){ class="shadow lightbox" title="Dialog Insert course elements in the course editor" }
 
 ## Knowledge transfer
 
 The following course elements serve in particular to provide and structure course content. Depending on the module, certain externally created content can also be integrated.
-
-<div class="grid cards" markdown>
 
 * [:o_icon_o_st_icon: Structure](../Course_Element_Structure.md)
 * [:o_icon_o_page_icon: Page](../Course_Element_Page.md)
@@ -32,13 +32,9 @@ The following course elements serve in particular to provide and structure cours
 * [:o_icon_o_edubase_icon: Edubase](../Course_Element_Edubase.md)
 * [:o_icon_o_jupyter_icon: JupyterHub](../Course_Element_JupyterHub.md)
 
-</div>
-
 ## Assessment
 
-The following course elements can be used in particular to test knowledge.
-
-<div class="grid cards" markdown>
+With the following course elements, you check in particular the participants' level of knowledge.
 
 * [:o_icon_o_ms_icon: Assessment](../Course_Element_Assessment.md)
 * [:o_icon_o_gta_icon: Task](../Course_Element_Task/index.md)
@@ -52,21 +48,17 @@ The following course elements can be used in particular to test knowledge.
 * [:o_icon_o_survey_icon: Survey](../Course_Element_Survey.md)
 * [:o_icon_o_cl_icon: Checklist](../Course_Element_Checklist.md)
 
-</div>
-
 Directly after "Checklist", the dialog shows the entry "Multiple checklists". With it, you create [multiple checklists in one step](../Course_Element_Checklist.md#multi).
 
-In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](../Course_Element_Structure.md) takes care of this.
+In most course elements of this group you can award points. You can then set up a [highscore](#highscore) in the tab "HighScore". The points of several course elements can be added up, and passing a course can depend on the assessments of different course elements. In conventional courses, a course element [Structure](../Course_Element_Structure.md) combines the points and determines whether a person has passed.
 
-All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Group task in learning path courses it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../Course_Reminders.md)
+All course elements of this group except Self-test, Practice and Survey have the tab "Reminders"; for Task and Group task in [learning path courses](../Learning_path_course/index.md) it is called "Reminders & to-dos". There you set up emails that OpenOlat sends depending on the progress of the course element, for example if a task or a test has not been worked on by a certain date. The options are similar to those in the menu "Reminders" of the course: `Course > Administration > Reminders`. More about this: [Course Reminders](../Course_Reminders.md)
 
 The group also includes the course elements "Survey" and "Form". With them, you build OpenOlat [forms](../Form_Editor/index.md) for surveys and similar purposes into a course.
 
 ## Communication and collaboration
 
-Course elements in this group are mainly used for collaborative work and exchange among each other. The course elements for [virtual classrooms](#virtual_classrooms) belong to the same group.
-
-<div class="grid cards" markdown>
+You use the course elements of this group mainly for collaboration and exchange among each other. The course elements for [virtual classrooms](#virtual_classrooms) belong to the same group.
 
 * [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.md)
 * [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.md)
@@ -74,13 +66,9 @@ Course elements in this group are mainly used for collaborative work and exchang
 * [:o_icon_o_pf_icon: Participant Folder](../Course_Element_Participant_Folder.md)
 * [:o_icon_o_cmembers_icon: Participant list](../Course_Element_Participant_List.md)
 
-</div>
-
 ### Virtual Classrooms {: #virtual_classrooms}
 
 With the following course elements you use [virtual classrooms](../../basic_concepts/Virtual_classrooms.md) in OpenOlat for synchronous meetings, video conferences or webinars.
-
-<div class="grid cards" markdown>
 
 * [:o_icon_o_vc_icon: Adobe Connect](../Course_Element_Adobe_Connect.md)
 * [:o_icon_o_vc_icon: BigBlueButton](../bigbluebutton/index.md)
@@ -89,8 +77,6 @@ With the following course elements you use [virtual classrooms](../../basic_conc
 * [:o_icon_o_openmeetings_icon: OpenMeetings](../Course_Element_OpenMeetings.md)
 * [:o_icon_o_vitero_icon: vitero](../Course_Element_vitero.md)
 * [:o_icon_o_vc_icon: Zoom](../zoom/index.md)
-
-</div>
 
 Which course elements are available for these purposes and which functionalities each of them offers depends on the configuration of your OpenOlat system.
 
@@ -102,8 +88,6 @@ To be able to use all functionalities you will need a headset and a connected ca
 
 The following course elements are particularly suitable for organizational matters and for the distribution of information.
 
-<div class="grid cards" markdown>
-
 * [:o_icon_o_en_icon: Enrolment](../Course_Element_Enrolment.md)
 * [:o_icon_o_infomsg_icon: Info messages](../Course_Element_Notifications.md)
 * [:o_icon_o_co_icon: E-Mail](../Course_Element_EMail.md)
@@ -111,13 +95,9 @@ The following course elements are particularly suitable for organizational matte
 * [:o_icon_o_cal_icon: Calendar](../Course_Element_Calendar.md)
 * [:o_icon_o_appointment_icon: Appointment scheduling](../Course_Element_Appointment_Scheduling.md)
 
-</div>
-
 ## Other
 
 Additional course elements can be found in the group "Other".
-
-<div class="grid cards" markdown>
 
 * [:o_icon_o_lti_icon: LTI Page](../Course_Element_LTI_Page.md)
 * [:o_icon_o_sp_icon: HTML page](../Course_Element_HTML_Page.md)
@@ -126,9 +106,7 @@ Additional course elements can be found in the group "Other".
 * [:o_icon_o_ll_icon: Link list](../Course_Element_Link_List.md)
 * [:o_icon_o_icon_cns: Selection](../Course_Element_Selection.md)
 
-</div>
-
-Directly after "HTML page", the dialog shows the entry "Multiple HTML pages". With it, you create [multiple HTML pages in one step](../Course_Element_HTML_Page.md#multi) from the files of the storage folder.
+Directly after "HTML page", the dialog shows the entry "Multiple HTML pages". With it, you create [multiple HTML pages in one step](../Course_Element_HTML_Page.md#multi) from the files of the [storage folder](../Storage_folder.md).
 
 ## General information on course elements
 

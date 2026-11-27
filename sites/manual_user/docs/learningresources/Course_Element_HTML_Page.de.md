@@ -58,14 +58,14 @@ Im Tab "Seiteninhalt" legen Sie fest, welche HTML-Datei der Kursbaustein zeigt. 
   * Mit "Erstellen" eine neue HTML-Seite online in OpenOlat anlegen
   * Mit "Auswählen" eine HTML-Datei aus dem Ablageordner wählen
   * Mit "Import" eine extern erstellte HTML-Datei oder eine ZIP-Datei von Ihrem Rechner hochladen
-  * Eine extern erstellte HTML-Datei in den Ablageordner hochladen und dort mit "Auswählen" wählen
+  * Eine extern erstellte HTML-Datei in den Ablageordner hochladen und danach mit "Auswählen" wählen
 
 ![Buttons Vorschau und Auswählen mit dem Menü Erstellen und Import sowie Button Seite bearbeiten hervorgehoben, darunter die Sicherheitseinstellungen](assets/course_element_html_page_tab_pagecontent_v2_de.png){ class="shadow lightbox" title="Tab Seiteninhalt im Kurseditor · 2026.10.08" }
 
 
 Die verknüpfte HTML-Datei bearbeiten Sie im HTML-Editor von OpenOlat, der ähnlich wie ein Textverarbeitungsprogramm funktioniert. Mit "Seite bearbeiten" öffnen Sie die Datei im Editor. Mit "Vorschau" zeigt OpenOlat die verknüpfte Seite in einer Vorschau an. Eine Datei, die Sie mit "Erstellen" anlegen, trägt bereits den Namen des Kursbausteins.
 
-Unter "Sicherheitseinstellungen" legen Sie mit "Link in gesamten Ablageordner erlauben" fest, ob Ihre HTML-Seite auf alle Dateien des Ablageordners verweisen darf. Ist die Option ausgeschaltet, verweist die Seite nur auf Dateien im eigenen Ordner und in dessen Unterordnern. Schalten Sie die Option ein, wenn Ihre HTML-Seite Grafiken, CSS-Dateien oder Skripte aus anderen Ordnern verwendet. Bei einem neu eingefügten Kursbaustein ist sie ausgeschaltet.
+Unter "Sicherheitseinstellungen" legen Sie mit "Link in gesamten Ablageordner erlauben" fest, ob Ihre HTML-Seite auf alle Dateien des Ablageordners verweisen darf. Ist die Option ausgeschaltet, verweist die Seite nur auf Dateien im Ordner, in dem die HTML-Datei liegt, und in dessen Unterordnern. Schalten Sie die Option ein, wenn Ihre HTML-Seite Grafiken, CSS-Dateien oder Skripte aus anderen Ordnern verwendet. Bei einem neu eingefügten Kursbaustein ist sie ausgeschaltet.
 
 Mit "Betreuer:innen erlauben Seite zu editieren" legen Sie fest, ob Betreuer:innen die hinterlegte HTML-Datei bearbeiten dürfen. Betreuer:innen benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor. Unabhängig von dieser Einstellung dürfen Kursbesitzer:innen, Administrator:innen und Lernressourcenverwalter:innen die Seite bearbeiten, ebenso Personen mit dem [Kursrecht "Kurseditor"](../learningresources/Members_management.de.md#additional_rights). Wer die Seite bearbeiten darf, sieht in der Kursansicht rechts über der Seite den Button "Seite bearbeiten".
 
@@ -127,7 +127,7 @@ Hier wählen Sie den Zeichensatz für den JavaScript-Code der Seite. Mit "Gleich
 
 ## Der HTML-Editor {: #html_editor}
 
-An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der HTML-Editor TinyMCE eingebunden.
+Überall, wo Sie in OpenOlat HTML-Seiten erstellen und bearbeiten, arbeiten Sie mit dem HTML-Editor TinyMCE.
 
 ![Menüleiste von Datei bis Tabelle und zweizeilige Werkzeugleiste des HTML-Editors hervorgehoben](assets/course_element_html_page_editor_v2_de.png){ class="shadow lightbox" title="HTML-Editor im Kursbaustein HTML-Seite · 2026.10.08" }
 
@@ -187,7 +187,7 @@ Wie Sie Videos einbinden, beschreibt die Seite [Videos im Kursbaustein "HTML-Sei
     Sie können Ihrer Mediendatei auch noch ein Startbild (Vorschau) hinzufügen.
 
 
-### Videorecording
+### Video aufnehmen {: #video_recording}
 
 Im HTML-Editor nehmen Sie ein Video direkt auf und fügen es in die Seite ein. Wie das geht, beschreibt die Seite ["Video aufnehmen"](../basic_concepts/Video_Recording.de.md).
 
@@ -199,7 +199,7 @@ Für reine Audiodateien bietet der Player die Grundfunktionen: Starten, Stoppen 
 Im Feld "Adresse" geben Sie einen Link auf eine MP3-Datei ein oder laden eine Datei in OpenOlat hoch.
 
 
-### Audiorecording
+### Audio aufnehmen {: #audio_recording}
 
 Im HTML-Editor nehmen Sie auch Audio direkt auf. Wie das geht, beschreibt die Seite ["Audio aufnehmen"](../learningresources/Audio_Recording.de.md).
 

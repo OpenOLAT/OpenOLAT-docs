@@ -3,7 +3,7 @@
 Im Modul Externe Seite legen Sie fest, ob Autor:innen den Kursbaustein "Externe Seite" in ihren Kursen einsetzen können und ob er Daten über Benutzer:innen an die eingebundene Seite weitergibt. Systemadministrator:innen öffnen das Modul in der System-Administration unter:<br>
 `Administration > Module > Externe Seite`
 
-![Modul Externe Seite mit Schalter Eingeschaltet und Checkbox Weitergabe Daten über Benutzer:innen erlaubt](assets/modules_external_page_config_v2_de.png){ class="shadow lightbox" title="Modul Externe Seite in der System-Administration · 2026.11.10" }
+![Modul Externe Seite mit dem Schalter Eingeschaltet und der Checkbox Weitergabe von Daten über Benutzer:innen erlaubt: beide Einstellungen des Moduls auf einen Blick](assets/modules_external_page_config_v3_de.png){ class="shadow lightbox" title="Modul Externe Seite in der System-Administration · 2026.11.27" }
 
 !!! warning "frentix empfiehlt, Domänen getrennt zu halten"
 
@@ -26,7 +26,7 @@ Für externe Anwendungen ist der [Kursbaustein "LTI-Seite"](../../manual_user/le
 
 Mit dem Schalter "Eingeschaltet" entscheiden Sie als Systemadministrator:in, ob der Kursbaustein "Externe Seite" den Autor:innen zur Verfügung steht. Bei einer Neuinstallation ist er ausgeschaltet. Das Update auf Release 20.1 schaltet ihn in jedem Fall ein, damit bestehende Kurse unverändert weiterlaufen.
 
-Welche Seite eine Autorin oder ein Autor einbindet, entscheidet sie oder er allein. Das Modul legt nur fest, ob der Kursbaustein zur Verfügung steht.
+Welche Seite der Kursbaustein zeigt, legen die Autor:innen im Kurs fest. Das Modul legt nur fest, ob der Kursbaustein zur Verfügung steht.
 
 !!! tip "Bestehende Kursbausteine laufen nach dem Ausschalten weiter"
 
@@ -38,11 +38,11 @@ Welche Seite eine Autorin oder ein Autor einbindet, entscheidet sie oder er alle
 
 ## Weitergabe von Daten über Benutzer:innen {: #data_transfer}
 
-Für manche Lernszenarien muss die eingebundene Seite wissen, wer sie aufruft. Dafür kann der Kursbaustein "Externe Seite" im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln: Anmeldename, E-Mail, Vorname, Nachname und die aktuelle IP-Adresse der Benutzer:in.
+Für manche Lernszenarien muss die eingebundene Seite wissen, wer sie aufruft. Dafür kann der Kursbaustein "Externe Seite" im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln: Anmeldename, E-Mail, Vorname, Nachname und die aktuelle IP-Adresse der Benutzer:in. Die externe Anwendung liest sie aus den Headern `X-OLAT-USERNAME`, `X-OLAT-EMAIL`, `X-OLAT-FIRSTNAME`, `X-OLAT-LASTNAME` und `X-OLAT-USERIP`.
 
-Mit der Checkbox "Weitergabe Daten über Benutzer:innen erlaubt" legen Sie fest, ob OpenOlat diese Daten übermittelt. Auf dieser Seite erscheint die Checkbox, sobald das Modul eingeschaltet ist. Dieselbe Einstellung steht in der System-Administration auch unter `Administration > Module > Datenschutz`, dort unabhängig vom Schalter "Eingeschaltet". Die Einstellung gilt für alle Kurse Ihrer Instanz. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
+Mit der Checkbox "Weitergabe von Daten über Benutzer:innen erlaubt" legen Sie fest, ob OpenOlat diese Daten übermittelt. Bei einer Neuinstallation ist sie nicht gesetzt. Im Modul Externe Seite erscheint die Checkbox, sobald das Modul eingeschaltet ist. Dieselbe Einstellung steht in der System-Administration auch unter `Administration > Module > Datenschutz`, dort unabhängig vom Schalter "Eingeschaltet". Die Einstellung gilt für alle Kurse Ihrer Instanz. frentix empfiehlt, die Weitergabe ausgeschaltet zu lassen.
 
-Übermittelt werden die Daten nur bei Kursbausteinen mit der Darstellung "Eingebettet (Quelle verborgen)": Dort ruft OpenOlat die externe Seite selbst ab und schickt die Daten mit der Anfrage mit. Bei "Eingebettet (Quelle sichtbar)" und "Neues Browser-Fenster (Quelle sichtbar)" lädt der Browser der Teilnehmenden die Seite direkt beim externen System. Die Darstellung wählen Autor:innen im [Kursbaustein "Externe Seite"](../../manual_user/learningresources/Course_Element_External_Page.de.md):<br>
+Übermittelt werden die Daten nur bei Kursbausteinen mit der Darstellung "Eingebettet (Quelle verborgen)": Dort ruft OpenOlat die externe Seite selbst ab und schickt die Daten mit der Anfrage mit. Bei "Eingebettet (Quelle sichtbar)" und "Neues Browser-Fenster (Quelle sichtbar)" lädt der Browser der Teilnehmenden die Seite direkt beim externen System. Die Darstellung wählen Autor:innen im [Kursbaustein "Externe Seite"](../../manual_user/learningresources/Course_Element_External_Page.de.md#display):<br>
 `Kurs > Administration > Kurseditor > Kursbaustein "Externe Seite" > Tab "Seiteninhalt"`
 
 ## Weiterführende Informationen {: #further_information}

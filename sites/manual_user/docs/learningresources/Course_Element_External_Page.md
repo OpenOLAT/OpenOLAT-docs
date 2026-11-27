@@ -40,18 +40,22 @@ Instead, refer to the page with the [Link list](Course_Element_Link_List.md). Ad
 
 ## Tab "Page content" configuration
 
-**URL:** You have to fill in this field. Here you indicate the web page on which the desired external content can be found, in the format _https://www.server.com/page.html_.
+In the tab "Page content" you define which page the course element shows and how it presents the page to your participants.
 
-**Configure display:** You can choose between three options:
+#### URL {: #url}
 
-*  _Embedded (source hidden):_ OpenOlat calls up the external page and displays it in a so-called «iframe» in the course window. The external page's Internet address will not be visible to participants. For the page to be displayed completely this way, the embedded HTML pages may only address resources such as images, videos or links with **relative paths**. Content behind absolute paths such as "https://..." or relative absolute paths such as "/public" is loaded by the participants' browser directly from the external page; its address becomes visible in the process.<br>
+In the mandatory field "URL" you indicate the web page on which the desired external content can be found, in the format _https://www.server.com/page.html_.
+
+#### Configure display {: #display}
+
+For the display, you choose one of three options:
+
+*  **Embedded (source hidden):** OpenOlat calls up the external page and displays it in a so-called «iframe» in the course window. The external page's Internet address is not visible to participants. For the page to be displayed completely this way, the embedded HTML pages may only address resources such as images, videos or links with relative paths such as "images/photo.png". Content behind absolute paths such as "https://..." or behind paths that start with a slash, such as "/public", is loaded by the participants' browser directly from the external page; its address becomes visible in the process.<br>
 When you save, OpenOlat calls the address as a test. If OpenOlat cannot reach the page, the message "Unreachable URL" appears at the "URL" field. The cause is either a page that does not respond, or an address in the local network that the "SSRF mitigation" protection of the system administration rejects. If the protection only rejects the address when the page is called up in the course, the course element shows only "Error" instead of the page. An address from the local network can only be allowed through an exception in the server configuration, see [Security](../../manual_admin/administration/Login_Security.md#ssrf). [:octicons-tag-16:{ title="from Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
-*  _Embedded (source visible):_ The participants' browser calls up the external page directly and also displays it in an «iframe». The source code of the OpenOlat page will show you the external page's Internet address. OpenOlat does not call the address when you save.
+*  **Embedded (source visible):** The participants' browser calls up the external page directly and also displays it in an «iframe». Whoever looks at the source code of the OpenOlat page finds the external page's Internet address in it. OpenOlat does not call the address when you save.
 
-*  _New browser window (source visible):_ The course element displays a button that opens the external page in its own browser tab. OpenOlat does not call the address when you save.
-
-**Page password controlled:** This option is only available with the display "Embedded (source hidden)". The access data applies to all participants jointly. It is stored unencrypted in the configuration of the course element and is therefore contained in every course copy and every course export. Do not enter personal access data here.
+*  **New browser window (source visible):** The course element displays a button that opens the external page in a new browser window. OpenOlat does not call the address when you save.
 
 Embedded frames («iframe») resemble single browser windows, however, they are part of the initial window's HTML page.
 
@@ -62,11 +66,19 @@ Disadvantage of using an «iframe»: your content might appear along with its ow
 !!! tip "Choose the variant by display and risk"
 
     The three variants do not only differ in how the page is displayed. With
-    "Embedded (source hidden)" OpenOlat calls up the page; the external page
-    learns nothing about your participants. With the other two variants the
-    participants' browser connects directly to the external page. Weigh both
+    "Embedded (source hidden)" OpenOlat calls up the page. The external page only
+    receives data about your participants if administrators have allowed the
+    [sharing of user data](../../manual_admin/administration/Modules_External_Page.md#data_transfer).
+    In that case OpenOlat transmits username, email, first name, last name and
+    IP address of the person who calls up the page. With the other two variants
+    the participants' browser connects directly to the external page, which
+    receives the participants' IP address in the process. Weigh display and risk
     against each other and test the display options one after the other until the
     linked page is displayed as desired.
+
+#### Page password controlled {: #password_protected}
+
+This option is only available with the display "Embedded (source hidden)". It suits pages whose web server requires a login via the browser when the page is called up (basic authentication). If you switch the option on, the fields "Username" and "Password" appear. OpenOlat logs in to the web server of the external page with this access data on every call. The access data applies to all participants jointly. It is stored unencrypted in the configuration of the course element and is therefore contained in every course copy and every course export. Do not enter personal access data here.
 
 
 ## Further information {: #further_information}

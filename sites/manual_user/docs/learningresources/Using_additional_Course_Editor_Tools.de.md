@@ -14,7 +14,7 @@ Mit "Kursbausteine einfügen" bauen Sie Ihren Kurs aus. Der Dialog zeigt alle [K
 
 ## Quick-Add [:octicons-tag-16:{ title="ab Release 16.2 (OO-5984)" }](https://track.frentix.com/issue/OO-5984){:target="_blank"} {: #quick_add}
 
-Kennen Sie den Namen des Kursbausteins, fügen Sie ihn mit "Quick-Add" schneller ein. Schreiben Sie den Namen in das Feld, und wählen Sie den Kursbaustein aus der Liste. Quick-Add legt jeweils einen Kursbaustein an. Je nach Grösse Ihres Bildschirmfensters zeigt die Toolbar das Feld "Quick-Add" an.
+Kennen Sie den Namen des Kursbausteins, fügen Sie ihn mit "Quick-Add" schneller ein. Schreiben Sie den Namen in das Feld, und wählen Sie den Kursbaustein aus der Liste. Quick-Add legt jeweils einen Kursbaustein an. Für "Mehrere HTML-Seiten" und "Mehrere Checklisten" öffnen Sie "Kursbausteine einfügen". Je nach Grösse Ihres Bildschirmfensters zeigt die Toolbar das Feld "Quick-Add" an.
 
 ## Kursbausteine importieren [:octicons-tag-16:{ title="ab Release 16.1 (OO-5210)" }](https://track.frentix.com/issue/OO-5210){:target="_blank"}
 
@@ -89,17 +89,17 @@ Im Kurseditor bereiten Sie Ihren Kurs in Ruhe vor, bauen ihn auf und gestalten i
 
 Erst wenn Sie den Kurs publizieren, sind die Kursbausteine und Ihre Änderungen bei geschlossenem Kurseditor sichtbar. Damit Teilnehmende den Kurs sehen, muss er zudem veröffentlicht und der Zugang konfiguriert sein, siehe [Zugangskonfiguration / Freigabe](Access_configuration.de.md).
 
-Am schnellsten publizieren Sie, indem Sie den Kurseditor schliessen: Klicken Sie in der Breadcrumb-Navigation auf den Titel des Kurses. OpenOlat fragt, ob Sie automatisch, manuell oder nicht publizieren wollen.
+Am schnellsten publizieren Sie, indem Sie den Kurseditor schliessen: Klicken Sie in der Breadcrumb-Navigation auf den Titel des Kurses. OpenOlat fragt, ob Sie automatisch, manuell oder nicht publizieren wollen. Mit "Automatisch publizieren" publiziert OpenOlat alle Änderungen ohne Assistent. [:octicons-tag-16:{ title="ab Release 10.1 (OO-1338)" }](https://track.frentix.com/issue/OO-1338){:target="_blank"}
 
 Manuelles Publizieren entspricht dem Editorwerkzeug "Publizieren" und führt Sie mit einem Assistenten durch die Schritte.
 
 !!! warning "Achtung"
 
-    Publizieren Sie den Kurs, während Teilnehmende im Kurs arbeiten, gehen deren aktuelle Bewegungsdaten wie nicht gespeicherte Foren- und Wiki-Einträge verloren.
+    Publizieren Sie den Kurs, während Teilnehmende im Kurs arbeiten, verlieren sie alles, was sie noch nicht gespeichert haben, zum Beispiel begonnene Einträge im Forum oder im Wiki.
 
 ### Manuelles Publizieren mit Assistent
 
-Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie geändert haben und veröffentlichen möchten. Die Auswahl enthält nur Kursbausteine, die sich publizieren lassen.
+Schritt 1 - Publizieren der Änderungen von Kursbausteinen: Die Auswahl zeigt die Kursbausteine mit Änderungen, die sich publizieren lassen, und zur Orientierung die übergeordneten Kursbausteine. Alle Kursbausteine mit Änderungen sind bereits angehakt. Entfernen Sie das Häkchen bei Kursbausteinen, deren Änderungen Sie noch nicht publizieren möchten. [:octicons-tag-16:{ title="ab Release 8.4 (OO-519)" }](https://track.frentix.com/issue/OO-519){:target="_blank"}
 
 Schritt 2 - Änderung des Kurszugriffs: Hier legen Sie die generellen Veröffentlichungsoptionen des Kurses fest und bestimmen, welche OpenOlat-Benutzer:innen Zugriff auf Ihren Kurs haben. Welche Optionen zur Verfügung stehen, beschreibt das Kapitel [Kurseinstellungen](Course_Settings/index.de.md). Nach diesem Schritt schliessen Sie das Publizieren mit "Fertigstellen" ab.
 
@@ -120,5 +120,9 @@ Je nach Kurs zeigt der Assistent danach noch Hinweise an. Mit dem [Katalog 1.0](
 [Kurseinstellungen >](Course_Settings/index.de.md)<br>
 [Katalog 1.0 >](../area_modules/catalog1.0.de.md)<br>
 [Katalog 2.0: Übersicht >](../area_modules/catalog2.0/index.de.md)
+
+**Weiterführend**<br>
+[Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
+[Lernpfadkurs - Kurseditor >](Learning_path_course_Course_editor.de.md)
 
 [Zum Seitenanfang ^](#course_editor_tools)

@@ -14,7 +14,7 @@ With "Insert course elements" you extend your course. The dialog shows all [cour
 
 ## Quick-Add [:octicons-tag-16:{ title="from Release 16.2 (OO-5984)" }](https://track.frentix.com/issue/OO-5984){:target="_blank"} {: #quick_add}
 
-If you know the name of the course element, you insert it faster with "Quick-Add". Type the name into the field and select the course element from the list. Quick-Add creates one course element at a time. Depending on the size of your screen window, the toolbar shows the field "Quick-Add".
+If you know the name of the course element, you insert it faster with "Quick-Add". Type the name into the field and select the course element from the list. Quick-Add creates one course element at a time. For "Multiple HTML pages" and "Multiple checklists", open "Insert course elements". Depending on the size of your screen window, the toolbar shows the field "Quick-Add".
 
 ## Import course elements [:octicons-tag-16:{ title="from Release 16.1 (OO-5210)" }](https://track.frentix.com/issue/OO-5210){:target="_blank"}
 
@@ -89,17 +89,17 @@ In the course editor you prepare, set up and design your course at your leisure.
 
 Only once you have published the course are the course elements and your modifications visible with the course editor closed. For participants to see the course, it must also be published and the access configured, see [Access configuration](Access_configuration.md).
 
-The fastest way to publish is to close the course editor: click the course title in the breadcrumb navigation. OpenOlat asks whether you want to publish automatically, manually, or not at all.
+The fastest way to publish is to close the course editor: click the course title in the breadcrumb navigation. OpenOlat asks whether you want to publish automatically, manually, or not at all. With "Publish automatically", OpenOlat publishes all modifications without a wizard. [:octicons-tag-16:{ title="from Release 10.1 (OO-1338)" }](https://track.frentix.com/issue/OO-1338){:target="_blank"}
 
 Publishing manually corresponds to the editor tool "Publish" and guides you through the steps with a wizard.
 
 !!! warning "Attention"
 
-    If you publish the course while participants are working in it, their current activity data such as unsaved forum and wiki entries will be lost.
+    If you publish the course while participants are working in it, they lose everything they have not saved yet, for example started entries in the forum or in the wiki.
 
 ### Manual publishing with wizard
 
-Step 1 - Select course elements: Select all course elements that you have modified and want to publish. The selection only contains course elements that can be published.
+Step 1 - How to publish modifications of course elements: The selection shows the course elements with modifications that can be published and, for orientation, the higher-level course elements. All course elements with modifications are already checked. Remove the checkmark for course elements whose modifications you do not want to publish yet. [:octicons-tag-16:{ title="from Release 8.4 (OO-519)" }](https://track.frentix.com/issue/OO-519){:target="_blank"}
 
 Step 2 - Modification of course access: Here you define the general publishing options of the course and determine which OpenOlat users have access to your course. The chapter [Course Settings](Course_Settings/index.md) describes which options are available. After this step, you complete publishing with "Finish".
 
@@ -120,5 +120,9 @@ Depending on the course, the wizard then shows further notes. With the [Catalog 
 [Course Settings >](Course_Settings/index.md)<br>
 [Catalog 1.0 >](../area_modules/catalog1.0.md)<br>
 [Catalog 2.0: Overview >](../area_modules/catalog2.0/index.md)
+
+**Further reading**<br>
+[Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
+[Learning path course - Course editor >](Learning_path_course_Course_editor.md)
 
 [To the top of the page ^](#course_editor_tools)

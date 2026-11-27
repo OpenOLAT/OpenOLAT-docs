@@ -6,10 +6,10 @@
 
 Aus Kursbausteinen bauen Sie Ihren Kurs auf. Mit ihnen stellen Sie Inhalte bereit und strukturieren sie, fördern Zusammenarbeit und Austausch, prüfen den Wissensstand der Teilnehmenden und regeln Organisatorisches.
 
-Die nachfolgende Auflistung ordnet die Kursbausteine in dieselben Gruppen wie der Dialog im Kurseditor:
-![Übersicht der Kursbausteine in OpenOlat, Zugang über den Kurseditor](assets/course_elements_index_V2_de.png){ class="shadow lightbox" }
+Die nachfolgende Auflistung ordnet die Kursbausteine in dieselben Gruppen wie der Dialog "Kursbausteine einfügen" im Kurseditor. Sie öffnen ihn unter:<br>
+`Kurs > Administration > Kurseditor > Kursbausteine einfügen`
 
-
+![Alle Kursbausteine, die sich in einen Kurs einfügen lassen, nach Gruppen geordnet, dazu die Einträge Mehrere Checklisten und Mehrere HTML-Seiten](assets/course_elements_index_V2_de.png){ class="shadow lightbox" title="Dialog Kursbausteine einfügen im Kurseditor" }
 
 ## Wissensvermittlung
 
@@ -34,7 +34,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
 ## Wissensüberprüfung
 
-Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt werden.
+Mit den folgenden Kursbausteinen prüfen Sie insbesondere den Wissensstand der Teilnehmenden.
 
 * [:o_icon_o_ms_icon: Bewertung](../Course_Element_Assessment.de.md)
 * [:o_icon_o_gta_icon: Aufgabe](../Course_Element_Task/index.de.md)
@@ -50,15 +50,15 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 
 Direkt nach "Checkliste" steht im Dialog der Eintrag "Mehrere Checklisten". Damit legen Sie [mehrere Checklisten in einem Schritt](../Course_Element_Checklist.de.md#multi) an.
 
-In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen übernimmt das ein Kursbaustein [Struktur](../Course_Element_Structure.de.md).
+In den meisten Kursbausteinen dieser Gruppe können Sie Punkte vergeben. Dann können Sie im Tab "HighScore" eine [Rangliste](#highscore) einrichten. Die Punkte mehrerer Kursbausteine lassen sich zusammenzählen, und das Bestehen eines Kurses kann von den Bewertungen verschiedener Kursbausteine abhängen. In herkömmlichen Kursen fasst ein Kursbaustein [Struktur](../Course_Element_Structure.de.md) die Punkte zusammen und bestimmt das Bestehen.
 
-Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den Tab "Erinnerungen", bei Aufgabe und Gruppenaufgabe in Lernpfadkursen heisst er "Erinnerungen & To-dos". Dort richten Sie E-Mails ein, die OpenOlat abhängig vom Bearbeitungsstand des Kursbausteins verschickt, zum Beispiel wenn eine Aufgabe oder ein Test zu einem bestimmten Datum noch nicht bearbeitet ist. Die Möglichkeiten gleichen denen im Menü "Erinnerung" des Kurses: `Kurs > Administration > Erinnerung`. Mehr dazu: [Erinnerungen](../Course_Reminders.de.md)
+Alle Kursbausteine dieser Gruppe ausser Selbsttest, Übung und Umfrage haben den Tab "Erinnerungen", bei Aufgabe und Gruppenaufgabe in [Lernpfadkursen](../Learning_path_course/index.de.md) heisst er "Erinnerungen & To-dos". Dort richten Sie E-Mails ein, die OpenOlat abhängig vom Bearbeitungsstand des Kursbausteins verschickt, zum Beispiel wenn eine Aufgabe oder ein Test zu einem bestimmten Datum noch nicht bearbeitet ist. Die Möglichkeiten gleichen denen im Menü "Erinnerung" des Kurses: `Kurs > Administration > Erinnerung`. Mehr dazu: [Erinnerungen](../Course_Reminders.de.md)
 
 Zur Gruppe gehören auch die Kursbausteine "Umfrage" und "Formular". Mit ihnen binden Sie OpenOlat [Formulare](../Form_Editor/index.de.md) für Befragungen und ähnliche Zwecke in einen Kurs ein.
 
 ## Kommunikation und Kollaboration
 
-Kursbausteine dieser Gruppe werden vor allem für kollaboratives Arbeiten und den Austausch untereinander eingesetzt. Zur selben Gruppe gehören die Kursbausteine für [virtuelle Klassenzimmer](#virtual_classrooms).
+Die Kursbausteine dieser Gruppe setzen Sie vor allem für die Zusammenarbeit und den Austausch untereinander ein. Zur selben Gruppe gehören die Kursbausteine für [virtuelle Klassenzimmer](#virtual_classrooms).
 
 * [:o_icon_o_wiki_icon: Wiki](../Course_Element_Wiki.de.md)
 * [:o_icon_o_fo_icon: Forum](../Course_Element_Forum.de.md)
@@ -106,7 +106,7 @@ Zusätzliche Kursbausteine finden Sie in der Gruppe "Andere".
 * [:o_icon_o_ll_icon: Linkliste](../Course_Element_Link_List.de.md)
 * [:o_icon_o_icon_cns: Auswahl](../Course_Element_Selection.de.md)
 
-Direkt nach "HTML-Seite" steht im Dialog der Eintrag "Mehrere HTML-Seiten". Damit legen Sie aus den Dateien des Ablageordners [mehrere HTML-Seiten in einem Schritt](../Course_Element_HTML_Page.de.md#multi) an.
+Direkt nach "HTML-Seite" steht im Dialog der Eintrag "Mehrere HTML-Seiten". Damit legen Sie aus den Dateien des [Ablageordners](../Storage_folder.de.md) [mehrere HTML-Seiten in einem Schritt](../Course_Element_HTML_Page.de.md#multi) an.
 
 ## Allgemeines zu Kursbausteinen
 

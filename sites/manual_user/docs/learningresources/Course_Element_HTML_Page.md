@@ -58,13 +58,13 @@ In the tab "Page content" you define which HTML file the course element shows. T
   * Use "Create" to create a new HTML page online in OpenOlat
   * Use "Select" to choose an HTML file from the storage folder
   * Use "Import" to upload an externally created HTML file or a ZIP file from your computer
-  * Upload an externally created HTML file to the storage folder and choose it there with "Select"
+  * Upload an externally created HTML file to the storage folder and then choose it with "Select"
 
 ![Preview and Select buttons with the Create and Import menu and the Edit page button highlighted, below them the security settings](assets/course_element_html_page_tab_pagecontent_v2_en.png){ class="shadow lightbox" title="Page content tab in the course editor · 2026.10.08" }
 
 You edit the linked HTML file in the HTML editor of OpenOlat, which works similar to a word processing program. With "Edit page" you open the file in the editor. With "Preview", OpenOlat shows the linked page in a preview. A file that you create with "Create" already has the name of the course element.
 
-Under "Security settings" you define with "Allow links in the entire storage folder" whether your HTML page may refer to all files in the storage folder. If the option is switched off, the page only refers to files in its own folder and its subfolders. Switch the option on if your HTML page uses graphics, CSS files or scripts from other folders. For a newly inserted course element it is switched off.
+Under "Security settings" you define with "Allow links in the entire storage folder" whether your HTML page may refer to all files in the storage folder. If the option is switched off, the page only refers to files in the folder where the HTML file is stored and in its subfolders. Switch the option on if your HTML page uses graphics, CSS files or scripts from other folders. For a newly inserted course element it is switched off.
 
 With "Allow coaches to edit the page" you define whether coaches are allowed to edit the stored HTML file. The coaches do not need course owner rights or access to the course editor. Regardless of this setting, course owners, administrators and learning resource managers can edit the page, as can persons with the [course right "Course editor"](../learningresources/Members_management.md#additional_rights). Whoever is allowed to edit the page sees the "Edit page" button above the page on the right in the course view.
 
@@ -126,7 +126,7 @@ Here you select the character set for the JavaScript code of the page. With "Sam
 
 ## The HTML editor {: #html_editor}
 
-The HTML editor TinyMCE is integrated at all points in OpenOlat where HTML pages are created and edited.
+Wherever you create and edit HTML pages in OpenOlat, you work with the HTML editor TinyMCE.
 
 ![Menu bar from File to Table and two-row toolbar of the HTML editor highlighted](assets/course_element_html_page_editor_v2_en.png){ class="shadow lightbox" title="HTML editor in the course element HTML page · 2026.10.08" }
 
@@ -183,7 +183,7 @@ How to embed videos is described on the page [Videos in course element "HTML pag
     You can also add a start image (preview) to your media file.
 
 
-### Video recording
+### Record video {: #video_recording}
 
 In the HTML editor you record a video directly and insert it into the page. How this works is described on the page ["Video Recording"](../basic_concepts/Video_Recording.md).
 
@@ -195,7 +195,7 @@ For audio-only files, the player offers the basic functions: start, stop and a p
 In the "Address" field, you enter a link to an MP3 file or upload a file to OpenOlat.
 
 
-### Audio recording
+### Record audio {: #audio_recording}
 
 In the HTML editor you can also record audio directly. How this works is described on the page ["Audio Recording"](../learningresources/Audio_Recording.md).
 
@@ -247,7 +247,7 @@ OpenOlat displays mathematical formulas with MathJax.
 You insert emoticons in the way you know from social media.
 
 
-### Hyper links
+### Hyperlinks
 
 You set links to the Internet and links within OpenOlat, for example to certain course elements, also in other courses.<br>
 The links can point to images, videos or the tools in the [Toolbar](Course_Settings_Toolbar.md#available_icons).<br>

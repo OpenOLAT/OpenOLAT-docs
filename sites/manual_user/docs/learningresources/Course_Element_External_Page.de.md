@@ -40,18 +40,22 @@ Verweisen Sie stattdessen mit der [Linkliste](Course_Element_Link_List.de.md) au
 
 ## Tab "Seiteninhalt" konfigurieren
 
-**URL:** Dieses Eingabefeld müssen Sie ausfüllen. Hier geben Sie die Webseite an, auf der die gewünschten externen Inhalte liegen, im Format _https://www.server.com/page.html_.
+Im Tab "Seiteninhalt" legen Sie fest, welche Seite der Kursbaustein zeigt und wie er sie Ihren Teilnehmenden darstellt.
 
-**Darstellung konfigurieren:** Sie können zwischen drei Optionen wählen:
+#### URL {: #url}
 
-*  _Eingebettet (Quelle verborgen):_ OpenOlat ruft die externe Seite ab und zeigt sie in einem sog. «iframe» im Kursfenster an. Die Internet-Adresse der externen Seite ist für Teilnehmende nicht sichtbar. Damit die Seite vollständig auf diesem Weg angezeigt wird, dürfen die eingebundenen HTML-Seiten Ressourcen wie Bilder, Videos oder Links nur mit **relativen Pfaden** ansprechen. Inhalte hinter absoluten Pfaden wie "https://..." oder relativ absoluten Pfaden wie "/public" lädt der Browser der Teilnehmenden direkt bei der externen Seite; deren Adresse wird dabei sichtbar.<br>
+Im Pflichtfeld "URL" geben Sie die Webseite an, auf der die gewünschten externen Inhalte liegen, im Format _https://www.server.com/page.html_.
+
+#### Darstellung konfigurieren {: #display}
+
+Für die Darstellung wählen Sie eine von drei Optionen:
+
+*  **Eingebettet (Quelle verborgen):** OpenOlat ruft die externe Seite ab und zeigt sie in einem sog. «iframe» im Kursfenster an. Die Internet-Adresse der externen Seite ist für Teilnehmende nicht sichtbar. Damit die Seite vollständig auf diesem Weg angezeigt wird, dürfen die eingebundenen HTML-Seiten Ressourcen wie Bilder, Videos oder Links nur mit relativen Pfaden wie "bilder/foto.png" ansprechen. Inhalte hinter absoluten Pfaden wie "https://..." oder hinter Pfaden, die mit einem Schrägstrich beginnen, wie "/public", lädt der Browser der Teilnehmenden direkt bei der externen Seite; deren Adresse wird dabei sichtbar.<br>
 Beim Speichern ruft OpenOlat die Adresse testweise auf. Erreicht OpenOlat die Seite nicht, erscheint beim Feld "URL" die Meldung "Unerreichbare URL". Ursache ist entweder eine Seite, die nicht antwortet, oder eine Adresse im lokalen Netz, die der Schutz "SSRF Mitigation" der System-Administration abweist. Weist der Schutz die Adresse erst beim Aufruf im Kurs ab, zeigt der Kursbaustein statt der Seite nur "Error". Eine Adresse aus dem lokalen Netz lässt sich nur über eine Ausnahme in der Serverkonfiguration freigeben, siehe [Sicherheit](../../manual_admin/administration/Login_Security.de.md#ssrf). [:octicons-tag-16:{ title="ab Release 21.1 (OO-9310)" }](https://track.frentix.com/issue/OO-9310)
 
-*  _Eingebettet (Quelle sichtbar):_ Der Browser der Teilnehmenden ruft die externe Seite direkt ab und zeigt sie ebenfalls in einem «iframe» an. Im Quellcode der OpenOlat-Seite kann die Internet-Adresse der externen Seite eingesehen werden. OpenOlat ruft die Adresse beim Speichern nicht auf.
+*  **Eingebettet (Quelle sichtbar):** Der Browser der Teilnehmenden ruft die externe Seite direkt ab und zeigt sie ebenfalls in einem «iframe» an. Wer den Quellcode der OpenOlat-Seite ansieht, findet darin die Internet-Adresse der externen Seite. OpenOlat ruft die Adresse beim Speichern nicht auf.
 
-*  _Neues Browser-Fenster (Quelle sichtbar):_ Der Kursbaustein zeigt eine Schaltfläche, die die externe Seite in einem eigenen Browser-Tab öffnet. OpenOlat ruft die Adresse beim Speichern nicht auf.
-
-**Seite Passwort geschützt:** Diese Option steht nur bei der Darstellung "Eingebettet (Quelle verborgen)" zur Verfügung. Die Zugangsdaten gelten für alle Teilnehmenden gemeinsam. Sie werden unverschlüsselt in der Konfiguration des Kursbausteins gespeichert und sind damit in jeder Kurskopie und in jedem Kursexport enthalten. Tragen Sie hier keine persönlichen Zugangsdaten ein.
+*  **Neues Browser-Fenster (Quelle sichtbar):** Der Kursbaustein zeigt eine Schaltfläche, die die externe Seite in einem neuen Browser-Fenster öffnet. OpenOlat ruft die Adresse beim Speichern nicht auf.
 
 Eingebettete Frames («iframe») verhalten sich wie eigene Browser-Fenster, die jedoch Bestandteil der HTML-Seite des Ursprungsfensters sind.
 
@@ -63,11 +67,19 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 
     Die drei Varianten unterscheiden sich nicht nur darin, wie die Seite
     angezeigt wird. Bei "Eingebettet (Quelle verborgen)" ruft OpenOlat die Seite
-    ab; die externe Seite erfährt dabei nichts über Ihre Teilnehmenden. Bei den
-    beiden anderen Varianten verbindet sich der Browser der Teilnehmenden direkt
-    mit der externen Seite. Wägen Sie beides gegeneinander ab und testen Sie die
+    ab. Die externe Seite erhält dabei nur dann Daten über Ihre Teilnehmenden,
+    wenn Administrator:innen die [Weitergabe von Daten über Benutzer:innen](../../manual_admin/administration/Modules_External_Page.de.md#data_transfer)
+    erlaubt haben. Dann übermittelt OpenOlat Anmeldename, E-Mail, Vorname,
+    Nachname und IP-Adresse der Person, die die Seite aufruft. Bei den beiden
+    anderen Varianten verbindet sich der Browser der Teilnehmenden direkt mit der
+    externen Seite, die dabei die IP-Adresse der Teilnehmenden erhält. Wägen Sie
+    Anzeige und Risiko gegeneinander ab und testen Sie die
     Darstellungsmöglichkeiten der Reihe nach, bis die verlinkte Seite wie
     gewünscht angezeigt wird.
+
+#### Seite Passwort geschützt {: #password_protected}
+
+Diese Option steht nur bei der Darstellung "Eingebettet (Quelle verborgen)" zur Verfügung. Sie passt zu Seiten, deren Webserver beim Aufruf eine Anmeldung über den Browser verlangt (Basic-Authentifizierung). Schalten Sie die Option ein, erscheinen die Felder "Anmeldename" und "Passwort". OpenOlat meldet sich mit diesen Zugangsdaten bei jedem Abruf beim Webserver der externen Seite an. Die Zugangsdaten gelten für alle Teilnehmenden gemeinsam. Sie werden unverschlüsselt in der Konfiguration des Kursbausteins gespeichert und sind damit in jeder Kurskopie und in jedem Kursexport enthalten. Tragen Sie hier keine persönlichen Zugangsdaten ein.
 
 
 ## Weiterführende Informationen {: #further_information}

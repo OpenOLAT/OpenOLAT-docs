@@ -7,23 +7,23 @@
 
 ## Overview of the Configuration [:octicons-tag-16:{ title="from Release 18.2 (OO-7496)" }](https://track.frentix.com/issue/OO-7496){:target="_blank"}
 
-The configuration overview shows at a glance how the course and its course elements are set up. It is located in the course editor at the very top of the left navigation.
+The configuration overview shows at a glance how the course and its course elements are set up. It is located in the course editor at the very top of the left navigation. The overview is a table. You choose yourself which columns it shows, in the list "Displayed columns" of the table.
 
-To adjust a course element, click it and you go directly to its configuration. If you select several course elements, the button "Change configuration" appears. With it, you apply certain changes to all selected course elements. Which changes are possible depends on the course element and the course design.
+To adjust a course element, click it and you go directly to its configuration. If you select several course elements, the button "Change configuration" appears. With it, you apply certain changes to all selected course elements. Which changes are possible depends on the course element and the course design, that is, on whether it is a learning path course or a conventional course.
 
 ![Checkboxes Change for display, course assessment, learning time and execution that apply jointly to all selected course elements](assets/general_configuration_change_configuration_v1_en.png){ class="shadow lightbox" title="Dialog Change configuration in the configuration overview · 2026.11.10" }
 
 !!! tip "Tip"
 
-    Do not show all columns, but only the ones that give you the overview you need. This keeps the display clear. The column "Description" is only worthwhile if the course elements do not contain long texts there. The column "Points" is only relevant for assessable course elements: it shows whether the respective course element awards points.
+    Do not show all columns, but only the ones that give you the overview you need. This keeps the display clear. The column "Description" is only worthwhile if the course elements do not contain long texts there. The column "Score granted" is only relevant for assessable course elements: it shows whether the respective course element awards points.
 
 ## Adding Course Elements
 
-You build a course from course elements. You can insert any number of course elements, including several of the same type, and nest them as you like. Make sure the structure is didactically well thought out and easy for the learners to find their way around.
+You build a course from course elements. You can insert any number of course elements, including several of the same type, and nest them as you like. Make sure the structure is didactically well thought out and easy for the participants to find their way around.
 
-To add a course element to the course, select "Insert course elements" in the course editor and click the desired [course element](Course_Elements/index.md). OpenOlat inserts it in the left navigation directly after the course element you selected there beforehand, on the same level. If the top element of the course is selected, the new course element is placed at the end of the course. With Drag&Drop, you move course elements to the desired position at any time.
+To add a course element to the course, select "Insert course elements" in the course editor and click the desired [course element](Course_Elements/index.md). OpenOlat inserts it in the left navigation directly after the course element you selected there beforehand, on the same level. If the course itself is selected at the very top, the new course element is placed at the end of the course. With Drag&Drop, you move course elements to the desired position at any time.
 
-Two entries in the dialog "Insert course elements" create several course elements in one step: [Multiple HTML pages](Course_Element_HTML_Page.md#multi) creates one course element "HTML page" for each selected file of the storage folder, [Multiple checklists](Course_Element_Checklist.md#multi) creates several checklists from the same template.
+Two entries in the dialog "Insert course elements" create several course elements in one step: [Multiple HTML pages](Course_Element_HTML_Page.md#multi) creates one course element "HTML page" for each selected file of the [storage folder](Storage_folder.md), [Multiple checklists](Course_Element_Checklist.md#multi) creates several checklists from the same template.
 
 Before inserting, select the course element in the left navigation after which the new one is to be placed. Then you do not need to move the new course element afterwards. You can move, duplicate and delete all course elements. The page [Deleting, Moving and Copying Course Elements](../learningresources/Deleting_Moving_and_Copying_Course_Elements.md) describes how this works.
 
@@ -53,8 +53,7 @@ When you expand the area "Insert additional information", three more fields are 
 - **Instructions:** Here you tell the participants how they should use the course element.
 - **Instructions for the coach:** Here you provide information for all coaches. Participants do not see it.
 
-In the tab "Title and description" you will also find the ID of the respective
-course element. If you want to refer directly to this course element, for example from an e-mail or from a page in the course, you find the links for this here as well: expand the area "Set link for this course element".
+In the tab "Title and description" you will also find the ID of the respective course element. If you want to refer directly to this course element, for example from an e-mail or from a page in the course, you find the links for this here as well: expand the area "Set link for this course element".
 
 ![Expanded area with the external link and the buttons for copying and for the QR code, below it the course-internal link as a simple field without buttons](assets/general_configuration_course_element_link_v1_en.png){ class="shadow lightbox" title="Area Set link for this course element in the tab Title and description · 2026.11.09" }
 
@@ -138,6 +137,7 @@ These restrictions only exist in conventional courses. If you need such targeted
 **Mentioned on this page**<br>
 [Course elements at a glance >](Course_Elements/index.md)<br>
 [Course Element "HTML page" >](Course_Element_HTML_Page.md)<br>
+[Storage folder >](Storage_folder.md)<br>
 [Course Element "Checklist" >](Course_Element_Checklist.md)<br>
 [Deleting, Moving and Copying Course Elements >](Deleting_Moving_and_Copying_Course_Elements.md)<br>
 [Learning path course - Overview >](Learning_path_course/index.md)<br>

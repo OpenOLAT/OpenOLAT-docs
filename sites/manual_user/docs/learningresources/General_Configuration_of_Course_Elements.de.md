@@ -7,24 +7,24 @@
 
 ## Übersicht der Konfiguration [:octicons-tag-16:{ title="ab Release 18.2 (OO-7496)" }](https://track.frentix.com/issue/OO-7496){:target="_blank"}
 
-Die Konfigurationsübersicht zeigt auf einen Blick, wie der Kurs und seine Kursbausteine eingestellt sind. Sie steht im Kurseditor ganz oben in der linken Navigation.
+Die Konfigurationsübersicht zeigt auf einen Blick, wie der Kurs und seine Kursbausteine eingestellt sind. Sie steht im Kurseditor ganz oben in der linken Navigation. Die Übersicht ist eine Tabelle. Welche Spalten sie zeigt, wählen Sie selbst in der Liste "Spalten auswählen" der Tabelle.
 
-Um einen Kursbaustein anzupassen, klicken Sie ihn an und gelangen direkt zu seiner Konfiguration. Wählen Sie mehrere Kursbausteine aus, erscheint der Button "Konfiguration ändern". Damit übernehmen Sie bestimmte Änderungen für alle gewählten Kursbausteine. Welche Änderungen möglich sind, hängt vom Kursbaustein und vom Kursdesign ab.
+Um einen Kursbaustein anzupassen, klicken Sie ihn an und gelangen direkt zu seiner Konfiguration. Wählen Sie mehrere Kursbausteine aus, erscheint der Button "Konfiguration ändern". Damit übernehmen Sie bestimmte Änderungen für alle gewählten Kursbausteine. Welche Änderungen möglich sind, hängt vom Kursbaustein und vom Kursdesign ab, also davon, ob es ein Lernpfadkurs oder ein herkömmlicher Kurs ist.
 
 ![Checkboxen Ändern für Anzeige, Kurs-Bewertung, Bearbeitungszeit und Durchführung, die für alle markierten Kursbausteine gemeinsam gelten](assets/general_configuration_change_configuration_v1_de.png){ class="shadow lightbox" title="Dialog Konfiguration ändern in der Konfigurationsübersicht · 2026.11.10" }
 
 !!! tip "Tipp"
 
-    Blenden Sie nicht alle Spalten ein, sondern gezielt die, die Ihnen den gewünschten Überblick geben. So bleibt die Anzeige übersichtlich. Die Spalte "Beschreibung" lohnt sich nur, wenn die Kursbausteine dort keine langen Texte tragen. Die Spalte "Punkte" ist nur für bewertbare Kursbausteine relevant: Sie zeigt, ob der jeweilige Kursbaustein Punkte vergibt.
+    Blenden Sie nicht alle Spalten ein, sondern gezielt die, die Ihnen den gewünschten Überblick geben. So bleibt die Anzeige übersichtlich. Die Spalte "Beschreibung" lohnt sich nur, wenn die Kursbausteine dort keine langen Texte tragen. Die Spalte "Punkte vergeben" ist nur für bewertbare Kursbausteine relevant: Sie zeigt, ob der jeweilige Kursbaustein Punkte vergibt.
 
 
 ## Hinzufügen von Kursbausteinen
 
-Einen Kurs bauen Sie aus Kursbausteinen auf. Sie können beliebig viele Kursbausteine einfügen, auch mehrere desselben Typs, und sie beliebig verschachteln. Achten Sie dabei auf einen didaktisch durchdachten Aufbau, in dem sich die Lernenden leicht zurechtfinden.
+Einen Kurs bauen Sie aus Kursbausteinen auf. Sie können beliebig viele Kursbausteine einfügen, auch mehrere desselben Typs, und sie beliebig verschachteln. Achten Sie dabei auf einen didaktisch durchdachten Aufbau, in dem sich die Teilnehmenden leicht zurechtfinden.
 
-Um einen Kursbaustein dem Kurs hinzuzufügen, wählen Sie im Kurseditor "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). OpenOlat fügt ihn in der linken Navigation direkt nach dem Kursbaustein ein, den Sie vorher dort gewählt haben, auf derselben Ebene. Ist das oberste Element des Kurses gewählt, steht der neue Kursbaustein am Ende des Kurses. Mit Drag&Drop verschieben Sie Kursbausteine jederzeit an den gewünschten Ort.
+Um einen Kursbaustein dem Kurs hinzuzufügen, wählen Sie im Kurseditor "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements/index.de.md). OpenOlat fügt ihn in der linken Navigation direkt nach dem Kursbaustein ein, den Sie vorher dort gewählt haben, auf derselben Ebene. Ist ganz oben der Kurs selbst gewählt, steht der neue Kursbaustein am Ende des Kurses. Mit Drag&Drop verschieben Sie Kursbausteine jederzeit an den gewünschten Ort.
 
-Zwei Einträge im Dialog "Kursbausteine einfügen" legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) erzeugt aus den ausgewählten Dateien des Ablageordners je einen Kursbaustein "HTML-Seite", [Mehrere Checklisten](Course_Element_Checklist.de.md#multi) legt mehrere Checklisten nach derselben Vorlage an.
+Zwei Einträge im Dialog "Kursbausteine einfügen" legen mehrere Kursbausteine in einem Schritt an: [Mehrere HTML-Seiten](Course_Element_HTML_Page.de.md#multi) erzeugt aus den ausgewählten Dateien des [Ablageordners](Storage_folder.de.md) je einen Kursbaustein "HTML-Seite", [Mehrere Checklisten](Course_Element_Checklist.de.md#multi) legt mehrere Checklisten nach derselben Vorlage an.
 
 Wählen Sie vor dem Einfügen in der linken Navigation den Kursbaustein, hinter dem der neue stehen soll. Dann müssen Sie den neuen Kursbaustein nicht mehr verschieben. Alle Kursbausteine lassen sich verschieben, duplizieren und löschen. Wie das geht, beschreibt die Seite [Löschen, Verschieben und Kopieren von Kursbausteinen](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md).
 
@@ -55,8 +55,7 @@ Wenn Sie den Bereich "Erweiterte Informationen eingeben" aufklappen, stehen drei
 - **Anweisungen:** Hier sagen Sie den Teilnehmenden, wie sie den Kursbaustein nutzen sollen.
 - **Hinweise für die Betreuer:innen:** Hier stellen Sie Informationen für alle Betreuer:innen bereit. Teilnehmende sehen sie nicht.
 
-Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen
-Kursbausteins. Möchten Sie direkt auf diesen Kursbaustein verweisen, etwa aus einer E-Mail oder aus einer Seite im Kurs, finden Sie die Links dazu ebenfalls hier: Klappen Sie den Bereich "Link auf diesen Kursbaustein setzen" auf.
+Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen Kursbausteins. Möchten Sie direkt auf diesen Kursbaustein verweisen, etwa aus einer E-Mail oder aus einer Seite im Kurs, finden Sie die Links dazu ebenfalls hier: Klappen Sie den Bereich "Link auf diesen Kursbaustein setzen" auf.
 
 ![Aufgeklappter Bereich mit dem externen Link und den Schaltflächen zum Kopieren und für den QR-Code, darunter der kursinterne Link als einfaches Feld ohne Schaltflächen](assets/general_configuration_course_element_link_v1_de.png){ class="shadow lightbox" title="Bereich Link auf diesen Kursbaustein setzen im Tab Titel und Beschreibung · 2026.11.09" }
 
@@ -140,6 +139,7 @@ Diese Einschränkungen gibt es nur in herkömmlichen Kursen. Brauchen Sie solche
 **Auf dieser Seite erwähnt**<br>
 [Kursbausteine im Überblick >](Course_Elements/index.de.md)<br>
 [Kursbaustein "HTML-Seite" >](Course_Element_HTML_Page.de.md)<br>
+[Ablageordner >](Storage_folder.de.md)<br>
 [Kursbaustein "Checkliste" >](Course_Element_Checklist.de.md)<br>
 [Löschen, Verschieben und Kopieren von Kursbausteinen >](Deleting_Moving_and_Copying_Course_Elements.de.md)<br>
 [Lernpfadkurs - Überblick >](Learning_path_course/index.de.md)<br>
