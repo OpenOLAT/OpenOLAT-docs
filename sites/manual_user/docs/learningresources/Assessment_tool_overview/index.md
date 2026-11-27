@@ -54,7 +54,7 @@ If the exam has a manual start, the area shows the button "Start exam" from the 
 
 Here coaches subscribe to e-mail notifications with the "Subscribe" switch: "New test results" reports new results in assessable course elements, "New certificates" newly issued certificates, provided certificates are activated in the course.
 
-![The bell next to "Neue Testresultate" opens the subscription with the toggle "Abonnieren"](../assets/Benachrichtigungen_Bewertungswerkzeug20.jpg){ class="shadow lightbox" title="Notifications in the assessment tool" }
+![Area Notifications in the overview of the assessment tool: the bell next to "New test results" opens the subscriptions, where you switch on e-mail notifications with "Subscribe"](../assets/assessment_tool_notifications_v1_en.png){ class="shadow lightbox" title="Notifications in the assessment tool · 2026.11.27" }
 
 ## Orders {: #orders}
 
