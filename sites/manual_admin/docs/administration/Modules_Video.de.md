@@ -69,7 +69,7 @@ Im Tab "Fehlgeschlagene Transcodings" finden Sie die Transkodierungen, die nicht
 
 Im Tab "Transcodings verwalten" sehen Sie je Auflösung, wie viele Videos es gibt und wie viele davon "Extern", "Transkodiert", "Fehlgeschlagen", "Optimiert" oder "Fehlend" sind. Gezählt werden je Auflösung die Videos, deren Originalhöhe mindestens dieser Auflösung entspricht. Als "Extern" zählen Videos, die über eine URL eingebunden sind. Mit "Transkodieren" erstellt OpenOlat die fehlenden Videodateien einer Auflösung, mit "Löschen" entfernen Sie alle transkodierten Videodateien dieser Auflösung.
 
-![Tabelle je Auflösung mit Anzahl Videos, extern, transkodiert, fehlgeschlagen und fehlend, mit den Aktionen transkodieren und Löschen](assets/video_tab_admin_transcodings_v1_de.png){ class="shadow lightbox" title="Tab Transcodings verwalten im Modul Video" }
+![Je Auflösung zeigt die Tabelle die Anzahl Videos und wie viele davon extern, transkodiert, fehlgeschlagen, optimiert oder fehlend sind, mit Löschen entfernen Sie deren transkodierte Dateien](assets/video_tab_admin_transcodings_v2_de.png){ class="shadow lightbox" title="Tab Transcodings verwalten im Modul Video · 2026.11.27" }
 
 ## Weiterführende Informationen {: #further_information}
 

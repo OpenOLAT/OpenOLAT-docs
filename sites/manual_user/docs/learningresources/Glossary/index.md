@@ -15,7 +15,7 @@ In the course | `Course > Administration > Settings > Options`, plus the "Glossa
 
 A glossary lists terms with their definitions in alphabetical order. A click on a letter shows only the terms with this initial letter, "Show all" shows all terms again. You add new terms with "Add entry", see [Create glossary entries](../Glossary_create.md#create_entries).
 
-![Glossary overview with alphabetical navigation and terms with their definition, each entry with the "Edit" and "Delete" buttons.](../assets/glossary_example_v1_de.png){ class="shadow lightbox" title="Learning resource Glossary" }
+![Glossary overview with alphabetical navigation and terms with their definition, each entry with the "Edit" and "Delete" buttons.](../assets/glossary_example_v1_en.png){ class="shadow lightbox" title="Learning resource Glossary · 2026.11.27" }
 
 You bring a glossary into a course in two steps: select it under `Course > Administration > Settings > Options` with the "Select glossary" button. Then switch on the "Glossary" checkbox under `Course > Administration > Settings > Toolbar` so that the glossary appears in the toolbar of the course, the bar with the tools above the course content. The section [Integrate glossary](../Glossary_create.md#integrate) describes this step by step.
 

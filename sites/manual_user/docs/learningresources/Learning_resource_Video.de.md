@@ -90,9 +90,9 @@ Mit "Poster ersetzen" wählen Sie eines von mehreren Standbildern aus dem Video,
 
 Mit Untertiteln bleibt das Video auch ohne Ton verständlich. Sie laden Untertitel manuell hoch oder lassen sie bei aktivem frentix Cloud-Transcodingservice automatisch generieren (siehe [Automatische Untertitelgenerierung](#video_subtitles_auto)).
 
-Erstellen Sie die Untertiteldatei ausserhalb von OpenOlat, als Textdatei im Format WebVTT (Endung .vtt). Im Tab "Untertitel konfigurieren" laden Sie die VTT-Datei hoch und wählen die passende Sprache.
+Erstellen Sie die Untertiteldatei ausserhalb von OpenOlat, als Textdatei im Format WebVTT (Endung .vtt) oder SRT (Endung .srt). Im Tab "Untertitel konfigurieren" laden Sie die Datei hoch und wählen die passende Sprache.
 
-Einem Video können Untertitel in mehreren Sprachen zugewiesen werden. OpenOlat unterstützt das [WebVTT-Format](https://w3c.github.io/webvtt/) (siehe auch [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), daher muss die Datei mit der Endung .vtt gespeichert sein. Dieses Format ist mit den meisten gängigen Video-Playern kompatibel.
+Einem Video können Untertitel in mehreren Sprachen zugewiesen werden. OpenOlat unterstützt das [WebVTT-Format](https://w3c.github.io/webvtt/) (siehe auch [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)) mit der Endung .vtt. Dieses Format ist mit den meisten gängigen Video-Playern kompatibel. Eine Untertiteldatei im SRT-Format (Endung .srt) nimmt OpenOlat ebenfalls an und wandelt sie beim Hochladen in eine VTT-Datei um.
 
 
 #### Aufbau der VTT-Datei {: #video_subtitles_vtt}
@@ -235,7 +235,7 @@ Mit Segmenten teilen Sie das Video in Abschnitte und ordnen jedem Abschnitt eine
 
 #### Segmente erstellen
 
-Im Videoeditor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es öffnet sich die Konfiguration des Segments.
+Im Videoeditor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". OpenOlat legt an der aktuellen Abspielposition ein Segment von 5 Sekunden mit einem Begriff an und zeigt seine Konfiguration.
 
 ![Tab "Segmente" und die Schaltfläche "Hinzufügen" markiert, noch ohne Segmente](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" title="Videoeditor, Tab Segmente" }
 

@@ -93,9 +93,9 @@ With "Replace poster" you choose one of several still images from the video, wit
 
 With subtitles, the video remains understandable even without sound. You upload subtitles manually or, if the frentix cloud transcoding service is active, have them generated automatically (see [Automatic subtitle generation](#video_subtitles_auto)).
 
-Create the subtitle file outside of OpenOlat, as a text file in WebVTT format (extension .vtt). In the "Subtitle configuration" tab, upload the VTT file and select the appropriate language.
+Create the subtitle file outside of OpenOlat, as a text file in WebVTT format (extension .vtt) or SRT format (extension .srt). In the "Subtitle configuration" tab, upload the file and select the appropriate language.
 
-A video can have subtitles in multiple languages. OpenOlat supports the [WebVTT format](https://w3c.github.io/webvtt/) (see also [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)), so the file must be saved with the .vtt extension. This format is compatible with most common video players.
+A video can have subtitles in multiple languages. OpenOlat supports the [WebVTT format](https://w3c.github.io/webvtt/) (see also [Wikipedia](https://en.wikipedia.org/wiki/WebVTT)) with the .vtt extension. This format is compatible with most common video players. OpenOlat also accepts a subtitle file in SRT format (extension .srt) and converts it into a VTT file during the upload.
 
 #### Structure of the VTT file {: #video_subtitles_vtt}
 
@@ -233,9 +233,9 @@ With segments, you divide the video into sections and assign a term to each sect
 
 #### Create segments
 
-In the video editor, select the "Segments" tab and click "Add". The configuration of the segment opens.
+In the video editor, select the "Segments" tab and click "Add". OpenOlat creates a segment of 5 seconds with a term at the current playback position and shows its configuration.
 
-![Tab "Segments" and the "Add" button highlighted, still without segments](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" title="Video editor, Segments tab" }
+![Video editor with the "Segments" tab and the "Add" button highlighted, still without segments: this is where you create the first segment](assets/learning_resource_video_segments1_v1_en.png){ class="shadow lightbox" title="Video editor, Segments tab · 2026.11.27" }
 
 Create each segment with "Add" and give it a time span and a "Term". A segment lasts at least 5 seconds. Segments must not overlap in time, and each segment has exactly one term.
 
@@ -243,11 +243,11 @@ You can also first enter all terms and then assign them to the time spans in the
 
 * In the configuration of a segment, click "Terms".
 
-![Configuration of a segment with start, end, duration and term, the "Terms" button highlighted](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" title="Configuration of a segment" }
+![Configuration of a segment with start, end, duration and term, the "Terms" button highlighted: it opens the list of all terms of the video](assets/learning_resource_video_segments2_v1_en.png){ class="shadow lightbox" title="Video editor, configuration of a segment · 2026.11.27" }
 
 * Add all terms using the plus icon, ideally in the order in which they occur in the video. This makes it easier to assign them later.
 
-![Three terms with color, abbreviation and title, the plus icons for adding further terms highlighted](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" title="Dialog Edit terms" }
+![Dialog "Edit terms" with three terms, each with color, abbreviation and title, the plus icons highlighted: each one adds a further term below its row](assets/learning_resource_video_segments3_v1_en.png){ class="shadow lightbox" title="Video editor, dialog Edit terms · 2026.11.27" }
 
 Or you jump to the desired point in the timeline each time and create the segment with the appropriate term there:
 
@@ -257,7 +257,7 @@ Or you jump to the desired point in the timeline each time and create the segmen
 
 The segments appear in their own track in the timeline. From there, you quickly open a segment for editing.
 
-![Five segments with abbreviation and term in their own track S of the timeline, one of them selected](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" title="Timeline in the video editor" }
+![Track S of the timeline highlighted with three segments, each with abbreviation and term, one of them selected: the track shows at a glance which time spans have a term](assets/learning_resource_video_segments4_v1_en.png){ class="shadow lightbox" title="Video editor, timeline · 2026.11.27" }
 
 !!! tip "Hints"
 

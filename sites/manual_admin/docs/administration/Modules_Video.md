@@ -70,7 +70,7 @@ In the "Failed transcodings" tab you find the transcodings that did not succeed.
 
 In the "Manage transcodings" tab you see per resolution how many videos there are and how many of them are "External", "Transcoded", "Failed", "Optimized" or "Missing". Per resolution, the table counts the videos whose original height is at least this resolution. Videos included via a URL count as "External". With "Transcode", OpenOlat creates the missing video files of a resolution, with "Delete" you remove all transcoded video files of this resolution.
 
-![Table per resolution with number of videos, external, transcoded, failed and missing, with the actions transcode and delete](assets/video_tab_admin_transcodings_v1_en.png){ class="shadow lightbox" title="Manage transcodings tab in the Video module" }
+![Per resolution, the table shows the number of videos and how many of them are external, transcoded, failed, optimized or missing, with Delete you remove their transcoded files](assets/video_tab_admin_transcodings_v2_en.png){ class="shadow lightbox" title="Manage transcodings tab in the Video module · 2026.11.27" }
 
 ## Further information {: #further_information}
 

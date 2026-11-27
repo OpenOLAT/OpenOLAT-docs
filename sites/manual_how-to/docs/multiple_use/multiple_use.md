@@ -52,19 +52,19 @@ If you want to upload many files, use [WebDAV](../webdav/webdav.md). You open th
 You find the usual settings of a learning resource under:<br>
 `Resource folder > Administration > Settings`
 
-![In the empty resource folder, you upload files, create folders or documents and find the WebDAV link](assets/resource_folder_files_v1_en.png){ class="shadow lightbox" title="Empty resource folder" }
+![In the resource folder, you upload files, create folders or documents and open the WebDAV link in the 3-dot menu](assets/resource_folder_files_v2_en.png){ class="shadow lightbox" title="Resource folder with files · 2026.11.27" }
 
 
 1.5 Alternatively, you create files directly in the resource folder, for example a Word document.
 
-![When you create a document, you select the file type, for example text, HTML, Word, Excel or PowerPoint](assets/resource_folder_create_file_v1_en.png){ class="shadow lightbox" title="Create document dialog" }
+![In the Create document dialog, you select the format, for example Word, Excel or PowerPoint, and show further formats such as text or HTML with Show more formats](assets/resource_folder_create_file_v2_en.png){ class="shadow lightbox" title="Create document dialog · 2026.11.27" }
 
 ### 2. Include the resource folder in courses
 
 2.1 Open the desired course and select the "Options" tab in the [course settings](../../manual_user/learningresources/Course_Settings_Options.md):<br>
 `Course > Administration > Settings > Tab "Options"`
 
-![The Options tab of the course settings contains the section Selected resource folder with Replace](assets/resource_folder_settings_options_v1_en.png){ class="shadow lightbox" title="Options tab in the course settings" }
+![Via Administration and Settings, you open the Options tab with the section Selected resource folder and the button Replace](assets/resource_folder_settings_options_v2_en.png){ class="shadow lightbox" title="Options tab in the course settings · 2026.11.27" }
 
 <br>
 
@@ -91,9 +91,9 @@ Repeat the procedure for all relevant courses.
 `Course > Administration > Files`<br>
 There, next to the "Storage folder", the automatically created folder "_sharedfolder" appears with all files of the resource folder.
 
-![In the Administration menu of the course, the entry Storage folder opens the folder with the course files](assets/storage_folder_menu_v1_en.png){ class="shadow lightbox" title="Administration menu in the course" }
+![In the Administration menu of the course, the entry Files opens the storage locations of the course, including the folder _sharedfolder](assets/storage_folder_menu_v2_en.png){ class="shadow lightbox" title="Administration menu in the course · 2026.11.27" }
 
-![The storage folder of the course contains the automatically created subfolder _sharedfolder](assets/storage_folder_without_menu_v1_en.png){ class="shadow lightbox" title="Storage folder of the course" }
+![Under Storage locations, the folder _sharedfolder appears as a tile of its own next to the storage folder, there you find the files of the resource folder](assets/storage_folder_without_menu_v2_en.png){ class="shadow lightbox" title="Storage locations under Files in the course · 2026.11.27" }
 
 3.2 Like all other files of the course, you include the files of this folder in the course editor via the course element "[HTML page](../../manual_user/learningresources/Course_Element_HTML_Page.md)".
 

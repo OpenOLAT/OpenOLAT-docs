@@ -52,19 +52,19 @@ Wenn Sie viele Dateien hochladen wollen, nutzen Sie [WebDAV](../webdav/webdav.de
 Die üblichen Einstellungen einer Lernressource finden Sie unter:<br>
 `Ressourcenordner > Administration > Einstellungen`
 
-![Im leeren Ressourcenordner laden Sie Dateien hoch, erstellen Ordner oder Dokumente und finden den WebDAV-Link](assets/ressourcenordner_dateien_v1_de.png){ class="shadow lightbox" title="Leerer Ressourcenordner" }
+![Im Ressourcenordner laden Sie Dateien hoch, erstellen Ordner oder Dokumente und öffnen im 3-Punkte-Menü den WebDAV-Link](assets/ressourcenordner_dateien_v2_de.png){ class="shadow lightbox" title="Ressourcenordner mit Dateien · 2026.11.27" }
 
 
 1.5 Alternativ erstellen Sie Dateien direkt im Ressourcenordner, zum Beispiel ein Word-Dokument.
 
-![Beim Erstellen eines Dokuments wählen Sie den Dateityp, etwa Text, HTML, Word, Excel oder PowerPoint](assets/ressourcenordner_datei_erstellen_v1_de.png){ class="shadow lightbox" title="Dialog Dokument erstellen" }
+![Im Dialog Dokument erstellen wählen Sie das Format, etwa Word, Excel oder PowerPoint, und blenden mit Mehr Formate anzeigen weitere Formate wie Text oder HTML ein](assets/ressourcenordner_datei_erstellen_v2_de.png){ class="shadow lightbox" title="Dialog Dokument erstellen · 2026.11.27" }
 
 ### 2. Ressourcenordner in Kurse einbinden
 
 2.1 Öffnen Sie den gewünschten Kurs und wählen Sie in den [Kurseinstellungen](../../manual_user/learningresources/Course_Settings_Options.de.md) den Tab "Optionen":<br>
 `Kurs > Administration > Einstellungen > Tab "Optionen"`
 
-![Der Reiter Optionen der Kurseinstellungen enthält den Bereich Gewählter Ressourcenordner mit Auswechseln](assets/ressourcenordner_einstellungen_optionen_v1_de.png){ class="shadow lightbox" title="Reiter Optionen in den Kurseinstellungen" }
+![Über Administration und Einstellungen öffnen Sie den Tab Optionen mit dem Bereich Gewählter Ressourcenordner und dem Button Auswechseln](assets/ressourcenordner_einstellungen_optionen_v2_de.png){ class="shadow lightbox" title="Tab Optionen in den Kurseinstellungen · 2026.11.27" }
 
  <br>
 
@@ -91,9 +91,9 @@ Wiederholen Sie das Vorgehen für alle relevanten Kurse.
 `Kurs > Administration > Dateien`<br>
 Dort erscheint neben dem "Ablageordner" der automatisch angelegte Ordner "_sharedfolder" mit allen Dateien des Ressourcenordners.
 
-![Im Menü Administration des Kurses öffnet der Eintrag Ablageordner den Ordner mit den Kursdateien](assets/ablageordner_menu_v1_de.png){ class="shadow lightbox" title="Menü Administration im Kurs" }
+![Im Menü Administration des Kurses öffnet der Eintrag Dateien die Ablageorte des Kurses, darunter den Ordner _sharedfolder](assets/ablageordner_menu_v2_de.png){ class="shadow lightbox" title="Menü Administration im Kurs · 2026.11.27" }
 
-![Im Ablageordner des Kurses liegt der automatisch angelegte Unterordner _sharedfolder](assets/ablageordner_ohne_menu_v1_de.png){ class="shadow lightbox" title="Ablageordner des Kurses" }
+![Unter Ablageorte steht der Ordner _sharedfolder als eigene Kachel neben dem Ablageordner, dort finden Sie die Dateien des Ressourcenordners](assets/ablageordner_ohne_menu_v2_de.png){ class="shadow lightbox" title="Ablageorte unter Dateien im Kurs · 2026.11.27" }
 
 3.2 Die Dateien dieses Ordners binden Sie wie alle anderen Dateien des Kurses im Kurseditor über den Kursbaustein "[HTML-Seite](../../manual_user/learningresources/Course_Element_HTML_Page.de.md)" ein.
 
