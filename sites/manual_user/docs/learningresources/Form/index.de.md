@@ -16,6 +16,7 @@ Icon | :o_icon_o_FileResource-FORM_icon:
 Verfügbar seit | Release 11.2 (OO-2329)
 Zweck | Angaben, Meinungen und Bewertungen sammeln
 Im Kurs | Kursbausteine "Formular" und "Umfrage", als Rubrik auch in "Bewertung" und "Aufgabe"
+Spezialität / Hinweis | Ein Formular sammelt Antworten auch ohne Kurs: in einer Portfolio 2.0 Vorlage, in einer Datenerhebung des Qualitätsmanagements und beim Buchen im Course Planner
 
 ## Aufbau und Einsatz {: #structure}
 
@@ -29,7 +30,7 @@ Im Editor bauen Sie das Formular aus Layouts auf, die Spalten und Zeilen der Sei
 
     Es gibt eine Lernressource "Formular" und einen Kursbaustein "Formular". Die Lernressource enthält das Formular selbst, der Kursbaustein bindet es in einen Kurs ein. Wie beide zusammenspielen, erklärt die Anleitung [Wie erstelle ich eine Formular-Lernressource?](../../../manual_how-to/create_a_form/create_a_form.de.md#step2) im Abschnitt "Kursbaustein und Lernressource".
 
-Antworten sammelt ein Formular dort, wo Sie es einsetzen: in einem Kurs, in einer Portfolio 2.0 Vorlage oder beim Buchen im Course Planner (siehe [Einsatzorte](#usage)). Beim Buchen im Course Planner holt das Formular die Angaben direkt beim Buchen eines Angebots ein, ganz ohne Kurs. Öffnen Sie die Formular-Lernressource direkt, etwa mit einem Klick auf ihren Titel im Autorenbereich, sehen Sie das Formular und können es zum Ausprobieren ausfüllen. Ihre Antworten speichert OpenOlat dort nicht, und einreichen lässt sich das Formular nicht. Wer Antworten sammeln will, setzt das Formular an einem der Einsatzorte ein, meist in einem Kurs, siehe [Formulare in Kursen](../Forms_in_Courses.de.md).
+Antworten sammelt ein Formular dort, wo Sie es einsetzen: in einem Kurs, in einer Portfolio 2.0 Vorlage, in einer Datenerhebung des Qualitätsmanagements oder beim Buchen im Course Planner (siehe [Einsatzorte](#usage)). Beim Buchen im Course Planner holt das Formular die Angaben direkt beim Buchen eines Angebots ein, ganz ohne Kurs. Öffnen Sie die Formular-Lernressource direkt, etwa mit einem Klick auf ihren Titel im Autorenbereich, sehen Sie das Formular und können es zum Ausprobieren ausfüllen. Ihre Antworten speichert OpenOlat dort nicht, und einreichen lässt sich das Formular nicht. Wer Antworten sammeln will, setzt das Formular an einem der Einsatzorte ein, meist in einem Kurs, siehe [Formulare in Kursen](../Forms_in_Courses.de.md).
 
 ## Seiten zur Formular-Lernressource {: #pages}
 
@@ -54,13 +55,12 @@ Einsatzort | Wozu
 [Rubrik-Bewertung](../Forms_in_Rubric_Scoring.de.md) | Betreuer:innen und Kursbesitzer:innen bewerten im Kursbaustein "Bewertung" Leistungen nach festen Kriterien mit einer Rubrik.
 [Peer-Review in der Aufgabe](../Course_Element_Task/Task_Peer_Review.de.md#peer_review_rubric) | Teilnehmende einer Aufgabe beurteilen ihre Abgaben gegenseitig mit einem Rubrik-Formular.
 [Portfolio 2.0 Vorlage](../Forms_in_the_ePortfolio_template.de.md) | Teilnehmende reflektieren in einer Aufgabe der Vorlage ihre Arbeit oder schätzen ihre Leistung ein.
+[Datenerhebung im Qualitätsmanagement](../../area_modules/Quality_Management_Data_Collections.de.md) | Qualitätsverwalter:innen und Administrator:innen befragen einen festgelegten Personenkreis in einem festgelegten Zeitraum, etwa zur Qualität von Kursen; die Antworten wertet das Qualitätsmanagement aus.
 [Buchungsaufträge im Course Planner](../../area_modules/Course_Planner_Implementations.de.md#booking_order_forms) [:octicons-tag-16:{ title="ab Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} | Beim Buchen eines Angebots holt ein Formular zusätzliche Angaben ein, etwa Essenswünsche oder Vorkenntnisse.
-
 
 ## Weiterführende Informationen {: #further_information}
 
 [Kursbaustein "Bewertung" >](../Course_Element_Assessment.de.md)<br>
-[Kursbaustein "Aufgabe" >](../Course_Element_Task/index.de.md)<br>
-[Kursbaustein "Gruppenaufgabe" >](../Course_Element_Grouptask.de.md)
+[Kursbaustein "Aufgabe" >](../Course_Element_Task/index.de.md)
 
 [Zum Seitenanfang ^](#overview)

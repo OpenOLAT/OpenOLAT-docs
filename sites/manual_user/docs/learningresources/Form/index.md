@@ -16,6 +16,7 @@ Icon | :o_icon_o_FileResource-FORM_icon:
 Available since | Release 11.2 (OO-2329)
 Purpose | Collect information, opinions and ratings
 In the course | Course elements "Form" and "Survey", as rubric also in "Assessment" and "Task"
+Specialty / Note | A form also collects answers without a course: in a Portfolio 2.0 template, in a data collection of quality management and when booking in the Course Planner
 
 ## Structure and use {: #structure}
 
@@ -29,7 +30,7 @@ In the editor, you build the form from layouts that define the columns and rows 
 
     There is a learning resource "Form" and a course element "Form". The learning resource contains the form itself, the course element includes it in a course. How the two work together is explained in the guide [How do I create a form learning resource?](../../../manual_how-to/create_a_form/create_a_form.md#step2) in the section "Course element and learning resource".
 
-A form collects answers where you use it: in a course, in a Portfolio 2.0 template or when booking in the Course Planner (see [Places of use](#usage)). When booking in the Course Planner, the form collects the information directly when an offer is booked, without any course. If you open the form learning resource directly, for example by clicking its title in the authoring area, you see the form and can fill it in to try it out. OpenOlat does not save your answers there, and the form cannot be submitted. If you want to collect answers, use the form in one of the places of use, usually in a course, see [Forms in courses](../Forms_in_Courses.md).
+A form collects answers where you use it: in a course, in a Portfolio 2.0 template, in a data collection of quality management or when booking in the Course Planner (see [Places of use](#usage)). When booking in the Course Planner, the form collects the information directly when an offer is booked, without any course. If you open the form learning resource directly, for example by clicking its title in the authoring area, you see the form and can fill it in to try it out. OpenOlat does not save your answers there, and the form cannot be submitted. If you want to collect answers, use the form in one of the places of use, usually in a course, see [Forms in courses](../Forms_in_Courses.md).
 
 ## Pages on the form learning resource {: #pages}
 
@@ -54,13 +55,12 @@ Place of use | Purpose
 [Rubric scoring](../Forms_in_Rubric_Scoring.md) | Coaches and course owners assess performance in the course element "Assessment" against fixed criteria with a rubric.
 [Peer review in the task](../Course_Element_Task/Task_Peer_Review.md#peer_review_rubric) | Participants of a task assess each other's submissions with a rubric form.
 [Portfolio 2.0 template](../Forms_in_the_ePortfolio_template.md) | Participants reflect on their work or assess their own performance in an assignment of the template.
+[Data collection in quality management](../../area_modules/Quality_Management_Data_Collections.md) | Quality managers and administrators survey a defined group of people within a defined period, for example on the quality of courses; quality management analyses the answers.
 [Booking orders in the Course Planner](../../area_modules/Course_Planner_Implementations.md#booking_order_forms) [:octicons-tag-16:{ title="from Release 21.1 (OO-9724)" }](https://track.frentix.com/issue/OO-9724){:target="_blank"} | When an offer is booked, a form collects additional information, for example dietary requirements or prior knowledge.
-
 
 ## Further information {: #further_information}
 
 [Course Element "Assessment" >](../Course_Element_Assessment.md)<br>
-[Course Element "Task" >](../Course_Element_Task/index.md)<br>
-[Course Element "Group Task" >](../Course_Element_Grouptask.md)
+[Course Element "Task" >](../Course_Element_Task/index.md)
 
 [To the top of the page ^](#overview)
