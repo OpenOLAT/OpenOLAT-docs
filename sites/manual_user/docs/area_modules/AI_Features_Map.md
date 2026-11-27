@@ -3,10 +3,19 @@
 !!! warning "Concept study: possible new presentation"
     This page is an experiment on how the entry point to the AI features could look in the future. The content is deliberately condensed. The linked manual pages are authoritative.
 
-AI supports you in creating content at several places in OpenOlat, and these places are far apart: in the question bank, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The map shows the outcome instead: what the AI takes off your hands, where you find it, and which feature is behind it. Each card leads to the responsible manual page. The base below names what has to be set up once in the system administration so that the cards are available at all: `Administration > External tools > AI module`. In addition, every person can switch the AI feedback on free-text answers and the image descriptions on upload on or off for themselves, in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings) of their personal settings.
+!!! info "Contact"
+
+    The system administration sets up the AI features on this page. To have it activated, contact your organisation.
+
+AI supports you in creating content and your learners in practising, at several places in OpenOlat, and these places are far apart: in the question bank, in the Media Center, in the Content Editor and in the taxonomy. Anyone who wants to know where it pays off has to gather four manual pages today. The graphic below shows the outcome instead: what the AI takes off your hands, where you find it, and which AI feature the administration sets up for it. Each card leads to the responsible manual page.
+
+The last lines of each card name the AI features that have to be set up for it. The names appear like this in the system administration: "MC" stands for multiple-choice questions, "Essay" for free-text questions. System administrators do this setup once in the system administration under `Administration > External tools > AI module`. What belongs to it is shown in the box "Prerequisite" below the cards: AI providers, limits, processing pools and usage log. In the tab "AI features" system administrators enable each feature separately and choose an AI provider and a model for it. OpenOlat shows the button "AI questions" in the question bank, for example, only once the AI feature "MC Question Generator" is configured there.
+
+In addition, every person can switch the AI feedback on free-text answers and the AI image descriptions on upload on or off for themselves, learners included. Anyone who switches off the AI feedback receives none in the quiz. You make the choice in the [Tab AI settings](../personal_menu/Settings.md#tab_ai_settings) of your personal settings:<br>
+`Personal menu > Settings > Tab "AI settings"`
 
 <div style="max-width:1450px">
-<svg viewBox="0 0 1040 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four outcomes for authors, below them the prerequisites in the system administration">
+<svg viewBox="0 0 1040 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="What the AI takes off authors' hands: questions in the question bank, image metadata in the Media Center, AI feedback in the quiz of a page, assignment to a subject. Below, the setup in the AI module">
 <style>
   .cm text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 600; fill: #344054; }
   .cm .h0 { font-size: 22px; font-weight: 700; }
@@ -31,9 +40,9 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <rect x="40" y="60" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="90" class="place">QUESTION BANK</text>
 <text x="68" y="122" class="out">Questions from a source text</text>
-<text x="68" y="152" class="body">Paste a text and the AI suggests multiple-choice</text>
-<text x="68" y="175" class="body">and essay questions with grading criteria.</text>
-<text x="68" y="198" class="body">Answers receive formative AI feedback.</text>
+<text x="68" y="152" class="body">Paste or upload a text and the AI suggests</text>
+<text x="68" y="175" class="body">multiple-choice and essay questions, the latter</text>
+<text x="68" y="198" class="body">with a model answer for the AI feedback in the quiz.</text>
 <text x="68" y="226" class="fn">MC Question Generator · Essay Question Generator</text>
 <text x="68" y="246" class="fn">Essay Grading</text>
 </g></a>
@@ -44,10 +53,10 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <rect x="530" y="60" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="558" y="90" class="place">MEDIA CENTER</text>
 <text x="558" y="122" class="out">Image metadata at the touch of a button</text>
-<text x="558" y="152" class="body">One click fills title, description, alt text and</text>
-<text x="558" y="175" class="body">keywords of an uploaded image. On import into</text>
-<text x="558" y="198" class="body">the Content Editor this runs in the</text>
-<text x="558" y="221" class="body">background.</text>
+<text x="558" y="152" class="body">The button "Generate metadata with AI" fills title,</text>
+<text x="558" y="175" class="body">description, alt text and tags of an image. On</text>
+<text x="558" y="198" class="body">upload and on Markdown import this also runs</text>
+<text x="558" y="221" class="body">in the background.</text>
 <text x="558" y="248" class="fn">Image Description Generator</text>
 </g></a>
 
@@ -57,23 +66,24 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <rect x="40" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="68" y="310" class="place">CONTENT EDITOR</text>
 <text x="68" y="342" class="out">Quiz with AI feedback</text>
-<text x="68" y="372" class="body">Essay questions in a quiz on a content page.</text>
-<text x="68" y="395" class="body">Learners retrieve an assessment of their answer</text>
-<text x="68" y="418" class="body">with strengths, gaps and the next step.</text>
-<text x="68" y="441" class="body">No points are awarded.</text>
+<text x="68" y="372" class="body">Essay questions in the quiz of the course element</text>
+<text x="68" y="395" class="body">"Page". Learners submit their answer with "Check"</text>
+<text x="68" y="418" class="body">and receive an assessment with strengths, gaps</text>
+<text x="68" y="441" class="body">and the next step. The feedback awards no points.</text>
 <text x="68" y="468" class="fn">Essay Grading</text>
 </g></a>
 
 <!-- Card 4: taxonomy -->
-<a href="../../basic_concepts/Media_Center_Items/#metadata_ai"><title>Example in the Media Center: assignment on image upload</title><g>
+<a href="../../../manual_admin/administration/Modules_Taxonomy/#ai_matching"><title>Module Taxonomy: Automatic assignment by AI</title><g>
 <rect class="card" x="530" y="280" width="470" height="200" rx="12" fill="#FFFDFA" stroke="#C06613" stroke-width="2"/>
 <rect x="530" y="280" width="7" height="200" rx="3.5" fill="#C06613"/>
 <text x="558" y="310" class="place">TAXONOMY</text>
-<text x="558" y="342" class="out">Assignment to the subject area</text>
-<text x="558" y="372" class="body">The AI assigns a text to the matching taxonomy</text>
-<text x="558" y="395" class="body">level via an embedding model. This applies to image</text>
-<text x="558" y="418" class="body">metadata and to the Markdown import.</text>
-<text x="558" y="468" class="fn">Taxonomy Matching</text>
+<text x="558" y="342" class="out">Assignment to a subject</text>
+<text x="558" y="372" class="body">The AI recognises what an image is about and</text>
+<text x="558" y="395" class="body">assigns it to the matching subject: on</text>
+<text x="558" y="418" class="body">upload and on Markdown import.</text>
+<text x="558" y="446" class="fn">Image Description Generator ·</text>
+<text x="558" y="466" class="fn">Taxonomy Matching (Embeddings)</text>
 </g></a>
 
 <!-- Base -->
@@ -116,20 +126,25 @@ AI supports you in creating content at several places in OpenOlat, and these pla
 <text x="892" y="624" class="cap" text-anchor="middle">optional</text>
 </g></a>
 
-<text x="60" y="666" class="cap">One provider can serve several features. For each feature you choose a provider and a model.</text>
+<text x="60" y="666" class="cap">One provider can serve several features. For each feature, the administration chooses a provider and a model.</text>
 
-<text x="40" y="704" class="cap">Each card leads to the responsible manual page, each box in the base to the matching section in the admin manual.</text>
+<text x="40" y="704" class="cap">Each card leads to its manual page, each box of the prerequisite to its section in the admin manual.</text>
 </g>
 </svg>
 </div>
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Personal Configuration: Settings >](../personal_menu/Settings.md)<br>
 [Question Bank: Create Questions >](Question_Bank_Create_Questions.md)<br>
 [Information and settings for items in the Media Center >](../basic_concepts/Media_Center_Items.md)<br>
-[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
+[Content Editor: Quiz and AI feedback >](../basic_concepts/Content_Editor/Editor_Quiz.md)<br>
 [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md)<br>
 [External tools: AI module >](../../manual_admin/administration/External_Tools_AI.md)
+
+**Further reading**<br>
+[Content Editor >](../basic_concepts/Content_Editor/index.md)<br>
+[Content Editor: Import >](../basic_concepts/Content_Editor/Editor_Import.md)
 
 [To the top of the page ^](#ai_features_map)
