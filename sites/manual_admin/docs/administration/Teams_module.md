@@ -8,6 +8,8 @@ Microsoft Teams is the web conferencing solution from Microsoft. In courses and 
 You configure the module in the system administration under:<br>
 `Administration > External tools > Microsoft Teams`
 
+![Menu item Microsoft Teams under External tools: module switched on, enabled for five places, Online-Meetings without date/permanent set to Off, fields for access data made unreadable](assets/teams_module_overview_v1_en.png){ class="shadow lightbox" title="Microsoft Teams module in the system administration · 2026.11.27" }
+
 The section [Prerequisites](#prerequisites) describes the prerequisites for the connection to Microsoft 365. How owners and coaches create individual online meetings is described in the user manual in the chapter [Course Element "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md). How the roles Organizer, Presenter and Attendee are assigned in a Teams meeting and what the moderator setting does is described there in the section [Roles in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.md#teams_roles).
 
 ---

@@ -8,6 +8,8 @@ Microsoft Teams ist die Webkonferenz-Lösung von Microsoft. In Kursen und Gruppe
 Sie konfigurieren das Modul in der System-Administration unter:<br>
 `Administration > Externe Werkzeuge > Microsoft Teams`
 
+![Menüpunkt Microsoft Teams unter Externe Werkzeuge: Modul eingeschaltet, für fünf Orte freigegeben, Online-Termine ohne Datum/permanent auf Aus, Felder für Zugangsdaten unkenntlich](assets/teams_module_overview_v1_de.png){ class="shadow lightbox" title="Modul Microsoft Teams in der System-Administration · 2026.11.27" }
+
 Die Voraussetzungen für die Anbindung an Microsoft 365 beschreibt der Abschnitt [Voraussetzungen](#prerequisites). Wie Besitzer:innen und Betreuer:innen einzelne Online-Termine anlegen, steht im Benutzerhandbuch im Kapitel [Kursbaustein "Microsoft Teams"](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md). Wie die Rollen Organizer, Presenter und Attendee in einem Teams-Meeting vergeben werden und was die Moderator-Einstellung bewirkt, steht dort im Abschnitt [Rollen in MS Teams](../../manual_user/learningresources/Course_Element_Microsoft_Teams.de.md#teams_roles).
 
 ---
