@@ -33,7 +33,7 @@ The display in the personal menu is suitable for obtaining a quick overview of a
 
 If you are a member of a product in the Course Planner, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-Click the icon "ePortfolio" to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](Portfolio/index.md) binders.
+Click the puzzle piece icon (tooltip "as artefact") to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](Portfolio/index.md) binders.
 In this way, compilations of evidence of achievement can be combined for different purposes and also made accessible to specific persons.
 
 !!! info "Important"
