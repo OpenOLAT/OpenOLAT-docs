@@ -1,8 +1,8 @@
 # Automatischer Kurs-Lebenszyklus {: #course_lifecycle}
 
-Wer viele Kurse betreibt, möchte alte Kurse nach dem Kursende geordnet beenden, in den Papierkorb verschieben und zuletzt endgültig löschen, ohne jeden Kurs einzeln anzufassen. Der automatische Kurs-Lebenszyklus erledigt das in einem täglichen Lauf nach den Fristen, die Sie festlegen. Bevor Sie eine Konfiguration speichern, zeigt OpenOlat, wie viele Kurse sie auf welchen Schritt setzt. Danach sehen Sie im Abschnitt "Lebenszyklus-Prozess", was gerade läuft und was in den nächsten Tagen ansteht.
+Wer viele Kurse betreibt, möchte alte Kurse nach dem Kursende geordnet beenden, in den Papierkorb verschieben und zuletzt endgültig löschen, ohne jeden Kurs einzeln anzufassen. Der automatische Kurs-Lebenszyklus erledigt das in einem täglichen Lauf nach den Fristen, die Sie festlegen. Bevor Sie eine Konfiguration speichern, zeigt OpenOlat in einem Bestätigungsdialog, wie viele Kurse sie auf welchen Schritt setzt. Danach sehen Sie im Abschnitt "Lebenszyklus-Prozess", was gerade läuft und was in den nächsten Tagen ansteht.
 
-Die Konfiguration nehmen Systemadministrator:innen in der System-Administration vor unter:<br>
+Systemadministrator:innen konfigurieren den Kurs-Lebenszyklus in der System-Administration unter:<br>
 `Administration > Lebenszyklen > Kurse`
 
 ![Kurse nach dem Kursende automatisch beenden, in den Papierkorb verschieben und endgültig löschen, je nach Frist; vor dem Speichern zeigt eine Bestätigung die Anzahl betroffener Kurse](assets/automatic_course_lifecycle_stages_v1_de.svg){ class="lightbox" title="Lebenszyklus eines Kurses" }
@@ -13,10 +13,10 @@ Die Konfiguration nehmen Systemadministrator:innen in der System-Administration 
 Ein Kurs verlässt den Betrieb in drei Schritten, damit sich ein Fehlgriff bis zum letzten Schritt rückgängig machen lässt. Jeden Schritt schalten Sie einzeln ein, und jeder hat seine eigene Frist.
 
 * **1 Beendet**<br>
-  "Beendet" ist ein Status des Kurses: Die Durchführung ist abgeschlossen, der Kurs bleibt aber mit seinen Mitgliedern bestehen. Welchen Zugriff Teilnehmende auf einen beendeten Kurs haben, legt eine systemweite Einstellung im [Modul Lernressource, Tab Zugang](Modules_Learning_Resource.de.md#tab_accesss) fest: Nur-Lese-Zugriff oder Kein Zugriff. Pro Kurs lässt sie sich überschreiben. Ein beendeter Kurs lässt sich wieder auf einen aktiven Status setzen.
+  "Beendet" ist ein Status des Kurses: Die Durchführung ist abgeschlossen, der Kurs bleibt aber mit seinen Mitgliedern bestehen. Welchen Zugriff Teilnehmende auf einen beendeten Kurs haben, legt eine systemweite Einstellung im [Modul Lernressource, Tab Zugang](Modules_Learning_Resource.de.md#tab_accesss) fest: Nur-Lese-Zugriff oder Kein Zugriff. Pro Kurs lässt sie sich unter `Kurs > Administration > Einstellungen > Tab "Optionen"` überschreiben. Ein beendeter Kurs lässt sich wieder in einen früheren Status setzen, etwa "Veröffentlicht".
 
 * **2 Papierkorb**<br>
-  Im Papierkorb ist der Kurs gelöscht, aber noch vorhanden. OpenOlat trägt Betreuer:innen, Teilnehmer:innen und Personen auf der Warteliste aus, die Besitzer:innen bleiben eingetragen. Der Kurs steht im Autorenbereich im Tab "Gelöscht" mit dem Status "Papierkorb" und lässt sich von dort wiederherstellen. Im Abschnitt "Lebenszyklus-Prozess" heisst dieser Schritt "Gelöscht".
+  Im Papierkorb ist der Kurs gelöscht, aber noch vorhanden. OpenOlat trägt Betreuer:innen, Teilnehmer:innen und Personen auf der Warteliste aus, die Besitzer:innen bleiben eingetragen. Der Kurs steht mit dem Status "Papierkorb" unter `Autorenbereich > Gelöscht` und lässt sich von dort wiederherstellen. Im Abschnitt "Lebenszyklus-Prozess" heisst dieser Schritt "Gelöscht".
 
 * **3 Endgültig gelöscht**<br>
   Der letzte Schritt löscht den Kurs inklusive seiner Daten. Danach lässt er sich nicht wiederherstellen.
@@ -26,22 +26,22 @@ Ein Kurs verlässt den Betrieb in drei Schritten, damit sich ein Fehlgriff bis z
 
 Mit der Konfiguration legen Sie fest, welche Schritte der tägliche Lauf ausführt und wie lange ein Kurs vor jedem Schritt wartet. Das Formular "Automatische Verwaltung des Lebenszyklus" enthält dafür drei Kontrollkästchen, eines pro Schritt. Sobald Sie ein Kontrollkästchen wählen, erscheinen dahinter eine ganze Zahl als Pflichtfeld und eine Einheit: Tag, Woche, Monat oder Jahr.
 
-![Markierte Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen, je mit Kontrollkästchen und Frist aus Zahl und Einheit](assets/automatic_course_lifecycle_config_v1_de.png){ class="shadow lightbox" title="Formular Automatische Verwaltung des Lebenszyklus" }
+![Die Schritte Beendet, Löschen (Papierkorb) und Endgültig löschen je mit einem Kontrollkästchen einschalten und dahinter die Frist aus Zahl und Einheit festlegen](assets/automatic_course_lifecycle_config_v2_de.png){ class="shadow lightbox" title="Formular Automatische Verwaltung des Lebenszyklus unter Administration > Lebenszyklen > Kurse · 2026.11.27" }
 
-* **1 Beendet**<br>
-  Das Kontrollkästchen trägt den Text "wechselt zu beenden (Benutzer:innen behalten den Zugriff, Lesemodus)". Die Frist zählt ab dem Kursende ("nach Kursende").
+* **Beendet**<br>
+  Das Kontrollkästchen trägt den Text "wechselt zu beendet (Benutzer:innen behalten den Zugriff, Lesemodus)". Welchen Zugriff Teilnehmende danach tatsächlich haben, legt die Einstellung zum Status "Beendet" fest, siehe [Die drei Schritte](#steps). Die Frist zählt ab dem Kursende ("nach Kursende").
 
-* **2 Löschen (Papierkorb)**<br>
+* **Löschen (Papierkorb)**<br>
   Das Kontrollkästchen trägt den Text "wechselt zu gelöscht (Teilnehmer:innen werden entfernt, Kurs befindet sich im Papierkorb)". Die Frist zählt ebenfalls ab dem Kursende ("nach Kursende").
 
-* **3 Endgültig löschen**<br>
+* **Endgültig löschen**<br>
   Das Kontrollkästchen trägt den Text "alle Daten werden gelöscht und können nicht wiederhergestellt werden". Die Frist zählt ab dem Tag, an dem der Kurs in den Papierkorb kam ("nachdem der Kurs gelöscht wurde").
 
-Massgebend für das Kursende ist das Enddatum des Durchführungszeitraums in den [Kurseinstellungen, Tab Durchführung](../../manual_user/learningresources/Course_Settings_Execution.de.md#execution_period). Kurse ohne Enddatum erfasst der Lauf nicht. Eine Frist endet jeweils am Ende des Tages.
+Massgebend für das Kursende ist das Enddatum des Durchführungszeitraums in den [Kurseinstellungen, Tab Durchführung](../../manual_user/learningresources/Course_Settings_Execution.de.md#execution_period). Kurse ohne Enddatum erfasst der Lauf nicht. Der Lauf erfasst einen Kurs an dem Tag, an dem Enddatum plus Frist erreicht ist: Bei "Beendet" mit einer Frist von 2 Wochen setzt der Lauf am 27. November einen Kurs mit dem Enddatum 13. November auf "Beendet".
 
-Auf "Beendet" setzt der Lauf Kurse in den Status "Vorbereitung" bis "Veröffentlicht", deren Enddatum plus Frist überschritten ist. In den Papierkorb verschiebt er Kurse in den Status "Vorbereitung" bis "Beendet", deren Enddatum plus Frist überschritten ist. Endgültig löscht er Kurse im Papierkorb, deren Löschdatum plus Frist überschritten ist und auf die keine andere Lernressource mehr verweist. Kursvorlagen und Kurse, deren Status extern verwaltet wird, erfasst der Lauf nicht.
+Auf "Beendet" setzt der Lauf Kurse in den Status "Vorbereitung", "Review", "Freigabe Betreuer:innen" und "Veröffentlicht", deren Enddatum plus Frist erreicht ist. In den Papierkorb verschiebt er Kurse in diesen Status und im Status "Beendet", deren Enddatum plus Frist erreicht ist. Endgültig löscht er alle Lernressourcen im Papierkorb, deren Löschdatum plus Frist erreicht ist, nicht nur Kurse: auch Tests, Dateien oder Kurstemplates, die jemand von Hand gelöscht hat. Eine Lernressource, auf die noch eine andere Lernressource verweist, bleibt im Papierkorb. Kurstemplates setzt der Lauf nicht auf "Beendet" und verschiebt sie nicht in den Papierkorb. Lernressourcen unter externer Verwaltung, bei denen ein externes Werkzeug das Beenden oder Löschen steuert, erfasst der Lauf nicht.
 
-Damit Besitzer:innen erfahren, wenn jemand ihren Kurs von Hand beendet oder löscht, steht im Formular "Benachrichtigung bei Beenden/Löschen eines Kurses" in der Zeile "E-Mail-Benachrichtigung erzwungen" das Kontrollkästchen "Besitzer:innen über Statusänderungen informieren". Die Einstellung wirkt in den Dialogen "Beenden" und "Löschen" im Autorenbereich: Dort ist das Kontrollkästchen für die Benachrichtigung der Besitzer:innen vorausgewählt, und nur Administrator:innen können es abwählen. Der automatische Lauf selbst ändert den Status ohne E-Mail-Versand.
+Damit Besitzer:innen erfahren, wenn jemand ihren Kurs von Hand beendet oder löscht, folgt unter dem Formular "Automatische Verwaltung des Lebenszyklus" das Formular "Benachrichtigung bei Beenden/Löschen eines Kurses". Es enthält in der Zeile "E-Mail-Benachrichtigung erzwungen" das Kontrollkästchen "Besitzer:innen über Statusänderungen informieren". Die Einstellung wirkt, wenn jemand einen Kurs von Hand beendet oder löscht, im Autorenbereich wie im Kurs selbst: Im Bestätigungsdialog ist das Kontrollkästchen für die Benachrichtigung der Besitzer:innen vorausgewählt, und nur Systemadministrator:innen können es abwählen. Der automatische Lauf selbst ändert den Status ohne E-Mail-Versand.
 
 
 ## Speichern mit Bestätigung und Vorschau [:octicons-tag-16:{ title="ab Release 21.0 (OO-9588)" }](https://track.frentix.com/issue/OO-9588) {: #confirmation}
@@ -62,32 +62,34 @@ Mit "Abbrechen" oder durch Schliessen des Dialogs speichert OpenOlat nichts. Das
 
 ## Lebenszyklus-Prozess: Status und Vorschau [:octicons-tag-16:{ title="ab Release 21.0 (OO-9590)" }](https://track.frentix.com/issue/OO-9590) {: #status}
 
+!!! info "frentix-Kund:innen"
+    Die tägliche Startzeit des Laufs ist Teil der Serverkonfiguration und gilt nach einer Änderung erst ab dem nächsten Neustart von OpenOlat. Bei frentix-Kund:innen übernimmt die zuständige Kundenberatung bei frentix die Änderung.
+
 Nach dem Speichern möchten Sie wissen, ob der Prozess läuft, wie weit er ist und was in den nächsten Tagen auf die Kurse zukommt. Diese Angaben stehen oberhalb des Formulars im Abschnitt "Lebenszyklus-Prozess", aufgeteilt in drei Teile.
 
 ![Markierte Anzeigen je Schritt mit Zähler x von N und aufgeklappte Vorschau-Tabelle mit steigenden Anzahlen für Nächster Lauf, 7 und 30 Tage, Prozess im Zustand Geplant](assets/automatic_course_lifecycle_status_v2_de.png){ class="shadow lightbox" title="Abschnitt Lebenszyklus-Prozess" }
 
-* **Konfiguration Übersicht**<br>
-  "Aktive Unterprozesse" nennt die eingeschalteten Schritte, zum Beispiel "Beendet | Gelöscht | Endgültig löschen". "Durchführungszeit" nennt die tägliche Startzeit des Laufs, standardmässig "Jeden Tag am 05:45". Eine Instanz kann eine andere Zeit konfigurieren, verbindlich ist die Anzeige. "Nächster Lauf" nennt Datum und Zeit des nächsten Laufs und dahinter die Anzahl der Kurse, die er betrifft. "Letzter Lauf" nennt den vorangegangenen Lauf.
+* **Konfigurationsübersicht**<br>
+  "Aktive Unterprozesse" nennt die eingeschalteten Schritte, zum Beispiel "Beendet | Gelöscht | Endgültig löschen". "Durchführungszeit" nennt die tägliche Startzeit des Laufs, standardmässig "Jeden Tag um 05:45". "Nächster Lauf" nennt Datum und Zeit des nächsten Laufs und dahinter die Anzahl der Kurse, die er betrifft. "Letzter Lauf" nennt den vorangegangenen Lauf.
 
 * **Prozesslauf**<br>
-  Die Kennzeichnung "Am laufen" oder "Geplant" zeigt, ob der Prozess gerade arbeitet oder auf seinen nächsten Start wartet. Die drei Anzeigen "Beendet", "Gelöscht" und "Endgültig löschen" zählen je Schritt den Fortschritt als "x von N" mit einem Fortschrittsbalken. Bei einem ausgeschalteten Schritt steht ein Strich.
+  Die Kennzeichnung "Am Laufen" oder "Geplant" zeigt, ob der Prozess gerade arbeitet oder auf seinen nächsten Start wartet. Die drei Anzeigen "Beendet", "Gelöscht" und "Endgültig löschen" zählen je Schritt den Fortschritt als "x von N" mit einem Fortschrittsbalken: N ist die Anzahl der Kurse, die der Lauf in diesem Schritt verarbeitet, x die Anzahl der bereits verarbeiteten. Arbeitet gerade kein Lauf, steht x auf 0, und N nennt die Kurse des nächsten Laufs. Bei einem ausgeschalteten Schritt steht ein Strich.
 
 * **Vorschau**<br>
   Die Tabelle ist zugeklappt und öffnet sich mit einem Klick auf "Vorschau". Sie zählt für die gespeicherte Konfiguration, wie viele Kurse jeder eingeschaltete Schritt erfasst, in den Zeilen "Nächster Lauf", "Nächste 7 Tage" und "Nächste 30 Tage". Die Spalten heissen "Zeitraum", "Beendet", "Gelöscht", "Endgültig löschen" und "Total".
 
 ### Laufenden Prozess steuern [:octicons-tag-16:{ title="ab Release 21.0 (OO-9589)" }](https://track.frentix.com/issue/OO-9589) {: #stop_process}
 
-Bemerken Sie während eines Laufs, dass eine Frist falsch eingestellt ist, korrigieren oder stoppen Sie den Prozess, ohne das Ende des Durchlaufs abzuwarten. Eine gespeicherte Änderung der Konfiguration wirkt sich **sofort** auf einen bereits laufenden Prozess aus: Vor jedem einzelnen Kurs prüft der Prozess erneut, ob der Schritt noch eingeschaltet ist. Schalten Sie einen Schritt ab, bricht der Durchlauf beim nächsten Kurs ab, statt die alte Einstellung zu Ende zu verarbeiten.
+Bemerken Sie während eines Laufs, dass eine Frist falsch eingestellt ist, korrigieren oder stoppen Sie den Prozess, ohne das Ende des Laufs abzuwarten. Speichern Sie eine geänderte Konfiguration, hält OpenOlat den laufenden Prozess an und startet ihn mit der neuen Konfiguration neu, so dass eine korrigierte Frist sofort greift. Zusätzlich prüft der Prozess vor jedem einzelnen Kurs, ob der Schritt noch eingeschaltet ist. Schalten Sie einen Schritt ab, bricht dieser Schritt beim nächsten Kurs ab, statt die alte Einstellung zu Ende zu verarbeiten. Die übrigen eingeschalteten Schritte laufen weiter.
 
-Mit dem Button **"Prozess stoppen"** im Teil "Prozesslauf" halten Sie einen laufenden Durchlauf sofort an. Der Button ist nur aktiv, solange ein Prozess läuft. So greift eine korrigierte Einstellung auch dann unmittelbar, wenn bereits viele Kurse zur Verarbeitung ausgewählt wurden. Die übrigen Kurse verarbeitet der nächste geplante Lauf.
+Mit dem Button "Prozess stoppen" im Teil "Prozesslauf" halten Sie einen laufenden Lauf sofort an, ohne die Konfiguration zu ändern und ohne Neustart. Das verschafft Zeit, die Fristen in Ruhe zu prüfen. Der Button ist nur aktiv, solange ein Prozess läuft. Die übrigen Kurse verarbeitet der nächste geplante Lauf.
 
 
 ## Lebenszyklus im Autorenbereich {: #authoring}
 
-Wer einen Kurs zurückholen möchte, den der Lauf in den Papierkorb verschoben hat, findet ihn im Autorenbereich. Er steht dort im Tab "Gelöscht" mit dem Status "Papierkorb" und lässt sich wiederherstellen. Endgültig löschen können ihn dort Administrator:innen und Lernressourcenverwalter:innen. Die einzelnen Schritte beschreiben die Seite [Löschen (eines Kurses/einer Lernressource)](../../manual_user/learningresources/Course_Delete.de.md) und die Anleitung [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](../../manual_how-to/lifecycle/lifecycle.de.md#course_lifecycle).
+Wer einen Kurs zurückholen möchte, den der Lauf in den Papierkorb verschoben hat, findet ihn im Autorenbereich. Er steht mit dem Status "Papierkorb" unter `Autorenbereich > Gelöscht` und lässt sich wiederherstellen. Der Durchführungszeitraum bleibt dabei unverändert: Passen Sie das Enddatum nach dem Wiederherstellen an, sonst verschiebt der nächste Lauf den Kurs wieder in den Papierkorb. Endgültig löschen können ihn dort Administrator:innen und Lernressourcenverwalter:innen. Die einzelnen Schritte beschreiben die Seite [Löschen (eines Kurses/einer Lernressource)](../../manual_user/learningresources/Course_Delete.de.md) und die Anleitung [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](../../manual_how-to/lifecycle/lifecycle.de.md#course_lifecycle).
 
 !!! warning "Achtung"
-
     "Wiederherstellen" holt den Kurs mit seinem Inhalt zurück, mit dem Status "Beendet". Schon beim Verschieben in den Papierkorb entfernt OpenOlat die Mitglieder ausser den Besitzer:innen, die Verknüpfungen mit Gruppen und mit Elementen im Course Planner, die Katalogeinträge, das "Angebot für Gäste" und die Angebote "Ohne Buchung". Diese kommen nicht zurück. Was genau entfällt, steht unter [Was beim Löschen entfernt wird](../../manual_user/learningresources/Course_Delete.de.md#removed_on_delete).
 
 
