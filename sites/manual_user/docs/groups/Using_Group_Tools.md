@@ -1,32 +1,32 @@
 # Using Group Tools {: #group_tools}
 
-Group coaches have a full range of group collaboration tools they can choose for participants.
-Group participants will then see the following items in the group menu on the left (depending on activation):
+With the group tools, the members of a group work together: they exchange files, discuss, plan dates and meet online. Which tools a group has is defined by the group coaches in the "Tools" tab of the [group administration](Group_Administration/index.md#tools). Every tool that is switched on appears with its icon in the group menu on the left:
 
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
-| :o_icon_o_icon_news: | Information | :material-rss: | The "Information" is similar to the tool "Info messages" of the toolbar and the course element of the same name in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. Group coaches can set whether group members can also create and send information. |
-| :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |
-| ![Course icon](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
-| ![Members icon](assets/members.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |
-| :o_icon_o_co_icon: | E-Mail |  | Send an email to all or selected group coaches or participants. |
-| :o_icon_o_bc_icon: | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
-| ![Forum icon](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.
-| ![Chat icon](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |
-| ![Wiki icon](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |
-| :o_icon_o_ep_icon: | Portfolio |  | Use a portfolio to jointly create a binder or add entries.  |
-| ![OpenMeetings icon](assets/openmeetings.png){ class=size32 } | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in virtual classrooms. |
-| ![BigBlueButton icon](assets/openmeetings.png){ class=size32 } | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual classrooms. If the room templates are approved, both group moderators and group members can create new meetings for shared online sessions. In the group tool, the recordings are also available for further access after the meeting ends. The functionality is described in the [course element BigBlueButton](../learningresources/bigbluebutton/index.md). |
-| ![Microsoft Teams icon](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual spaces. With appropriate configuration by the group coach, both group coaches and group members can create new online meetings. Whether permanent reservations without a date are also available is defined by the system administration [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). The functionality is described in more detail in the [course element "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.md). |
-
+| :o_icon_o_icon_news: | Information | :material-rss: | With the "Information", group coaches create messages for all group members. If required, they also send the message by e-mail to the persons who have subscribed to the "Information", to the coaches or to the participants of the group. Whether group participants can also create messages is defined by the group coaches in the "Tools" tab; there, the tool is called "Information for members". In the course, the tool ["Info messages"](../learningresources/Course_Settings_Toolbar.md#notifications) of the toolbar and the [course element "Info messages"](../learningresources/Course_Element_Notifications.md) have the same function. Because the "Information" is a tool of its own in the group, it has the info icon in the group menu; the info messages in the course have the megaphone icon. |
+| :o_icon_o_calendar_icon: | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. General information about the calendar is described on the page [User tools: Calendar](../personal_menu/Calendar.md). |
+| :o_icon_o_CourseModule_icon: | Course |  | If the group is linked to one or more courses, you open them via the entry "Course" in the group menu. |
+| :o_icon_o_icon_group: | Members |  | If the display is activated, you see a list of all participants and/or coaches of the group. Depending on the settings, the waiting list is visible too. Depending on the configuration, the list can be downloaded and printed. E-mails can be sent to the members. |
+| :o_icon_o_co_icon: | E-mail |  | Send an e-mail to all or selected group coaches or participants. |
+| :o_icon_o_bc_icon: | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subfolders is also possible. |
+| :o_icon_o_fo_icon: | Forum | :material-rss: | In the forum, the group members exchange ideas at different times: they start threads and reply to them with posts. How a forum works is described on the page [Course Element "Forum"](../learningresources/Course_Element_Forum.md). |
+| :o_icon_o_icon_chat: | Chat |  | You see which other members are present in the group chat. Enter the chat room to communicate with each other in real time. |
+| :o_icon_o_wiki_icon: | Wiki | :material-rss: | Use the wiki to create content together. How to work with a wiki is described on the page [Wiki](../learningresources/Wiki.md). |
+| :o_icon_o_ep_icon: | Portfolio |  | Use the [portfolio](../area_modules/Portfolio_General_Information.md) to create a binder together and add entries. |
+| :o_icon_o_openmeetings_icon: | OpenMeetings |  | Use OpenMeetings for online communication and collaboration in a virtual room. The tool works similarly to the [Course Element "OpenMeetings"](../learningresources/Course_Element_OpenMeetings.md). |
+| :o_icon_o_vc_icon: | Adobe Connect |  | Use Adobe Connect for online communication in a virtual meeting room. The tool works similarly to the [Course Element "Adobe Connect"](../learningresources/Course_Element_Adobe_Connect.md) [:octicons-tag-16:{ title="from Release 14.0 (OO-3889)" }](https://track.frentix.com/issue/OO-3889). |
+| :o_icon_o_vc_icon: | BigBlueButton |  | Use BigBlueButton for online communication and collaboration in virtual rooms. If the room templates are released accordingly, both group coaches and group participants can create new meetings for shared online sessions. As in the course element, the recordings are available for further access after the meeting ends. The functionality is described in more detail in the [Course Element "BigBlueButton"](../learningresources/bigbluebutton/index.md). |
+| :o_icon_o_vc_icon: | Microsoft Teams |  | Use MS Teams for online communication and collaboration in virtual rooms. With the appropriate configuration by the group coaches, both group coaches and group participants can create new online meetings. Whether permanent reservations without a date are also available is defined by the system administration [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9666)" }](https://track.frentix.com/issue/OO-9666). The functionality is described in more detail in the [Course Element "Microsoft Teams"](../learningresources/Course_Element_Microsoft_Teams.md). |
+| :o_icon_o_vc_icon: | Zoom |  | Use Zoom for online meetings of the group. The tool works similarly to the [Course Element "Zoom"](../learningresources/zoom/index.md) [:octicons-tag-16:{ title="from Release 17.0.0 (OO-6189)" }](https://track.frentix.com/issue/OO-6189). |
 
 !!! info "Important"
 
-    The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes.
+    The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes. You find your subscriptions under [User tools: Subscriptions](../personal_menu/Subscriptions.md).
 
 !!! info "Virtual classrooms"
 
-    Depending on the configuration by the [system administrators](../../manual_admin/administration/External_Tools_-_Administration/index.md), different virtual classrooms such as OpenMeetings, BigBlueButton or Microsoft Teams are available as group tools.
+    Depending on the configuration by the [system administrators](../../manual_admin/administration/External_Tools_-_Administration/index.md), different virtual classrooms such as OpenMeetings, Adobe Connect, BigBlueButton, Microsoft Teams or Zoom are available as group tools.
 
 
 
@@ -34,13 +34,13 @@ Group participants will then see the following items in the group menu on the le
 
     In a group calendar, the group participants can see all the entries of the group members, regardless of whether the appointments are private or public.
 
-    If the group is assigned to a course, the following entries are displayed to the group participants in the course calendar:
+    If the group is linked to a course, the following entries are displayed to the group participants in the course calendar:
 
     - public entries of the group,
-    - the respective group member's own group calendar entries,
+    - the entries that the respective group member created in the group calendar,
     - as well as course specific calendar entries.
 
-    People who are not members of the group will not see the calendar entries of the other groups in the course calendar. If several groups are assigned to a course, the members will only see their own group calendar entries, but not those of the other groups.
+    The entries of a group calendar are only visible in the course calendar to the members of this group. If several groups are linked to a course, the members of each group therefore only see the entries of their own group.
 
 [To the top of the page ^](#group_tools)
 
@@ -48,11 +48,24 @@ Group participants will then see the following items in the group menu on the le
 
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
+[Group Administration >](Group_Administration/index.md)<br>
+[Toolbar >](../learningresources/Course_Settings_Toolbar.md)<br>
+[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
 [User tools: Calendar >](../personal_menu/Calendar.md)<br>
+[Course Element "Forum" >](../learningresources/Course_Element_Forum.md)<br>
+[Wiki >](../learningresources/Wiki.md)<br>
+[Portfolio - General Information >](../area_modules/Portfolio_General_Information.md)<br>
+[Course Element "OpenMeetings" >](../learningresources/Course_Element_OpenMeetings.md)<br>
+[Course Element "Adobe Connect" >](../learningresources/Course_Element_Adobe_Connect.md)<br>
 [Course Element "BigBlueButton" >](../learningresources/bigbluebutton/index.md)<br>
 [Course Element "Microsoft Teams" >](../learningresources/Course_Element_Microsoft_Teams.md)<br>
-[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)<br>
-[Course Element "Info messages" >](../learningresources/Course_Element_Notifications.md)<br>
-[Toolbar >](../learningresources/Course_Settings_Toolbar.md)
+[Course Element "Zoom" >](../learningresources/zoom/index.md)<br>
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
+[External Tools: Overview >](../../manual_admin/administration/External_Tools_-_Administration/index.md)
+
+**Further reading**<br>
+[Create Groups >](Create_Groups.md)<br>
+[Become a group member >](Group_Membership.md)
 
 [To the top of the page ^](#group_tools)

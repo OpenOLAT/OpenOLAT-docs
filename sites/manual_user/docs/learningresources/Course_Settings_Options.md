@@ -1,30 +1,33 @@
 # Course Settings - Tab Options {: #course_settings_options}
 
-Under `Course > Administration > Settings > Options` you can set up
+In the "Options" tab, you integrate material into the course that you maintain outside the course, and you give the coaches their own working tools. You find the tab under `Course > Administration > Settings > Options`. Here you can
 
-* a course-specific [glossary](../learningresources/Glossary_create.md#integrate)
-* a [resource folder](../learningresources/index.md)
-* and a special folder for coaches
+* integrate a course-specific [glossary](../learningresources/Glossary_create.md#integrate),
+* integrate a [resource folder](../learningresources/Resource_Folder.md),
+* switch on the "Coach files" folder and let coaches edit to-dos,
+* define what access participants have to the finished course.
 
-and, with the appropriate authorization, activate a few special configurations.
+The tab is edited by owners of the course, learning resource managers, administrators and persons with the right "Course editor" from the [members management](Members_management.md#section_rights). Depending on the configuration, learning resource managers and administrators also find the [configuration options](#further-configuration-options) here.
 
 ![Options tab of the course settings with glossary and resource folder selection, coach folder settings, and configuration options for administrative roles](assets/course_settings_options_v1_de.png){ class="shadow lightbox" title="Options tab of the course settings" }
 
 
 ## Include glossary
 
-You can either connect to an already created glossary here or create a new glossary in the menu that appears. Once a glossary has been selected, it can also be activated in the "Toolbar" tab.
+With "Select glossary", you open a selection in which you choose an existing glossary or create a new one. The selected glossary then appears under "Selected glossary". With "Delete selection", you remove the connection again.
+
+So that participants can use the glossary in the course, you then switch it on in the [Toolbar](Course_Settings_Toolbar.md#glossary) tab with "Use glossary". This option is only available there if "Toolbar visible for participants" is switched on.
 
 [To the top of the page ^](#course_settings_options)
 
 
 ## Include resource folder
 
-You can either connect to an already created "Resource folder" learning resource here or create a new resource folder in the menu that appears. The files of the resource folder then appear in the course's storage folder, in the automatically created subfolder "_sharedfolder".
+A resource folder provides the same files in several courses. With "Replace", you open a selection in which you choose an existing "Resource folder" learning resource or create a new one. The files of the resource folder then appear in the course's [storage folder](Storage_folder.md), in the automatically created subfolder "_sharedfolder".
 
-By default, the files of the resource folder are read-only in the course, and editing is only possible directly in the learning resource, not in the course's storage folder or when embedding via single pages in the course editor. If editing should also be possible in the course, the checkbox at "Read only" must be cleared in the course settings options.
+As soon as you select a resource folder, "Read only" is switched on. The files can then only be edited in the learning resource itself, not in the course's storage folder and not when embedding them via single pages in the course editor. If they should also be editable in the course, clear the checkbox at "Read only". Only owners of the course, learning resource managers and administrators can clear this checkbox.
 
-For more information and a step-by-step guide on including a resource folder, see the [How to](../../manual_how-to/multiple_use/multiple_use.md) section.
+A step-by-step guide to including a resource folder can be found in the how-to [How can I use the same files in several courses?](../../manual_how-to/multiple_use/multiple_use.md)
 
 **Please note:**<br> You can only include _one_ resource folder per course. Consider in advance which files you want to organize through a cross-course resource folder instead of the course-specific storage folder.
 
@@ -33,27 +36,32 @@ For more information and a step-by-step guide on including a resource folder, se
 
 ## Coach settings
 
-In the "Options" menu, a course-wide **coach folder** can be activated. In this folder, all coaches of the course can then store, view, edit, or delete documents. Creating subfolders is also possible in the configured area.
+In the "Coach settings" section, you give the coaches a shared folder for their documents and let them edit to-dos in the course.
 
-As the location for the folder, you can either choose an already existing folder from the course's storage folder or generate a new folder specifically for the coaches. If "Automatically generated folder" is selected, coaches have no access to other files located in the course's storage folder, while course creators or persons with access to the course editor can see the coaches' files in the automatically generated folder "_coachdocuments_" in the storage folder. This means course owners always have access to the files of the coach folder and can also use them for linking to certain course elements, for example a single page. Conversely, even with the new folder, coaches get _no_ way to integrate files into the course structure.
+With "Coach files folder", you switch on a course-wide folder for the coaches. In it, all coaches of the course store, view, edit or delete documents and create subfolders. Under "File destination", you choose where the folder is located:
 
-In the Administration menu, the new "Coach documents" submenu appears both for coaches and for owners of the course.
+* **"Automatically generated folder":** OpenOlat creates the folder "_coachdocuments" in the course's storage folder. Coaches only see this folder, not the other files of the storage folder. Owners of the course and persons with access to the course editor see the coaches' files in the storage folder and can link them, for example, in a single page.
+* **"Choose folder from course storage":** With "Choose folder", you select an existing folder in the course's storage folder.
 
-![New "Coach documents" menu entry in the Administration menu of a course](assets/coach_folder_menu.png){ class="shadow lightbox" title="Administration menu of a course" }
+In both cases, coaches only open this folder via the menu entry. Only persons with access to the course editor can link the files in course elements, for example in a single page.
 
-If coaches should be able to use course-specific **to-dos**, activate this option in this section as well.
+If the folder is switched on, the entry "Coach files" appears in the "Administration" menu of the course for coaches and owners. More on this on the page [Coach files](Coach_Files.md).
+
+![Entry Coach files highlighted in the Administration menu](assets/course_coach_files_v1_de.png){ class="shadow lightbox" title="Administration menu of a course" }
+
+If you switch on "Edit to-dos", coaches edit the [to-dos in the course](Course_todos.md) under `Course > Administration > To-dos`. Without this option, they only view the to-dos.
 
 [To the top of the page ^](#course_settings_options)
 
 
 ## Access in status "Finished" [:octicons-tag-16:{ title="from Release 21.0 (OO-9298)" }](https://track.frentix.com/issue/OO-9298)
 
-In the "Access" section, you define what access participants have to this course once it reaches the status "Finished".
+In the "Access" section, you define what access participants have to this course once it reaches the status "Finished". How a course reaches this status is described on the page [Access configuration](Access_configuration.md).
 
-With **"Adopt system default"**, the default specified by the administration applies; the currently valid default is shown in brackets. Select **"Override"** to set a different value for this course:
+With "Adopt system default", the default applies that the system administration sets under `Administration > Modules > Learning resource > Access` ([Module Learning resource](../../manual_admin/administration/Modules_Learning_Resource.md#tab_accesss)); the currently valid default is shown in brackets. Select "Override" to set a different value for this course:
 
 * **Read-only:** The course content remains available to participants in read mode.
-* **No access:** Participants no longer have access to the content. When they open it, a notice page appears referring them to the responsible contact person.
+* **No access:** Participants no longer have access to the content. When they open it, the info page shows the notice "Course finished": "Access to the content has expired. If you have any questions, please contact your designated contact person." The notice does not name a specific person.
 
 ![Access section in the Options tab with the option Override selected and the two choice cards Read-only and No access](assets/course_settings_options_finished_access_v1_en.png){ class="shadow lightbox" title="Options tab of the course settings" }
 
@@ -62,26 +70,35 @@ With **"Adopt system default"**, the default specified by the administration app
 
 ## Further configuration options
 
-Users with administrative roles (learning resource manager, administrator) are also shown the following options in the "Options" tab:
+In the "Configuration options" section, learning resource managers and administrators allow the course owners with author rights two tasks that are otherwise reserved for administrative roles. Author rights are held by those who additionally have the role author in OpenOlat.
 
-* Option **"Activate invitation of external users for course owners with author rights"**<br>
-    External users can also participate in courses (without member status). However, they must be explicitly invited to do so by a course owner with author rights. The option to invite them must be activated with this setting. A course owner with author rights can then also invite external users in the members management (the "Add members" button gets the additional option "Invite external members").
+Whether an option appears is determined by the system administration. For each of the two functions, it selects whether it applies to all courses or "Must be activated per course". Only in the second case does the option appear here. The setting for the invitation is located under [external users](../../manual_admin/administration/Guest_and_invitation.md#externals), the one for the LTI sharing under [LTI 1.3 Integrations](../../manual_admin/administration/LTI_Integrations/index.md). LTI (Learning Tools Interoperability) is a standard through which other learning platforms integrate content from OpenOlat.
 
-* Option **"Activate LTI 1.3 sharing for course owners with author rights"**<br>
-    In the "Share" tab of the course settings, it can be allowed that people from other learning platforms access an OpenOlat course. Various configurations must be made for this. This is normally only possible for users with administrative roles.<br>
-    If this option is activated, setting up the LTI sharing is also allowed for course owners with author rights.
+* **"Activate invitation of external users for course owners with author rights"**<br>
+    With an invitation, persons without an OpenOlat account can also take part in the course, the external users. If the option is switched on, a course owner with author rights can also invite them in the [members management](Members_management.md#section_invitations): next to the "Add member" button, the drop-down menu then contains "Invite external members".
+
+* **"Activate LTI 1.3 sharing for course owners with author rights"**<br>
+    With the [LTI sharing](LTI_Share_courses.md) in the "Share" tab of the course settings, people access an OpenOlat course from other learning platforms. If the option is switched on, a course owner with author rights can also set up the LTI sharing.
 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[Glossary - create >](../learningresources/Glossary_create.md)<br>
+[Resource folder >](../learningresources/Resource_Folder.md)<br>
+[Members management >](Members_management.md)<br>
 [Toolbar >](Course_Settings_Toolbar.md)<br>
-[Various Types of Learning Resources >](../learningresources/index.md)<br>
+[Storage folder >](Storage_folder.md)<br>
 [How can I use the same files in several courses? >](../../manual_how-to/multiple_use/multiple_use.md)<br>
-[Course Settings - Tab Share: Configure LTI access to a course >](../learningresources/LTI_Share_courses.md)
+[Coach files >](Coach_Files.md)<br>
+[To-dos in the course >](Course_todos.md)<br>
+[Access configuration >](Access_configuration.md)<br>
+[Module Learning resource >](../../manual_admin/administration/Modules_Learning_Resource.md)<br>
+[Anonymous guests and external users >](../../manual_admin/administration/Guest_and_invitation.md)<br>
+[LTI 1.3 Integrations >](../../manual_admin/administration/LTI_Integrations/index.md)<br>
+[Course Settings - Tab Share: Configure LTI access to a course >](LTI_Share_courses.md)
 
 **Further reading**<br>
 [Course Settings >](Course_Settings/index.md)<br>
-[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)<br>
-[Access configuration >](../learningresources/Access_configuration.md)
+[Course Settings - Tab Assessment >](Course_Settings_Assessment/index.md)
 
 [To the top of the page ^](#course_settings_options)

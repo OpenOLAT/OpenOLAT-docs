@@ -14,7 +14,7 @@ The sections on the individual types show the icon of the type below the title. 
 
 :o_icon_o_CourseModule_icon:
 
-An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OpenOlat course, different didactic concepts like webquest, group puzzles, cooperative online seminars, problem-based learning, game-based approaches etc. can be implemented. A course combines any number of course elements in a structure.
+An OpenOlat course serves as an online-only course or accompanies lectures, seminars and other face-to-face events. It combines any number of course elements in a structure. This way, you implement different didactic concepts, for example webquests, group puzzles, cooperative online seminars, problem-based learning or game-based approaches.
 
 You find the profile and the course cycle from creation to deletion on the page [General Information](General_Information/index.md) about the course. How to create courses is explained in the chapter ["Creating Courses"](Creating_Course.md). Details on course elements and the course editor can be found in the chapter ["Types of Course Elements"](Course_Elements/index.md).
 
@@ -59,7 +59,7 @@ In the authoring area, OpenOlat shows CP learning content with the icon of an ar
 
 :o_icon_o_FileResource-WIKI_icon:
 
-Wikis make it easy to create content jointly. A wiki can be used for group work, as a documentation tool or as a knowledge base for studies and projects.
+In a wiki, several people create content together. A wiki serves for group work, as a documentation tool or as a knowledge base for studies and projects.
 
 More information on creating wikis can be found in the chapter ["Creating Wikis"](../learningresources/Wiki.md). How to create content in a wiki and work with it efficiently is explained in the chapter [Course Element "Wiki"](../learningresources/Course_Element_Wiki.md).
 
@@ -73,7 +73,7 @@ More information on creating wikis can be found in the chapter ["Creating Wikis"
 
 :o_icon_o_FileResource-PODCAST_icon:
 
-A podcast allows you to upload audio or video files that can then be made available in OpenOlat. Podcasts can either be listened to or watched directly in OpenOlat, or they can be subscribed to in portals such as iTunes in order to copy single episodes to mobile devices later on. Participants can easily rate and comment on episodes.
+In a podcast, you provide audio and video files as episodes in OpenOlat. Participants listen to or watch the episodes directly in OpenOlat or subscribe to the podcast via services such as iTunes and load the episodes onto mobile devices. If ratings and comments are switched on, participants rate and comment on the episodes.
 
 Further information on podcasts can be found in the chapter ["Podcast: Overview"](Podcast/index.md).
 
@@ -87,7 +87,9 @@ Further information on podcasts can be found in the chapter ["Podcast: Overview"
 
 :o_icon_o_FileResource-BLOG_icon:
 
-In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as an online diary or online journal. Blogs embedded in courses can also be rated and commented on easily by participants.
+In a blog, you publish subject-related or personal information in chronological order, for example as an online diary or online journal. If ratings and comments are switched on, participants rate and comment on the entries.
+
+In the authoring area, in the course menu and in the toolbar, the blog has its own blog icon. The megaphone icon belongs to the [info messages](Course_Element_Notifications.md).
 
 The page [Blog: Overview](Blog/index.md) describes the profile and the functions of the blog. Here you can find more information about the [course element blog](../learningresources/Course_Element_Blog.md). Information on how to create a blog and embed it in your course can be found in the ["How to section"](../../manual_how-to/blog/blog.md).
 
@@ -116,7 +118,7 @@ The page [Course Settings - Tab Options](Course_Settings_Options.md) describes t
 
 :o_icon_o_FileResource-FORM_icon:
 
-Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task".
+You use forms in OpenOlat, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task".
 
 More information on the use and creation of forms for surveys, rubrics etc. can be found in the chapter [Creating forms](Form/index.md).
 
@@ -196,7 +198,7 @@ OpenOlat uses video learning content in the MPEG-4 format with the file extensio
 
 Apart from the above-mentioned learning resources, you can import a number of other file types into OpenOlat. Among these are PDF, PowerPoint, Excel and Word files as well as images, music and animations.
 
-In addition, if a corresponding document editor is activated, you can create Word, Excel or PowerPoint files directly in OpenOlat as a learning resource. Which files can be created with your configuration is shown in the "Create" list.
+In addition, if a corresponding document editor is activated, you can create Word, Excel or PowerPoint files directly in OpenOlat as a learning resource. The "Create" menu shows which file types you can create with your configuration.
 
 
 !!! info "Important"

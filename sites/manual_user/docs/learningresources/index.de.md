@@ -14,7 +14,7 @@ Die Abschnitte zu den einzelnen Typen zeigen unter dem Titel das Symbol des Typs
 
 :o_icon_o_CourseModule_icon:
 
-Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem OpenOlat-Kurs können verschiedene didaktische Konzepte wie Webquest, Gruppenpuzzles, kooperative Online-Seminare, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt werden. Ein Kurs fasst beliebig viele Kursbausteine in einer Struktur zusammen.
+Ein OpenOlat-Kurs dient als reiner Online-Kurs oder begleitet Vorlesungen, Seminare und andere Präsenzveranstaltungen. Er fasst beliebig viele Kursbausteine in einer Struktur zusammen. So setzen Sie verschiedene didaktische Konzepte um, etwa Webquests, Gruppenpuzzles, kooperative Online-Seminare, problembasiertes Lernen oder spielbasierte Ansätze.
 
 Steckbrief und Kurszyklus vom Anlegen bis zum Löschen finden Sie auf der Seite [Allgemeines](General_Information/index.de.md) zum Kurs. Wie Sie Kurse erstellen, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements/index.de.md).
 
@@ -59,7 +59,7 @@ Im Autorenbereich zeigt OpenOlat CP-Lerninhalte mit dem Symbol eines Archivs. Da
 
 :o_icon_o_FileResource-WIKI_icon:
 
-Mit Wikis können auf einfache Weise gemeinsam Inhalte erstellt werden. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Studien- oder Projektarbeiten verwendet werden.
+In einem Wiki erstellen mehrere Personen gemeinsam Inhalte. Ein Wiki dient für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Studien- und Projektarbeiten.
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten, erfahren Sie im Kapitel [Kursbaustein "Wiki"](../learningresources/Course_Element_Wiki.de.md).
 
@@ -73,7 +73,7 @@ Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstell
 
 :o_icon_o_FileResource-PODCAST_icon:
 
-Ein Podcast ermöglicht den Upload von Audio- oder Videodateien, die anschliessend in OpenOlat zur Verfügung gestellt werden können. Podcasts können entweder direkt in OpenOlat angehört oder angeschaut oder in Portalen wie iTunes abonniert werden, um die einzelnen Podcast-Episoden später auf mobile Endgeräte zu kopieren. Teilnehmende können Episoden auf einfache Art bewerten und kommentieren.
+In einem Podcast stellen Sie Audio- und Videodateien als Episoden in OpenOlat bereit. Teilnehmende hören oder sehen die Episoden direkt in OpenOlat oder abonnieren den Podcast über Dienste wie iTunes und laden die Episoden auf mobile Geräte. Sind Bewertungen und Kommentare eingeschaltet, bewerten und kommentieren Teilnehmende die Episoden.
 
 Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersicht"](Podcast/index.de.md).
 
@@ -87,7 +87,9 @@ Weitere Informationen zum Thema Podcast finden Sie im Kapitel ["Podcast: Übersi
 
 :o_icon_o_FileResource-BLOG_icon:
 
-In einem Blog können fachbezogene oder persönliche Informationen zeitlich strukturiert veröffentlicht und kommentiert werden. Blogs werden häufig als Online-Tagebuch oder Online-Journal eingesetzt. In Kursen eingebundene Blogs können auch von Teilnehmenden auf einfache Art bewertet und kommentiert werden.
+In einem Blog veröffentlichen Sie fachbezogene oder persönliche Informationen in zeitlicher Folge, etwa als Online-Tagebuch oder Online-Journal. Sind Bewertungen und Kommentare eingeschaltet, bewerten und kommentieren Teilnehmende die Einträge.
+
+Im Autorenbereich, im Kursmenü und in der Toolbar trägt der Blog ein eigenes Blog-Symbol. Das Megafon-Symbol gehört zu den [Mitteilungen](Course_Element_Notifications.de.md).
 
 Steckbrief und Funktionen des Blogs beschreibt die Seite [Blog: Übersicht](Blog/index.de.md). Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md). Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden, finden Sie im ["How to Bereich"](../../manual_how-to/blog/blog.de.md).
 
@@ -116,7 +118,7 @@ Details beschreibt die Seite [Kurseinstellungen - Tab Optionen](Course_Settings_
 
 :o_icon_o_FileResource-FORM_icon:
 
-Formulare können in OpenOlat für vielfältige Zwecke und an unterschiedlichen Stellen eingesetzt werden. Sie eignen sich z.B. für Umfragen, Datenerhebungen, Selbsteinschätzungen, Fragebogen oder Rubrikbewertung. Zum Einsatz kommen sie im Kursbaustein "Formular", im Kursbaustein "Umfrage" oder als Rubrikbewertung im Kursbaustein "Bewertung" oder Kursbaustein "Aufgabe".
+Formulare setzen Sie in OpenOlat zum Beispiel für Umfragen, Datenerhebungen, Selbsteinschätzungen, Fragebogen oder Rubrikbewertung ein. Zum Einsatz kommen sie im Kursbaustein "Formular", im Kursbaustein "Umfrage" oder als Rubrikbewertung im Kursbaustein "Bewertung" oder Kursbaustein "Aufgabe".
 
 Mehr Informationen zum Einsatz und zur Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel [Formulare erstellen](Form/index.de.md).
 
@@ -196,7 +198,7 @@ OpenOlat verwendet Video-Lerninhalt im MPEG-4-Format mit der Dateiendung MP4. Di
 
 Neben den oben genannten Lernressourcen können Sie eine Reihe weiterer Dateitypen in OpenOlat importieren. Dazu gehören PDF-, PowerPoint-, Excel- und Word-Dateien sowie Bilder, Musik und Animationen.
 
-Zudem können Sie, sofern ein entsprechender Dokumenteneditor aktiviert ist, Word-, Excel- oder PowerPoint-Dateien direkt in OpenOlat als Lernressource erstellen. Welche Dateien mit Ihrer Konfiguration erstellt werden können, sehen Sie in der Liste "Erstellen".
+Zudem können Sie, sofern ein entsprechender Dokumenteneditor aktiviert ist, Word-, Excel- oder PowerPoint-Dateien direkt in OpenOlat als Lernressource erstellen. Welche Dateitypen Sie mit Ihrer Konfiguration erstellen können, zeigt das Menü "Erstellen".
 
 
 !!! info "Wichtig"

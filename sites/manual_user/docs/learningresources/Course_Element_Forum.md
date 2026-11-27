@@ -1,4 +1,4 @@
-#  Course Element "Forum" {: #forum}
+# Course Element "Forum" {: #forum}
 
 ## Profile
 
@@ -12,52 +12,52 @@ Assessable | no
 Specialty / Note |
 
 
-With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. 
+With the course element "Forum", the members of your course discuss at different times (asynchronously): each person writes and replies whenever it suits them. Participants ask questions about the content of the course there, for example, and answer each other, you start a subject discussion or implement forum-based learning methods.
 
-![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of a start posting in a forum](assets/Posting_beantworten.png){ class="shadow lightbox" title="Discussion topic in the forum" }
+![Forum post with title, author and text, plus the buttons Reply with quote and Reply without quote, example of the first post of a thread](assets/Posting_beantworten.png){ class="shadow lightbox" title="Discussion topic in the forum" }
 
 [To the top of the page ^](#forum)
 
 ---
 
 
-## Tab Configuration {: #config}
+## Tab Configuration [:octicons-tag-16:{ title="from Release 15.0 (OO-4347)" }](https://track.frentix.com/issue/OO-4347) {: #config}
 
-A forum is configured in the course editor in the "configuration" tab. Here you can set the user rights of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also define whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. 
+You define who may write in the forum and who may moderate it in the course editor in the "Configuration" tab. In the "User rights" section, you use "Create forum posts" to define which course roles create posts. You can choose between coaches, participants and guests; by default, coaches and participants create posts. With "Moderator", you define whether coaches moderate the forum. You also define whether posts using an alias are allowed.
 
 ---
 
-
 ### Forums with alias [:octicons-tag-16:{ title="from Release 10.4 (OO-1769)" }](https://track.frentix.com/issue/OO-1769){:target="_blank"} {: #pseudonym}
 
-In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of an alias is activated by default. To do this, select the checkbox "Activate alias in every message".
+If "Allow posts using an alias" is switched on, the authors of a post enter a name themselves under which their post appears. Whoever protects the alias with a password uses it exclusively. Without a password, several people can use the same alias.
 
-![Checkboxes Allow posts using an alias and Activate alias in every message, plus the role selection for moderation and creating posts, Configuration tab of a forum](assets/forum_config.png){ class="shadow lightbox" title="Configuration tab of a forum" }
+If "Activate alias in every message" is switched on as well, the option "Use alias" is already selected when writing each post.
+
+Both options appear in the tab as soon as the system administration allows aliases: under `Administration > Modules > Forum` with "Allow posts using an alias". More about this in the [administration manual](../../manual_admin/administration/Modules/index.md#forum).
+
+![In the Configuration tab, you allow posts using an alias and define below who moderates and creates posts](assets/forum_config_v1_en.png){ class="shadow lightbox" title="Course editor, course element Forum, Configuration tab · 2026.11.27" }
 
 ---
 
 ### Moderation rights {: #moderator}
 
-Course owners always have the following additional moderation rights, [coaches](../basic_concepts/Roles/index.md#coach) if the right "Moderator" is switched on for them. The right is switched on by default; owners switch it off in the "Configuration" tab. Whoever moderates can:
+Moderating means keeping a discussion in order and intervening if needed. Owners always have these rights, [coaches](../basic_concepts/Roles/index.md#coach) if the right "Moderator" is switched on for them. The right is switched on by default; owners switch it off in the "Configuration" tab. Whoever moderates can:
 
-  * Editing and deleting all posts in a forum; attaching files.
-  * Prioritizing threads (sticky): a certain discussion subject will always appear on top of a list.
-  * Closing discussion: it will no longer be possible to reply to a certain discussion subject.
-  * Hiding discussion: a certain subject will no longer appear in the forum list.
-  * Displaying discussion: hidden subject will be displayed anew.
-  * Filter for persons: on the forum's overview page posts of every single course participant as well as further information (e.g. words, number of characters in the postings) can be displayed.
-  * Archiving forum: posts (as MS Word) and attached files are packed into a ZIP file and downloaded.
-  * Excel report of forums (xlsx format) for download. Generate a report for the selected forum course elements. The report contains one line for each forum post written for further statistical analysis. [:octicons-tag-16:{ title="from Release 18.1 (OO-6960)" }](https://track.frentix.com/issue/OO-6960)
+* Edit and delete all forum posts and attach files.
+* "Prioritize thread (sticky)": the thread always stays on top of the list.
+* "Close discussion": posts of this thread can no longer be replied to.
+* "Hide discussion": the thread no longer appears in the list of threads.
+* "Show discussion": a hidden thread appears in the list again.
 
-Persons with moderation rights can also move forum topics or individual posts. The posts can be moved to another topic in the same forum, to another forum in the course or to a forum in another course. All underlying forum posts are also moved and are then no longer visible in the original forum. The moved post or thread can be created as a new thread or integrated into an existing one. In the final step of the move, an e-mail can also be sent to all users affected by the move, informing them where the forum will now be moved to.
+Whoever moderates also moves entire threads or individual posts: to another thread of the same forum, to another forum in the course or to a forum in another course. All replies to the moved post move along and are then no longer visible in the original forum. At the destination, you create the post as a new thread or add it to an existing one. In the last step, you send an e-mail to all people concerned if needed, telling them where their post has been moved. [:octicons-tag-16:{ title="from Release 11.3 (OO-2592)" }](https://track.frentix.com/issue/OO-2592)
 
 !!! warning "Attention"
 
-    Forum posts can also be moved to forums in which the creator of the post has no access.
+    Forum posts can also be moved to forums to which the author of the post has no access.
 
 !!! info "Important"
 
-    It is possible for course participants to receive additional moderation rights in a forum from the teacher.
+    Owners also give the right "Moderator" to individual people or groups, for example to selected participants. To do so, they switch on the advanced configuration for the right "Moderator" in the "User rights" section.
 
 [To the top of the page ^](#forum)
 
@@ -66,68 +66,69 @@ Persons with moderation rights can also move forum topics or individual posts. T
 
 ## Working with forums {: #usage}
 
-Forums are the central tools for asynchronous discussion in online courses and also in OpenOlat groups. By default, all course participants have read and write access to a forum.
+A forum is the place for asynchronous discussions in courses and in OpenOlat groups. By default, all participants read and write in the forum.
 
-Participants can open topics in forums, archive topics and also customize the display of a thread/topic. They can create, edit and mark posts and subscribe to a forum completely.
+Participants open threads, archive them and adjust the display of a thread. They create, edit and mark posts and subscribe to the entire forum.
 
-![Discussion topic in a forum with the marked controls Adjust display, Subscribe, Mark and Create post](assets/arbeiten_mit_Foren.png){ class="shadow lightbox" title="Discussion topic in the forum" }
+![Open thread with the buttons for the display and for archiving, the bell for subscribing, the bookmark for marking and the reply buttons at each post](assets/course_element_forum_thread_v1_en.png){ class="shadow lightbox" title="Course element Forum, open thread · 2026.11.27" }
 
 
 !!! tip "Tip"
 
-    Recommend that participants **subscribe** to the forum in order to be notified of new posts.
-    All participants should also enter a **profile photo** in the "[profile](../personal_menu/Profile/index.md#profile_photo)", which will then be displayed together with the respective posting and thus make the contributions more personal.
+    Recommend that participants subscribe to the forum in order to be notified of new posts. If all participants add a profile photo in their "[profile](../personal_menu/Profile/index.md#profile_photo)", it appears next to each of their posts and makes the discussion more personal.
 
 ---
 
-### Start discussion topic  {: #start_discussion}
+### Start discussion topic {: #start_discussion}
 
-A forum can contain several different discussion topics (threads). The first posting that is created with "Open new topic" opens a new thread. All further postings in this thread should then refer to the main topic of the respective thread.
+A forum contains several threads. With "Open new topic", you write the first post of a new thread. All further posts in it refer to this topic.
 
 ---
 
 ### Create a post {: #posting}
 
-In order to maintain a real discussion in the forum, most posts should be made _within_ a thread and are thus created as a reply to the start post of the thread. Click on the "Reply with/without quote" button here. Title and post are mandatory information. Be sure to use a descriptive title and modify appropriately for reply posts.
+A discussion develops when most posts within a thread are replies to an existing post. To do so, click "Reply with quotation" or "Reply without quotation" at the post. "Title" and "Post" are mandatory fields. Choose a meaningful title and adapt it to the content of your reply.
 
-With the help of the forum editor you can create and format your post and also attach files. As a rule of thumb, postings that are longer than one DIN A4 page should be attached and only briefly outlined in the posting itself. You can also edit or delete your post at a later date if no one has yet replied to your post.
+In the forum editor, you format your post and attach files. As a rule of thumb: attach a text that is longer than one A4 page as a file and summarise it briefly in the post.
 
-Depending on the configuration by the course owner, you may also be able to publish your post under a pseudonym.
+You edit or delete your own post later as long as nobody has replied to it yet.
+
+If the forum allows aliases, you also publish your post under an alias.
 
 !!! tip "Tip"
 
-    Always check at the beginning whether there is already a suitable thread for your contribution before you open a new discussion topic, or prepare a suitable forum structure as course owner or coach.
+    Before opening a new thread, check whether a suitable one already exists. As owner or coach, you best prepare the suitable threads in advance.
 
 ---
 
 ### Mark forum posts  {: #mark}
 
-Individual forum posts can be marked. To do so, click on the small flag in the upper right corner of a post in the detailed view of a topic. In the forum overview you can see how many posts per topic have been marked. This makes it easier to find individual posts again or mark them for a later reply.
+Mark a post to find it again more easily or to note it for a later reply. To do so, click the bookmark icon in the upper right corner of the post in the open thread. In the overview of the forum, you see how many posts per thread are marked.
 
-![Flag icon in the top right corner of a forum post to mark the post](assets/Posting_markieren.png){ class="shadow lightbox" title="Forum post in a discussion topic" }
+![Bookmark icon in the top right corner of a forum post to mark the post](assets/Posting_markieren.png){ class="shadow lightbox" title="Forum post in a discussion topic" }
 
 ---
 
 ### Export forum posts {: #export}
 
-If you have selected the "Forum" course module, you will find the options to export forum posts as a Word file under the button with the three dots. 
+In the course element "Forum", you find the options "Filter for persons", "Export to Word" and "Excel report" under the button with the three dots. Participants see this menu as well. "Export to Word" downloads the posts of the forum as a Word file together with the attached files in a ZIP file.
 
-![Menu with the options Person filter, Export to Word and Excel report marked, opened via the button with the 3 dots in the course element Forum](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" title="Course element Forum" }
+![The button with the three dots in the overview of topics opens the menu with Filter for persons, Export to Word and Excel report](assets/course_element_forum_export_v2_en.png){ class="shadow lightbox" title="Course element Forum, overview of topics · 2026.11.27" }
 
-With the person filter, you can search specifically for posts by certain persons, such as just the most recent ones.
+With the "Filter for persons", you show the posts of a specific person, together with information such as the number of words and characters of their posts.
 
 ![Filtered forum posts of a single person after applying the person filter in the course element Forum](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" title="Course element Forum" }
 
-The Excel file that can also be generated here contains a report with statistical data on the number of posts, their authors, etc., but does not include the posts themselves. It contains one row for each forum post written.
+The option "Excel report" creates an Excel file with statistical information on the posts, for example on authors and length, without the text of the posts. It contains one row per forum post. [:octicons-tag-16:{ title="from Release 18.1 (OO-6960)" }](https://track.frentix.com/issue/OO-6960)
 
 ---
 
 ### Archive forum posts {: #archive}
 
-Posts in individual forum threads can also be archived. A ZIP archive is created that contains the forum posts as a Word file, as well as the attachments to the posts.
+You save a single thread as a ZIP archive. It contains the posts as a Word file and the attachments of the posts.
 
-* To create an archive, click on the discussion thread to open it. 
-* Above the displayed discussion topic, you will see the "Archive discussion topic" button.
+* Click the thread to open it.
+* Above the thread, click the button "Archive thread".
 
 ![Discussion topics marked in the forum's topic overview, click to open for archiving](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" title="Topic overview of the forum" }
 
@@ -141,10 +142,7 @@ Posts in individual forum threads can also be archived. A ZIP archive is created
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
-To receive notifications about new forum posts, set the "Changes" slider to "On" in the discussion topics overview. You will then receive a notification via email or under "Subscriptions" in the "User tools" section. It doesn't matter who posted the new message.
-
-You will only receive a notification when a new post is created, not when an existing post is edited!
-
+Whoever subscribes to a forum learns about new and modified posts without checking the forum themselves. Click the bell icon in the upper right corner of the forum and switch on "Subscribe" in the "Subscriptions" window. You receive the notifications under `User tools > Subscriptions` and, depending on your personal settings, by e-mail, no matter who wrote or modified the post. More about this on the page [Subscriptions](../personal_menu/Subscriptions.md#activate_abo).
 
 !!! tip "Tip"
 
@@ -154,17 +152,17 @@ You will only receive a notification when a new post is created, not when an exi
 
 ### Display options for forum threads {: #display_threads}
 
-There are several display options:
+Depending on the size of a discussion, you choose one of these displays in the open thread:
 
-* all (nested)
+* all (thread)
 * all (flat)
-* a single one
+* one
 * marked
 * new
 
-Participants can view all posts below each other (all), with or without indentation. The starting post appears first and the other posts are displayed according to the discussion structure. For extensive forums with many posts, it is useful to use the "new" button to display only the new posts. 
+With "all (thread)" and "all (flat)", all posts appear one below the other, with or without indentation. The first post is on top, the others follow the structure of the discussion. In a forum with many posts, "new" shows only the posts you have not read yet.
 
-Especially interesting for more complex discussions is also the view "one". The entire thread structure is displayed here and can thus be traced very well. It is helpful that individual parts can be shown and hidden. In addition, you can quickly recognize new forum posts by the asterisk in this display.
+For branched discussions, the view "one" is suitable: it shows the entire structure of the thread, and you show and hide individual branches. You recognise new posts there by the asterisk.
 
 ![Nested discussion structure with a new post marked by an asterisk and the currently displayed post highlighted in green, view "one" in a forum](assets/Forum_Aufbau-1a.png){ class="shadow lightbox" title="Discussion topic in the forum" }
 
@@ -177,24 +175,31 @@ Especially interesting for more complex discussions is also the view "one". The 
 
 ### Alternatives
 
-a) You can also use the forum as an alternative for the [course element "Info messages"](../learningresources/Course_Element_Notifications.md) for announcements from the course authors, especially if queries from learners are desired.
+a) For announcements to the course that participants are to reply to, use the forum instead of the [course element "Info messages"](../learningresources/Course_Element_Notifications.md).
 
-b) In addition to the course element "Forum", there is also the option of displaying a central forum for the entire course in the [Course Toolbar](Course_Settings_Toolbar.md#forum). This is often useful if the course only includes _one_ forum that is to be permanently available. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
+b) If the course needs only one forum that is available at all times, switch on the tool [Forum in the toolbar](Course_Settings_Toolbar.md#forum) instead of the course element. It applies to the entire course. Aliases and your own assignment of moderation rights are offered only by the course element.
 
-c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a combination of forum and file provision. In courses, forum discussions can be created for specific documents, e.g. a draft of a seminar paper, an image, a concept or a content document. A forum is automatically created for each uploaded file. Further information on the course element can be found [here](../learningresources/Course_Element_File_Dialog.md).
+c) The [File dialog](../learningresources/Course_Element_File_Dialog.md) combines forum and file storage: for each uploaded file, OpenOlat automatically creates a forum. This way, the course discusses a specific document, for example the draft of a seminar paper, an image or a concept.
 
----
 
 [To the top of the page ^](#forum)
 
+---
+
+
 ## Further information {: #further_information}
 
+**Mentioned on this page**<br>
 [Roles and Rights: Which roles are available? >](../basic_concepts/Roles/index.md)<br>
+[Modules: Overview >](../../manual_admin/administration/Modules/index.md)<br>
 [Personal Configuration: Profile >](../personal_menu/Profile/index.md)<br>
-[Course Element "Info messages" >](../../manual_user/learningresources/Course_Element_Notifications.md)<br>
+[User tools: Subscriptions >](../personal_menu/Subscriptions.md)<br>
+[Course Element "Info messages" >](Course_Element_Notifications.md)<br>
 [Toolbar >](Course_Settings_Toolbar.md)<br>
-[Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
-[Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)
+[Course Element "File Dialog" >](Course_Element_File_Dialog.md)
+
+**Further reading**<br>
+[Course Element "Blog" >](Course_Element_Blog.md)
 
 **youtube**<br>
 [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>)

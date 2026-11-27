@@ -10,13 +10,13 @@ Available since | New edition with release 18
 Functional group | Administration and organisation
 Purpose | Info messages in the course structure (course menu)
 Assessable | no
-Specialty / Note |
+Specialty / Note | Called "Mitteilungen" in the German interface
 
 
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Info messages](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank"}
 
-With the course element "Info messages", you inform the members of a course at a fixed place in the course menu, for example about a change of date or new documents. The info messages appear in the course and additionally under `User tools > Subscriptions` in the notifications of everyone who has subscribed to them. An info message can be a short text or bring more extensive information as a file attachment (by default, max. 5 MB).
+With the course element "Info messages", you inform the members of a course at a fixed place in the course menu, for example about a change of date or new documents. The info messages appear in the course and, for everyone who has subscribed to them, additionally under `User tools > Subscriptions`. In the course menu, you recognise the course element by the megaphone icon. The tool of the same name in the toolbar, the row of tools at the top of the course, has the same icon (see tip below). An info message can be a short text or bring more extensive information as a file attachment (by default, max. 5 MB).
 
 An info message can be published immediately or at a later point in time and additionally sent by e-mail. How to choose the recipients is described in the section [Writing and sending an info message](#create_notification).
 
@@ -30,7 +30,7 @@ In the tab "Info messages configuration", you determine how long and how many in
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Subscriptions](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank"}
 
-In the "User rights" section, you define which course roles are allowed to create and manage info messages. By default, owners and coaches create and manage the info messages, participants read them. Owners keep both rights in any case.
+In the same tab, you define in the "User rights" section which course roles are allowed to create and manage info messages. Whoever may manage info messages also edits the info messages of others and deletes info messages. By default, owners and coaches create and manage the info messages, participants read them. Owners keep both rights in any case.
 
 The members of the course also see subscribed info messages in the personal menu under `User tools > Subscriptions`, see also the page [Subscriptions](../personal_menu/Subscriptions.md).
 
@@ -40,13 +40,13 @@ The members of the course also see subscribed info messages in the personal menu
 
 !!! tip "Tip"
 
-    For an announcement to the entire course that needs no place in the course menu, the tool of the same name "[Info messages](Course_Settings_Toolbar.md#notifications)" in the toolbar is suitable. It cannot be configured: owners and coaches create info messages there, participants subscribe to them themselves if needed. Use the course element if the info messages should appear at a specific place in the course menu or if you want to define display, user rights, automatic subscription and access yourself.
+    For an announcement to the entire course that does without its own place in the course menu, the tool of the same name "[Info messages](Course_Settings_Toolbar.md#notifications)" in the toolbar is suitable. It cannot be configured: owners and coaches create info messages there, participants subscribe to them themselves if needed. You switch the tool on under `Course > Administration > Settings > Tab "Toolbar"`: activate the checkbox "On" for "Toolbar visible for participants" and for "Info messages". Use the course element if the info messages should appear at a specific place in the course menu or if you want to define display, user rights, automatic subscription and access (tab "Access" of the course element) yourself.
 
 ## Writing and sending an info message [:octicons-tag-16:{ title="from Release 21.1.0 (OO-9594)" }](https://track.frentix.com/issue/OO-9594) {: #create_notification}
 
 Whoever writes an info message decides in the same process who learns about it: only the subscribers or, in addition, selected members by e-mail, down to a single group.
 
-The button "Create info message" opens a wizard with two steps. In the first step, you write the info message and define under "Publication" whether it appears immediately ("Immediately") or only at a chosen point in time ("Individual date").
+The button "Create info message" opens a wizard with two steps. In the first step, you write the info message and define under "Publication" whether it appears immediately ("Immediately") or only at a chosen point in time ("Individual date"). [:octicons-tag-16:{ title="from Release 18.0 (OO-6920)" }](https://track.frentix.com/issue/OO-6920)
 
 In the second and last step, you choose between two options under "Notification":
 
