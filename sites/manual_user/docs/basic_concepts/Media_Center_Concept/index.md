@@ -11,9 +11,9 @@ Media can be...
 * ... created externally and uploaded as a file
 * ... used across courses
 * ... released (shared) to other persons and used jointly
-* ... versioned
+* ... versioned: With "Create new version" you save an intermediate state and later switch back to an older version, see [Create new version](../Media_Center_Items.md#media_center_versioning)
 * ... tagged
-* ... assigned to a taxonomy (field "Subjects")
+* ... assigned to subjects (field "Subjects"), that is to the terms of a taxonomy, the tree of terms by which your organisation classifies content
 * ... filtered (for example in the tab "My media")
 * ... searched by place of use
 
@@ -30,7 +30,7 @@ The Media Center is your personal area. You open it via your profile picture at 
 
 ![Highlighted profile picture at the top right of the main navigation opens the personal menu](../assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Main navigation at the top right" }
 
-![Highlighted entry Media Center under User tools in the opened personal menu](../assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Personal menu, User tools" }
+![Entry Media Center under User tools in the opened personal menu](../assets/media_center_concept_access2_v2_en.png){ class="shadow lightbox" title="Personal menu, User tools · 2026.11.27" }
 
 You can nevertheless share your personal media with other people and use them in various places in OpenOlat.<br>
 [More about sharing >](#share)
@@ -78,7 +78,7 @@ You find the entries of the two following lists in "My Media Center" at the top 
 
 ### Upload or link existing media directly in the Media Center {: #add_existing}
 
-* **Add media file:** uploads images, videos, PDF, Office and other files. If the AI module is switched on, the AI pre-fills title, description, alt text and tags when you upload an image, using the button "Generate metadata with AI" [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. If the AI image descriptions are switched on for you, OpenOlat fills in the fields you left empty in the background after you save a new image: description, alt text, tags and subjects. Check these details afterwards in the detail view of the media item, see [Tab AI settings](../../personal_menu/Settings.md#tab_ai_settings). [Details on metadata with AI >](../Media_Center_Items.md#metadata_ai)
+* **Add media file:** uploads images, videos, PDF, Office and other files. For images, the AI helps in two ways, both only if your administration has switched on the [AI module](../../../manual_admin/administration/External_Tools_AI.md). When uploading, you click on the button "Generate metadata with AI" yourself: the AI pre-fills title, description, alt text and tags, and you check the suggestions before saving [:octicons-tag-16:{ title="from Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. If you have additionally switched on the AI image descriptions in your personal settings, OpenOlat fills in the fields that are still empty after you save a new image, without any action on your part: description, alt text, tags and subjects. Check these details afterwards in the detail view of the media item, see [Tab AI settings](../../personal_menu/Settings.md#tab_ai_settings). [Details on metadata with AI >](../Media_Center_Items.md#metadata_ai)
 * **Add file:** first entry in the drop-down menu next to "Add media file". The button "Add media file" uploads a file directly from your computer. "Add file" additionally offers files from the [File Hub](../File_Hub_Concept.md) of OpenOlat, next to the area "Local" for your computer. You then enter the title and metadata in the dialog "Add media file".
 * **Add video via URL:** adds a video from an external portal such as YouTube, Vimeo, Panopto or nanoo.tv via its link.
 * **Add citation:** stores a quotation from a book, an article, a website or a film as text, with details such as source, author and URL. You then insert the citation in several places in OpenOlat without entering the source again each time. Therefore enter the details completely.
@@ -122,12 +122,12 @@ You take over an evidence of achievement under `Personal menu > Evidence of achi
 
 !!! info "Mandatory information"
 
-    Each media item needs a title. If your administration has made the license a mandatory field for the Media Center, it also needs an entry in the field "License", and "No license" is then not sufficient, see [Module Media Center](../../../manual_admin/administration/Modules_Media_Center.md#licences). You add further details and metadata when adding it or later in the tabs that open when you click on the media item.
+    Each media item needs a title. If your administration has made the license a mandatory field for the Media Center, it also needs an entry in the field "License", and "No license" is then not sufficient. If the field is set to "No license", select another license before saving, see [Module Media Center](../../../manual_admin/administration/Modules_Media_Center.md#licences). You add further details and metadata when adding it or later in the tabs that open when you click on the media item.
 
 
 ### Share with others [:octicons-tag-16:{ title="from Release 18.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #share}
 
-If other people are to use a media item, you share it: with individual users, with groups, with courses or with organisations. For each share you decide whether the recipients may also edit the media item ("Editable"), that is its metadata and, depending on the media type, its versions. You set a share at any time in the tab "Shares" of the media item via "Add share". The recipients find the media item in their Media Center in the tab "Shared with me".
+If other people are to use a media item, you share it: with individual users, with groups, with courses or with organisations. For each share you decide whether the recipients may also edit the media item, that is its metadata and, depending on the media type, its versions. For this, the row of each share has a switch in the column "Editable". You set a share at any time in the tab "Shares" of the media item via "Add share". The recipients find the media item in their Media Center in the tab "Shared with me".
 
 Which targets the menu "Add share" offers depends on your role. Administrators define this in the [Module Media Center](../../../manual_admin/administration/Modules_Media_Center.md#shares). The default setting:
 
@@ -138,9 +138,11 @@ Which targets the menu "Add share" offers depends on your role. Administrators d
 | Course | authors, learning resource managers, administrators | the owners of the course, not the coaches and not the participants |
 | Organisation | administrators | the authors, learning resource managers and administrators of the organisation |
 
-A share with a course puts the media item in the hands of its owners, so that they use it in the course. If the media item is embedded in a page of the course, everyone who sees this page sees it, including coaches and participants.
+What the individual roles comprise is described under [Roles and Rights](../Roles/index.md).
 
-You set shares with users, groups and organisations already when adding, in the dialog "Add media file". You set a share with a course after creating the media item, in the tab "Shares" of the media item. In the dialog, the area for the shares is called "Share". Open it and click on "Add share":<br>
+A share with a course puts the media item in the hands of its owners, so that they use it in the course. They find it in their Media Center in the tab "Shared with me". If the media item is embedded in a page of the course, everyone who sees this page sees it, including coaches and participants.
+
+You set shares with users, groups and organisations already when adding, in the dialog "Add media file". In the dialog, the area for the shares is called "Share". Open it and click on "Add share". The menu there also offers "Course", but OpenOlat does not save a share with a course entered this way with the media item. Therefore set the share with a course after creating the media item, in the tab "Shares" of the media item. The image shows the menu of a role that may also share with an organisation.<br>
 ![Dialog Add media file with the area Share opened: via Add share you choose who you share the media item with](../assets/media_center_concept_share_v1_en.png){ class="shadow lightbox" title="My Media Center, dialog Add media file · 2026.11.27" }
 
 [To the top of the page ^](#media_center_concept)
@@ -150,9 +152,9 @@ You set shares with users, groups and organisations already when adding, in the 
 
 ## Delete media {: #delete_media}
 
-You delete your own media items that you no longer need in your Media Center under `Personal menu > Media Center`. If you see a segment bar (only as an administrator or learning resource manager), select the segment "My Media Center" there.
+You delete your own media items that you no longer need in your Media Center under `Personal menu > Media Center`. If you see a segment bar with "My Media Center" and "Media management" (only as an administrator or learning resource manager), select the segment "My Media Center" there.
 
-Select the table view at the top right above the list if you are currently viewing the media in card view.
+Select the table view at the top right above the list, the right one of the two view icons, if you are currently viewing the media in card view.
 
 In the table view, set a tick at the beginning of a row. The button "Delete" appears above the list, with which you delete all ticked media items at once.
 
@@ -162,7 +164,7 @@ You also delete a single media item in its detail view: click on the media item 
 
 !!! info "Important"
 
-    You can only delete media items that you created yourself and that are not embedded anywhere in OpenOlat. Where a media item is embedded, you see in the tab "Uses" after clicking on it. Remove it from these pages, then it can be deleted. If it is embedded in a page that you may not edit, ask the owner of that page to remove it. Ticked media items that are still embedded are not deleted by OpenOlat. The same applies to media items of other persons in the tab "Shared with me": even if the button "Delete" appears there, OpenOlat shows a warning after the click, and the media item remains in the list. It disappears from your list when its creator removes the share.
+    You can only delete media items that you created yourself and that are not embedded anywhere in OpenOlat. Where a media item is embedded, you see in the tab "Uses" after clicking on it. Remove it from these pages, then it can be deleted. If it is embedded in a page that you may not edit, ask the owner of that page to remove it. Ticked media items that are still embedded are not deleted by OpenOlat. The same applies to media items of other persons in the tab "Shared with me": even if the button "Delete" appears there above the list, OpenOlat shows a warning after the click, and the media item remains in the list. In the 3-dot menu of a media item of another person, "Delete" is missing. It disappears from your list when its creator removes the share.
 
 ### What happens to the media items when an account is deleted {: #delete_media_account}
 
@@ -170,11 +172,11 @@ Every media item in the Media Center has a creator. When that account is deleted
 
 ![Decision tree from the account deletion to retained or permanently deleted](../assets/delete_user_media_decision_v1_en.svg){ class="shadow lightbox" title="Media items when an account is deleted" }
 
-Embedded counts both in the "Page" course element and in an ePortfolio page, including one belonging to another person. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted.
+Embedded counts both in the "Page" course element and in an ePortfolio page, including one belonging to another person. An ePortfolio page is an entry in a binder, the collection in which a person organises their work in the portfolio. If the media item is embedded, it is retained and is no longer assigned to anyone. If it is not embedded anywhere, it is permanently deleted.
 
-Sharing does not protect the media item. Shared, but embedded nowhere means: deleted. The person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Media items that were embedded only there lose their embedding and are therefore deleted as well.
+Sharing does not protect the media item. Shared, but embedded nowhere means: deleted. The person's own ePortfolio binders are deleted beforehand, provided that the person is their only owner. Portfolio templates remain, that is the learning resources from which binders for a portfolio task are created. Media items that were embedded only in these deleted binders lose their embedding and are therefore deleted as well.
 
-Administrators and learning resource managers find the media items retained in this way in the media management, using the filter "Without creator", provided that the media item is shared with a course of their organisation. An embedded media item that is not shared with any course does not appear there. Only its creator deletes a media item. A media item retained in this way can therefore no longer be deleted by anyone, not even by an administrator.
+Administrators and learning resource managers find the media items retained in this way in the [media management](#media_center_administration), using the filter "Without creator", provided that the media item is shared with a course of their organisation. The organisations a course belongs to are shown in its settings in the tab "Share" under "Administrative access", see [Course settings - Tab Share](../../learningresources/Course_Settings_Share/index.md#section_share_admin_access). An embedded media item that is not shared with any course does not appear there. Only its creator deletes a media item. A media item retained in this way can therefore no longer be deleted by anyone, not even by an administrator.
 
 !!! tip "Before an account is deleted"
     Whoever deletes an account asks the person concerned beforehand to download any media items they need. If a media item is to remain in the system, the person embeds it in a page beforehand, for example in a "Page" course element. The complete table of all data types is on the page [Delete user](../../../manual_admin/usermanagement/Delete_User.md#del_properties).
@@ -195,9 +197,11 @@ Authors usually need more storage space, so a default value of its own applies t
 Administrators define both default values, "Normal users" and "Power user (authors)", in the system administration, under:<br>
 `Administration > Core functions > Files and folders`, tab "Quotas"
 
+In the list of this tab, the two default values are called "::DEFAULT::USERS" and "::DEFAULT::POWERUSERS".
+
 The same values also apply to the personal files. There is no separate default value for the Media Center only, see [Files and Folders](../../../manual_admin/administration/Files_and_Folders.md#files_and_folders_quotas).
 
-If a single person needs more space, administrators, roles managers or user managers set a quota of its own for this person under `User management > "Name of the person" > Quota`, see [Manage user settings](../../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
+If a single person needs more space, administrators, roles managers or user managers ([Roles and Rights](../Roles/index.md)) set a quota of its own for this person under `User management > "Name of the person" > Quota`, see [Manage user settings](../../../manual_admin/usermanagement/Configure_User.md#quota). Therefore, if you have any questions about storage requirements, please contact your administrators, roles managers or user managers.
 
 ![Two ways to more space in the Media Center, for one person or for everyone in a role, with location and effect](../assets/media_center_quota_ways_v1_en.svg){ class="shadow lightbox" title="More storage space in the Media Center" }
 
@@ -211,15 +215,15 @@ If a single person needs more space, administrators, roles managers or user mana
 
 ## Use media [:octicons-tag-16:{ title="from Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-You use media items from the Media Center wherever you create content, for example with the Content Editor in the course element ["Page"](../../learningresources/Course_Element_Page.md) or in the [Portfolio](../../personal_menu/Portfolio/index.md). In the edit mode, click on "Add content" and then on the button "Media Center" at the bottom of the dialog. The dialog "Media Center" lists your own media items and those shared with you. Click on "Select" in the row of the media item you want, and OpenOlat inserts it at the chosen place.
+You use media items from the Media Center wherever you create content, for example with the Content Editor in the course element ["Page"](../../learningresources/Course_Element_Page.md) or in the [Portfolio](../../personal_menu/Portfolio/index.md). Switch on the "Edit mode" there, see [Course element Page in the Content Editor](../Content_Editor/index.md#course_element_page). Click on "Add content" and then on the button "Media Center" at the bottom of the dialog. The dialog "Media Center" lists your own media items and those shared with you. Click on "Select" in the row of the media item you want, and OpenOlat inserts it at the chosen place.
 
 ![Dialog Add content in the course element Page: via the button Media Center at the bottom of the dialog you insert a media item from your Media Center](../assets/media_center_page_v1_en.png){ class="shadow lightbox" title="Course element Page, dialog Add content · 2026.11.27" }
 
-With the filters you quickly find the media you are looking for. The same filter bar is above the list in "My Media Center" and in the dialog "Media Center". Visible at first are:
+With the filters you quickly find the media you are looking for. The same filter bar is above the list in "My Media Center" and in the dialog "Media Center". In the default setting, the following are visible:
 
 * "Type": the kind of media item, for example image, video or document
 * "Tags": appears as soon as your media items carry tags
-* "Subject paths": appears if the Media Center uses a taxonomy
+* "Subject paths": filters by the field "Subjects" and appears if the Media Center offers subjects for assignment
 * "Used in": where the media item is embedded, selection "Page" or "Portfolio"
 * "In use": "Yes" for embedded media items, "No" for media items embedded nowhere
 
@@ -230,7 +234,9 @@ Via "More..." you show further filters:
 * "Source": a search text in the source details of citations and images
 * "Platform": the video portal that a video via URL comes from
 
-In both views, the tab "Search" is on the far right. There you search the title and description of all media items via a large search field.
+OpenOlat remembers which filters you have shown. They are back in the filter bar on your next visit. That is why the images on this page already show "Shared with" and "Without creator" directly in the bar.
+
+In "My Media Center" and in the dialog "Media Center", the tab "Search form" is on the far right. There you search the title and description of all media items via a large search field, regardless of the tab selected before, and the filters are already expanded. The search field "Enter search term" above the list, by contrast, only searches the media items of the selected tab, for example in "My media".
 
 ![Filter bar in My Media Center with the filter Tags set to Landscape: the list only shows the matching media items](../assets/media_center_filter_function_v1_en.png){ class="shadow lightbox" title="My Media Center, filter bar · 2026.11.27" }
 
@@ -274,10 +280,15 @@ You cannot add media items in the media management, the "Add media file" button 
 ## Further information {: #further_information}
 
 **Mentioned on this page**<br>
+[External tools: AI module >](../../../manual_admin/administration/External_Tools_AI.md)<br>
 [Personal Configuration: Settings >](../../personal_menu/Settings.md)<br>
 [Information and settings for items in the Media Center >](../Media_Center_Items.md)<br>
+[File Hub Concept >](../File_Hub_Concept.md)<br>
 [Content Editor >](../Content_Editor/index.md)<br>
 [Course Element "Page" >](../../learningresources/Course_Element_Page.md)<br>
+[Module Media Center >](../../../manual_admin/administration/Modules_Media_Center.md)<br>
+[Roles and Rights: Which roles are available? >](../Roles/index.md)<br>
+[Course settings - Tab Share >](../../learningresources/Course_Settings_Share/index.md)<br>
 [Delete user >](../../../manual_admin/usermanagement/Delete_User.md)<br>
 [Files and Folders >](../../../manual_admin/administration/Files_and_Folders.md)<br>
 [Manage user settings >](../../../manual_admin/usermanagement/Configure_User.md)<br>
@@ -285,7 +296,6 @@ You cannot add media items in the media management, the "Add media file" button 
 
 **Further reading**<br>
 [User tools: Media Center >](../../personal_menu/Media_Center.md)<br>
-[Module Media Center >](../../../manual_admin/administration/Modules_Media_Center.md)<br>
 [Working with media files >](../Working_with_Media_Files.md)<br>
 [Data protection >](../../../manual_admin/usermanagement/Data_protection.md)
 

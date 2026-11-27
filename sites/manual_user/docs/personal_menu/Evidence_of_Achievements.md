@@ -27,13 +27,17 @@ Users find their evidence of achievement and, if activated, also their received 
 
 ### Evidence of achievement in the personal menu {: #where_in_pers_tools}
 
-The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Score, Passed, Certificate. If the grading module is active, the "Rating" column shows the achieved grade; it is displayed from the start. The "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+The display in the personal menu is suitable for obtaining a quick overview of all personal evidence of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidence of achievement and certificates and obtain further information. Via the gear icon "Table settings" at the top right above the list, you show the columns relevant to you, for example Score, Passed, Certificate. If your OpenOlat works with grades (set up in the system administration under [Levels/Grading](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)), the "Rating" column shows the achieved grade; it is displayed from the start. The "Reference" column, hidden by default, shows the course's reference. Your column selection is stored permanently. [:octicons-tag-16:{ title="from Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 ![Opened column selection with the marked entries Reference and Rating](assets/pers_menu_evid_of_achiev_columns_v1_en.png){ class="shadow lightbox" title="Column selection in the tool Evidence of achievement" }
 
-If you are a member of a product in the Course Planner, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
+If you are a member of a product in the Course Planner, that is an educational offering that your organisation brings together there with its courses, select a product, "Individual Courses" or "All Evidence of Achievements" above the list. [:octicons-tag-16:{ title="from Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-Click the puzzle piece icon (tooltip "as artefact") to save an evidence of achievement as an element in the [Media Center](../personal_menu/Media_Center.md) and to insert it into your [Portfolio](Portfolio/index.md) binders.
+If the module ePortfolio is switched on in your OpenOlat, the list under `Personal menu > Evidence of achievement` shows a column of its own on the right with a puzzle piece icon, called "ePortfolio" in the column selection. Click on the puzzle piece icon (tooltip "as artefact") in the row of an evidence of achievement to take it over into your Media Center as a media item. Here, OpenOlat uses "artefact" for a media item in the Media Center.
+
+![Puzzle piece icon in the second-to-last column on the right, in each row of the evidence of achievement; a click takes the evidence of achievement over into the Media Center](assets/pers_menu_evid_of_achiev_eportfolio_column_v1_en.png){ class="shadow lightbox" title="User tool Evidence of achievement, list · 2026.11.27" }
+
+In the following window, you enter title, description and tags and save. Saving only stores the evidence of achievement in your Media Center. You then insert it into a [Portfolio](Portfolio/index.md) binder in a separate step: in the entry of the binder via "Add content" and the button "Media Center", see [Use media](../basic_concepts/Media_Center_Concept/index.md#usage).
 In this way, compilations of evidence of achievement can be combined for different purposes and also made accessible to specific persons.
 
 !!! info "Important"
@@ -69,12 +73,13 @@ If the evidence of achievement is activated in a course, participants find the e
 **Mentioned on this page**<br>
 [Course Settings - Tab Assessment: Certificates and recertification >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Course Settings - Tab Assessment >](../learningresources/Course_Settings_Assessment/index.md)<br>
-[User tools: Media Center >](../personal_menu/Media_Center.md)<br>
+[e-Assessment Administration: Levels/Grading >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
 [User tools: Portfolio 2.0 >](Portfolio/index.md)<br>
+[Media Center Concept >](../basic_concepts/Media_Center_Concept/index.md)<br>
 [Personal achievements/successes: Certificates >](Certificates.md)
 
 **Further reading**<br>
-[Assessment systems in OpenOlat: Grades >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
+[User tools: Media Center >](Media_Center.md)<br>
 [Badges under Achievements/Successes >](OpenBadges.md)<br>
 [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
 [Badges in the eAssessment administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>

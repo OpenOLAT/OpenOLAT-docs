@@ -17,10 +17,10 @@
 <text x="710" y="225" font-family="'Roboto', sans-serif" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Für alle Personen einer Rolle</text>
 <rect x="40" y="258" width="420" height="142" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
 <text x="58" y="292" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#126365">WO</text>
-<rect x="58" y="304" width="345" height="24" rx="4" fill="#EDEDED"/>
-<text x="64" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Benutzerverwaltung &gt; "Benutzername" &gt;</text>
-<rect x="58" y="332" width="363" height="24" rx="4" fill="#EDEDED"/>
-<text x="64" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Reiter "Quota" &gt; Zeile "Media Center" &gt;</text>
+<rect x="58" y="304" width="375" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="321" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Benutzerverwaltung &gt; "Name der Person" &gt;</text>
+<rect x="58" y="332" width="336" height="24" rx="4" fill="#EDEDED"/>
+<text x="64" y="349" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">Tab "Quota" &gt; Zeile "Media Center" &gt;</text>
 <rect x="58" y="360" width="165" height="24" rx="4" fill="#EDEDED"/>
 <text x="64" y="377" font-family="'Roboto Mono', Menlo, Consolas, monospace" font-size="15" fill="#36464E">"Quota editieren"</text>
 <rect x="40" y="414" width="420" height="104" rx="8" fill="#FFFFFF" stroke="#126365" stroke-width="2.5"/>
@@ -47,7 +47,7 @@
 <text x="518" y="479" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">für alle übrigen Personen</text>
 <rect x="500" y="511" width="420" height="81" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
 <text x="518" y="545" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WER DARF DAS</text>
-<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Nur Systemadministrator:innen</text>
+<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Nur Administrator:innen</text>
 <rect x="500" y="606" width="420" height="150" rx="8" fill="#EEF3DA" stroke="#5F6E23" stroke-width="2.5"/>
 <text x="518" y="640" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">AUSWIRKUNG</text>
 <text x="518" y="669" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Media Center und persönliche Dateien</text>

@@ -11,9 +11,9 @@ Medien können...
 * ... extern erstellt und als Datei hochgeladen werden
 * ... kursübergreifend verwendet werden
 * ... an andere Personen freigegeben (geteilt) und gemeinsam genutzt werden
-* ... versioniert werden
+* ... versioniert werden: Mit "Neue Version erstellen" sichern Sie einen Zwischenstand und wechseln später zu einer älteren Version zurück, siehe [Neue Version erstellen](../Media_Center_Items.de.md#media_center_versioning)
 * ... mit Tags verschlagwortet werden
-* ... einer Taxonomie zugeordnet werden (Feld "Themen/Fachbereiche")
+* ... Themen und Fachbereichen zugeordnet werden (Feld "Themen/Fachbereiche"), also den Begriffen einer Taxonomie, dem Begriffsbaum, nach dem Ihre Organisation Inhalte einordnet
 * ... gefiltert werden (zum Beispiel im Tab "Meine Medien")
 * ... nach Verwendungsort gesucht werden
 
@@ -30,7 +30,7 @@ Das Media Center ist Ihr persönlicher Bereich. Sie öffnen es über Ihr Profilb
 
 ![Markiertes Profilbild oben rechts in der Hauptnavigation öffnet das persönliche Menü](../assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" title="Hauptnavigation oben rechts" }
 
-![Markierter Eintrag Media Center unter Persönliche Werkzeuge im geöffneten persönlichen Menü](../assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" title="Persönliches Menü, Persönliche Werkzeuge" }
+![Eintrag Media Center unter Persönliche Werkzeuge im geöffneten persönlichen Menü](../assets/media_center_concept_access2_v2_de.png){ class="shadow lightbox" title="Persönliches Menü, Persönliche Werkzeuge · 2026.11.27" }
 
 Ihre persönlichen Medien können Sie trotzdem mit anderen Personen teilen und an verschiedenen Stellen in OpenOlat einsetzen.<br>
 [Mehr über das Teilen (Freigabe) >](#share)
@@ -78,7 +78,7 @@ Die Einträge der beiden folgenden Listen finden Sie in "Mein Media Center" oben
 
 ### Existierende Medien direkt im Media Center hochladen bzw. verlinken {: #add_existing}
 
-* **Mediendatei hinzufügen:** lädt Bilder, Videos, PDF-, Office- und andere Dateien hoch. Ist das KI-Modul eingeschaltet, füllt die KI beim Hochladen eines Bildes über den Button "Metadaten mit KI generieren" Titel, Beschreibung, Alt-Text und Tags vor [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. Sind die KI-Bildbeschreibungen für Sie eingeschaltet, füllt OpenOlat nach dem Speichern eines neuen Bildes im Hintergrund die Felder, die Sie leer gelassen haben: Beschreibung, Alt-Text, Tags und Themen/Fachbereiche. Prüfen Sie diese Angaben danach in der Detailansicht des Mediums, siehe [Tab KI-Einstellungen](../../personal_menu/Settings.de.md#tab_ai_settings). [Details zu Metadaten mit KI >](../Media_Center_Items.de.md#metadata_ai)
+* **Mediendatei hinzufügen:** lädt Bilder, Videos, PDF-, Office- und andere Dateien hoch. Bei Bildern hilft die KI auf zwei Arten, beide nur, wenn Ihre Administration das [KI-Modul](../../../manual_admin/administration/External_Tools_AI.de.md) eingeschaltet hat. Beim Hochladen klicken Sie selbst auf den Button "Metadaten mit KI generieren": Die KI füllt Titel, Beschreibung, Alt-Text und Tags vor, und Sie prüfen die Vorschläge vor dem Speichern [:octicons-tag-16:{ title="ab Release 20.3.0 (OO-9355)" }](https://track.frentix.com/issue/OO-9355){:target="_blank"}. Haben Sie zusätzlich in Ihren persönlichen Einstellungen die KI-Bildbeschreibungen eingeschaltet, füllt OpenOlat nach dem Speichern eines neuen Bildes ohne Ihr Zutun die Felder, die noch leer sind: Beschreibung, Alt-Text, Tags und Themen/Fachbereiche. Prüfen Sie diese Angaben danach in der Detailansicht des Mediums, siehe [Tab KI-Einstellungen](../../personal_menu/Settings.de.md#tab_ai_settings). [Details zu Metadaten mit KI >](../Media_Center_Items.de.md#metadata_ai)
 * **Datei hinzufügen:** erster Eintrag im Aufklappmenü neben "Mediendatei hinzufügen". Der Button "Mediendatei hinzufügen" lädt direkt eine Datei von Ihrem Computer hoch. "Datei hinzufügen" bietet zusätzlich Dateien aus dem [File Hub](../File_Hub_Concept.de.md) von OpenOlat an, neben dem Bereich "Lokal" für Ihren Computer. Titel und Metadaten tragen Sie danach im Dialog "Mediendatei hinzufügen" ein.
 * **Video per URL hinzufügen:** fügt ein Video aus einem externen Portal wie YouTube, Vimeo, Panopto oder nanoo.tv über seinen Link hinzu.
 * **Zitat hinzufügen:** legt ein Zitat aus einem Buch, einem Artikel, einer Webseite oder einem Film als Text ab, mit Angaben wie Quelle, Autor:in und URL. Das Zitat setzen Sie danach an mehreren Stellen in OpenOlat ein, ohne die Quelle jedes Mal neu einzutragen. Tragen Sie die Angaben deshalb vollständig ein.
@@ -122,12 +122,12 @@ Einen Leistungsnachweis übernehmen Sie unter `Persönliches Menü > Leistungsna
 
 !!! info "Pflichtangaben"
 
-    Jedes Medium braucht einen Titel. Hat Ihre Administration die Lizenz für das Media Center zum Pflichtfeld gemacht, braucht es zudem eine Angabe im Feld "Lizenz", und "Keine Lizenz" genügt dann nicht, siehe [Modul Media Center](../../../manual_admin/administration/Modules_Media_Center.de.md#licences). Weitere Angaben und Metadaten ergänzen Sie beim Hinzufügen oder später in den Tabs, die sich beim Anklicken des Mediums öffnen.
+    Jedes Medium braucht einen Titel. Hat Ihre Administration die Lizenz für das Media Center zum Pflichtfeld gemacht, braucht es zudem eine Angabe im Feld "Lizenz", und "Keine Lizenz" genügt dann nicht: Steht das Feld auf "Keine Lizenz", wählen Sie vor dem Speichern eine andere Lizenz, siehe [Modul Media Center](../../../manual_admin/administration/Modules_Media_Center.de.md#licences). Weitere Angaben und Metadaten ergänzen Sie beim Hinzufügen oder später in den Tabs, die sich beim Anklicken des Mediums öffnen.
 
 
 ### Freigabe für andere [:octicons-tag-16:{ title="ab Release 18.0 (OO-7061)" }](https://track.frentix.com/issue/OO-7061){:target="_blank"} {: #share}
 
-Sollen andere Personen ein Medium nutzen, geben Sie es frei: an einzelne Benutzer:innen, an Gruppen, an Kurse oder an Organisationen. Je Freigabe legen Sie fest, ob die Empfänger:innen das Medium auch bearbeiten dürfen ("Bearbeitbar freigeben"), also seine Metadaten und, je nach Medientyp, seine Versionen. Sie setzen eine Freigabe jederzeit im Tab "Freigaben" des Mediums über "Freigabe hinzufügen". Die Empfänger:innen finden das Medium in ihrem Media Center im Tab "Für mich freigegeben".
+Sollen andere Personen ein Medium nutzen, geben Sie es frei: an einzelne Benutzer:innen, an Gruppen, an Kurse oder an Organisationen. Je Freigabe legen Sie fest, ob die Empfänger:innen das Medium auch bearbeiten dürfen, also seine Metadaten und, je nach Medientyp, seine Versionen. Dafür steht in der Zeile jeder Freigabe ein Schalter in der Spalte "Bearbeitbar freigeben". Sie setzen eine Freigabe jederzeit im Tab "Freigaben" des Mediums über "Freigabe hinzufügen". Die Empfänger:innen finden das Medium in ihrem Media Center im Tab "Für mich freigegeben".
 
 Welche Ziele das Menü "Freigabe hinzufügen" anbietet, hängt von Ihrer Rolle ab. Administrator:innen legen das im [Modul Media Center](../../../manual_admin/administration/Modules_Media_Center.de.md#shares) fest. Die Grundeinstellung:
 
@@ -138,9 +138,11 @@ Welche Ziele das Menü "Freigabe hinzufügen" anbietet, hängt von Ihrer Rolle a
 | Kurs | Autor:innen, Lernressourcenverwalter:innen, Administrator:innen | die Besitzer:innen des Kurses, nicht die Betreuer:innen und nicht die Teilnehmer:innen |
 | Organisation | Administrator:innen | die Autor:innen, Lernressourcenverwalter:innen und Administrator:innen der Organisation |
 
-Die Freigabe an einen Kurs gibt dessen Besitzer:innen das Medium in die Hand, damit sie es im Kurs einsetzen. Ist das Medium in eine Seite des Kurses eingebunden, sehen es alle, die diese Seite sehen, auch Betreuer:innen und Teilnehmer:innen.
+Was die einzelnen Rollen umfassen, steht unter [Rollen und Rechte](../Roles/index.de.md).
 
-Freigaben an Benutzer:innen, Gruppen und Organisationen setzen Sie schon beim Hinzufügen, im Dialog "Mediendatei hinzufügen". Eine Freigabe an einen Kurs setzen Sie nach dem Anlegen, im Tab "Freigaben" des Mediums. Im Dialog heisst der Bereich für die Freigaben "Share". Öffnen Sie ihn und klicken Sie auf "Freigabe hinzufügen":<br>
+Die Freigabe an einen Kurs gibt dessen Besitzer:innen das Medium in die Hand, damit sie es im Kurs einsetzen. Sie finden es in ihrem Media Center im Tab "Für mich freigegeben". Ist das Medium in eine Seite des Kurses eingebunden, sehen es alle, die diese Seite sehen, auch Betreuer:innen und Teilnehmer:innen.
+
+Freigaben an Benutzer:innen, Gruppen und Organisationen setzen Sie schon beim Hinzufügen, im Dialog "Mediendatei hinzufügen". Im Dialog heisst der Bereich für die Freigaben "Share". Öffnen Sie ihn und klicken Sie auf "Freigabe hinzufügen". Das Menü bietet dort auch "Kurs" an, eine so eingetragene Freigabe an einen Kurs speichert OpenOlat aber nicht mit dem Medium. Setzen Sie die Freigabe an einen Kurs deshalb nach dem Anlegen, im Tab "Freigaben" des Mediums. Das Bild zeigt das Menü einer Autor:in, darum fehlt dort "Organisation".<br>
 ![Dialog Mediendatei hinzufügen mit geöffnetem Bereich Share: Über Freigabe hinzufügen wählen Sie, mit wem Sie das Medium teilen](../assets/media_center_concept_share_v2_de.png){ class="shadow lightbox" title="Mein Media Center, Dialog Mediendatei hinzufügen · 2026.11.27" }
 
 [Zum Seitenanfang ^](#media_center_concept)
@@ -150,9 +152,9 @@ Freigaben an Benutzer:innen, Gruppen und Organisationen setzen Sie schon beim Hi
 
 ## Medien löschen {: #delete_media}
 
-Eigene Medien, die Sie nicht mehr brauchen, löschen Sie in Ihrem Media Center unter `Persönliches Menü > Media Center`. Sehen Sie eine Segmentleiste (nur als Administrator:in oder Lernressourcenverwalter:in), wählen Sie dort das Segment "Mein Media Center".
+Eigene Medien, die Sie nicht mehr brauchen, löschen Sie in Ihrem Media Center unter `Persönliches Menü > Media Center`. Sehen Sie eine Segmentleiste mit "Mein Media Center" und "Medienverwaltung" (nur als Administrator:in oder Lernressourcenverwalter:in), wählen Sie dort das Segment "Mein Media Center".
 
-Wählen Sie oben rechts über der Liste die Tabellenansicht, falls Sie gerade die Medien in der Kachelansicht angezeigt haben.
+Wählen Sie oben rechts über der Liste die Tabellenansicht, das rechte der beiden Ansichtssymbole, falls Sie gerade die Medien in der Kachelansicht angezeigt haben.
 
 Setzen Sie in der Tabellenansicht am Anfang einer Zeile ein Häkchen. Über der Liste erscheint der Button "Löschen", mit dem Sie alle angehakten Medien auf einmal löschen.
 
@@ -162,7 +164,7 @@ Ein einzelnes Medium löschen Sie auch in seiner Detailansicht: Klicken Sie das 
 
 !!! info "Wichtig"
 
-    Löschen können Sie nur Medien, die Sie selbst erstellt haben und die nirgends in OpenOlat eingebunden sind. Wo ein Medium eingebunden ist, sehen Sie nach dem Anklicken im Tab "Verwendungen". Entfernen Sie es aus diesen Seiten, danach lässt es sich löschen. Ist es in eine Seite eingebunden, die Sie nicht bearbeiten dürfen, bitten Sie die Besitzer:in dieser Seite, es zu entfernen. Angehakte Medien, die noch eingebunden sind, löscht OpenOlat nicht. Dasselbe gilt für Medien anderer Personen im Tab "Für mich freigegeben": Auch wenn dort der Button "Löschen" erscheint, zeigt OpenOlat nach dem Klick eine Warnung, und das Medium bleibt in der Liste. Aus Ihrer Liste verschwindet es, wenn seine Ersteller:in die Freigabe entfernt.
+    Löschen können Sie nur Medien, die Sie selbst erstellt haben und die nirgends in OpenOlat eingebunden sind. Wo ein Medium eingebunden ist, sehen Sie nach dem Anklicken im Tab "Verwendungen". Entfernen Sie es aus diesen Seiten, danach lässt es sich löschen. Ist es in eine Seite eingebunden, die Sie nicht bearbeiten dürfen, bitten Sie die Besitzer:in dieser Seite, es zu entfernen. Angehakte Medien, die noch eingebunden sind, löscht OpenOlat nicht. Dasselbe gilt für Medien anderer Personen im Tab "Für mich freigegeben": Auch wenn dort über der Liste der Button "Löschen" erscheint, zeigt OpenOlat nach dem Klick eine Warnung, und das Medium bleibt in der Liste. Im 3-Punkte-Menü eines fremden Mediums fehlt "Löschen". Aus Ihrer Liste verschwindet es, wenn seine Ersteller:in die Freigabe entfernt.
 
 ### Was mit den Medien beim Löschen eines Kontos geschieht {: #delete_media_account}
 
@@ -170,11 +172,11 @@ Jedes Medium im Media Center hat eine Ersteller:in. Wird deren Konto gelöscht, 
 
 ![Entscheidungsbaum von der Kontolöschung bis zu erhalten oder endgültig gelöscht](../assets/delete_user_media_decision_v1_de.svg){ class="shadow lightbox" title="Medien beim Löschen eines Kontos" }
 
-Eingebunden zählt sowohl im Kursbaustein "Seite" als auch in einer ePortfolio-Seite, auch in der einer anderen Person. Ist das Medium eingebunden, bleibt es erhalten und ist danach niemandem mehr zugeordnet. Ist es nirgends eingebunden, wird es endgültig gelöscht.
+Eingebunden zählt sowohl im Kursbaustein "Seite" als auch in einer ePortfolio-Seite, auch in der einer anderen Person. Eine ePortfolio-Seite ist ein Eintrag in einer Mappe, der Sammlung, in der eine Person im Portfolio ihre Arbeit ordnet. Ist das Medium eingebunden, bleibt es erhalten und ist danach niemandem mehr zugeordnet. Ist es nirgends eingebunden, wird es endgültig gelöscht.
 
-Eine Freigabe schützt das Medium nicht. Freigegeben, aber nirgends eingebunden bedeutet: gelöscht. Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Medien, die nur dort eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht.
+Eine Freigabe schützt das Medium nicht. Freigegeben, aber nirgends eingebunden bedeutet: gelöscht. Die eigenen ePortfolio-Mappen der Person werden vorher gelöscht, sofern sie deren einzige Besitzerin ist. Portfoliovorlagen bleiben bestehen, also die Lernressourcen, aus denen Mappen für eine Portfolioaufgabe entstehen. Medien, die nur in diesen gelöschten Mappen eingebunden waren, verlieren dadurch ihre Einbindung und werden ebenfalls gelöscht.
 
-Medien, die so erhalten bleiben, finden Administrator:innen und Lernressourcenverwalter:innen in der Medienverwaltung über den Filter "Ohne Ersteller:in", sofern das Medium an einen Kurs ihrer Organisation freigegeben ist. Ein eingebundenes Medium, das an keinen Kurs freigegeben ist, erscheint dort nicht. Ein Medium löscht nur seine Ersteller:in. Ein so erhaltenes Medium kann deshalb niemand mehr löschen, auch keine Administrator:in.
+Medien, die so erhalten bleiben, finden Administrator:innen und Lernressourcenverwalter:innen in der [Medienverwaltung](#media_center_administration) über den Filter "Ohne Ersteller:in", sofern das Medium an einen Kurs ihrer Organisation freigegeben ist. Zu welchen Organisationen ein Kurs gehört, steht in seinen Einstellungen im Tab "Freigabe" unter "Administrative Freigabe", siehe [Kurseinstellungen - Tab Freigabe](../../learningresources/Course_Settings_Share/index.de.md#section_share_admin_access). Ein eingebundenes Medium, das an keinen Kurs freigegeben ist, erscheint dort nicht. Ein Medium löscht nur seine Ersteller:in. Ein so erhaltenes Medium kann deshalb niemand mehr löschen, auch keine Administrator:in.
 
 !!! tip "Vor dem Löschen eines Kontos"
     Wer ein Konto löscht, bittet die betroffene Person vorher, benötigte Medien herunterzuladen. Soll ein Medium im System bleiben, bindet die Person es vorher in eine Seite ein, etwa in einen Kursbaustein "Seite". Die vollständige Tabelle aller Datenarten steht auf der Seite [Benutzer:in löschen](../../../manual_admin/usermanagement/Delete_User.de.md#del_properties).
@@ -195,9 +197,11 @@ Autor:innen brauchen meist mehr Speicherplatz, darum gilt für sie als Poweruser
 Beide Standardwerte, "Normale Benutzer:innen" und "Poweruser (Autor:innen)", legen Administrator:innen in der System-Administration fest, unter:<br>
 `Administration > Core-Konfiguration > Dateien und Ordner`, Tab "Quotas"
 
+In der Liste dieses Tabs heissen die beiden Standardwerte "::DEFAULT::USERS" und "::DEFAULT::POWERUSERS".
+
 Dieselben Werte gelten auch für die persönlichen Dateien. Einen eigenen Standardwert nur für das Media Center gibt es nicht, siehe [Dateien und Ordner](../../../manual_admin/administration/Files_and_Folders.de.md#files_and_folders_quotas).
 
-Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen für sie eine eigene Quota unter `Benutzerverwaltung > "Name der Person" > Quota`, siehe [Kontoeinstellungen verwalten](../../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
+Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen ([Rollen und Rechte](../Roles/index.de.md)) für sie eine eigene Quota unter `Benutzerverwaltung > "Name der Person" > Quota`, siehe [Kontoeinstellungen verwalten](../../../manual_admin/usermanagement/Configure_User.de.md#quota). Wenden Sie sich deshalb bei Fragen zum Speicherbedarf an Ihre Administrator:innen, Rollenverwalter:innen oder Benutzerverwalter:innen.
 
 ![Zwei Wege zu mehr Platz im Media Center, für eine Person oder für alle einer Rolle, mit Ort und Auswirkung](../assets/media_center_quota_ways_v1_de.svg){ class="shadow lightbox" title="Mehr Speicherplatz im Media Center" }
 
@@ -211,15 +215,15 @@ Braucht eine einzelne Person mehr Platz, setzen Administrator:innen, Rollenverwa
 
 ## Medien verwenden [:octicons-tag-16:{ title="ab Release 18.0 (OO-7014)" }](https://track.frentix.com/issue/OO-7014){:target="_blank"} {: #usage}
 
-Medien aus dem Media Center setzen Sie dort ein, wo Sie Inhalte gestalten, zum Beispiel mit dem Content Editor im Kursbaustein ["Seite"](../../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../../personal_menu/Portfolio/index.de.md). Im Bearbeitungsmodus klicken Sie auf "Inhalt hinzufügen" und dann unten im Dialog auf den Button "Media Center". Im Dialog "Media Center" stehen Ihre eigenen und die für Sie freigegebenen Medien. Klicken Sie in der Zeile des gewünschten Mediums auf "Auswählen", dann setzt OpenOlat es an der gewählten Stelle ein.
+Medien aus dem Media Center setzen Sie dort ein, wo Sie Inhalte gestalten, zum Beispiel mit dem Content Editor im Kursbaustein ["Seite"](../../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../../personal_menu/Portfolio/index.de.md). Schalten Sie dort den "Bearbeitungsmodus" ein, siehe [Kursbaustein Seite im Content Editor](../Content_Editor/index.de.md#course_element_page). Klicken Sie auf "Inhalt hinzufügen" und dann unten im Dialog auf den Button "Media Center". Im Dialog "Media Center" stehen Ihre eigenen und die für Sie freigegebenen Medien. Klicken Sie in der Zeile des gewünschten Mediums auf "Auswählen", dann setzt OpenOlat es an der gewählten Stelle ein.
 
 ![Dialog Inhalt hinzufügen im Kursbaustein Seite: Über den Button Media Center unten im Dialog setzen Sie ein Medium aus Ihrem Media Center ein](../assets/media_center_page_v2_de.png){ class="shadow lightbox" title="Kursbaustein Seite, Dialog Inhalt hinzufügen · 2026.11.26" }
 
-Mit den Filtern finden Sie die gesuchten Medien schnell. Dieselbe Filterleiste steht über der Liste in "Mein Media Center" und im Dialog "Media Center". Sichtbar sind zunächst:
+Mit den Filtern finden Sie die gesuchten Medien schnell. Dieselbe Filterleiste steht über der Liste in "Mein Media Center" und im Dialog "Media Center". In der Grundeinstellung sind sichtbar:
 
 * "Typ": die Art des Mediums, etwa Bild, Video oder Dokument
 * "Tags": erscheint, sobald Ihre Medien Tags tragen
-* "Fachbereich Pfade": erscheint, wenn das Media Center eine Taxonomie verwendet
+* "Fachbereich Pfade": filtert nach dem Feld "Themen/Fachbereiche" und erscheint, wenn das Media Center Themen und Fachbereiche zur Zuordnung anbietet
 * "Verwendet in": wo das Medium eingebunden ist, Auswahl "Seite" oder "Portfolio"
 * "In Verwendung": "Ja" für eingebundene, "Nein" für nirgends eingebundene Medien
 
@@ -230,7 +234,9 @@ Mit den Filtern finden Sie die gesuchten Medien schnell. Dieselbe Filterleiste s
 * "Quelle": ein Suchtext in der Quellenangabe von Zitaten und Bildern
 * "Plattform": das Videoportal, aus dem ein Video per URL stammt
 
-In beiden Ansichten steht ganz rechts der Tab "Suche". Dort durchsuchen Sie Titel und Beschreibung aller Medien über ein grosses Suchfeld.
+OpenOlat merkt sich, welche Filter Sie eingeblendet haben. Sie stehen beim nächsten Besuch wieder in der Filterleiste. Deshalb zeigen die Bilder auf dieser Seite "Geteilt mit" und "Ohne Ersteller:in" schon direkt in der Leiste.
+
+In "Mein Media Center" und im Dialog "Media Center" steht ganz rechts der Tab "Suche". Dort durchsuchen Sie Titel und Beschreibung aller Medien über ein grosses Suchfeld, unabhängig vom zuvor gewählten Tab, und die Filter sind gleich aufgeklappt. Das Suchfeld "Suchbegriff eingeben" über der Liste sucht dagegen nur in den Medien des gewählten Tabs, etwa in "Meine Medien".
 
 ![Filterleiste in Mein Media Center mit dem Filter Tags auf Landschaft gesetzt: Die Liste zeigt nur noch die passenden Medien](../assets/media_center_filter_function_v2_de.png){ class="shadow lightbox" title="Mein Media Center, Filterleiste · 2026.11.27" }
 
@@ -274,10 +280,15 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 ## Weiterführende Informationen {: #further_information}
 
 **Auf dieser Seite erwähnt**<br>
+[Externe Werkzeuge: KI-Modul >](../../../manual_admin/administration/External_Tools_AI.de.md)<br>
 [Persönliche Konfiguration: Einstellungen >](../../personal_menu/Settings.de.md)<br>
 [Media Center: Informationen und Einstellungen zu Einzelmedien >](../Media_Center_Items.de.md)<br>
+[Konzept des File Hub >](../File_Hub_Concept.de.md)<br>
 [Content Editor >](../Content_Editor/index.de.md)<br>
 [Kursbaustein "Seite" >](../../learningresources/Course_Element_Page.de.md)<br>
+[Modul Media Center >](../../../manual_admin/administration/Modules_Media_Center.de.md)<br>
+[Rollen und Rechte: Welche Rollen gibt es? >](../Roles/index.de.md)<br>
+[Kurseinstellungen - Tab Freigabe >](../../learningresources/Course_Settings_Share/index.de.md)<br>
 [Benutzer:in löschen >](../../../manual_admin/usermanagement/Delete_User.de.md)<br>
 [Dateien und Ordner >](../../../manual_admin/administration/Files_and_Folders.de.md)<br>
 [Kontoeinstellungen verwalten >](../../../manual_admin/usermanagement/Configure_User.de.md)<br>
@@ -285,7 +296,6 @@ Medien hinzufügen können Sie in der Medienverwaltung nicht, der Button "Medien
 
 **Weiterführend**<br>
 [Persönliche Werkzeuge: Das Media Center >](../../personal_menu/Media_Center.de.md)<br>
-[Modul Media Center >](../../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 [Arbeiten mit Mediendateien >](../Working_with_Media_Files.de.md)<br>
 [Datenschutz >](../../../manual_admin/usermanagement/Data_protection.de.md)
 

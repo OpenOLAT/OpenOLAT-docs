@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 700" width="940" height="700" role="img" aria-label="Entscheidungsbaum: was beim Löschen eines Kontos mit den Medien im Media Center geschieht">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 712" width="940" height="712" role="img" aria-label="Entscheidungsbaum: was beim Löschen eines Kontos mit den Medien im Media Center geschieht">
   <title>Medien beim Löschen eines Kontos</title>
-  <rect x="0" y="0" width="940" height="700" fill="#F3F4EF"/>
+  <rect x="0" y="0" width="940" height="712" fill="#F3F4EF"/>
 
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -23,7 +23,7 @@
   <rect x="210" y="198" width="520" height="80" rx="8" fill="#FFFFFF" stroke="#209D9E" stroke-width="2.5"/>
   <text x="470" y="226" font-family="'Roboto', sans-serif" font-size="18" font-weight="600" fill="#135E5F" text-anchor="middle">Schritt 1: eigene ePortfolio-Mappen werden gelöscht</text>
   <text x="470" y="252" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">nur wenn die Person die einzige Besitzerin ist;</text>
-  <text x="470" y="270" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Mappen-Vorlagen bleiben bestehen</text>
+  <text x="470" y="270" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Portfoliovorlagen bleiben bestehen</text>
   <line x1="470" y1="278" x2="470" y2="306" stroke="#135E5F" stroke-width="2.5" marker-end="url(#arrow)"/>
 
   <!-- Schritt 2: Entscheidung -->
@@ -55,9 +55,10 @@
   <text x="705" y="572" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926" text-anchor="middle">Mappe eingebunden waren.</text>
 
   <!-- Hinweis unter "bleibt erhalten" -->
-  <rect x="55" y="606" width="360" height="62" rx="8" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2"/>
+  <rect x="55" y="606" width="360" height="84" rx="8" fill="#FFFFFF" stroke="#A6A6A6" stroke-width="2"/>
   <text x="75" y="632" font-family="'Roboto', sans-serif" font-size="16" font-weight="700" fill="#2D2926">Wo sie zu finden sind:</text>
-  <text x="75" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">Media Center &gt; Medienverwaltung.</text>
+  <text x="75" y="655" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">Media Center &gt; Medienverwaltung, wenn</text>
+  <text x="75" y="677" font-family="'Roboto', sans-serif" font-size="16" fill="#2D2926">an einen Kurs der Organisation freigegeben.</text>
   <line x1="235" y1="590" x2="235" y2="604" stroke="#A6A6A6" stroke-width="2"/>
 
   <!-- Hinweis unter "wird geloescht" -->

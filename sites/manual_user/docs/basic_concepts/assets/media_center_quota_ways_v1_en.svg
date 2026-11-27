@@ -47,7 +47,7 @@
 <text x="518" y="479" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">for all other persons</text>
 <rect x="500" y="511" width="420" height="81" rx="8" fill="#FFFFFF" stroke="#5F6E23" stroke-width="2.5"/>
 <text x="518" y="545" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">WHO CAN DO THIS</text>
-<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">System administrators only</text>
+<text x="518" y="574" font-family="'Roboto', sans-serif" font-size="17" fill="#2D2926">Administrators only</text>
 <rect x="500" y="606" width="420" height="127" rx="8" fill="#EEF3DA" stroke="#5F6E23" stroke-width="2.5"/>
 <text x="518" y="640" font-family="'Roboto', sans-serif" font-size="15" font-weight="700" fill="#5F6E23">EFFECT</text>
 <text x="518" y="669" font-family="'Roboto', sans-serif" font-size="17" font-weight="700" fill="#2D2926">Media Center and personal files grow together.</text>

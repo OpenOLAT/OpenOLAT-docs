@@ -27,13 +27,17 @@ Benutzer:innen finden ihre Leistungsnachweise und, sofern aktiviert, auch ihre e
 
 ### Leistungsnachweise im Persönlichen Menü {: #where_in_pers_tools}
 
-Die Anzeige im Persönlichen Menü eignet sich, um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. Bei aktivem Notenmodul zeigt die Spalte "Bewertung" die erreichte Note; sie ist von Anfang an eingeblendet. Die standardmässig ausgeblendete Spalte "Kennzeichen" zeigt das Kennzeichen des Kurses. Ihre Spaltenauswahl bleibt dauerhaft gespeichert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
+Die Anzeige im Persönlichen Menü eignet sich, um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten navigieren und weitere Informationen erhalten. Über das Zahnradsymbol "Tabelleneinstellungen" rechts über der Liste blenden Sie die für Sie relevanten Spalten ein, zum Beispiel Punkte, Bestanden, Zertifikat. Arbeitet Ihr OpenOlat mit Noten (in der System-Administration unter [Einstufung/Noten](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md) eingerichtet), zeigt die Spalte "Bewertung" die erreichte Note; sie ist von Anfang an eingeblendet. Die standardmässig ausgeblendete Spalte "Kennzeichen" zeigt das Kennzeichen des Kurses. Ihre Spaltenauswahl bleibt dauerhaft gespeichert. [:octicons-tag-16:{ title="ab Release 21.0 (OO-9581)" }](https://track.frentix.com/issue/OO-9581)
 
 ![Geöffnete Spaltenauswahl mit den markierten Einträgen Kennzeichen und Bewertung](assets/pers_menu_evid_of_achiev_columns_v1_de.png){ class="shadow lightbox" title="Spaltenauswahl im Werkzeug Leistungsnachweise" }
 
-Sind Sie Mitglied in einem Produkt des Course Planners, wählen Sie oberhalb der Liste ein Produkt, "Einzelkurse" oder "Alle Leistungsnachweise" aus. [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
+Sind Sie Mitglied in einem Produkt des Course Planners, also in einem Bildungsangebot, das Ihre Organisation dort mit seinen Kursen zusammenfasst, wählen Sie oberhalb der Liste ein Produkt, "Einzelkurse" oder "Alle Leistungsnachweise" aus. [:octicons-tag-16:{ title="ab Release 16.1.0 (OO-5788)" }](https://track.frentix.com/issue/OO-5788)
 
-Klicken Sie auf das Puzzleteil-Symbol (Tooltip "als Artefakt"), um einen Leistungsnachweis als Element im [Media Center](../personal_menu/Media_Center.de.md) zu speichern und ihn so in Ihre [Portfolio](Portfolio/index.de.md)-Mappen einbinden zu können.
+Ist in Ihrem OpenOlat das Modul ePortfolio eingeschaltet, zeigt die Liste unter `Persönliches Menü > Leistungsnachweise` rechts eine eigene Spalte mit einem Puzzleteil-Symbol, in der Spaltenauswahl "ePortfolio" genannt. Klicken Sie in der Zeile eines Leistungsnachweises auf das Puzzleteil-Symbol (Tooltip "als Artefakt"), um ihn als Medium in Ihr Media Center zu übernehmen. "Artefakt" nennt OpenOlat hier ein Medium im Media Center.
+
+![Puzzleteil-Symbol in der vorletzten Spalte rechts, in jeder Zeile der Leistungsnachweise; ein Klick übernimmt den Leistungsnachweis ins Media Center](assets/pers_menu_evid_of_achiev_eportfolio_column_v1_de.png){ class="shadow lightbox" title="Persönliches Werkzeug Leistungsnachweise, Liste · 2026.11.27" }
+
+Im folgenden Fenster tragen Sie Titel, Beschreibung und Tags ein und speichern. Das Speichern legt den Leistungsnachweis nur in Ihrem Media Center ab. In eine [Portfolio](Portfolio/index.de.md)-Mappe binden Sie ihn danach in einem eigenen Schritt ein: im Eintrag der Mappe über "Inhalt hinzufügen" und den Button "Media Center", siehe [Medien verwenden](../basic_concepts/Media_Center_Concept/index.de.md#usage).
 So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden.
 
 !!! info "Wichtig"
@@ -69,12 +73,13 @@ Ist in einem Kurs der Leistungsnachweis aktiviert, finden Teilnehmende in der To
 **Auf dieser Seite erwähnt**<br>
 [Kurseinstellungen - Tab Bewertung: Zertifikate und Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Kurseinstellungen - Tab Bewertung >](../learningresources/Course_Settings_Assessment/index.de.md)<br>
-[Persönliche Werkzeuge: Das Media Center >](../personal_menu/Media_Center.de.md)<br>
+[e-Assessment Administration: Einstufung/Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
 [Persönliche Werkzeuge: Portfolio 2.0 >](Portfolio/index.de.md)<br>
+[Media Center: Konzept >](../basic_concepts/Media_Center_Concept/index.de.md)<br>
 [Persönliche Erfolge/Leistungen: Zertifikate >](Certificates.de.md)
 
 **Weiterführend**<br>
-[Bewertungssysteme in OpenOlat: Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
+[Persönliche Werkzeuge: Das Media Center >](Media_Center.de.md)<br>
 [Badges unter Erfolge/Leistungen >](OpenBadges.de.md)<br>
 [Badges im Bewertungswerkzeug >](../learningresources/OpenBadges.de.md)<br>
 [Badges in der eAssessment-Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
